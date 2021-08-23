@@ -1,0 +1,12 @@
+uuid: e3193a2b-f59c-4366-93e6-d8d451d0e841
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: L8uP-RIaTgYX_jt7seKb2nUAQgfc7rED0pP30-QZhAo
+id: gallery_slide
+label: 'Gallery slide'
+icon_uuid: null
+icon_default: null
+description: 'One slide in the gallery that can include image and caption.'
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+uuid: 5ea64ed5-ac3b-4f8b-ac6a-61a6ecd5fb2e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wOZ8r5RIKVoeEJK80DVpalsx3uxDdoWbHM_0_-B1VtI
+name: original_xxs
+label: 'Original XXS'
+effects:
+  414ab756-ad1e-443d-9818-065d764efefc:
+    uuid: 414ab756-ad1e-443d-9818-065d764efefc
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: null
+      upscale: true
