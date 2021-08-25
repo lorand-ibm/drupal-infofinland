@@ -1,0 +1,22 @@
+uuid: 5c4a0842-6aee-4e44-b897-c3d1097d72cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - infofinland
+_core:
+  default_config_hash: exT4lfsQK-ekjJqsVu1l0uJ7eGvkRqcwOZdzEXQFBqw
+id: infofinland_language_switcher
+theme: infofinland
+region: header_top
+weight: 2
+provider: null
+plugin: 'language_block:language_content'
+settings:
+  id: 'language_block:language_content'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }
