@@ -1,0 +1,22 @@
+display:
+  default:
+    display_title: Maître
+    display_options:
+      pager:
+        options:
+          expose:
+            offset_label: Décalage
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        id:
+          separator: ', '
+        label:
+          separator: ', '
+      filters:
+        label:
+          expose:
+            label: Libellé
+  entity_reference:
+    display_title: 'Référence à une entité'
