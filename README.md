@@ -102,6 +102,9 @@ $ make drush-cim
 
 ## Other useful commands
 ```
+# After pulling latest changes, run all the updates:
+$ make drush-deploy
+
 # Login to app container:
 $ make shell
 
@@ -129,7 +132,7 @@ The Gitflow workflow is followed, with the following conventions:
 
 **Production branch:** `main`. Code running in production. Code is merged to `main` with release and hotfix branches.
 
-**Feature branches**: For example, `IF-add-content-type`, Always created from and merged back to `develop` with pull requests after code review and testing.
+**Feature branches**: For example, `feature/IF-add-content-type`, Always created from and merged back to `develop` with pull requests after code review and testing.
 
 **Release branches**: Code for future and currently developed releases. Should include the version number, for example: `1.1.0`
 
