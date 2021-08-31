@@ -49,7 +49,7 @@ Install fresh Drupal site from existing configuration:
 $ make build; make drush-si; make post-install
 ``
 
-Start project, update all packages and sync db from production:
+Start project, update all packages and sync db from production / local db dump from root:
 
 ``
 $ make fresh
@@ -108,13 +108,16 @@ $ make drush-deploy
 # Login to app container:
 $ make shell
 
-# Login with Drush
+# Login to Drupal with Drush:
 $ make drush-uli
 
-# Check Drupal coding style
+# Create database dump from local site:
+$ make drush-create-dump
+
+# Check Drupal coding style:
 $ make lint-drupal
 
-# Automatically fix Drupal coding style errors
+# Automatically fix Drupal coding style errors:
 $ make fix-drupal
 ```
 
@@ -132,8 +135,8 @@ The Gitflow workflow is followed, with the following conventions:
 
 **Production branch:** `main`. Code running in production. Code is merged to `main` with release and hotfix branches.
 
-**Feature branches**: For example, `feature/IF-add-content-type`, Always created from and merged back to `develop` with pull requests after code review and testing.
+**Feature branches**: For example, `feature/IFU-000-add-content-type`, Use Jira ticket number in the branch name. Always created from and merged back to `develop` with pull requests after code review and testing.
 
 **Release branches**: Code for future and currently developed releases. Should include the version number, for example: `1.1.0`
 
-**Hotfix branches**: Branches for small fixes to production code. Should include the word hotfix, for example: `IF-hotfix-drupal-updates`. Remember to also merge these back to `develop`.
+**Hotfix branches**: Branches for small fixes to production code. Should include the word hotfix, for example: `IFU-hotfix-drupal-updates`. Remember to also merge these back to `develop`.

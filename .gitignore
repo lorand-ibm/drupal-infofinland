@@ -25,3 +25,6 @@ public/modules/custom/helfi_*
 
 !*.gitkeep
 !*.keepme
+
+# Ignore local db dump
+dump.sql
