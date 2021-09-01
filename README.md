@@ -15,6 +15,7 @@ You need to have these applications installed to operate on all environments:
 
 - [Docker](https://github.com/druidfi/guidelines/blob/master/docs/docker.md)
 - [Stonehenge](https://github.com/druidfi/stonehenge)
+- For theme development: [node >=16.6](https://nodejs.org/en/) is required. [NVM](https://nodejs.org/en/) is recomennended for node version management. .nvmrc is included in the theme
 - For the new person: Your SSH public key needs to be added to servers
 
 ## Create and start the environment
