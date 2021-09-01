@@ -1,0 +1,62 @@
+label: محتوا
+description: 'یافتن و اداره محتوا.'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: فیلتر
+          reset_button_label: بازنشانی
+          exposed_sorts_label: 'مرتب کن بر اساس'
+          sort_asc_label: صعودی
+          sort_desc_label: نزولی
+      fields:
+        title:
+          label: عنوان
+        type:
+          label: 'نوع محتوا'
+        name:
+          label: نویسنده
+        langcode:
+          label: زبان
+        status:
+          label: وضعیت
+          settings:
+            format_custom_true: 'منتشر شده'
+            format_custom_false: 'منتشر نشده'
+        changed:
+          label: به‌روز
+        operations:
+          label: کارکردها
+      filters:
+        title:
+          expose:
+            label: عنوان
+        type:
+          expose:
+            label: 'نوع محتوا'
+        status:
+          expose:
+            label: وضعیت
+          group_info:
+            label: 'وضعیت انتشار'
+            group_items:
+              1:
+                title: 'منتشر شده'
+              2:
+                title: 'منتشر نشده'
+        langcode:
+          expose:
+            label: زبان
+      title: محتوا
+      empty:
+        area_text_custom:
+          content: 'هیچ محتوایی در دسترس نیست.'
+    display_title: مدیر
+  page_1:
+    display_options:
+      menu:
+        title: محتوا
+      tab_options:
+        title: محتوا
+    display_title: صفحه

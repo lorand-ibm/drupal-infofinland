@@ -1,0 +1,22 @@
+display:
+  default:
+    display_title: 'Ana (master)'
+    display_options:
+      pager:
+        options:
+          expose:
+            offset_label: 'Başlangıç değeri'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        id:
+          separator: ', '
+        label:
+          separator: ', '
+      filters:
+        label:
+          expose:
+            label: Etiket
+  entity_reference:
+    display_title: 'Varlık referansı'
