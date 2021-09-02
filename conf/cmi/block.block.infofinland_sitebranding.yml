@@ -1,22 +1,22 @@
-uuid: eee5f795-f4e3-4191-9219-a82d23328ee1
+uuid: 8d8cd443-afd9-48d5-9b95-7ff76d4b78f2
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: zieswfNu7cMhhsRwkEpe2HFgOvWeHcKNW9iXlTcq49k
-id: sitebranding
-theme: hdbt
-region: header_branding
-weight: -9
+id: infofinland_sitebranding
+theme: infofinland
+region: header_top
+weight: 1
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Sivuston brändäys'
+  label: 'Site branding'
   provider: system
   label_display: '0'
   use_site_logo: true

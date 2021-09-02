@@ -1,22 +1,22 @@
-uuid: 725eb952-8317-4a87-b956-07665a4822ac
+uuid: b89e8cd1-9792-4b06-9b77-ddbbd46dc172
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: cIXgZqCUh5llJLOsOxqd5Tfm0ExTbsfImZVx3yS_jsA
-id: hdbt_messages
-theme: hdbt
+id: infofinland_messages
+theme: infofinland
 region: messages
-weight: -10
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: Tilaviestit
+  label: 'Status messages'
   provider: system
   label_display: '0'
 visibility: {  }

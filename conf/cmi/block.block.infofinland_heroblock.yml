@@ -1,4 +1,4 @@
-uuid: ee41fe64-c038-47df-8842-d1d8f3d7ef8e
+uuid: eae1e5ca-bf2e-4c3e-a157-d1a27c6fd152
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,13 @@ dependencies:
     - ctools
     - hdbt_content
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: nH8M6u66xNnGzjplyiDZAKKeyzDR6NFyTMXNwDYzldk
-id: heroblock
-theme: hdbt
+id: infofinland_heroblock
+theme: infofinland
 region: before_content
-weight: -8
+weight: -5
 provider: null
 plugin: hero_block
 settings:

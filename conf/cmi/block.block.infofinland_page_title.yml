@@ -1,22 +1,22 @@
-uuid: a8aaaf3b-7827-44a5-85ec-768df78e5220
+uuid: c5a1a745-dd57-4543-8bfb-86635768cfc1
 langcode: en
 status: true
 dependencies:
   module:
     - ctools
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: cWAyHuLWbIx_Tsd04YPaUUGBOdvtYeKIjFXBXJhmi2w
-id: hdbt_page_title
-theme: hdbt
+id: infofinland_page_title
+theme: infofinland
 region: before_content
-weight: -9
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Sivun otsikko'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility:

@@ -1,4 +1,4 @@
-uuid: 3b19a246-990d-4dd1-adaf-afa5cb37305f
+uuid: d0c93a67-efd7-4cf3-b825-babfcc45e8e1
 langcode: en
 status: true
 dependencies:
@@ -8,13 +8,13 @@ dependencies:
     - ctools
     - menu_block_current_language
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: zS9zgTlcanrv75vk0WibXcekGUttnN4EwP1pwFdTAcM
-id: main_navigation_level_2
-theme: hdbt
+id: infofinland_main_navigation_level_2
+theme: infofinland
 region: sidebar_first
-weight: -8
+weight: 0
 provider: null
 plugin: 'menu_block_current_language:main'
 settings:

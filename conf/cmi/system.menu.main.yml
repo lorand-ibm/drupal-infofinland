@@ -1,10 +1,10 @@
 uuid: 8bd0b03b-7db8-470c-b263-42206d3a92d4
-langcode: und
+langcode: fi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: DH2PmjFA9e0trIQIcoV9naKjUUsqs4pd6YWdlc-hM9M
 id: main
-label: 'Main navigation'
-description: 'Site section links'
+label: Päävalikko
+description: 'Päävalikon linkit'
 locked: true

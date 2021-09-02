@@ -1,4 +1,4 @@
-uuid: bd174399-3c82-42ca-a64c-c057e2c6e0ef
+uuid: 1801d486-1695-431c-ae7a-ad0cae7f18f4
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - menu_block_current_language
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: vQ4mUU3haOTfe32xjXYEKN1kU9SHBIBCeM15nmCzwqI
-id: brandingnavigation
-theme: hdbt
-region: header_branding
-weight: -7
+id: infofinland_brandingnavigation
+theme: infofinland
+region: header_top
+weight: 3
 provider: null
 plugin: 'menu_block_current_language:branding-navigation'
 settings:

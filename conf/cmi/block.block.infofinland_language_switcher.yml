@@ -1,22 +1,22 @@
-uuid: 912b3a65-3193-4ea9-aca3-a919b0626d0a
+uuid: 5c4a0842-6aee-4e44-b897-c3d1097d72cf
 langcode: en
 status: true
 dependencies:
   module:
     - language
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: exT4lfsQK-ekjJqsVu1l0uJ7eGvkRqcwOZdzEXQFBqw
-id: language_switcher
-theme: hdbt
-region: header_branding
-weight: -8
+id: infofinland_language_switcher
+theme: infofinland
+region: header_top
+weight: 2
 provider: null
 plugin: 'language_block:language_content'
 settings:
   id: 'language_block:language_content'
-  label: 'Kielen vaihtaja'
+  label: 'Language switcher'
   provider: language
   label_display: '0'
 visibility: {  }

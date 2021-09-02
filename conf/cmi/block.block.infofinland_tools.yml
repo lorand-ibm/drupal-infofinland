@@ -1,4 +1,4 @@
-uuid: b6095402-50de-4652-b397-aded8af7f6a4
+uuid: 077fc335-9a6f-4d6d-b0e7-c1836ff77317
 langcode: en
 status: false
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - hdbt
+    - infofinland
 _core:
   default_config_hash: z1s_0oxpOjcA1atdCgI_EmNSXDJj76BuQclUwezMmcw
-id: hdbt_tools
-theme: hdbt
+id: infofinland_tools
+theme: infofinland
 region: tools
 weight: -3
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Työkalut
+  label: Tools
   provider: system
   label_display: '0'
   level: 1
