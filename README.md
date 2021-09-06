@@ -87,7 +87,7 @@ $ make shell
 $ composer update --lock
 ```
 
-## Configuration management
+## Configuration management and workflow
 
 Export settings:
 
@@ -100,6 +100,10 @@ Import settings:
 ``
 $ make drush-cim
 ``
+
+When checking out new branch run `make drush-cim` to import new config changes to the database.
+
+Remember always run `make drush-cex` after you have made configuration changes and before you pull or checkout new code. Remember also to commit your config changes.
 
 ## Other useful commands
 ```
