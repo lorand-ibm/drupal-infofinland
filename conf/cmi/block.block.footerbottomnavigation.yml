@@ -18,7 +18,7 @@ provider: null
 plugin: 'menu_block_current_language:footer-bottom-navigation'
 settings:
   id: 'menu_block_current_language:footer-bottom-navigation'
-  label: 'Footer - Bottom navigation'
+  label: 'Alatunniste - Alavalikko'
   provider: menu_block_current_language
   label_display: '0'
   translation_providers:

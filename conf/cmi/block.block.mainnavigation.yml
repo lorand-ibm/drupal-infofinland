@@ -12,13 +12,13 @@ _core:
   default_config_hash: LFpP0B7Bn5-vdFznBqRMt2cjFIbBUltjlPdqS1dqYs0
 id: mainnavigation
 theme: hdbt
-region: header_bottom
-weight: 0
+region: sidebar_first
+weight: -9
 provider: null
 plugin: 'menu_block_current_language:main'
 settings:
   id: 'menu_block_current_language:main'
-  label: 'Main navigation'
+  label: Päävalikko
   provider: menu_block_current_language
   label_display: '0'
   translation_providers:
