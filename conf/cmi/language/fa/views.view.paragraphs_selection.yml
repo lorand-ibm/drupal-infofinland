@@ -1,0 +1,12 @@
+display:
+  default:
+    display_title: مدیر
+    display_options:
+      pager:
+        options:
+          expose:
+            offset_label: جابجایی
+      filters:
+        label:
+          expose:
+            label: برچسب

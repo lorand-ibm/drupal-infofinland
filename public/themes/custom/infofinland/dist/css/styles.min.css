@@ -1,0 +1,61 @@
+/* Webfont: NotoSans-Regular */
+@font-face {
+  text-rendering: optimizeLegibility;
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NotoSans-Regular.ttf) format("truetype"); }
+
+/* Webfont: NotoSans-Italic */
+@font-face {
+  text-rendering: optimizeLegibility;
+  font-family: 'NotoSans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/NotoSans-Italic.ttf) format("truetype"); }
+
+/* Webfont: NotoSans-Bold */
+@font-face {
+  text-rendering: optimizeLegibility;
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/NotoSans-Bold.ttf) format("truetype"); }
+
+/* Webfont: NotoSans-Bold Italic*/
+@font-face {
+  text-rendering: optimizeLegibility;
+  font-family: 'NotoSans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/NotoSans-BoldItalic.ttf) format("truetype"); }
+
+/**
+ * To give different styles depending on how many items a wrapper has you can use this mixing to assign the styles
+ * to correct element. For example:
+ *
+ * If the wrapper has 1, 2 or 3 items make the items 30% wide, otherwise they should be 20% wide:
+ * .wrapper .item {
+ *   width: 20%;
+ *
+ *   @include content_count(1, 2, 3) {
+ *     width: 30%;
+ *   }
+ * }
+ */
+.is-hidden {
+  display: none; }
+
+.system-themes-list .theme-default[aria-describedby="infofinland-description"] .card__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+
+/*# sourceMappingURL=styles.min.css.map*/

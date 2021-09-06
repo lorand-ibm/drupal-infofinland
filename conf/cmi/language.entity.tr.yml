@@ -1,0 +1,9 @@
+uuid: 6028caa6-5ace-4146-a9bb-860e1e704e37
+langcode: en
+status: true
+dependencies: {  }
+id: tr
+label: Turkish
+direction: ltr
+weight: -2
+locked: false

@@ -7,11 +7,27 @@ url:
     fi: fi
     sv: sv
     ru: ru
+    ar: ar
+    zh-hans: zh-hans
+    et: et
+    fr: fr
+    tr: tr
+    es: es
+    fa: fa
+    so: so
   domains:
     en: ''
     fi: ''
     sv: ''
     ru: ''
+    ar: ''
+    zh-hans: ''
+    et: ''
+    fr: ''
+    tr: ''
+    es: ''
+    fa: ''
+    so: ''
 selected_langcode: fi
 _core:
   default_config_hash: PCARWq16qMmNlSjsYkW56NMREpF5bCpdznofRAhOd8s
