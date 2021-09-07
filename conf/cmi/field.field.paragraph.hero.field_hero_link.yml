@@ -13,10 +13,10 @@ id: paragraph.hero.field_hero_link
 field_name: field_hero_link
 entity_type: paragraph
 bundle: hero
-label: Link
+label: Linkki
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

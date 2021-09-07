@@ -13,10 +13,10 @@ id: paragraph.banner.field_banner_link
 field_name: field_banner_link
 entity_type: paragraph
 bundle: banner
-label: Link
-description: 'You can add link button to the banner using this field.'
+label: Linkki
+description: 'Voit lisätä linkkipainikkeen banneriin täyttämällä nämä kentät.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

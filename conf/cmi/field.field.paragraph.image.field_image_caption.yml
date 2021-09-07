@@ -11,10 +11,10 @@ id: paragraph.image.field_image_caption
 field_name: field_image_caption
 entity_type: paragraph
 bundle: image
-label: Caption
-description: 'You can provide a caption for the image here.'
+label: Kuvateksti
+description: 'Voit halutessasi kirjoittaa kuvatekstin kuvalle tähän.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

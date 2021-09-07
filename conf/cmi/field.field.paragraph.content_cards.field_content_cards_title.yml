@@ -11,10 +11,10 @@ id: paragraph.content_cards.field_content_cards_title
 field_name: field_content_cards_title
 entity_type: paragraph
 bundle: content_cards
-label: Title
-description: 'The title of the content cards paragraph.'
+label: Otsikko
+description: 'Sisältökortit-lohkon otsikko.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -37,9 +37,6 @@ module:
   hdbt_content: 0
   hdbt_hyphenopoly: 0
   helfi_api_base: 0
-  helfi_base_config: 0
-  helfi_content: 0
-  helfi_example_content: 0
   helfi_gdpr_compliance: 0
   helfi_languages: 0
   helfi_media: 0
@@ -65,8 +62,6 @@ module:
   node: 0
   options: 0
   page_cache: 0
-  paragraphs_asymmetric_translation_widgets: 0
-  paragraphs_library: 0
   path: 0
   path_alias: 0
   redirect: 0

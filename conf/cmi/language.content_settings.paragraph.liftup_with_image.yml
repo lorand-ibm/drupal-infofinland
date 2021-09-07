@@ -1,0 +1,18 @@
+uuid: c92e2489-8b33-40cf-a908-3d9102a5a08a
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.liftup_with_image
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.liftup_with_image
+target_entity_type_id: paragraph
+target_bundle: liftup_with_image
+default_langcode: fi
+language_alterable: true

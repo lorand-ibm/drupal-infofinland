@@ -13,10 +13,10 @@ id: paragraph.hero.field_hero_desc
 field_name: field_hero_desc
 entity_type: paragraph
 bundle: hero
-label: Description
-description: 'Optional short description for hero block.'
+label: Kuvaus
+description: 'Valinnainen lyhyt kuvaus lohkolle.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

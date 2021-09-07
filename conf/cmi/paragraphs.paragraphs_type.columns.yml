@@ -1,17 +1,12 @@
 uuid: 9f9d458a-8a89-4cdc-8406-bfba58d31bdf
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_library
-third_party_settings:
-  paragraphs_library:
-    allow_library_conversion: true
+dependencies: {  }
 _core:
   default_config_hash: oTxiQLrfQcytWnp3OQEH6hF02S3MqtUJSmHZL6g4mlw
 id: columns
-label: Columns
+label: Palstat
 icon_uuid: null
 icon_default: null
-description: "With columns paragraph content producer can divide content in to two columns. The columns can be equal width or divided in to 30/70 proportion. \r\nThe content producer can choose what paragraphs to add into the columns."
+description: 'Palstat paragraafilla sisällöntuottaja voi sijoittaa sisältöä kahteen palstaan. Palstajaot voivat olla 50/50 tai 30/70 | 70/30 levyisiä. Paragraafin palstoihin voi vapaasti liittää erilaisia komponentteja.'
 behavior_plugins: {  }

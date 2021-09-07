@@ -12,10 +12,10 @@ id: paragraph.remote_video.field_remote_video
 field_name: field_remote_video
 entity_type: paragraph
 bundle: remote_video
-label: 'Remote video'
+label: 'Video ulkoisesta palvelusta'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
