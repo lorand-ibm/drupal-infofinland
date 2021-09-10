@@ -1,0 +1,8 @@
+uuid: 2e5c5524-e6cf-4e7b-a176-f467357b8c81
+langcode: und
+status: true
+dependencies: {  }
+id: sosiaalisen-median-navigaatio
+label: 'Sosiaalisen median navigaatio'
+description: 'Sosiaalisen median navigaatio'
+locked: false

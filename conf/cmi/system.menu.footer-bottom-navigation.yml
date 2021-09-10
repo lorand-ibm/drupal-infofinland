@@ -5,6 +5,6 @@ dependencies: {  }
 _core:
   default_config_hash: dxUVACRvWlm9zM9csaLa-oBuQp_ZF2Cmgon1RJFT-Lk
 id: footer-bottom-navigation
-label: 'Footer - Bottom navigation'
-description: 'Bottom navigation for footer block.'
+label: 'Alatunnisteen navigointi'
+description: 'Sivun alaosan navigointi'
 locked: false
