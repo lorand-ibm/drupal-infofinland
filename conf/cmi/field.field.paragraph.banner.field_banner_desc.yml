@@ -13,10 +13,10 @@ id: paragraph.banner.field_banner_desc
 field_name: field_banner_desc
 entity_type: paragraph
 bundle: banner
-label: Description
+label: Kuvaus
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -13,10 +13,10 @@ id: paragraph.text.field_text
 field_name: field_text
 entity_type: paragraph
 bundle: text
-label: Text
+label: Teksti
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

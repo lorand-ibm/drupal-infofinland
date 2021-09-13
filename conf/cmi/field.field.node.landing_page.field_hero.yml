@@ -17,7 +17,7 @@ bundle: landing_page
 label: Hero
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -27,8 +27,20 @@ settings:
     target_bundles:
       hero: hero
     target_bundles_drag_drop:
+      accordion:
+        weight: 15
+        enabled: false
+      accordion_item:
+        weight: 16
+        enabled: false
+      banner:
+        weight: 17
+        enabled: false
       columns:
         weight: 10
+        enabled: false
+      content_cards:
+        weight: 19
         enabled: false
       gallery:
         weight: 11
@@ -42,11 +54,17 @@ settings:
       image:
         weight: 14
         enabled: false
+      liftup_with_image:
+        weight: 24
+        enabled: false
       list_of_links:
         weight: 16
         enabled: false
       list_of_links_item:
         weight: 17
+        enabled: false
+      remote_video:
+        weight: 27
         enabled: false
       text:
         weight: 18

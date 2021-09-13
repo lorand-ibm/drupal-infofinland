@@ -11,10 +11,10 @@ id: paragraph.banner.field_banner_title
 field_name: field_banner_title
 entity_type: paragraph
 bundle: banner
-label: Title
+label: Otsikko
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

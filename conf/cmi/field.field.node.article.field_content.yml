@@ -7,7 +7,6 @@ dependencies:
     - node.type.article
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.content_cards
-    - paragraphs.paragraphs_type.from_library
     - paragraphs.paragraphs_type.gallery
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.list_of_links
@@ -24,7 +23,7 @@ bundle: article
 label: 'Content region'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -38,7 +37,6 @@ settings:
       gallery: gallery
       list_of_links: list_of_links
       content_cards: content_cards
-      from_library: from_library
       remote_video: remote_video
     target_bundles_drag_drop:
       accordion:
@@ -56,9 +54,6 @@ settings:
       content_cards:
         enabled: true
         weight: -22
-      from_library:
-        enabled: true
-        weight: 21
       gallery:
         enabled: true
         weight: -24

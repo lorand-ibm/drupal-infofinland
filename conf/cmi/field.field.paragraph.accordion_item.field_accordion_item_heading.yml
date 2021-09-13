@@ -11,10 +11,10 @@ id: paragraph.accordion_item.field_accordion_item_heading
 field_name: field_accordion_item_heading
 entity_type: paragraph
 bundle: accordion_item
-label: Heading
+label: Otsikko
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
