@@ -2,13 +2,32 @@
 
 namespace Drupal\infofinland_municipality_selection\Form;
 
+use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Infofinland Municipality Selection block form
  */
 class InfofinlandMunicipalitySelectionBlockForm extends FormBase {
+
+  /**
+   * @var EntityTypeManagerInterface
+   */
+  private $entityTypeManager;
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container) {
+    // Instantiates this form class.
+    $instance = parent::create($container);
+    $instance->entityTypeManager = $container->get('entity_type.manager');
+    return $instance;
+  }
+
+
   /**
    * {@inheritdoc}
    */
@@ -27,7 +46,7 @@ class InfofinlandMunicipalitySelectionBlockForm extends FormBase {
     $items = [];
 
     // Get the term storage.
-    $entity_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_term');
+    $entity_storage = $this->entityTypeManager->getStorage('taxonomy_term');
 
     // Query the terms sorted by weight.
     $query_result = $entity_storage->getQuery()

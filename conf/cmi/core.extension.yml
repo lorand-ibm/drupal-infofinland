@@ -46,6 +46,7 @@ module:
   helfi_platform_config: 0
   image: 0
   image_style_quality: 0
+  infofinland_municipality_selection: 0
   language: 0
   link: 0
   linkit: 0
