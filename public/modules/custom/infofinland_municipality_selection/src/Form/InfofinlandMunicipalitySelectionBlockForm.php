@@ -27,7 +27,6 @@ class InfofinlandMunicipalitySelectionBlockForm extends FormBase {
     return $instance;
   }
 
-
   /**
    * {@inheritdoc}
    */
