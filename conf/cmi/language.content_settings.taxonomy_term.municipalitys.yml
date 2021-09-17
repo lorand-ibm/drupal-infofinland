@@ -1,0 +1,16 @@
+uuid: b89ed2ff-c432-43e9-ab65-dd45e5493877
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.municipalitys
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.municipalitys
+target_entity_type_id: taxonomy_term
+target_bundle: municipalitys
+default_langcode: site_default
+language_alterable: false
