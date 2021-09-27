@@ -1,17 +1,12 @@
 uuid: 1feda9e0-2055-403a-9ba9-a1add2e4e92d
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_library
-third_party_settings:
-  paragraphs_library:
-    allow_library_conversion: true
+dependencies: {  }
 _core:
   default_config_hash: 5psLSGdGhJB25T2TTd44M1_ObQNb2ii3jKv5ebjaDT4
 id: banner
-label: Banner
+label: Banneri
 icon_uuid: null
 icon_default: null
-description: 'Banner is a simple full-width element that you can use to promote for example important links or phone numbers. '
+description: 'Banneri on leveä elementti, jonka avulla voit korostaa esimerkiksi tärkeitä linkkejä tai puhelinnumeroita. '
 behavior_plugins: {  }

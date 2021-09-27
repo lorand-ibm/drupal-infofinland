@@ -12,10 +12,10 @@ id: paragraph.liftup_with_image.field_liftup_with_image_image
 field_name: field_liftup_with_image_image
 entity_type: paragraph
 bundle: liftup_with_image
-label: Image
-description: 'Image to be used as an illustration or as a background of the liftup depending on what design you chose.'
+label: Kuva
+description: 'Kuva jota käytetään kuvituskuvana tai taustakuvana lohkossa riippuen siitä minkä tyylin olet lohkolle valinnut.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

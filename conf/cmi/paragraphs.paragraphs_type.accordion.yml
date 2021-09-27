@@ -1,17 +1,12 @@
 uuid: 5e74f5f7-546e-46e0-aaf9-24dbce54bf84
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_library
-third_party_settings:
-  paragraphs_library:
-    allow_library_conversion: true
+dependencies: {  }
 _core:
   default_config_hash: d9QHZSNb78KFueRqSVFC7_maG4KBNgjsPmLJIb2TN10
 id: accordion
-label: Accordion
+label: Haitari
 icon_uuid: null
 icon_default: null
-description: 'Accordion paragraph is used to store information that is perhaps not so relevant to all website users in a compact element that collapses the additional information behind a title.'
+description: 'Haitari-elementtiä käytetään toissijaisen tiedon tallentamiseen kompaktissa muodossa. Sivuston käyttäjät näkevät tiedosta otsikon verran ensimmäisellä silmäyksellä ja voivat tarkastella sisältöä tarkemmin klikkaamalla otsikon auki.'
 behavior_plugins: {  }

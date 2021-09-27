@@ -13,7 +13,7 @@ _core:
 id: brandingnavigation
 theme: hdbt
 region: header_branding
-weight: 3
+weight: -7
 provider: null
 plugin: 'menu_block_current_language:branding-navigation'
 settings:

@@ -1,0 +1,95 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Infofinland Subtheme.
+ */
+
+/**
+ * Helper function to get the icons path.
+ *
+ * @return string|null
+ *   Returns path for the icons SVG or null.
+ */
+function infofinland_get_icons_path() {
+  static $icon_path;
+  if (!isset($icon_path)) {
+    $theme_handler = \Drupal::service('theme_handler');
+    $icon_path = '/' . $theme_handler->getTheme('infofinland')->getPath() . '/dist/icons/sprite.svg';
+
+    // Add icons path as a global variable.
+    if (!empty($icon_path)) {
+      return $icon_path;
+    }
+  }
+  return $icon_path;
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+function infofinland_preprocess(&$variables) {
+  $variables['infofinland_icons_path'] = infofinland_get_icons_path();
+  $variables['#attached']['drupalSettings']['infofinlandIconsPath'] = $variables['infofinland_icons_path'];
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter for blocks.
+ */
+function infofinland_theme_suggestions_block_alter(&$suggestions) {
+  // Load theme suggestions for blocks from parent theme.
+  foreach ($suggestions as &$suggestion) {
+    $suggestion = str_replace('infofinland_', '', $suggestion);
+  }
+}
+
+/**
+ * Implements hook_preprocess_html
+ */
+function infofinland_preprocess_html(&$variables) {
+  /**
+   * If current language is read from right to left, load rtl syles
+   */
+  $lang = \Drupal::languageManager()->getCurrentLanguage(\Drupal\Core\Language\LanguageInterface::TYPE_CONTENT);
+  if($lang->getDirection() === 'rtl') {
+    $variables['#attached']['library'][] = 'infofinland/global-styling-rtl';
+  }
+}
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function infofinland_preprocess_block(&$variables) {
+    // Handle Sidebar menu block.
+    if (
+      $variables['base_plugin_id'] === 'menu_block_current_language' &&
+      $variables['elements']['#id'] === 'infofinland_main_navigation_level_2' &&
+      !empty($variables['content']['#items'])
+    ) {
+      // Get any current menu level item.
+      $current_level_menu_item = reset($variables['content']['#items']);
+
+      if (isset($current_level_menu_item['original_link'])) {
+        $original_link = $current_level_menu_item['original_link'];
+        $parent = $original_link->getParent();
+
+        // Check if current menu item has parent and serve it as variable.
+        if ($parent) {
+          $menu_link_manager = \Drupal::service('plugin.manager.menu.link');
+          $parent_item = $menu_link_manager->createInstance($parent);
+
+          if ($parent_item) {
+            $variables['menu_link_parent'] = [
+              'title' => $parent_item->getTitle(),
+              'url' => $parent_item->getUrlObject(),
+            ];
+          }
+        }
+      }
+    }
+}
+    /**
+     * Implements hook_preprocess_HOOK().
+     */
+    function infofinland_preprocess_page(&$variables) {
+       $variables['page']['selected_municipality'] = \Drupal::request()->cookies->get('infofinland_municipality_selection_selectedMunicipality');
+    }

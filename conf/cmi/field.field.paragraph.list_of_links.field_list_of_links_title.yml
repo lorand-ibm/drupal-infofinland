@@ -11,10 +11,10 @@ id: paragraph.list_of_links.field_list_of_links_title
 field_name: field_list_of_links_title
 entity_type: paragraph
 bundle: list_of_links
-label: Title
-description: 'The title of the list of links paragraph.'
+label: Otsikko
+description: 'Linkkilistalohkon otsikko.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

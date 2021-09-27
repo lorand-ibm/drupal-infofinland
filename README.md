@@ -15,6 +15,7 @@ You need to have these applications installed to operate on all environments:
 
 - [Docker](https://github.com/druidfi/guidelines/blob/master/docs/docker.md)
 - [Stonehenge](https://github.com/druidfi/stonehenge)
+- For theme development: [node >=16.6](https://nodejs.org/en/) is required. [NVM](https://nodejs.org/en/) is recomennended for node version management. .nvmrc is included in the theme
 - For the new person: Your SSH public key needs to be added to servers
 
 ## Create and start the environment
@@ -49,7 +50,7 @@ Install fresh Drupal site from existing configuration:
 $ make build; make drush-si; make post-install
 ``
 
-Start project, update all packages and sync db from production:
+Start project, update all packages and sync db from production / local db dump from root:
 
 ``
 $ make fresh
@@ -86,7 +87,7 @@ $ make shell
 $ composer update --lock
 ```
 
-## Configuration management
+## Configuration management and workflow
 
 Export settings:
 
@@ -100,18 +101,28 @@ Import settings:
 $ make drush-cim
 ``
 
+When checking out new branch run `make drush-cim` to import new config changes to the database.
+
+Remember always run `make drush-cex` after you have made configuration changes and before you pull or checkout new code. Remember also to commit your config changes.
+
 ## Other useful commands
 ```
+# After pulling latest changes, run all the updates:
+$ make drush-deploy
+
 # Login to app container:
 $ make shell
 
-# Login with Drush
+# Login to Drupal with Drush:
 $ make drush-uli
 
-# Check Drupal coding style
+# Create database dump from local site:
+$ make drush-create-dump
+
+# Check Drupal coding style:
 $ make lint-drupal
 
-# Automatically fix Drupal coding style errors
+# Automatically fix Drupal coding style errors:
 $ make fix-drupal
 ```
 
@@ -129,8 +140,8 @@ The Gitflow workflow is followed, with the following conventions:
 
 **Production branch:** `main`. Code running in production. Code is merged to `main` with release and hotfix branches.
 
-**Feature branches**: For example, `IF-add-content-type`, Always created from and merged back to `develop` with pull requests after code review and testing.
+**Feature branches**: For example, `feature/IFU-000-add-content-type`, Use Jira ticket number in the branch name. Always created from and merged back to `develop` with pull requests after code review and testing.
 
 **Release branches**: Code for future and currently developed releases. Should include the version number, for example: `1.1.0`
 
-**Hotfix branches**: Branches for small fixes to production code. Should include the word hotfix, for example: `IF-hotfix-drupal-updates`. Remember to also merge these back to `develop`.
+**Hotfix branches**: Branches for small fixes to production code. Should include the word hotfix, for example: `IFU-hotfix-drupal-updates`. Remember to also merge these back to `develop`.

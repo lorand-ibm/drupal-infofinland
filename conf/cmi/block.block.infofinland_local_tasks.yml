@@ -1,0 +1,22 @@
+uuid: e90330fb-6a77-4201-8b1a-ddf13a7d0267
+langcode: en
+status: true
+dependencies:
+  theme:
+    - infofinland
+_core:
+  default_config_hash: _UoTG8MagibHn89173NtrwtSq5ylXJRanQkHTZmRGe4
+id: infofinland_local_tasks
+theme: infofinland
+region: tools
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

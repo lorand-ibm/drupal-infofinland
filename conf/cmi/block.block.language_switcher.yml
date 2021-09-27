@@ -11,12 +11,12 @@ _core:
 id: language_switcher
 theme: hdbt
 region: header_branding
-weight: 2
+weight: -8
 provider: null
 plugin: 'language_block:language_content'
 settings:
   id: 'language_block:language_content'
-  label: 'Language switcher'
+  label: 'Kielen vaihtaja'
   provider: language
   label_display: '0'
 visibility: {  }

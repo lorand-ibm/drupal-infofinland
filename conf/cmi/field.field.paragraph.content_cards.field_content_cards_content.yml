@@ -14,10 +14,10 @@ id: paragraph.content_cards.field_content_cards_content
 field_name: field_content_cards_content
 entity_type: paragraph
 bundle: content_cards
-label: Content
-description: 'Add here the content that you want to appear as cards to the block.'
+label: Sisältö
+description: 'Lisää tähän ne sisällöt, jotka haluat nostaa korteiksi lohkoon.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

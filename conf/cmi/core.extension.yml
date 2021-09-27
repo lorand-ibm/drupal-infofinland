@@ -37,15 +37,13 @@ module:
   hdbt_content: 0
   hdbt_hyphenopoly: 0
   helfi_api_base: 0
-  helfi_base_config: 0
-  helfi_content: 0
-  helfi_example_content: 0
   helfi_gdpr_compliance: 0
   helfi_languages: 0
   helfi_media: 0
   helfi_platform_config: 0
   image: 0
   image_style_quality: 0
+  infofinland_municipality_selection: 0
   language: 0
   link: 0
   linkit: 0
@@ -65,8 +63,6 @@ module:
   node: 0
   options: 0
   page_cache: 0
-  paragraphs_asymmetric_translation_widgets: 0
-  paragraphs_library: 0
   path: 0
   path_alias: 0
   redirect: 0
@@ -100,6 +96,7 @@ theme:
   hdbt: 0
   gin: 0
   hdbt_admin: 0
+  infofinland: 0
 profile: minimal
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

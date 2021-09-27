@@ -1,0 +1,9 @@
+uuid: ba5e5690-9501-4c30-b86d-9f3f169552f6
+langcode: en
+status: true
+dependencies: {  }
+id: so
+label: Soomaali
+direction: ltr
+weight: 1
+locked: false

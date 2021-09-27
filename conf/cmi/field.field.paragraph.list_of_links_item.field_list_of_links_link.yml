@@ -13,8 +13,8 @@ id: paragraph.list_of_links_item.field_list_of_links_link
 field_name: field_list_of_links_link
 entity_type: paragraph
 bundle: list_of_links_item
-label: Link
-description: 'Internal or external link to the desired location. Link text is displayed for the site user.'
+label: Linkki
+description: 'Sisäinen tai ulkoinen linkki haluttuun kohteeseen. Linkin teksti -kentän arvo näytetään sivuston käyttäjälle.'
 required: true
 translatable: true
 default_value: {  }

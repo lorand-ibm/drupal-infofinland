@@ -1,0 +1,20 @@
+uuid: c2e3bbdc-d98f-490e-8e8c-f7a314e9affd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - infofinland
+_core:
+  default_config_hash: H69FvwR04I2gfiz-9B_vOzX7lLLZrz-6FJvXMvMR1yc
+id: infofinland_local_actions
+theme: infofinland
+region: tools
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

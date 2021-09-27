@@ -1,0 +1,18 @@
+uuid: 68ad004c-949a-4090-810b-d9039178843b
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.gallery_slide
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.gallery_slide
+target_entity_type_id: paragraph
+target_bundle: gallery_slide
+default_langcode: fi
+language_alterable: true

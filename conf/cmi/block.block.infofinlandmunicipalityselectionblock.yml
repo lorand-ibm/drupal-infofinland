@@ -1,0 +1,21 @@
+uuid: cd99721f-9fbe-4616-88c9-84c0304239d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - infofinland_municipality_selection
+  theme:
+    - infofinland
+id: infofinlandmunicipalityselectionblock
+theme: infofinland
+region: content
+weight: 0
+provider: null
+plugin: infofinland_municipality_selection_block
+settings:
+  id: infofinland_municipality_selection_block
+  label: 'Infofinland Municipality Selection block'
+  provider: infofinland_municipality_selection
+  label_display: '0'
+  infofinland_municipality_selection_block_settings: null
+visibility: {  }

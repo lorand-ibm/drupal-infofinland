@@ -11,12 +11,12 @@ _core:
 id: sitebranding
 theme: hdbt
 region: header_branding
-weight: 1
+weight: -9
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Site branding'
+  label: 'Sivuston brändäys'
   provider: system
   label_display: '0'
   use_site_logo: true

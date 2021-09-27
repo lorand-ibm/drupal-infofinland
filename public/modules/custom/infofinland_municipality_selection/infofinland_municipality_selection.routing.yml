@@ -1,0 +1,7 @@
+infofinland_municipality_selection.form:
+  path: '/admin/config/development/infofinland_municipality_selection'
+  defaults:
+    _form: 'Drupal\infofinland_municipality_selection\Form\InfofinlandMunicipalitySelection'
+    _title: 'Infofinland Municipality Selection settings'
+  requirements:
+    _permission: 'administer site configuration'

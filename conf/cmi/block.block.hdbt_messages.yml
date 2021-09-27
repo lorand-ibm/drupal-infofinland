@@ -11,12 +11,12 @@ _core:
 id: hdbt_messages
 theme: hdbt
 region: messages
-weight: -3
+weight: -10
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Status messages'
+  label: Tilaviestit
   provider: system
   label_display: '0'
 visibility: {  }

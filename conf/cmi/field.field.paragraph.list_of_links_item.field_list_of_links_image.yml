@@ -12,10 +12,10 @@ id: paragraph.list_of_links_item.field_list_of_links_image
 field_name: field_list_of_links_image
 entity_type: paragraph
 bundle: list_of_links_item
-label: Image
-description: 'Image to be used as thumbnail of the link.'
+label: Kuva
+description: 'Kuva jota käytetään linkin yhteydessä.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

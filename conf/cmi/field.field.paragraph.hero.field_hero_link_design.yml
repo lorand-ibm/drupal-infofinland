@@ -13,10 +13,10 @@ id: paragraph.hero.field_hero_link_design
 field_name: field_hero_link_design
 entity_type: paragraph
 bundle: hero
-label: 'Link design'
-description: 'Choose what kind of design you want to use for the link button. '
+label: 'Linkin tyyli'
+description: 'Valitse minkälaisen tyylin haluat linkkipainikkeelle.'
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: primary
