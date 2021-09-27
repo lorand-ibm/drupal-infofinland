@@ -20,6 +20,10 @@
         "drupal/helfi_platform_config": "^1",
         "drupal/helfi_tpr": "^1.0",
         "drupal/helfi_tunnistamo": "^1.0",
+        "drupal/jsonapi_extras": "^3.19",
+        "drupal/migrate_plus": "^5.1",
+        "drupal/migrate_source_csv": "^3.4",
+        "drupal/migrate_tools": "^5.0",
         "drush/drush": "^10.4"
     },
     "require-dev": {
