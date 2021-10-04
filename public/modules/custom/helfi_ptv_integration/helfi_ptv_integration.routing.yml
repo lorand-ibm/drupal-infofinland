@@ -1,0 +1,6 @@
+helfi_ptv_integration.form:
+  path: '/admin/config/development/helfi_ptv_integration'
+  defaults:
+    _title: 'Helfi PTV Integration'
+  requirements:
+    _permission: 'administer site configuration'

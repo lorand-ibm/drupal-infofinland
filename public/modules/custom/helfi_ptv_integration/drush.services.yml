@@ -1,0 +1,5 @@
+services:
+  ptv_migrate_drush_command.commands:
+    class: \Drupal\helfi_ptv_integration\Commands\PTVDrushCommands
+    tags:
+      - { name: drush.command }

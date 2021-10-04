@@ -1,0 +1,6 @@
+name: Helfi PTV integrtaion
+type: module
+description: PTV integration
+package: helfi
+core: 8.x
+core_version_requirement: ^8 || ^9
