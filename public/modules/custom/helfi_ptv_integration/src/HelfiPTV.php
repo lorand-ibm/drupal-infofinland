@@ -4,6 +4,8 @@ declare(strict_types = 1);
 
 namespace Drupal\helfi_ptv_integration;
 
+use DateTime;
+use DateTimeZone;
 use Drupal\Component\Serialization\Json;
 use Drupal\node\Entity\Node;
 use GuzzleHttp\Client;
@@ -181,13 +183,19 @@ class HelfiPTV {
     return $emailData;
   }
 
-  private function makeOfficeIDsCall($cityId) {
+  /**
+   * @param $cityId
+   * @param $date
+   * @return mixed
+   */
+  private function makeOfficeIDsCall($cityId, $date) {
     /** @var \GuzzleHttp\Client $client */
     $client = \Drupal::service('http_client_factory')->fromOptions([
       'base_uri' => 'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/',
     ]);
     $connection = \Drupal::service('database');
-
+    $dateTime = new DateTime($date);
+    $time = $dateTime->format('Y-m-d\TH:i:s');
     if ($cityId == 'all') {
       $query = $connection->select('key_value', 'kv');
       $query->addField('kv', 'name');
@@ -201,7 +209,8 @@ class HelfiPTV {
           'query' => [
             'includeWholeCountry' => 'true',
             'serviceWithGD' => 'false',
-            'showHeader' => 'false'
+            'showHeader' => 'false',
+            'date' => $dateTime->format('Y-m-d\TH:i:s')
           ]
         ]);
         $data[] = JSON::decode($response->getBody());
@@ -213,7 +222,8 @@ class HelfiPTV {
                 'includeWholeCountry' => 'false',
                 'serviceWithGD' => 'false',
                 'showHeader' => 'true',
-                'page' => $p
+                'page' => $p,
+                'date' => $dateTime->format('Y-m-d\TH:i:s')
               ]
             ]);
             $data[] = JSON::decode($response->getBody());
@@ -226,7 +236,8 @@ class HelfiPTV {
         'query' => [
           'includeWholeCountry' => 'true',
           'serviceWithGD' => 'false',
-          'showHeader' => 'true'
+          'showHeader' => 'true',
+          'date' => $dateTime->format('Y-m-d\TH:i:s')
         ]
       ]);
       $body = JSON::decode($response->getBody());
@@ -238,7 +249,8 @@ class HelfiPTV {
               'includeWholeCountry' => 'false',
               'serviceWithGD' => 'false',
               'showHeader' => 'true',
-              'page' => $p
+              'page' => $p,
+              'date' => $dateTime->format('Y-m-d\TH:i:s')
             ]
           ]);
           $body = JSON::decode($response->getBody());
@@ -251,9 +263,9 @@ class HelfiPTV {
     return $data;
   }
 
-  public function getOfficeIdsPerCity ($cityId = 'all') {
+  public function getOfficeIdsPerCity ($cityId = 'all', $date = '2018-01-01') {
 
-    $officeIds = $this->makeOfficeIDsCall($cityId);
+    $officeIds = $this->makeOfficeIDsCall($cityId, $date);
     foreach ($officeIds as $id) {
       /** @var \GuzzleHttp\Client $client */
       $client = new Client();
