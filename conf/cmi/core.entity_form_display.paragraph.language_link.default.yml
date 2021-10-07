@@ -1,0 +1,37 @@
+uuid: 7b703594-3b01-4741-a0eb-14dbb2738212
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.language_link.field_language
+    - field.field.paragraph.language_link.field_language_link
+    - paragraphs.paragraphs_type.language_link
+  module:
+    - link
+    - select2
+id: paragraph.language_link.default
+targetEntityType: paragraph
+bundle: language_link
+mode: default
+content:
+  field_language:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      autocomplete: false
+      width: 100%
+    third_party_settings: {  }
+    type: select2_entity_reference
+    region: content
+  field_language_link:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true

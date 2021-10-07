@@ -1,0 +1,73 @@
+uuid: 3ff9462f-c1b7-4163-a3a3-19537929e5e7
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_links
+    - node.type.link
+    - paragraphs.paragraphs_type.language_link
+  module:
+    - entity_reference_revisions
+id: node.link.field_links
+field_name: field_links
+entity_type: node
+bundle: link
+label: Linkit
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      language_link: language_link
+    target_bundles_drag_drop:
+      accordion:
+        weight: 16
+        enabled: false
+      accordion_item:
+        weight: 17
+        enabled: false
+      banner:
+        weight: 18
+        enabled: false
+      columns:
+        weight: 19
+        enabled: false
+      content_cards:
+        weight: 20
+        enabled: false
+      gallery:
+        weight: 21
+        enabled: false
+      gallery_slide:
+        weight: 22
+        enabled: false
+      hero:
+        weight: 23
+        enabled: false
+      image:
+        weight: 24
+        enabled: false
+      language_link:
+        enabled: true
+        weight: 25
+      liftup_with_image:
+        weight: 26
+        enabled: false
+      list_of_links:
+        weight: 27
+        enabled: false
+      list_of_links_item:
+        weight: 28
+        enabled: false
+      remote_video:
+        weight: 29
+        enabled: false
+      text:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

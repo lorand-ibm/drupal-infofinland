@@ -1,0 +1,25 @@
+uuid: b00641e5-c95e-4071-97f8-1d8543b884b6
+langcode: fi
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.link.field_link_description
+    - field.field.node.link.field_links
+    - node.type.link
+  module:
+    - user
+id: node.link.teaser
+targetEntityType: node
+bundle: link
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_link_description: true
+  field_links: true
+  langcode: true

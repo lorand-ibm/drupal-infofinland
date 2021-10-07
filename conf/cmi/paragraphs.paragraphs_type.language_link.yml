@@ -1,0 +1,10 @@
+uuid: d7964f6d-f71e-4066-9d72-31da14a78cdb
+langcode: fi
+status: true
+dependencies: {  }
+id: language_link
+label: Kielilinkki
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
