@@ -43,6 +43,7 @@ module:
   helfi_platform_config: 0
   image: 0
   image_style_quality: 0
+  infofinland_migrate: 0
   infofinland_municipality_selection: 0
   language: 0
   link: 0
@@ -60,6 +61,9 @@ module:
   metatag_twitter_cards: 0
   metatag_views: 0
   migrate: 0
+  migrate_plus: 0
+  migrate_source_csv: 0
+  migrate_tools: 0
   node: 0
   options: 0
   page_cache: 0

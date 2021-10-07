@@ -1,0 +1,34 @@
+id: links_import_link_nodes_csv_fi
+label: Import links from old site to nodes fi
+migration_group: infofinland_links
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+
+destination:
+  plugin: 'entity:node'
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
+  # change if not unique enough
+  ids:
+    - id
+process:
+  type:
+    plugin: default_value
+    default_value: linkki
+  title: Linkin Nimi
+  # for finding links
+  description: Linkin kuvaus
+  # where still will be used?
+  hallintaorg: Linkin hallintaorg
+  kohde: Kohde (Organisaatio)
+  langcode: kieli
+  field_link: id (paragraph referenssi)
+  default_langcode:
+    plugin: default_value
+    default_value: true
+  # type:
+  #   plugin: default_value
+  #   default_value: item

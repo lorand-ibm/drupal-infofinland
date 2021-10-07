@@ -1,0 +1,26 @@
+id: links_import_link_paragraphs_csv
+label: Import links from old site to paragraphs
+migration_group: infofinland_links
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_link_paragraphs.csv
+  # change if not unique enough
+  ids:
+    - id
+process:
+  type:
+    plugin: default_value
+    default_value: linkki
+  title: Linkin Nimi
+  link: Osoite (url)
+  field_lang: Kieli
+  # type:
+  #   plugin: default_value
+  #   default_value: item
