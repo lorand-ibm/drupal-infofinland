@@ -5,8 +5,9 @@ declare(strict_types = 1);
 namespace Drupal\helfi_ptv_integration;
 
 use DateTime;
-use DateTimeZone;
 use Drupal\Component\Serialization\Json;
+use Drupal\Core\Database\Connection;
+use Drupal\Core\State\State;
 use Drupal\node\Entity\Node;
 use GuzzleHttp\Client;
 
@@ -15,6 +16,38 @@ use GuzzleHttp\Client;
  *
  */
 class HelfiPTV {
+
+  /**
+   * Guzzle Http Client.
+   *
+   * @var \GuzzleHttp\Client
+   */
+  protected $httpClient;
+
+  /**
+   * @var \Drupal\Core\State\
+   */
+  protected $state;
+
+  /**
+   * @var \Drupal\Core\Database\Connection
+   */
+  private Connection $connection;
+
+  /**
+   * Constructs a new Class.
+   *
+   * The http_client.
+   * @param Client $httpClient
+   * @param Connection $connection
+   * @param State $state
+   */
+  public function __construct (Client $httpClient, Connection $connection, State $state) {
+    $this->httpClient = $httpClient;
+    $this->state = $state;
+    $this->connection = $connection;
+  }
+
 
   public static function replaceAccents($str) {
     $search = explode(",",
@@ -25,31 +58,25 @@ class HelfiPTV {
   }
 
   public function getTheCityCodes() {
-    /** @var \GuzzleHttp\Client $client */
-    $client = \Drupal::service('http_client_factory')->fromOptions([
-      'base_uri' => 'https://api.palvelutietovaranto.suomi.fi/api/v11/CodeList/',
-    ]);
-
-    $response = $client->get('GetMunicipalityCodes');
+    $response = $this->httpClient->get(
+      'https://api.palvelutietovaranto.suomi.fi/api/v11/CodeList/GetMunicipalityCodes'
+    );
 
     $cities = JSON::decode($response->getBody());
     $name = '';
-    $state  = \Drupal::state();
+    $state  = $this->state;
     foreach ($cities as $city) {
       foreach ($city['names'] as $name) {
         if ($name['language'] === 'fi') {
           $name = $name['value'];
         }
       }
-
       $key = $this->replaceAccents('ptv_city' . '.' . $name);
-
       $state->set($key, $city['code']);
     }
   }
 
-  private function getAddressData($addressesData)
-  {
+  private function getAddressData($addressesData):array {
     $nodeData = [];
     foreach ($addressesData as $address) {
       if ($address->type === 'Location') {
@@ -91,7 +118,7 @@ class HelfiPTV {
     return $nodeData;
   }
 
-  private function getServiceHours($serviceHoursArray) {
+  private function getServiceHours($serviceHoursArray): array {
     foreach ($serviceHoursArray as $serviceHours) {
       if(empty($serviceHours) || $serviceHours->serviceHourType !== 'DaysOfTheWeek') {
        continue;
@@ -112,39 +139,39 @@ class HelfiPTV {
 
         switch ($day->dayFrom) {
           case $day->dayFrom === 'Monday':
-            $hours['fi']['hours'] .= 'Ma ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Mon ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Mån ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('Ma', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Mon', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Mån', $day->from, $day->to);
             break;
           case $day->dayFrom === 'Tuesday':
-            $hours['fi']['hours'] .= 'Ti ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Tue ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Tis ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('Ti', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Tue', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Tis', $day->from, $day->to);
             break;
           case $day->dayFrom === 'Wednesday':
-            $hours['fi']['hours'] .= 'Ke ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Wed ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Ons ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('Ke', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Wed', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Ons', $day->from, $day->to);
             break;
           case $day->dayFrom === 'Thursday':
-            $hours['fi']['hours'] .= 'To ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Thu ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Tor ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('To', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Thu', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Tor', $day->from, $day->to);
             break;
           case $day->dayFrom === 'Friday':
-            $hours['fi']['hours'] .= 'Pe ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Fri ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Fre ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('Pe', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Fri', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Fre', $day->from, $day->to);
             break;
           case $day->dayFrom === 'Saturday':
-            $hours['fi']['hours'] .= 'La ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Sat ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Lör ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('La', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Sat', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Lör', $day->from, $day->to);
             break;
           case $day->dayFrom === 'Sunday':
-            $hours['fi']['hours'] .= 'Su ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['en']['hours'] .= 'Sun ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
-            $hours['sv']['hours'] .= 'Sön ' . substr($day->from, 0, -3) . '-' . substr($day->to, 0, -3) . ' ';
+            $hours['fi']['hours'] .= $this->getHoursForDay('Su', $day->from, $day->to);
+            $hours['en']['hours'] .= $this->getHoursForDay('Sun', $day->from, $day->to);
+            $hours['sv']['hours'] .= $this->getHoursForDay('Sön', $day->from, $day->to);
             break;
         }
       }
@@ -159,11 +186,24 @@ class HelfiPTV {
       }
 
     }
-
     return isset($fieldStrings) ? $fieldStrings : '';
   }
 
-  private function getPhoneNumbers($phoneNumbers) {
+  /**
+   * @param $day
+   * @param $from
+   * @param $to
+   * @return string
+   */
+  private function getHoursForDay($day, $from, $to): string {
+    return $day . ' ' . substr($from, 0, -3) . '-' . substr($to, 0, -3) . ' ';
+  }
+
+  /**
+   * @param $phoneNumbers
+   * @return array
+   */
+  private function getPhoneNumbers($phoneNumbers): array {
     $phoneData = [];
     foreach ($phoneNumbers as $phoneNumber) {
       if ($phoneNumber->type !== 'Phone') {
@@ -175,7 +215,11 @@ class HelfiPTV {
     return $phoneData;
   }
 
-  private function getEmails ($emailAddresses) {
+  /**
+   * @param $emailAddresses
+   * @return array
+   */
+  private function getEmails($emailAddresses): array {
     $emailData = [];
     foreach ($emailAddresses as $emailAddress) {
       $emailData[$emailAddress->language][] = $emailAddress->value;
@@ -189,92 +233,99 @@ class HelfiPTV {
    * @return mixed
    */
   private function makeOfficeIDsCall($cityId, $date) {
-    /** @var \GuzzleHttp\Client $client */
-    $client = \Drupal::service('http_client_factory')->fromOptions([
-      'base_uri' => 'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/',
-    ]);
-    $connection = \Drupal::service('database');
     $dateTime = new DateTime($date);
-    $time = $dateTime->format('Y-m-d\TH:i:s');
     if ($cityId == 'all') {
-      $query = $connection->select('key_value', 'kv');
-      $query->addField('kv', 'name');
-      $query->addField('kv', 'value', 'code');
+      $query = $this->connection->select('key_value', 'kv');
+      $query->addField('kv', 'code');
       $query->condition('name', '%ptv_city%', 'LIKE');
       $idData = $query->execute()->fetchAll();
       foreach ($idData as $data) {
         $code = unserialize($data->code);
-
-        $response = $client->get('area/Municipality/code/' . $code, [
+        $params = [
           'query' => [
             'includeWholeCountry' => 'true',
-            'serviceWithGD' => 'false',
             'showHeader' => 'false',
             'date' => $dateTime->format('Y-m-d\TH:i:s')
           ]
-        ]);
-        $data[] = JSON::decode($response->getBody());
+        ];
+        $response = $this->httpClient->get(
+          'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/area/Municipality/code/' . $code,
+          $params
+        );
+        $bodyData[] = JSON::decode($response->getBody());
         $pages = $response->getHeader('pageCount');
         if ($pages > 1) {
           for ($p = 1; $p <= $pages; $p++) {
-            $client->get('area/Municipality/code/' . $code, [
-              'query' => [
-                'includeWholeCountry' => 'false',
-                'serviceWithGD' => 'false',
-                'showHeader' => 'true',
-                'page' => $p,
-                'date' => $dateTime->format('Y-m-d\TH:i:s')
-              ]
-            ]);
-            $data[] = JSON::decode($response->getBody());
+            $params['query']['page'] = $p;
+            $response = $this->httpClient->get(
+              'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/area/Municipality/code/' . $code,
+              $params
+            );
+            $bodyData[] = JSON::decode($response->getBody());
           }
         }
       }
 
     } else {
-      $response = $client->get('area/Municipality/code/' . $cityId, [
+      $params = [
         'query' => [
           'includeWholeCountry' => 'true',
-          'serviceWithGD' => 'false',
           'showHeader' => 'true',
           'date' => $dateTime->format('Y-m-d\TH:i:s')
         ]
-      ]);
+      ];
+      $response = $this->httpClient->get(
+        'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/area/Municipality/code/' . $cityId,
+        $params
+      );
       $body = JSON::decode($response->getBody());
-      $data = $body['itemList'];
+      $bodyData = $body['itemList'];
       if ($body['pageCount'] > 1) {
         for ($p = 2; $p <= $body['pageCount']; $p++) {
-          $client->get('area/Municipality/code/' . $cityId, [
-            'query' => [
-              'includeWholeCountry' => 'false',
-              'serviceWithGD' => 'false',
-              'showHeader' => 'true',
-              'page' => $p,
-              'date' => $dateTime->format('Y-m-d\TH:i:s')
-            ]
-          ]);
+          $params['query']['page'] = $p;
+          $response = $this->httpClient->get(
+            'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/area/Municipality/code/' . $cityId,
+            $params
+          );
           $body = JSON::decode($response->getBody());
           foreach ($body['itemList'] as $item) {
-            $data[] = $item;
+            $bodyData[] = $item;
           }
         }
       }
     }
-    return $data;
+    return $bodyData;
   }
 
-  public function getOfficeIdsPerCity ($cityId = 'all', $date = '2018-01-01') {
+  private function getExistingOfficeIds(): array {
+    $query = $this->connection->select('node__field_office_id', 'foi');
+    $query->addField('foi', 'field_office_id_value');
+    $query->condition('deleted', '1', '!=');
+    return $query->execute()->fetchAllAssoc('field_office_id_value');
+  }
+
+  public function getOfficeIdsPerCity($cityId = 'all', $date = '1970-01-01') {
 
     $officeIds = $this->makeOfficeIDsCall($cityId, $date);
+    $existingIds = $this->getExistingOfficeIds();
     foreach ($officeIds as $id) {
-      /** @var \GuzzleHttp\Client $client */
-      $client = new Client();
+      if (array_key_exists($id['id'], $existingIds)) {
+        continue;
+      }
       $nodeData = [];
-      $additionalData = $client->get('https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/' . $id['id']);
+      $additionalData = $this->httpClient->get(
+        'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/' . $id['id']
+      );
       if ($additionalData->getStatusCode() === 200) {
         $data = json_decode($additionalData->getBody()->getContents());
+        if ($data->serviceChannelType != 'ServiceLocation') {
+          continue;
+        }
         if (isset($data->addresses) && !empty($data->addresses)) {
           $nodeData['addresses'] = $this->getAddressData($data->addresses);
+        }
+        if (isset($data->deliveryAddresses) && !empty($data->deliveryAddresses)) {
+          $nodeData['addresses'] = $this->getAddressData($data->deliveryAddresses);
         }
         if (isset($data->serviceHours) && !empty($data->serviceHours)) {
           $nodeData['hours'] = $this->getServiceHours($data->serviceHours);
@@ -338,8 +389,6 @@ class HelfiPTV {
           }
         }
       }
-
     }
   }
-
 }
