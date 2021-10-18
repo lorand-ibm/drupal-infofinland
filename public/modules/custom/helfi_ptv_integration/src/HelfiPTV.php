@@ -23,17 +23,17 @@ class HelfiPTV {
   /**
    * Guzzle Http Client.
    *
-   * @var \GuzzleHttp\Client
+   * @var Client
    */
   protected $httpClient;
 
   /**
-   * @var \Drupal\Core\State\
+   * @var State
    */
   protected $state;
 
   /**
-   * @var \Drupal\Core\Database\Connection
+   * @var Connection
    */
   private Connection $connection;
 

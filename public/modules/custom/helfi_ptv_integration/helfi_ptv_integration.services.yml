@@ -2,3 +2,6 @@ services:
   helfi_ptv_integration.HelfiPTV:
     class: Drupal\helfi_ptv_integration\HelfiPTV
     arguments: ['@http_client', '@database', '@state', '@entity_type.manager']
+  helfi_ptv_integration.PTVController:
+    class: Drupal\helfi_ptv_integration\Controller\PTVController
+    arguments: ['@database']

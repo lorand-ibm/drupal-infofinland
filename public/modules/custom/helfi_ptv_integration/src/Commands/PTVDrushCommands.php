@@ -30,7 +30,7 @@ class PTVDrushCommands extends DrushCommands {
    * @usage ptv_migrate_custom_commands: ptv_migrate date
    */
   public function ptv_migrate($date = '1970-01-01') {
-    $migrate = $this->ptv->getOfficeIdsPerCity('837');
+    $migrate = $this->ptv->getOfficeIdsPerCity('853');
     $this->output()->writeln('Migration finished for date ' . $date);
   }
 }
