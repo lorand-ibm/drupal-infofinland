@@ -1,0 +1,9 @@
+uuid: 9030cb99-e060-4fa6-afd3-3041a77b644f
+langcode: en
+status: true
+dependencies: {  }
+id: node.article
+site_resolver: site_selector
+configuration:
+  sites:
+    infofinland: infofinland
