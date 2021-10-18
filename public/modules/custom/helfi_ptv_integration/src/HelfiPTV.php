@@ -220,7 +220,7 @@ class HelfiPTV {
       }
 
     }
-    return isset($fieldStrings) ? $fieldStrings : '';
+    return isset($fieldStrings) ? $fieldStrings : [];
   }
 
   /**
@@ -270,7 +270,7 @@ class HelfiPTV {
     if ($cityId == 'all') {
       $terms = $this->getMunicipalityTerms();
       foreach ($terms as $term) {
-        if ($term->field_ptv_code !== '') {
+        if ($term->field_ptv_code->value !== '') {
           $params = [
             'query' => [
               'includeWholeCountry' => 'true',
@@ -278,7 +278,7 @@ class HelfiPTV {
             ]
           ];
           $response = $this->httpClient->get(
-            'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code,
+            'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
             $params
           );
           $body = JSON::decode($response->getBody());
@@ -288,10 +288,13 @@ class HelfiPTV {
             for ($p = 1; $p <= $pages; $p++) {
               $params['query']['page'] = $p;
               $response = $this->httpClient->get(
-                'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code,
+                'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
                 $params
               );
               $body = JSON::decode($response->getBody());
+              if ($body['itemList'] === null) {
+                continue;
+              }
               foreach ($body['itemList'] as $item) {
                 $bodyData[] = $item;
               }
@@ -326,6 +329,18 @@ class HelfiPTV {
         }
       }
     }
+    foreach ($bodyData as $data) {
+      $terms = taxonomy_term_load_multiple_by_name($data['name'], 'organisaatiot');
+      if (empty($terms)) {
+        $newTerm = Term::create([
+          'vid' => 'organisaatiot',
+          'name' => $data['name'],
+          'field_ptv_org_id' => $data['id']
+        ]);
+        $newTerm->save();
+      }
+    }
+
     return $bodyData;
   }
 
@@ -383,6 +398,15 @@ class HelfiPTV {
     return $query->execute()->fetchAllAssoc('field_office_id_value');
   }
 
+  private function getOrganizationName($ptvID) {
+    $term = $this->entityTypeManager->getStorage('taxonomy_term')->loadByProperties([
+      'vid' => 'organisaatiot',
+      'field_ptv_org_id' => $ptvID
+    ]);
+    $termData = reset($term);
+    return $termData->getName();
+  }
+
   public function getOfficeIdsPerCity($cityId = 'all', $date = '1970-01-01') {
 
     $organizations = $this->getOrganizations($cityId);
@@ -399,6 +423,7 @@ class HelfiPTV {
       if ($additionalData->getStatusCode() === 200) {
         $data = json_decode($additionalData->getBody()->getContents());
         $title = [];
+        $organizationTitle = $this->getOrganizationName($data->organizationId);
         foreach ($data->serviceChannelNames as $name) {
           $title[$name->language] = $name->value;
         }
@@ -446,7 +471,7 @@ class HelfiPTV {
               $node = $node->addTranslation($language);
               $node->uid = 1;
             }
-            $node->title = isset($title[$language]) ? $title[$language] : $title[array_key_first($title)];
+            $node->title = isset($title[$language]) ? $organizationTitle . ' ' . $title[$language] : $organizationTitle . ' ' . $title[array_key_first($title)];
             $node->field_office_id = $id['id'];
             if (isset($nodeData['addresses']['visiting'][$language]) && !empty($nodeData['addresses']['visiting'][$language])) {
               $node->field_visiting_address = $nodeData['addresses']['visiting'][$language]['address'] . ', ' . $nodeData['addresses']['visiting'][$language]['city'];
@@ -491,7 +516,7 @@ class HelfiPTV {
             }
             $node = $node->addTranslation($language);
           }
-          $node->title = isset($title[$language]) ? $title[$language] : $title[array_key_first($title)];
+          $node->title = isset($title[$language]) ? $organizationTitle . ' ' . $title[$language] : $organizationTitle . ' ' . $title[array_key_first($title)];
           $node->field_office_id = $id['id'];
 
           if (isset($nodeData['hours'][$language])) {
