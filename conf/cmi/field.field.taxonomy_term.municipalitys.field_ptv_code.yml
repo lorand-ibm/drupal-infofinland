@@ -1,0 +1,19 @@
+uuid: 13f621fb-dbb8-4fe0-b97f-777f0333188a
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_ptv_code
+    - taxonomy.vocabulary.municipalitys
+id: taxonomy_term.municipalitys.field_ptv_code
+field_name: field_ptv_code
+entity_type: taxonomy_term
+bundle: municipalitys
+label: 'PTV code'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
