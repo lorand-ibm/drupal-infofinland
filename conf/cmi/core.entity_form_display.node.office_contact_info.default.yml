@@ -3,7 +3,9 @@ langcode: fi
 status: true
 dependencies:
   config:
+    - field.field.node.office_contact_info.field_automated_updates
     - field.field.node.office_contact_info.field_email_address
+    - field.field.node.office_contact_info.field_new_data
     - field.field.node.office_contact_info.field_office_id
     - field.field.node.office_contact_info.field_phonenumber
     - field.field.node.office_contact_info.field_postal_address
@@ -26,6 +28,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_automated_updates:
+    weight: 26
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
   field_email_address:
     weight: 18
     settings:
@@ -33,6 +42,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_new_data:
+    weight: 27
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
     region: content
   field_office_id:
     weight: 12

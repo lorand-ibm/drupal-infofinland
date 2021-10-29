@@ -4,7 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.office_contact_info.field_automated_updates
     - field.field.node.office_contact_info.field_email_address
+    - field.field.node.office_contact_info.field_new_data
     - field.field.node.office_contact_info.field_office_id
     - field.field.node.office_contact_info.field_phonenumber
     - field.field.node.office_contact_info.field_postal_address
@@ -26,7 +28,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_automated_updates: true
   field_email_address: true
+  field_new_data: true
   field_office_id: true
   field_phonenumber: true
   field_postal_address: true

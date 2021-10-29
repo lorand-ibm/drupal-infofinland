@@ -9,10 +9,13 @@ use Drupal\Component\Serialization\Json;
 use Drupal\Core\Database\Connection;
 use Drupal\Core\Entity\EntityTypeManager;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\Core\Logger\LoggerChannelFactoryInterface;
 use Drupal\Core\State\State;
 use Drupal\node\Entity\Node;
 use Drupal\taxonomy\Entity\Term;
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Exception\GuzzleException;
 
 /**
  * Source plugin for retrieving data from PTV.
@@ -25,12 +28,12 @@ class HelfiPTV {
    *
    * @var Client
    */
-  protected $httpClient;
+  protected Client $httpClient;
 
   /**
    * @var State
    */
-  protected $state;
+  protected State $state;
 
   /**
    * @var Connection
@@ -43,6 +46,13 @@ class HelfiPTV {
   private $entityTypeManager;
 
   /**
+   * The logger factory used for logging.
+   *
+   * @var LoggerChannelFactoryInterface
+   */
+  protected $loggerFactory;
+
+  /**
    * Constructs a new Class.
    *
    * The http_client.
@@ -50,12 +60,19 @@ class HelfiPTV {
    * @param Connection $connection
    * @param State $state
    * @param EntityTypeManager $entityManager
+   * @param LoggerChannelFactoryInterface $logger_factory
    */
-  public function __construct (Client $httpClient, Connection $connection, State $state, EntityTypeManager $entityManager) {
+  public function __construct (
+    Client $httpClient,
+    Connection $connection,
+    State $state,
+    EntityTypeManager $entityManager,
+    LoggerChannelFactoryInterface $logger_factory) {
     $this->httpClient = $httpClient;
     $this->state = $state;
     $this->connection = $connection;
     $this->entityTypeManager = $entityManager;
+    $this->loggerFactory = $logger_factory->get('helfi_ptv_integration');
   }
 
 
@@ -155,7 +172,7 @@ class HelfiPTV {
   private function getServiceHours($serviceHoursArray): array {
     foreach ($serviceHoursArray as $serviceHours) {
       if(empty($serviceHours) || $serviceHours->serviceHourType !== 'DaysOfTheWeek') {
-       continue;
+        continue;
       }
       $hours = [];
       $hours['sv']['additional'] = '';
@@ -269,28 +286,69 @@ class HelfiPTV {
   private function getOrganizations($cityId) {
     if ($cityId == 'all') {
       $terms = $this->getMunicipalityTerms();
+      $bodyData = [];
       foreach ($terms as $term) {
-        if ($term->field_ptv_code->value !== '') {
+        if ($term->field_ptv_code->value != '') {
           $params = [
             'query' => [
               'includeWholeCountry' => 'true',
               'showHeader' => 'true',
             ]
           ];
-          $response = $this->httpClient->get(
-            'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
-            $params
-          );
+          try {
+            $response = $this->httpClient->get(
+              'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
+              $params
+            );
+          } catch (ClientException $e) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+            $this->loggerFactory->notice($e->getMessage());
+            continue;
+          } catch (GuzzleException $e) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+            $this->loggerFactory->notice($e->getMessage());
+            continue;
+          } catch (\Exception $exception) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+            $this->loggerFactory->notice($exception->getMessage());
+            continue;
+          }
+
+          if ($response->getStatusCode() !== 200) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+            continue;
+          }
           $body = JSON::decode($response->getBody());
-          $bodyData = $body['itemList'];
-          $pages = $response->getHeader('pageCount');
+          foreach ($body['itemList'] as $item) {
+            $bodyData[] = $item;
+          }
+          $pages = $body['pageCount'];
           if ($pages > 1) {
             for ($p = 1; $p <= $pages; $p++) {
               $params['query']['page'] = $p;
-              $response = $this->httpClient->get(
-                'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
-                $params
-              );
+              try {
+                $response = $this->httpClient->get(
+                  'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
+                  $params
+                );
+              } catch (ClientException $e) {
+              $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+              $this->loggerFactory->notice($e->getMessage());
+              continue;
+              } catch (GuzzleException $e) {
+                $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+                $this->loggerFactory->notice($e->getMessage());
+                continue;
+              } catch (\Exception $exception) {
+                $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+                $this->loggerFactory->notice($exception->getMessage());
+                continue;
+              }
+
+              if ($response->getStatusCode() !== 200) {
+                $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+                continue;
+              }
               $body = JSON::decode($response->getBody());
               if ($body['itemList'] === null) {
                 continue;
@@ -309,19 +367,57 @@ class HelfiPTV {
           'showHeader' => 'true'
         ]
       ];
-      $response = $this->httpClient->get(
-        'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $cityId,
-        $params
-      );
+      try {
+        $response = $this->httpClient->get(
+          'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $cityId,
+          $params
+        );
+      } catch (ClientException $e) {
+        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+        $this->loggerFactory->notice($e->getMessage());
+        return [];
+      }  catch (GuzzleException $e) {
+        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+        $this->loggerFactory->notice($e->getMessage());
+        return [];
+      } catch (\Exception $exception) {
+        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+        $this->loggerFactory->notice($exception->getMessage());
+        return [];
+      }
+
+      if ($response->getStatusCode() !== 200) {
+        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+        return [];
+      }
       $body = JSON::decode($response->getBody());
       $bodyData = $body['itemList'];
       if ($body['pageCount'] > 1) {
         for ($p = 2; $p <= $body['pageCount']; $p++) {
           $params['query']['page'] = $p;
-          $response = $this->httpClient->get(
-            'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $cityId,
-            $params
-          );
+          try {
+            $response = $this->httpClient->get(
+              'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $cityId,
+              $params
+            );
+          } catch (ClientException $e) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+            $this->loggerFactory->notice($e->getMessage());
+            continue;
+          } catch (GuzzleException $e) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+            $this->loggerFactory->notice($e->getMessage());
+            continue;
+          } catch (\Exception $exception) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+            $this->loggerFactory->notice($exception->getMessage());
+            continue;
+          }
+
+          if ($response->getStatusCode() !== 200) {
+            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+            continue;
+          }
           $body = JSON::decode($response->getBody());
           foreach ($body['itemList'] as $item) {
             $bodyData[] = $item;
@@ -330,8 +426,8 @@ class HelfiPTV {
       }
     }
     foreach ($bodyData as $data) {
-      $terms = taxonomy_term_load_multiple_by_name($data['name'], 'organisaatiot');
-      if (empty($terms)) {
+      $termExists = taxonomy_term_load_multiple_by_name($data['name'], 'organisaatiot');
+      if (empty($termExists)) {
         $newTerm = Term::create([
           'vid' => 'organisaatiot',
           'name' => $data['name'],
@@ -359,10 +455,24 @@ class HelfiPTV {
           'date' => $dateTime->format('Y-m-d\TH:i:s')
         ]
       ];
-      $response = $this->httpClient->get(
-        'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $organization['id'],
-        $params
-      );
+      try {
+        $response = $this->httpClient->get(
+          'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $organization['id'],
+          $params
+        );
+      } catch (ClientException $e) {
+        $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+        $this->loggerFactory->notice($e->getMessage());
+        continue;
+      } catch (GuzzleException $e) {
+        $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+        $this->loggerFactory->notice($e->getMessage());
+        continue;
+      } catch (\Exception $exception) {
+        $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+        $this->loggerFactory->notice($exception->getMessage());
+        continue;
+      }
       $body = JSON::decode($response->getBody());
       if($body['itemList'] === null) {
         continue;
@@ -375,10 +485,29 @@ class HelfiPTV {
       if ($body['pageCount'] > 1) {
         for ($p = 2; $p <= $body['pageCount']; $p++) {
           $params['query']['page'] = $p;
-          $response = $this->httpClient->get(
-            'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $organization['id'],
-            $params
-          );
+          try {
+            $response = $this->httpClient->get(
+              'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $organization['id'],
+              $params
+            );
+          } catch (ClientException $e) {
+            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+            $this->loggerFactory->notice($e->getMessage());
+            continue;
+          } catch (GuzzleException $e) {
+            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+            $this->loggerFactory->notice($e->getMessage());
+            continue;
+          } catch (\Exception $exception) {
+            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+            $this->loggerFactory->notice($exception->getMessage());
+            continue;
+          }
+
+          if ($response->getStatusCode() !== 200) {
+            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+            continue;
+          }
           $body = JSON::decode($response->getBody());
           foreach ($body['itemList'] as $item) {
             if ($item['type'] === 'Phone' || $item['type'] === 'ServiceLocation') {
@@ -407,49 +536,171 @@ class HelfiPTV {
     return $termData->getName();
   }
 
-  public function getOfficeIdsPerCity($cityId = 'all', $date = '1970-01-01') {
+  private function setNodeData($node, $nodeData, $language, $includeAddresses) {
+    if ($includeAddresses) {
+      if (isset($nodeData['addresses']['visiting'][$language]) && !empty($nodeData['addresses']['visiting'][$language])) {
+        $node->field_visiting_address = $nodeData['addresses']['visiting'][$language]['address'] . ', ' . $nodeData['addresses']['visiting'][$language]['city'];
+        $node->field_visiting_address_additiona = isset($nodeData['addresses']['visiting'][$language]['additional']) ?  $nodeData['addresses']['visiting'][$language]['additional'] : '';
+      }
+      if (isset($nodeData['addresses']['postal'][$language]) && !empty($nodeData['addresses']['postal'][$language])) {
+        $node->field_postal_address = $nodeData['addresses']['postal'][$language]['poBox'] . ', ' . $nodeData['addresses']['postal'][$language]['city'];
+        $node->field_postal_address_additiona = isset($nodeData['addresses']['postal'][$language]['additional']) ? $nodeData['addresses']['postal'][$language]['additional'] : '';
+      }
+    }
+    if (isset($nodeData['hours'][$language])) {
+      $node->field_service_hours = $nodeData['hours'][$language];
+    }
+    if (isset($nodeData['phone'][$language])) {
+      $node->field_phonenumber = $nodeData['phone'][$language];
+    }
+    if (isset($nodeData['emails'][$language])) {
+      $node->field_email_address = $nodeData['emails'][$language];
+    }
+    return $node;
+  }
 
+  private function handleNodeUpdate($nodeData) {
+    $nodes = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->loadByProperties(['field_office_id' => $nodeData['id']]);
+    $node = reset($nodes);
+    if ($node->field_automated_updates->value === '1' ) {
+      $resultData = [];
+      if (isset($nodeData['addresses'])) {
+        foreach (array_keys($nodeData['addresses']['visiting']) as $language) {
+          if (!in_array($language, ['fi', 'sv', 'en'])) {
+            continue;
+          }
+          $postal = isset($nodeData['addresses']['postal'][$language]['poBox']) ?
+            'Postiosoite: ' . $nodeData['addresses']['postal'][$language]['poBox'] . ', ' .
+            $nodeData['addresses']['postal'][$language]['city'] : '';
+          $postalAd = isset($nodeData['addresses']['postal'][$language]['additional']) ?
+            ' Lisätiedot: ' . $nodeData['addresses']['postal'][$language]['additional'] : '';
+          $visitingAd = isset($nodeData['addresses']['visiting'][$language]['additional']) ?
+            ' Lisätiedot: ' . $nodeData['addresses']['visiting'][$language]['additional'] :
+            '';
+          $emails = is_array($nodeData['emails'][$language]) ? implode(',' , $nodeData['emails'][$language]) : $nodeData['emails'][$language];
+          $phone = is_array($nodeData['phone'][$language]) ? implode(',' , $nodeData['phone'][$language]) : $nodeData['phone'][$language];
+          $hours = isset($nodeData['hours'][$language]) ? $nodeData['hours'][$language] : '';
+          $resultData[$language] = [
+            'Vierailuosoite: ' . $nodeData['addresses']['visiting'][$language]['address'] . ', ' .
+            $nodeData['addresses']['visiting'][$language]['city'] . $visitingAd,
+            $postal . $postalAd,
+            'Aukioloajat: ' . $hours,
+            'Puhelinnumero: ' . $phone,
+            'Sähköpostiosoite: ' . $emails
+          ];
+        }
+      } elseif (isset($data['phone'])) {
+        foreach (array_keys($nodeData['phone']) as $language) {
+          if (!in_array($language, ['fi', 'sv', 'en'])) {
+            continue;
+          }
+          $emails = is_array($nodeData['emails'][$language]) ? implode(',' , $nodeData['emails'][$language]) : $nodeData['emails'][$language];
+          $phone = is_array($nodeData['phone'][$language]) ? implode(',' , $nodeData['phone'][$language]) : $nodeData['phone'][$language];
+          $hours = isset($nodeData['hours'][$language]) ? $nodeData['hours'][$language] : '';
+          $resultData[$language] = [
+            'Sähköposti: ' . $emails,
+            'Puhelinnumero: ' . $phone,
+            'Aukioloajat:' . $hours,
+          ];
+        }
+      }
+      $node->field_new_data = $resultData['fi'];
+      $node->save();
+      if ($node->hasTranslation('en')) {
+        $en_node = $node->getTranslation('en');
+        $en_node->field_new_data = $resultData['en'];
+        $node->save();
+      }
+      if ($node->hasTranslation('sv')) {
+        $sv_node = $node->getTranslation('sv');
+        $sv_node->field_new_data = $resultData['sv'];
+        $sv_node->save();
+      }
+    } else {
+      $includeAddress = false;
+      if (isset($nodeData['addresses'])) {
+        $includeAddress = true;
+      }
+      $node = $this->setNodeData($node, $nodeData, 'fi', $includeAddress);
+      $node->save();
+      if ($node->hasTranslation('en')) {
+        $en_node = $node->getTranslation('en');
+        $en_node = $this->setNodeData($en_node, $nodeData, 'en', $includeAddress);
+        $en_node->save();
+      }
+      if ($node->hasTranslation('sv')) {
+        $sv_node = $node->getTranslation('sv');
+        $sv_node = $this->setNodeData($sv_node, $nodeData, 'sv', $includeAddress);
+        $sv_node->save();
+      }
+    }
+  }
+
+  public function getOfficeIdsPerCity($cityId = 'all', $date = '1970-01-01') {
     $organizations = $this->getOrganizations($cityId);
     $officeIds = $this->getIDsFromOrganizations($organizations, $date);
     $existingIds = $this->getExistingOfficeIds();
     foreach ($officeIds as $id) {
-      if (array_key_exists($id['id'], $existingIds)) {
+      $nodeData = [];
+      try {
+        $additionalData = $this->httpClient->get(
+          'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/' . $id['id']
+        );
+      } catch (ClientException $e) {
+        $this->loggerFactory->notice('Getting serviceChannel failed for ID ' . $id['id']);
+        $this->loggerFactory->notice($e->getMessage());
+        continue;
+      } catch (GuzzleException $e) {
+        $this->loggerFactory->notice('Getting serviceChannel failed for ID ' . $id['id']);
+        $this->loggerFactory->notice($e->getMessage());
+        continue;
+      } catch (\Exception $exception) {
+        $this->loggerFactory->notice('Getting serviceChannel failed for ID ' . $id['id']);
+        $this->loggerFactory->notice($exception->getMessage());
         continue;
       }
-      $nodeData = [];
-      $additionalData = $this->httpClient->get(
-        'https://api.palvelutietovaranto.suomi.fi/api/v11/ServiceChannel/' . $id['id']
-      );
-      if ($additionalData->getStatusCode() === 200) {
-        $data = json_decode($additionalData->getBody()->getContents());
-        $title = [];
-        $organizationTitle = $this->getOrganizationName($data->organizationId);
-        foreach ($data->serviceChannelNames as $name) {
-          $title[$name->language] = $name->value;
-        }
-        if (isset($data->addresses) && !empty($data->addresses)) {
-          $nodeData['addresses'] = $this->getAddressData($data->addresses);
-        }
-        if (isset($data->deliveryAddresses) && !empty($data->deliveryAddresses)) {
-          $nodeData['addresses'] = $this->getAddressData($data->deliveryAddresses);
-        }
-        if (isset($data->serviceHours) && !empty($data->serviceHours)) {
-          $nodeData['hours'] = $this->getServiceHours($data->serviceHours);
-        }
-        if (isset($data->phoneNumbers) && !empty($data->phoneNumbers)) {
-          $nodeData['phone'] = $this->getPhoneNumbers($data->phoneNumbers);
-        }
-        if (isset($data->supportPhoneNumbers) && !empty($data->supportPhoneNumbers)) {
-          $nodeData['phone'] = $this->getPhoneNumbers($data->supportPhoneNumbers);
-        }
-        if (isset($data->emails) && !empty($data->emails)) {
-          $nodeData['emails'] = $this->getEmails($data->emails);
-        }
-        if (isset($data->supportEmails) && !empty($data->supportEmails)) {
-          $nodeData['emails'] = $this->getEmails($data->supportEmails);
-        }
+      if ($additionalData->getStatusCode() !== 200) {
+        $this->loggerFactory->notice('Getting serviceChannel failed for ID ' . $id['id'] .
+          'Response code ' . $additionalData->getStatusCode());
+        continue;
       }
-
+      $data = json_decode($additionalData->getBody()->getContents());
+      $title = [];
+      $nodeData['id'] = $id['id'];
+      $organizationTitle = $this->getOrganizationName($data->organizationId);
+      foreach ($data->serviceChannelNames as $name) {
+        if (isset($title[$name->language])) {
+          continue;
+        }
+        $title[$name->language] = $name->value;
+      }
+      if (isset($data->addresses) && !empty($data->addresses)) {
+        $nodeData['addresses'] = $this->getAddressData($data->addresses);
+      }
+      if (isset($data->deliveryAddresses) && !empty($data->deliveryAddresses)) {
+        $nodeData['addresses'] = $this->getAddressData($data->deliveryAddresses);
+      }
+      if (isset($data->serviceHours) && !empty($data->serviceHours)) {
+        $nodeData['hours'] = $this->getServiceHours($data->serviceHours);
+      }
+      if (isset($data->phoneNumbers) && !empty($data->phoneNumbers)) {
+        $nodeData['phone'] = $this->getPhoneNumbers($data->phoneNumbers);
+      }
+      if (isset($data->supportPhoneNumbers) && !empty($data->supportPhoneNumbers)) {
+        $nodeData['phone'] = $this->getPhoneNumbers($data->supportPhoneNumbers);
+      }
+      if (isset($data->emails) && !empty($data->emails)) {
+        $nodeData['emails'] = $this->getEmails($data->emails);
+      }
+      if (isset($data->supportEmails) && !empty($data->supportEmails)) {
+        $nodeData['emails'] = $this->getEmails($data->supportEmails);
+      }
+      if (array_key_exists($id['id'], $existingIds)) {
+        $this->handleNodeUpdate($nodeData);
+        continue;
+      }
       $node = Node::create(['type' => 'office_contact_info']);
       if (isset($nodeData['addresses'])) {
         if (isset($nodeData['addresses']['visiting'])) {
@@ -458,7 +709,6 @@ class HelfiPTV {
               continue;
             }
             if ($language === 'fi') {
-              $node->langcode = $language;
               $node->uid = 1;
               $node->promote = 0;
               $node->sticky = 0;
@@ -466,31 +716,14 @@ class HelfiPTV {
             else if (isset($nid)) {
               $node = Node::load($nid);
               if (!$node->hasTranslation($language)) {
-                continue;
+                $node = $node->addTranslation($language);
               }
-              $node = $node->addTranslation($language);
               $node->uid = 1;
             }
-            $node->title = isset($title[$language]) ? $organizationTitle . ' ' . $title[$language] : $organizationTitle . ' ' . $title[array_key_first($title)];
+            $finnishTitle = isset($title['fi']) ? $title['fi'] : '';
+            $node->title = isset($title[$language]) ? $organizationTitle . ' ' . $title[$language] : $organizationTitle . ' ' . $finnishTitle;
             $node->field_office_id = $id['id'];
-            if (isset($nodeData['addresses']['visiting'][$language]) && !empty($nodeData['addresses']['visiting'][$language])) {
-              $node->field_visiting_address = $nodeData['addresses']['visiting'][$language]['address'] . ', ' . $nodeData['addresses']['visiting'][$language]['city'];
-              $node->field_visiting_address_additiona = isset($nodeData['addresses']['visiting'][$language]['additional']) ?  $nodeData['addresses']['visiting'][$language]['additional'] : '';
-            }
-            if (isset($nodeData['addresses']['postal'][$language]) && !empty($nodeData['addresses']['postal'][$language])) {
-              $node->field_postal_address = $nodeData['addresses']['postal'][$language]['poBox'] . ', ' . $nodeData['addresses']['postal'][$language]['city'];
-              $node->field_postal_address_additiona = isset($nodeData['addresses']['postal'][$language]['additional']) ? $nodeData['addresses']['postal'][$language]['additional'] : '';
-            }
-            if (isset($nodeData['hours'][$language])) {
-              $node->field_service_hours = $nodeData['hours'][$language];
-            }
-            if (isset($nodeData['phone'][$language])) {
-              $node->field_phonenumber = $nodeData['phone'][$language];
-            }
-            if (isset($nodeData['emails'][$language])) {
-              $node->field_email_address = $nodeData['emails'][$language];
-            }
-
+            $node = $this->setNodeData($node, $nodeData, $language, true);
             $node->save();
             if ($language === 'fi') {
               $nid = $node->id();
@@ -503,7 +736,6 @@ class HelfiPTV {
             continue;
           }
           if ($language === 'fi') {
-            $node->langcode = $language;
             $node->uid = 1;
             $node->promote = 0;
             $node->sticky = 0;
@@ -512,22 +744,14 @@ class HelfiPTV {
             $node = Node::load($nid);
             $node->uid = 1;
             if (!$node->hasTranslation($language)) {
-             continue;
+              $node = $node->addTranslation($language);
             }
-            $node = $node->addTranslation($language);
           }
-          $node->title = isset($title[$language]) ? $organizationTitle . ' ' . $title[$language] : $organizationTitle . ' ' . $title[array_key_first($title)];
+          $finnishTitle = isset($title['fi']) ? $title['fi'] : '';
+          $node->title = isset($title[$language]) ? $organizationTitle . ' ' . $title[$language] : $organizationTitle . ' ' . $finnishTitle;
           $node->field_office_id = $id['id'];
 
-          if (isset($nodeData['hours'][$language])) {
-            $node->field_service_hours = $nodeData['hours'][$language];
-          }
-          if (isset($nodeData['phone'][$language])) {
-            $node->field_phonenumber = $nodeData['phone'][$language];
-          }
-          if (isset($nodeData['emails'][$language])) {
-            $node->field_email_address = $nodeData['emails'][$language];
-          }
+          $node = $this->setNodeData($node, $nodeData, $language, false);
 
           $node->save();
           if ($language === 'fi') {
