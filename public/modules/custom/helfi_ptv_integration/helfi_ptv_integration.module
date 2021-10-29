@@ -1,0 +1,10 @@
+<?php
+use \Drupal\helfi_ptv_integration\HelfiPTV;
+/**
+* Implements hook_cron().
+*/
+function helfi_ptv_integration_cron() {
+    $today = date('Y-m-d');
+    $ptv = Drupal::getContainer()->get(HelfiPTV::class);
+    $ptv->getOfficeIdsPerCity('all', $today);
+}
