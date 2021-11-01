@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Contains installation settings for the module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function infofinland_migrate_uninstall() {
+  \Drupal::configFactory()->getEditable('migrate_plus.migration.content_import_pages_to_nodes_from_csv_fi')->delete();
+  \Drupal::configFactory()->getEditable('migrate_plus.migration.content_import_pages_to_nodes_from_csv_translations')->delete();
+  \Drupal::configFactory()->getEditable('content_import_pages_to_nodes_from_csv')->delete();
+  drupal_flush_all_caches();
+}
