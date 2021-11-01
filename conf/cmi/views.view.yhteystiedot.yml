@@ -701,6 +701,132 @@ display:
             default_group_multiple: {  }
             group_items: {  }
           plugin_id: string
+        field_postal_address_value:
+          id: field_postal_address_value
+          table: node__field_postal_address
+          field: field_postal_address_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_postal_address_value_op
+            label: Postiosoite
+            description: ''
+            use_operator: false
+            operator: field_postal_address_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_postal_address_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              admin: '0'
+              content_producer: '0'
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+        field_phonenumber_value:
+          id: field_phonenumber_value
+          table: node__field_phonenumber
+          field: field_phonenumber_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_phonenumber_value_op
+            label: Puhelinnnumero
+            description: ''
+            use_operator: false
+            operator: field_phonenumber_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_phonenumber_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              admin: '0'
+              content_producer: '0'
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+        field_visiting_address_value:
+          id: field_visiting_address_value
+          table: node__field_visiting_address
+          field: field_visiting_address_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_visiting_address_value_op
+            label: Vierailuosoite
+            description: ''
+            use_operator: false
+            operator: field_visiting_address_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_visiting_address_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              admin: '0'
+              content_producer: '0'
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
       sorts:
         created:
           id: created

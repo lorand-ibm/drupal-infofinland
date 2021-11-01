@@ -3,7 +3,9 @@ langcode: fi
 status: true
 dependencies:
   config:
+    - field.field.node.office_contact_info.field_automated_updates
     - field.field.node.office_contact_info.field_email_address
+    - field.field.node.office_contact_info.field_new_data
     - field.field.node.office_contact_info.field_office_id
     - field.field.node.office_contact_info.field_phonenumber
     - field.field.node.office_contact_info.field_postal_address
@@ -19,6 +21,16 @@ targetEntityType: node
 bundle: office_contact_info
 mode: default
 content:
+  field_automated_updates:
+    weight: 10
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   field_email_address:
     weight: 7
     label: above
@@ -27,9 +39,16 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  field_new_data:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
   field_office_id:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
