@@ -1,10 +1,13 @@
 services:
+  # This service is used with the drush commands
   helfi_ptv_integration.HelfiPTV:
     class: Drupal\helfi_ptv_integration\HelfiPTV
     arguments: ['@http_client', '@database', '@state', '@entity_type.manager', '@logger.factory']
   helfi_ptv_integration.PTVController:
     class: Drupal\helfi_ptv_integration\Controller\PTVController
     arguments: ['@database']
+
+  # This service is used with the cron
   Drupal\helfi_ptv_integration\HelfiPTV:
     class: Drupal\helfi_ptv_integration\HelfiPTV
     arguments: ['@http_client', '@database', '@state', '@entity_type.manager', '@logger.factory']

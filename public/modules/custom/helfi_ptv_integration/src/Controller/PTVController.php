@@ -25,6 +25,10 @@ class PTVController extends ControllerBase{
     );
   }
 
+  /**
+   * Create the list of municipality codes to be shown in admin panel
+   * @return mixed
+   */
   public function showCodes()
   {
     $query = $this->connection->select('key_value', 'kv');

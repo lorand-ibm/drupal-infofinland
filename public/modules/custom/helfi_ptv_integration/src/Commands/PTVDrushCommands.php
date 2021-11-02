@@ -15,8 +15,7 @@ class PTVDrushCommands extends DrushCommands {
    */
   protected HelfiPTV $ptv;
 
-  public function __construct(HelfiPTV $ptv)
-  {
+  public function __construct(HelfiPTV $ptv) {
     $this->ptv = $ptv;
     parent::__construct();
   }

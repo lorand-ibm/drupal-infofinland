@@ -1,8 +1,10 @@
 <?php
-use \Drupal\helfi_ptv_integration\HelfiPTV;
+use Drupal\helfi_ptv_integration\HelfiPTV;
+
 /**
-* Implements hook_cron().
-*/
+ * @file
+ * Custom module for PTV integration.
+ */
 function helfi_ptv_integration_cron() {
     $today = date('Y-m-d', strtotime("-1 days"));
     $ptv = Drupal::getContainer()->get(HelfiPTV::class);

@@ -84,6 +84,13 @@ class HelfiPTV {
     return str_replace($search, $replace, $str);
   }
 
+  /**
+   * Get the municipality terms from database
+   *
+   * @return \Drupal\Core\Entity\EntityInterface[]
+   * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+   * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+   */
   private function getMunicipalityTerms() {
     // Get the term storage.
     $entity_storage = $this->entityTypeManager->getStorage('taxonomy_term');
@@ -96,6 +103,13 @@ class HelfiPTV {
     return $entity_storage->loadMultiple($query_result);
   }
 
+  /**
+   * Get the municipality city codes from PTV
+   *
+   * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+   * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+   * @throws \Drupal\Core\Entity\EntityStorageException
+   */
   public function getTheCityCodes() {
     $termData = [];
     $terms = $this->getMunicipalityTerms();
@@ -126,6 +140,12 @@ class HelfiPTV {
     }
   }
 
+  /**
+   * Format array of address data from PTV data
+   *
+   * @param $addressesData
+   * @return array
+   */
   private function getAddressData($addressesData):array {
     $nodeData = [];
     foreach ($addressesData as $address) {
@@ -169,6 +189,12 @@ class HelfiPTV {
     return $nodeData;
   }
 
+  /**
+   * Format service hours array from PTV data
+   *
+   * @param $serviceHoursArray
+   * @return array
+   */
   private function getServiceHours($serviceHoursArray): array {
     foreach ($serviceHoursArray as $serviceHours) {
       if(empty($serviceHours) || $serviceHours->serviceHourType !== 'DaysOfTheWeek') {
@@ -251,6 +277,8 @@ class HelfiPTV {
   }
 
   /**
+   * From phone number array from PTV data
+   *
    * @param $phoneNumbers
    * @return array
    */
@@ -267,6 +295,8 @@ class HelfiPTV {
   }
 
   /**
+   * Format email array from PTV data
+   *
    * @param $emailAddresses
    * @return array
    */
@@ -278,10 +308,36 @@ class HelfiPTV {
     return $emailData;
   }
 
+  private function makeOragnizatonCall($id, $params) {
+    try {
+      $response = $this->httpClient->get(
+        'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $id,
+        $params
+      );
+    } catch (ClientException $e) {
+      $this->loggerFactory->notice('Getting organizations failed for city ID ' . $id);
+      $this->loggerFactory->notice($e->getMessage());
+      return [];
+    } catch (GuzzleException $e) {
+      $this->loggerFactory->notice('Getting organizations failed for city ID ' . $id);
+      $this->loggerFactory->notice($e->getMessage());
+      return [];
+    }
+    if ($response->getStatusCode() !== 200) {
+      $this->loggerFactory->notice('Getting organizations failed for city ID ' . $id);
+      return [];
+    }
+    return $response;
+  }
+
   /**
+   * Get all the organizations for municipalities from PTV
+   *
    * @param $cityId
-   * @param $date
    * @return mixed
+   * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+   * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+   * @throws \Drupal\Core\Entity\EntityStorageException
    */
   private function getOrganizations($cityId) {
     if ($cityId == 'all') {
@@ -295,27 +351,8 @@ class HelfiPTV {
               'showHeader' => 'true',
             ]
           ];
-          try {
-            $response = $this->httpClient->get(
-              'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
-              $params
-            );
-          } catch (ClientException $e) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
-            $this->loggerFactory->notice($e->getMessage());
-            continue;
-          } catch (GuzzleException $e) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
-            $this->loggerFactory->notice($e->getMessage());
-            continue;
-          } catch (\Exception $exception) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
-            $this->loggerFactory->notice($exception->getMessage());
-            continue;
-          }
-
-          if ($response->getStatusCode() !== 200) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+          $response = $this->makeOragnizatonCall($term->field_ptv_code->value, $params);
+          if (empty($response)) {
             continue;
           }
           $body = JSON::decode($response->getBody());
@@ -326,27 +363,8 @@ class HelfiPTV {
           if ($pages > 1) {
             for ($p = 1; $p <= $pages; $p++) {
               $params['query']['page'] = $p;
-              try {
-                $response = $this->httpClient->get(
-                  'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $term->field_ptv_code->value,
-                  $params
-                );
-              } catch (ClientException $e) {
-              $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
-              $this->loggerFactory->notice($e->getMessage());
-              continue;
-              } catch (GuzzleException $e) {
-                $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
-                $this->loggerFactory->notice($e->getMessage());
-                continue;
-              } catch (\Exception $exception) {
-                $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
-                $this->loggerFactory->notice($exception->getMessage());
-                continue;
-              }
-
-              if ($response->getStatusCode() !== 200) {
-                $this->loggerFactory->notice('Getting organizations failed for city ID ' . $term->field_ptv_code->value);
+              $response = $this->makeOragnizatonCall($term->field_ptv_code->value, $params);
+              if (empty($response)) {
                 continue;
               }
               $body = JSON::decode($response->getBody());
@@ -367,55 +385,18 @@ class HelfiPTV {
           'showHeader' => 'true'
         ]
       ];
-      try {
-        $response = $this->httpClient->get(
-          'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $cityId,
-          $params
-        );
-      } catch (ClientException $e) {
-        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-        $this->loggerFactory->notice($e->getMessage());
-        return [];
-      }  catch (GuzzleException $e) {
-        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-        $this->loggerFactory->notice($e->getMessage());
-        return [];
-      } catch (\Exception $exception) {
-        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-        $this->loggerFactory->notice($exception->getMessage());
-        return [];
-      }
 
-      if ($response->getStatusCode() !== 200) {
-        $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-        return [];
+      $response = $this->makeOragnizatonCall($cityId, $params);
+      if (empty($response)) {
+        return $response ;
       }
       $body = JSON::decode($response->getBody());
       $bodyData = $body['itemList'];
       if ($body['pageCount'] > 1) {
         for ($p = 2; $p <= $body['pageCount']; $p++) {
           $params['query']['page'] = $p;
-          try {
-            $response = $this->httpClient->get(
-              'https://api.palvelutietovaranto.suomi.fi/api/v11/Organization/area/Municipality/code/' . $cityId,
-              $params
-            );
-          } catch (ClientException $e) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-            $this->loggerFactory->notice($e->getMessage());
-            continue;
-          } catch (GuzzleException $e) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-            $this->loggerFactory->notice($e->getMessage());
-            continue;
-          } catch (\Exception $exception) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
-            $this->loggerFactory->notice($exception->getMessage());
-            continue;
-          }
-
-          if ($response->getStatusCode() !== 200) {
-            $this->loggerFactory->notice('Getting organizations failed for city ID ' . $cityId);
+          $response = $this->makeOragnizatonCall($cityId, $params);
+          if (empty($response)) {
             continue;
           }
           $body = JSON::decode($response->getBody());
@@ -440,8 +421,33 @@ class HelfiPTV {
     return $bodyData;
   }
 
+  private function makeOrganizationIDCall($id, $params) {
+    try {
+      $response = $this->httpClient->get(
+        'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $id,
+        $params
+      );
+    } catch (ClientException $e) {
+      $this->loggerFactory->notice('Getting entities failed for organization ID ' . $id);
+      $this->loggerFactory->notice($e->getMessage());
+      return [];
+    } catch (GuzzleException $e) {
+      $this->loggerFactory->notice('Getting entities failed for organization ID ' .$id);
+      $this->loggerFactory->notice($e->getMessage());
+      return [];
+    }
+    if ($response->getStatusCode() !== 200) {
+      $this->loggerFactory->notice('Getting entities failed for organization ID ' . $id);
+      return [];
+    }
+    return $response;
+  }
+
   /**
+   * Get service channel IDs per organization from PTV.
+   *
    * @param array $organizations
+   * @param $date
    * @return mixed
    * @throws \Exception
    */
@@ -455,22 +461,8 @@ class HelfiPTV {
           'date' => $dateTime->format('Y-m-d\TH:i:s')
         ]
       ];
-      try {
-        $response = $this->httpClient->get(
-          'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $organization['id'],
-          $params
-        );
-      } catch (ClientException $e) {
-        $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
-        $this->loggerFactory->notice($e->getMessage());
-        continue;
-      } catch (GuzzleException $e) {
-        $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
-        $this->loggerFactory->notice($e->getMessage());
-        continue;
-      } catch (\Exception $exception) {
-        $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
-        $this->loggerFactory->notice($exception->getMessage());
+      $response = $this->makeOrganizationIDCall($organization['id'], $params);
+      if (empty($response)) {
         continue;
       }
       $body = JSON::decode($response->getBody());
@@ -485,27 +477,8 @@ class HelfiPTV {
       if ($body['pageCount'] > 1) {
         for ($p = 2; $p <= $body['pageCount']; $p++) {
           $params['query']['page'] = $p;
-          try {
-            $response = $this->httpClient->get(
-              'https://api.palvelutietovaranto.suomi.fi/api/v11/Common/EntitiesByOrganization/' . $organization['id'],
-              $params
-            );
-          } catch (ClientException $e) {
-            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
-            $this->loggerFactory->notice($e->getMessage());
-            continue;
-          } catch (GuzzleException $e) {
-            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
-            $this->loggerFactory->notice($e->getMessage());
-            continue;
-          } catch (\Exception $exception) {
-            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
-            $this->loggerFactory->notice($exception->getMessage());
-            continue;
-          }
-
-          if ($response->getStatusCode() !== 200) {
-            $this->loggerFactory->notice('Getting entities failed for organization ID ' . $organization['id']);
+          $response = $this->makeOrganizationIDCall($organization['id'], $params);
+          if (empty($response)) {
             continue;
           }
           $body = JSON::decode($response->getBody());
@@ -520,6 +493,11 @@ class HelfiPTV {
     return $resultData;
   }
 
+  /**
+   * Get existing service channels from database.
+   *
+   * @return array
+   */
   private function getExistingOfficeIds(): array {
     $query = $this->connection->select('node__field_office_id', 'foi');
     $query->addField('foi', 'field_office_id_value');
@@ -527,6 +505,14 @@ class HelfiPTV {
     return $query->execute()->fetchAllAssoc('field_office_id_value');
   }
 
+  /**
+   * Get the name of an organization.
+   *
+   * @param $ptvID
+   * @return mixed
+   * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+   * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+   */
   private function getOrganizationName($ptvID) {
     $term = $this->entityTypeManager->getStorage('taxonomy_term')->loadByProperties([
       'vid' => 'organisaatiot',
@@ -536,6 +522,15 @@ class HelfiPTV {
     return $termData->getName();
   }
 
+  /**
+   * Set new data to node.
+   *
+   * @param $node
+   * @param $nodeData
+   * @param $language
+   * @param $includeAddresses
+   * @return mixed
+   */
   private function setNodeData($node, $nodeData, $language, $includeAddresses) {
     if ($includeAddresses) {
       if (isset($nodeData['addresses']['visiting'][$language]) && !empty($nodeData['addresses']['visiting'][$language])) {
@@ -559,12 +554,20 @@ class HelfiPTV {
     return $node;
   }
 
-  private function handleNodeUpdate($nodeData) {
-    $nodes = \Drupal::entityTypeManager()
+  /**
+   * Update existing node.
+   *
+   * @param $nodeData
+   * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+   * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+   * @throws \Drupal\Core\Entity\EntityStorageException
+   */
+  private function handleNodeUpdate(array $nodeData) {
+    $nodes = $this->entityTypeManager
       ->getStorage('node')
       ->loadByProperties(['field_office_id' => $nodeData['id']]);
     $node = reset($nodes);
-    if ($node->field_automated_updates->value === '1' ) {
+    if ($node->field_automated_updates->value === '1') {
       $resultData = [];
       if (isset($nodeData['addresses'])) {
         foreach (array_keys($nodeData['addresses']['visiting']) as $language) {
@@ -607,15 +610,18 @@ class HelfiPTV {
         }
       }
       $node->field_new_data = $resultData['fi'];
+      $node->uid = 1;
       $node->save();
       if ($node->hasTranslation('en')) {
         $en_node = $node->getTranslation('en');
         $en_node->field_new_data = $resultData['en'];
+        $en_node->uid = 1;
         $node->save();
       }
       if ($node->hasTranslation('sv')) {
         $sv_node = $node->getTranslation('sv');
         $sv_node->field_new_data = $resultData['sv'];
+        $sv_node->uid = 1;
         $sv_node->save();
       }
     } else {
@@ -623,14 +629,14 @@ class HelfiPTV {
       if (isset($nodeData['addresses'])) {
         $includeAddress = true;
       }
-      $node = $this->setNodeData($node, $nodeData, 'fi', $includeAddress);
-      $node->save();
-      if ($node->hasTranslation('en')) {
+      $updatedNode = $this->setNodeData($node, $nodeData, 'fi', $includeAddress);
+      $updatedNode->save();
+      if ($updatedNode->hasTranslation('en')) {
         $en_node = $node->getTranslation('en');
         $en_node = $this->setNodeData($en_node, $nodeData, 'en', $includeAddress);
         $en_node->save();
       }
-      if ($node->hasTranslation('sv')) {
+      if ($updatedNode->hasTranslation('sv')) {
         $sv_node = $node->getTranslation('sv');
         $sv_node = $this->setNodeData($sv_node, $nodeData, 'sv', $includeAddress);
         $sv_node->save();
@@ -655,10 +661,6 @@ class HelfiPTV {
       } catch (GuzzleException $e) {
         $this->loggerFactory->notice('Getting serviceChannel failed for ID ' . $id['id']);
         $this->loggerFactory->notice($e->getMessage());
-        continue;
-      } catch (\Exception $exception) {
-        $this->loggerFactory->notice('Getting serviceChannel failed for ID ' . $id['id']);
-        $this->loggerFactory->notice($exception->getMessage());
         continue;
       }
       if ($additionalData->getStatusCode() !== 200) {
@@ -752,7 +754,6 @@ class HelfiPTV {
           $node->field_office_id = $id['id'];
 
           $node = $this->setNodeData($node, $nodeData, $language, false);
-
           $node->save();
           if ($language === 'fi') {
             $nid = $node->id();
