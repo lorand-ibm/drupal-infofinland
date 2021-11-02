@@ -9,7 +9,7 @@ id: node.office_contact_info.field_office_id
 field_name: field_office_id
 entity_type: node
 bundle: office_contact_info
-label: 'Toiminpaikan ID'
+label: 'Toimipaikan ID'
 description: ''
 required: true
 translatable: false

@@ -9,7 +9,7 @@ id: node.office_contact_info.field_automated_updates
 field_name: field_automated_updates
 entity_type: node
 bundle: office_contact_info
-label: 'Automaattipäivitys sallitty'
+label: 'Automaattipäivitys sallittu'
 description: ''
 required: false
 translatable: false
