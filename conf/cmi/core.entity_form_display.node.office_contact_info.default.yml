@@ -14,29 +14,20 @@ dependencies:
     - field.field.node.office_contact_info.field_visiting_address
     - field.field.node.office_contact_info.field_visiting_address_additiona
     - node.type.office_contact_info
-  module:
-    - path
-    - scheduler
 id: node.office_contact_info.default
 targetEntityType: node
 bundle: office_contact_info
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_automated_updates:
-    weight: 26
+    weight: 10
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
     region: content
   field_email_address:
-    weight: 18
+    weight: 8
     settings:
       size: 60
       placeholder: ''
@@ -44,23 +35,15 @@ content:
     type: string_textfield
     region: content
   field_new_data:
-    weight: 27
+    weight: 11
     settings:
       rows: 1
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
     region: content
-  field_office_id:
-    weight: 12
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_phonenumber:
-    weight: 17
+    weight: 7
     settings:
       size: 60
       placeholder: ''
@@ -68,7 +51,7 @@ content:
     type: string_textfield
     region: content
   field_postal_address:
-    weight: 15
+    weight: 5
     settings:
       rows: 2
       placeholder: ''
@@ -76,7 +59,7 @@ content:
     type: string_textarea
     region: content
   field_postal_address_additiona:
-    weight: 16
+    weight: 6
     settings:
       size: 60
       placeholder: ''
@@ -84,7 +67,7 @@ content:
     type: string_textfield
     region: content
   field_service_hours:
-    weight: 19
+    weight: 9
     settings:
       rows: 3
       placeholder: ''
@@ -92,7 +75,7 @@ content:
     type: string_textarea
     region: content
   field_visiting_address:
-    weight: 13
+    weight: 3
     settings:
       rows: 2
       placeholder: ''
@@ -100,7 +83,7 @@ content:
     type: string_textarea
     region: content
   field_visiting_address_additiona:
-    weight: 14
+    weight: 4
     settings:
       rows: 2
       placeholder: ''
@@ -114,39 +97,6 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
-  path:
-    type: path
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  promote:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 5
-    region: content
-    third_party_settings: {  }
-  publish_on:
-    type: datetime_timestamp_no_default
-    weight: 8
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 11
-    region: content
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 6
-    region: content
-    third_party_settings: {  }
   title:
     type: string_textfield
     weight: 1
@@ -156,29 +106,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
     weight: 2
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-      match_limit: 10
-    region: content
-    third_party_settings: {  }
-  unpublish_on:
-    type: datetime_timestamp_no_default
-    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
-  url_redirects:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  field_office_id: true
+  path: true
+  promote: true
+  publish_on: true
+  status: true
+  sticky: true
+  uid: true
+  unpublish_on: true
+  url_redirects: true
