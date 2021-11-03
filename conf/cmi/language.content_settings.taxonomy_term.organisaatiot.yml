@@ -1,0 +1,11 @@
+uuid: aaaaa076-0cb2-4933-a0ba-c65da327f7b6
+langcode: fi
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisaatiot
+id: taxonomy_term.organisaatiot
+target_entity_type_id: taxonomy_term
+target_bundle: organisaatiot
+default_langcode: fi
+language_alterable: false

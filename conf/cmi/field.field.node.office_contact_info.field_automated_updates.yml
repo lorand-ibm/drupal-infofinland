@@ -1,0 +1,23 @@
+uuid: eb7347cd-1675-4bcf-98a4-1a2c98a0d346
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_automated_updates
+    - node.type.office_contact_info
+id: node.office_contact_info.field_automated_updates
+field_name: field_automated_updates
+entity_type: node
+bundle: office_contact_info
+label: 'Automaattipäivitys sallittu'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Käytössä
+  off_label: 'Pois päältä'
+field_type: boolean
