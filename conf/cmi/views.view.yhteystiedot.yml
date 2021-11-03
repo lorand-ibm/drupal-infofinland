@@ -670,7 +670,7 @@ display:
           exposed: true
           expose:
             operator_id: field_new_data_value_op
-            label: 'Uudet tiedot (field_new_data)'
+            label: 'Uudet tiedot'
             description: ''
             use_operator: true
             operator: field_new_data_value_op
@@ -861,103 +861,6 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_new_data'
-  entity_reference_1:
-    display_plugin: entity_reference
-    id: entity_reference_1
-    display_title: Entiteettiviittaus
-    position: 2
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      style:
-        type: entity_reference
-        options:
-          search_fields:
-            title: title
-            uid: '0'
-            langcode: '0'
-            changed: '0'
-            field_new_data: '0'
-            operations: '0'
-      filters:
-        status:
-          value: '1'
-          table: node_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: node
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-          group: 1
-      defaults:
-        filters: false
-        filter_groups: false
-        fields: false
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          entity_type: node
-          entity_field: title
-          alter:
-            alter_text: false
-            make_link: false
-            absolute: false
-            trim: false
-            word_boundary: false
-            ellipsis: false
-            strip_tags: false
-            html: false
-          hide_empty: false
-          empty_zero: false
-          settings:
-            link_to_entity: true
-          plugin_id: field
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: Otsikko
-          exclude: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-    deleted: false
   page_1:
     display_plugin: page
     id: page_1
