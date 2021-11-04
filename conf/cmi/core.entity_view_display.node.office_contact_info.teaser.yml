@@ -1,0 +1,41 @@
+uuid: ee71ad3a-281c-40e8-9187-ed3bd294ba72
+langcode: fi
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.office_contact_info.field_automated_updates
+    - field.field.node.office_contact_info.field_email_address
+    - field.field.node.office_contact_info.field_new_data
+    - field.field.node.office_contact_info.field_office_id
+    - field.field.node.office_contact_info.field_phonenumber
+    - field.field.node.office_contact_info.field_postal_address
+    - field.field.node.office_contact_info.field_postal_address_additiona
+    - field.field.node.office_contact_info.field_service_hours
+    - field.field.node.office_contact_info.field_visiting_address
+    - field.field.node.office_contact_info.field_visiting_address_additiona
+    - node.type.office_contact_info
+  module:
+    - user
+id: node.office_contact_info.teaser
+targetEntityType: node
+bundle: office_contact_info
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_automated_updates: true
+  field_email_address: true
+  field_new_data: true
+  field_office_id: true
+  field_phonenumber: true
+  field_postal_address: true
+  field_postal_address_additiona: true
+  field_service_hours: true
+  field_visiting_address: true
+  field_visiting_address_additiona: true
+  langcode: true

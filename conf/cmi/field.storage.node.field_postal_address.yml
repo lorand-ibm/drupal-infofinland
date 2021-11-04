@@ -1,0 +1,19 @@
+uuid: df8c4d33-2616-4c02-9bcf-79253b2a28e2
+langcode: fi
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_postal_address
+field_name: field_postal_address
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
