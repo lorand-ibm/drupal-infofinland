@@ -1,4 +1,4 @@
-id: links_import_link_nodes_csv
+id: links_import_link_nodes_csv_translations
 label: Import link transtions from old site to nodes
 migration_group: infofinland_links
 dependencies:
@@ -8,8 +8,10 @@ dependencies:
 
 destination:
   plugin: 'entity:node'
+  translations: true
 source:
   plugin: csv
+  translations: true
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
   # change if not unique enough
   ids:
@@ -18,16 +20,20 @@ process:
   type:
     plugin: default_value
     default_value: linkki
+  langcode: kieli
   title: Linkin nimi (Käännös)
   # for finding links
   description: Linkin kuvaus
-  # where still will be used?
+  # is this still needed?
   hallintaorg: Linkin hallintaorg
   kohde: Kohde (Organisaatio)
-  langcode: kieli
-  field_link: id (paragraph referenssi)
-  default_langcode:
-    plugin: default_value
-    default_value: true
+  # migration map reference to paragraph language_link
+  # can this be skipped when importing translation because it's not translated?
+  field_link:
+    target_id:
+      plugin: migration_lookup
+      migration: links_import_link_paragraphs_csv
+      source: id
+      #no_stub: true
 
 

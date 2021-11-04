@@ -17,10 +17,6 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: linkki
-  title: Linkin Nimi
+    default_value: language_link
   link: Osoite (url)
   field_lang: Kieli
-  # type:
-  #   plugin: default_value
-  #   default_value: item

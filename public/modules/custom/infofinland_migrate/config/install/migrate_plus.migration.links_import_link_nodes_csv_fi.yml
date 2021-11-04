@@ -18,17 +18,20 @@ process:
   type:
     plugin: default_value
     default_value: linkki
-  title: Linkin Nimi
-  # for finding links
-  description: Linkin kuvaus
-  # where still will be used?
-  hallintaorg: Linkin hallintaorg
-  kohde: Kohde (Organisaatio)
   langcode: kieli
-  field_link: id (paragraph referenssi)
   default_langcode:
     plugin: default_value
     default_value: true
-  # type:
-  #   plugin: default_value
-  #   default_value: item
+  title: Linkin Nimi
+  # for finding links
+  description: Linkin kuvaus
+  # is this still needed?
+  hallintaorg: Linkin hallintaorg
+  kohde: Kohde (Organisaatio)
+  # migration map reference to paragraph language_link
+  field_link:
+    target_id:
+      plugin: migration_lookup
+      migration: links_import_link_paragraphs_csv
+      source: id
+      #no_stub: true
