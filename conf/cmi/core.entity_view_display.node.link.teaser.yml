@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.link.field_link_description
+    - field.field.node.link.field_link_target_site
     - field.field.node.link.field_links
     - node.type.link
   module:
@@ -21,5 +22,6 @@ content:
     region: content
 hidden:
   field_link_description: true
+  field_link_target_site: true
   field_links: true
   langcode: true

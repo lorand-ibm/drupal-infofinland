@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.link.field_link_description
+    - field.field.node.link.field_link_target_site
     - field.field.node.link.field_links
     - node.type.link
   module:
@@ -16,6 +17,14 @@ mode: default
 content:
   field_link_description:
     weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link_target_site:
+    weight: 104
     label: above
     settings:
       link_to_entity: false
