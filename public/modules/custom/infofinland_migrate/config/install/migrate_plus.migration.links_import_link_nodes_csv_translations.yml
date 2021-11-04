@@ -24,11 +24,11 @@ process:
   title: Linkin nimi (Käännös)
   # for finding links
   description: Linkin kuvaus
-  # is this still needed?
-  hallintaorg: Linkin hallintaorg
-  kohde: Kohde (Organisaatio)
+  # is hallintaorg still needed?
+  # hallintaorg: Linkin hallintaorg
+  field_link_target_site: Kohde (Organisaatio)
   # migration map reference to paragraph language_link
-  # can this be skipped when importing translation because it's not translated?
+  # can this field be skipped when importing translation because it's not translated?
   field_link:
     target_id:
       plugin: migration_lookup
