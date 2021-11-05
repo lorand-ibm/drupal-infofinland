@@ -1,0 +1,28 @@
+uuid: ba21bc2e-7a9c-4a93-9693-2de1f942617b
+langcode: en
+status: true
+dependencies: {  }
+id: municipal_editor
+label: Kuntapäivittäjä
+weight: 4
+is_admin: null
+permissions:
+  - 'cancel account'
+  - 'change own username'
+  - 'create content translations'
+  - 'create image media'
+  - 'create office_contact_info content'
+  - 'create page content'
+  - 'delete own image media'
+  - 'delete own office_contact_info content'
+  - 'delete own page content'
+  - 'edit any office_contact_info content'
+  - 'edit own office_contact_info content'
+  - 'edit own page content'
+  - 'translate editable entities'
+  - 'translate menu_link_content'
+  - 'translate office_contact_info node'
+  - 'translate page node'
+  - 'update content translations'
+  - 'view own unpublished content'
+  - 'view the administration theme'

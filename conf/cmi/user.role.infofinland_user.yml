@@ -1,0 +1,47 @@
+uuid: 4d83c1db-a631-4b09-a07d-45bffd4781f8
+langcode: en
+status: true
+dependencies: {  }
+id: infofinland_user
+label: InfoFinland-käyttäjä
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer menu'
+  - 'cancel account'
+  - 'change own username'
+  - 'create content translations'
+  - 'create image media'
+  - 'create landing_page content'
+  - 'create office_contact_info content'
+  - 'create page content'
+  - 'create terms in municipalitys'
+  - 'create terms in organisaatiot'
+  - 'create url aliases'
+  - 'delete any office_contact_info content'
+  - 'delete any page content'
+  - 'delete content translations'
+  - 'delete office_contact_info revisions'
+  - 'delete own image media'
+  - 'delete own office_contact_info content'
+  - 'delete page revisions'
+  - 'delete terms in municipalitys'
+  - 'edit any image media'
+  - 'edit any office_contact_info content'
+  - 'edit any page content'
+  - 'edit own office_contact_info content'
+  - 'edit terms in municipalitys'
+  - 'edit terms in organisaatiot'
+  - 'translate any entity'
+  - 'translate editable entities'
+  - 'translate menu_link_content'
+  - 'translate municipalitys taxonomy_term'
+  - 'translate office_contact_info node'
+  - 'translate page node'
+  - 'update content translations'
+  - 'view own unpublished content'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'
