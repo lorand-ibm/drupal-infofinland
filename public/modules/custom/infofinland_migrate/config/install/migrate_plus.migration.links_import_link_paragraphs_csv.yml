@@ -12,8 +12,8 @@ source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_paragraphs.csv
   # change if not unique enough
-  ids:
-    - id
+  delimiter: ';'
+  ids: [id]
 process:
   type:
     plugin: default_value
