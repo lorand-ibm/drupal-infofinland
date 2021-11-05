@@ -18,5 +18,5 @@ process:
   type:
     plugin: default_value
     default_value: language_link
-  link: Osoite (url)
-  field_lang: Kieli
+  field_language_link: Osoite (url)
+  field_language: Kieli

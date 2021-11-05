@@ -17,19 +17,19 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: linkki
+    default_value: link
   langcode: kieli
   default_langcode:
     plugin: default_value
     default_value: true
   title: Linkin Nimi
   # for finding links
-  description: Linkin kuvaus
+  field_link_description: Linkin kuvaus
   # is hallintaorg still needed?
   # hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)
   # migration map reference to paragraph language_link
-  field_link:
+  field_links:
     target_id:
       plugin: migration_lookup
       migration: links_import_link_paragraphs_csv
