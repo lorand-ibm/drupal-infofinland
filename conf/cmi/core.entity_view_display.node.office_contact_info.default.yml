@@ -1,0 +1,115 @@
+uuid: 2a6cf250-a218-44f5-827e-b57612302131
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.node.office_contact_info.field_automated_updates
+    - field.field.node.office_contact_info.field_email_address
+    - field.field.node.office_contact_info.field_new_data
+    - field.field.node.office_contact_info.field_office_id
+    - field.field.node.office_contact_info.field_phonenumber
+    - field.field.node.office_contact_info.field_postal_address
+    - field.field.node.office_contact_info.field_postal_address_additiona
+    - field.field.node.office_contact_info.field_service_hours
+    - field.field.node.office_contact_info.field_visiting_address
+    - field.field.node.office_contact_info.field_visiting_address_additiona
+    - node.type.office_contact_info
+  module:
+    - user
+id: node.office_contact_info.default
+targetEntityType: node
+bundle: office_contact_info
+mode: default
+content:
+  field_automated_updates:
+    weight: 10
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_email_address:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_new_data:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_office_id:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phonenumber:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_postal_address:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_postal_address_additiona:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_service_hours:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_visiting_address:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_visiting_address_additiona:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  langcode:
+    type: language
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

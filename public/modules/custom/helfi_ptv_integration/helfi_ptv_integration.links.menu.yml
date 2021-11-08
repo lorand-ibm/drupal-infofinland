@@ -1,0 +1,5 @@
+helfi_ptv_integration.getcitycodes:
+  title: 'PTV integration city codes'
+  description: 'PTV integration city codes'
+  route_name: helfi_ptv_integration.getcitycodes
+  parent: system.admin_config_system

@@ -36,9 +36,6 @@ module:
   hdbt_content: 0
   hdbt_hyphenopoly: 0
   helfi_api_base: 0
-  helfi_languages: 0
-  helfi_media: 0
-  helfi_platform_config: 0
   image: 0
   image_style_quality: 0
   infofinland_municipality_selection: 0
@@ -81,6 +78,9 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  automated_cron: 1
+  helfi_ptv_integration: 1
+  inline_entity_form: 1
   pathauto: 1
   content_translation: 10
   views: 10
