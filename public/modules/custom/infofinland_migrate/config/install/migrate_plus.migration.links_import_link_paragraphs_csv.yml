@@ -12,11 +12,17 @@ source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_paragraphs.csv
   # change if not unique enough
-  delimiter: ';'
+  delimiter: ','
   ids: [id]
 process:
+  field_language_link: Url
+  field_language:
+    plugin: entity_lookup
+    source: KieliNimi
+    value_key: name
+    bundle_key: vid
+    bundle: language
+    entity_type: taxonomy_term
   type:
     plugin: default_value
     default_value: language_link
-  field_language_link: Osoite (url)
-  field_language: Kieli

@@ -1,0 +1,40 @@
+uuid: 6de2bb0e-bc25-42cd-9f9c-d5c93801d859
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+_core:
+  default_config_hash: 1kwUuNNKnRSHO1TcYzjNShvVpFPGrFxBTkkabH8oyFo
+id: links_import_link_nodes_csv_translations
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: infofinland_links
+label: 'Import link transtions from old site to nodes'
+source:
+  plugin: csv
+  translations: true
+  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
+  delimiter: ;
+  ids:
+    - id
+process:
+  type:
+    plugin: default_value
+    default_value: link
+  langcode: kieli
+  title: 'Linkin nimi (Käännös)'
+  field_link_description: 'Linkin kuvaus'
+  field_link_target_site: 'Kohde (Organisaatio)'
+  field_links:
+    target_id:
+      plugin: migration_lookup
+      migration: links_import_link_paragraphs_csv
+      source: id
+destination:
+  plugin: 'entity:node'
+  translations: true
+migration_dependencies: null
