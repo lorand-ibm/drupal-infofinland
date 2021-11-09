@@ -5,6 +5,9 @@ dependencies:
   config:
     - field.storage.node.field_new_data
     - node.type.office_contact_info
+    - user.role.admin
+    - user.role.infofinland_user
+    - user.role.municipal_editor
   module:
     - node
     - user
@@ -23,9 +26,12 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access content'
+          role:
+            admin: admin
+            infofinland_user: infofinland_user
+            municipal_editor: municipal_editor
       cache:
         type: tag
         options: {  }
@@ -858,7 +864,7 @@ display:
         - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_new_data'
   page_1:
@@ -887,6 +893,6 @@ display:
         - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_new_data'
