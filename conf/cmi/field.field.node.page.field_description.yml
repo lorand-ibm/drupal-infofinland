@@ -1,0 +1,19 @@
+uuid: 871eea47-f365-4cd7-97d0-d2373837c86e
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.page
+id: node.page.field_description
+field_name: field_description
+entity_type: node
+bundle: page
+label: Kuvaus
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

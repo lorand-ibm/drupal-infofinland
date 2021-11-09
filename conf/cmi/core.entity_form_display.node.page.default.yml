@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.page.field_content
+    - field.field.node.page.field_description
     - field.field.node.page.field_has_hero
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
+    - field.field.node.page.field_page_name
     - node.type.page
   module:
+    - hdbt_admin_editorial
     - media_library
     - metatag
     - paragraphs
@@ -24,12 +27,12 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 6
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   field_content:
-    weight: 52
+    weight: 19
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -47,15 +50,23 @@ content:
     third_party_settings: {  }
     type: paragraphs
     region: content
+  field_description:
+    weight: 3
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
   field_has_hero:
-    weight: 2
+    weight: 4
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
     region: content
   field_hero:
-    weight: 3
+    weight: 5
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -75,17 +86,25 @@ content:
     region: content
   field_liftup_image:
     type: media_library_widget
-    weight: 3
+    weight: 6
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   field_metatags:
-    weight: 51
+    weight: 18
     settings:
       sidebar: false
     third_party_settings: {  }
     type: metatag_firehose
+    region: content
+  field_page_name:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   langcode:
     type: language_select
@@ -96,7 +115,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 10
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -104,17 +123,17 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
+    weight: 10
     region: content
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
-    weight: 30
+    weight: 15
     region: content
     settings: {  }
     third_party_settings: {  }
   scheduler_settings:
-    weight: 20
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -122,14 +141,14 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 13
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 11
     region: content
     third_party_settings: {  }
   title:
@@ -141,13 +160,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 7
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 7
     settings:
       match_operator: CONTAINS
       size: 60
@@ -157,12 +176,12 @@ content:
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default
-    weight: 30
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
