@@ -1,0 +1,9 @@
+uuid: 69241b18-163a-4f28-862a-ad4c84cecacb
+langcode: fi
+status: true
+dependencies: {  }
+id: zh
+label: Chinese
+direction: ltr
+weight: 2
+locked: false
