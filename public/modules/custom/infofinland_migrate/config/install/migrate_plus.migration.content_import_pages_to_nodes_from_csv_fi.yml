@@ -21,9 +21,10 @@ process:
   uid:
     plugin: default_value
     default_value: 1
-  title: Dokumentin nimi
-  field_page_name: Nimi valikossa
+  title: Nimi valikossa
+  field_page_name: Dokumentin nimi
   field_description: Kuvaus
+  # field_url: URL
   langcode: Kieli
   default_langcode:
     plugin: default_value
