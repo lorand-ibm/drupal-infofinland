@@ -22,6 +22,7 @@
         "drupal/helfi_tunnistamo": "^1.0",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/jsonapi_extras": "^3.19",
+        "drupal/jsonapi_menu_items": "^1.2",
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.4",
         "drupal/migrate_tools": "^5.0",
