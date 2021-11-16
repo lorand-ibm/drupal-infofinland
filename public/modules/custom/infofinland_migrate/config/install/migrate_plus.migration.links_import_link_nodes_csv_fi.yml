@@ -12,7 +12,7 @@ source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
   # change if not unique enough
-  delimiter: ';'
+  delimiter: ','
   ids: [id]
 process:
   type:
@@ -24,14 +24,24 @@ process:
     default_value: true
   title: Linkin Nimi
   # for finding links
-  field_link_description: Linkin kuvaus
+  field_link_description: Linkin Kuvaus
   # is hallintaorg still needed?
   # hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)
   # migration map reference to paragraph language_link
+  pseudo_paragraph_field:
+    plugin: migration_lookup
+    migration: links_import_link_paragraphs_csv
+    source: id
   field_links:
-    target_id:
-      plugin: migration_lookup
-      migration: links_import_link_paragraphs_csv
-      source: id
-      #no_stub: true
+    plugin: extract
+    source: '@pseudo_paragraph_field'
+    index:
+      - '0'
+  revision_id:
+    plugin: extract
+    source: '@pseudo_paragraph_field'
+    index:
+      - '1'
+
+

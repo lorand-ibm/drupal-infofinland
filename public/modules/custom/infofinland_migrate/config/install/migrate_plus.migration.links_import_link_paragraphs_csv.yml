@@ -13,9 +13,10 @@ source:
   path: modules/custom/infofinland_migrate/sources/migrate_link_paragraphs.csv
   # change if not unique enough
   delimiter: ','
-  ids: [id]
+  ids: [UniqueNimi, id]
 process:
   field_language_link: Url
+  field_link_id: id
   field_language:
     plugin: entity_lookup
     source: KieliNimi
