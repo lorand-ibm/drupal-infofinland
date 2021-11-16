@@ -40,6 +40,9 @@ module:
   image_style_quality: 0
   infofinland_migrate: 0
   infofinland_municipality_selection: 0
+  jsonapi: 0
+  jsonapi_menu_items: 0
+  jsonapi_resources: 0
   language: 0
   link: 0
   linkit: 0

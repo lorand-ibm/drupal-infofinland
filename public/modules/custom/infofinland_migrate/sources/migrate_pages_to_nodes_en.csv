@@ -1,0 +1,509 @@
+﻿sivun_id;Kieli;Nimi valikossa;Kuvaus;URL;Dokumentin ID;Dokumentin nimi
+237acc2f-ed06-4569-8521-1f3fc3c11d71;en;Infopankki website;;;;
+fc5d1355-6669-4536-a98d-40ec05a7f46c;en;;;;;
+46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;en;;;;;
+a1c69b58-877c-4f7e-a624-f2ab61c881ae;en;Front page;InfoFinland is your guide to life in Finland. Simple, clear, and up-to-date.;en/frontpage*;6581;Tiesitkö..? kuntatieto (en)
+e1d811ca-a89e-4885-a274-b5c434858dc4;en;Moving to Finland;Information about immigration and residence permits to Finland.  ;en/moving-to-finland;;
+51c5216c-a8ea-4112-b281-ba9ce8658c77;en;Coronavirus and moving to Finland;;en/moving-to-finland/coronavirus;8145;Koronavirus ja muutto Suomeen (en)
+6349989c-5b2c-4248-966e-acb55c7f5206;en;EU citizens;Immigration|EU|EU-citizen;en/moving-to-finland/eu-citizens;7887;EU-kansalaiset 101 (en)
+183cc97a-7f9d-4168-b878-2a8bb5106b8f;en;Registration of an EU citizen’s right of residence;Immigration|EU|EU-citizen|Registering a right of residence;en/moving-to-finland/eu-citizens/registration-of-an-eu-citizens-right-of-residence;7873;EU-kansalaisen oleskeluoikeuden rekisteröinti (en)
+df23804d-1074-4658-bdc1-4f284027f013;en;Non-EU citizens;;en/moving-to-finland/non-eu-citizens;;
+85f8f2ea-7704-45d3-9a73-adff4c0c57a2;en;Work in Finland;Immigration|Residence permits|Work permits|Labour immigration;en/moving-to-finland/non-eu-citizens/coming-to-work-in-finland;7228;Töihin Suomeen uusi (en)
+42aeaa3f-f711-4db3-a7cb-0528dcb4049b;en;Entrepreneur in Finland;Immigration|Residence permits|Entrepreneurs|Start-up;en/moving-to-finland/non-eu-citizens/becoming-an-entrepreneur-in-finland;7240;Suomeen yrittäjäksi uusi (en)
+d22f24e0-0abf-42db-b14a-9f491f2284ba;en;Study in Finland;Immigration|Residence permits|Foreign student|Studies;en/moving-to-finland/non-eu-citizens/coming-to-study-in-finland;7254;Opiskelemaan Suomeen uusi (en)
+cdc59818-fe2f-4887-8887-3efd6fa17057;en;Family member in Finland;Immigration|Residence permits|Family members|Family reunification;en/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member;7269;Perheenjäsenen luokse Suomeen (en)
+d5ba888c-a297-43d6-8d2d-478538e67308;en;Residence permit for a spouse;Immigration|Residence permits|Family reunification|Spouses;en/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member/residence-permit-for-a-spouse;7280;Oleskelulupa puolisolle (en)
+4d3a09ed-eb6b-48f5-a3e9-f99c5913b8c9;en;Asylum in Finland;Immigration|Asylum seekers|Asylum|Residence permits;en/moving-to-finland/non-eu-citizens/coming-to-finland-as-an-asylum-seeker;7314;Turvapaikanhakijana Suomeen uusi (en)
+36e3de2f-bea0-412b-8f26-71c1c2c67133;en;Quota refugees to Finland;Immigration|Refugees|Quota refugees|Residence permits;en/moving-to-finland/non-eu-citizens/coming-to-finland-as-a-refugee;7326;Pakolaisena Suomeen uusi (en)
+92dd7422-2524-40cf-8282-05776b7733b5;en;Remigration to Finland;Immigration|Returnees|Residence permits;en/moving-to-finland/non-eu-citizens/coming-to-finland-as-a-returnee;1841;Paluumuuttajana Suomeen 101 (en)
+c23f91eb-3256-47a1-8d28-c4fb7e66fb65;en;A short stay in Finland;Immigration|Visas|Exemption from visa|Schengen visa;en/moving-to-finland/non-eu-citizens/a-short-stay-in-finland;4529;Matkailijana Suomessa 101 (en)
+2d8f220c-6b38-4977-b41c-01238bd03dca;en;Residence permit extension;Immigration|Residence permits;en/moving-to-finland/non-eu-citizens/residence-permit-extension;1465;Jatko-oleskelulupa 101 (en)
+d2d9a08c-bc2f-4db6-8030-bdc906a91be5;en;If the reason for your residence in Finland changes;Immigration|Residence permits;en/moving-to-finland/non-eu-citizens/residence-permit-extension/if-the-reason-for-your-residence-in-finland-changes;1507;Jos Suomessa oleskelusi syy muuttuu 101 (en)
+5946cdea-2b3d-4622-83f1-685d776945aa;en;Permanent residence permit;Immigration|Residence permits|Permanent residence permit;en/moving-to-finland/non-eu-citizens/residence-permit-extension/permanent-residence-permit;7413;Pysyvä oleskelulupa (en)
+94a94e4c-720e-4ce1-b1df-68e0e83fdc86;en;Residence permit problems;Immigration|Residence permits|Problems;en/moving-to-finland/non-eu-citizens/residence-permit-problems;1535;Oleskelulupaongelmat 101 (en)
+cf78ef19-0828-4204-9c7c-4455a4f40154;en;Negative residence permit decision;Immigration|Residence permits|Deportation|Voluntary return;en/moving-to-finland/non-eu-citizens/residence-permit-problems/leaving-finland;1563;Poistuminen Suomesta 101 (en)
+df49de1f-9f5f-4c3c-9cae-22a58be08a65;en;Can I lose my residence permit?;Immigration|Residence permits;en/moving-to-finland/non-eu-citizens/residence-permit-problems/can-i-lose-my-residence-permit;1577;Voinko menettää oleskeluluvan? 101 (en)
+7ed88fce-2bae-44e2-bfb3-efc5bb9a04d0;en;In Finland without a residence permit;Immigration|Residence permits|Undocumented persons;en/moving-to-finland/non-eu-citizens/residence-permit-problems/in-finland-without-a-residence-permit;1605;Suomessa ilman oleskelulupaa 101 (en)
+14c38017-018a-49b8-90b2-fed2e155011d;en;Nordic citizens;Immigration|Nordic countries;en/moving-to-finland/nordic-citizens;7216;Pohjoismaiden kansalaiset (en)
+9a2451b5-f0ab-4624-ab36-993f17e90888;en;Registering as a resident;Immigration|Personal identification numbers;en/moving-to-finland/registering-as-a-resident;7339;Asukkaaksi rekisteröityminen (en)
+818445d9-3e98-4931-9650-c03f829c110e;en;Municipality of residence in Finland;Immigration|Municipality of residence;en/moving-to-finland/registering-as-a-resident/municipality-of-residence-in-finland;7351;Kotikunta Suomessa uusi (en)
+f8782797-8d2a-4af5-b85f-323ca1ec58c1;en;Moving to Finland checklist;Immigration|Check list;en/moving-to-finland/checklist-for-a-person-who-is-moving-to-finland;4389;Suomeen muuttajan muistilista 101 (en)
+c9d43e23-ca9a-4abd-b057-d2e26d93db4e;en;Living in Finland;How to find a job in Finland? How to rent an apartment?  Where to get advice in English? Answers to these questions and more in InfoFinland.;en/living-in-finland;;
+ea47ea4d-a528-4e9f-813f-805455242c60;en;Settling in Finland;Integration into Finland | Everyday life in Finland | Your rights and obligations in Finland | Finnish social security | Finnish citizenship;en/living-in-finland/settling-in-finland;;
+02ae3f57-f036-4593-8448-7ebd336a4a6f;en;Integration into Finland;;en/living-in-finland/settling-in-finland/integration-into-finland;1381;Kotoutuminen Suomeen 101 (en)
+2c338ccc-352f-4d67-824a-306413e21b5a;en;Everyday life in Finland;;en/living-in-finland/settling-in-finland/everyday-life-in-finland;7439;Arkielämä Suomessa 101 (en)
+2865ba69-c962-40ed-8d65-bcdf5b2cdcba;en;Cost of living in Finland;;en/living-in-finland/settling-in-finland/cost-of-living-in-finland;8103;Hintataso Suomessa 101 (en)
+496efaf0-70e8-4c63-b2b8-73584fdfdd6d;en;Do you need an interpreter?;;en/living-in-finland/settling-in-finland/do-you-need-an-interpreter;1395;Tarvitsetko tulkkia? 101 (en)
+fb0c05a9-ff56-4a7a-a8a2-f46240a005b7;en;Your rights and obligations in Finland;;en/living-in-finland/settling-in-finland/your-rights-and-obligations-in-finland;1409;Oikeutesi ja velvollisuutesi Suomessa 101 (en)
+b9b26068-b383-40ea-b36a-cb30f5e1033a;en;Finnish social security;;en/living-in-finland/settling-in-finland/finnish-social-security;1437;Suomen sosiaaliturva 101 (en)
+de90a37a-b2cd-4ad4-9eda-ba221e91fe9a;en;Finnish citizenship;;en/living-in-finland/settling-in-finland/finnish-citizenship;1619;Suomen kansalaisuus 101 (en)
+9e1bbcbb-3024-4047-9c2a-12f82b5d7dcb;en;How to apply for Finnish citizenship?;;en/living-in-finland/settling-in-finland/finnish-citizenship/how-to-apply-for-finnish-citizenship;1647;Miten Suomen kansalaisuutta voi hakea? 101 (en)
+97a59b9d-123c-4250-8750-05efbd4defff;en;The rights and obligations of Finnish citizens;;en/living-in-finland/settling-in-finland/finnish-citizenship/the-rights-and-obligations-of-finnish-citizens;1703;Suomen kansalaisen oikeudet ja velvollisuudet 101 (en)
+3362efaa-dc06-4bca-8de0-015d80113b34;en;Moving away from Finland;;en/living-in-finland/settling-in-finland/moving-abroad-from-finland;1814;Muutto Suomesta ulkomaille 101 (en)
+59e2b307-7109-4eb5-81af-03d56ac96522;en;Work and Enterprise ;Where to find work? | Starting a business | Obligations of the entrepreneur | Rights of the entrepreneur | Finnish company culture | Support for the entrepreneur | Taxation | Employee’s rights and obligations | Employer’s rights and obligations | Foreign diploma or degree in Finland | Unemployment benefit | Pension | Finnish working culture;en/living-in-finland/work-and-enterprise;;
+79d43554-a588-46cb-a5e5-5e3d8b20e65d;en;Find a job in Finland;Work|Vacancies|Jobseekers|Employment services;en/living-in-finland/work-and-enterprise/where-to-find-work;1883;Mistä työtä? 101 (en)
+7fafb9d3-1ea8-46d1-bde5-b0d366285a7a;en;Job application and CV;Work|Resumes|Cv|Job application|Vacancies|Job interviews;en/living-in-finland/work-and-enterprise/where-to-find-work/job-application-and-cv;1911;Työhakemus ja CV 101 (en)
+7fe79908-1359-4389-9e7a-c984d2d4f55e;en;Foreign diploma or degree in Finland;Work|Recognition of qualifications|Recognition of a degree|Foreign degrees;en/living-in-finland/work-and-enterprise/foreign-diploma-or-degree-in-finland;3202;Ulkomaiset tutkinnot Suomessa 101 (en)
+653271ce-765f-490b-ab63-86ac2729e5bc;en;Employee’s rights and obligations;Work|Employees' rights;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations;2219;Työntekijän oikeudet ja velvollisuudet 101 (en)
+3a70d1dd-c4bb-4c7c-9482-967774e943b9;en;Equality and equal opportunities in working life;Work|Equality|Equal opportunities;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/equality-and-equal-opportunities-in-working-life;2233;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (en)
+91b2bf68-e648-4733-8bdc-8294b4bd0e59;en;Conditions of employment and salary in Finland;Work|Employment contracts|Collective labour agreements ;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/conditions-of-employment-and-salary-in-finland;2247;Työsuhteen ehdoista sopiminen 101 (en)
+e865cf7a-3137-4a8f-ab99-ff6710867e98;en;Contents of a contract of employment;Work|Employment contracts;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/contents-of-a-contract-of-employment;2261;Työsopimuksen sisältö 101 (en)
+c02fd953-3f3c-4165-8343-a1a8eb38214b;en;Annual holidays;Work|;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/annual-holidays;8075;Vuosiloma 101 (en)
+d10ce58f-1117-492e-a3f3-9841e13d2286;en;Trade unions;Work|Trade unions|Unemployment benefit societies|Unemployment fund;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/trade-unions;2275;Ammattiliitot 101 (en)
+34fddd90-0389-48ae-b3dd-2fc18fbb1f2a;en;Health and safety at work;Work|Labour protection;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/health-and-safety-at-work;2289;Työsuojelu 101 (en)
+8a877873-8c58-48ed-9948-8ed70182ca16;en;Occupational health care;Work|Occupational health;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/occupational-health-care;2303;Työterveyshuolto 101 (en)
+d11ca985-c4a6-4563-b503-2da7f6d76cd0;en;If you fall ill;Work|Sick leave|Daily sickness allowances;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/if-you-fall-ill;2317;Jos sairastut  101 (en)
+99d1fca0-1679-4c26-be62-f4d1758f3a0e;en;Family leave;Work|Family leaves|Maternity leave|Paternity leave|Parental leave;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/family-leave;2331;Perhevapaat 101 (en)
+dd51bd76-8192-4e6b-905c-366d1873c531;en;Certificate of employment;Work|Certificates of employment;en/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/testimonial-of-service;2345;Työtodistus 101 (en)
+0cf90abc-1be1-410e-8fb1-81027ef34af4;en;Problems in working life;Work|Working life|Workplace bullying|Discrimination|Underpayment|Human trafficking;en/living-in-finland/work-and-enterprise/problems-in-working-life;7961;Työelämän ongelmat 101 (en)
+739c3f93-fc36-4503-aaa7-34a85c8a6614;en;Starting a business in Finland;Work|Starting a business|Start-up|Entrepreneurship|Business idea;en/living-in-finland/work-and-enterprise/starting-a-business;8045;Yrityksen perustaminen Suomessa 101 (en)
+74168a1c-3541-45f5-b672-d3b4d68f24ab;en;Company forms;Work|Company forms;en/living-in-finland/work-and-enterprise/starting-a-business/company-forms;2065;Yritysmuodot 101 (en)
+3a2965b2-77c1-4eab-acff-99215267ab6f;en;Obligations of the entrepreneur;Work|Start-up notification|Notification to Trade Register|Business licences|Insurances|Company taxation;en/living-in-finland/work-and-enterprise/information-for-entrepreneurs/obligations-of-the-entrepreneur;2079;Yrittäjän velvollisuudet 101 (en)
+a5f754d8-2ecc-4450-8d2e-5441b9c00660;en;Entrepreneur’s social security;Work|Business counselling|Entrepreneurs' organisations|Unemployment benefit|Daily sickness allowances;en/living-in-finland/work-and-enterprise/information-for-entrepreneurs/support-for-the-entrepreneur;2121;Tukea yrittäjälle 101 (en)
+41101935-877b-4cb1-a767-fdaf29f5cf90;en;Taxation;Work|Tax|Taxation of persons;en/living-in-finland/work-and-enterprise/taxation;7621;Verotus (en)
+cb7e978a-81de-4b94-89f8-5492c3113a0f;en;Tax card ;Work|Tax|Tax cards;en/living-in-finland/work-and-enterprise/taxation/tax-card;7599;Verokortti (en)
+c5c4ae84-b8d1-4a6e-a09c-bc184a09838a;en;Tax return and tax decision;Work|Tax|Tax returns|Tax proposals;en/living-in-finland/work-and-enterprise/taxation/tax-return-and-tax-decision;7610;Veroilmoitus ja verotuspäätös (en)
+1896a12c-9d6d-44ef-86ed-00b64ae94a45;en;Employer’s rights and obligations;Work|Employer obligations;en/living-in-finland/work-and-enterprise/employer-s-rights-and-obligations;2415;Työnantajan oikeudet ja velvollisuudet 101 (en)
+60c55ebc-169d-49be-9a47-0c3eb468537a;en;If you become unemployed;Work|Unemployment|Employment services|Employment and Economic Development Office|Jobseekers;en/living-in-finland/work-and-enterprise/unemployment-benefit/if-you-become-unemployed;2499;Jos jäät työttömäksi 101 (en)
+ac76702e-eb62-4e0d-a07d-3fc0a999c402;en;Unemployment benefit;Work|Unemployment|Social benefits|Unemployment benefit|Labour market subsidy|Unemployment benefit societies|Unemployment fund;en/living-in-finland/work-and-enterprise/unemployment-benefit;2471;Työttömyysturva 101 (en)
+cd09e6fa-161c-46c8-8bb1-bd0086e8ef0d;en;Pension;Work|Pensions|Social benefits;en/living-in-finland/work-and-enterprise/pension;2513;Eläke 101 (en)
+0e36a59b-8475-448c-a63f-5e2e414b40e0;en;Finnish working culture;Work|Work culture;en/living-in-finland/work-and-enterprise/finnish-working-culture;2527;Suomalainen työkulttuuri 101 (en)
+ba7d8fb9-3189-4663-8773-e4bdfbdd2d41;en;Everyday life at the workplace;Work|Work culture|Annual holidays|Working hours ;en/living-in-finland/work-and-enterprise/finnish-working-culture/everyday-life-at-the-workplace;2541;Työpaikan arki 101 (en)
+e836948e-450f-432f-bcff-84792263f5ab;en;Finnish and Swedish;Why should I study Finnish or Swedish?| Language course levels | Finnish online | Official certificate of language proficiency | Information about Finnish and Swedish;en/living-in-finland/finnish-and-swedish;;
+4891bf6c-79de-464f-b9cf-ac0001403f97;en;Why should I study Finnish or Swedish?;Finnish language|Studying Finnish;en/living-in-finland/finnish-and-swedish/why-should-i-study-finnish-or-swedish;2611;Miksi opiskelisin suomea tai ruotsia? 101 (en)
+3b0ae704-0272-4bca-b9ac-39b079e924e4;en;Studying Finnish;Finnish language|Finnish as a second language teaching|Studying Finnish;en/living-in-finland/finnish-and-swedish/studying-finnish;2737;Mahdollisuuksia opiskella suomen tai ruotsin kieltä 101 (en)
+3ecfd02d-f336-451e-a001-96f0c4232dd2;en;Language course levels;Finnish language|Language courses;en/living-in-finland/finnish-and-swedish/language-course-levels;2863;Kielikurssien tasot 101 (en)
+efe033a4-f8c4-4d6f-b6ed-6a4f9050b2f5;en;Finnish online;Finnish language|Online courses;en/living-in-finland/finnish-and-swedish/finnish-online;2891;Suomen kieltä internetissä 101 (en)
+2f451df1-bcfe-4cae-a205-4b50f98830f9;en;Official certificate of language proficiency;Finnish language;en/living-in-finland/finnish-and-swedish/official-certificate-of-language-proficiency;2905;Virallinen todistus kielitaidosta 101 (en)
+942c8187-4c57-4a60-958d-2bad78ac4891;en;Swedish language in Finland;Finnish language|Finland Swedish|Swedish language;en/living-in-finland/finnish-and-swedish/swedish-language-in-finland;7774;Ruotsin kieli Suomessa 101 (en)
+22179172-fe81-4721-a9e4-cb44aa8a1238;en;Information about Finnish and Swedish;Finnish language|Swedish language;en/living-in-finland/finnish-and-swedish/information-about-finnish-and-swedish;2919;Tietoa suomen ja ruotsin kielestä 101 (en)
+22de66d0-158f-49bd-a613-50c3b09778a7;en;Important sentences in Finnish;Finnish language;en/living-in-finland/finnish-and-swedish/important-sentences-in-finnish;2933;Joitakin hyödyllisiä lauseita 101 (en)
+8cffc12a-9660-4263-93e0-450212635e09;en;Housing;Housing in Finland | Rental home | Buying a home | Housing allowance | Waste and recycling | Safety at home;en/living-in-finland/housing;;
+ddfa21f6-b898-4ec8-875d-6d153b7a8018;en;Housing in Finland;;en/living-in-finland/housing/housing-in-finland;8066;Asuminen Suomessa (en)
+d1ca06ed-f15f-4e0d-889b-7fcf3b7bef49;en;Moving House;;en/living-in-finland/housing/moving-house;1426;Kun muutat 101 (en)
+6b4570e5-1d34-424e-ac02-82b2871c2bab;en;Rental home;;en/living-in-finland/housing/rental-dwelling;1454;Vuokra-asunto 101 (en)
+ee7c5908-9b2e-4a06-a436-c349429f12fa;en;Tenancy agreement;;en/living-in-finland/housing/rental-dwelling/tenancy-agreement;2587;Vuokrasopimus 101 (en)
+e319a48c-bbaf-4048-a086-48f01f0e4803;en;Buying a home;;en/living-in-finland/housing/owner-occupied-housing;1524;Oma asunto 101 (en)
+22d5157d-64e2-4d36-b9c3-52e9d0fc97f1;en;Student housing;;en/living-in-finland/housing/rental-dwelling/student-housing;2601;Opiskelijan asuminen 101 (en)
+7e9e747c-e862-4311-a09f-e065edf2e58e;en;Housing allowance;;en/living-in-finland/housing/housing-allowance;2139;Asumistuki 101 (en)
+679d8671-85c8-40f3-b2bc-99254da39079;en;Rights and obligations of occupants;;en/living-in-finland/housing/rights-and-obligations-of-occupants;7859;Asukkaan oikeudet ja velvollisuudet (en)
+f5ccea77-33e5-41c9-9cb4-dba7db231253;en;Safety at home;;en/living-in-finland/housing/safety-at-home;7790;Kodin turvallisuus (en)
+5d545074-65d2-4c2d-9060-7eeca6dc8b28;en;Waste and recycling;;en/living-in-finland/housing/waste-management-and-recycling;2405;Jätehuolto ja kierrätys 101 (en)
+dd48192b-40c8-431c-9bcf-96f574d4b8be;en;Supported and service housing;;en/living-in-finland/housing/supported-and-service-housing;1859;Tuki- ja palveluasuminen 101 (en)
+23a782fc-72ce-4f28-9e20-f20b40260fb6;en;Housing problems;;en/living-in-finland/housing/housing-problems;7847;Asumisen ongelmat (en)
+888ee5a3-a702-4db1-9f22-3e4c3ed5f219;en;Homelessness;;en/living-in-finland/housing/homelessness;7572;Asunnottomuus 101 (en)
+7a87cbd3-9d3a-4841-af00-452302bcfca7;en;Education;Child education | Vocational education and training | Upper secondary school | Higher education | Applying for education and training | Financing your studies | Foreign students in Finland;en/living-in-finland/education;;
+c841157f-210f-4837-9b53-02c9559400a0;en;The Finnish education system;Education|Education system;en/living-in-finland/education/the-finnish-education-system;7923;Suomalainen koulutusjärjestelmä (en)
+4e6147f5-f397-4d63-9f8b-e8ab8a138100;en;Early childhood education;Education|Day care|Child care|Early childhood education and care;en/living-in-finland/education/child-education/day-care;2642;Päivähoito 101 (en)
+d98f9a13-01e5-469e-8ed9-fbfb29eeab5b;en;Preschool education;Education|Pre-school education;en/living-in-finland/education/child-education/preschool-education;2656;Esiopetus 101 (en)
+cb688e95-0731-4cad-9416-77a37e22eff8;en;Comprehensive education;Education|Basic education|Comprehensive school|Preparatory education  ;en/living-in-finland/education/child-education/comprehensive-education;2670;Perusopetus 101 (en)
+87402287-7e3c-4741-bf08-bc7a2e96f20e;en;Vocational education and training;Education|Secondary education|Vocational education|Vocational training;en/living-in-finland/education/after-comprehensive-school/vocational-education-and-training;2810;Ammatillinen koulutus 101 (en)
+d7aa319d-17f8-4437-8a1b-be8c4ca65cd2;en;Upper secondary school;Education|Secondary education|General upper secondary school;en/living-in-finland/education/after-comprehensive-school/upper-secondary-school;2754;Lukio 101 (en)
+fa4a8c78-17dc-4f78-a511-c9e3e69b0a6b;en;Universities of applied sciences;Education|Tertiary education|Polytechnics|Polytechnic education|University of applied sciences degree;en/living-in-finland/education/higher-education/universities-of-applied-sciences;2978;Ammattikorkeakoulut 101 (en)
+9c707cef-b39e-49bd-8204-dd9b93ba5793;en;Universities;Education|Tertiary education|Universities;en/living-in-finland/education/higher-education/universities;2964;Yliopistot 101 (en)
+d81811d8-aff3-4170-85c4-7c1c86314825;en;Applying for education and training;Education|Secondary education|Tertiary education|Polytechnics|Universities|Vocational institutions|General upper secondary school ;en/living-in-finland/education/joint-application-and-entrance-exams;3006;Yhteishaku ja pääsykokeet 101 (en)
+70583078-58a9-45d6-ac1c-1a72ec58821d;en;Vocational labour market training ;Education|Vocational labour market training;en/living-in-finland/education/other-study-opportunities/labour-market-training;3090;Työvoimakoulutus 101 (en)
+c500f9e7-a3c6-49f6-a618-cdbdcbfab821;en;Studying as a hobby;Education|Hobbies|Open university|Open polytechnic|Folk high schools|Adult education centres;en/living-in-finland/education/other-study-opportunities/studying-as-a-hobby;3146;Opiskelu harrastuksena 101 (en)
+26ed45da-0f77-40fd-a714-7b5c0f35bb54;en;Financing your studies;Education|Social benefits|Student financial aid|Scholarship|Grants;en/living-in-finland/education/financing-studies;3160;Opintojen rahoittaminen 101 (en)
+17392c04-1b1e-47fe-810b-a8666e01b27b;en;Foreign students in Finland;Education|Foreign students|Exchange students;en/living-in-finland/education/foreign-students-in-finland;3188;Ulkomaalainen opiskelija Suomessa 101 (en)
+c8be2561-dcfc-4d0f-906f-46ae25555e72;en;Foreign degrees in Finland;Education|Recognition of qualifications|Recognition of a degree|Foreign degrees;en/living-in-finland/education/foreign-degrees-in-finland;3202;Ulkomaiset tutkinnot Suomessa 101 (en)
+b9efac23-56d4-4bb9-b4b9-32826b681df1;en;Health;Health services in Finland | Children’s health | Dental care | Mental health | Sexual health and contraception | Abortion | Pregnancy and childbirth | Medication | Support during illness | Rehabilitation | Disabled persons;en/living-in-finland/health;;
+051d2641-ac24-4717-a6d8-a52a6c6fd1dd;en;Emergencies;;en/living-in-finland/health/emergencies;3479;Hätätilanteet 101 (en)
+e2f5df02-fbba-4a4e-af1f-02710c151526;en;Health services in Finland;;en/living-in-finland/health/health-services-in-finland;3493;Terveyspalvelut Suomessa 101 (en)
+78def7fa-90e0-4399-96aa-afe4385e27f2;en;Children’s health;;en/living-in-finland/health/children-s-health;3535;Lapsen terveys 101 (en)
+3de8c50a-14bb-46a9-827a-141c38a90c6f;en;Dental care;;en/living-in-finland/health/dental-care;3843;Hammashoito 101 (en)
+5e6fae60-a6e1-4b52-9263-568670a66436;en;Mental health;;en/living-in-finland/health/mental-health;3857;Mielenterveys 101 (en)
+add611dc-6259-4145-ac9f-f6da503fb643;en;Sexual health and contraception;;en/living-in-finland/health/sexual-health;3885;Seksuaaliterveys 101 (en)
+171def19-678a-41e0-a756-24a0f600aa3e;en;Abortion;;en/living-in-finland/health/abortion;3913;Abortti 101 (en)
+34d94a9e-576e-4b07-a50a-a65ace7026ff;en;Pregnancy and childbirth;;en/living-in-finland/health/when-you-are-expecting-a-baby;3997;Kun odotat lasta 101 (en)
+a932bc15-ae92-40b8-816d-421d06872fc7;en;Medication;;en/living-in-finland/health/medication;4179;Lääkkeet 101 (en)
+94a436f1-779e-47fb-9165-43fd32d93ed4;en;Support during illness;;en/living-in-finland/health/support-during-illness;4193;Tukea sairauden aikana 101 (en)
+50833c20-2f5f-47c5-b3a8-57992911f2f3;en;Rehabilitation;;en/living-in-finland/health/rehabilitation;4221;Kuntoutus 101 (en)
+aebbaa81-124f-44ef-a389-504e4b7d7275;en;Disabled persons;;en/living-in-finland/health/disabled-persons;4235;Vammaiset 101 (en)
+1c6561f4-b872-4085-b234-bb6b88a5320e;en;Services for disabled persons;;en/living-in-finland/health/disabled-persons/help-for-everyday-life;4249;Apua arkeen 101 (en)
+8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;en;Financial support for disabled persons;;en/living-in-finland/health/disabled-persons/financial-support-for-disabled-persons;4263;Taloudellista tukea 101 (en)
+ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;en;Disabled child;;en/living-in-finland/health/disabled-persons/disabled-child;4305;Vammainen lapsi 101 (en)
+7563d1e9-a9dc-4ca6-a7b0-5fff5935579f;en;Family;What is a family? | Marriage | Divorce | Common-law relationship | Terminating a common-law relationship | Children | Financial support for families | Taking care of a child | Elderly;en/living-in-finland/family;;
+556cab51-1f10-4c03-8df6-fd01d4d00a87;en;What is a family?;Family|Rainbow families;en/living-in-finland/family/what-is-a-family;3021;Erilaisia perheitä 101 (en)
+e97af33e-e780-4eff-921b-1ebdd61d314b;en;Single parent families;Family|Single parent|Single parent families|Child support;en/living-in-finland/family/different-kinds-of-families/single-parent-families;3035;Yhden vanhemman perhe 101 (en)
+fbd67ab5-339d-41a9-96e4-9986fc5f4283;en;Marriage in Finland;Family|Marriage;en/living-in-finland/family/marriage;3231;Avioliitto 101 (en)
+0366c2f0-57dd-4fb1-8286-0c0f0954c652;en;Getting married in Finland, a check list;Family|Marriage|Wedding|Marriage contract|Surname;en/living-in-finland/family/marriage/getting-married-in-finland-a-check-list;3245;Avioliiton solmiminen Suomessa, muistilista 101 (en)
+cc7d8af9-af55-4330-98e4-8173640f87c0;en;Rights and obligations of spouses;;en/living-in-finland/family/marriage/being-married;3343;Elämä avioliitossa 101 (en)
+926f3a40-c1f8-4d30-b13d-97339396765e;en;Divorce;Family|Divorce;en/living-in-finland/family/divorce;3357;Avioero 101 (en)
+ca711f8c-acb7-469a-9d56-46d21141631e;en;Property in a divorce;Family|Divorce|Division of the property of the spouses;en/living-in-finland/family/divorce/property-in-a-divorce;3399;Omaisuus avioerossa 101 (en)
+189c2799-71ae-456a-849b-88a65db4f118;en;Children in a divorce;Family|Divorce|Child support|Custody and visitation rights|Child abduction;en/living-in-finland/family/divorce/children-in-a-divorce;3413;Lapset avioerossa 101 (en)
+a9c8a46b-27fb-444c-b08f-d9b015df86a0;en;Common-law relationship;Family|Common law marriage;en/living-in-finland/family/common-law-relationship;3427;Avoliitto 101 (en)
+ad2e518f-c633-431a-bdc0-8c4bf624634e;en;Terminating a common-law relationship;Family|Common law marriage|Separation|Common law marriage divorce;en/living-in-finland/family/terminating-a-common-law-relationship;3581;Avoliiton päättyminen 101 (en)
+59e7590a-61fb-4164-9f01-11af2853a1d4;en;Children;Family|Children;en/living-in-finland/family/children;3665;Lapset 101 (en)
+9d619dcb-b8e5-4105-858b-77e796931837;en;When a child is born in Finland ;Family|Children|Childbirth|Establishment of paternity|Guardianship;en/living-in-finland/family/children/when-a-child-is-born-in-finland;3707;Muistilista lasta toivovalle 101 (en)
+70e01e3d-6e97-4c53-8c9a-07ef24e0247f;en;Children’s and youths’ rights and obligations;Family|Children|Children's rights;en/living-in-finland/family/children/children-s-and-youths-rights-and-obligations;3763;Lasten ja nuorten oikeudet ja velvollisuudet 101 (en)
+b6869131-914a-4d63-9f48-4a355e52ff08;en;Bringing up children in Finland;Family|Children|Children's rights|Upbringing;en/living-in-finland/family/children/bringing-up-children-in-finland;3959;Lasten kasvatus Suomessa 101 (en)
+7119b283-e1dd-4b95-a831-a84c603f8dc5;en;Child welfare;Family|Child welfare;en/living-in-finland/family/children/child-welfare;7948;Lastensuojelu 101 (en)
+298b63e9-6e48-4ebd-b727-28997af8106f;en;Financial support for families;Family|Social benefits;en/living-in-finland/family/support-for-families;3973;Tukea perheille 101 (en)
+4d6719a0-8506-4eec-9a3e-e24e6ff69308;en;Support for pregnant women;Family|Social benefits|Maternity benefits|Maternity grant|Maternity allowance;en/living-in-finland/family/support-for-families/support-for-pregnant-women;4029;Tukea raskaana olevalle äidille 101 (en)
+ace09625-255b-4a40-974f-db2fc480ac75;en;Benefits for a family after a child is born;Family|Social benefits|Parental allowances|Paternity allowance;en/living-in-finland/family/support-for-families/kela-s-benefits-for-a-family-after-a-child-is-born;4057;Kelan tuet perheelle lapsen syntymän jälkeen 101 (en)
+14cefd4f-aae2-4dba-980f-54bbfe830dae;en;Benefits for looking after a child at home;Family|Social benefits|Child home care allowance|Flexible care allowance;en/living-in-finland/family/support-for-families/benefits-for-looking-after-a-child-at-home;7205;Tukea lapsen hoitamiseen kotona (en)
+28121374-5ccb-4065-9b6d-e9144764c7fd;en;Child benefit;Family|Social benefits|Child benefit;en/living-in-finland/family/support-for-families/child-benefit;7148;Lapsilisä (en)
+0199f76a-1108-4bce-9bdd-88d1edf28840;en;Taking care of a child;Family|Children|Early childhood education and care;en/living-in-finland/family/taking-care-of-a-child;2642;Päivähoito 101 (en)
+053d2b54-5980-4364-9b37-6d90713e3fb0;en;Balancing family life and work;;en/living-in-finland/family/balancing-family-life-and-work;8093;Perhe-elämän ja työn tasapaino 101 (en)
+fd81e7b1-9543-43b2-9ac5-e0e3b5490208;en;Elderly;Family|Elderly;en/living-in-finland/family/elderly;4281;Ikäihmiset 101 (en)
+3e467911-f045-418e-90e7-0f9013741e0f;en;Problem situations;Residence permit problems | Financial problems | Discrimination and racism | Crimes | Violence | Do you need a lawyer? | Children's and young people's problems | Human trafficking | Intoxicant abuse | Death;en/living-in-finland/problem-situations;;
+58c705a6-51d7-425e-a64a-99e2e524388d;en;Coronavirus COVID-19;;en/living-in-finland/problem-situations/coronavirus;8118;Koronavirus COVID-19 (en)
+a98d1846-bc4a-4153-8406-58482af9da15;en;Emergencies;Problems|Emergency situations|Emergency numbers;en/living-in-finland/problem-situations/emergencies;3479;Hätätilanteet 101 (en)
+f9058fbe-7476-4114-9be3-33adc6fc35ef;en;Residence permit problems;;en/living-in-finland/problem-situations/residence-permit-problems;1535;Oleskelulupaongelmat 101 (en)
+1eef1246-3b62-4042-a9be-b49738b1c969;en;Negative residence permit decision ;;en/living-in-finland/problem-situations/residence-permit-problems/leaving-finland;1563;Poistuminen Suomesta 101 (en)
+7d6fc21f-02c7-4f4d-b579-3fdd09601742;en;Can I lose my residence permit?;;en/living-in-finland/problem-situations/residence-permit-problems/losing-your-residence-permit;1577;Voinko menettää oleskeluluvan? 101 (en)
+e16bef1e-152a-4eba-9e04-1219c5a7e21e;en;In Finland without a residence permit;;en/living-in-finland/problem-situations/residence-permit-problems/in-finland-without-a-residence-permit;1605;Suomessa ilman oleskelulupaa 101 (en)
+a0436cb2-7c6d-4d28-abac-361d60473a38;en;Financial problems;Problems|Financial and debt councelling|Debt collection|Social benefits|Basic social assistance|Gambling addiction;en/living-in-finland/problem-situations/financial-problems;4827;Taloudelliset ongelmat 101 (en)
+37ead9a4-3f29-4b16-8e82-59f21681a824;en;Discrimination and racism;Problems|Discrimination|Racism||Non-Discrimination Ombudsman;en/living-in-finland/problem-situations/discrimination-and-racism;4659;Syrjintä ja rasismi 101 (en)
+77216c7e-3e67-49aa-8697-c084b4821b07;en;Crimes;Problems|Crimes|Victims of crime| Trial;en/living-in-finland/problem-situations/crimes;8031;Rikokset 101 (en)
+9c1d2dbe-f2a5-4f4b-9bf4-dbc59131e33d;en;Do you need a lawyer?;Problems|Lawyer|Legal aid;en/living-in-finland/problem-situations/do-you-need-a-lawyer;4757;Tarvitsetko juristia? 101 (en)
+377bd0be-ca59-4f9a-b557-664129d883da;en;Violence;Problems|Violence|Rape|Honour related violence|Shelters|Restraining order;en/living-in-finland/problem-situations/violence;7990;Väkivalta 101 (en)
+0f658267-9f4a-4b24-a92c-ede475f36f3a;en;Children's and young people's problems;Problems|School bullying|Child abuse|Substance abuse problems|Honour related violence|Family counselling;en/living-in-finland/problem-situations/children-s-and-young-people-s-problems;4771;Lasten ja nuorten ongelmat 101 (en)
+3e1b8ba9-3e38-4939-93f2-c3a4911bc6c3;en;Human trafficking and forced labour;Problems|Human trafficking|Forced labour|Prostitution;en/living-in-finland/problem-situations/human-trafficking;4799;Ihmiskauppa 101 (en)
+bb078d92-6213-41e6-b72d-1b5a94537900;en;Intoxicant abuse;Problems|Substance abuse problems|Alcoholism;en/living-in-finland/problem-situations/intoxicant-abuse;4841;Päihdeongelmat 101 (en)
+882d5b38-7dbd-44a5-8680-ef001e714c00;en;Death;Problems|Death|Funeral|Estate inventory|Will|Inheritance tax;en/living-in-finland/problem-situations/death;4869;Kuolema 101 (en)
+9fbb80b0-0619-4c7f-85c2-c113b0e8a2d4;en;Leisure;Libraries | Sports | Recreation and travel in nature | Theatre and cinema | Museums | Hobbies for children and young people | Associations | Voluntary work;en/living-in-finland/leisure;;
+4232fe59-baf3-4397-9ed0-35bd1a9eb66d;en;Libraries;Leisure|Libraries|Library cards;en/living-in-finland/leisure/libraries;3315;Kirjastot 101 (en)
+a3fb97db-ab77-46b7-9122-0bc1b62c8975;en;Sports;Leisure|Sports;en/living-in-finland/leisure/sports;3371;Liikunta 101 (en)
+da9688b6-6563-4e9d-898f-439ea08fd7cc;en;Outdoor activities;Leisure|Hiking|Skiing|Fishing|Everyman's rights|National parks;en/living-in-finland/leisure/recreation-and-travel-in-nature;3441;Luonnossa liikkuminen 101 (en)
+403a86df-b812-4a11-af4c-83dc8165c641;en;Theatre and cinema;Leisure|Theatre|Cinemas;en/living-in-finland/leisure/theatre-and-cinema;3455;Teatteri ja elokuva 101 (en)
+e18b5469-e526-4eca-9cb2-e81cd11d203b;en;Museums;Leisure|Museums;en/living-in-finland/leisure/museums;3469;Museot 101 (en)
+a07326a1-410a-4d2d-b781-7f4a9c3cf49d;en;Music;Leisure|Music;en/living-in-finland/leisure/music;7695;Musiikki 101 (en)
+65897fb6-ab66-4fe4-93f9-627b656a2adf;en;Hobbies for children and young people;Leisure|Hobbies|Children|Young people;en/living-in-finland/leisure/hobbies-for-children-and-young-people;3595;Lasten ja nuorten harrastukset 101 (en)
+5c84bbd1-88a2-41d3-8210-c0df7aa6070f;en;Associations;Leisure|Associations|Immigrant organisation;en/living-in-finland/leisure/associations;3721;Yhdistykset 101 (en)
+3eeb2078-ae4c-4311-97ea-9ac7797f0ce9;en;Voluntary work;Leisure|Volunteer work;en/living-in-finland/leisure/voluntary-work;3735;Vapaaehtoistyö 101 (en)
+246f4eaa-dfce-41e8-8147-6cea4bc2e1c8;en;Information about Finland;Find information about the Finnish climate, Finnish customs and culture, and much more.;en/information-about-finland;;
+b4564b31-ef8a-4f41-8e84-7978899caea2;en;Basic information about Finland;Finland in brief | Finnish history | Finnish climate | Traffic in Finland | Media in Finland | Cultures and religions in Finland;en/information-about-finland/basic-information-about-finland;;
+131432cf-7512-4c89-96cb-144e29259614;en;Finland in brief;;en/information-about-finland/basic-information-about-finland/finland-in-brief;4403;Suomi lyhyesti 101 (en)
+1f748383-ad90-4d76-a428-4cb74f1a7ba3;en;Finnish history;;en/information-about-finland/basic-information-about-finland/finnish-history;4417;Suomen historiaa 101 (en)
+96312a8f-61e1-451d-9fc1-3f27b49c58ef;en;Finnish climate;;en/information-about-finland/basic-information-about-finland/finnish-climate;4431;Suomen ilmasto 101 (en)
+6c6a880e-44a6-4826-be96-a4b74cf3d91a;en;Traffic in Finland;;en/information-about-finland/basic-information-about-finland/traffic-in-finland;4445;Liikenne Suomessa 101 (en)
+e17b942d-9501-40b2-b9f8-7d284fffa354;en;Media in Finland;;en/information-about-finland/basic-information-about-finland/media-in-finland*;7633;Media Suomessa uusi (en)
+65d93ad6-1811-4cde-b211-97c224db9dfa;en;Cultures and religions in Finland;;en/information-about-finland/basic-information-about-finland/cultures-and-religions-in-finland;4473;Kulttuurit ja uskonnot Suomessa 101 (en)
+bd3a6e0c-8753-4d07-8a7f-678a33f22363;en;Finnish customs;;en/information-about-finland/basic-information-about-finland/cultures-and-religions-in-finland/finnish-customs;4487;Suomalainen tapakulttuuri 101 (en)
+be29d32a-79b2-4f7c-b19b-50a812b9895d;en;Finnish holidays;;en/information-about-finland/basic-information-about-finland/cultures-and-religions-in-finland/finnish-holidays;7934;Suomalaiset juhlapyhät 101 (en)
+e9fea556-a924-4e0d-bd91-827e88ede975;en;Finnish society;Finnish administration | Elections and voting in Finland | Legislation and rights | Equality and equal opportunities | Important authorities;en/information-about-finland/finnish-society;;
+e1be6c95-61fa-424a-a7ee-e462d84218c9;en;Finnish administration;;en/information-about-finland/finnish-society/finnish-administration;1310;Valtio ja kunnat 101 (en)
+bd199dce-569c-47c8-b65c-4326f21e1fa1;en;Elections and voting in Finland;;en/information-about-finland/finnish-society/elections-in-finland;1324;Vaalit Suomessa 101 (en)
+004dc81b-92ed-4b12-bc7a-84aa31909c3d;en;Legislation and rights;;en/information-about-finland/finnish-society/legislation-and-rights;4543;Lait ja oikeudet 101 (en)
+4f92a32c-cb64-456e-af46-84e7792ab37f;en;Equality and non-discrimination;;en/information-about-finland/finnish-society/equality-and-non-discrimination;1352;Tasa-arvo ja yhdenvertaisuus Suomessa 101 (en)
+19f1acbc-1dc9-4587-9271-9a4bc56aab6f;en;Important authorities;;en/information-about-finland/finnish-society/important-authorities;1366;Tärkeitä viranomaisia 101 (en)
+3137fa34-a659-49be-8a96-c778599eaed2;en;Call and ask for advice;;en/information-about-finland/call-and-ask;4641;Soita ja kysy 101 (en)
+1565ab29-3d83-4a47-b440-b8d239521fc1;en;Cities;;en/local-information;7679;Kaupungit 101 (en)
+38314e32-cb4c-4a28-afe0-51cda79122ed;en;Helsinki;InfoFinland provides information about Helsinki and its services for newcomers.;en/helsinki*;;
+63fe82f7-ec4e-46ac-a519-9841614a9dd0;en;Moving to Helsinki;Find out how to move to and settle in Helsinki.;en/helsinki/moving-to-helsinki;4907;Muutto Helsinkiin 101 (en)
+d2b68cda-a0a3-4d6f-b1b6-f63c7f813cec;en;Living in Helsinki;;en/helsinki/life-in-helsinki;;
+4363dc60-c45f-4f28-a24f-93050ebb4fbe;en;Settling in Helsinki;;en/helsinki/life-in-helsinki/settling-in-helsinki;4909;Maahanmuuttajana Helsingissä 101 (en)
+453d825d-011c-4fcb-b0d4-e13fc4fc4eff;en;Work and Enterprise in Helsinki;;en/helsinki/life-in-helsinki/employment-and-entrepreneurship-in-helsinki;7645;Työ ja yrittäjyys Helsingissä, uusi (en)
+12019317-5121-4915-9032-4aa324308da6;en;Finnish and Swedish in Helsinki;;en/helsinki/life-in-helsinki/finnish-and-swedish-in-helsinki;4979;Suomen ja ruotsin kieli Helsingissä 101 (en)
+843bd1ee-315e-4d39-8df8-50f2cbb058bb;en;Housing in Helsinki;Information about finding a home in Helsinki. How to rent an apartment, buy a home and other options.;en/helsinki/life-in-helsinki/housing-in-helsinki;4993;Asuminen Helsingissä 101 (en)
+2f30b1e9-d25f-42fa-823f-86e048754b35;en;Education in Helsinki;;en/helsinki/life-in-helsinki/education-in-helsinki;4934;Koulutus Helsingissä 101 (en)
+04acff9f-55a2-4700-b420-aa7d06d37366;en;Health in Helsinki;;en/helsinki/life-in-helsinki/health-in-helsinki;4937;Terveys Helsingissä 101 (en)
+9cda207c-8f81-4854-8413-7b1794eb10b0;en;Family in Helsinki;;en/helsinki/life-in-helsinki/family-in-helsinki;7656;Perhe Helsingissä 101 (en)
+3b536289-bb54-4b4a-893d-e86fd1ff0405;en;Problem situations in Helsinki;;en/helsinki/life-in-helsinki/problem-situations-in-helsinki;7704;Ongelmatilanteet Helsingissä, uusi (en)
+5af36274-eda3-43c2-9e21-0d9ac9435ac4;en;Leisure in Helsinki;;en/helsinki/life-in-helsinki/leisure-in-helsinki;5021;Vapaa-aika Helsingissä 101 (en)
+22ac8409-17df-49ae-86ab-83d27e17165a;en;Information about Helsinki;;en/helsinki/information-about-helsinki;5035;Tietoa Helsingistä 101 (en)
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;en;Espoo;;en/espoo*;;
+91bde7d1-82fd-43c2-8748-264b3fbd054f;en;Moving to Espoo;;en/espoo/moving-to-espoo;5432;Muutto Espooseen 101 (en)
+0fe2bbad-e9f0-41c0-b626-7bcaa8121be0;en;Living in Espoo;;en/espoo/life-in-espoo;;
+ab08128a-9302-4fb4-b3af-ca95b5613a20;en;Settling in Espoo;;en/espoo/life-in-espoo/settling-in-espoo*;5457;Maahanmuuttajana Espoossa 101 (en)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;en;Work and Enterprise in Espoo;;en/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo*;5471;Työ ja yrittäjyys Espoossa 101 (en)
+cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;en;Finnish and Swedish in Espoo;;en/espoo/life-in-espoo/finnish-and-swedish-in-espoo;5485;Suomen ja ruotsin kieli Espoossa 101 (en)
+01de4173-7e00-438f-9299-cc556bbe2867;en;Housing in Espoo;;en/espoo/life-in-espoo/housing-in-espoo*;5499;Asuminen Espoossa 101 (en)
+6b98cb98-5e55-4025-9555-7c423b976979;en;Education in Espoo;;en/espoo/life-in-espoo/education-in-espoo*;5583;Koulutus Espoossa 101 (en)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;en;Health in Espoo;;en/espoo/life-in-espoo/health-in-espoo*;5513;Terveys Espoossa 101 (en)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;en;Family in Espoo;;en/espoo/life-in-espoo/family-in-espoo*;5527;Perhe Espoossa 101 (en)
+b73964a8-5698-43ae-90c4-04d32e617716;en;Problem situations in Espoo;;en/espoo/life-in-espoo/problem-situations-in-espoo;5541;Ongelmatilanteet Espoossa 101 (en)
+15a30394-ec03-43a4-9cbd-0838665668b7;en;Leisure in Espoo;;en/espoo/life-in-espoo/leisure-in-espoo*;5555;Vapaa-aika Espoossa 101 (en)
+bc06509c-6faa-49dc-8457-9484dd7b40d0;en;Information about Espoo;;en/espoo/information-about-espoo;5569;Tietoa Espoosta 101 (en)
+b50a728a-f038-47e2-bef9-f58aad73eb74;en;Vantaa;;en/vantaa;;
+c20f70d0-dade-40e0-aacf-3917806aa8f2;en;Moving to Vantaa;;en/vantaa/moving-to-vantaa;5633;Muutto Vantaalle 101 (en)
+001ceceb-ab0e-4a7f-9f21-2c91452b628f;en;Living in Vantaa;;en/vantaa/life-in-vantaa;;
+b598219d-b73d-443c-8d24-bd4901f899b6;en;Settling in Vantaa;;en/vantaa/life-in-vantaa/settling-in-vantaa;5619;Maahanmuuttajana Vantaalla 101 (en)
+5fc95a7e-79a6-4361-95f5-7a99b272729a;en;Employment and entrepreneurship in Vantaa;;en/vantaa/life-in-vantaa/employment-and-entrepreneurship-in-vantaa;5717;Työ ja yrittäjyys Vantaalla 101 (en)
+8eb30249-033d-4397-bf4c-ba4cc37499f6;en;Finnish and Swedish  in Vantaa;;en/vantaa/life-in-vantaa/finnish-and-swedish-in-vantaa;5675;Suomen ja ruotsin kieli Vantaalla 101 (en)
+a0776c63-c863-491a-ab68-22c96bbad803;en;Housing in Vantaa;;en/vantaa/life-in-vantaa/housing-in-vantaa;5591;Asuminen Vantaalla 101 (en)
+009a551f-43c1-4653-816a-ad67eb4bbf66;en;Education in Vantaa;;en/vantaa/life-in-vantaa/education-in-vantaa;5605;Koulutus Vantaalla 101 (en)
+693a26fa-55f9-4a08-a34f-dde705477167;en;Health in Vantaa;;en/vantaa/life-in-vantaa/health-in-vantaa;5689;Terveys Vantaalla 101 (en)
+ffef7b6e-0b28-495b-90bf-aef78f9ce459;en;Family in Vantaa;;en/vantaa/life-in-vantaa/family-in-vantaa;5661;Perhe Vantaalla 101 (en)
+07647a36-0fbd-4b4d-af3a-65ad48b00cc7;en;Problem situations in Vantaa;;en/vantaa/life-in-vantaa/problem-situations-in-vantaa;5647;Ongelmatilanteet Vantaalla 101 (en)
+ba399b5f-16bb-42e2-b11c-8dba0aa0a53d;en;Leisure in Vantaa;;en/vantaa/life-in-vantaa/leisure-in-vantaa;5731;Vapaa-aika Vantaalla 101 (en)
+724e92a4-3d8b-466f-8b78-0769ecfa3e70;en;Information about Vantaa;;en/vantaa/information-about-vantaa;5703;Tietoa Vantaasta 101 (en)
+3cf32436-2419-4478-8e98-254939dc97a7;en;Kauniainen;;en/kauniainen;;
+930c1a77-7354-4405-be2e-dd3d6a4ef3ad;en;Moving to Kauniainen;;en/kauniainen/moving-to-kauniainen;5287;Muutto Kauniaisiin 101 (en)
+981da5a4-6ce2-4e7d-955f-0e88559ffb42;en;Living in Kauniainen;;en/kauniainen/life-in-kauniainen;;
+e86c232b-3bc5-4c99-a1d1-0e95573ae180;en;Settling in Kauniainen;;en/kauniainen/life-in-kauniainen/settling-in-kauniainen;5301;Maahanmuuttajana Kauniaisissa 101 (en)
+c3b2292f-e1a5-43c0-8ecc-86b41c776b57;en;Work and Enterprise in Kauniainen;;en/kauniainen/life-in-kauniainen/employment-and-entrepreneurship-in-kauniainen;5315;Työ ja yrittäjyys Kauniaisissa 101 (en)
+76cbf233-55bc-49bf-9c4f-fadd43ae07a5;en;Finnish and Swedish in Kauniainen;;en/kauniainen/life-in-kauniainen/finnish-and-swedish-in-kauniainen;5329;Suomen ja ruotsin kieli Kauniaisissa 101 (en)
+cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;en;Housing in Kauniainen;;en/kauniainen/life-in-kauniainen/housing-in-kauniainen;5333;Asuminen Kauniaisissa 101 (en)
+0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;en;Education in Kauniainen;;en/kauniainen/life-in-kauniainen/education-in-kauniainen;5346;Koulutus Kauniaisissa 101 (en)
+378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;en;Health in Kauniainen;;en/kauniainen/life-in-kauniainen/health-in-kauniainen;5360;Terveys Kauniaisissa 101 (en)
+5a80be63-b992-4607-bfc3-3a952f0adeaf;en;Family in Kauniainen;;en/kauniainen/life-in-kauniainen/family-in-kauniainen;5374;Perhe Kauniaisissa 101 (en)
+1830103c-6c1c-4238-82e7-cfce0b37cec5;en;Problem situations in Kauniainen;;en/kauniainen/life-in-kauniainen/problem-situations-in-kauniainen;5388;Ongelmatilanteet Kauniaisissa 101 (en)
+41f48e24-df3d-4e0c-a77e-02f517a24ad2;en;Leisure in Kauniainen;;en/kauniainen/life-in-kauniainen/leisure-in-kauniainen;5414;Vapaa-aika Kauniaisissa 101 (en)
+428bcf0b-16a1-4d35-a9bf-e36a854e641d;en;Information on Kauniainen;;en/kauniainen/information-on-kauniainen;5427;Tietoa Kauniaisista 101 (en)
+0a05dd04-b92d-4afb-afde-9a61b038402c;en;Turku;;en/turku;;
+a45490a3-1df9-4795-8488-f6b9a0abf431;en;Moving to Turku;;en/turku/moving-to-turku;6049;Muutto Turkuun 101 (en)
+b3a8c348-d147-4bc5-9c8d-a8799cb33350;en;Life in Turku;;en/turku/life-in-turku;;
+190e1e86-65a3-46e9-aea0-334e4d119217;en;Settling in Turku;;en/turku/life-in-turku/settling-in-turku;6050;Maahanmuuttajana Turussa 101 (en)
+311c5fe3-ef47-4a6e-b901-4b246d25fca0;en;Employment and entrepreneurship in Turku;;en/turku/life-in-turku/employment-and-entrepreneurship-in-turku;6051;Työ ja yrittäjyys Turussa 101 (en)
+f8833a9a-d60b-43af-944a-9e2a6eb95fc9;en;Finnish and Swedish language in Turku;;en/turku/life-in-turku/finnish-and-swedish-language-in-turku;6052;Suomen ja ruotsin kieli Turussa 101 (en)
+9965222a-cb6a-4059-875f-966f2326b2b3;en;Housing in Turku;;en/turku/life-in-turku/housing-in-turku;6053;Asuminen Turussa 101 (en)
+fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;en;Education in Turku;;en/turku/life-in-turku/education-in-turku;6054;Koulutus Turussa 101 (en)
+a69591f5-a925-4a91-8833-4935159628c4;en;Health in Turku;;en/turku/life-in-turku/health-in-turku;6055;Terveys Turussa 101 (en)
+fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;en;Family in Turku;;en/turku/life-in-turku/family-in-turku;6056;Perhe Turussa 101 (en)
+00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;en;Problem situations in Turku;;en/turku/life-in-turku/problem-situations-in-turku;6057;Ongelmatilanteet Turussa 101 (en)
+f7d4e9d9-521c-4239-be9e-894f2ce54fee;en;Leisure in Turku;;en/turku/life-in-turku/leisure-in-turku;7500;Vapaa-aika Turussa 101 (en)
+4cc76399-6709-449b-94b8-15752740d3a2;en;Information about Turku;;en/turku/information-about-turku;6059;Tietoa Turusta 101 (en)
+93748f03-8254-4732-b4d1-18dcd00ce004;en;Tampere;;en/tampere;;
+64d44733-7c54-48ab-b0b9-f8f0dee102e5;en;Moving to Tampere;;en/tampere/moving-to-tampere;6249;Muutto Tampereelle 101 (en)
+32eaeae0-52dc-420b-80b8-d87ea50c88ab;en;Life in Tampere;;en/tampere/life-in-tampere;;
+6673a511-9ed6-49c2-95e1-1d35b2fb8aee;en;Settling in Tampere;;en/tampere/life-in-tampere/settling-in-tampere;6252;Maahanmuuttajana Tampereella 101 (en)
+adcebb6e-6da2-4f7a-9af6-6a9dc879617d;en;Employment and entrepreneurship in Tampere;;en/tampere/life-in-tampere/employment-and-entrepreneurship-in-tampere;6255;Työ ja yrittäjyys Tampereella 101 (en)
+9254f096-351d-46fc-b80b-21f8008097b5;en;Finnish and Swedish language in Tampere;;en/tampere/life-in-tampere/finnish-and-swedish-language-in-tampere;6258;Suomen ja ruotsin kieli Tampereella 101 (en)
+2004c540-a6ab-46be-baee-d2a94c2a56fe;en;Housing in Tampere;;en/tampere/life-in-tampere/housing-in-tampere;6261;Asuminen Tampereella 101 (en)
+578c6f33-efa6-4f31-a063-b10cf0ab4144;en;Education in Tampere;;en/tampere/life-in-tampere/education-in-tampere;6264;Koulutus Tampereella 101 (en)
+3716da5a-628d-489f-97e2-2a0759f66b78;en;Health in Tampere;;en/tampere/life-in-tampere/health-in-tampere;6267;Terveys Tampereella 101 (en)
+85edbd71-06f3-4ba8-b3e4-70520db67eb0;en;Family in Tampere;;en/tampere/life-in-tampere/family-in-tampere;6270;Perhe Tampereella 101 (en)
+43ad3129-fb5b-4bd0-9c9d-1311a034b101;en;Problem situations in Tampere;;en/tampere/life-in-tampere/problem-situations-in-tampere;6273;Ongelmatilanteet Tampereella 101 (en)
+209ed2ef-17a5-404f-a4af-8f0b4275e476;en;Leisure in Tampere;;en/tampere/life-in-tampere/leisure-in-tampere;6276;Vapaa-aika Tampereella 101 (en)
+b60d19f6-e192-4035-80f9-b9d366613375;en;Information about Tampere;;en/tampere/information-about-tampere;6279;Tietoa Tampereesta 101 (en)
+d559163c-89c5-45c0-9087-7707f9a37cd1;en;Vaasa;;en/vaasa;;
+f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;en;Moving to Vaasa;;en/vaasa/moving-to-vaasa;8296;Muutto Vaasaan (en)
+ebe628a2-d4c9-431a-a396-9c84f5805ede;en;Living in Vaasa;;en/vaasa/living-in-vaasa;;
+6d7dcf87-6366-46c9-87e3-035f6dc78bae;en;Settling in Vaasa;;en/vaasa/living-in-vaasa/settling-in-vaasa;8298;Asettuminen Vaasaan (en)
+f1f2c82d-776d-453d-abc3-ed12407dd9df;en;Employment and entrepreneurship in Vaasa;;en/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;8300;Työ ja yrittäjyys Vaasassa (en)
+5cacd26d-b497-43ea-9bc6-b961e9529956;en;Finnish and Swedish in Vaasa;;en/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;8302;Suomen ja ruotsin kieli Vaasassa (en)
+31bb9ff2-e81c-46d1-aaa6-f30492afd121;en;Housing in Vaasa;;en/vaasa/living-in-vaasa/housing-in-vaasa;8304;Asuminen Vaasassa (en)
+361d50b1-68dc-4dab-9b0b-6026cb587513;en;Education in Vaasa;;en/vaasa/living-in-vaasa/education-in-vaasa;8306;Koulutus Vaasassa (en)
+fa40cc0c-caae-497f-bbbd-6eca60ff423f;en;Health in Vaasa;;en/vaasa/living-in-vaasa/health-in-vaasa;8308;Terveys Vaasassa (en)
+ae246a1e-2212-4721-9458-d7c5b3dae373;en;Family in Vaasa;;en/vaasa/living-in-vaasa/family-in-vaasa;8310;Perhe Vaasassa (en)
+0d26cd30-e83d-4756-84c3-fc813318f5a4;en;Problem situation in Vaasa;;en/vaasa/living-in-vaasa/problem-situations-in-vaasa;8312;Ongelmatilanteet Vaasassa (en)
+05a5ef85-d450-4957-955c-d4824c91e4ae;en;Leisure in Vaasa;;en/vaasa/living-in-vaasa/leisure-in-vaasa;8314;Vapaa-aika Vaasassa (en)
+d4be8171-1ea8-4fcb-b335-7cfa492fbb85;en;Information about Vaasa;;en/vaasa/information-about-vaasa;8316;Tietoa Vaasasta (en)
+5e219db4-0238-4f20-ac17-9a0dc4644a3c;en;Kokkola;;en/kokkola;;
+111e0594-0d14-45c8-ac84-431812a9de04;en;Moving to Kokkola;;en/kokkola/moving-to-kokkola;7070;Muutto Kokkolaan (en)
+f3ec856c-f772-4334-9456-c7da9cedaf15;en;Life in Kokkola;;en/kokkola/life-in-kokkola;;
+f9a2fdf9-b99b-454a-afd5-b1383fb497cf;en;Settling in Kokkola;;en/kokkola/life-in-kokkola/settling-in-kokkola;7073;Maahanmuuttajana Kokkolassa (en)
+300bcd96-b169-4745-a9c6-84bee739192f;en;Work and enterprise in Kokkola;;en/kokkola/life-in-kokkola/work-and-enterprise-in-kokkola;7076;Työ ja yrittäjyys Kokkolassa (en)
+ccac10a8-c6f3-456f-9ad1-f078b0a51554;en;Finnish and Swedish in Kokkola;;en/kokkola/life-in-kokkola/finnish-and-swedish-in-kokkola;7079;Suomen ja ruotsin kieli Kokkolassa (en)
+5a5a9564-8bc7-486a-9032-a5c1ab78f1b4;en;Housing in Kokkola;;en/kokkola/life-in-kokkola/housing-in-kokkola;7082;Asuminen Kokkolassa (en)
+2e526bfb-47fe-447a-bec0-a9d800f6b77d;en;Education in Kokkola;;en/kokkola/life-in-kokkola/education-in-kokkola;7085;Koulutus Kokkolassa (en)
+558314b1-b7d3-4eb9-8ff8-b9cd94258c02;en;Health care in Kokkola;;en/kokkola/life-in-kokkola/health-care-in-kokkola;7088;Terveys Kokkolassa (en)
+ad4a44c0-0a45-470d-a0fa-18e9dc4a8e6c;en;Family in Kokkola;;en/kokkola/life-in-kokkola/family-in-kokkola;7091;Perhe Kokkolassa (en)
+c0d48252-a3b9-471f-9377-28c503466cbb;en;Problem situations in Kokkola;;en/kokkola/life-in-kokkola/problem-situations-in-kokkola;7094;Ongelmatilanteet Kokkolassa (en)
+8c935248-2aa7-49fe-8cda-2fbd6ed65f89;en;Leisure in Kokkola;;en/kokkola/life-in-kokkola/leisure-in-kokkola;7097;Vapaa-aika Kokkolassa (en)
+ab5d8e9c-9835-4057-8e92-dae8f95b24d3;en;Information about Kokkola;;en/kokkola/information-about-kokkola;7100;Tietoa Kokkolasta (en)
+4801216c-4339-4dd2-8e0f-b725d7aee691;en;Raahe-Kalajoki Region;;en/raahe-kalajoki-region;6833;Raahe-Kalajoki seutu (en)
+f617ea56-b89e-4ead-a454-b73f980296e1;en;Moving to Raahe-Kalajoki Region;;en/raahe-kalajoki-region/moving-to-raahe-kalajoki-region;6836;Muutto Raahe-Kalajoki seudulle (en)
+a899faa1-d191-4870-89fc-da8b14ce3deb;en;Life in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region;;
+a824736e-4875-4885-8d96-ee61d595726e;en;Settling in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/settling-in-the-raahe-kalajoki-region;6839;Maahanmuuttajana Raahe-Kalajoki seudulla (en)
+e0e67965-8ec0-480f-9627-980c9688a6e0;en;Work and enterprise in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/work-and-enterprise-in-the-raahe-kalajoki-region;6842;Työ ja yrittäjyys Raahe-Kalajoki seudulla (en)
+609c04ad-6d36-428e-9166-d762fe0de8bd;en;Finnish and Swedish in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/finnish-and-swedish-in-the-raahe-kalajoki-region;6845;Suomen ja ruotsin kieli Raahe-Kalajoki seudulla (en)
+3c92672c-2ea7-4cdf-a4f4-66dcbe869b73;en;Housing in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/housing-in-the-raahe-kalajoki-region;6848;Asuminen Raahe-Kalajoki seudulla (en)
+ebfdf03a-8d8c-4f8a-9aa2-d0cbd6f41130;en;Education in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/education-in-the-raahe-kalajoki-region;6851;Koulutus Raahe-Kalajoki seudulla (en)
+be2ebd2b-72a6-4b0a-b8ec-dbb09e345f60;en;Health care in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/health-care-in-the-raahe-kalajoki-region;6854;Terveys Raahe-Kalajoki seudulla (en)
+12bac84b-640c-427e-9078-6b61f51fae93;en;Family in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/family-in-the-raahe-kalajoki-region;6857;Perhe Raahe-Kalajoki seudulla (en)
+31f735f0-3149-4cd0-bf3d-3306a84e5b35;en;Problem situations in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/problem-situations-in-the-raahe-kalajoki-region;6860;Ongelmatilanteet Raahe-Kalajoki seudulla (en)
+be5d6b88-6dd9-4ea4-8382-accbff75d0a3;en;Leisure in the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/leisure-in-the-raahe-kalajoki-region;6863;Vapaa-aika Raahe-Kalajoki seudulla (en)
+e74648c6-8b2b-42c3-a634-2eb34cb5970d;en;Information about the Raahe-Kalajoki Region;;en/raahe-kalajoki-region/information-about-the-raahe-kalajoki-region;6866;Tietoa Raahe-Kalajoki seudusta (en)
+9bdb7fc2-5ccf-4b7b-a214-860caa8e66ca;en;Raahe;;en/raahe;;
+81198fee-4f01-4c50-ba4d-524764907ee9;en;Moving to Raahe;;en/raahe/moving-to-raahe;6869;Muutto Raaheen (en)
+83d5569c-a066-4dae-923e-5c23bf71dcac;en;Life in Raahe;;en/raahe/life-in-raahe;;
+2ff98b30-9829-47ce-bc2d-13601af4dac5;en;Settling in Raahe;;en/raahe/life-in-raahe/settling-in-raahe;6872;Maahanmuuttajana Raahessa (en)
+6bb67706-56c3-45a1-b324-0f9752ce5ace;en;Work and enterprise in Raahe;;en/raahe/life-in-raahe/work-and-enterprise-in-raahe;6875;Työ ja yrittäjyys Raahessa (en)
+b12fa9de-62eb-4bf5-8f7c-4e770d73d068;en;Finnish and Swedish in Raahe;;en/raahe/life-in-raahe/finnish-and-swedish-in-raahe;6878;Suomen ja ruotsin kieli Raahessa (en)
+63d2f9a0-b6fd-46ba-9947-3d7ccff7a078;en;Housing in Raahe;;en/raahe/life-in-raahe/housing-in-raahe;6881;Asuminen Raahessa (en)
+a6c5eab9-62ac-4c88-bdcb-f04769ce0c49;en;Education in Raahe;;en/raahe/life-in-raahe/education-in-raahe;6884;Koulutus Raahessa (en)
+4ddc57a6-913c-4cc3-86b2-acca99aa30f2;en;Health care in Raahe;;en/raahe/life-in-raahe/health-care-in-raahe;6887;Terveys Raahessa (en)
+749e7c03-635e-4ade-8d6c-7c476fa5ccd6;en;Family in Raahe;;en/raahe/life-in-raahe/family-in-raahe;6890;Perhe Raahessa (en)
+9303b83e-3f00-4ca2-b695-40a36177b3e3;en;Problem situations in Raahe;;en/raahe/life-in-raahe/problem-situations-in-raahe;6893;Ongelmatilanteet Raahessa (en)
+ae88f99f-e977-4cee-af13-542b51155ae2;en;Leisure in Raahe;;en/raahe/life-in-raahe/leisure-in-raahe;6896;Vapaa-aika Raahessa (en)
+f83328bd-3d2e-4687-b7e0-f257953a2909;en;Information about Raahe;;en/raahe/information-about-raahe;6899;Tietoa Raahesta (en)
+a5fb7e87-a9b1-491e-bad9-915fa9898d5c;en;Siikajoki;;en/siikajoki;;
+7e4d4c1f-52d3-4285-aadc-5c8ec2b93f01;en;Moving to Siikajoki;;en/siikajoki/moving-to-siikajoki;6902;Muutto Siikajoelle (en)
+7966706e-d731-456c-a298-bdef96a982d9;en;Life in Siikajoki;;en/siikajoki/life-in-siikajoki;;
+10dc3f34-9d7b-4e69-a35c-537748a160b1;en;Settling in Siikajoki;;en/siikajoki/life-in-siikajoki/settling-in-siikajoki;6905;Maahanmuuttajana Siikajoella (en)
+94268f60-08e6-4547-881e-bc58b852b1bb;en;Work and enterprise in Siikajoki;;en/siikajoki/life-in-siikajoki/work-and-enterprise-in-siikajoki;6908;Työ ja yrittäjyys Siikajoella (en)
+01ed4ce1-417b-49da-94c9-5d97052df930;en;Finnish and Swedish in Siikajoki;;en/siikajoki/life-in-siikajoki/finnish-and-swedish-in-siikajoki;6911;Suomen ja ruotsin kieli Siikajoella (en)
+81fd4b30-dc24-473c-9c6a-7c8408703819;en;Housing in Siikajoki;;en/siikajoki/life-in-siikajoki/housing-in-siikajoki;6914;Asuminen Siikajoella (en)
+3049f5df-e5a8-4388-9073-497a44782a4d;en;Education in Siikajoki;;en/siikajoki/life-in-siikajoki/education-in-siikajoki;6917;Koulutus Siikajoella (en)
+0172730e-fa9c-44c6-9b90-f6ba65c8aaad;en;Health care in Siikajoki;;en/siikajoki/life-in-siikajoki/health-care-in-siikajoki;6920;Terveys Siikajoella (en)
+421b7d98-eb1d-4ee9-9a99-ca5f8b2ec2ec;en;Family in Siikajoki;;en/siikajoki/life-in-siikajoki/family-in-siikajoki;6923;Perhe Siikajoella (en)
+9bddc2f8-b18f-4103-83b6-29f61579a9a8;en;Problem situations in Siikajoki;;en/siikajoki/life-in-siikajoki/problem-situations-in-siikajoki;6926;Ongelmatilanteet Siikajoella (en)
+e9aea636-f834-49cd-8bdb-ba71a7f19335;en;Leisure in Siikajoki;;en/siikajoki/life-in-siikajoki/leisure-in-siikajoki;6929;Vapaa-aika Siikajoella (en)
+5debf8fb-42aa-42a4-ace4-30b7fb74aafa;en;Information about Siikajoki;;en/siikajoki/information-about-siikajoki;6932;Tietoa Siikajoesta (en)
+9fcc3214-5527-4335-a7a7-77e2d48c9a0c;en;Pyhäjoki;;en/pyhajoki;;
+d17bf47d-856b-46f0-a8ed-1f43cabd6723;en;Moving to Pyhäjoki;;en/moving-to-pyhajoki;6935;Muutto Pyhäjoelle (en)
+513e2335-cae5-4e4c-9381-062c1b36411b;en;Life in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki;;
+80741bf3-5f6c-4c85-a30f-8e09879e2671;en;Settling in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/settling-in-pyhajoki;6938;Maahanmuuttajana Pyhäjoella (en)
+b2d6d633-df66-4a4b-bbf4-978b62c63be5;en;Work and enterprise in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/work-and-enterprise-in-pyhajoki;6941;Työ ja yrittäjyys Pyhäjoella (en)
+f8c7fdc6-789a-4fab-b673-6505b10bab11;en;Finnish and Swedish in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/finnish-and-swedish-in-pyhajoki;6944;Suomen ja ruotsin kieli Pyhäjoella (en)
+bbead372-f699-4166-836a-dac4cfdea987;en;Housing in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/housing-in-pyhajoki;6947;Asuminen Pyhäjoella (en)
+af543d2c-c88c-431d-b4f0-0f1c50da3190;en;Education in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/education-in-pyhajoki;6950;Koulutus Pyhäjoella (en)
+f436f1ec-2cfa-4933-8b75-1dcf5cc550b3;en;Health care in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/health-care-in-pyhajoki;6953;Terveys Pyhäjoella (en)
+27411248-b191-49ad-b018-21148f6d5190;en;Family in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/family-in-pyhajoki;6956;Perhe Pyhäjoella (en)
+997ae13a-dfe7-403d-b294-1ba23f56e32f;en;Problem situations in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/problem-situations-in-pyhajoki;6959;Ongelmatilanteet Pyhäjoella (en)
+64f0496c-179f-47f0-be68-2260528f0d3b;en;Leisure in Pyhäjoki;;en/pyhajoki/life-in-pyhajoki/leisure-in-pyhajoki;6962;Vapaa-aika Pyhäjoella (en)
+e745aa09-cef1-4b20-aaf8-b10a925b1d83;en;Information about Pyhäjoki;;en/pyhajoki/information-about-pyhajoki;6965;Tietoa Pyhäjoesta (en)
+0d41ff28-79cb-4b1b-a072-7779ccfb3b70;en;Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi;;
+0afdf045-1300-4b50-abcd-3852a685b531;en;Moving to Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/moving-to-kalajoki-and-merijarvi;6968;Muutto Kalajoelle ja Merijärvelle (en)
+d7707dfa-1fc8-4e07-bf65-b0d707607296;en;Life in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi;;
+f5025b4b-f79e-4a73-94e8-1d08bbf90056;en;Settling in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/settling-in-kalajoki-and-merijarvi;6971;Maahanmuuttajana Kalajoella ja Merijärvellä (en)
+b6adaf16-41c0-41ac-922a-8195f322297c;en;Work and enterprise in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/work-and-enterprise-in-kalajoki-and-merijarvi;6974;Työ ja yrittäjyys Kalajoella ja Merijärvellä (en)
+0e489239-1a8b-4355-8e56-b181b9bb49f4;en;Finnish and Swedish in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/finnish-and-swedish-in-kalajoki-and-merijarvi;6977;Suomen ja ruotsin kieli Kalajoella ja Merijärvellä (en)
+f015ba1f-0a3e-4c36-b2d2-3c89add70c65;en;Housing in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/housing-in-kalajoki-and-merijarvi;6980;Asuminen Kalajoella ja Merijärvellä (en)
+9aaf4cca-573e-4194-beea-fe4d63d4ec5b;en;Education in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/education-in-kalajoki-and-merijarvi;6983;Koulutus Kalajoella ja Merijärvellä (en)
+8cd9c5a4-a913-40c4-9f0f-8463e3519870;en;Health care in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/health-care-in-kalajoki-and-merijarvi;6986;Terveys Kalajoella ja Merijärvellä (en)
+3fb55b8c-b9f5-49a1-8d62-a2ba9ba733e1;en;Family in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/family-in-kalajoki-and-merijarvi;6989;Perhe Kalajoella ja Merijärvellä (en)
+a657f3df-8cb3-4aa5-88a2-8e213c9bc8d8;en;Problem situations in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/problem-situations-in-kalajoki-and-merijarvi;6992;Ongelmatilanteet Kalajoella ja Merijärvellä (en)
+8bc5353f-77c9-4e21-bc50-78cf8996770c;en;Leisure in Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/life-in-kalajoki-and-merijarvi/leisure-in-kalajoki-and-merijarvi;6995;Vapaa-aika Kalajoella ja Merijärvellä (en)
+a8c2d8d8-06c5-4500-9ef2-f3e184f2dde6;en;Information about Kalajoki and Merijärvi;;en/kalajoki-and-merijarvi/information-about-kalajoki-and-merijarvi;6998;Tietoa Kalajoesta ja Merijärvestä (en)
+796a09da-581d-4d6e-b898-97f75b5b4174;en;Kalajoki;;en/kalajoki;;
+100b78b4-cc5d-44a2-b108-5c0a7c638a1f;en;Moving to Kalajoki;;en/kalajoki/moving-to-kalajoki;8222;Muutto Kalajoelle (en)
+08d63fac-675d-4251-9840-1d34948956cb;en;Living in Kalajoki;;en/kalajoki/living-in-kalajoki;;
+b7406434-4936-417b-9231-7a38fabb14b5;en;Settling in Kalajoki;;en/kalajoki/living-in-kalajoki/settling-in-kalajoki;8226;Asettuminen Kalajoelle (en)
+6a131806-270e-416c-9cfd-f56ab205e908;en;Work and enterprise in Kalajoki;;en/kalajoki/living-in-kalajoki/work-and-enterprise-in-kalajoki;8229;Työ ja yrittäjyys Kalajoella (en)
+611f8128-eb5f-476a-9938-2d8e42e0fe48;en;Finnish and Swedish in Kalajoki;;en/kalajoki/living-in-kalajoki/finnish-and-swedish-in-kalajoki;8232;Suomen ja ruotsin kieli Kalajoella (en)
+69254d98-e556-4f3a-8088-162e48f141c5;en;Housing in Kalajoki;;en/kalajoki/living-in-kalajoki/housing-in-kalajoki;8275;Asuminen Kalajoella (en)
+0fe1251d-e0b9-4947-a8ca-2751de6a626b;en;Education in Kalajoki;;en/kalajoki/living-in-kalajoki/education-in-kalajoki;8278;Koulutus Kalajoella (en)
+7807c289-ed9e-4d36-89b4-8ba18defda8c;en;Health in Kalajoki;;en/kalajoki/living-in-kalajoki/health-in-kalajoki;8281;Terveys Kalajoella (en)
+ac2c98f3-8c47-4014-a0cc-315ebe268d44;en;Family in Kalajoki;;en/kalajoki/living-in-kalajoki/family-in-kalajoki;8284;Perhe Kalajoella (en)
+d7175fb2-53f5-4e8c-b2c7-69ede3171b06;en;Problem situations in Kalajoki;;en/kalajoki/living-in-kalajoki/problem-situations-in-kalajoki;8287;Ongelmatilanteet Kalajoella (en)
+2f7a301b-fce7-4550-b617-dd25d3103c04;en;Leisure in Kalajoki;;en/kalajoki/living-in-kalajoki/leisure-in-kalajoki;8290;Vapaa-aika Kalajoella (en)
+84df2789-059e-40c5-897b-1609372b335f;en;Information about Kalajoki;;en/kalajoki/information-about-kalajoki;8293;Tietoa Kalajoesta (en)
+ba2d977b-ac65-4161-85c8-3db13b9672ae;en;Merijärvi;;en/merijarvi;;
+b69589d7-42a1-4562-b501-736475a27b66;en;Moving to Merijärvi;;en/merijarvi/moving-to-merijarvi;8246;Muutto Merijärvelle (en)
+7523bb7b-cc40-40c0-9072-c4feac0ad892;en;Living in Merijärvi;;en/merijarvi/living-in-merijarvi;;
+76a88278-2fa7-4ea7-8f89-293047aabafd;en;Settling in Merijärvi;;en/merijarvi/living-in-merijarvi/settling-in-merijarvi;8248;Asettuminen Merijärvelle (en)
+17cc757e-85af-48a0-9997-550850ff3f89;en;Work and enterprise in Merijärvi;;en/merijarvi/living-in-merijarvi/work-and-enterprise-in-merijarvi;8250;Työ ja yrittäjyys Merijärvellä (en)
+c9c4564e-0648-445c-a613-3b53c35a2654;en;Finnish and Swedish in Merijärvi;;en/merijarvi/living-in-merijarvi/finnish-and-swedish-in-merijarvi;8270;Suomen ja ruotsin kieli Merijärvellä (en)
+1ba58294-097c-49b5-a8ae-496394de832c;en;Housing in Merijärvi;;en/merijarvi/living-in-merijarvi/housing-in-merijarvi;8268;Asuminen Merijärvellä (en)
+813a27e6-e50e-45cd-b43e-60bcbec0d0f6;en;Education in Merijärvi;;en/merijarvi/living-in-merijarvi/education-in-merijarvi;8262;Koulutus Merijärvellä (en)
+a958cedd-0397-4e34-a576-09a6f69ded3a;en;Health in Merijärvi;;en/merijarvi/living-in-merijarvi/health-in-merijarvi;8266;Terveys Merijärvellä (en)
+218bc500-1bdd-4eff-8a19-a3d9e247ac50;en;Family in Merijärvi;;en/merijarvi/living-in-merijarvi/family-in-merijarvi;8264;Perhe Merijärvellä (en)
+119440db-204a-4d82-838b-3e06bdf6b00b;en;Problem situations in Merijärvi;;en/merijarvi/living-in-merijarvi/problem-situations-in-merijarvi;8260;Ongelmatilanteet Merijärvellä (en)
+bc140111-638f-4b8c-9644-4f15e4176681;en;Leisure in Merijärvi;;en/merijarvi/living-in-merijarvi/leisure-in-merijarvi;8258;Vapaa-aika Merijärvellä (en)
+b8387a8d-ce00-488c-b8dc-5450f10137d8;en;Information about Merijärvi;;en/merijarvi/information-about-merijarvi;8254;Tietoa Merijärvestä (en)
+cbd02ef1-cc5f-42d7-a2a0-d81b3835b8a0;en;Iisalmi;;en/iisalmi;;
+ffeaa352-17c1-4f07-a24c-7916d72fcc81;en;Moving to Iisalmi;;en/iisalmi/moving-to-iisalmi;;
+bc51f8a7-6da6-4e1b-9df0-88bcf2bb3a26;en;Living in Iisalmi;;en/iisalmi/living-in-iisalmi;;
+538d8cfd-5702-4afa-8943-b7e666ad8718;en;Settling in Iisalmi;;en/iisalmi/living-in-iisalmi/settling-in-iisalmi;;
+f35458b4-376b-4f76-8e0b-e4fae50097f9;en;Work and enterprise in Iisalmi;;en/iisalmi/living-in-iisalmi/work-and-enterprise-in-iisalmi;;
+5a74dad9-05e4-499f-b82b-30cdd4627f3f;en;Finnish and Swedish in Iisalmi;;en/iisalmi/living-in-iisalmi/finnish-and-swedish-in-iisalmi;;
+8bc35b47-d615-4fe9-b5ba-ab04bea92ded;en;Housing in Iisalmi;;en/iisalmi/living-in-iisalmi/housing-in-iisalmi;;
+bad71bd1-5d02-4997-b9db-db7455e21c56;en;Education in Iisalmi;;en/iisalmi/living-in-iisalmi/education-in-iisalmi;;
+ad9100d9-56f1-4607-b62c-f6fd11764eb5;en;Health in Iisalmi;;en/iisalmi/living-in-iisalmi/health-in-iisalmi;;
+22a0fd81-606d-4fb7-9ac6-186a64bcd432;en;Family in Iisalmi;;en/iisalmi/living-in-iisalmi/family-in-iisalmi;;
+64325cb3-3f94-4cf5-b436-c94dd1279edf;en;Problem situations in Iisalmi;;en/iisalmi/living-in-iisalmi/problem-situations-in-iisalmi;;
+b0857cf9-25ba-4bfd-b1a4-d02e37723db5;en;Leisure in Iisalmi;;en/iisalmi/living-in-iisalmi/leisure-in-iisalmi;;
+f4ba4c12-4a3b-44ce-91df-c60fa92af171;en;Information about Iisalmi;;en/iisalmi/information-about-iisalmi;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;en;Kajaani;;en/kajaani;;
+8b70001f-6267-46d0-9ba9-bcf070479b8a;en;Moving to Kajaani;;en/kajaani/moving-to-kajaani;;
+82e2794c-5848-4c62-b73b-8cb9b9e31441;en;Living in Kajaani;;en/kajaani/living-in-kajaani;;
+53450101-6764-4278-87bf-4f8f29a629ee;en;Settling in Kajaani;;en/kajaani/living-in-kajaani/settling-in-kajaani;;
+bb2d8f8f-5638-481f-b070-84765258dbaa;en;Work and enterprise in Kajaani;;en/kajaani/living-in-kajaani/work-and-enterprise-in-kajaani;;
+a75558ed-334f-4e67-8c4b-3d441fce8372;en;Finnish and Swedish in Kajaani;;en/kajaani/living-in-kajaani/finnish-and-swedish-in-kajaani;;
+e6aeafe2-9e21-46b1-a92b-32087e2682cd;en;Housing in Kajaani;;en/kajaani/living-in-kajaani/housing-in-kajaani;;
+caf1bc79-188d-48de-a37f-db9a3b53a85f;en;Education in Kajaani;;en/kajaani/living-in-kajaani/education-in-kajaani;;
+e3d285ea-a3b2-4604-abbf-7223a531f76c;en;Health in Kajaani;;fi/kajaani/elama-kajaanissa/health-in-kajaani;;
+34cf126b-0303-4277-90d7-0af8da4449af;en;Family in Kajaani;;en/kajaani/living-in-kajaani/family-in-kajaani;;
+b6f678fe-1ef7-49ec-b56c-46548be4f688;en;Problem situations in Kajaani;;en/kajaani/living-in-kajaani/problem-situations-in-kajaani;;
+c6afd1de-2eea-43ee-b47c-f903a3f402d1;en;Leisure in Kajaani;;en/kajaani/living-in-kajaani/leisure-in-kajaani;;
+eba58f46-16b3-4a46-b6bc-095b09fc66c4;en;Information about Kajaani;;en/kajaani/information-about-kajaani;;
+c244f8d7-c2ae-4666-89e1-9e60fb8415ab;en;Oulu;;en/oulu;;
+283c9309-3cb7-403e-9340-3d8ed1208200;en;Moving to Oulu;;en/oulu/moving-to-oulu;5972;Muutto Ouluun 101 (en)
+25251e7f-166c-43d5-8700-2ebc9d65a201;en;Life in Oulu;;en/oulu/life-in-oulu;;
+e5c2e5b7-579e-4dd4-91bf-025c2b059664;en;Settling in Oulu;;en/oulu/life-in-oulu/settling-in-oulu;5978;Maahanmuuttajana Oulussa 101 (en)
+ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;en;Employment and entrepreneurship in Oulu;;en/oulu/life-in-oulu/employment-and-entrepreneurship-in-oulu;5984;Työ ja yrittäjyys Oulussa 101 (en)
+896ef1e5-d14d-463c-9507-6bbdc9320db6;en;Finnish and Swedish language in Oulu;;en/oulu/life-in-oulu/finnish-and-swedish-language-in-oulu;5990;Suomen ja ruotsin kieli Oulussa 101 (en)
+504e95c4-2469-4e40-a264-0da3f545442d;en;Housing in Oulu;;en/oulu/life-in-oulu/housing-in-oulu;5996;Asuminen Oulussa 101 (en)
+46760792-340d-4beb-9869-66b334f07533;en;Education in Oulu;;en/oulu/life-in-oulu/education-in-oulu;6002;Koulutus Oulussa 101 (en)
+2c8818fa-93f6-4fbb-adbe-57cdf1164041;en;Health in Oulu;;en/oulu/life-in-oulu/health-in-oulu;6008;Terveys Oulussa 101 (en)
+a78f0e66-b9ca-420c-bb2f-ce864c04adf4;en;Family in Oulu;;en/oulu/life-in-oulu/family-in-oulu;6014;Perhe Oulussa 101 (en)
+2cde674b-3205-4965-83b2-cf7410ebe944;en;Problem situations in Oulu;;en/oulu/life-in-oulu/problem-situations-in-oulu;6020;Ongelmatilanteet Oulussa 101 (en)
+0e71697b-b9d9-4c93-8003-1472b9dc329d;en;Leisure in Oulu;;en/oulu/life-in-oulu/leisure-in-oulu;6026;Vapaa-aika Oulussa 101 (en)
+24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;en;Information about Oulu;;en/oulu/information-about-oulu;6032;Tietoa Oulusta 101 (en)
+f8004920-1f5a-4fc0-9ffd-b6827d57923d;en;Current news;;en/ajankohtaista*;;
+d0932e2b-6254-45a3-9ac2-6d241321980f;en;About the Service;;en/about-the-service;5064;Tietoa palvelusta (en)
+ca1f0554-4196-4ce1-aede-e666fdffb733;en;Current news;;en/current-news;;
+e5415a42-55ca-411d-9caf-9426a7cd124b;en;Images;;en/images;6360;Kuvat 101 (en)
+0a6710cb-d892-4dab-88e6-d658645a8a3c;en;Newsletter;;en/newsletter;6375;Uutiskirje 101 (en)
+7f6f3ca4-5657-4e5e-b4ad-d1c0f8b0e8bf;en;Content production;;en/content-production;6417;Sisällöntuotanto 101 (en)
+96bc63f2-29a0-46ca-a614-51ebbfa1e325;en;Translations;;en/translations;6428;Käännökset 101 (en)
+2c87f794-2df5-4618-b501-b3d89e81a8fd;en;Open data;;en/about-the-service/open-data;7734;Avoin data 101 (en)
+4f38d262-17de-483c-86c0-6341373da04b;en;;;en/about-the-service/prime101.aspx;;
+8699372c-48e9-47f8-862f-3e91d456e7f3;en;Funders;;en/funders;7676;Rahoittajat 101 (en)
+61024a82-7511-4d37-bc15-df14f0c0aad0;en;Visitor statistics;;en/visitor-statistics;6439;Kävijätilastot 101 (en)
+20b5c102-959a-4782-991e-9dd2dbb0905f;en;Contact information;;en/contact-information;5078;Yhteystiedot 101 (en)
+eadbffd6-ace0-4d27-86f7-62ccf41494c3;en;Sitemap;;en/sitemap;;
+bdfaadb0-7010-4f6b-b33c-0743c92e7ab7;en;Video competition ;;en/video-competition;6215;Videokilpailu 101 (en)
+da6e7b02-beb0-4bf0-bccf-3824f848d1f8;en;;;;;
+78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;en;Feedback;;en/feedback;5050;Footerin palaute (en)
+6b216373-9708-4fcb-8aa6-9745fefd5422;en;;;en/feedback/prime101.aspx;;
+a8dee53e-5a06-4238-959d-10182391c5d6;en;Data protection;;en/about-the-service/data-protection;7972;Tietosuoja (en)
+9022eb34-67ed-4d2a-8737-829d617a6e2c;en;Accessibility;;en/about-the-service/accessibility;8157;Saavutettavuus (en)
+49b24f4b-3da6-4ef8-b287-5e160e42316f;en;Online user panel;;en/online-user-panel;7810;Verkkopaneeli (en)
+a14f59d3-7d52-43de-9cfd-682f307d545a;en;User survey;;en/user-survey;6689;Kävijäkysely 101 (en)
+0b9296ca-1bb4-467e-aca3-c65ce22fe08a;en;100 Photos of Friendship;;100photos;7798;100 kuvaa ystävyydestä 101 (en)
+9791b5c5-272a-4c5c-bf03-841ecb46783a;en;Special functionality;;;;
+34e1223b-abe0-4f1c-9c22-ea044369f05f;en;Css-tyylitiedosto selaimia varten_en;;;;
+c438a8b7-0576-4bed-b9ac-4baa90876adf;en;Css-tyylitiedosto tulostusta varten_en;;;;
+c1a9a53e-c318-4596-9d45-2471c542533b;en;Search;;;;
+871697ac-6ee5-4136-8a19-39e26574e366;en;404 Page not found;;;20;404 Sivua ei löydy
+1d28f816-c0bc-4494-b5b6-69eefbcbec0c;en;;;;;
+d10264b6-72d4-48a5-aafc-733b1d1dba8d;en;Feedback;;en/palaute;7040;palautesivun sisältö (en)
+5d999349-63b0-4f01-b160-1d80a6ea0595;en;Thank you for your feedback!;;en/kiitos-palautteesta;7055;kiitos palautteesta (en)
+7c278b6b-6983-47ef-ab43-202df47d2b55;en;Content is not available in the selected language. Please select another language.;;;;
+df141ede-71f9-46dd-9001-479fd7e81463;en;;;;;
+1536042b-c390-49bf-85f7-bd66899fab64;en;;;prime108/prime102.aspx;;
+171b1b2b-95dd-477d-abce-2720bb610c8e;en;;;prime114.aspx;;
+17c49750-702c-4667-b6aa-db504901d471;en;Quick guides for persons moving to Finland;;en/moving-to-finland/i-am-;;
+f9de2d8d-2d0d-4631-a987-48aa4f79e9d7;en;Student;;en/moving-to-finland/i-am-/student;;
+82903420-120a-49cf-b8bf-364165884493;en;Refugee;;en/moving-to-finland/i-am-/refugee;;
+fbfc10c1-a969-4c5b-b46b-79a29fa4089c;en;Asylum seeker;;en/moving-to-finland/i-am-/asylum-seeker;;
+11ec8b04-830d-4f4d-a3db-ad8c71b3b198;en;Family member;;en/moving-to-finland/i-am-/family-member;;
+1c1e7bb8-1c53-4c9c-8c2e-75197436d11d;en;Employee or entrepreneur;;en/moving-to-finland/i-am-/employee-or-entrepreneur;;
+9937e27c-b4c0-45c4-9fca-179e4c1e2bf7;en;Residence permit for a child or parent;;en/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member/residence-permit-for-a-child-or-parent;;
+f135fd22-bb6f-47a5-8a6a-383e03df6c74;en;Residence permit for other family member;;en/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member/residence-permit-for-other-family-member;;
+e9f05c64-3d94-46af-bfcb-3aa58d440988;en;;;prime112.aspx;;
+92ee23ce-ad91-4872-9e46-8758a2810829;en;;;en/living-in-finland/housing/right-of-occupancy-dwelling;;
+24a4aaab-e2ad-4d7d-9223-07168040c7c2;en;;;en/living-in-finland/housing/part-ownership-dwelling;;
+9ee9e5aa-160d-4d86-9206-cba2dc131dc8;en;;;prime111.aspx;;
+600c8ffa-12c1-4f11-adac-640775c137b6;en;As an immigrant in Finland;;en/living-in-finland/as-an-immigrant-in-finland;;
+648b0d18-d2f3-4ff8-933f-88676f55971d;en;Integration into Finland;;en/living-in-finland/as-an-immigrant-in-finland/integration-into-finland;;
+749c7d67-ce01-42ab-93b4-651f34451098;en;Everyday life in Finland;;en/living-in-finland/as-an-immigrant-in-finland/everyday-life-in-finland;;
+7f0baaf7-3161-4be9-b7fe-659f664443ed;en;Your rights and obligations in Finland;;en/living-in-finland/as-an-immigrant-in-finland/your-rights-and-obligations-in-finland;;
+ace3ed3d-1dbf-4293-8f50-260de7f1eff0;en;Finnish social security;;en/living-in-finland/as-an-immigrant-in-finland/finnish-social-security;;
+4a5df70b-7966-45cf-811b-80eb7ea21c66;en;Finnish citizenship;;en/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship;;
+8f868c99-e681-4e8e-bcc6-0025569b638e;en;How to apply for Finnish citizenship?;;en/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/how-to-apply-for-finnish-citizenship;;
+fa361570-7530-4b22-812e-143441441b09;en;;;en/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/the-rights-and-obligations-of-finnish-citizens;;
+77b103d7-9201-4f5d-9185-f17109415aa2;en;;;prime113.aspx;;
+e591f80b-2c7e-44c9-b7db-0b1618b1536b;en;;;prime116.aspx;;
+f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;en;Problems in marriage and relationships;;en/living-in-finland/problem-situations/problems-in-marriage-and-relationships;;
+e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;en;;;prime108/prime103.aspx;;
+e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;en;;;en/helsinki/life-in-helsinki/living-as-an-immigrant-in-helsinki;;
+67b2a29f-0055-4df8-86b6-cd14e823c0b8;en;;;;;
+af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;en;;;en/espoo/life-in-espoo/as-an-immigrant-in-espoo;;
+b06e9e6d-86e6-4503-b668-fa0ea27206f1;en;;;;;
+71639ab6-38e6-450e-b9e7-e4faf28ca628;en;;;en/vantaa/life-in-vantaa/as-an-immigrant-in-vantaa;;
+bef703e3-076c-4ad2-aad9-37484d32957f;en;;;;;
+f42e3402-a731-41fb-b3f2-733d95d7abaf;en;;;;;
+69792911-76ee-4dac-9556-8369482b293a;en;;;en/turku/life-in-turku/living-as-an-immigrant-in-turku;;
+9e5ba843-0d61-4c76-aec7-646f24d4ca68;en;;;;;
+40bfbae4-8bfe-42e1-ba4b-a0d8a748a876;en;;;en/tampere/life-in-tampere/as-an-immigrant-in-tampere;;
+c1c542f9-ba75-4a2e-8d57-3b12377fc857;en;;;;;
+6afb2186-5998-4e05-a6f3-97eb76660f87;en;;;en/oulu/life-in-oulu/as-an-immigrant-in-oulu;;
+5447f3a6-74f0-49e5-b309-5027500fe916;en;;;;;
+092e7eec-beb1-4d85-82e8-e37dac35da26;en;Ylivieska Region;;ylivieska-region;;
+796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;en;Raahe-Kalajoki Region;;raahe-kalajoki-region;;
+914bce6a-ed1e-42a1-82a8-1879bd46d38a;en;;;;;
+83f51d28-3071-46f2-801d-8c00e7c46799;en;;;;;
+deefc2b8-aabe-4283-9edc-7f50349b2668;en;;;;;
+3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;en;;;;;
+45bec773-b756-4c82-8773-cb830511b1c7;en;;;;;
+ada58a9f-264c-44c4-8126-1a1d925231dd;en;;;prime106.aspx;;
+deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;en;;;prime117.aspx;;
+f54bdf04-25e9-41cd-acc0-e9afbc359191;en;;;prime104.aspx;;
+afff281e-5baa-4029-ac4d-25c0155f8eb5;en;Sivua ei löydy (ei-aktiivinen)_en;;;;

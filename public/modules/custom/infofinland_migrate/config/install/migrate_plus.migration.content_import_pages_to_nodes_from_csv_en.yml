@@ -33,7 +33,9 @@ process:
     source: Nimi valikossa
     message: 'Field title is missing'
   field_page_name: Dokumentin nimi
-  field_url: URL
+  field_url:
+    plugin: urlencode
+    source: Nimi valikossa
   field_description: Kuvaus
   langcode: Kieli
   # dokumentin_id: Dokumentin ID ??????

@@ -37,5 +37,6 @@ hidden:
   field_hero: true
   field_metatags: true
   field_page_name: true
+  field_url: true
   langcode: true
   links: true

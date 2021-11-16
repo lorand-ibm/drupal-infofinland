@@ -1,17 +1,17 @@
-uuid: 712a34df-1b09-449d-bbb6-ff7cc185e57b
-langcode: fi
+uuid: f7acb4d2-72ac-4522-8f36-d3f073c9f718
+langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_page_name
+    - field.storage.node.field_url
     - node.type.page
-id: node.page.field_page_name
-field_name: field_page_name
+id: node.page.field_url
+field_name: field_url
 entity_type: node
 bundle: page
-label: Nimi
+label: URL
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
