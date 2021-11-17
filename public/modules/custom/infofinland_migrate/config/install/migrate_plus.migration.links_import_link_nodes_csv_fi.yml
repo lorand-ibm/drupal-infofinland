@@ -29,19 +29,11 @@ process:
   # hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)
   # migration map reference to paragraph language_link
-  pseudo_paragraph_field:
-    plugin: migration_lookup
-    migration: links_import_link_paragraphs_csv
-    source: id
   field_links:
-    plugin: extract
-    source: '@pseudo_paragraph_field'
-    index:
-      - '0'
-  revision_id:
-    plugin: extract
-    source: '@pseudo_paragraph_field'
-    index:
-      - '1'
+    source: id
+    plugin: transform_paragraph
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
 
 

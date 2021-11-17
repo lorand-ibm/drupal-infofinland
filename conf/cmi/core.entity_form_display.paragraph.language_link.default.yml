@@ -7,7 +7,6 @@ dependencies:
     - field.field.paragraph.language_link.field_language_link
     - paragraphs.paragraphs_type.language_link
   module:
-    - link
     - select2
 id: paragraph.language_link.default
 targetEntityType: paragraph
@@ -25,12 +24,12 @@ content:
     type: select2_entity_reference
     region: content
   field_language_link:
-    weight: 0
+    weight: 2
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      rows: 1
+      placeholder: ''
     third_party_settings: {  }
-    type: link_default
+    type: string_textarea
     region: content
 hidden:
   created: true

@@ -1,4 +1,4 @@
-uuid: a381c8d7-e1d5-456a-b247-f4e9b0fb6f2a
+uuid: acc4781d-2c46-4b76-ad49-43855df34a5e
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - infofinland_migrate
 _core:
-  default_config_hash: m50J8HZpPkHPp6jha5Uw2XDWEzHuv94Bja0ajyfxqjM
+  default_config_hash: lvi4R05VSsrVVdYDWdFUOUiiqWiP-dJP43QIZiXfJRA
 id: links_import_link_nodes_csv_fi
 class: null
 field_plugin_method: null
@@ -17,7 +17,7 @@ label: 'Import links from old site to nodes fi'
 source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
-  delimiter: ;
+  delimiter: ','
   ids:
     - id
 process:
@@ -29,13 +29,14 @@ process:
     plugin: default_value
     default_value: true
   title: 'Linkin Nimi'
-  field_link_description: 'Linkin kuvaus'
+  field_link_description: 'Linkin Kuvaus'
   field_link_target_site: 'Kohde (Organisaatio)'
   field_links:
-    target_id:
-      plugin: migration_lookup
-      migration: links_import_link_paragraphs_csv
-      source: id
+    source: id
+    plugin: transform_value
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
 destination:
   plugin: 'entity:node'
 migration_dependencies: null

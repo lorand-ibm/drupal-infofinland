@@ -1,77 +1,79 @@
-uuid: 3ff9462f-c1b7-4163-a3a3-19537929e5e7
-langcode: fi
+uuid: 7d746fd5-2dc3-40b9-b69e-3f3216ebd386
+langcode: so
 status: true
 dependencies:
   config:
-    - field.storage.node.field_links
-    - node.type.link
+    - field.storage.paragraph.field_link_collection
+    - paragraphs.paragraphs_type.language_link
+    - paragraphs.paragraphs_type.language_link_collection
   module:
     - entity_reference_revisions
-id: node.link.field_links
-field_name: field_links
-entity_type: node
-bundle: link
-label: Linkit
+id: paragraph.language_link_collection.field_link_collection
+field_name: field_link_collection
+entity_type: paragraph
+bundle: language_link_collection
+label: link_collection
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
-    target_bundles: null
+    negate: 0
+    target_bundles:
+      language_link: language_link
     target_bundles_drag_drop:
       accordion:
-        weight: 16
-        enabled: false
-      accordion_item:
-        weight: 17
-        enabled: false
-      banner:
         weight: 18
         enabled: false
-      columns:
+      accordion_item:
         weight: 19
         enabled: false
-      content_cards:
+      banner:
         weight: 20
         enabled: false
-      gallery:
+      columns:
         weight: 21
         enabled: false
-      gallery_slide:
+      content_cards:
         weight: 22
         enabled: false
-      hero:
+      gallery:
         weight: 23
         enabled: false
-      image:
+      gallery_slide:
         weight: 24
         enabled: false
-      language_link:
+      hero:
         weight: 25
         enabled: false
+      image:
+        weight: 26
+        enabled: false
+      language_link:
+        enabled: true
+        weight: 27
       language_link_collection:
         weight: 28
         enabled: false
       liftup_with_image:
-        weight: 26
+        weight: 29
         enabled: false
       list_of_links:
-        weight: 27
+        weight: 30
         enabled: false
       list_of_links_item:
-        weight: 28
+        weight: 31
         enabled: false
       ptv_contact:
         weight: 32
         enabled: false
       remote_video:
-        weight: 29
+        weight: 33
         enabled: false
       text:
-        weight: 30
+        weight: 34
         enabled: false
 field_type: entity_reference_revisions

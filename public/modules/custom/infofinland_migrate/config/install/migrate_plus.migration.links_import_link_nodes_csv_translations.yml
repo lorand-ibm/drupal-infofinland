@@ -11,27 +11,24 @@ destination:
   translations: true
 source:
   plugin: csv
-  translations: true
-  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
+  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_translations.csv
   # change if not unique enough
-  delimiter: ';'
-  ids: [id]
+  delimiter: ','
+  ids: [UniqueNimi]
 process:
+  nid:
+    plugin: migration_lookup
+    source: id
+    no_stub: true
+    migration: links_import_link_nodes_csv_fi
+  field_name: UniqueNimi
   type:
     plugin: default_value
     default_value: link
-  langcode: kieli
-  title: Linkin nimi (Käännös)
+  langcode: Kieli
+  title: UniqueNimi
   # for finding links
   field_link_description: Linkin kuvaus
   # is hallintaorg still needed?
   # hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)
-  # migration map reference to paragraph language_link
-  # can this field be skipped when importing translation because it's not translated?
-  field_links:
-    target_id:
-      plugin: migration_lookup
-      migration: links_import_link_paragraphs_csv
-      source: id
-      #no_stub: true

@@ -1,0 +1,29 @@
+uuid: 661dd663-ad64-4376-aaa3-9001d0b77e87
+langcode: so
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.language_link_collection.field_link_collection
+    - paragraphs.paragraphs_type.language_link_collection
+  module:
+    - paragraphs
+id: paragraph.language_link_collection.default
+targetEntityType: paragraph
+bundle: language_link_collection
+mode: default
+content:
+  field_link_collection:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Lohko
+      title_plural: Lohkot
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

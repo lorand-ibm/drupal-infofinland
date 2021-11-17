@@ -16,7 +16,6 @@ source:
   ids: [UniqueNimi, id]
 process:
   field_language_link: Url
-  field_link_id: id
   field_language:
     plugin: entity_lookup
     source: KieliNimi
