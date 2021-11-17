@@ -1,0 +1,19 @@
+uuid: 304f61d0-9563-4565-a741-f1a914009c37
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phonenumber
+    - node.type.office_contact_info
+id: node.office_contact_info.field_phonenumber
+field_name: field_phonenumber
+entity_type: node
+bundle: office_contact_info
+label: Puhelinnnumero
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

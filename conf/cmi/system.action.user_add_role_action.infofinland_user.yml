@@ -1,0 +1,14 @@
+uuid: 49fb0f8b-f2a6-4401-9f02-8d34a00ae867
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.infofinland_user
+  module:
+    - user
+id: user_add_role_action.infofinland_user
+label: 'Add the InfoFinland-käyttäjä role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: infofinland_user

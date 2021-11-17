@@ -9,16 +9,16 @@ _core:
 id: page_content_pattern
 label: 'Page content pattern'
 type: 'canonical_entities:node'
-pattern: '[node:menu-link:parents:join-path]/[node:title]'
+pattern: '[node:menu-link:parents:join-path]/[node:field_url]'
 selection_criteria:
-  c22ccdfa-0a1c-4d36-b456-dc0320d4351f:
+  f3799a81-6b6b-4456-bdbe-a21c2e223659:
     id: node_type
     bundles:
       page: page
     negate: false
     context_mapping:
       node: node
-    uuid: c22ccdfa-0a1c-4d36-b456-dc0320d4351f
+    uuid: f3799a81-6b6b-4456-bdbe-a21c2e223659
 selection_logic: and
 weight: -5
 relationships: {  }

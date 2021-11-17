@@ -1,0 +1,22 @@
+uuid: a943aac6-d15e-4ad0-b6f7-daef6cf2337b
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ptv_contact.field_contact_data
+    - paragraphs.paragraphs_type.ptv_contact
+id: paragraph.ptv_contact.default
+targetEntityType: paragraph
+bundle: ptv_contact
+mode: default
+content:
+  field_contact_data:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+hidden: {  }

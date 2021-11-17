@@ -1,0 +1,7 @@
+helfi_ptv_integration.getcitycodes:
+  path: '/admin/structure/helfi_ptv_integration/getcitycodes'
+  defaults:
+    _title: 'Show the ptv city codes'
+    _controller: '\Drupal\helfi_ptv_integration\Controller\PTVController::showCodes'
+  requirements:
+    _permission: 'administer'

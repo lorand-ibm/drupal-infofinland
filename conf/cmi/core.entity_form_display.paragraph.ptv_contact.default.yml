@@ -1,0 +1,34 @@
+uuid: 3bf75f84-0357-49cf-b25c-0243b73a77d0
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ptv_contact.field_contact_data
+    - paragraphs.paragraphs_type.ptv_contact
+  module:
+    - inline_entity_form
+id: paragraph.ptv_contact.default
+targetEntityType: paragraph
+bundle: ptv_contact
+mode: default
+content:
+  field_contact_data:
+    type: inline_entity_form_complex
+    weight: 0
+    region: content
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_existing: true
+      match_operator: CONTAINS
+      revision: false
+      override_labels: false
+      collapsible: false
+      collapsed: false
+      allow_new: false
+      allow_duplicate: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

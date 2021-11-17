@@ -1,0 +1,31 @@
+uuid: 73ea9667-dcbe-49d1-9baf-e7992764c362
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.organisaatiot.field_ptv_org_id
+    - taxonomy.vocabulary.organisaatiot
+  module:
+    - text
+id: taxonomy_term.organisaatiot.default
+targetEntityType: taxonomy_term
+bundle: organisaatiot
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ptv_org_id:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

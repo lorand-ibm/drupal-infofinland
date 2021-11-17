@@ -1,0 +1,10 @@
+uuid: 001a7796-da6b-406c-a786-8a0d8bfe28f0
+langcode: fi
+status: true
+dependencies: {  }
+id: ptv_contact
+label: 'PTV yhteystieto'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

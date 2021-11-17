@@ -32,7 +32,13 @@ Stop project:
 $ make stop
 ``
 
-Stop project and remove app container:
+Start project after stopping it:
+
+``
+$ make up
+``
+
+Stop project and remove containers:
 
 ``
 $ make down
@@ -50,14 +56,19 @@ Install fresh Drupal site from existing configuration:
 $ make build; make drush-si; make post-install
 ``
 
-Start project, update all packages and sync db from production / local db dump from root:
+Start project, update all packages and sync db from local sql dump:
 
 ``
 $ make fresh
 ``
 
-**Note:** Will not work at this point, since the production environment has not been set up.
 ## Update Drupal and composer modules
+
+Install all modules and composer packages:
+
+``
+$ make build
+``
 
 Update all modules and composer packages:
 
@@ -89,6 +100,10 @@ $ composer update --lock
 
 ## Configuration management and workflow
 
+When checking out new branch run `make drush-cim` to import new config changes to the database.
+
+Remember always run `make drush-cex` after you have made configuration changes and before you pull or checkout new code. Remember also to commit your config changes.
+
 Export settings:
 
 ``
@@ -101,28 +116,25 @@ Import settings:
 $ make drush-cim
 ``
 
-When checking out new branch run `make drush-cim` to import new config changes to the database.
-
-Remember always run `make drush-cex` after you have made configuration changes and before you pull or checkout new code. Remember also to commit your config changes.
-
 ## Other useful commands
-```
+
 # After pulling latest changes, run all the updates:
 $ make drush-deploy
 
-# Login to app container:
+```
+# Login to app container
 $ make shell
 
-# Login to Drupal with Drush:
+# Login with Drush
 $ make drush-uli
 
-# Create database dump from local site:
+# Create sql dump from local site
 $ make drush-create-dump
 
-# Check Drupal coding style:
+# Check Drupal coding style
 $ make lint-drupal
 
-# Automatically fix Drupal coding style errors:
+# Automatically fix Drupal coding style errors
 $ make fix-drupal
 ```
 

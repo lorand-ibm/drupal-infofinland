@@ -1,0 +1,8 @@
+uuid: 7b01c039-886e-4fda-bd94-1c0f69b92bea
+langcode: fi
+status: true
+dependencies: {  }
+name: Organisaatiot
+vid: organisaatiot
+description: ''
+weight: 0
