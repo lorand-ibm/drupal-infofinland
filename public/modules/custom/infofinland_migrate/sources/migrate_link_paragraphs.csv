@@ -1,7 +1,7 @@
 id,UniqueNimi,Url,KieliNimi
 1,nimi,https://www.facebook.com,Suomi
 5,oikeasti tämä ei ole pakollinen tieto,www.hs.fi,Abhasia
-5,oikeasti tämä ei ole pakollinen tieto,www.hs.fi,Persia
+5,oikeasti tämä ei ole pakollinen tieto,www.hs.fi,Afrikaans
 5,oikeasti tämä ei ole pakollinen tieto,www.hs.fi,Akan
 5,oikeasti tämä ei ole pakollinen tieto,https://www.hs.fi,Englanti
 5,Testilinkki2,https://www.hs.fi,Suomi
@@ -1509,7 +1509,7 @@ id,UniqueNimi,Url,KieliNimi
 1034,Депрессия,https://www.tampere.fi/liitteet/53TDlr693/venaja1.pdf,Venäjä
 1034,Murogo,https://www.tampere.fi/liitteet/53TDctQhP/somalia.pdf,Somali
 1034,Depresion,https://www.tampere.fi/liitteet/53SxKPHah/albania.pdf,Albania
-1034,http://www.tampere.fi/tiedostot/5ySUtn7EZ/masennus_swahili.pdf,https://www.tampere.fi/liitteet/5ySUtn7EZ/masennus_swahili.pdf,0
+1034,http://www.tampere.fi/tiedostot/5ySUtn7EZ/masennus_swahili.pdf,https://www.tampere.fi/liitteet/5ySUtn7EZ/masennus_swahili.pdf,Swahili
 1034,Bunalım,https://www.tampere.fi/liitteet/53TDh8Ixj/turkki_1.pdf,Turkki
 1036,Screenings,https://stm.fi/en/screening,Englanti
 1036,Seulontatutkimukset,https://stm.fi/seulonnat,Suomi
@@ -6549,7 +6549,7 @@ id,UniqueNimi,Url,KieliNimi
 4340,Päiväkodit ja peruskoulut avataan 14.5.,https://www.oph.fi/fi/koulutus-ja-tutkinnot/opetustoimi-ja-koronavirus,Suomi
 4340,Daghem och skolor öppnas den 14 maj,https://www.oph.fi/sv/utbildning-och-examina/undervisningsvasendet-och-coronaviruset,Ruotsi
 4341,معلومات عن عدوى فيروس كورونا للمصابين والمقرّبين منهم - مقطع فيديو,https://www.youtube.com/watch?v=H3riByUXcSA&t=1s&ucbcb=1,Arabi
-4341,Information for those infected with coronavirus and persons close to them' video,https://www.youtube.com/watch?v=UJf43Vmf8ZI&ucbcb=1,Englanti
+4341,'Information for those infected with coronavirus and persons close to them' video,https://www.youtube.com/watch?v=UJf43Vmf8ZI&ucbcb=1,Englanti
 4341,"Video „Teave koroonaviirusesse nakatunule ja lähedasele""",https://www.youtube.com/watch?v=lTdIsjibaJs&ucbcb=1,Eesti
 4341,معلوماتی برای مبتلایان به ویروس کرونا و نزدیکانشان -ویدیو,https://www.youtube.com/watch?v=ro5NUc4CbD0&ucbcb=1,Persia
 4341,Tietoa koronavirustartunnan saaneelle ja läheisille -video,https://www.youtube.com/watch?v=3pGCULzRdto&ucbcb=1,Suomi
@@ -6557,7 +6557,7 @@ id,UniqueNimi,Url,KieliNimi
 4341,Warbixin ku saabsan dadka uu ku dhacay feyruska korona iyo ehelkooda- fiidiyow,https://www.youtube.com/watch?v=VDAg_2QV4i4&ucbcb=1,Somali
 4341,Videon Information till dig som fått coronavirussmitta och till dina anhöriga,https://www.youtube.com/watch?v=RIvOUdg_IYg&ucbcb=1,Ruotsi
 4342,دعم البيت لدراسة الطفل عن بُعد,https://www.oph.fi/sites/default/files/documents/arabia_2.pdf,Arabi
-4342,Домът в подкрепа на дистанционното обучение на детето,https://www.oph.fi/sites/default/files/documents/bulgaria.pdf,0
+4342,Домът в подкрепа на дистанционното обучение на детето,https://www.oph.fi/sites/default/files/documents/bulgaria.pdf,Bulgaria
 4342,Family’s support in distance learning for a child,https://www.oph.fi/sites/default/files/documents/englanti_2.pdf,Englanti
 4342,Kodu toetus lapse kaugõppele,https://www.oph.fi/sites/default/files/documents/viro_3.pdf,Eesti
 4342,کمک خانه در تحصیل کودک از دور,https://www.oph.fi/sites/default/files/documents/persia.pdf,Persia
@@ -6565,7 +6565,7 @@ id,UniqueNimi,Url,KieliNimi
 4342,Поддержка в вопросах дистанционного обучения ребенка на дому,https://www.oph.fi/sites/default/files/documents/venaja_3.pdf,Venäjä
 4342,Taageerada guriga ee waxbarashada bannaanka ah ee cunugga,https://www.oph.fi/sites/default/files/documents/somali.pdf,Somali
 4342,Përkrahja e mësimit në distancë nga shtëpia,https://www.oph.fi/sites/default/files/documents/albania.pdf,Albania
-4342,การชชวยเหลลือและสนนับสนนุนจากครอบครนัวในการเรรียนทางไกลของเดด็ก,https://www.oph.fi/sites/default/files/documents/thai.pdf,0
+4342,การชชวยเหลลือและสนนับสนนุนจากครอบครนัวในการเรรียนทางไกลของเดด็ก,https://www.oph.fi/sites/default/files/documents/thai.pdf,Thai
 4342,针对孩子远程教育提供的家庭援助,https://www.oph.fi/sites/default/files/documents/kiina_2.pdf,Kiina
 4343,معلومات حديثة أثناء فترة الوباء العاملي,https://www.hel.fi/helsinki/coronavirus-en/information/in-different-languages/arabia,Arabi
 4343,Current information during the pandemic,https://www.hel.fi/helsinki/coronavirus-en,Englanti

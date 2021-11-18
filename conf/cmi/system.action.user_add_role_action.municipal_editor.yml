@@ -1,0 +1,14 @@
+uuid: 2a5609a6-aa2b-460b-8a2e-909243c69485
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.municipal_editor
+  module:
+    - user
+id: user_add_role_action.municipal_editor
+label: 'Add the Kuntapäivittäjä role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: municipal_editor

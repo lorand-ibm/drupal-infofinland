@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: EVzxFtbOrGVTXWw2GTh1fEzzqruPEqSo84k10-BF6eA
 id: content_producer
-label: 'Content producer'
+label: Sisällöntuottaja
 weight: 3
 is_admin: null
 permissions:
@@ -35,6 +35,7 @@ permissions:
   - 'delete own page content'
   - 'delete own remote_video media'
   - 'delete own soundcloud media'
+  - 'display eu cookie compliance popup'
   - 'edit own file media'
   - 'edit own image media'
   - 'edit own landing_page content'
