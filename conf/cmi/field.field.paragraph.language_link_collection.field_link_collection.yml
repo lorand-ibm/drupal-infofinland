@@ -1,79 +1,29 @@
-uuid: 7d746fd5-2dc3-40b9-b69e-3f3216ebd386
-langcode: so
+uuid: 08b1bf95-ea33-4b55-a485-f819c1658b31
+langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_link_collection
-    - paragraphs.paragraphs_type.language_link
+    - node.type.link
     - paragraphs.paragraphs_type.language_link_collection
-  module:
-    - entity_reference_revisions
 id: paragraph.language_link_collection.field_link_collection
 field_name: field_link_collection
 entity_type: paragraph
 bundle: language_link_collection
-label: link_collection
+label: Linkki
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:paragraph'
+  handler: 'default:node'
   handler_settings:
-    negate: 0
     target_bundles:
-      language_link: language_link
-    target_bundles_drag_drop:
-      accordion:
-        weight: 18
-        enabled: false
-      accordion_item:
-        weight: 19
-        enabled: false
-      banner:
-        weight: 20
-        enabled: false
-      columns:
-        weight: 21
-        enabled: false
-      content_cards:
-        weight: 22
-        enabled: false
-      gallery:
-        weight: 23
-        enabled: false
-      gallery_slide:
-        weight: 24
-        enabled: false
-      hero:
-        weight: 25
-        enabled: false
-      image:
-        weight: 26
-        enabled: false
-      language_link:
-        enabled: true
-        weight: 27
-      language_link_collection:
-        weight: 28
-        enabled: false
-      liftup_with_image:
-        weight: 29
-        enabled: false
-      list_of_links:
-        weight: 30
-        enabled: false
-      list_of_links_item:
-        weight: 31
-        enabled: false
-      ptv_contact:
-        weight: 32
-        enabled: false
-      remote_video:
-        weight: 33
-        enabled: false
-      text:
-        weight: 34
-        enabled: false
-field_type: entity_reference_revisions
+      link: link
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

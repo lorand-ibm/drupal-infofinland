@@ -40,7 +40,6 @@ module:
   helfi_api_base: 0
   image: 0
   image_style_quality: 0
-  infofinland_migrate: 1
   infofinland_municipality_selection: 0
   jsonapi: 0
   jsonapi_extras: 0
@@ -94,6 +93,7 @@ module:
   views_ui: 0
   automated_cron: 1
   helfi_ptv_integration: 1
+  infofinland_migrate: 1
   inline_entity_form: 1
   pathauto: 1
   content_translation: 10
