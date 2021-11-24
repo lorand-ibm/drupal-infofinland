@@ -11,7 +11,6 @@ destination:
 source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
-  # change if not unique enough
   delimiter: ','
   ids: [id]
 process:
@@ -25,8 +24,7 @@ process:
   title: Linkin Nimi
   # for finding links
   field_link_description: Linkin Kuvaus
-  # is hallintaorg still needed?
-  # hallintaorg: Linkin hallintaorg
+  hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)
   # migration map reference to paragraph language_link
   field_links:

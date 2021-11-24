@@ -17,9 +17,11 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 181,testilinkki alleviivaus,testilinkki alleviivaus nimessä 19.12. eks,Infopankki,testilinkki alleviivaus,fi,infopankki.fi,https://finnishcourses.fi/
 186,testiKuntien työpaikkoja POISTETAAN,test,Infopankki,testiKuntien työpaikkoja POISTETAAN,fi,seure,https://www.seure.fi/
 187,Wikipedia - tietoa elämästä,test,Infopankki,Wikipedia - tietoa elämästä,fi,Wikipedia,https://fi.wikipedia.org/wiki/El%C3%A4m%C3%A4
+198,linkkihakutesti,testilinkkieiurlia,Infopankki,linkkihakutesti,fi,helsinki,
 199,Tietoa Norjasta,TESTI,Infopankki,Tietoa Norjasta,fi,nyinorge.no,http://www.nyinorge.no/no/
 203,Asuminen,testi,Infopankki,Asuminen,fi,Infopankki,http://www.infopankki.fi/fi-FI/asuminen/
 204,multicultural and information centre,testi,Infopankki,multicultural and information centre,fi,Infopankki,http://www.mcc.is/english/
+209,Tietoa Kanadasta ,testi,Infopankki,Tietoa Kanadasta ,fi,Inmylanguage.org ,
 211,Työsiirtolainen,TESTI,Infopankki,Työsiirtolainen,fi,Nyinnorge.no,http://www.nyinorge.no/no/Ny-i-Norge-velg-sprak/Ny-i-Norge/
 216,Pitkä testinimi sovellusvirhe,test,Infopankki,Pitkä testinimi sovellusvirhe,fi,infopankki.fi,https://www.infofinland.fi/
 219,suomi,testi,Infopankki,suomi,fi,infopankki.fi - suomi,http://www.infopankki.fi/fi-FI/home/
@@ -30,7 +32,9 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 237,Hyvä saavutettavuus,TESTI,Infopankki,Hyvä saavutettavuus,fi,selko.fi,http://www.selko-e.fi/oppaat/kaikille_hyva_saavutettavuus.ppt
 238,Kotoutumisopas,TESTI,Infopankki,Kotoutumisopas,fi,TE-toimisto,http://www.te-info.fi/te_pdf/ely_esite_suomi.pdf
 240,Japanin Suomen suurlähetystö fi,testi,Infopankki,Japanin Suomen suurlähetystö fi,fi,Suurlähetystö,https://www.fi.emb-japan.go.jp/
+241,bosnialinkki fi,testi,Infopankki,bosnialinkki fi,fi,UM,
 242,testilinkki linkki ja dokumentti riippuvuudet,test,Infopankki,testilinkki linkki ja dokumentti riippuvuudet,fi,infopankki,http://www.infopankki.fi/sv-FI/Utbildning/
+245,unkarilinkki fi,testi,Infopankki,unkarilinkki fi,fi,Kela,
 246,ulkkari,testi,Infopankki,ulkkari,fi,um,https://um.fi/etusivu
 248,edustustot,testi,Infopankki,edustustot,fi,um,https://um.fi/page-not-found
 250,salen puhe,testi,Infopankki,salen puhe,fi,tpk,https://www.presidentti.fi/puheet/tasavallan-presidentti-sauli-niiniston-uudenvuodenpuhe-1-1-2013/
@@ -106,6 +110,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 384,Tietoa esiopetuksesta,Koulutus,Infopankki,Tietoa esiopetuksesta,fi,Opetushallitus,https://www.oph.fi/fi/koulutus-ja-tutkinnot/esiopetus
 387,Turvapaikan hakeminen Suomesta,Muutto Suomeen,Infopankki,Turvapaikan hakeminen Suomesta,fi,Maahanmuuttovirasto,https://migri.fi/turvapaikka-suomesta
 388,Tietoa turvapaikanhakijoille-esite,Muutto Suomeen,Infopankki,Tietoa turvapaikanhakijoille-esite,fi,Maahanmuuttovirasto,https://migri.fi/documents/5202425/6165225/Tietoa+turvapaikanhakijalle+%28fi%29
+389,IOM yhteystiedot,Asettuminen Suomeen,Infopankki,IOM yhteystiedot,fi,IOM,
 391,Oleskeluluvan peruminen,Muutto Suomeen,Infopankki,Oleskeluluvan peruminen,fi,Maahanmuuttovirasto,https://migri.fi/luvan-peruuttaminen
 392,Suomen kansalaisuus,Asettuminen Suomeen,Infopankki,Suomen kansalaisuus,fi,Maahanmuuttovirasto,https://migri.fi/suomen-kansalaisuus
 393,Turvapaikanhakijan työnteko-oikeus,Muutto Suomeen,Infopankki,Turvapaikanhakijan työnteko-oikeus,fi,Maahanmuuttovirasto,https://migri.fi/turvapaikanhakijan-tyonteko-oikeus
@@ -136,6 +141,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 426,Suomen kielen alkeiskurssi Easyfinnish,Suomen ja ruotsin kieli,Infopankki,Suomen kielen alkeiskurssi Easyfinnish,fi,Yle,https://yle.fi/aihe/artikkeli/2013/11/04/easyfinnish-suomen-kielen-alkeiskurssi-englanniksi
 427,Pakolaisen perheenjäsen,Muutto Suomeen,Infopankki,Pakolaisen perheenjäsen,fi,Maahanmuuttovirasto,https://migri.fi/aviopuoliso-suomessa-pakolaisena
 429,Hakemus Suomen kansalaisuudesta vapautumiseksi,Asettuminen Suomeen,Infopankki,Hakemus Suomen kansalaisuudesta vapautumiseksi,fi,Maahanmuuttovirasto,https://migri.fi/kansalaisuudesta_vapautuminen
+430,Suomen kielen alkeiskurssi Tavataan taas,,Infopankki,Suomen kielen alkeiskurssi Tavataan taas,fi,Helsingin yliopisto,
 431,Ulkomaiden edustustot Suomessa,Asettuminen Suomeen,Infopankki,Ulkomaiden edustustot Suomessa,fi,Ulkoministeriö,https://um.fi/ulkovaltojen-edustustot
 437,Edullisia ulkomaanpuheluja,Asettuminen Suomeen,Infopankki,Edullisia ulkomaanpuheluja,fi,Globetel,https://globetel.fi/
 438,Ulkomaalaisen rekisteröinti,Muutto Suomeen,Infopankki,Ulkomaalaisen rekisteröinti,fi,Digi- ja väestötietovirasto,https://dvv.fi/ulkomaalaisen-rekisterointi
@@ -151,15 +157,18 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 453,Ulkomaalaisen pankkiasiat,Asettuminen Suomeen,Infopankki,Ulkomaalaisen pankkiasiat,fi,Finanssialan keskusliitto,https://www.finanssiala.fi/julkaisut/ulkomaalaisen-pankkiasiat/
 454,Internet- ja puhelinliittymät,Asettuminen Suomeen,Infopankki,Internet- ja puhelinliittymät,fi,Liikenne- ja viestintävirasto Traficom,https://www.traficom.fi/fi/viestinta/laajakaista-ja-puhelin
 456,Asevelvollisuus,Asettuminen Suomeen,Infopankki,Asevelvollisuus,fi,Puolustusvoimat,https://puolustusvoimat.fi/asevelvollisuus
+461,Tietoa Suomesta ulkomaalaiselle,Muutto Suomeen,Infopankki,Tietoa Suomesta ulkomaalaiselle,fi,Expat Finland,
 462,Viisumin tarve Schengen-alueelle ja Suomen hyväksymät matkustusasiakirjat,Muutto Suomeen,Infopankki,Viisumin tarve Schengen-alueelle ja Suomen hyväksymät matkustusasiakirjat,fi,Ulkoministeriö,https://um.fi/viisumin-tarve-ja-suomen-hyvaksymat-matkustusasiakirjat
 465,Schengen-viisumin hakeminen,Muutto Suomeen,Infopankki,Schengen-viisumin hakeminen,fi,Ulkoministeriö,https://um.fi/viisumi-suomeen
 466,"Maat, jossa toinen Schengen-maa edustaa Suomea",Muutto Suomeen,Infopankki,"Maat, jossa toinen Schengen-maa edustaa Suomea",fi,Ulkoministeriö,https://um.fi/edustustot
 467,Viisumin pidentäminen Suomessa,Muutto Suomeen,Infopankki,Viisumin pidentäminen Suomessa,fi,Poliisi,https://poliisi.fi/viisumin-jatkaminen
+468,Tietoa Suomesta turisteille,Muutto Suomeen,Infopankki,Tietoa Suomesta turisteille,fi,VisitFinland.com,
 473,Tv-sarjan oppimateriaali Supisuomea,Suomen ja ruotsin kieli,Infopankki,Tv-sarjan oppimateriaali Supisuomea,fi,Yle,https://yle.fi/aihe/artikkeli/2015/12/15/supisuomea
 474,Selkouutiset,Suomen ja ruotsin kieli,Infopankki,Selkouutiset,fi,Yle,https://yle.fi/uutiset/osasto/selkouutiset/
 475,Tietoa eri aiheista selkokielellä,Suomen ja ruotsin kieli,Infopankki,Tietoa eri aiheista selkokielellä,fi,Selko.fi,https://selko.fi
 478,Työelämän suomea,Suomen ja ruotsin kieli,Infopankki,Työelämän suomea,fi,Opetushallitus,http://www11.edu.fi/homma/index.html
 479,Kuuntele suomen kielen murteita,Suomen ja ruotsin kieli,Infopankki,Kuuntele suomen kielen murteita,fi,Jyväskylän yliopiston kielikeskus,https://kielikompassi.jyu.fi/opetus/s2/mps/
+483,Verbien taivutusta,Suomen ja ruotsin kieli,Infopankki,Verbien taivutusta,fi,Verbix.com,
 484,Iso suomen kielioppi verkossa,Suomen ja ruotsin kieli,Infopankki,Iso suomen kielioppi verkossa,fi,Kotimaisten kielten keskus,https://scripta.kotus.fi/visk/etusivu.php
 489,Yleiset kielitutkinnot,Suomen ja ruotsin kieli,Infopankki,Yleiset kielitutkinnot,fi,Opetushallitus,https://www.oph.fi/fi/koulutus-ja-tutkinnot/kieli-ja-kaantajatutkinnot/yleiset-kielitutkinnot-yki
 490,Ilmoittautuminen yleiseen kielitutkintoon ja tutkintomaksut,Suomen ja ruotsin kieli,Infopankki,Ilmoittautuminen yleiseen kielitutkintoon ja tutkintomaksut,fi,Opetushallitus,https://www.oph.fi/fi/koulutus-ja-tutkinnot/ilmoittautuminen-yleisiin-kielitutkintoihin
@@ -252,6 +261,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 638,Perustietoa täydennyskoulutuksesta,Koulutus,Infopankki,Perustietoa täydennyskoulutuksesta,fi,Opintopolku.fi,https://opintopolku.fi/wp/fi/yliopisto/yliopistojen-taydennyskoulutus/
 640,Työterveyshuolto,Terveys,Infopankki,Työterveyshuolto,fi,Sosiaali- ja terveysministeriö,https://stm.fi/tyoterveyshuolto
 643,Apua rikoksen uhrille,Ongelmatilanteet,Infopankki,Apua rikoksen uhrille,fi,Rikosuhripäivystys,https://www.riku.fi/palvelut/
+644,Tietoa ulkomaalaisille opiskelijoille,Koulutus,Infopankki,Tietoa ulkomaalaisille opiskelijoille,fi,Study in Finland,
 645,Opiskelija-asuntoja,Koulutus,Infopankki,Opiskelija-asuntoja,fi,Suomen opiskelija-asunnot,https://www.soa.fi/
 646,Jos joudut rikoksen uhriksi,Ongelmatilanteet,Infopankki,Jos joudut rikoksen uhriksi,fi,Oikeusministeriö,https://oikeus.fi/fi/index/asiatjapalvelut/rikoksenuhrille/josjoudutrikoksenuhriksi.html
 647,Tietoa rikoksista,Ongelmatilanteet,Infopankki,Tietoa rikoksista,fi,Poliisi,https://poliisi.fi/rikokset
@@ -311,6 +321,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 717,Tietoa osaomistusasumisesta,Asuminen,Infopankki,Tietoa osaomistusasumisesta,fi,Ympäristöministeriö,https://www.ymparisto.fi/fi-FI/Asuminen/Osaomistusasuminen
 721,Kalustettuja asuntoja,Asuminen,Infopankki,Kalustettuja asuntoja,fi,Forenom,https://www.forenom.com/fi/
 722,Kalustettuja asuntoja,Asuminen,Infopankki,Kalustettuja asuntoja,fi,Kotimaailma,https://www.kotimaailma.com/
+725,Kotimajoitusta,Asuminen,Infopankki,Kotimajoitusta,fi,Homestay Web,
 726,Asunnottomien yhdistys,Asuminen,Infopankki,Asunnottomien yhdistys,fi,Vailla vakinaista asuntoa ry,https://vvary.fi/
 728,Nuorten turvatalot,Ongelmatilanteet,Infopankki,Nuorten turvatalot,fi,Suomen Punainen Risti,https://www.punainenristi.fi/hae-apua-ja-tukea/nuortenturvatalot/
 729,Tietoa tuki- ja palveluasumisesta,Asuminen,Infopankki,Tietoa tuki- ja palveluasumisesta,fi,Ympäristöministeriö,https://www.ymparisto.fi/fi-FI/Asuminen/Erityisryhmien_asuminen
@@ -338,6 +349,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 754,Taloustietoa,Ongelmatilanteet,Infopankki,Taloustietoa,fi,Kilpailu- ja kuluttajavirasto,https://www.kkv.fi/Tietoa-ja-ohjeita/Maksut-laskut-perinta/talouden-suunnittelu/
 755,Jätteiden keräyspisteet,Asuminen,Infopankki,Jätteiden keräyspisteet,fi,Kierrätys.info,https://www.kierratys.info/
 756,Taloustietoa,Ongelmatilanteet,Infopankki,Taloustietoa,fi,Kuluttajaliitto,https://www.kuluttajaliitto.fi/
+760,Asukasdemokratia-esite,Asuminen,Infopankki,Asukasdemokratia-esite,fi,Suomen Pakolaisapu ry.,
 761,Neuvoja rahankäyttöön,Ongelmatilanteet,Infopankki,Neuvoja rahankäyttöön,fi,Marttaliitto,https://www.martat.fi/marttakoulu/omat-rahat/
 762,Asukasdemokratia,Asuminen,Infopankki,Asukasdemokratia,fi,Ara.fi,https://www.ara.fi/fi-FI
 763,Apua rahaongelmiin,Ongelmatilanteet,Infopankki,Apua rahaongelmiin,fi,Takuu-Säätiö,https://www.takuusaatio.fi/
@@ -364,6 +376,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 786,Tietoa kirkollisista hautajaisista,Ongelmatilanteet,Infopankki,Tietoa kirkollisista hautajaisista,fi,Suomen evankelis-luterilainen kirkko,https://evl.fi/perhejuhlat/hautajaiset
 788,Tietoa perhe-eläkkeestä,Ongelmatilanteet,Infopankki,Tietoa perhe-eläkkeestä,fi,Kela,https://www.kela.fi/omaisenkuolema
 789,Hautaustoimistoja,Ongelmatilanteet,Infopankki,Hautaustoimistoja,fi,Suomen Hautaustoimistojen liitto,https://www.hautajaiset.fi/
+791,Tietoa Suomesta,Tietoa Suomesta,Infopankki,Tietoa Suomesta,fi,Thisisfinland.fi,
 792,Tilastoja,Tietoa Suomesta,Infopankki,Tilastoja,fi,Tilastokeskus,https://www.tilastokeskus.fi/
 795,Tietoa Suomen ilmastosta,Tietoa Suomesta,Infopankki,Tietoa Suomen ilmastosta,fi,Ilmatieteenlaitos,https://www.ilmatieteenlaitos.fi/ilmasto
 796,Junien aikataulut,Tietoa Suomesta,Infopankki,Junien aikataulut,fi,VR,https://www.vr.fi/rautatieasemat-ja-reitit/kaukoliikenne
@@ -379,6 +392,9 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 810,Tietoa ajoneuvon verotuksesta,Tietoa Suomesta,Infopankki,Tietoa ajoneuvon verotuksesta,fi,Liikenne- ja viestintävirasto Traficom,https://www.traficom.fi/fi/liikenne/tieliikenne/ajoneuvon-verotus
 811,Tietoa auton renkaista,Tietoa Suomesta,Infopankki,Tietoa auton renkaista,fi,Liikenneturva,https://www.liikenneturva.fi/fi/liikenteessa/auton-renkaat#eec40d0d
 812,Tietoa ajokorteista,Tietoa Suomesta,Infopankki,Tietoa ajokorteista,fi,Liikenne- ja viestintävirasto Traficom,https://ajokortti-info.fi/fi/
+817,Uutisia englanniksi,Tietoa Suomesta,Infopankki,Uutisia englanniksi,fi,YLE,
+818,Uutisia englanniksi,Tietoa Suomesta,Infopankki,Uutisia englanniksi,fi,Helsinki Times,
+820,Uutisia venäjäksi,Tietoa Suomesta,Infopankki,Uutisia venäjäksi,fi,YLE,
 822,Uutisia helpolla suomen kielellä,Tietoa Suomesta,Infopankki,Uutisia helpolla suomen kielellä,fi,YLE,https://yle.fi/uutiset/osasto/selkouutiset/
 823,Televisio-ohjelmia verkossa,Tietoa Suomesta,Infopankki,Televisio-ohjelmia verkossa,fi,YLE Areena,https://areena.yle.fi/tv
 824,Televisio-ohjelmia verkossa,Tietoa Suomesta,Infopankki,Televisio-ohjelmia verkossa,fi,MTV,https://www.mtv.fi/
@@ -393,8 +409,9 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 840,Uskonnolliset yhdyskunnat,Tietoa Suomesta,Infopankki,Uskonnolliset yhdyskunnat,fi,Uskonnot.fi,https://uskonnot.fi/
 841,Uskonnonvapaus,Tietoa Suomesta,Infopankki,Uskonnonvapaus,fi,Opetus- ja kulttuuriministeriö,https://minedu.fi/uskonnonvapaus
 842,Uskonnollisen yhdyskunnan rekisteröiminen,Tietoa Suomesta,Infopankki,Uskonnollisen yhdyskunnan rekisteröiminen,fi,Patentti- ja rekisterihallitus,https://www.prh.fi/fi/yhdistysrekisteri/uskonnolliset_yhdyskunnat_0.html
+843,Tietoa suomalaisista tavoista,Tietoa Suomesta,Infopankki,Tietoa suomalaisista tavoista,fi,Thisisfinland.fi,
 845,Tietoa Suomen hallinnosta,Tietoa Suomesta,Infopankki,Tietoa Suomen hallinnosta,fi,Suomi.fi,https://www.suomi.fi/kansalaiselle/oikeudet-ja-velvollisuudet/perusoikeudet-ja-vaikuttaminen/opas/nain-julkinen-hallinto-toimii/valtion-keskushallinto
-846,Tietoa sosiaaliturvasta,Asettuminen Suomeen,Infopankki,Tietoa sosiaaliturvasta,fi,Kela,https://www.kela.fi/sosiaaliturvaan-kuuluminen-ulkomailta-suomeen
+846,Tietoa sosiaaliturvasta,Asettuminen Suomeen,Infopankki,Tietoa sosiaaliturvasta,fi,Kela,https://www.kela.fi/sosiaaliturvaan-kuuluminen-ulkomailta-suomeen 
 847,Tietoa eduskunnasta,Tietoa Suomesta,Infopankki,Tietoa eduskunnasta,fi,Eduskunta,https://www.eduskunta.fi/FI/naineduskuntatoimii/Sivut/default.aspx
 848,Tietoa sairausvakuutuksesta ,Asettuminen Suomeen,Infopankki,Tietoa sairausvakuutuksesta ,fi,Kela,https://www.kela.fi/ulkomailta-suomeen-sairaanhoito-suomessa
 849,Työntekijä ja Suomen sosiaaliturva,Asettuminen Suomeen,Infopankki,Työntekijä ja Suomen sosiaaliturva,fi,Kela,https://www.kela.fi/ulkomailta-suomeen-tyontekijat-ja-yrittajat
@@ -577,6 +594,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 1124,Raskauden ehkäisy,Terveys,Infopankki,Raskauden ehkäisy,fi,YTHS,https://www.yths.fi/terveystieto/seksuaaliterveys/ehkaisymenetelmat/
 1125,Työntekijän perehdyttäminen Suomen työelämään,Työ ja yrittäjyys,Infopankki,Työntekijän perehdyttäminen Suomen työelämään,fi,SAK,https://www.sak.fi/aineistot/julkaisut/tyoelaman-pelisaannot-2020
 1127,Tietoa sukupuolitaudeista,Terveys,Infopankki,Tietoa sukupuolitaudeista,fi,Terveyskirjasto.fi,https://www.terveyskirjasto.fi/dlk00497
+1129,Tietoa suomalaisesta yrityskulttuurista,Työ ja yrittäjyys,Infopankki,Tietoa suomalaisesta yrityskulttuurista,fi,WorldBusinessCulture.com,
 1130,Jokamiehenoikeudet-esite,Vapaa-aika,Infopankki,Jokamiehenoikeudet-esite,fi,Ympäristöministeriö,https://www.ymparisto.fi/download/noname/%7BF7313302-B7C0-42CD-AC9A-9AC9A54ED9BE%7D/162261
 1132,Eräasiat ja retkeily,Vapaa-aika,Infopankki,Eräasiat ja retkeily,fi,Metsähallitus,https://www.metsa.fi/vapaa-aika-luonnossa/retkeily/
 1133,Tietoa seksitaudeista -esite,Terveys,Infopankki,Tietoa seksitaudeista -esite,fi,Hivpoint,https://asiakas.kotisivukone.com/files/pointshopping.kotisivukone.com/tiedostot/Suojaa_itsesi_selko_SUOMI.pdf
@@ -706,6 +724,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 1292,Tietoa korkeakouluopinnoista,Koulutus,Infopankki,Tietoa korkeakouluopinnoista,fi,Opintopolku.fi,https://opintopolku.fi/wp/fi/yliopisto/
 1293,Tietoa Suomen ylioppilaskunnista,Koulutus,Infopankki,Tietoa Suomen ylioppilaskunnista,fi,Suomen Ylioppilaskuntien Liitto,https://syl.fi/
 1294,Perustietoa ammattikorkeakouluista,Koulutus,Infopankki,Perustietoa ammattikorkeakouluista,fi,Opintopolku.fi,https://opintopolku.fi/wp/fi/ammattikorkeakoulu/
+1295,Haku englanninkieliseen koulutusohjelmiin,Koulutus,Infopankki,Haku englanninkieliseen koulutusohjelmiin,fi,Admissions.fi,
 1296,Luettelo ammattikorkeakouluista,Koulutus,Infopankki,Luettelo ammattikorkeakouluista,fi,Opetus- ja kulttuuriministeriö,https://minedu.fi/ammattikorkeakoulut
 1297,Ammattikorkeakouluopiskelijoiden järjestö,Koulutus,Infopankki,Ammattikorkeakouluopiskelijoiden järjestö,fi,SAMOK,https://samok.fi/
 1299,Tietoa tutkijan työstä,Koulutus,Infopankki,Tietoa tutkijan työstä,fi,Suomen Akatemia,https://minedu.fi/tiede-ja-tutkimus
@@ -733,6 +752,9 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 1328,Tietoa aikuiskoulutustuesta,Koulutus,Infopankki,Opintolaina aikuisopiskelijoille,fi,Kela,https://www.kela.fi/opintolaina-aikuisopiskelijoille
 1330,Tietoa vuorottelu- ja opintovapaasta,Koulutus,Infopankki,Tietoa vuorottelu- ja opintovapaasta,fi,Työ- ja elinkeinoministeriö,https://www.te-palvelut.fi/fi/tyonhakijalle/loyda-toita/tyosuhdeasiat/vapaajarjestelmat
 1331,Tuet oppisopimuskoulutuksen aikana,Koulutus,Infopankki,Tuet oppisopimuskoulutuksen aikana,fi,Opetushallitus,https://www.oph.fi/fi
+1332,Tietoa ulkomaalaisille opiskelijoille,Koulutus,Infopankki,Tietoa ulkomaalaisille opiskelijoille,fi,Studyinfinland.fi,
+1333,Tietoa vaihto-ohjelmista,Koulutus,Infopankki,Tietoa vaihto-ohjelmista,fi,Studyinfinland.fi,
+1334,Tietoa vaihto-ohjelmasta,Koulutus,Infopankki,Tietoa vaihto-ohjelmasta,fi,Erasmus Student Network,
 1335,Tasa-arvolaki,Työ ja yrittäjyys,Infopankki,Tasa-arvolaki,fi,Finlex,https://www.finlex.fi/fi/laki/ajantasa/1986/19860609
 1336,Tietoa poliisista,Tietoa Suomesta,Infopankki,Tietoa poliisista,fi,Poliisi,https://poliisi.fi/tietoa-poliisista
 1338,Henkilökortti,Tietoa Suomesta,Infopankki,Henkilökortti,fi,Poliisi,https://poliisi.fi/henkilokortti
@@ -918,6 +940,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 1614,Suomen ja ruotsin kielen kursseja,Espoo,Infopankki,Suomen ja ruotsin kielen kursseja,fi,Axxell,https://www.axxell.fi/fi
 1615,Suomea naisille,Espoo,Infopankki,Suomea naisille,fi,Luetaan yhdessä,https://luetaanyhdessa.fi/
 1616,Liikuntaseurat,Espoo,Infopankki,Liikuntaseurat,fi,Espoon kaupunki,https://www.espoo.fi/fi-FI/Kulttuuri_ja_liikunta/Liikunta/Liikuntaseurat
+1618,Suomen ja ruotsin kielen kursseja,Espoo,Infopankki,Suomen ja ruotsin kielen kursseja,fi,Espoon kaupunki,
 1619,Varhaiskasvatus,Espoo,Infopankki,Varhaiskasvatus,fi,Espoon kaupunki,https://www.espoo.fi/fi/kasvatus-ja-opetus/varhaiskasvatus
 1620,Tietoa liikuntapalveluista,Espoo,Infopankki,Tietoa liikuntapalveluista,fi,Espoon kaupunki,https://www.espoo.fi/fi/liikunta-ja-luonto
 1621,Hoitopaikan hakeminen,Espoo,Infopankki,Hoitopaikan hakeminen,fi,Espoon kaupunki,https://www.espoo.fi/fi/kasvatus-ja-opetus/varhaiskasvatus/palveluohjaus-ja-varhaiskasvatukseen-hakeminen#section-5741
@@ -930,6 +953,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 1628,Kouluun ilmoittautuminen,Espoo,Infopankki,Kouluun ilmoittautuminen,fi,Espoon kaupunki,https://www.espoo.fi/fi/opetuksen-lomakkeet#section-17225
 1629,Nuorisotilat,Espoo,Infopankki,Nuorisotilat,fi,Espoon kaupunki,https://www.espoo.fi/fi/palvelut/nuorisotilat
 1630,Esikouluikäisten valmistava opetus,Espoo,Infopankki,Esikouluikäisten valmistava opetus,fi,Espoon kaupunki,https://www.espoo.fi/download/noname/%7BAC29EF77-6D86-44CB-AFBA-D837FD92E904%7D/97753
+1632,Esikouluikäisten valmistava opetus,Espoo,Infopankki,Esikouluikäisten valmistava opetus,fi,Espoon kaupunki,
 1635,Oman äidinkielen opetus,Espoo,Infopankki,Oman äidinkielen opetus,fi,Espoon kaupunki,https://www.espoo.fi/fi/palvelut/oman-aidinkielen-opetus
 1636,Ulkoilu,Espoo,Infopankki,Ulkoilu,fi,Espoon kaupunki,https://www.espoo.fi/fi/liikunta-ja-luonto/liikunta-ja-ulkoilureitit
 1638,Ammatillista koulutusta,Espoo,Infopankki,Ammatillista koulutusta,fi,Omnia Koulutus,https://www.omnia.fi/koulutustarjonta/ammatillinen-peruskoulutus
@@ -1162,6 +1186,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 1964,Avoin ammattikorkeakoulu Turussa,Turku,Turku,Avoin ammattikorkeakoulu Turussa,fi,Avoinamk.fi,https://opintopolku.fi/wp/fi/ammattikorkeakoulu/avoin-ammattikorkeakoulu
 1965,Avoin yliopisto Turussa,Turku,Turku,Avoin yliopisto Turussa,fi,Avoin Yliopisto,http://www.avoimenfoorumi.fi/?page_id=244
 1966,Suomenkielinen työväenopisto,Turku,Turku,Suomenkielinen työväenopisto,fi,Turun kaupunki,https://blog.edu.turku.fi/tyovaenopisto/
+1967,Ruotsinkielinen työväenopisto,Turku,Turku,Ruotsinkielinen työväenopisto,fi,Turun kaupunki,
 1969,Lukiot Turussa,Turku,Turku,Lukiot Turussa,fi,Turun kaupunki,https://www.turku.fi/paivahoito-ja-koulutus/lukiokoulutus/turun-lukiot-ja-erityislinjat
 1970,Opiskelu lukiossa,Turku,Turku,Opiskelu lukiossa,fi,Turun kaupunki,https://www.turku.fi/paivahoito-ja-koulutus/lukiokoulutus/opiskelu-lukiossa
 1973,Ulkomaalaisten rekisteröinti,Turku,Turku,Ulkomaalaisten rekisteröinti,fi,Maistraatti,https://dvv.fi/ulkomaalaisen-rekisterointi
@@ -1226,6 +1251,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2038,Opetustoimi,Oulu,Oulu,Koulutus ja opiskelu,fi,Oulun kaupunki,https://www.ouka.fi/oulu/koulutus-ja-opiskelu/
 2039,Peruskoulujen yhteystiedot,Oulu,Oulu,Peruskoulujen yhteystiedot,fi,Oulun kaupunki,https://www.ouka.fi/oulu/koulutus-ja-opiskelu/peruskoulujen-yhteystiedot
 2040,Aamu- ja iltapäivätoiminta ,Oulu,Oulu,Aamu- ja iltapäivätoiminta ,fi,Oulun kaupunki,https://www.ouka.fi/oulu/koulutus-ja-opiskelu/aamu-ja-iltapaivatoiminta
+2041,Oulu International School,Oulu,Oulu,Oulu International School,fi,Oulun kaupunki,
 2042,Lukion yhteystiedot,Oulu,Oulu,Lukion yhteystiedot,fi,Oulun kaupunki,https://www.ouka.fi/oulu/koulutus-ja-opiskelu/lukioiden-yhteystiedot
 2043,Oulun aikuislukion kurssit,Oulu,Oulu,Oulun aikuislukion kurssit,fi,Oulun kaupunki,https://www.ouka.fi/oulu/oulun-aikuislukio/kurssitarjotin
 2044,Baccalaureate (IB) -tutkinto,Oulu,Oulu,Baccalaureate (IB) -tutkinto,fi,Oulun kaupunki,https://lyseo.edu.ouka.fi/cms7/opiskelijaksi/ib-linja
@@ -1297,6 +1323,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2114,Oulun NNKY,Oulu,Oulu,Oulun NNKY,fi,Nuorten Naisten Kristillinen Yhdistys,https://ywca.fi/nnky/yhteystiedot/
 2115,Kumppanuuskeskus,Oulu,Oulu,Kumppanuuskeskus,fi,Kumppanuuskeskus,https://www.ihimiset.fi/jarjestotalo-kumppanuuskeskus/
 2116,Asukastuvat,Oulu,Oulu,Asukastuvat,fi,Oulun Kaupunki,https://www.ouka.fi/oulu/yhteisotoiminta/asukastuvat
+2118,PanOulu,,Oulu,PanOulu,fi,Oulun Kaupunki,
 2119,OmaOulu,Oulu,Oulu,OmaOulu,fi,Oulun Kaupunki,https://www.oulunomahoito.fi/
 2120,Tapahtumakalenteri,Oulu,Oulu,Tapahtumakalenteri,fi,Oulun Kaupunki,https://www.ouka.fi/oulu/tapahtumat
 2121,Koskilinjat,Oulu,Oulu,Koskilinjat,fi,Koskilinjat,https://www.koivistonauto.fi/
@@ -1307,6 +1334,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2126,Matkahuolto,Oulu,Oulu,Matkahuolto,fi,Matkahuolto,https://www.matkahuolto.fi/
 2127,Juna,Oulu,Oulu,Juna,fi,VR,https://www.vr.fi/
 2128,Lentoasema,Oulu,Oulu,Lentoasema,fi,Finavia,https://www.finavia.fi/fi/lentoasemat/oulu
+2129,Uskonto ,Oulu,Oulu,Uskonto ,fi,Oulun Kaupunki,
 2130,Päätöksenteko ja hallinto ,Oulu,Oulu,Päätöksenteko ja hallinto ,fi,Oulun Kaupunki,https://www.ouka.fi/paatoksenteko-ja-hallinto
 2131,Osallistu ja vaikuta,Oulu,Oulu,Osallistu ja vaikuta,fi,Oulun Kaupunki,https://www.ouka.fi/oulu/paatoksenteko-ja-hallinto/osallistu-ja-vaikuta
 2132,Ulkomaalaisen rekisteröinti,Oulu,Oulu,Ulkomaalaisen rekisteröinti,fi,Digi ja väestötietovirasto,https://dvv.fi/ulkomaalaisen-rekisterointi
@@ -1320,8 +1348,10 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2140,Kela,Oulu,Oulu,Kela,fi,Kela,https://www.kela.fi/
 2141,Vuolle-opisto,Oulu,Oulu,Vuolle-opisto,fi,Vuolle Setlementti ,https://vuolleoulu.fi/opisto/
 2142,Yleinen kielitutkinto,Oulu,Oulu,Yleinen kielitutkinto,fi,Opetushallitus,https://www.oph.fi/fi/koulutus-ja-tutkinnot/kieli-ja-kaantajatutkinnot/yleiset-kielitutkinnot-yki
+2143,The English Speaking playschool of Oulu,Oulu,Oulu,The English Speaking playschool of Oulu,fi,The English Speaking playschool of Oulu,
 2144,Starbright päiväkoti,Oulu,Oulu,Starbright päiväkoti,fi,Starbright päiväkoti,https://touhula.fi/paivakoti/oulu-touhula-starbright/
 2145,Päiväkoti Saksanpähkinä,Oulu,Oulu,Päiväkoti Saksanpähkinä,fi,Päiväkoti Saksanpähkinä,http://www.saksanpahkina.fi.neb.fi/
+2146, Svenska Barnträdsgården,Oulu,Oulu, Svenska Barnträdsgården,fi,Svenska Barnträdsgården ,
 2147,Oulun kristillinen koulu,Oulu,Oulu,Oulun kristillinen koulu,fi,Oulun kristillinen koulu,https://www.oukris.fi/
 2148,Oulun Steinerkoulu,Oulu,Oulu,Oulun Steinerkoulu,fi,Oulun Steinerkoulu,https://www.oulun-steinerkoulu.fi/wordpress/
 2149,Oulun Normaalikoulu,Oulu,Oulu,Oulun Normaalikoulu,fi,Oulun Normaalikoulu,https://nk.oulu.fi
@@ -1330,6 +1360,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2152,Oulun seudun ammattiopisto (OSAO),Oulu,Oulu,Oulun seudun ammattiopisto (OSAO),fi,Oulun seudun ammattiopisto (OSAO),https://www.osao.fi/
 2153,Oulun palvelualan opisto (PAO),Oulu,Oulu,Oulun palvelualan opisto (PAO),fi,Oulun palvelualan opisto (PAO),https://www.opao.fi/
 2154,Oulun aikuiskoulutuskeskus OAKK,Oulu,Oulu,Oulun aikuiskoulutuskeskus OAKK,fi,Oulun aikuiskoulutuskeskus OAKK,https://www.osao.fi/
+2155,Study in Finland,Oulu,Oulu,Study in Finland,fi,Study in Finland,
 2156,Oulun Yliopisto,Oulu,Oulu,Oulun Yliopisto,fi,Oulun Yliopisto,https://www.oulu.fi/fi
 2157,Oulun ammattikorkeakoulu,Oulu,Oulu,Oulun ammattikorkeakoulu,fi,Oulun ammattikorkeakoulu,https://www.oamk.fi/fi/
 2158,Oulu avoin yliopisto,Oulu,Oulu,Oulu avoin yliopisto,fi,Oulun Yliopisto,https://www.oulu.fi/fi/joy/avoin-yliopisto
@@ -1608,6 +1639,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2539,Etsi yrityksiä,Tampere,Tampere,Etsi yrityksiä,fi,Suomen Yrityshaku,https://suomenyrityshaku.fi/
 2540,Esitteitä maahanmuuttajille,Tampere,Tampere,Esitteitä maahanmuuttajille,fi,TE-palvelut,http://www.te-palvelut.fi/te/fi/pdf/esitteet/suomeentyohon_esite.pdf
 2541,Työluvat,Tampere,Tampere,Työluvat,fi,Pirkanmaan TE-toimisto,http://toimistot.te-palvelut.fi/pirkanmaa/tyoluvat
+2543,Linkkejä työnhakuun,Tampere,Tampere,Linkkejä työnhakuun,fi,Tampereen yliopisto,
 2544,Tampereen kaupungin työpaikat,Tampere,Tampere,Tampereen kaupungin työpaikat,fi,Tampereen kaupunki,https://www.tampere.fi/tyo-ja-yrittaminen.html
 2545,Maahanmuuttajien työharjoittelu,Tampere,Tampere,Maahanmuuttajien työharjoittelu,fi,Työllisyydenhoidon palveluyksikkö,http://www.tyollisyysportti.fi/tampere/palvelut-tyonhakijoille/maahanmuuttajat/
 2546,Tampereen kaupungin työllisyyspalvelut,Tampere,Tampere,Tampereen kaupungin työllisyyspalvelut,fi,Tampereen kaupunki,http://www.tampere.fi/tyo-ja-yrittaminen/tyollisyyspalvelut.html
@@ -1768,6 +1800,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 2927,Yksityinen lääkäriasema,Terveys,Infopankki,Yksityinen lääkäriasema,fi,Mehiläinen,https://www.mehilainen.fi/
 2928,Perustietoa suomen ja ruotsin kielen kursseista,Koulutus,Infopankki,Perustietoa suomen ja ruotsin kielen kursseista,fi,Opintopolku.fi,https://opintopolku.fi/wp/valintojen-tuki/maahanmuuttajien-koulutus/maahanmuuttajan-kielitaito/
 2929,Tietoa yleisestä kielitutkinnosta,Koulutus,Infopankki,Tietoa yleisestä kielitutkinnosta,fi,Opintopolku.fi,https://opintopolku.fi/wp/aikuiskoulutus/kielitutkinnot-ja-kielikokeet/yleinen-kielitutkinto/
+2930,Suomi toisena kielenä peruskoulussa ja lukiossa,Koulutus,Infopankki,Suomi toisena kielenä peruskoulussa ja lukiossa,fi,Opintopolku.fi,
 2931,Tietoa kansalaisopistoista ja työväenopistoista,Koulutus,Infopankki,Tietoa kansalaisopistoista ja työväenopistoista,fi,Opintopolku.fi,https://opintopolku.fi/wp/fi/aikuiskoulutus/kansalais-ja-tyovaenopistot/
 2932,Tietoa kansanopistoista,Koulutus,Infopankki,Tietoa kansanopistoista,fi,Opintopolku.fi,https://opintopolku.fi/wp/fi/aikuiskoulutus/kansanopistot/
 2933,Tietoa kesäyliopistoista,Koulutus,Infopankki,Tietoa kesäyliopistoista,fi,Opintopolku.fi,https://opintopolku.fi/wp/fi/aikuiskoulutus/kesayliopistot/
@@ -1855,7 +1888,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3065,Pyhäjoen seurakunta,Pyhäjoki,Raahe-Kalajoki seutu,Pyhäjoen seurakunta,fi,Pyhäjoen seurakunta,https://www.pyhajoenseurakunta.fi/
 3068,Siikajoen kansalaisopisto,Siikajoki,Raahe-Kalajoki seutu,Siikajoen kansalaisopisto,fi,Siikajoen kansalaisopisto,https://www.opistopalvelut.fi/ruukki/
 3072,Kirjasto,Siikajoki,Raahe-Kalajoki seutu,Kirjasto,fi,Siikajoen kunta,https://siikajoki.fi/kirjasto
-3073,Liikunta,Siikajoki,Raahe-Kalajoki seutu,Liikunta,fi,Siikajoen kunta,https://siikajoki.fi/liikunta
+3073,Liikunta,Siikajoki,Raahe-Kalajoki seutu,Liikunta,fi,Siikajoen kunta,https://siikajoki.fi/liikunta 
 3074,Ruukin FK-kerho,Siikajoki,Raahe-Kalajoki seutu,Ruukin FK-kerho,fi,Ruukin FK-kerho,https://www.ruukinfk.com/
 3075,Liikuntapaikat,Siikajoki,Raahe-Kalajoki seutu,Liikuntapaikat,fi,Siikajoen kunta,https://www.siikajoki.fi/liikunta
 3076,Näyttämöyhdistyksen Facebook-sivut,Siikajoki,Raahe-Kalajoki seutu,Näyttämöyhdistyksen Facebook-sivut,fi,Ruukin Näyttämöyhdistys,https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2FRuukinNayttamoyhdistys%3Frefsrc%3Dhttps%253A%252F%252Fm.facebook.com%252FRuukinNayttamoyhdistys&refsrc=https%3A%2F%2Fm.facebook.com%2FRuukinNayttamoyhdistys&_rdr
@@ -2096,13 +2129,16 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3477,Yhdistysnetti,Vapaa-aika,Infopankki,Yhdistysnetti,fi,Patentti- ja rekisterihallitus,https://www.prh.fi/fi/yhdistysrekisteri/tietopalvelu_virhesivu.html
 3478,Järjestöhautomo,Vapaa-aika,Infopankki,Järjestöhautomo,fi,Suomen Pakolaisapu,https://www.jarjestohautomo.fi/
 3479,Monikulttuurijärjestöjen yhteistyöverkosto,Vapaa-aika,Infopankki,Monikulttuurijärjestöjen yhteistyöverkosto,fi,Moniheli,https://www.moniheli.fi/
+3480,Liikuntajärjestö,Vapaa-aika,Infopankki,Liikuntajärjestö,fi,Liikkukaa! ry,
 3481,Suomen venäjänkielisten yhdistysten liitto,Vapaa-aika,Infopankki,Suomen venäjänkielisten yhdistysten liitto,fi,Faro,https://www.faro.fi/?lang=fi
 3482,Somalialaisyhdistysten kattojärjestö,Vapaa-aika,Infopankki,Somalialaisyhdistysten kattojärjestö,fi,Suomen somalialaisten liitto,https://somaliliitto.fi/
 3483,Euroopan afrikkalaiset ja afrikkalaiseurooppalaiset,Vapaa-aika,Infopankki,Euroopan afrikkalaiset ja afrikkalaiseurooppalaiset,fi,AFAES,http://afaes.fi/fi/etusivu/
+3484,International English Speakers' Association of Finland,Vapaa-aika,Infopankki,International English Speakers' Association of Finland,fi,IESAF,
 3485,Ystävyysseuroja,Vapaa-aika,Infopankki,Ystävyysseuroja,fi,Ystävyysseurojen liitto,https://www.ysl.fi/
 3486,Tukea työllistymiseen,Vantaa,Infopankki,Tukea työllistymiseen,fi,Vantaan kaupunki,https://www.vantaa.fi/hallinto_ja_talous/tyo_ja_elinkeinot/apua_tyonhakuun
 3488,Tietoa mielenterveydestä,terveys,Infopankki,Tietoa mielenterveydestä,fi,MIELI Suomen Mielenterveys ry,https://mieli.fi/
 3489,Sähköinen resepti,terveys,Infopankki,Sähköinen resepti,fi,Kanta,https://www.kanta.fi/reseptit
+3490,"Suomen kielen alkeiskurssi ""A Taste of Finnish""",suomen ja ruotsin kieli,Infopankki,"Suomen kielen alkeiskurssi ""A Taste of Finnish""",fi,Helsingin yliopisto,
 3491,Kokkolan evankelisluterilaisen seurakunnan maahanmuuttajatyö,Seurakunnan maahanmuuttajatyö,Kokkola,Kokkolan evankelisluterilaisen seurakunnan maahanmuuttajatyö,fi,Kokkolan evankelisluterilainen seurakuntayhtymä,https://www.kokkolanseurakuntayhtyma.fi/yhteystiedot/maahanmuuttajat
 3492,Kokkolan evankelisluterilaisen seurakunnan päihdetyö,Seurakunnan päihdetyö,Kokkola,Kokkolan evankelisluterilaisen seurakunnan päihdetyö,fi,Kokkolan evankelisluterilainen seurakuntayhtymä,https://www.kokkolanseurakuntayhtyma.fi/info-ja-asiointi/palvelut/paihde-ja-kriminaalityo
 3494,päivähoito ja koulutus,Turku testi,Infopankki,päivähoito ja koulutus,fi,Turun kaupunki,https://www.turku.fi/paivahoito-ja-koulutus
@@ -2199,14 +2235,18 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3748,Kriisiapua,Tampere,Tampere,Kriisiapua,fi,Suomen mielenterveysseura ,https://mieli.fi/
 3750,Apua päihdeongelmiin,Tampere,Tampere,Apua päihdeongelmiin,fi,Tampereen kuntoutumiskeskus,https://www.a-klinikka.fi/toimipisteet/tampere/a-klinikkayhteiso-tampere
 3751,Terveysasemahaku,Tampere,Tampere,Terveysasemahaku,fi,Tampereen kaupunki,https://www.tampere.fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/yhteystiedot/terveysasemahaku.html.stx
+3752,Neuvontaa työnhakuun,Helsinki,Infopankki,Neuvontaa työnhakuun,fi,Luckan integration,
 3753,Työuramentorointi,Helsinki,Infopankki,Työuramentorointi,fi,Väestöliitto,https://www.vaestoliitto.fi/maahanmuuttajat/tyoelama-ja-maahanmuuttajat/womento-hae-mukaan/
 3754,Kotoutumiskeskus Monika,Helsinki,Infopankki,Kotoutumiskeskus Monika,fi,Monika-Naiset liitto,https://monikanaiset.fi/kotoutumiskeskus-monika/
 3756,Kielikahvilat,Helsinki,Infopankki,Kielikahvilat,fi,HelMet-kirjastot,https://www.helmet.fi/fi-FI/Tapahtumat_ja_vinkit/Tapahtumat?es=6.9.2019&t=Kielikahvilat%20ja%20keskusteluryhm%c3%a4t&m=Helsinki
+3757,Televisio Suomessa,Tietoa Suomesta,Infopankki,Televisio Suomessa,fi,ExpatFinland,
 3758,Sanomalehdet Suomessa,Tietoa Suomesta,Infopankki,Sanomalehdet Suomessa,fi,Sanomalehtien liitto,https://www.uutismediat.fi/sanomalehtihaku/
 3762,Asunnottomana pääkaupunkiseudulla,Asuminen,Infopankki,Asunnottomana pääkaupunkiseudulla,fi,Vailla vakinaista asuntoa ry,https://vvary.fi/
 3763,Opas nälkäiselle,Asuminen,Infopankki,Opas nälkäiselle,fi,Vailla vakinaista asuntoa ry,https://vvary.web38.neutech.fi/nalkasen-opas/
 3764,Pääkaupunkiseudun asunto-opas,Asuminen,Infopankki,Pääkaupunkiseudun asunto-opas,fi,Vailla vakinaista asuntoa ry,https://vvary.fi/jos-jaat-asunnottomaksi/
 3765,Aparthotel Forenom,Aparthotel Forenom,Raahe-Kalajoki seutu,Aparthotel Forenom,fi,Aparthotel Forenom,https://www.forenom.com/fi/huoneistohotellit/raahe/forenom-aparthotel-raahe/
+3767,International Tampere,Tampere,Tampere,International Tampere,fi,International Tampere,
+3768,Talent Tampere - LinkedIn -ryhmä,Tampere,Tampere,International Tampere - LinkedIn -ryhmä,fi,International Tampere,
 3770,Kielikahvilat,Espoo,Infopankki,Kielikahvilat,fi,Helmet-kirjastot,https://www.helmet.fi/fi-FI/Tapahtumat_ja_vinkit/Tapahtumat?es=31.12.2018&t=Kielikahvilat%20ja%20keskusteluryhm%C3%A4t&m=Espoo
 3771,Suomen kielen keskusteluryhmä,Espoo,Infopankki,Suomen kielen keskusteluryhmä,fi,Kansainvälinen kohtaamispaikka Trapesa,https://www.trapesa.com/tapahtumat/
 3773,Lastenhoitoa ja kotiapua,Espoo,Infopankki,Lastenhoitoa ja kotiapua,fi,Väestöliitto,https://vaestoliitonkotipalvelut.fi/
@@ -2280,9 +2320,13 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3863,Caisa,Helsinki,Infopankki,Caisa,fi,Helsingin kulttuurikeskus,https://www.caisa.fi/
 3866,Muuttopalveluja,Muutto Suomeen,Infopankki,Muuttopalveluja,fi,Viktor Ek,https://www.victorek.fi?password-protected=login&redirect_to=https%3A%2F%2Fwww.victorek.fi%2F
 3868,Avoin ohjelmointirajapinta,Tietoa palvelusta,Infopankki,Avoin ohjelmointirajapinta,fi,InfoFinland,https://api.infofinland.fi/
+3869,Rajapinnan tekninen kuvaus,,Infopankki,Rajapinnan tekninen kuvaus,fi,dev.hel.fi,
 3870,Tietoa rajapinnasta,,Infopankki,Tietoa rajapinnasta,fi,Helsinki Region Infoshare,https://hri.fi/data/fi/dataset//tietoa-suomesta-monella-eri-kielella
 3871,Kerro ajatuksesi rajapinnasta,,Infopankki,Kerro ajatuksesi rajapinnasta,fi,Infopankki Padlet,https://padlet.com/infopankki/api
 3872,Kansainväliset koulut pääkaupunkiseudulla,Helsinki,Infopankki,Kansainväliset koulut pääkaupunkiseudulla,fi,HelsinginSeutu.fi,https://www.hel.fi/kanslia/helsinginseutu-fi/kansainvaliset-koulut/koulut
+3873,Kansainväliset koulut pääkaupunkiseudulla,Helsinki,Infopankki,Kansainväliset koulut pääkaupunkiseudulla,fi,ExpatFinland.fi,
+3875,Suomalainen ruokakulttuuri,Tietoa Suomesta,Infopankki,Suomalainen ruokakulttuuri,fi,VisitFinland.com,
+3876,Auto ja ajaminen Suomessa,Tietoa Suomesta,Infopankki,Auto ja ajaminen Suomessa,fi,ExpatFinland.com,
 3877,Eläimen tuominen EU:n ulkopuolelta,Muutto Suomeen,Infopankki,Eläimen tuominen EU:n ulkopuolelta,fi,Ruokavirasto,https://www.ruokavirasto.fi/yritykset/tuonti-ja-vienti/tuonti-eun-ulkopuolelta/elaimet-ja-elainperaiset-tuotteet/elaimet/koirat-kissat-ja-fretit/lemmikkielaimen-siirto/
 3878,Eläimen tuominen EU-maasta,Muutto Suomeen,Infopankki,Eläimen tuominen EU-maasta,fi,Ruokavirasto,https://www.ruokavirasto.fi/yritykset/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/
 3879,Lupahakemusten käsittelyajat,Muutto Suomeen,Infopankki,Lupahakemusten käsittelyajat,fi,Maahanmuuttovirasto,https://migri.fi/kasittelyaikalaskuri
@@ -2294,6 +2338,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3887,Harjoituksia ja kursseja verkossa,Suomen ja ruotsin kieli,Infopankki,Harjoituksia ja kursseja verkossa,fi,Yle.fi,https://yle.fi/aihe/artikkeli/2015/12/15/ruotsi
 3888,Tietoa viharikoksista,Ongelmatilanteet,Infopankki,Tietoa viharikoksista,fi,Ihmisoikeusliitto,https://ihmisoikeusliitto.fi/wp-content/uploads/2016/10/Viharikosesite_A4_FI.pdf
 3893,Koulutuksia aikuisille maahanmuuttajille,Koulutus,Infopankki,Koulutuksia aikuisille maahanmuuttajille,fi,Maahanmuuttajakoulutus.fi,https://www.mamuko.fi/
+3894,Lukukausimaksut eri korkeakouluissa,Koulutus,Infopankki,Lukukausimaksut eri korkeakouluissa,fi,Studyinfinland.fi,
 3895,Yksityisiä käännöstoimistoja,Asettuminen Suomeen,Infopankki,Yksityisiä käännöstoimistoja,fi,Suomen kielipalveluyritykset SKY ry,http://kielipalveluyritykset.fi/jasenet/
 3896,"Miten toimin, jos kotona syttyy tulipalo",Asuminen,Infopankki,"Miten toimin, jos kotona syttyy tulipalo",fi,Pirkanmaan pelastuslaitos,http://pirkanmaanpelastuslaitos.fi/Pirkanmaa-702
 3897,"Sähkötyöt, jotka saat tehdä itse",Asuminen,Infopankki,"Sähkötyöt, jotka saat tehdä itse",fi,Tukes,https://tukes.fi/koti-ja-vapaa-aika/kunnostus-ja-remontointi/tee-se-itse-sahkotyot
@@ -2311,6 +2356,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3921,Yksityinen hammaslääkäri,Kauniainen,Infopankki,Yksityinen hammaslääkäri,fi,PlusTerveys,https://www.plusterveys.fi/hammashoito/toimipisteet/kauniainen/plusterveys-granin-hammas
 3922,Lasten kotihoidon tuki,Kauniainen,Infopankki,Lasten kotihoidon tuki,fi,Kauniaisten kaupunki,https://www.kauniainen.fi/koulutus_ja_varhaiskasvatus/varhaiskasvatus/lapsen_hoitaminen_kotona_ja_avoin_perhetoiminta/lasten_kotihoidon_tuki
 3923,Tapahtumat Kauniaisissa,Kauniainen,Infopankki,Tapahtumat Kauniaisissa,fi,Kauniaisten kaupunki,https://www.kauniainen.fi/tapahtumat/#/
+3924,Tietoa stipendeistä,Koulutus,Infopankki,Tietoa stipendeistä,fi,Studyinfinland.fi,
 3925,Chat neuvonta (Helsinki-info),Helsinki,Infopankki,Chat neuvonta (Helsinki-info),fi,Helsingin kaupunki,https://www.hel.fi/kanslia/neuvonta-fi
 3926,Espoo International School,Espoo,Infopankki,Espoo International School,fi,Espoon kaupunki,https://www.espoo.fi/fi/espoo-international-school
 3934,Toimeentulotuki,Tampere,Tampere,Toimeentulotuki,fi,Kela,https://www.kela.fi/toimeentulotuki
@@ -2343,9 +2389,11 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3978,Video leikkipuistotoiminnasta,Helsinki,Infopankki,Video leikkipuistotoiminnasta,fi,Helsingin kaupunki,https://www.youtube.com/watch?v=yPJMHkJIx7g&list=PLSZqvoDfmsdmoJu7a1kvcqYiWTI5eZIhN&index=4&ucbcb=1
 3979,Yhteisötalot,,Oulu,Yhteisötalot,fi,Oulun Kaupunki,https://www.ouka.fi/oulu/yhteisotoiminta/asukastuvat?p_p_id=56_INSTANCE_rRU7&p_p_lifecycle=0&p_p_state=maximized&p_p_col_id=column-2&p_p_col_count=1
 3980,Oulun joukkoliikenne,,Oulu,Oulun joukkoliikenne,fi,Oulun joukkoliikenne,https://www.oulunjoukkoliikenne.fi/
+3982,welcome.helsinki,Helsinki,Infopankki,welcome.helsinki,fi,Helsingin kaupunki,
 3983,Video mielenterveyspalveluista,Helsinki,Infopankki,Video mielenterveyspalveluista,fi,Helsingin kaupunki,https://www.youtube.com/watch?v=dpC0ImTyQVU&list=PLSZqvoDfmsdmoJu7a1kvcqYiWTI5eZIhN&index=12&ucbcb=1
 3985,Aikuissosiaalityö,Tampereen kaupunki,Tampere,Aikuissosiaalityö,fi,Tampereen kaupunki,https://www.tampere.fi/sosiaali-ja-terveyspalvelut/sosiaalinen-tuki-ja-toimeentulo/aikuissosiaalityo.html
 3986,Video liikuntavaihtoehdoista,Helsinki,Infopankki,Video liikuntavaihtoehdoista,fi,Helsingin kaupunki,https://www.youtube.com/watch?v=F_gqA_CZR4U&list=PLSZqvoDfmsdmoJu7a1kvcqYiWTI5eZIhN&index=7&ucbcb=1
+3987,IHH - palvelupiste Suomeen muuttaville ,Helsinki,Infopankki,IHH - palvelupiste Suomeen muuttaville ,fi,International House Helsinki,
 3989,Ohje rintasyövän tunnistamiseen,Terveys,Infopankki,Ohje rintasyövän tunnistamiseen,fi,Tunne rintasi,https://tunnerintasi.fi/tuote/omatarkkailukortti/
 3990,Mielenterveysseuran kriisipuhelin,Tampere,Tampere,Mielenterveysseuran kriisipuhelin,fi,Mielenterveysseura,https://mieli.fi/tukea-ja-apua/kriisipuhelin/
 3991,Tietoa lasten ja nuorten terveyspalveluista eri kielillä,Tampere,Tampere,Tietoa lasten ja nuorten terveyspalveluista eri kielillä,fi,Tampereen kaupunki,https://www.tampere.fi/sosiaali-ja-terveyspalvelut/sosiaalinen-tuki-ja-toimeentulo/maahanmuuttajat/alkuvaiheen-palvelut/esitteet.html
@@ -2358,9 +2406,11 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 3998,Tervetuloa työelämään ,Työ ja yrittäjyys,Infopankki,Tervetuloa työelämään ,fi,Työelämään.fi ,https://tyoelamaan.fi/wp-content/uploads/2020/02/1_sttk_esite_fi_6-sivuinen_a5_sivuttain.pdf
 4000,Ammatillinen työvoimakoulutus,Koulutus,Infopankki,Ammatillinen työvoimakoulutus,fi,Työ- ja elinkeinoministeriö ,https://www.te-palvelut.fi/fi/tyonhakijalle/ammatinvalinta-koulutus/tyovoimakoulutus
 4001,Omaehtoinen opiskelu työttömyysetuudella tuettuna,Koulutus,Infopankki,Omaehtoinen opiskelu työttömyysetuudella tuettuna,fi,Työ- ja elinkeinoministeriö ,https://www.te-palvelut.fi/fi/tyonhakijalle/ammatinvalinta-koulutus/omaehtoinen-opiskelu
+4005,Welcome Guide,Helsinki,Infopankki,Moving to Helsinki,fi,Helsingin kaupunki,
 4006,Järjestötoimintaa,Espoo,Infopankki,Järjestötoimintaa,fi,Uusimaalaiset.fi,https://www.uusimaalaiset.fi/espoo/
 4007,Työeläke,Työ ja yrittäjyys,Infopankki,Työeläke,fi,Eläketurvakeskus,https://www.etk.fi/suomen-elakejarjestelma/elaketurva/tyoelake-etuudet/
 4008,Palveluopas asunnottomille Helsingissä,Helsinki,Infopankki,Palveluopas asunnottomille Helsingissä,fi,Sininauhasäätiö,https://storage.googleapis.com/sininauhasaatio-production/2017/12/f03db743-opaskadunkansalle-a4-04122017.pdf
+4009,IHH Service Advisor App verkkosovellus ,Helsinki,Infopankki,IHH Service Advisor App verkkosovellus ,fi,International House Helsinki,
 4010,Maahanmuuttajat väestössä,Tietoa Suomesta,Infopankki,Maahanmuuttajat väestössä,fi,Tilastokeskus,https://www.stat.fi/tup/maahanmuutto/maahanmuuttajat-vaestossa.html
 4012,Ohjaamo,Työ ja yrittäjyys,Infopankki,Ohjaamo,fi,Ohjaamot.fi,https://ohjaamot.fi/etusivu
 4013,Palkkavertailu ,Työ ja yrittäjyys,Infopankki,Palkkavertailu ,fi,Oikotie.fi ,https://tyopaikat.oikotie.fi/palkkavertailu
@@ -2384,6 +2434,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4039,Ajoneuvot muuttotavaroina,Muutto Suomeen,Infopankki,Ajoneuvot muuttotavaroina,fi,Tulli,https://tulli.fi/henkiloasiakkaat/muuttajalle/ajoneuvot-muuttotavaroina
 4041,Opi suomea videoiden avulla,Suomen ja ruotsin kieli,Infopankki,Opi suomea videoiden avulla,fi,Suomi Taskussa,https://suomitaskussa.eu/
 4043,Suomen kursseja internetistä,Tampere,Tampere,Suomen kursseja internetistä,fi,InfoFinland-toimitus,https://finnishcourses.fi/
+4044,Startup-oleskelulupa,Muutto Suomeen,Infopankki,Startup-oleskelulupa,fi,Business Finland,
 4045,Startup-oleskelulupa,Muutto Suomeen,Infopankki,Startup-oleskelulupa,fi,Maahanmuuttovirasto,https://migri.fi/startup-yrittaja
 4046,Vuokra-asunnot,Turku,Turku,Vuokra-asunnot,fi,Turun kaupunki, https://www.turku.fi/asuminen-ja-ymparisto/asuminen/vuokra-asunnot
 4047,Asumispalvelut,Turku,Turku,Asumispalvelut,fi,Turun kaupunki,https://www.turku.fi/sosiaali-ja-terveyspalvelut/sosiaalipalvelut/asumispalvelut
@@ -2402,6 +2453,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4060,Perheasian neuvottelukeskus,Turku,Turku,Perheasian neuvottelukeskus,fi,Turun ja Kaarinan seurakuntayhtymä,https://www.turunseurakunnat.fi/yhteystiedot/perheasiain-neuvottelukeskus
 4061,Varhaiskasvatus,Turku,Turku,Varhaiskasvatus,fi,Turun kaupunki,https://www.turku.fi/paivahoito-ja-koulutus/varhaiskasvatus
 4063,"Kerhot, leikkipuistotoiminta ja avoimet päiväkodit",Turku,Turku,"Kerhot, leikkipuistotoiminta ja avoimet päiväkodit",fi,Turun kaupunki,https://www.turku.fi/paivahoito-ja-koulutus/varhaiskasvatus/kerhot-leikkipuistotoiminta-ja-avoimet-paivakodit
+4064,Finnishcourses.fi,Turku,Turku,Finnishcourses.fi,fi,Finnishcourses.fi,
 4065,Suomea ulkomaalaisille,Turku,Turku,Suomea ulkomaalaisille,fi,Turun kesäyliopisto,https://erp.asio.fi/kurssiilmo/utukesa/index.php?asio=czhkZWI0MGE0NzgxOTNmMTI5YzFjMDg2ZjYwNDVjNDM4O2czO3I7Zmt1cnNzaXQ%3D
 4066,Iltalukio maahanmuuttajille,Turku,Turku,Iltalukio maahanmuuttajille,fi,Turun iltalukio,http://www.turuniltalukio.fi/index.php/maahanmuuttajat/ff
 4067,Suun terveydenhuollon ajanvaraus,Turku,Turku,Suun terveydenhuollon ajanvaraus,fi,Turun kaupunki,https://www.turku.fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/suun-ja-hampaiden-hoito/suun-terveydenhuollon-ajanvaraus
@@ -2421,6 +2473,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4083,Tietoa palkanmaksusta,Työ ja yrittäjyys,Infopankki,Tietoa palkanmaksusta,fi,Työsuojeluhallinto,https://www.tyosuojelu.fi/tyosuhde/palkka
 4084,Työsuojeluviranomaisten yhteystiedot,Työ ja yrittäjyys,Infopankki,Työsuojeluviranomaisten yhteystiedot,fi,Työsuojeluhallinto,https://www.tyosuojelu.fi/tietoa-meista/yhteystiedot
 4086,Uutisia helpolla suomen kielellä,Tietoa Suomesta,Infopankki,Uutisia helpolla suomen kielellä,fi,Selkokeskus,https://selkosanomat.fi/
+4087,Suomen kielen johdantokurssi,,Infopankki,Suomen kielen johdantokurssi,fi,Aalto-yliopisto,
 4089,Opiskelijan jatkolupa,Muutto Suomeen,Infopankki,Opiskelijan jatkolupa,fi,Maahanmuuttovirasto,https://migri.fi/jatkolupahakemus-opiskelun-perusteella
 4090,Julkiset palvelut verkossa,Tietoa Suomesta,Infopankki,Julkiset palvelut verkossa,fi,suomi.fi,https://www.suomi.fi/etusivu/
 4095,Lähetä kysymys tai anna palautetta,Helsinki,Infopankki,Lähetä kysymys tai anna palautetta,fi,Helsingin kaupunki,https://www.hel.fi/helsinki/fi/kaupunki-ja-hallinto/osallistu-ja-vaikuta/palaute/anna-palautetta
@@ -2430,7 +2483,10 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4099,Kunniaan liittyvät konfliktit,Ongelmatilanteet,Infopankki,Kunniaan liittyvät konfliktit,fi,Sopu-työ,https://soputila.fi/
 4100,Näin käytät Wilmaa,Koulutus,Infopankki,Näin käytät Wilmaa,fi,Keravan kaupunki,https://kerava.fi/palvelut/Sivut/Wilma-ohje.aspx
 4105,Vammaisjärjestöjä Suomessa,Terveys,Infopankki,Vammaisjärjestöjä Suomessa,fi,Vammaisfoorumi,https://vammaisfoorumi.fi/jasenet/
+4106,Video työntekijän oikeuksista Suomessa,Työ ja yrittäjyys,Infopankki,Video työntekijän oikeuksista Suomessa,fi,Rikosuhripäivystys,
 4107,Luetaan yhdessä Vantaalla,Vantaa,Infopankki,Luetaan yhdessä Vantaalla,fi,Luetaan yhdessä -verkosto,https://luetaanyhdessa.fi/
+4108,Päiväkotisanasto,Koulutus,Infopankki,Päiväkotisanasto,fi,Suomen pakolaisapu,
+4109,Vapaaehtoistyötä,Vapaa-aika,Infopankki,Vapaaehtoistyötä,fi,Kansalaisareena,
 4110,SIMHE-palveluja tarjoavat korkeakoulut,Koulutus,Infopankki,SIMHE-palveluja tarjoavat korkeakoulut,fi,Opintopolku.fi,https://opintopolku.fi/wp/valintojen-tuki/maahanmuuttajien-koulutus/korkeakoulutus-maahanmuuttajille/
 4111,Tulorekisteri,Työ ja yrittäjyys,Infopankki,Tulorekisteri,fi,Verohallinto,https://www.vero.fi/tulorekisteri/
 4112,Apua rikoksen uhrille,Ongelmatilanteet,Infopankki,Apua rikoksen uhrille,fi,Poliisi,https://poliisi.fi/jouduitko-rikoksen-kohteeksi
@@ -2445,6 +2501,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4122,Elokuvia,Espoo,Infopankki,Elokuvia,fi,KannuKino,https://kannukino.johku.com/
 4123,Palveluja perheille,Oulu,Infopankki,Palveluja perheille,fi,Oulun kaupunki,https://lapsuus.ouka.fi/
 4125,Chatbot-palvelu ulkomaalaisille yrittäjille,Muutto Suomeen,Infopankki,Chatbot-palvelu ulkomaalaisille yrittäjille,fi,Startingupsmoothly.fi,http://www.startingupsmoothly.fi/index.fi.html
+4126,Palveluita yrittäjille-Startup Kit,Muutto Suomeen,Infopankki,Palveluita yrittäjille-Startup Kit,fi,Business Finland,
 4127,Kulttuuripalvelut,Kokkola,Kokkola,Kulttuuripalvelut,fi,Kokkolan kaupunki,https://www.kokkola.fi/vapaa-aika/kulttuuri/
 4129,Palveluja perheille,Oulu,Oulu,Palveluja perheille,fi,Oulun kaupunki,https://lapsuus.ouka.fi/
 4130,Mikä on ruokakunta,Asuminen,Infopankki,Mikä on ruokakunta,fi,Kela,https://www.kela.fi/ruokakunta
@@ -2460,6 +2517,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4142,Säännellyt ammatit ja vastuuviranomaiset,Koulutus,Infopankki,Säännellyt ammatit ja vastuuviranomaiset,fi,Opetushallitus,https://www.oph.fi/fi/palvelut/saannellyt-ammatit-suomessa
 4143,Tietoa tutkintojen tunnustamisesta terveysalan ammateissa,Koulutus,Infopankki,Tietoa tutkintojen tunnustamisesta terveysalan ammateissa,fi,Valvira,https://www.valvira.fi/terveydenhuolto/ammattioikeudet
 4144,EU-valtiossa hankitun ammattipätevyyden tunnustaminen,Koulutus,Infopankki,EU-valtiossa hankitun ammattipätevyyden tunnustaminen,fi,Opetushallitus,https://www.oph.fi/fi/palvelut/eu-tai-eta-maassa-hankitun-ammattipatevyyden-tunnustaminen-opetushallituksessa
+4145,Tietoa säännellyistä ammateista EU-maissa,Koulutus,Infopankki,Tietoa säännellyistä ammateista EU-maissa,fi,Euroopan komissio,
 4146,Korkeakoulututkinnon tason rinnastaminen,Koulutus,Infopankki,Korkeakoulututkinnon tason rinnastaminen,fi,Opetushallitus,https://www.oph.fi/fi/palvelut/ulkomailla-suoritetun-korkeakoulututkinnon-tason-rinnastaminen
 4147,Palveluhinnasto,Koulutus,Infopankki,Palveluhinnasto,fi,Opetushallitus,https://www.oph.fi/fi/palvelut/tutkinnon-tunnustamispaatoksen-hakeminen#anchor-hinnat
 4148,Ulkomaalaisen yrittäjän luvat ja ilmoitukset,Työ ja yrittäjyys,Infopankki,Ulkomaalaisen yrittäjän luvat ja ilmoitukset,fi,Suomi.fi,https://www.suomi.fi/yritykselle/yrityksen-perustaminen/ulkomaalainen-yrittaja/opas/ulkomaalaisen-yrittajan-luvat-ja-ilmoitukset
@@ -2495,6 +2553,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4251,Tietoa muistisairauksista,Terveys,Infopankki,Tietoa muistisairauksista,fi,Muistiliitto,https://www.muistiliitto.fi/fi/muistisairaudet
 4252,Vuosiloma,Työ ja yrittäjyys,Infopankki,Vuosiloma,fi,Työsuojeluhallinto,https://www.tyosuojelu.fi/tyosuhde/vuosiloma
 4253,Tietoa synnytyksen jälkeisestä masennuksesta,Terveys,Infopankki,Tietoa synnytyksen jälkeisestä masennuksesta,fi,Äimä ry,https://aima.fi/
+4255,Avoimia työpaikkoja Suomessa englanniksi,Työ ja yrittäjyys,Infopankki,Avoimia työpaikkoja Suomessa englanniksi,fi,Jobs in Finland,
 4256,Hello Espoo,Espoo,Infopankki,Hello Espoo,fi,Espoon kaupunki,https://www.espoo.fi/fi/espoon-kaupunki/kansainvalinen-espoo/hello-espoo
 4258,Varhaiskasvatuksen palveluohjaus,Espoo,Infopankki,Varhaiskasvatuksen palveluohjaus,fi,Espoon kaupunki,https://www.espoo.fi/fi/kasvatus-ja-opetus/varhaiskasvatus/palveluohjaus-ja-varhaiskasvatukseen-hakeminen
 4259,Lukioon valmistava koulutus,Espoo,Infopankki,Lukioon valmistava koulutus,fi,Leppävaaran lukio,https://www.leppavaaranlukio.fi/luva
@@ -2522,6 +2581,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4283,Terveydenhuollon maksut,Asettuminen Suomeen,Infopankki,Terveydenhuollon maksut,fi,Sosiaali- ja terveysministeriö,https://stm.fi/terveydenhuollon-maksut
 4284,Lääkehoidon kustannukset,Asettuminen Suomeen,Infopankki,Lääkehoidon kustannukset,fi,Sosiaali- ja terveysministeriö,https://stm.fi/laakekorvaukset
 4285,Joitakin hintoja Suomessa,Asettuminen Suomeen,Infopankki,Joitakin hintoja Suomessa,fi,Tilastokeskus,https://www.tilastokeskus.fi/tup/suoluk/suoluk_hinnat.html
+4286,Kuluttajahintoja EU-maissa,Asettuminen Suomeen,Infopankki,Kuluttajahintoja EU-maissa,fi,Eurostat,
 4287,Suomen tilastollinen vuosikirja,Asettuminen Suomeen,Infopankki,Suomen tilastollinen vuosikirja,fi,Tilastokeskus,https://www.stat.fi/tup/julkaisut/tiedostot/julkaisuluettelo/yyti_stv_201900_2019_21458_net.pdf
 4289,Ajankohtaista tietoa koronaviruksesta,Terveys,Infopankki,Ajankohtaista tietoa koronaviruksesta,fi,YLE,https://yle.fi/uutiset/3-11212596
 4291,Maahanmuuttoviraston ohjeita koronatilanteessa,Ongelmatilanteet,Infopankki,Maahanmuuttoviraston ohjeita koronatilanteessa,fi,Maahanmuuttovirasto,https://migri.fi/koronavirus
@@ -2554,16 +2614,18 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4325,Ohjeita yli 70-vuotiaille,Terveys,Infopankki,Ohjeita yli 70-vuotiaille,fi,Terveyden ja hyvinvoinnin laitos,https://aineistopankki.thl.fi/l/wFdKSXz2Jdg7
 4326,Usein kysytyt kysymykset koronan vaikutuksista,Ongelmatilanteet,Infopankki,Usein kysytyt kysymykset koronan vaikutuksista,fi,Aluehallintovirasto,https://avi.fi/usein-kysyttya-koronaviruksesta#
 4327,Usein kysytyt kysymykset koronan vaikutuksista,Ongelmatilanteet,Infopankki,Usein kysytyt kysymykset koronan vaikutuksista,fi,Ympäristöministeriö,https://ym.fi/koronavirus-usein-kysytyt-kysymykset
-4328,Koronaviruksen vaikutukset ,Ongelmatilanteet,Infopankki,Koronaviruksen vaikutukset ,fi,Verohallinto,https://www.vero.fi/tietoa-verohallinnosta/uutishuone/korona/
+4328,Koronaviruksen vaikutukset ,Ongelmatilanteet,Infopankki,Koronaviruksen vaikutukset ,fi,Verohallinto,https://www.vero.fi/tietoa-verohallinnosta/uutishuone/korona/ 
 4330,Työntekijöiden oikeudet koronatilanteessa,Ongelmatilanteet,Infopankki,Työntekijöiden oikeudet koronatilanteessa,fi,Rikosuhripäivystys,https://www.riku.fi/content/uploads/2020/04/ty%C3%B6suhdekysymykset_SUOMI.pdf
 4333,Työntekijöiden oikeudet koronatilanteessa,Ongelmatilanteet,Infopankki,Työntekijöiden oikeudet koronatilanteessa,fi,Työsuojeluhallinto,https://www.tyosuojelu.fi/tyoolot/biologiset-tekijat/korona
 4334,Vantaan osaamiskeskus,Vantaa,Infopankki,Vantaan osaamiskeskus,fi,Vantaan kaupunki,https://www.vantaa.fi/osaamiskeskus
 4335,Tietoa koronaviruksesta,koronavirus,Turku,Tietoa koronaviruksesta,fi,Turun kaupunki,https://www.turku.fi/korona
 4336,Kelan monikielinen puhelinpalvelu,Ongelmatilanteet korona,Infopankki,Kelan monikielinen puhelinpalvelu,fi,Kela,https://www.kela.fi/soita-kelaan
 4337,Tietoa koronaviruksesta -video,Ongelmatilanteet,Infopankki,Tietoa koronaviruksesta -video,fi,HUS,https://www.youtube.com/watch?v=wyFGshpZsdA&feature=youtu.be&ucbcb=1
+4338,Maahanmuuttajayrittäjien videoita koronatilanteesta,Ongelmatilanteet,Infopankki,Maahanmuuttajayrittäjien videoita koronatilanteesta,fi,Yrittäjät.fi,
 4339,Tietoa koronaviruksesta vastaanottokeskuksen asiakkaalle,Ongelmatilanteet,Infopankki,Maahanmuuttoviraston ohjeita turvapaikanhakijalle,fi,Maahanmuuttovirasto,https://migri.fi/documents/5202425/21830248/Tietoa+koronaviruksen+kanssa+toimimisesta+vastaanottokeskusten+asiakkaille
 4340,Muutokset koulutuksessa,Ongelmatilanteet,Infopankki,Päiväkodit ja peruskoulut avataan 14.5.,fi,Opetushallitus,https://www.oph.fi/fi/koulutus-ja-tutkinnot/opetustoimi-ja-koronavirus
 4341,Tietoa koronavirustartunnan saaneelle ja läheisille -video,Terveys,Infopankki,Tietoa koronavirustartunnan saaneelle ja läheisille -video,fi,HUS,https://www.youtube.com/watch?v=3pGCULzRdto&ucbcb=1
+4342,Kodin tuki lapsen etäopiskeluun,Ongelmatilanteet,Infopankki,Kodin tuki lapsen etäopiskeluun,fi,Opetushallitus,
 4343,Ajankohtaista tietoa pandemian aikana,Helsinki korona,Infopankki,Ajankohtaista tietoa pandemian aikana,fi,Helsingin kaupunki,https://www.hel.fi/helsinki/korona-fi/
 4346,Tukea yrittäjälle,Helsinki korona,Infopankki,Tukea yrittäjälle,fi,Helsingin kaupunki,https://newcohelsinki.fi/fi/yksinyrittajatuki/
 4348,Monikielisiä puhelinpalveluita koronavirustilanteessa,Ongelmatilanteet korona,Infopankki,Monikielisiä puhelinpalveluita koronavirustilanteessa,fi,Kotoutuminen.fi,https://kotoutuminen.fi/-/puhelinpalvelut-tukevat-maahan-muuttaneita-koronavirustilanteessa
@@ -2588,6 +2650,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4373,Tukea yrittäjälle,Vantaa korona,Infopankki,Tukea yrittäjälle,fi,Vantaan kaupunki,https://www.businessvantaa.fi/etusivu/ajankohtaista/infoa-yrityksille-koronatilanteen-helpottamiseksi/
 4374,"Älä soita hätänumeroon, jos epäilet, että olet saanut koronavirustartunnan",Ongelmatilanteet korona,Infopankki,"Älä soita hätänumeroon, jos epäilet, että olet saanut koronavirustartunnan",fi,Hätäkeskuslaitos,https://112.fi/korona
 4375,Retkeilyn säännöt,Vapaa-aika,Infopankki,Retkeilyn säännöt,fi,Luontoon.fi,https://www.luontoon.fi/retkietiketti
+4376,Suomenruotsia internetissä,Suomen ja ruotsin kieli,Infopankki,Suomenruotsia internetissä,fi,Finlandswedishonline.fi,
 4377,Nuoret ja vaikuttaminen,Vapaa-aika,Infopankki,Nuoret ja vaikuttaminen,fi,Suomi.fi,https://www.suomi.fi/kansalaiselle/oikeudet-ja-velvollisuudet/perusoikeudet-ja-vaikuttaminen/opas/osallistuminen-ja-vaikuttaminen/nuoret-ja-vaikuttaminen
 4379,Tietoa koronaviruksesta,Kauniainen korona,Infopankki,Tietoa koronaviruksesta,fi,Kauniaisten kaupunki,https://www.kauniainen.fi/hyvinvointi-ja-terveys/korona/
 4382,Suomen edustustot ulkomailla,Muutto Suomeen,Infopankki,Suomen edustustot ulkomailla,fi,Ulkoministeriö,https://finlandabroad.fi/etusivu
@@ -2613,6 +2676,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4409,Puhutsä suomee? Puhutun suomen verkkomateriaali,Suomen ja ruotsin kieli,Infopankki,Puhutsä suomee? Puhutun suomen verkkomateriaali,fi,Digijoujou.aalto.fi,https://sites.google.com/view/puhekielikurssi/puhekielen-verkkokurssi
 4410,"Extreme Finnish, suomen puhekielen alkeiskurssi",Suomen ja ruotsin kieli,Infopankki,"Extreme Finnish, suomen puhekielen alkeiskurssi",fi,Extreme-finnish.teachable.com,https://extreme-finnish.teachable.com/
 4411,Suomen kielen fraaseja,Suomen ja ruotsin kieli,Infopankki,Suomen kielen fraaseja,fi,Yle,https://yle.fi/aihe/artikkeli/2016/06/14/finnish-phrases-suomen-kielen-fraaseja
+4412,Ettudet maahanmuuttajalle,Eelin esimerkki,Infopankki,Ettudet maahanmuuttajalle,fi,Kela,
 4414,Moninet,Suomen ja ruotsin kieli,Infopankki,Moninet,fi,Rovalan settlementti,https://moninet.rovala.fi/opiskele-suomea/
 4415,Kiitäjät kotopolulla,Suomen ja ruotsin kieli,Infopankki,Kiitäjät kotopolulla,fi,Eiran aikuislukio,http://www.eira.fi/fi/palvelut-opiskelijoille/itseopiskelumateriaali/kiitajat-kotopolulla/
 4416,Random Finnish Lesson,Suomen ja ruotsin kieli,Infopankki,Random Finnish Lesson,fi,Randomfinnishlesson.blogspot.com,https://randomfinnishlesson.blogspot.com/
@@ -2635,6 +2699,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4438,Kasvatuksen ja koulutuksen palveluneuvonta,Helsinki,Infopankki,Kasvatuksen ja koulutuksen palveluneuvonta,fi,Helsingin kaupunki,https://www.hel.fi/kasvatuksen-ja-koulutuksen-toimiala/fi/yhteystiedot-ja-palaute/
 4439,Päiväkoti- ja kouluneuvonta vieraskielisille perheille ,Helsinki,Infopankki,Päiväkoti- ja kouluneuvonta vieraskielisille perheille ,fi,Helsingin kaupunki,https://www.hel.fi/uutiset/fi/kasvatuksen-ja-koulutuksen-toimiala/kansainvalisille-perheille-uusi-kasvatuksen-ja-koulutuksen-palveluneuvonta
 4440,Ohjeet kotikaranteeniin,Espoo korona,Infopankki,Ohjeet kotikaranteeniin,fi,Espoon kaupunki,https://www.espoo.fi/fi/espoon-kaupunki/koronavirus/ohjeet-kotikaranteeniin-maaratyille
+4441,Ohjeet kotikaranteeniin,Espoo korona,Infopankki,Ohjeet kotikaranteeniin,fi,Espoon kaupunki,
 4442,Suomen Venäjänkielisten Keskusjärjestö,Vapaa-aika,Infopankki,Suomen Venäjänkielisten Keskusjärjestö,fi,SVK,https://venajankieliset.fi/fi/
 4443,Ohjeita eristyksessä olevalle,Helsinki korona,Infopankki,Ohjeita eristyksessä olevalle,fi,Helsingin kaupunki,https://www.hel.fi/static/sote/tiedotteet/korona/tietoa-eristyspaatoksen-saaneelle-suomi.pdf
 4444,Koronatestin jälkeen,Helsinki korona,Infopankki,Koronatestin jälkeen,fi,Helsingin kaupunki,https://www.hel.fi/static/sote/tiedotteet/korona/miten-toimia-testin-jalkeen-suomi.pdf
@@ -2684,6 +2749,7 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4495,Todistus negatiivisesta koronavirustestistä,Muutto Suomeen korona,Infopankki,Todistus negatiivisesta koronavirustestistä,fi,Terveyden ja hyvinvoinnin laitos,https://thl.fi/fi/-/thl-suosittelee-etta-kaikilta-ulkomailta-suomeen-tulevilta-matkustajilta-edellytetaan-negatiivista-koronatestitulosta?redirect=%2Ffi%2Fweb%2Finfektiotaudit-ja-rokotukset
 4496,Helsingin palvelut paperittomille,Helsinki,Infopankki,Helsingin palvelut paperittomille,fi,Helsingin kaupunki,https://www.hel.fi/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/muita-terveyspalveluja/paperittomien-sote-palvelut
 4497,"Oikeus tartuntatautipäivärahaan, jos työskentelet Suomessa",Ongelmatilanteet korona,Infopankki,"Oikeus tartuntatautipäivärahaan, jos työskentelet Suomessa",fi,Kela,https://www.kela.fi/ajankohtaista/-/asset_publisher/mHBZ5fHNro4S/content/tartuntatautipaivarahaa-voi-saada-myos-suomen-sairausvakuutukseen-kuulumaton-tyontekija
+4498,Kysymyksiä ja vastauksia ravintoloiden sulkemisesta,Ongelmatilanteet korona,Infopankki,Kysymyksiä ja vastauksia ravintoloiden sulkemisesta,fi,Työ- ja elinkeinoministeriö,
 4499,Maskipakko junassa,Ongelmatilanteet korona,Infopankki,Maskipakko junassa,fi,VR,https://www.vr.fi/ajankohtaista/2021/03/09/matkustajien-tulee-kayttaa-kasvomaskia-junassa
 4500,Haku LUVA-koulutukseen,Koulutus,Infopankki,Haku LUVA-koulutukseen,fi,Opintopolku.fi,https://opintopolku.fi/wp/valintojen-tuki/yhteishaku/haku-kesalla-perusopetuksen-jalkeisiin-valmistaviin-koulutuksiin/
 4501,Työttömyysturvan aktiivimalli ,Raahe-Kalajoki seutu,Raahe-Kalajoki seutu,Työttömyysturvan aktiivimalli ,fi,Kela,http://www.kela.fi/usein-kysyttya-aktiivimallista
@@ -2786,6 +2852,8 @@ id,Linkin Nimi,Linkin Kuvaus,Linkin hallintaorg,UniqueNimi,Kieli,Kohde (Organisa
 4666,vuokra-asunnot,Vaasa,Vaasa,Vuokra-Asunto Vaasasta,fi,Kiinteistö Oy Pikipruukki,https://www.pikipruukki.com/
 4667,Vantaan sosiaali- ja kriisipäivystys ,Vantaa,Infopankki,Vantaan sosiaali- ja kriisipäivystys ,fi,Vantaan kaupunki,https://www.vantaa.fi/terveys-_ja_sosiaalipalvelut/terveyspalvelut/ensiapu_ja_paivystys/sosiaali-_ja_kriisipaivystys
 4668,Rekisteröityminen Vaasaan,Vaasa,Vaasa,Rekisteröityminen Vaasaan,fi,Digi- ja Väestötietovirasto,https://dvv.fi/ulkomaalaisen-rekisterointi
+4670,Venäjänkielinen Gazeta-lehti,Tietoa Suomesta,Infopankki,Venäjänkielinen Gazeta-lehti,fi,Gazeta.fi,
+4671,Vironkielinen radio,Tietoa Suomesta,Infopankki,Vironkielinen radio,fi,Radio Finest,
 4672,Ajoneuvon tuominen Suomeen,Tietoa Suomesta,Infopankki,Ajoneuvon tuominen Suomeen,fi,Liikenne- ja viestintävirasto Traficom,https://www.traficom.fi/fi/liikenne/tieliikenne/ajoneuvon-maahantuonti
 4673,Ajokortin hankkiminen,Tietoa Suomesta,Infopankki,Ajokortin hankkiminen,fi,Liikenne- ja viestintävirasto Traficom,https://www.ajokortti-info.fi/fi/ajokortin-hankkiminen/henkiloauton-ajokortin-hankkiminen
 4674,Ajovarman ajanvaraus,Tietoa Suomesta,Infopankki,Ajovarman ajanvaraus,fi,Ajovarma,https://www.ajovarma.fi/ajanvaraus

@@ -12,7 +12,6 @@ destination:
 source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_translations.csv
-  # change if not unique enough
   delimiter: ','
   ids: [UniqueNimi]
 process:
@@ -29,6 +28,5 @@ process:
   title: UniqueNimi
   # for finding links
   field_link_description: Linkin kuvaus
-  # is hallintaorg still needed?
   # hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)
