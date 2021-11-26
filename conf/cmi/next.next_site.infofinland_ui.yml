@@ -1,0 +1,9 @@
+uuid: 937d29b3-8e64-440a-a9ee-64dfb375ce4d
+langcode: en
+status: true
+dependencies: {  }
+id: infofinland_ui
+label: 'InfoFinland UI'
+base_url: 'http://localhost:3000'
+preview_url: 'http://localhost:3000/api/preview'
+preview_secret: '1%%eS!z%b*0O5rX!maKqp%5m8xZ52yOU'
