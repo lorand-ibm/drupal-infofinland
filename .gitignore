@@ -28,5 +28,3 @@ public/modules/custom/helfi_*
 
 # Ignore local db dump
 dump.sql
-
-keys/*
