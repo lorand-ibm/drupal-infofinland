@@ -1,0 +1,8 @@
+uuid: 63ba741a-7973-46d8-9184-09b8a8dc95aa
+langcode: fi
+status: true
+dependencies: {  }
+id: about
+label: About
+description: 'About menu'
+locked: false
