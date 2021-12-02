@@ -2,6 +2,10 @@ uuid: 57c6374d-fa8c-4192-9da7-e6f5c23f08f2
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.article
+    - node.type.landing_page
+    - node.type.page
   module:
     - node
     - user
@@ -453,7 +457,10 @@ display:
           group_type: group
           admin_label: ''
           operator: in
-          value: {  }
+          value:
+            article: article
+            page: page
+            landing_page: landing_page
           group: 1
           exposed: true
           expose:
@@ -462,6 +469,8 @@ display:
             description: ''
             use_operator: false
             operator: type_op
+            operator_limit_selection: false
+            operator_list: {  }
             identifier: type
             required: false
             remember: false
@@ -469,10 +478,12 @@ display:
             remember_roles:
               authenticated: authenticated
               anonymous: '0'
-              administrator: '0'
+              admin: '0'
+              infofinland_user: '0'
+              content_producer: '0'
+              municipal_editor: '0'
+              nextjs: '0'
             reduce: false
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -596,6 +607,50 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
+        type_1:
+          id: type_1
+          table: node_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            article: article
+            page: page
+            landing_page: landing_page
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
       sorts: {  }
       title: Content
       empty:

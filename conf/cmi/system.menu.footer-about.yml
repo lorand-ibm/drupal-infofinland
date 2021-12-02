@@ -1,0 +1,8 @@
+uuid: eac6b0af-d6de-46ff-b756-708f3d00e896
+langcode: fi
+status: true
+dependencies: {  }
+id: footer-about
+label: 'Footer About'
+description: 'Footerin tietosuoja, Sivukartta, Avoin data, Saatavuus'
+locked: false
