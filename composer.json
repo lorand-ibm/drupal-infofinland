@@ -28,7 +28,8 @@
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.4",
         "drupal/migrate_tools": "^5.0",
-        "drupal/next": "1.0.x-dev",
+        "drupal/next": "^1.0@RC",
+        "drupal/subrequests": "^3.0",
         "drush/drush": "^10.4"
     },
     "require-dev": {
@@ -64,7 +65,6 @@
                 "3230707 - 5.x broken on php 8 due to incompatibility with lcobucci/jwt v4 via league/oauth2-server ^8.2": "https://www.drupal.org/files/issues/2021-09-02/3230707--jwt-4-compatibility--5.patch"
             },
             "drupal/subrequests": {
-                "Subrequest failed validation": "https://www.drupal.org/files/issues/2019-05-27/3029570-array-not-object.patch",
                 "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
             },
             "drupal/decoupled_router": {
