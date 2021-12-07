@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.landing_page.field_metatags
     - node.type.landing_page
   module:
+    - hdbt_admin_editorial
     - media_library
     - metatag
     - paragraphs
@@ -39,7 +40,7 @@ content:
       closed_mode_threshold: 0
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: _none
+      default_paragraph_type: text
       features:
         add_above: '0'
         collapse_edit_all: collapse_edit_all
@@ -115,9 +116,9 @@ content:
     third_party_settings: {  }
   scheduler_settings:
     weight: 20
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   status:
     type: boolean_checkbox
     settings:
@@ -163,7 +164,7 @@ content:
     third_party_settings: {  }
   url_redirects:
     weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }

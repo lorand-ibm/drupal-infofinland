@@ -1,0 +1,18 @@
+uuid: 5c681747-ac73-4dc9-a201-5c28baa145bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.ptv_contact
+id: paragraph.ptv_contact.created
+field_name: created
+entity_type: paragraph
+bundle: ptv_contact
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

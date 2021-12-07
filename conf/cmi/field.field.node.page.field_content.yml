@@ -7,6 +7,8 @@ dependencies:
     - node.type.page
     - paragraphs.paragraphs_type.accordion
     - paragraphs.paragraphs_type.accordion_item
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.heading
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.ptv_contact
     - paragraphs.paragraphs_type.text
@@ -29,7 +31,9 @@ settings:
     target_bundles:
       accordion: accordion
       accordion_item: accordion_item
+      columns: columns
       image: image
+      heading: heading
       ptv_contact: ptv_contact
       text: text
     target_bundles_drag_drop:
@@ -43,8 +47,8 @@ settings:
         weight: 17
         enabled: false
       columns:
+        enabled: true
         weight: 18
-        enabled: false
       content_cards:
         weight: 19
         enabled: false
@@ -54,6 +58,9 @@ settings:
       gallery_slide:
         weight: 21
         enabled: false
+      heading:
+        enabled: true
+        weight: 24
       hero:
         weight: 22
         enabled: false

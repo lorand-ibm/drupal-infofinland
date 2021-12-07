@@ -1,0 +1,18 @@
+uuid: 93f9b49f-6223-4d1c-98ad-1df23673144f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisaatiot
+id: taxonomy_term.organisaatiot.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: organisaatiot
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
