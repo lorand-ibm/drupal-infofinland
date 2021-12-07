@@ -1,0 +1,22 @@
+uuid: fe374934-f29d-48fe-9f5a-8d07b5ec994a
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.ptv_contact
+id: paragraph.ptv_contact.status
+field_name: status
+entity_type: paragraph
+bundle: ptv_contact
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

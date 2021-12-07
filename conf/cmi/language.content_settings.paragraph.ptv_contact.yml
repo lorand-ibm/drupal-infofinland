@@ -1,9 +1,9 @@
-uuid: aaaaa076-0cb2-4933-a0ba-c65da327f7b6
-langcode: fi
+uuid: 6e2ffb9a-50c0-48df-bb29-05d9fce3facf
+langcode: en
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.organisaatiot
+    - paragraphs.paragraphs_type.ptv_contact
   module:
     - content_translation
 third_party_settings:
@@ -11,8 +11,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: taxonomy_term.organisaatiot
-target_entity_type_id: taxonomy_term
-target_bundle: organisaatiot
-default_langcode: fi
+id: paragraph.ptv_contact
+target_entity_type_id: paragraph
+target_bundle: ptv_contact
+default_langcode: site_default
 language_alterable: false

@@ -41,9 +41,20 @@ function infofinland_common_tokens($type, $tokens, array $data, array $options, 
           $values = [];
           foreach (token_element_children($array) as $key) {
             $uuid = substr($key, strlen('menu_link_content:'));
-            $entity = \Drupal::service('entity.repository')->loadEntityByUuid('menu_link_content', $uuid);
-            $title = $entity->hasTranslation('en') ? $entity->getTranslation('en')->getTitle() : $entity->getTitle();
-            $value = \Drupal::service('pathauto.alias_cleaner')->cleanString($title, $options);
+            $menu_link_content = \Drupal::service('entity.repository')->loadEntityByUuid('menu_link_content', $uuid);
+
+            if ($entity_link = $menu_link_content->get('link')->getString()) {
+              $nid = substr($entity_link, strlen('entity:node/'));
+              if ($node = \Drupal::entityTypeManager()->getStorage('node')->load($nid)) {
+                $field_url = $node->get('field_url')->getString();
+              }
+            }
+
+            if ($field_url) {
+              $value = \Drupal::service('pathauto.alias_cleaner')->cleanString($field_url, $options);
+            } else {
+              $value = is_array($array[$key]) ? render($array[$key]) : (string) $array[$key];
+            }
             $values[] = $value;
           }
           $replacements[$original] = implode('/', $values);

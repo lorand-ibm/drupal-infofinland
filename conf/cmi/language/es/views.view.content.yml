@@ -1,8 +1,26 @@
-label: Contenido
-description: 'Encontrar y administrar contenido.'
 display:
   default:
     display_options:
+      fields:
+        langcode:
+          label: Idioma
+          separator: ', '
+        title:
+          label: Título
+        type:
+          label: 'Tipo de contenido'
+          separator: ', '
+        name:
+          label: Autor
+        status:
+          label: Estado
+          settings:
+            format_custom_true: Publicado
+            format_custom_false: 'Sin publicar'
+        changed:
+          label: Actualizado
+        operations:
+          label: Operaciones
       exposed_form:
         options:
           submit_button: Filtro
@@ -17,26 +35,6 @@ display:
             next: 'Siguiente >'
             first: '« Primero'
             last: 'Último »'
-      fields:
-        title:
-          label: Título
-        type:
-          label: 'Tipo de contenido'
-          separator: ', '
-        name:
-          label: Autor
-        langcode:
-          label: Idioma
-          separator: ', '
-        status:
-          label: Estado
-          settings:
-            format_custom_true: Publicado
-            format_custom_false: 'Sin publicar'
-        changed:
-          label: Actualizado
-        operations:
-          label: Operaciones
       filters:
         title:
           expose:
@@ -61,7 +59,7 @@ display:
       empty:
         area_text_custom:
           content: 'No hay contenido disponible.'
-    display_title: Máster
+    display_title: 'Por defecto'
   page_1:
     display_options:
       menu:
@@ -70,3 +68,5 @@ display:
         title: Contenido
         description: 'Encuentre y gestione el contenido'
     display_title: Página
+label: Contenido
+description: 'Encontrar y administrar contenido.'
