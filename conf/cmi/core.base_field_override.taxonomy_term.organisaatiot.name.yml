@@ -1,0 +1,18 @@
+uuid: f99968cd-3b7a-4eb4-bc1b-a161e5f89755
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisaatiot
+id: taxonomy_term.organisaatiot.name
+field_name: name
+entity_type: taxonomy_term
+bundle: organisaatiot
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -567,7 +567,9 @@ class HelfiPTV {
       ->getStorage('node')
       ->loadByProperties(['field_office_id' => $nodeData['id']]);
     $node = reset($nodes);
-    if ($node->field_automated_updates->value === '1') {
+
+    // If automated updates are not allowed
+    if ($node->field_automated_updates->value === '0') {
       $resultData = [];
       if (isset($nodeData['addresses'])) {
         foreach (array_keys($nodeData['addresses']['visiting']) as $language) {

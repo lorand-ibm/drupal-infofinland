@@ -8,6 +8,10 @@ dependencies:
     - paragraphs.paragraphs_type.accordion
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.language_link_collection
+    - paragraphs.paragraphs_type.accordion_item
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.heading
+    - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.ptv_contact
     - paragraphs.paragraphs_type.text
   module:
@@ -32,19 +36,25 @@ settings:
       language_link_collection: language_link_collection
       text: text
       ptv_contact: ptv_contact
+      accordion_item: accordion_item
+      columns: columns
+      image: image
+      heading: heading
+      ptv_contact: ptv_contact
+      text: text
     target_bundles_drag_drop:
       accordion:
         enabled: true
         weight: 15
       accordion_item:
+        enabled: true
         weight: 16
-        enabled: false
       banner:
         weight: 17
         enabled: false
       columns:
+        enabled: true
         weight: 18
-        enabled: false
       content_cards:
         weight: 19
         enabled: false
@@ -54,6 +64,9 @@ settings:
       gallery_slide:
         weight: 21
         enabled: false
+      heading:
+        enabled: true
+        weight: 24
       hero:
         weight: 22
         enabled: false

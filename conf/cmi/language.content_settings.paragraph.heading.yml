@@ -1,9 +1,9 @@
-uuid: 86989bb0-c280-47f9-bdac-8d7a149c8abd
-langcode: fi
+uuid: 0e5dc014-b286-4c6d-b55f-e54f9426f43a
+langcode: en
 status: true
 dependencies:
   config:
-    - node.type.office_contact_info
+    - paragraphs.paragraphs_type.heading
   module:
     - content_translation
 third_party_settings:
@@ -11,8 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: node.office_contact_info
-target_entity_type_id: node
-target_bundle: office_contact_info
+id: paragraph.heading
+target_entity_type_id: paragraph
+target_bundle: heading
 default_langcode: fi
 language_alterable: true

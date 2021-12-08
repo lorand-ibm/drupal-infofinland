@@ -1,0 +1,20 @@
+uuid: 86272862-3d4b-4b89-a720-61dbf3ce55cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - hdbt_admin
+id: languageswitchercontent
+theme: hdbt_admin
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_content'
+settings:
+  id: 'language_block:language_content'
+  label: 'Language switcher (Content)'
+  provider: language
+  label_display: '0'
+visibility: {  }
