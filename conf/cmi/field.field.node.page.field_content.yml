@@ -38,10 +38,7 @@ settings:
       ptv_contact: ptv_contact
       accordion_item: accordion_item
       columns: columns
-      image: image
       heading: heading
-      ptv_contact: ptv_contact
-      text: text
     target_bundles_drag_drop:
       accordion:
         enabled: true
