@@ -5,6 +5,13 @@ dependencies:
   config:
     - field.storage.node.field_content
     - node.type.page
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.accordion_item
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.heading
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.ptv_contact
+    - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
 id: node.page.field_content
@@ -21,20 +28,27 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     negate: 0
-    target_bundles: null
+    target_bundles:
+      accordion: accordion
+      accordion_item: accordion_item
+      columns: columns
+      image: image
+      heading: heading
+      ptv_contact: ptv_contact
+      text: text
     target_bundles_drag_drop:
       accordion:
+        enabled: true
         weight: 15
-        enabled: false
       accordion_item:
+        enabled: true
         weight: 16
-        enabled: false
       banner:
         weight: 17
         enabled: false
       columns:
+        enabled: true
         weight: 18
-        enabled: false
       content_cards:
         weight: 19
         enabled: false
@@ -44,12 +58,15 @@ settings:
       gallery_slide:
         weight: 21
         enabled: false
+      heading:
+        enabled: true
+        weight: 24
       hero:
         weight: 22
         enabled: false
       image:
+        enabled: true
         weight: 23
-        enabled: false
       liftup_with_image:
         weight: 24
         enabled: false
@@ -59,10 +76,13 @@ settings:
       list_of_links_item:
         weight: 26
         enabled: false
+      ptv_contact:
+        enabled: true
+        weight: 28
       remote_video:
         weight: 27
         enabled: false
       text:
+        enabled: true
         weight: 28
-        enabled: false
 field_type: entity_reference_revisions

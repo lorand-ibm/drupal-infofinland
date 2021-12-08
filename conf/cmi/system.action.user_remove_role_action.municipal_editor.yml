@@ -1,0 +1,14 @@
+uuid: a91d2f91-3163-4fcb-ac76-01ae7b842ece
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.municipal_editor
+  module:
+    - user
+id: user_remove_role_action.municipal_editor
+label: 'Remove the Kuntapäivittäjä role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: municipal_editor

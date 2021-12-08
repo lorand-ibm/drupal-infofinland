@@ -1,0 +1,18 @@
+uuid: 6e2ffb9a-50c0-48df-bb29-05d9fce3facf
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.ptv_contact
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.ptv_contact
+target_entity_type_id: paragraph
+target_bundle: ptv_contact
+default_langcode: site_default
+language_alterable: false

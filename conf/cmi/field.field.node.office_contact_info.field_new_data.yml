@@ -1,0 +1,19 @@
+uuid: 5ccdc97f-43e0-40e9-bdd6-ba92c325f695
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new_data
+    - node.type.office_contact_info
+id: node.office_contact_info.field_new_data
+field_name: field_new_data
+entity_type: node
+bundle: office_contact_info
+label: 'Uudet tiedot'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

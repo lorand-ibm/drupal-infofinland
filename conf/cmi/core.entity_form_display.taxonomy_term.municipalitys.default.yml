@@ -1,0 +1,57 @@
+uuid: 8810fe3d-dd9c-419e-9938-2aa0b0410ac6
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.municipalitys.field_ptv_code
+    - taxonomy.vocabulary.municipalitys
+  module:
+    - path
+id: taxonomy_term.municipalitys.default
+targetEntityType: taxonomy_term
+bundle: municipalitys
+mode: default
+content:
+  field_ptv_code:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  translation:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  description: true

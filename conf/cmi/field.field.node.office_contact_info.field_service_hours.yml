@@ -1,0 +1,19 @@
+uuid: 71737ea7-f8f1-4abf-994c-b8cdb2cf3f5b
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_hours
+    - node.type.office_contact_info
+id: node.office_contact_info.field_service_hours
+field_name: field_service_hours
+entity_type: node
+bundle: office_contact_info
+label: Palveluajat
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

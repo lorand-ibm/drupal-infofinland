@@ -1,0 +1,12 @@
+<?php
+use Drupal\helfi_ptv_integration\HelfiPTV;
+
+/**
+ * @file
+ * Custom module for PTV integration.
+ */
+function helfi_ptv_integration_cron() {
+    $today = date('Y-m-d', strtotime("-1 days"));
+    $ptv = Drupal::getContainer()->get(HelfiPTV::class);
+    $ptv->getOfficeIdsPerCity('all', $today);
+}

@@ -1,8 +1,26 @@
-label: Contenu
-description: 'Trouver et gérer le contenu.'
 display:
   default:
     display_options:
+      fields:
+        langcode:
+          label: Langue
+          separator: ', '
+        title:
+          label: Titre
+        type:
+          label: 'Type de contenu'
+          separator: ', '
+        name:
+          label: Auteur
+        status:
+          label: État
+          settings:
+            format_custom_true: Publié
+            format_custom_false: 'Non publié'
+        changed:
+          label: 'Mis à jour'
+        operations:
+          label: Actions
       exposed_form:
         options:
           submit_button: Filtrer
@@ -17,26 +35,6 @@ display:
             next: 'Suivant ›'
             first: '« Premier'
             last: 'Dernier »'
-      fields:
-        title:
-          label: Titre
-        type:
-          label: 'Type de contenu'
-          separator: ', '
-        name:
-          label: Auteur
-        langcode:
-          label: Langue
-          separator: ', '
-        status:
-          label: État
-          settings:
-            format_custom_true: Publié
-            format_custom_false: 'Non publié'
-        changed:
-          label: 'Mis à jour'
-        operations:
-          label: Actions
       filters:
         title:
           expose:
@@ -61,7 +59,7 @@ display:
       empty:
         area_text_custom:
           content: 'Aucun contenu disponible.'
-    display_title: Maître
+    display_title: 'Par défaut'
   page_1:
     display_options:
       menu:
@@ -70,3 +68,5 @@ display:
         title: Contenu
         description: 'Trouver et gérer le contenu'
     display_title: Page
+label: Contenu
+description: 'Trouver et gérer le contenu.'

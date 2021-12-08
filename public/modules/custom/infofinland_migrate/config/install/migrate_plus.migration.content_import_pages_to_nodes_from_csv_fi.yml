@@ -1,0 +1,44 @@
+id: content_import_pages_to_nodes_from_csv_fi
+label: Import pages from old site to nodes fi
+migration_group: infofinland_content
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+
+destination:
+  plugin: 'entity:node'
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_pages_to_nodes_fi.csv
+  # header_offset: 0
+  delimiter: ';'
+  ids: [sivun_id]
+process:
+  type:
+    plugin: default_value
+    default_value: page
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: Nimi valikossa
+  field_page_name: Dokumentin nimi
+  field_description: Kuvaus
+  # field_url: URL
+  langcode: Kieli
+  default_langcode:
+    plugin: default_value
+    default_value: true
+  # dokumentin_id: Dokumentin ID ???
+  # field_page_content:
+  #   process:
+  #     target_id:
+  #       plugin: entity_lookup
+  #       source: Dokumentin ID
+  #       value_key: uuid
+  #       bundle: en
+  #       bundle_key: langcode
+  #       entity_type: paragraph
+  #       ignore_case: true
+  #     target_revision_id: meta/target_revision_id
+

@@ -1,8 +1,26 @@
-label: المحتوى
-description: 'إيجاد وإدارة المحتوى'
 display:
   default:
     display_options:
+      fields:
+        langcode:
+          label: اللغة
+          separator: ', '
+        title:
+          label: العنوان
+        type:
+          label: 'نوع المحتوى'
+          separator: ', '
+        name:
+          label: المؤلف
+        status:
+          label: الحالة
+          settings:
+            format_custom_true: منشور
+            format_custom_false: 'غير منشور'
+        changed:
+          label: التحديث
+        operations:
+          label: عمليات
       exposed_form:
         options:
           submit_button: انتقاء
@@ -15,26 +33,6 @@ display:
           tags:
             previous: '‹ السابق'
             next: 'التالي ›'
-      fields:
-        title:
-          label: العنوان
-        type:
-          label: 'نوع المحتوى'
-          separator: ', '
-        name:
-          label: المؤلف
-        langcode:
-          label: اللغة
-          separator: ', '
-        status:
-          label: الحالة
-          settings:
-            format_custom_true: منشور
-            format_custom_false: 'غير منشور'
-        changed:
-          label: التحديث
-        operations:
-          label: عمليات
       filters:
         title:
           expose:
@@ -58,7 +56,7 @@ display:
       empty:
         area_text_custom:
           content: 'لا يوجد محتوى.'
-    display_title: الرئيسي
+    display_title: الافتراضي
   page_1:
     display_options:
       menu:
@@ -66,3 +64,5 @@ display:
       tab_options:
         title: المحتوى
     display_title: الصفحة
+label: المحتوى
+description: 'إيجاد وإدارة المحتوى'

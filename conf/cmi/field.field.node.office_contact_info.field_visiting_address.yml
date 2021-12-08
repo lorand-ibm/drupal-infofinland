@@ -1,0 +1,19 @@
+uuid: d08a2038-f7af-4e83-9d53-ec0a0ca4fb51
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visiting_address
+    - node.type.office_contact_info
+id: node.office_contact_info.field_visiting_address
+field_name: field_visiting_address
+entity_type: node
+bundle: office_contact_info
+label: Vierailuosoite
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

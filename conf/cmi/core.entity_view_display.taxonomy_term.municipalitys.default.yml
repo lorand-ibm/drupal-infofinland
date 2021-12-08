@@ -1,0 +1,31 @@
+uuid: f8b1c6f0-a33e-4bdc-a6c4-8d15198adedc
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.municipalitys.field_ptv_code
+    - taxonomy.vocabulary.municipalitys
+  module:
+    - text
+id: taxonomy_term.municipalitys.default
+targetEntityType: taxonomy_term
+bundle: municipalitys
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ptv_code:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

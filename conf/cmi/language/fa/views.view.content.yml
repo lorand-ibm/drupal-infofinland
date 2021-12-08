@@ -1,24 +1,15 @@
-label: محتوا
-description: 'یافتن و اداره محتوا.'
 display:
   default:
     display_options:
-      exposed_form:
-        options:
-          submit_button: فیلتر
-          reset_button_label: بازنشانی
-          exposed_sorts_label: 'مرتب کن بر اساس'
-          sort_asc_label: صعودی
-          sort_desc_label: نزولی
       fields:
+        langcode:
+          label: زبان
         title:
           label: عنوان
         type:
           label: 'نوع محتوا'
         name:
           label: نویسنده
-        langcode:
-          label: زبان
         status:
           label: وضعیت
           settings:
@@ -28,6 +19,13 @@ display:
           label: به‌روز
         operations:
           label: کارکردها
+      exposed_form:
+        options:
+          submit_button: فیلتر
+          reset_button_label: بازنشانی
+          exposed_sorts_label: 'مرتب کن بر اساس'
+          sort_asc_label: صعودی
+          sort_desc_label: نزولی
       filters:
         title:
           expose:
@@ -52,7 +50,7 @@ display:
       empty:
         area_text_custom:
           content: 'هیچ محتوایی در دسترس نیست.'
-    display_title: مدیر
+    display_title: پیش‌فرض
   page_1:
     display_options:
       menu:
@@ -60,3 +58,5 @@ display:
       tab_options:
         title: محتوا
     display_title: صفحه
+label: محتوا
+description: 'یافتن و اداره محتوا.'
