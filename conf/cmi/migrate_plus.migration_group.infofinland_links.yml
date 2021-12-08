@@ -1,0 +1,10 @@
+uuid: 2c21fdc2-1a3e-4a0e-af01-5540542aff9a
+langcode: fi
+status: true
+dependencies: {  }
+id: infofinland_links
+label: infofinland_links
+description: ''
+source_type: null
+module: null
+shared_configuration: null

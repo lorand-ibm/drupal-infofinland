@@ -13,7 +13,7 @@ source:
   path: modules/custom/infofinland_migrate/sources/migrate_pages_to_nodes_fi.csv
   # header_offset: 0
   delimiter: ';'
-  ids: [sivun_id]
+  ids: [sivun_id, Dokumentin ID]
 process:
   type:
     plugin: default_value
@@ -29,16 +29,10 @@ process:
   default_langcode:
     plugin: default_value
     default_value: true
-  # dokumentin_id: Dokumentin ID ???
-  # field_page_content:
-  #   process:
-  #     target_id:
-  #       plugin: entity_lookup
-  #       source: Dokumentin ID
-  #       value_key: uuid
-  #       bundle: en
-  #       bundle_key: langcode
-  #       entity_type: paragraph
-  #       ignore_case: true
-  #     target_revision_id: meta/target_revision_id
+  field_content:
+    source: Dokumentin ID
+    plugin: add_paragraphs
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
 
