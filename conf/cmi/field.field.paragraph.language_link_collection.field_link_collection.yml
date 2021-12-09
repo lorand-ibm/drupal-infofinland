@@ -1,0 +1,29 @@
+uuid: 08b1bf95-ea33-4b55-a485-f819c1658b31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_collection
+    - node.type.link
+    - paragraphs.paragraphs_type.language_link_collection
+id: paragraph.language_link_collection.field_link_collection
+field_name: field_link_collection
+entity_type: paragraph
+bundle: language_link_collection
+label: Linkki
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      link: link
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

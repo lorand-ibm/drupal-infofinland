@@ -1,0 +1,51 @@
+id: links_import_link_nodes_csv_fi
+label: Import links from old site to nodes fi
+migration_group: infofinland_links
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+
+destination:
+  plugin: 'entity:node'
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_fi.csv
+  delimiter: ';'
+  ids: [id]
+process:
+  type:
+    plugin: default_value
+    default_value: link
+  langcode: kieli
+  default_langcode:
+    plugin: default_value
+    default_value: true
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: Linkin Nimi
+  # for finding links
+  field_link_description: Linkin Kuvaus
+  pseudo_kunta_field:
+    plugin: string_to_array
+    source: Kunta
+  field_municipality:
+    plugin: sub_process
+    source: '@pseudo_kunta_field'
+    process:
+      target_id:
+        plugin: entity_lookup
+        source: name
+        value_key: name
+        bundle_key: vid
+        bundle: municipalitys
+        entity_type: taxonomy_term
+  field_link_target_site: Kohde (Organisaatio)
+  # migration map reference to paragraph language_link
+  field_links:
+    source: id
+    plugin: transform_paragraph
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id

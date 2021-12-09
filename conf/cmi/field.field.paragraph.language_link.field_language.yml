@@ -1,0 +1,29 @@
+uuid: 37a29739-7490-465e-a3f7-558eb94ded21
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_language
+    - paragraphs.paragraphs_type.language_link
+    - taxonomy.vocabulary.language
+id: paragraph.language_link.field_language
+field_name: field_language
+entity_type: paragraph
+bundle: language_link
+label: Kieli
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      language: language
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

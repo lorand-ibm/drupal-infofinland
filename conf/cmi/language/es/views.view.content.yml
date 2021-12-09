@@ -9,7 +9,6 @@ display:
           label: Título
         type:
           label: 'Tipo de contenido'
-          separator: ', '
         name:
           label: Autor
         status:
@@ -20,14 +19,12 @@ display:
         changed:
           label: Actualizado
         operations:
-          label: Operaciones
+          label: Operations
       exposed_form:
         options:
-          submit_button: Filtro
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
       pager:
         options:
           tags:
@@ -59,7 +56,7 @@ display:
       empty:
         area_text_custom:
           content: 'No hay contenido disponible.'
-    display_title: 'Por defecto'
+    display_title: Default
   page_1:
     display_options:
       menu:
@@ -67,6 +64,6 @@ display:
       tab_options:
         title: Contenido
         description: 'Encuentre y gestione el contenido'
-    display_title: Página
+    display_title: Page
 label: Contenido
 description: 'Encontrar y administrar contenido.'

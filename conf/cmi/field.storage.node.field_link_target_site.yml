@@ -1,13 +1,11 @@
-uuid: fefaf858-81e0-4817-bfcf-9799d57851b6
-langcode: en
+uuid: 3bcad8c5-ee01-4971-a1f3-d7bcdafa5a86
+langcode: fi
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: pP4SCsjHchk9WVmmxxs9egtpSrcqsXJmOTVx9N65JVw
-id: node.field_author
-field_name: field_author
+id: node.field_link_target_site
+field_name: field_link_target_site
 entity_type: node
 type: string
 settings:
@@ -16,7 +14,7 @@ settings:
   case_sensitive: false
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

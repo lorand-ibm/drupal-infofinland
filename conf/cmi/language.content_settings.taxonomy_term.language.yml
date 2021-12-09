@@ -1,0 +1,16 @@
+uuid: e0e031be-b48c-4577-ba71-9fa5368e3847
+langcode: fi
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.language
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.language
+target_entity_type_id: taxonomy_term
+target_bundle: language
+default_langcode: fi
+language_alterable: true
