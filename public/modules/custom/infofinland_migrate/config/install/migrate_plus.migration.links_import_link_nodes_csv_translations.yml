@@ -28,5 +28,4 @@ process:
   title: UniqueNimi
   # for finding links
   field_link_description: Linkin kuvaus
-  # hallintaorg: Linkin hallintaorg
   field_link_target_site: Kohde (Organisaatio)

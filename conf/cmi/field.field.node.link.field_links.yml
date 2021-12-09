@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_links
     - node.type.link
+    - paragraphs.paragraphs_type.language_link_collection
   module:
     - entity_reference_revisions
 id: node.link.field_links
@@ -20,8 +21,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
-    target_bundles: null
+    negate: 0
+    target_bundles:
+      language_link_collection: language_link_collection
     target_bundles_drag_drop:
       accordion:
         weight: 16
@@ -44,6 +46,9 @@ settings:
       gallery_slide:
         weight: 22
         enabled: false
+      heading:
+        weight: 26
+        enabled: false
       hero:
         weight: 23
         enabled: false
@@ -54,8 +59,8 @@ settings:
         weight: 25
         enabled: false
       language_link_collection:
+        enabled: true
         weight: 28
-        enabled: false
       liftup_with_image:
         weight: 26
         enabled: false

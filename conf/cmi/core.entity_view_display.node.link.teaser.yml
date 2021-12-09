@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.link.field_link_description
     - field.field.node.link.field_link_target_site
     - field.field.node.link.field_links
+    - field.field.node.link.field_municipality
     - node.type.link
   module:
     - user
@@ -24,4 +25,5 @@ hidden:
   field_link_description: true
   field_link_target_site: true
   field_links: true
+  field_municipality: true
   langcode: true

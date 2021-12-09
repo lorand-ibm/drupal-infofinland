@@ -6,10 +6,11 @@ dependencies:
     - field.field.node.link.field_link_description
     - field.field.node.link.field_link_target_site
     - field.field.node.link.field_links
+    - field.field.node.link.field_municipality
     - node.type.link
   module:
     - hdbt_admin_editorial
-    - paragraphs
+    - inline_entity_form
     - path
     - scheduler
 id: node.link.default
@@ -40,16 +41,31 @@ content:
     type: string_textfield
     region: content
   field_links:
-    type: entity_reference_paragraphs
+    type: inline_entity_form_complex
+    weight: 15
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_existing: true
+      match_operator: CONTAINS
+      revision: false
+      override_labels: false
+      collapsible: false
+      collapsed: false
+      allow_new: false
+      allow_duplicate: false
+    third_party_settings: {  }
+    region: content
+  field_municipality:
     weight: 14
     settings:
-      title: Lohko
-      title_plural: Lohkot
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select

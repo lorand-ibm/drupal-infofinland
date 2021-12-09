@@ -1,4 +1,4 @@
-uuid: acc4781d-2c46-4b76-ad49-43855df34a5e
+uuid: 248cd48d-e5c3-47de-85b5-2e324e44d1b7
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - infofinland_migrate
 _core:
-  default_config_hash: lvi4R05VSsrVVdYDWdFUOUiiqWiP-dJP43QIZiXfJRA
+  default_config_hash: B0y6mIK-lu1QcmQrKkvV5h4A5iqp3TYeYgZY5pMZ8MA
 id: links_import_link_nodes_csv_fi
 class: null
 field_plugin_method: null
@@ -16,8 +16,8 @@ migration_group: infofinland_links
 label: 'Import links from old site to nodes fi'
 source:
   plugin: csv
-  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes.csv
-  delimiter: ','
+  path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_fi.csv
+  delimiter: ;
   ids:
     - id
 process:
@@ -28,12 +28,29 @@ process:
   default_langcode:
     plugin: default_value
     default_value: true
+  uid:
+    plugin: default_value
+    default_value: 1
   title: 'Linkin Nimi'
   field_link_description: 'Linkin Kuvaus'
+  pseudo_kunta_field:
+    plugin: string_to_array
+    source: Kunta
+  field_municipality:
+    plugin: sub_process
+    source: '@pseudo_kunta_field'
+    process:
+      target_id:
+        plugin: entity_lookup
+        source: name
+        value_key: name
+        bundle_key: vid
+        bundle: municipalitys
+        entity_type: taxonomy_term
   field_link_target_site: 'Kohde (Organisaatio)'
   field_links:
     source: id
-    plugin: transform_value
+    plugin: transform_paragraph
     process:
       target_id: target_id
       target_revision_id: target_revision_id

@@ -1,4 +1,4 @@
-uuid: b08b921d-c754-490a-895d-1b46e974faf0
+uuid: a9092476-3400-4ad6-86a0-02c89bc9b70b
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - infofinland_migrate
 _core:
-  default_config_hash: n_GoKrm58NaMvhIqQRafIupWjIbLridRhNKx5P00fBA
+  default_config_hash: QIUSFLypCVX8eEg6mJTgOz0KNlnoROc4ggbuqIvsCn8
 id: links_import_link_paragraphs_csv
 class: null
 field_plugin_method: null
@@ -22,8 +22,10 @@ source:
     - UniqueNimi
     - id
 process:
+  uid:
+    plugin: default_value
+    default_value: 1
   field_language_link: Url
-  field_link_id: id
   field_language:
     plugin: entity_lookup
     source: KieliNimi

@@ -11,7 +11,7 @@ use Drupal\migrate\Row;
  * Perform custom value transformations.
  *
  * @MigrateProcessPlugin(
- *   id = "transform_value"
+ *   id = "transform_paragraph"
  * )
  *
  * To do custom value transformations use the following:

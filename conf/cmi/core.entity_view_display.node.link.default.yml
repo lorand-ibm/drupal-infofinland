@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.link.field_link_description
     - field.field.node.link.field_link_target_site
     - field.field.node.link.field_links
+    - field.field.node.link.field_municipality
     - node.type.link
   module:
     - entity_reference_revisions
@@ -39,6 +40,14 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    region: content
+  field_municipality:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

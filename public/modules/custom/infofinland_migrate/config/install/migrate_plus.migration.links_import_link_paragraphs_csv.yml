@@ -15,6 +15,9 @@ source:
   delimiter: ','
   ids: [UniqueNimi, id]
 process:
+  uid:
+    plugin: default_value
+    default_value: 1
   field_language_link: Url
   field_language:
     plugin: entity_lookup
