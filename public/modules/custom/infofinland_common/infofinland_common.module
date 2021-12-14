@@ -5,3 +5,51 @@
  * Infofinland Common module.
  */
 
+declare(strict_types = 1);
+
+use Drupal\Core\Entity\EntityForm;
+use Drupal\Core\Url;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function infofinland_common_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'node_page_edit_form') {
+    $form['actions']['submit']['#submit'][] = 'redirectFunction';
+  }
+}
+
+/**
+ * Stay at node edit form after save.
+ */
+function redirectFunction(array &$form, FormStateInterface $form_state) {
+  /** @var \Drupal\Core\Entity\EntityForm $form_object */
+  $form_object = $form_state->getFormObject();
+  if ($form_object instanceof EntityForm) {
+    $entity = $form_object->getEntity();
+
+    $url = Url::fromRoute('entity.node.edit_form', ['node' => $entity->id()]);
+    $form_state->setRedirectUrl($url);
+    return;
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_update().
+ */
+function infofinland_common_path_alias_update(Drupal\path_alias\PathAliasInterface $path_alias) {
+  $path_alias_manager = \Drupal::entityTypeManager()->getStorage('path_alias');
+  // Load translated path aliases.
+  $alias_objects = $path_alias_manager->loadByProperties([
+    'path' => $path_alias->get('path')->value,
+  ]);
+
+  foreach ($alias_objects as $alias_object) {
+    // Update existing aliases if those don't match with current alias.
+    if ($alias_object->get('alias')->value !== $path_alias->get('alias')->value) {
+      $alias_object->set('alias', $path_alias->get('alias')->value);
+      $alias_object->save();
+    }
+  }
+}
