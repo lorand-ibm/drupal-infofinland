@@ -1,0 +1,25 @@
+uuid: 661dd663-ad64-4376-aaa3-9001d0b77e87
+langcode: so
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.language_link_collection.field_link_collection
+    - paragraphs.paragraphs_type.language_link_collection
+id: paragraph.language_link_collection.default
+targetEntityType: paragraph
+bundle: language_link_collection
+mode: default
+content:
+  field_link_collection:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

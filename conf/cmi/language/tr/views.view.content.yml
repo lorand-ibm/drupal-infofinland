@@ -1,33 +1,16 @@
-label: İçerik
-description: 'İçeriği bul ve yönet.'
 display:
   default:
     display_options:
-      exposed_form:
-        options:
-          submit_button: Süzgeç
-          reset_button_label: Sıfırla
-          exposed_sorts_label: 'Sıralama anahtarı'
-          sort_asc_label: Artan
-          sort_desc_label: Azalan
-      pager:
-        options:
-          tags:
-            previous: '‹ Önceki'
-            next: 'Sonraki ›'
-            first: '« İlk'
-            last: 'Son »'
       fields:
+        langcode:
+          label: Dil
+          separator: ', '
         title:
           label: Başlık
         type:
           label: 'İçerik türü'
-          separator: ', '
         name:
           label: Yazar
-        langcode:
-          label: Dil
-          separator: ', '
         status:
           label: Durum
           settings:
@@ -36,7 +19,21 @@ display:
         changed:
           label: Güncellendi
         operations:
-          label: İşlemler
+          label: Operations
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: '‹ Önceki'
+            next: 'Sonraki ›'
+            first: '« İlk'
+            last: 'Son »'
       filters:
         title:
           expose:
@@ -61,7 +58,7 @@ display:
       empty:
         area_text_custom:
           content: 'Hiçbir içerik mevcut değil.'
-    display_title: 'Ana (master)'
+    display_title: Default
   page_1:
     display_options:
       menu:
@@ -69,4 +66,6 @@ display:
       tab_options:
         title: İçerik
         description: 'İçeriği bulun ve yönetin'
-    display_title: Sayfa
+    display_title: Page
+label: İçerik
+description: 'İçeriği bul ve yönet.'

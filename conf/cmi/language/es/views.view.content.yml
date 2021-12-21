@@ -1,33 +1,16 @@
-label: Contenido
-description: 'Encontrar y administrar contenido.'
 display:
   default:
     display_options:
-      exposed_form:
-        options:
-          submit_button: Filtro
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
-      pager:
-        options:
-          tags:
-            previous: '‹ Anterior'
-            next: 'Siguiente >'
-            first: '« Primero'
-            last: 'Último »'
       fields:
+        langcode:
+          label: Idioma
+          separator: ', '
         title:
           label: Título
         type:
           label: 'Tipo de contenido'
-          separator: ', '
         name:
           label: Autor
-        langcode:
-          label: Idioma
-          separator: ', '
         status:
           label: Estado
           settings:
@@ -36,7 +19,19 @@ display:
         changed:
           label: Actualizado
         operations:
-          label: Operaciones
+          label: Operations
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+      pager:
+        options:
+          tags:
+            previous: '‹ Anterior'
+            next: 'Siguiente >'
+            first: '« Primero'
+            last: 'Último »'
       filters:
         title:
           expose:
@@ -61,7 +56,7 @@ display:
       empty:
         area_text_custom:
           content: 'No hay contenido disponible.'
-    display_title: Máster
+    display_title: Default
   page_1:
     display_options:
       menu:
@@ -69,4 +64,6 @@ display:
       tab_options:
         title: Contenido
         description: 'Encuentre y gestione el contenido'
-    display_title: Página
+    display_title: Page
+label: Contenido
+description: 'Encontrar y administrar contenido.'

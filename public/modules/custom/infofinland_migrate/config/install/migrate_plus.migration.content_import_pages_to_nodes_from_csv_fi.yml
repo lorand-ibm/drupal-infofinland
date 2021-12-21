@@ -23,7 +23,12 @@ process:
     default_value: 1
   title: Nimi valikossa
   field_page_name: Dokumentin nimi
-  field_description: Kuvaus
+  field_has_hero: true
+  field_description:
+    source: Dokumentin ID
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
   # field_url: URL
   langcode: Kieli
   default_langcode:

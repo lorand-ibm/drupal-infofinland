@@ -40,6 +40,7 @@ module:
   helfi_api_base: 0
   image: 0
   image_style_quality: 0
+  infofinland_common: 0
   infofinland_migrate: 0
   infofinland_municipality_selection: 0
   jsonapi: 0

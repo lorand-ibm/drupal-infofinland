@@ -1,0 +1,8 @@
+uuid: 809cf3fa-ddc8-4b67-be33-01db60e661b2
+langcode: en
+status: true
+dependencies: {  }
+name: Kielet
+vid: language
+description: ''
+weight: 0

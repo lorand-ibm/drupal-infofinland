@@ -1,4 +1,6 @@
 ignored_config_entities:
   - 'eu_cookie_compliance.cookie_category*'
+  - 'next.*'
+  - simple_oauth.settings
 _core:
   default_config_hash: PipyKPJHaHaJB3D4LeRoRJxSSd7QbBM0gb5wpSrEFfc

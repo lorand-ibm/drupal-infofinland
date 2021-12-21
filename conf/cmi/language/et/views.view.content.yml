@@ -1,33 +1,16 @@
-label: Sisu
-description: 'Otsi ja halda lehe sisu.'
 display:
   default:
     display_options:
-      exposed_form:
-        options:
-          submit_button: Filtreeri
-          reset_button_label: Tühista
-          exposed_sorts_label: 'Sorteerimise alus'
-          sort_asc_label: Kasvav
-          sort_desc_label: Kahanev
-      pager:
-        options:
-          tags:
-            previous: '‹ Eelmine'
-            next: 'Järgmine ›'
-            first: '« Esimene'
-            last: 'Viimane »'
       fields:
+        langcode:
+          label: Keel
+          separator: ', '
         title:
           label: Pealkiri
         type:
           label: 'Sisu tüüp'
-          separator: ', '
         name:
           label: Autor
-        langcode:
-          label: Keel
-          separator: ', '
         status:
           label: Olek
           settings:
@@ -36,7 +19,21 @@ display:
         changed:
           label: Uuendatud
         operations:
-          label: Toimingud
+          label: Operations
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: '‹ Eelmine'
+            next: 'Järgmine ›'
+            first: '« Esimene'
+            last: 'Viimane »'
       filters:
         title:
           expose:
@@ -61,7 +58,7 @@ display:
       empty:
         area_text_custom:
           content: 'Sisu puudub.'
-    display_title: Peamine
+    display_title: Default
   page_1:
     display_options:
       menu:
@@ -69,4 +66,6 @@ display:
       tab_options:
         title: Sisu
         description: 'Otsi ja halda sisu'
-    display_title: Lehekülg
+    display_title: Page
+label: Sisu
+description: 'Otsi ja halda lehe sisu.'

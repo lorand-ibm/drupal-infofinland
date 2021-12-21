@@ -1,33 +1,16 @@
-label: Contenu
-description: 'Trouver et gérer le contenu.'
 display:
   default:
     display_options:
-      exposed_form:
-        options:
-          submit_button: Filtrer
-          reset_button_label: Réinitialiser
-          exposed_sorts_label: 'Trier par'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
-      pager:
-        options:
-          tags:
-            previous: '‹ Précédent'
-            next: 'Suivant ›'
-            first: '« Premier'
-            last: 'Dernier »'
       fields:
+        langcode:
+          label: Langue
+          separator: ', '
         title:
           label: Titre
         type:
           label: 'Type de contenu'
-          separator: ', '
         name:
           label: Auteur
-        langcode:
-          label: Langue
-          separator: ', '
         status:
           label: État
           settings:
@@ -36,7 +19,19 @@ display:
         changed:
           label: 'Mis à jour'
         operations:
-          label: Actions
+          label: Operations
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+      pager:
+        options:
+          tags:
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
+            first: '« Premier'
+            last: 'Dernier »'
       filters:
         title:
           expose:
@@ -61,7 +56,7 @@ display:
       empty:
         area_text_custom:
           content: 'Aucun contenu disponible.'
-    display_title: Maître
+    display_title: Default
   page_1:
     display_options:
       menu:
@@ -69,4 +64,5 @@ display:
       tab_options:
         title: Contenu
         description: 'Trouver et gérer le contenu'
-    display_title: Page
+label: Contenu
+description: 'Trouver et gérer le contenu.'

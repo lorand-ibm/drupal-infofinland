@@ -18,12 +18,10 @@ source:
   path: modules/custom/infofinland_migrate/sources/migrate_content_to_paragraphs_fi.csv
   delimiter: ','
   ids: [Nimi, id]
-idMap:
-  plugin: content_update
 process:
   type:
     plugin: default_value
-    default_value: link
+    default_value: text
   langcode: kieli
   title: Nimi
   default_langcode:

@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_new_data
     - node.type.office_contact_info
     - user.role.admin
+    - user.role.content_producer
     - user.role.infofinland_user
     - user.role.municipal_editor
   module:
@@ -31,6 +32,7 @@ display:
           role:
             admin: admin
             infofinland_user: infofinland_user
+            content_producer: content_producer
             municipal_editor: municipal_editor
       cache:
         type: tag
@@ -54,12 +56,17 @@ display:
           sort_asc_label: Nousevasti
           sort_desc_label: Laskevasti
       pager:
-        type: mini
+        type: full
         options:
           items_per_page: 50
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Merkintöjä sivua kohti'
@@ -68,9 +75,7 @@ display:
             items_per_page_options_all_label: '- Kaikki -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
+          quantity: 9
       style:
         type: table
       row:
@@ -305,7 +310,7 @@ display:
           click_sort_column: value
           type: timestamp
           settings:
-            date_format: fallback
+            date_format: long
             custom_date_format: ''
             timezone: ''
           group_column: value
@@ -560,24 +565,18 @@ display:
           admin_label: ''
           operator: in
           value:
-            all: all
-            '***LANGUAGE_site_default***': '***LANGUAGE_site_default***'
-            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
-            '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
             fi: fi
             sv: sv
             en: en
             ru: ru
             ar: ar
-            zh-hans: zh-hans
             et: et
             fr: fr
             tr: tr
             es: es
             fa: fa
             so: so
-            und: und
-            zxx: zxx
+            zh: zh
           group: 1
           exposed: true
           expose:
@@ -591,13 +590,16 @@ display:
             identifier: langcode
             required: false
             remember: false
-            multiple: false
+            multiple: true
             remember_roles:
               authenticated: authenticated
               anonymous: '0'
               admin: '0'
+              infofinland_user: '0'
               content_producer: '0'
-            reduce: false
+              municipal_editor: '0'
+              nextjs: '0'
+            reduce: true
           is_grouped: false
           group_info:
             label: ''

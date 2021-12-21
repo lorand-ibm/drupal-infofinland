@@ -17,7 +17,7 @@ use Drupal\migrate\Row;
  * To do custom value transformations use the following:
  *
  * @code
- * field_links:
+ * field_content:
  *   plugin: add_paragraphs
  *   source: text
  * @endcode
@@ -31,9 +31,6 @@ class AddParagraphToContent extends ProcessPluginBase {
    */
   public function getData(Row $row): array
   {
-    // In migrate source plugins, the migrate database is easy.
-    // Example: $this->select('your_table').
-    // Getting to the Drupal 8 db requires a little more code.
     $paragraphs = [];
     $drupalDb = Database::getConnection('default', 'default');
     if (!is_null($row->getSourceProperty('Dokumentin ID')) && $row->getSourceProperty('Dokumentin ID') !== '') {
