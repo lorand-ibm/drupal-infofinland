@@ -55,7 +55,6 @@ class GetDescriptionForContent extends ProcessPluginBase {
    */
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
     $paragraphs = $this->getData($row);
-
     return $this->getData($row);
   }
 

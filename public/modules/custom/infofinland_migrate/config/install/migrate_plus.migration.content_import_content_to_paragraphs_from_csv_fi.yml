@@ -15,14 +15,14 @@ migration_group: infofinland_links
 label: 'Import content from old site to nodes fi'
 source:
   plugin: csv
-  path: modules/custom/infofinland_migrate/sources/migrate_content_to_paragraphs_fi.csv
-  delimiter: ','
+  path: modules/custom/infofinland_migrate/sources/migrate_content_to_paragraphs.csv
+  delimiter: ';'
   ids: [Nimi, id]
 process:
   type:
     plugin: default_value
     default_value: text
-  langcode: kieli
+  langcode: Kieli
   title: Nimi
   default_langcode:
     plugin: default_value

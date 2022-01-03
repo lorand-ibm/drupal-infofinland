@@ -49,8 +49,6 @@ class AddParagraphToContent extends ProcessPluginBase {
       }
     }
 
-
-
     return $paragraphs;
   }
 

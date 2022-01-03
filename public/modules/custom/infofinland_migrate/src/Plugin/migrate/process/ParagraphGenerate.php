@@ -4,6 +4,7 @@ namespace Drupal\infofinland_migrate\Plugin\migrate\process;
 
 use DOMDocument;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\migrate\MigrateExecutableInterface;
 use Drupal\migrate\Row;
 use Drupal\migrate_plus\Plugin\migrate\process\EntityGenerate;
@@ -20,34 +21,23 @@ class ParagraphGenerate extends EntityGenerate {
   public function transform($value, MigrateExecutableInterface $migrateExecutable, Row $row, $destinationProperty) {
     $this->row = $row;
     $this->migrateExecutable = $migrateExecutable;
-    $rowID = $row->getSourceProperty('id');
-    $result = $this->generateParagraphEntity($value, $row->getSourceProperty('id'));
-          $count = 0;
-
-    foreach ($result as $item) {
-      $row->id = $count . '_' . $rowID;
-      $count = $count +1;
-
-    }
-    return $result;
+    return $this->generateParagraphEntity($value, $row->getSourceProperty('id'), $row->getSourceProperty('Kieli'));
   }
 
-  private function createListHTML($child, $language, $rowId) {
+  /**
+   * @param $child
+   * @param $language
+   * @param $rowId
+   * @return string
+   */
+  private function createListHTML($child, $language, $rowId): string
+  {
     $htmlString = '<ul>';
     foreach ($child->childNodes as $item) {
       $htmlString  .= '<li>' . ltrim($item->nodeValue) . '</li>';
     }
     $htmlString  .= '</ul>';
     return $htmlString;
-    return Paragraph::create([
-      'type' => 'text',
-      'field_migration_id' => $rowId,
-      'langcode' => $language,
-      'field_text' => array(
-        "value"  =>  $htmlString,
-        "format" => "full_html"
-      ),
-    ]);
   }
 
   private function createTextParagraph($string, $language, $rowId) {
@@ -62,7 +52,13 @@ class ParagraphGenerate extends EntityGenerate {
     ]);
   }
 
-  private function createHeadingParagraph($string, $language, $rowId) {
+  /**
+   * @param string $string
+   * @param string $language
+   * @param $rowId
+   * @return EntityInterface
+   */
+  private function createHeadingParagraph($string, $language, $rowId): EntityInterface {
     return Paragraph::create([
       'type' => 'heading',
       'field_migration_id' => $rowId,
@@ -71,7 +67,13 @@ class ParagraphGenerate extends EntityGenerate {
     ]);
   }
 
-  private function createLinkParagraph($string, $url, $rowId) {
+  /**
+   * @param $url
+   * @param $rowId
+   * @param $lang
+   * @return EntityInterface
+   */
+  private function createLinkParagraph($url, $rowId, $lang): EntityInterface {
     $linkId = substr($url, 23);
     $drupalDb = Database::getConnection('default', 'default');
     $results = $drupalDb->select('migrate_map_links_import_link_nodes_csv_fi', 'liln')
@@ -85,45 +87,57 @@ class ParagraphGenerate extends EntityGenerate {
       'field_link_collection' => array(
         "target_id"  =>  $results[0]->destid1,
       ),
-      'field_migration_id' => $rowId
+      'field_migration_id' => $rowId,
+      'langcode' => $lang
     ]);
   }
 
-  private function createCorrectParagraph($child, $rowId) {
+  /**
+   * @param $child
+   * @param int $rowId
+   * @param string $lang
+   * @return array|\Drupal\Core\Entity\EntityBase|\Drupal\Core\Entity\EntityInterface|string
+   */
+  private function createCorrectParagraph($child, $rowId, $lang) {
     $paragraph = [];
     if ($this->checkIfTextParagraph($child->tagName)) {
-      $paragraph = $this->createTextParagraph($child->nodeValue, 'fi', $rowId);
+      $paragraph = $this->createTextParagraph($child->nodeValue, $lang, $rowId);
     } elseif ($child->tagName === 'h2') {
-      $paragraph = $this->createHeadingParagraph($child->nodeValue,'fi', $rowId);
+      $paragraph = $this->createHeadingParagraph($child->nodeValue,$lang, $rowId);
     } elseif ($child->tagName === 'ul') {
-      $paragraph = $this->createListHTML($child, 'fi', $rowId);
+      $paragraph = $this->createListHTML($child, $lang, $rowId);
     } elseif ($child->tagName === 'a') {
       if (str_contains($child->getAttribute('href'), 'prime://repositorylink')) {
-        $paragraph = $this->createLinkParagraph($child->nodeValue, $child->getAttribute('href'), $rowId);
+        $paragraph = $this->createLinkParagraph($child->getAttribute('href'), $rowId, $lang);
       }
 
     }
     return $paragraph;
   }
 
-  private function checkIfTextParagraph($tag) {
+  /**
+   * @param $tag
+   * @return bool
+   */
+  private function checkIfTextParagraph($tag): bool
+  {
     if ($tag == 'p' || $tag == 'h3' || $tag == 'h4' || $tag == 'div') {
       return true;
     }
     return false;
   }
 
-  private function findPagereferenceUrl($url) {
-    $link_array = explode('/',$url);
-    $id = end($link_array);
-
-  }
-
-  protected function generateParagraphEntity($value, $rowId) {
+  /**
+   * @param $value
+   * @param $rowId
+   * @param $language
+   * @return array|null
+   * @throws \Drupal\Core\Entity\EntityStorageException
+   */
+  protected function generateParagraphEntity($value, $rowId, $language): ?array
+  {
     $dom = new DOMDocument();
-if ($rowId == '8132')  {
-  $rowId = $rowId;
-}
+    $langcode = trim($language);
     $dom->loadHTML('<?xml encoding="utf-8" ?>' . $value);
     $html = $dom->getElementsByTagName('body')->item(0);
     $returnArray= [];
@@ -133,14 +147,14 @@ if ($rowId == '8132')  {
         if ($textParagraph != '') {
           $textParagraph = $textParagraph . $child->nodeValue;
         } else {
-          $paragraph = $this->createCorrectParagraph($child->firstChild, $rowId);
+          $paragraph = $this->createCorrectParagraph($child->firstChild, $rowId, $langcode);
         }
       }
       if($child->tagName == 'div' && $child->firstChild->tagName == 'ul') {
         if ($textParagraph != '') {
-          $textParagraph = $textParagraph . $textParagraph . $this->createListHTML($child->firstChild, 'fi', $rowId);
+          $textParagraph = $textParagraph . $textParagraph . $this->createListHTML($child->firstChild, $langcode, $rowId);
         } else {
-          $paragraph = $this->createCorrectParagraph($child->firstChild, $rowId);
+          $paragraph = $this->createCorrectParagraph($child->firstChild, $rowId, $langcode);
         }
       }
       if (isset($child->childNodes['1']) && $child->childNodes['1']->tagName == 'a' && !str_contains($child->childNodes['1']->getAttribute('href'), 'prime://repositorylink')) {
@@ -159,22 +173,22 @@ if ($rowId == '8132')  {
         $child->nodeValue = '<a href=' . $child->childNodes['0']->getAttribute('href') . '>' . $child->childNodes['0']->nodeValue . '</a>';
       }
       if ($this->checkIfTextParagraph($child->tagName) && isset($child->childNodes['1']) && $child->childNodes['1']->tagName == 'a' && str_contains($child->childNodes['1']->getAttribute('href'), 'prime://repositorylink')) {
-        $paragraph = $this->createCorrectParagraph($child->childNodes['1'], $rowId);
+        $paragraph = $this->createCorrectParagraph($child->childNodes['1'], $rowId, $langcode);
       } else if ($child->tagName == 'h2') {
-        $paragraph = $this->createCorrectParagraph($child, $rowId);
+        $paragraph = $this->createCorrectParagraph($child, $rowId, $langcode);
       } else if ($this->checkIfTextParagraph($child->tagName) && isset($child->childNodes['1']) && $child->childNodes['1']->tagName != 'a' && (
         $this->checkIfTextParagraph($child->nextSibling->tagName) || $child->nextSibling->tagName == 'ul') &&
         ($child->childNodes['0']->tagName != 'a')) {
         $textParagraph = $textParagraph . '<' . $child->tagName . '>' . ltrim($child->nodeValue) . '</' . $child->tagName . '>';
       } else if ($child->tagName == 'ul'){
-        $textParagraph = $textParagraph . $this->createListHTML($child, 'fi', $rowId);
+        $textParagraph = $textParagraph . $this->createListHTML($child, $langcode, $rowId);
       } else {
         if (isset($child->childNodes['0']) && $child->childNodes['0']->tagName == 'a' &&
           str_contains($child->childNodes['0']->getAttribute('href'), 'prime://repositorylink')) {
-          $paragraph = $this->createCorrectParagraph($child->childNodes['0'], $rowId);
+          $paragraph = $this->createCorrectParagraph($child->childNodes['0'], $rowId, $langcode);
           } else {
           if ($textParagraph == '' && !isset($paragraph)) {
-            $paragraph = $this->createCorrectParagraph($child, $rowId);
+            $paragraph = $this->createCorrectParagraph($child, $rowId, $langcode);
           }
         }
 
@@ -186,7 +200,7 @@ if ($rowId == '8132')  {
           $child->nodeValue = $textParagraph . '<' . $child->tagName . '>' . ltrim($child->nodeValue) . '</' . $child->tagName . '>';
         }
         if (!isset($paragraph)) {
-          $paragraph = $this->createCorrectParagraph($child, $rowId);
+          $paragraph = $this->createCorrectParagraph($child, $rowId, $langcode);
         }
       }
       if ($child->nextSibling->tagName == 'p'  && ($child->nextSibling->firstChild->tagName == 'a'
@@ -195,7 +209,7 @@ if ($rowId == '8132')  {
           $child->nodeValue = $textParagraph . '<' . $child->tagName . '>' . ltrim($child->nodeValue) . '</' . $child->tagName . '>';
         }
         if (!isset($paragraph)) {
-          $paragraph = $this->createCorrectParagraph($child, $rowId);
+          $paragraph = $this->createCorrectParagraph($child, $rowId, $langcode);
         }
       }
       if (isset($paragraph) && !empty($paragraph) && is_object($paragraph)) {

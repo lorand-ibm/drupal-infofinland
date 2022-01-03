@@ -13,7 +13,7 @@ source:
   path: modules/custom/infofinland_migrate/sources/migrate_pages_to_nodes_fi.csv
   # header_offset: 0
   delimiter: ';'
-  ids: [sivun_id, Dokumentin ID]
+  ids: [sivun_id]
 process:
   type:
     plugin: default_value
@@ -23,7 +23,7 @@ process:
     default_value: 1
   title: Nimi valikossa
   field_page_name: Dokumentin nimi
-  field_has_hero: true
+  #field_has_hero: '1'
   field_description:
     source: Dokumentin ID
     plugin: get_description_for_content
