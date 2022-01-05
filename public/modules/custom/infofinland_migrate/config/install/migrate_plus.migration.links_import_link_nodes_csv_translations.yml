@@ -12,7 +12,7 @@ destination:
 source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_translations.csv
-  delimiter: ','
+  delimiter: ';'
   ids: [UniqueNimi]
 process:
   nid:
@@ -20,6 +20,9 @@ process:
     source: id
     no_stub: true
     migration: links_import_link_nodes_csv_fi
+  uid:
+    plugin: default_value
+    default_value: 1
   field_name: UniqueNimi
   type:
     plugin: default_value
