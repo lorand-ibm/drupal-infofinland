@@ -10,7 +10,7 @@ dependencies:
     - node.type.link
   module:
     - hdbt_admin_editorial
-    - inline_entity_form
+    - paragraphs
     - path
     - scheduler
 id: node.link.default
@@ -41,20 +41,15 @@ content:
     type: string_textfield
     region: content
   field_links:
-    type: inline_entity_form_complex
+    type: entity_reference_paragraphs
     weight: 15
     settings:
-      form_mode: default
-      label_singular: ''
-      label_plural: ''
-      allow_existing: true
-      match_operator: CONTAINS
-      revision: false
-      override_labels: false
-      collapsible: false
-      collapsed: false
-      allow_new: false
-      allow_duplicate: false
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: language_link_collection
     third_party_settings: {  }
     region: content
   field_municipality:
