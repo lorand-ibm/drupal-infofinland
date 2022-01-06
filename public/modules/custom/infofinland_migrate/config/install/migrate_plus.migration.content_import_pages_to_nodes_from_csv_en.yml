@@ -35,6 +35,7 @@ process:
     plugin: urlencode
     source: Nimi valikossa
   field_description: Kuvaus
+  langcode: Kieli
   field_content:
     source: Dokumentin ID
     plugin: add_paragraphs
