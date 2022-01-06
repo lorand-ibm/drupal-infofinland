@@ -3,7 +3,7 @@ langcode: so
 status: true
 dependencies: {  }
 id: language_link_collection
-label: Linkki
+label: Linkkipankki
 icon_uuid: null
 icon_default: null
 description: ''

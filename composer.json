@@ -28,8 +28,10 @@
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.4",
         "drupal/migrate_tools": "^5.0",
-        "drupal/next": "^1.0@RC",
+        "drupal/next": "^1.0",
+        "drupal/purge": "^3.2",
         "drupal/subrequests": "^3.0",
+        "drupal/varnish_purge": "^2.1",
         "drush/drush": "^10.4"
     },
     "require-dev": {

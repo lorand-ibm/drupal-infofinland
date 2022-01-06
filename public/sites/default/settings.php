@@ -96,3 +96,47 @@ if ($env = getenv('APP_ENV')) {
   }
 }
 
+if ($varnish_host = getenv('DRUPAL_VARNISH_HOST')) {
+  $config['varnish_purger.settings.default']['hostname'] = $varnish_host;
+  $config['varnish_purger.settings.varnish_purge_all']['hostname'] = $varnish_host;
+
+  if (!isset($config['system.performance']['cache']['page']['max_age'])) {
+    $config['system.performance']['cache']['page']['max_age'] = 86400;
+  }
+}
+
+if ($varnish_port = getenv('DRUPAL_VARNISH_PORT')) {
+  $config['varnish_purger.settings.default']['port'] = $varnish_port;
+  $config['varnish_purger.settings.varnish_purge_all']['port'] = $varnish_port;
+}
+
+$config['varnish_purger.settings.default']['headers'] = [
+  [
+    'field' => 'Cache-Tags',
+    'value' => '[invalidation:expression]',
+  ],
+];
+
+$config['varnish_purger.settings.varnish_purge_all']['headers'] = [
+  [
+    'field' => 'X-VC-Purge-Method',
+    'value' => 'regex',
+  ],
+];
+
+if ($varnish_purge_key = getenv('VARNISH_PURGE_KEY')) {
+  // Configuration doesn't know about existing config yet so we can't
+  // just append new headers to an already existing headers array here.
+  // If you have configured any extra headers in your purge settings
+  // you must add them here as well.
+  // @todo Replace this with config override service?
+  $config['varnish_purger.settings.default']['headers'][] = [
+    'field' => 'X-VC-Purge-Key',
+    'value' => $varnish_purge_key,
+  ];
+  $config['varnish_purger.settings.varnish_purge_all']['headers'][] = [
+    'field' => 'X-VC-Purge-Key',
+    'value' => $varnish_purge_key,
+  ];
+}
+
