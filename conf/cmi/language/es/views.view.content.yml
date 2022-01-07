@@ -19,12 +19,12 @@ display:
         changed:
           label: Actualizado
         operations:
-          label: Operations
+          label: Operaciones
       exposed_form:
         options:
-          submit_button: Filter
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          submit_button: Filtro
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
       pager:
         options:
           tags:
@@ -56,7 +56,7 @@ display:
       empty:
         area_text_custom:
           content: 'No hay contenido disponible.'
-    display_title: Default
+    display_title: 'Por defecto'
   page_1:
     display_options:
       menu:
@@ -64,6 +64,6 @@ display:
       tab_options:
         title: Contenido
         description: 'Encuentre y gestione el contenido'
-    display_title: Page
+    display_title: Página
 label: Contenido
 description: 'Encontrar y administrar contenido.'

@@ -18,14 +18,14 @@ display:
         changed:
           label: به‌روز
         operations:
-          label: Operations
+          label: کارکردها
       exposed_form:
         options:
-          submit_button: Filter
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          submit_button: فیلتر
+          reset_button_label: بازنشانی
+          exposed_sorts_label: 'مرتب کن بر اساس'
+          sort_asc_label: صعودی
+          sort_desc_label: نزولی
       filters:
         title:
           expose:
@@ -50,13 +50,13 @@ display:
       empty:
         area_text_custom:
           content: 'هیچ محتوایی در دسترس نیست.'
-    display_title: Default
+    display_title: پیش‌فرض
   page_1:
     display_options:
       menu:
         title: محتوا
       tab_options:
         title: محتوا
-    display_title: Page
+    display_title: صفحه
 label: محتوا
 description: 'یافتن و اداره محتوا.'

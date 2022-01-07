@@ -19,14 +19,14 @@ display:
         changed:
           label: التحديث
         operations:
-          label: Operations
+          label: عمليات
       exposed_form:
         options:
-          submit_button: Filter
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
       pager:
         options:
           tags:
@@ -55,13 +55,13 @@ display:
       empty:
         area_text_custom:
           content: 'لا يوجد محتوى.'
-    display_title: Default
+    display_title: الافتراضي
   page_1:
     display_options:
       menu:
         title: المحتوى
       tab_options:
         title: المحتوى
-    display_title: Page
+    display_title: الصفحة
 label: المحتوى
 description: 'إيجاد وإدارة المحتوى'
