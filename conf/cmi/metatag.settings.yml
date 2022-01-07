@@ -1,0 +1,12 @@
+entity_type_groups:
+  node:
+    article:
+      basic: basic
+    landing_page:
+      basic: basic
+    link:
+      basic: basic
+    office_contact_info:
+      basic: basic
+    page:
+      basic: basic

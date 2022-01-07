@@ -19,14 +19,14 @@ display:
         changed:
           label: Päivitetty
         operations:
-          label: Operations
+          label: Toimenpiteet
       exposed_form:
         options:
-          submit_button: Filter
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          submit_button: Suodatin
+          reset_button_label: Palauta
+          exposed_sorts_label: Lajittele
+          sort_asc_label: Nousevasti
+          sort_desc_label: Laskevasti
       pager:
         options:
           tags:
@@ -58,7 +58,7 @@ display:
       empty:
         area_text_custom:
           content: 'Ei sisältöä.'
-    display_title: Default
+    display_title: Oletus
   page_1:
     display_options:
       menu:
@@ -66,6 +66,6 @@ display:
       tab_options:
         title: Sisältö
         description: 'Etsi ja hallitse sisältöä'
-    display_title: Page
+    display_title: Sivu
 label: Sisältö
 description: 'Etsi ja ylläpidä sisältöä.'
