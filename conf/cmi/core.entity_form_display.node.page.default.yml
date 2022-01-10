@@ -15,6 +15,7 @@ dependencies:
   module:
     - hdbt_admin_editorial
     - media_library
+    - metatag
     - paragraphs
     - paragraphs_asymmetric_translation_widgets
     - path
@@ -85,6 +86,13 @@ content:
       media_types: {  }
     third_party_settings: {  }
     region: content
+  field_metatags:
+    type: metatag_firehose
+    weight: 20
+    region: content
+    settings:
+      sidebar: true
+    third_party_settings: {  }
   field_page_name:
     weight: 2
     settings:
@@ -180,5 +188,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  field_metatags: true
+hidden: {  }

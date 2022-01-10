@@ -9,7 +9,6 @@ display:
           label: Titre
         type:
           label: 'Type de contenu'
-          separator: ', '
         name:
           label: Auteur
         status:
@@ -26,8 +25,6 @@ display:
           submit_button: Filtrer
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Trier par'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
       pager:
         options:
           tags:
@@ -67,6 +64,5 @@ display:
       tab_options:
         title: Contenu
         description: 'Trouver et gérer le contenu'
-    display_title: Page
 label: Contenu
 description: 'Trouver et gérer le contenu.'

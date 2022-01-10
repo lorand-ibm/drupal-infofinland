@@ -45,6 +45,8 @@ class FixLocalLinks {
         }
         if (isset($nodeID->destid1) && $nodeID->destid1 !== null) {
           $child->setAttribute('href', '/node/'. $nodeID->destid1);
+        } else {
+          $child->removeAttribute('href');
         }
       }
     }
