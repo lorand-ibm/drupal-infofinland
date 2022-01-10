@@ -5,5 +5,5 @@ dependencies: {  }
 id: so
 label: Soomaali
 direction: ltr
-weight: -4
+weight: 1
 locked: false

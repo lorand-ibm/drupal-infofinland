@@ -33,10 +33,8 @@ display:
             format_custom_false: Avaldamata
           separator: ', '
         publish_on:
-          label: 'Avaldamise aeg'
           separator: ', '
         unpublish_on:
-          label: 'Mitteavaldatuks märkimise aeg'
           separator: ', '
         operations:
           label: Toimingud
@@ -60,17 +58,12 @@ display:
         langcode:
           expose:
             label: Keel
-    display_title: Peamine
   overview:
     display_options:
-      menu:
-        title: Ajatatud
       tab_options:
         title: Sisu
   user_page:
     display_options:
-      menu:
-        title: Ajatatud
       tab_options:
         title: Sisu
       arguments:

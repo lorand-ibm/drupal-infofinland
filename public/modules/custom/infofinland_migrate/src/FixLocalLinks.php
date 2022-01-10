@@ -36,6 +36,12 @@ class FixLocalLinks {
             ->condition('mm.sourceid1', $id, '=')
             ->execute()
             ->fetchObject();
+        } else {
+          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_translations', 'mm')
+            ->fields('mm', ['destid1'])
+            ->condition('mm.sourceid1', $id, '=')
+            ->execute()
+            ->fetchObject();
         }
         if (isset($nodeID->destid1) && $nodeID->destid1 !== null) {
           $child->setAttribute('href', '/node/'. $nodeID->destid1);
@@ -46,14 +52,17 @@ class FixLocalLinks {
   }
 
   public function getLinks(): array {
+    $language = $_SERVER['argv'][3];
     $paragraphs = [];
     $drupalDb = Database::getConnection('default', 'default');
     $results = $drupalDb->select('paragraph__field_text', 'pfm')
       ->fields('pfm', ['entity_id'])
-      ->condition('pfm.langcode', 'fi', '=')
-      ->range(0, 20000)
-      ->execute()
-      ->fetchCol();
+      ->condition('field_text_value', '%href%', 'LIKE')
+      ->condition('field_text_value', '%prime://pagereference%', 'LIKE');
+    if ($language !== null) {
+      $results->condition('langcode', $language, '=');
+    }
+    $results = $results->execute()->fetchCol();
 
     $textParagraphs = Paragraph::loadMultiple($results);
 
@@ -66,13 +75,10 @@ class FixLocalLinks {
         $doc = $html->ownerDocument;
 
         foreach ($html->childNodes as $child) {
-          if ($child->hasChildNodes()) {
+          if ($child->hasChildNodes() && $child->lastChild != $child->firstChild) {
             foreach ($child->childNodes as $childChild) {
               if ($childChild->tagName == 'a') {
-                if ($text->language()->getId() == 'fi') {
-                  $childChild->parentNode->replaceChild($this->editLink($childChild, $text), $childChild);
-
-                }
+                $childChild->parentNode->replaceChild($this->editLink($childChild, $text), $childChild);
               }
             }
           } else {

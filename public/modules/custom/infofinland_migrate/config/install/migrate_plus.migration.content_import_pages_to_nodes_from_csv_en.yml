@@ -34,7 +34,11 @@ process:
   field_url:
     plugin: urlencode
     source: Nimi valikossa
-  field_description: Kuvaus
+  field_description:
+    source: Dokumentin ID
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
   langcode: Kieli
   field_content:
     source: Dokumentin ID

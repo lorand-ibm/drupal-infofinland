@@ -1,4 +1,4 @@
-uuid: a9092476-3400-4ad6-86a0-02c89bc9b70b
+uuid: 45995e76-f2bb-46d3-b053-082d6062f6c3
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - infofinland_migrate
 _core:
-  default_config_hash: QIUSFLypCVX8eEg6mJTgOz0KNlnoROc4ggbuqIvsCn8
+  default_config_hash: bsiL2BTE9skv9rLnJBPucaBd3W0agyPYYoBclIMyCbM
 id: links_import_link_paragraphs_csv
 class: null
 field_plugin_method: null
@@ -17,7 +17,7 @@ label: 'Import links from old site to paragraphs'
 source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_paragraphs.csv
-  delimiter: ','
+  delimiter: ;
   ids:
     - UniqueNimi
     - id

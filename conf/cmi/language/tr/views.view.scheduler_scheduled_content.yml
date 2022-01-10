@@ -22,7 +22,6 @@ display:
           label: Başlık
           separator: ', '
         type:
-          label: 'İçerik çeşidi'
           separator: ', '
         name:
           label: Yazar
@@ -59,7 +58,6 @@ display:
         langcode:
           expose:
             label: Dil
-    display_title: 'Ana (master)'
   overview:
     display_options:
       tab_options:

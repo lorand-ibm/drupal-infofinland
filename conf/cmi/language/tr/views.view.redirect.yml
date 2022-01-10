@@ -1,7 +1,5 @@
-label: Yönlendir
 display:
   default:
-    display_title: 'Ana (master)'
     display_options:
       exposed_form:
         options:
@@ -37,6 +35,5 @@ display:
         language:
           expose:
             label: 'Özgün dil'
-      title: Yönlendir
   page_1:
     display_title: Sayfa

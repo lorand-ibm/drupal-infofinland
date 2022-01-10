@@ -13,7 +13,6 @@ display:
           tags:
             previous: '‹ السابقة'
             next: 'التالية ›'
-            first: '« الأولى'
             last: 'الأخيرة »'
       fields:
         node_bulk_form:
@@ -22,7 +21,6 @@ display:
           label: العنوان
           separator: ', '
         type:
-          label: 'نوع المحتوى'
           separator: ', '
         name:
           label: المؤلف
@@ -58,7 +56,6 @@ display:
         langcode:
           expose:
             label: اللغة
-    display_title: الرئيسي
   overview:
     display_options:
       tab_options:

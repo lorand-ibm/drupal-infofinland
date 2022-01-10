@@ -1,4 +1,4 @@
-uuid: 0ef652ba-bf75-410a-a299-19e92e74a24a
+uuid: 32a188b9-cdab-493b-a122-701bb580b7fe
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - infofinland_migrate
 _core:
-  default_config_hash: y1hKE8oJ0jmRlSxxQ5anq_xavfkachnUYosIdavhGKY
+  default_config_hash: YPxlKYSFXkyG0KgfWZSDK6SVd05xUlFNmVcL7QkJMPI
 id: links_import_link_nodes_csv_translations
 class: null
 field_plugin_method: null
@@ -17,7 +17,7 @@ label: 'Import link transtions from old site to nodes'
 source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_translations.csv
-  delimiter: ','
+  delimiter: ;
   ids:
     - UniqueNimi
 process:
@@ -26,6 +26,9 @@ process:
     source: id
     no_stub: true
     migration: links_import_link_nodes_csv_fi
+  uid:
+    plugin: default_value
+    default_value: 1
   field_name: UniqueNimi
   type:
     plugin: default_value

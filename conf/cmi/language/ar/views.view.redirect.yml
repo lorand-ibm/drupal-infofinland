@@ -1,6 +1,5 @@
 display:
   default:
-    display_title: الرئيسي
     display_options:
       exposed_form:
         options:
@@ -14,7 +13,6 @@ display:
           tags:
             previous: '‹ السابقة'
             next: 'التالية ›'
-            first: '« الأولى'
             last: 'الأخيرة »'
           expose:
             items_per_page_options_all_label: '- الكل -'

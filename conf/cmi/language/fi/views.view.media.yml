@@ -1,16 +1,15 @@
 label: Media
-description: 'Etsi ja ylläpidä mediatiedostoja.'
 display:
   default:
     display_title: Oletus
     display_options:
       exposed_form:
         options:
-          submit_button: Suodatin
+          submit_button: Suodatus
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
-          sort_asc_label: Nousevasti
-          sort_desc_label: Laskevasti
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         options:
           expose:
@@ -21,7 +20,6 @@ display:
             previous: '‹ Edellinen'
             next: 'Seuraava ›'
             first: '« Ensimmäinen'
-            last: 'Viimeinen »'
       fields:
         media_bulk_form:
           action_title: Toiminto
@@ -29,13 +27,12 @@ display:
           label: Pienoiskuva
           separator: ', '
         name:
-          label: 'Mediatiedoston nimi'
           separator: ', '
         bundle:
           label: Tyyppi
           separator: ', '
         uid:
-          label: Kirjoittaja
+          label: Tekijä
           separator: ', '
         status:
           label: Tila
@@ -49,9 +46,6 @@ display:
         operations:
           label: Toimenpiteet
       filters:
-        name:
-          expose:
-            label: 'Mediatiedoston nimi'
         bundle:
           expose:
             label: Tyyppi
@@ -71,7 +65,7 @@ display:
       title: Media
       empty:
         area_text_custom:
-          content: 'Ei mediatiedostoja saatavilla.'
+          content: 'Ei mediaa saatavilla.'
   media_page_list:
     display_title: Media
     display_options:

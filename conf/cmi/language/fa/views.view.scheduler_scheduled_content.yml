@@ -20,8 +20,6 @@ display:
           action_title: عملکرد
         title:
           label: عنوان
-        type:
-          label: 'نوع محتوا'
         name:
           label: نویسنده
         status:
@@ -51,12 +49,10 @@ display:
         langcode:
           expose:
             label: زبان
-    display_title: مدیر
   overview:
     display_options:
       tab_options:
         title: محتوا
-    display_title: 'مرورکلی محتوا'
   user_page:
     display_options:
       tab_options:

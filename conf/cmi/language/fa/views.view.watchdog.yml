@@ -1,0 +1,48 @@
+label: نگهبان
+description: 'جدیدترین گزارش‌ها'
+display:
+  default:
+    display_title: پیش‌فرض
+    display_options:
+      exposed_form:
+        options:
+          submit_button: فیلتر
+          reset_button_label: بازنشانی
+          exposed_sorts_label: 'مرتب کن بر اساس'
+          sort_asc_label: صعودی
+          sort_desc_label: نزولی
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'آیتم‌ها در هر صفحه'
+            items_per_page_options_all_label: '- همه -'
+            offset_label: جابجایی
+      fields:
+        nothing:
+          admin_label: شمایل
+        severity:
+          label: شدت
+        type:
+          label: نوع
+        timestamp:
+          label: تاریخ
+        message:
+          label: پیغام
+        name:
+          label: کاربر
+        link:
+          label: کارکردها
+      filters:
+        type:
+          expose:
+            label: نوع
+        severity:
+          expose:
+            label: شدت
+      title: 'جدیدترین گزارش‌ها'
+      empty:
+        area:
+          admin_label: 'هیچ گزارشی در دسترس نیست.'
+          content: 'هیچ گزارشی در دسترس نیست.'
+  page:
+    display_title: صفحه

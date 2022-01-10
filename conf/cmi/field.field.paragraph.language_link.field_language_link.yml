@@ -9,10 +9,10 @@ id: paragraph.language_link.field_language_link
 field_name: field_language_link
 entity_type: paragraph
 bundle: language_link
-label: URL
+label: language_link
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

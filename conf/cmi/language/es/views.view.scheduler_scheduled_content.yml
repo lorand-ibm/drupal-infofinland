@@ -22,7 +22,6 @@ display:
           label: Título
           separator: ', '
         type:
-          label: 'Tipo de contenido'
           separator: ', '
         name:
           label: Autor
@@ -34,10 +33,8 @@ display:
             format_custom_false: 'Sin publicar'
           separator: ', '
         publish_on:
-          label: 'Publicar en'
           separator: ', '
         unpublish_on:
-          label: 'Quitar publicación en'
           separator: ', '
         operations:
           label: Operaciones
@@ -61,27 +58,15 @@ display:
         langcode:
           expose:
             label: Idioma
-      empty:
-        area_text_custom:
-          content: 'No hay contenido planificado.'
-    display_title: Máster
   overview:
     display_options:
-      menu:
-        title: Planificado
       tab_options:
         title: Contenido
-    display_title: 'Resumen del contenido'
   user_page:
     display_options:
-      menu:
-        title: Planificado
       tab_options:
         title: Contenido
       arguments:
         uid:
           exception:
             title: Todo(s)
-      empty:
-        area_text_custom:
-          content: 'No hay contenido planificado para el usuario {{ arguments.uid }}'

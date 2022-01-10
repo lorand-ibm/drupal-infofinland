@@ -21,20 +21,28 @@ bundle: hero
 mode: default
 content:
   field_hero_bg_color:
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_hero_image:
     type: media_library_widget
-    weight: 0
+    weight: 1
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
+  field_hero_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   translation:
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -44,5 +52,4 @@ hidden:
   field_hero_design: true
   field_hero_link: true
   field_hero_link_design: true
-  field_hero_title: true
   status: true

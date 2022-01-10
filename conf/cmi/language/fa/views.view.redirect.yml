@@ -1,6 +1,5 @@
 display:
   default:
-    display_title: مدیر
     display_options:
       exposed_form:
         options:
@@ -21,8 +20,6 @@ display:
             items_per_page_options_all_label: '- همه -'
             offset_label: جابجایی
       fields:
-        redirect_bulk_form:
-          action_title: 'با انتخاب شده‌ها'
         redirect_source__path:
           label: از
         created:

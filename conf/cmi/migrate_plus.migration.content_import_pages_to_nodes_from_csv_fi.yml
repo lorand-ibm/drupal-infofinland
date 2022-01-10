@@ -1,4 +1,4 @@
-uuid: 0b605abc-b4e2-4127-b830-5b717eb2512f
+uuid: 35712d03-6866-4618-b766-0373c593b2d1
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - infofinland_migrate
 _core:
-  default_config_hash: G3_-P9sMaAt2e5CUfnZNZHr_NYIKtBT3NzLx77bITZU
+  default_config_hash: 4pyz7rA40V3eo-KYZhkvkI_ltiqAS1e94rOfUaHG_TY
 id: content_import_pages_to_nodes_from_csv_fi
 class: null
 field_plugin_method: null
@@ -20,7 +20,6 @@ source:
   delimiter: ;
   ids:
     - sivun_id
-    - 'Dokumentin ID'
 process:
   type:
     plugin: default_value
@@ -30,7 +29,11 @@ process:
     default_value: 1
   title: 'Nimi valikossa'
   field_page_name: 'Dokumentin nimi'
-  field_description: Kuvaus
+  field_description:
+    source: 'Dokumentin ID'
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
   langcode: Kieli
   default_langcode:
     plugin: default_value

@@ -9,6 +9,7 @@ display:
           label: Başlık
         type:
           label: 'İçerik türü'
+          separator: ', '
         name:
           label: Yazar
         status:
@@ -19,14 +20,14 @@ display:
         changed:
           label: Güncellendi
         operations:
-          label: Operations
+          label: İşlemler
       exposed_form:
         options:
-          submit_button: Filter
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          submit_button: Süzgeç
+          reset_button_label: Sıfırla
+          exposed_sorts_label: 'Sıralama anahtarı'
+          sort_asc_label: Artan
+          sort_desc_label: Azalan
       pager:
         options:
           tags:
@@ -58,7 +59,7 @@ display:
       empty:
         area_text_custom:
           content: 'Hiçbir içerik mevcut değil.'
-    display_title: Default
+    display_title: Varsayılan
   page_1:
     display_options:
       menu:
@@ -66,6 +67,6 @@ display:
       tab_options:
         title: İçerik
         description: 'İçeriği bulun ve yönetin'
-    display_title: Page
+    display_title: Sayfa
 label: İçerik
 description: 'İçeriği bul ve yönet.'

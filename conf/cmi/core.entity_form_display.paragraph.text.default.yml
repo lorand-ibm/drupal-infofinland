@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.text.field_migration_id
     - field.field.paragraph.text.field_text
     - paragraphs.paragraphs_type.text
   module:
@@ -23,10 +24,11 @@ content:
     type: text_textarea
     region: content
   translation:
-    weight: 10
+    weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
+  field_migration_id: true
   status: true

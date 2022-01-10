@@ -6,6 +6,7 @@ use Drupal\Core\Database\Database;
 use Drupal\migrate\MigrateExecutableInterface;
 use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\Row;
+use Drupal\paragraphs\Entity\Paragraph;
 
 /**
  * Perform custom value transformations.
@@ -40,6 +41,11 @@ class AddParagraphToContent extends ProcessPluginBase {
         ->execute()
         ->fetchAll();
       if (!empty($results)) {
+        $firstParagraph = Paragraph::load($results[0]->entity_id);
+        // This paragraph is actually in description so we dont want it in content
+        if (isset($firstParagraph->field_text->value)) {
+          array_shift($results);
+        }
         foreach ($results as $result) {
           $paragraphs[] = [
             'target_id' => $result->entity_id,

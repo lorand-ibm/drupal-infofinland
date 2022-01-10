@@ -13,8 +13,8 @@ entity_type: paragraph
 bundle: hero
 label: Otsikko
 description: 'Näkyvä otsikko lohkolle. Tätä arvoa käytetään ensimmäisen tason otsikkona sivulle jos hero-lohko on lisätty sivulle.'
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

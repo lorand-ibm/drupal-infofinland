@@ -10,17 +10,15 @@ destination:
   plugin: 'entity:node'
   translations: true
 source:
-  translations: true
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_pages_to_nodes_translations.csv
   delimiter: ';'
-  ids: [nimi_valikossa]
+  ids: [Nimi valikossa]
 process:
   nid:
     plugin: migration_lookup
     source: sivun_id
     migration: content_import_pages_to_nodes_from_csv_fi
-    no_stub: true
   type:
     plugin: default_value
     default_value: page
@@ -30,10 +28,14 @@ process:
   title:
     plugin: skip_on_empty
     method: row
-    source: nimi_valikossa
+    source: Nimi valikossa
     message: 'Field title is missing'
   field_page_name: Dokumentin nimi
-  field_description: Kuvaus
+  field_description:
+    source: Dokumentin ID
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
   langcode: Kieli
   field_content:
     source: Dokumentin ID
