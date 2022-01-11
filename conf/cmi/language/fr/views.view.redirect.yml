@@ -1,13 +1,13 @@
+label: Redirect
 display:
   default:
+    display_title: Master
     display_options:
       exposed_form:
         options:
           submit_button: Filtrer
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Trier par'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
       pager:
         options:
           tags:
@@ -20,9 +20,10 @@ display:
             items_per_page_options_all_label: '- Tout -'
             offset_label: Décalage
       fields:
+        redirect_bulk_form:
+          action_title: 'With selection'
         redirect_source__path:
           label: 'A partir de'
-          separator: ', '
         created:
           label: Créé
       filters:
@@ -32,8 +33,27 @@ display:
         redirect_redirect__uri:
           expose:
             label: À
+        status_code:
+          expose:
+            label: 'Status code'
+          group_info:
+            label: 'Status code'
+            group_items:
+              1:
+                title: '300 Multiple Choices'
+              2:
+                title: '301 Moved Permanently'
+              3:
+                title: '302 Found'
+              4:
+                title: '303 See Other'
+              5:
+                title: '304 Not Modified'
+              6:
+                title: '305 Use Proxy'
+              7:
+                title: '307 Temporary Redirect'
         language:
           expose:
             label: 'Langue initiale'
-  page_1:
-    display_title: Page
+      title: Redirect

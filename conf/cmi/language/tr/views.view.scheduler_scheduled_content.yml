@@ -20,22 +20,13 @@ display:
           action_title: Eylem
         title:
           label: Başlık
-          separator: ', '
-        type:
-          separator: ', '
         name:
           label: Yazar
-          separator: ', '
         status:
           label: Durum
           settings:
             format_custom_true: Yayında
             format_custom_false: 'Yayında değil'
-          separator: ', '
-        publish_on:
-          separator: ', '
-        unpublish_on:
-          separator: ', '
         operations:
           label: İşlemler
       filters:

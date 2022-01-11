@@ -1,5 +1,7 @@
+label: Redirect
 display:
   default:
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -20,9 +22,10 @@ display:
             items_per_page_options_all_label: '- Все -'
             offset_label: Пропустить
       fields:
+        redirect_bulk_form:
+          action_title: 'With selection'
         redirect_source__path:
           label: От
-          separator: ', '
         created:
           label: Создано
       filters:
@@ -32,8 +35,32 @@ display:
         redirect_redirect__uri:
           expose:
             label: Кому
+        status_code:
+          expose:
+            label: 'Status code'
+          group_info:
+            label: 'Status code'
+            group_items:
+              1:
+                title: '300 Multiple Choices'
+              2:
+                title: '301 Moved Permanently'
+              3:
+                title: '302 Found'
+              4:
+                title: '303 See Other'
+              5:
+                title: '304 Not Modified'
+              6:
+                title: '305 Use Proxy'
+              7:
+                title: '307 Temporary Redirect'
         language:
           expose:
             label: 'Язык оригинала'
+      title: Redirect
+      empty:
+        area_text_custom:
+          content: 'There is no redirect yet.'
   page_1:
     display_title: Страница

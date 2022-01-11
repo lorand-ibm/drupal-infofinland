@@ -1,3 +1,5 @@
+label: 'Scheduled content'
+description: 'Find and manage scheduled content.'
 display:
   default:
     display_options:
@@ -20,22 +22,19 @@ display:
           action_title: Toiminto
         title:
           label: Otsikko
-          separator: ', '
         type:
-          separator: ', '
+          label: 'Content Type'
         name:
           label: Tekijä
-          separator: ', '
         status:
           label: Tila
           settings:
             format_custom_true: Julkaistu
             format_custom_false: Julkaisematon
-          separator: ', '
         publish_on:
-          separator: ', '
+          label: 'Publish on'
         unpublish_on:
-          separator: ', '
+          label: 'Unpublish on'
         operations:
           label: Toimenpiteet
       filters:
@@ -58,15 +57,30 @@ display:
         langcode:
           expose:
             label: Kieli
+      title: 'Scheduled Content'
+      empty:
+        area_text_custom:
+          content: 'No scheduled content.'
+    display_title: Master
   overview:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Sisältö
+      display_description: 'Overview of all scheduled content, as a tab on main ''content admin'' page'
+    display_title: 'Content Overview'
   user_page:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Sisältö
       arguments:
         uid:
           exception:
             title: Kaikki
+      empty:
+        area_text_custom:
+          content: 'No scheduled content for user {{ arguments.uid }}'
+    display_title: 'User profile tab'

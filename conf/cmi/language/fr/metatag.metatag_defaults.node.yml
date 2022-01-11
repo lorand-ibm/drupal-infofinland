@@ -1,1 +1,3 @@
 label: Contenu
+tags:
+  description: '[node:field_description]'

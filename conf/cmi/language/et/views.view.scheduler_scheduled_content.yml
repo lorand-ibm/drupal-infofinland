@@ -20,22 +20,17 @@ display:
           action_title: Tegevus
         title:
           label: Pealkiri
-          separator: ', '
-        type:
-          separator: ', '
         name:
           label: Autor
-          separator: ', '
         status:
           label: Olek
           settings:
             format_custom_true: Avaldatud
             format_custom_false: Avaldamata
-          separator: ', '
         publish_on:
-          separator: ', '
+          label: 'Publish on'
         unpublish_on:
-          separator: ', '
+          label: 'Unpublish on'
         operations:
           label: Toimingud
       filters:
@@ -58,12 +53,17 @@ display:
         langcode:
           expose:
             label: Keel
+    display_title: Master
   overview:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Sisu
   user_page:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Sisu
       arguments:

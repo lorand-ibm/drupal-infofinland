@@ -20,22 +20,19 @@ display:
           action_title: Åtgärd
         title:
           label: Titel
-          separator: ', '
         type:
-          separator: ', '
+          label: 'Content Type'
         name:
           label: Författare
-          separator: ', '
         status:
           label: Status
           settings:
             format_custom_true: Publicerad
             format_custom_false: 'Ej publicerad'
-          separator: ', '
         publish_on:
-          separator: ', '
+          label: 'Publish on'
         unpublish_on:
-          separator: ', '
+          label: 'Unpublish on'
         operations:
           label: Funktioner
       filters:
@@ -58,12 +55,17 @@ display:
         langcode:
           expose:
             label: Språk
+    display_title: Master
   overview:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Innehåll
   user_page:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Innehåll
       arguments:

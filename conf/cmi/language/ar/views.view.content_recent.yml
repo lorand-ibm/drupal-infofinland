@@ -10,9 +10,6 @@ display:
           exposed_sorts_label: 'الترتيب حسب'
           sort_asc_label: تصاعدي
           sort_desc_label: تنازلي
-      fields:
-        changed:
-          separator: ', '
       title: 'أحدث المحتويات'
       empty:
         area_text_custom:

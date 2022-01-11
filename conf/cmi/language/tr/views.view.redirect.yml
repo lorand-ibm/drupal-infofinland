@@ -22,7 +22,6 @@ display:
       fields:
         redirect_source__path:
           label: Kimden
-          separator: ', '
         created:
           label: Oluşturulma
       filters:

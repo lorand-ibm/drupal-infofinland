@@ -13,28 +13,22 @@ display:
           tags:
             previous: '‹ السابقة'
             next: 'التالية ›'
+            first: '« first'
             last: 'الأخيرة »'
       fields:
         node_bulk_form:
           action_title: إجراء
         title:
           label: العنوان
-          separator: ', '
         type:
-          separator: ', '
+          label: 'Content Type'
         name:
           label: المؤلف
-          separator: ', '
         status:
           label: الحالة
           settings:
             format_custom_true: منشور
             format_custom_false: 'غير منشور'
-          separator: ', '
-        publish_on:
-          separator: ', '
-        unpublish_on:
-          separator: ', '
         operations:
           label: عمليات
       filters:
@@ -56,6 +50,7 @@ display:
         langcode:
           expose:
             label: اللغة
+    display_title: Master
   overview:
     display_options:
       tab_options:

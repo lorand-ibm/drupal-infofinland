@@ -1,4 +1,4 @@
-label: Media
+description: 'Find and manage media.'
 display:
   default:
     display_title: Oletus
@@ -15,37 +15,35 @@ display:
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
-            offset_label: Offset
           tags:
             previous: '‹ Edellinen'
             next: 'Seuraava ›'
             first: '« Ensimmäinen'
+            last: 'Last »'
       fields:
         media_bulk_form:
           action_title: Toiminto
         thumbnail__target_id:
           label: Pienoiskuva
-          separator: ', '
         name:
-          separator: ', '
+          label: 'Media name'
         bundle:
           label: Tyyppi
-          separator: ', '
         uid:
           label: Tekijä
-          separator: ', '
         status:
           label: Tila
           settings:
             format_custom_true: Julkaistu
             format_custom_false: Julkaisematon
-          separator: ', '
         changed:
           label: Päivitetty
-          separator: ', '
         operations:
           label: Toimenpiteet
       filters:
+        name:
+          expose:
+            label: 'Media name'
         bundle:
           expose:
             label: Tyyppi
@@ -62,12 +60,6 @@ display:
         langcode:
           expose:
             label: Kieli
-      title: Media
       empty:
         area_text_custom:
           content: 'Ei mediaa saatavilla.'
-  media_page_list:
-    display_title: Media
-    display_options:
-      menu:
-        title: Media

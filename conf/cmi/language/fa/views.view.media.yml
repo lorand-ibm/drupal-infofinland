@@ -1,4 +1,3 @@
-label: رسانه
 display:
   default:
     display_title: پیش‌فرض
@@ -19,8 +18,6 @@ display:
       fields:
         media_bulk_form:
           action_title: عملکرد
-        thumbnail__target_id:
-          label: 'تصویر بندانگشتی'
         bundle:
           label: نوع
         uid:
@@ -39,8 +36,6 @@ display:
           expose:
             label: نوع
         status:
-          expose:
-            label: صحیح
           group_info:
             label: 'وضعیت انتشار'
             group_items:
@@ -51,9 +46,3 @@ display:
         langcode:
           expose:
             label: زبان
-      title: رسانه
-  media_page_list:
-    display_title: رسانه
-    display_options:
-      menu:
-        title: رسانه

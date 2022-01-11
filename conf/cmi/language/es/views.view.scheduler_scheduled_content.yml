@@ -6,8 +6,6 @@ display:
           submit_button: Filtro
           reset_button_label: Restablecer
           exposed_sorts_label: 'Ordenar por'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
       pager:
         options:
           tags:
@@ -20,22 +18,19 @@ display:
           action_title: Acción
         title:
           label: Título
-          separator: ', '
         type:
-          separator: ', '
+          label: 'Content Type'
         name:
           label: Autor
-          separator: ', '
         status:
           label: Estado
           settings:
             format_custom_true: Publicado
             format_custom_false: 'Sin publicar'
-          separator: ', '
         publish_on:
-          separator: ', '
+          label: 'Publish on'
         unpublish_on:
-          separator: ', '
+          label: 'Unpublish on'
         operations:
           label: Operaciones
       filters:
@@ -58,15 +53,27 @@ display:
         langcode:
           expose:
             label: Idioma
+      empty:
+        area_text_custom:
+          content: 'No scheduled content.'
+    display_title: Master
   overview:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Contenido
+    display_title: 'Content Overview'
   user_page:
     display_options:
+      menu:
+        title: Scheduled
       tab_options:
         title: Contenido
       arguments:
         uid:
           exception:
             title: Todo(s)
+      empty:
+        area_text_custom:
+          content: 'No scheduled content for user {{ arguments.uid }}'

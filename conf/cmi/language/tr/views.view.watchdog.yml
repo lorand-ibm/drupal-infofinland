@@ -17,14 +17,9 @@ display:
             items_per_page_label: 'Sayfa başına öğe sayısı'
             items_per_page_options_all_label: '- Tümü -'
             offset_label: 'Başlangıç değeri'
-          tags:
-            previous: ‹‹
-            next: ››
       fields:
         nothing:
           admin_label: Simge
-        wid:
-          label: WID
         severity:
           label: 'Önem seviyesi'
         type:
@@ -33,11 +28,8 @@ display:
           label: Tarih
         message:
           label: İleti
-          alter:
-            alt: '{{ message }}'
         name:
           label: Kullanıcı
-          separator: ', '
         link:
           label: İşlemler
       filters:

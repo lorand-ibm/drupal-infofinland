@@ -1,4 +1,3 @@
-label: Medya
 display:
   default:
     display_title: Varsayılan
@@ -24,39 +23,24 @@ display:
       fields:
         media_bulk_form:
           action_title: Eylem
-        thumbnail__target_id:
-          label: 'Küçük resim'
-          separator: ', '
-        name:
-          label: 'Medya adı'
-          separator: ', '
         bundle:
           label: Tip
-          separator: ', '
         uid:
           label: Yazar
-          separator: ', '
         status:
           label: Durum
           settings:
             format_custom_true: Yayında
             format_custom_false: 'Yayında değil'
-          separator: ', '
         changed:
           label: Güncellendi
-          separator: ', '
         operations:
           label: İşlemler
       filters:
-        name:
-          expose:
-            label: 'Medya adı'
         bundle:
           expose:
             label: Tip
         status:
-          expose:
-            label: Doğru
           group_info:
             label: 'Yayın durumu'
             group_items:
@@ -67,9 +51,3 @@ display:
         langcode:
           expose:
             label: Dil
-      title: Medya
-  media_page_list:
-    display_title: Medya
-    display_options:
-      menu:
-        title: Medya

@@ -1,5 +1,7 @@
+description: 'List of redirects'
 display:
   default:
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -18,11 +20,11 @@ display:
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
-            offset_label: Offset
       fields:
+        redirect_bulk_form:
+          action_title: 'With selection'
         redirect_source__path:
           label: Lähettäjä
-          separator: ', '
         created:
           label: Luotu
       filters:
@@ -32,8 +34,31 @@ display:
         redirect_redirect__uri:
           expose:
             label: Osoitteeseen
+        status_code:
+          expose:
+            label: 'Status code'
+          group_info:
+            label: 'Status code'
+            group_items:
+              1:
+                title: '300 Multiple Choices'
+              2:
+                title: '301 Moved Permanently'
+              3:
+                title: '302 Found'
+              4:
+                title: '303 See Other'
+              5:
+                title: '304 Not Modified'
+              6:
+                title: '305 Use Proxy'
+              7:
+                title: '307 Temporary Redirect'
         language:
           expose:
             label: 'Alkuperäinen kieli'
+      empty:
+        area_text_custom:
+          content: 'There is no redirect yet.'
   page_1:
     display_title: Sivu
