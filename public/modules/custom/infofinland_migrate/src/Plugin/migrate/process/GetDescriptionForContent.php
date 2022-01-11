@@ -41,7 +41,9 @@ class GetDescriptionForContent extends ProcessPluginBase {
         ->fetchAll();
       if (!empty($results)) {
         $firstParagraph = Paragraph::load($results[0]->entity_id);
-        if (isset($firstParagraph->field_text->value)) {
+        if (isset($firstParagraph->field_text->value) &&
+          !str_contains($firstParagraph->field_text->value, '<ul>') &&
+          !str_contains($firstParagraph->field_text->value, '<a')) {
           return $firstParagraph->field_text->value;
         }
       }
