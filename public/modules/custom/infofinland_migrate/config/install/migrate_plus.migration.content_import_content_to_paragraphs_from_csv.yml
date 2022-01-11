@@ -1,5 +1,5 @@
-id: content_import_content_to_paragraphs_from_csv_fi
-label: 'Import content from old site to nodes fi'
+id: content_import_content_to_paragraphs_from_csv
+label: 'Import content from old site to nodes'
 migration_group: infofinland_content
 dependencies:
   enforced:
