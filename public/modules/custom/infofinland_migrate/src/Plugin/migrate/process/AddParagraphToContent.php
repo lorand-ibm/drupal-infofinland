@@ -43,7 +43,9 @@ class AddParagraphToContent extends ProcessPluginBase {
       if (!empty($results)) {
         $firstParagraph = Paragraph::load($results[0]->entity_id);
         // This paragraph is actually in description so we dont want it in content
-        if (isset($firstParagraph->field_text->value)) {
+        if (isset($firstParagraph->field_text->value) &&
+          !str_contains($firstParagraph->field_text->value, '<ul>') &&
+          !str_contains($firstParagraph->field_text->value, '<a')) {
           array_shift($results);
         }
         foreach ($results as $result) {
