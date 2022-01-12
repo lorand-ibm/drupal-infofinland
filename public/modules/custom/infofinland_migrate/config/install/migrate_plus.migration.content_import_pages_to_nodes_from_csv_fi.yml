@@ -23,7 +23,12 @@ process:
     default_value: 1
   title: Nimi valikossa
   field_page_name: Dokumentin nimi
-  #field_has_hero: '1'
+  field_hero:
+    source: sivun_id
+    plugin: add_hero_paragraph
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
   field_description:
     source: Dokumentin ID
     plugin: get_description_for_content

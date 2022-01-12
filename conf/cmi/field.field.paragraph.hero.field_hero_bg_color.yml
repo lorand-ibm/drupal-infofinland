@@ -1,25 +1,33 @@
-uuid: b211daf2-706c-4f8a-9317-64e6106dd71b
+uuid: 838c24fb-9297-4adb-a531-457cd088d54d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_hero_bg_color
     - paragraphs.paragraphs_type.hero
-  module:
-    - options
-_core:
-  default_config_hash: oBcxkQvh42-sDZQOEHuml4LAI9GzDoFVzO7bmbnyVAA
+    - taxonomy.vocabulary.colors
+  content:
+    - 'taxonomy_term:colors:21ebd1d9-89bc-4cd4-862f-a54215deee30'
 id: paragraph.hero.field_hero_bg_color
 field_name: field_hero_bg_color
 entity_type: paragraph
 bundle: hero
 label: 'Background color'
-description: 'Choose the background color for the hero element.'
+description: ''
 required: true
 translatable: false
 default_value:
   -
-    value: coat-of-arms
+    target_uuid: 21ebd1d9-89bc-4cd4-862f-a54215deee30
 default_value_callback: ''
-settings: {  }
-field_type: list_string
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      colors: colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
