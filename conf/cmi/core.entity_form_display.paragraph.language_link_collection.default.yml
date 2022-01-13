@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.language_link_collection.field_link_collection
+    - field.field.paragraph.language_link_collection.field_migration_id
     - paragraphs.paragraphs_type.language_link_collection
 id: paragraph.language_link_collection.default
 targetEntityType: paragraph
@@ -18,8 +19,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_autocomplete_tags
     region: content
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
+  field_migration_id: true
   status: true

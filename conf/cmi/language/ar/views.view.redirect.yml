@@ -1,6 +1,6 @@
 display:
   default:
-    display_title: الرئيسي
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -14,7 +14,7 @@ display:
           tags:
             previous: '‹ السابقة'
             next: 'التالية ›'
-            first: '« الأولى'
+            first: '« first'
             last: 'الأخيرة »'
           expose:
             items_per_page_options_all_label: '- الكل -'
@@ -22,7 +22,6 @@ display:
       fields:
         redirect_source__path:
           label: من
-          separator: ', '
         created:
           label: الإنشاء
       filters:

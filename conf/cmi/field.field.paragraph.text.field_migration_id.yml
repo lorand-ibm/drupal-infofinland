@@ -1,0 +1,23 @@
+uuid: 299daaa3-d8c0-4ea0-ba5e-8379c4672777
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_migration_id
+    - paragraphs.paragraphs_type.text
+id: paragraph.text.field_migration_id
+field_name: field_migration_id
+entity_type: paragraph
+bundle: text
+label: migration_id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

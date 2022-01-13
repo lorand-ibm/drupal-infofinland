@@ -1,15 +1,15 @@
-label: 'Ajastettu sisältö'
-description: 'Etsi ja ylläpidä ajastettua sisältöä.'
+label: 'Scheduled content'
+description: 'Find and manage scheduled content.'
 display:
   default:
     display_options:
       exposed_form:
         options:
-          submit_button: Suodatin
+          submit_button: Suodatus
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
-          sort_asc_label: Nousevasti
-          sort_desc_label: Laskevasti
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         options:
           tags:
@@ -22,25 +22,19 @@ display:
           action_title: Toiminto
         title:
           label: Otsikko
-          separator: ', '
         type:
-          label: Sisältötyyppi
-          separator: ', '
+          label: 'Content Type'
         name:
-          label: Kirjoittaja
-          separator: ', '
+          label: Tekijä
         status:
           label: Tila
           settings:
             format_custom_true: Julkaistu
             format_custom_false: Julkaisematon
-          separator: ', '
         publish_on:
-          label: Julkaisupäivämäärä
-          separator: ', '
+          label: 'Publish on'
         unpublish_on:
-          label: 'Julkaisun peruutuspäivämäärä'
-          separator: ', '
+          label: 'Unpublish on'
         operations:
           label: Toimenpiteet
       filters:
@@ -63,23 +57,23 @@ display:
         langcode:
           expose:
             label: Kieli
-      title: 'Ajastettu sisältö'
+      title: 'Scheduled Content'
       empty:
         area_text_custom:
-          content: 'Ei vielä ajastettua sisältöä.'
-    display_title: Isäntä
+          content: 'No scheduled content.'
+    display_title: Master
   overview:
     display_options:
       menu:
-        title: Ajastettu
+        title: Scheduled
       tab_options:
         title: Sisältö
-      display_description: 'Yleiskatsaus koko ajoitetusta sisällöstä.'
-    display_title: Sisältö
+      display_description: 'Overview of all scheduled content, as a tab on main ''content admin'' page'
+    display_title: 'Content Overview'
   user_page:
     display_options:
       menu:
-        title: Ajastettu
+        title: Scheduled
       tab_options:
         title: Sisältö
       arguments:
@@ -88,5 +82,5 @@ display:
             title: Kaikki
       empty:
         area_text_custom:
-          content: '{{ arguments.uid }} käyttäjä ei ole ajastanut sisältöä.'
-    display_title: Käyttäjäprofiili
+          content: 'No scheduled content for user {{ arguments.uid }}'
+    display_title: 'User profile tab'

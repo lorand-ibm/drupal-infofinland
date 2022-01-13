@@ -6,5 +6,5 @@ _core:
   default_config_hash: DH2PmjFA9e0trIQIcoV9naKjUUsqs4pd6YWdlc-hM9M
 id: main
 label: Päävalikko
-description: 'Päävalikon linkit'
+description: 'Sivuston osioiden linkit'
 locked: true

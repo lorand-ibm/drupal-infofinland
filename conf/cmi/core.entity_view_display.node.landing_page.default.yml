@@ -10,6 +10,8 @@ dependencies:
     - field.field.node.landing_page.field_metatags
     - node.type.landing_page
   module:
+    - entity_reference_revisions
+    - metatag
     - user
 _core:
   default_config_hash: LuhyhnsQ44RvvqWLYbkgiR7_IFywxuxn3pPaBDaYIgc
@@ -18,15 +20,29 @@ targetEntityType: node
 bundle: landing_page
 mode: default
 content:
+  field_content:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_metatags:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   links:
     weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_content: true
   field_has_hero: true
   field_hero: true
   field_liftup_image: true
-  field_metatags: true
   langcode: true

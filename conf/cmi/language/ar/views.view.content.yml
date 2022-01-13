@@ -4,7 +4,6 @@ display:
       fields:
         langcode:
           label: اللغة
-          separator: ', '
         title:
           label: العنوان
         type:

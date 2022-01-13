@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.heading.field_migration_id
     - field.field.paragraph.heading.field_title
     - paragraphs.paragraphs_type.heading
 id: paragraph.heading.default
@@ -18,6 +19,12 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  translation:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
+  field_migration_id: true
   status: true

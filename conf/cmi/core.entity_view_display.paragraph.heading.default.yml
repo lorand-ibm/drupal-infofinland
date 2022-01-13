@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.heading.field_migration_id
     - field.field.paragraph.heading.field_title
     - paragraphs.paragraphs_type.heading
 id: paragraph.heading.default
@@ -10,6 +11,15 @@ targetEntityType: paragraph
 bundle: heading
 mode: default
 content:
+  field_migration_id:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
   field_title:
     weight: 0
     label: above

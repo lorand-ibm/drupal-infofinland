@@ -1,7 +1,7 @@
-label: 'Suunatakse ümber'
+label: Redirect
 display:
   default:
-    display_title: Peamine
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -24,7 +24,6 @@ display:
       fields:
         redirect_source__path:
           label: Kellelt
-          separator: ', '
         created:
           label: Loodud
       filters:
@@ -37,6 +36,6 @@ display:
         language:
           expose:
             label: 'Algne keel'
-      title: 'Suunatakse ümber'
+      title: Redirect
   page_1:
     display_title: Lehekülg

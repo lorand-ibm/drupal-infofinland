@@ -20,23 +20,13 @@ display:
           action_title: Eylem
         title:
           label: Başlık
-          separator: ', '
-        type:
-          label: 'İçerik çeşidi'
-          separator: ', '
         name:
           label: Yazar
-          separator: ', '
         status:
           label: Durum
           settings:
             format_custom_true: Yayında
             format_custom_false: 'Yayında değil'
-          separator: ', '
-        publish_on:
-          separator: ', '
-        unpublish_on:
-          separator: ', '
         operations:
           label: İşlemler
       filters:
@@ -59,7 +49,6 @@ display:
         langcode:
           expose:
             label: Dil
-    display_title: 'Ana (master)'
   overview:
     display_options:
       tab_options:

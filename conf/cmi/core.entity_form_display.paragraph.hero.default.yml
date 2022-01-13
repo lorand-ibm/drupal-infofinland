@@ -21,14 +21,14 @@ bundle: hero
 mode: default
 content:
   field_hero_bg_color:
-    weight: 1
+    weight: 0
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_hero_image:
     type: media_library_widget
-    weight: 0
+    weight: 1
     settings:
       media_types: {  }
     third_party_settings: {  }
