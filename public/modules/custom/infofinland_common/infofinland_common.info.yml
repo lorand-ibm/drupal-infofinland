@@ -3,3 +3,5 @@ description: 'Custom functionality'
 package: 'Custom'
 type: module
 core_version_requirement: ^8 || ^9
+libraries:
+  - infofinland_common/infofinland_common
