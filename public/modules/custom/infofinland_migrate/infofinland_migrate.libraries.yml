@@ -1,5 +1,0 @@
-infofinland_migrate:
-  version: 1.x
-  css:
-    base:
-      css/infofinland_migrate.css: {}

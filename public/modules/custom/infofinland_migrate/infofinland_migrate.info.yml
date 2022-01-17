@@ -8,5 +8,3 @@ dependencies:
   - drupal:migrate_plus
   - drupal:migrate_tools
   - drupal:migrate_source_csv
-libraries:
-  - infofinland_migrate/infofinland_migrate

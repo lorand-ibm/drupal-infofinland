@@ -53,3 +53,51 @@ function infofinland_common_path_alias_update(Drupal\path_alias\PathAliasInterfa
     }
   }
 }
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * @param $variables
+ */
+function infofinland_common_preprocess_status_messages(&$variables) {
+  if (isset($variables['message_list']['warning'])) {
+    $status_messages = $variables['message_list']['warning'];
+    foreach($status_messages as $delta => $message) {
+      if (strpos((string) $message, 'The current translation is not in sync with the Finnish one') !== FALSE) {
+        $variables['attributes']['class'] = 'custom-messages--warning';
+      }
+    }
+
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id != 'node_page_edit_form') {
+    return;
+  }
+  $form['#attached']['library'][] = 'infofinland_common/infofinland_common';
+  $node = $form_state->getFormObject()->getEntity();
+  if ($node->id() !== null) {
+    if ($node->langcode->value === 'fi') {
+      return;
+    }
+    $contentFi = $node->getTranslation('fi')->get('field_content')->referencedEntities();
+    $contentCountFi = count($contentFi);
+    $currentNode = $node->get('field_content')->referencedEntities();
+    $contentCountCurrent= count($currentNode);
+    if ($contentCountCurrent !== $contentCountFi) {
+      \Drupal::messenger()->addWarning('The current translation is not in sync with the Finnish one');
+      return;
+    } else {
+      for ($x = 0; $x < $contentCountCurrent; $x++) {
+        if ($currentNode[$x]->getType() !== $contentFi[$x]->getType()) {
+          \Drupal::messenger()->addWarning('The current translation is not in sync with the Finnish one');
+          return;
+        }
+      }
+    }
+  }
+}
