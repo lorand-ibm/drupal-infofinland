@@ -6,7 +6,9 @@ dependencies:
     - field.storage.paragraph.field_accordion_item_content
     - paragraphs.paragraphs_type.accordion_item
     - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.language_link_collection
+    - paragraphs.paragraphs_type.ptv_contact
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -28,8 +30,10 @@ settings:
     negate: 0
     target_bundles:
       columns: columns
+      image: image
       text: text
       language_link_collection: language_link_collection
+      ptv_contact: ptv_contact
     target_bundles_drag_drop:
       accordion:
         weight: 12
@@ -59,8 +63,8 @@ settings:
         weight: 17
         enabled: false
       image:
+        enabled: true
         weight: 18
-        enabled: false
       language_link:
         weight: 29
         enabled: false
@@ -77,8 +81,8 @@ settings:
         weight: 21
         enabled: false
       ptv_contact:
+        enabled: true
         weight: 34
-        enabled: false
       remote_video:
         weight: 35
         enabled: false
