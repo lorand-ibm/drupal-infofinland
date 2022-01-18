@@ -1,0 +1,19 @@
+uuid: 6ec037c2-39d9-4442-bb17-144e4f31ce14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.landing_page
+id: node.landing_page.field_description
+field_name: field_description
+entity_type: node
+bundle: landing_page
+label: Ingressi
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
