@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.field_content
     - field.field.node.page.field_description
-    - field.field.node.page.field_has_hero
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
@@ -34,7 +33,6 @@ content:
 hidden:
   field_content: true
   field_description: true
-  field_has_hero: true
   field_hero: true
   field_metatags: true
   field_page_name: true

@@ -17,7 +17,7 @@ id: node.landing_page.field_content
 field_name: field_content
 entity_type: node
 bundle: landing_page
-label: 'Content region'
+label: Pääsisältö
 description: ''
 required: false
 translatable: false
@@ -63,6 +63,12 @@ settings:
       image:
         enabled: true
         weight: -17
+      language_link:
+        weight: 29
+        enabled: false
+      language_link_collection:
+        weight: 30
+        enabled: false
       liftup_with_image:
         weight: -24
         enabled: false
