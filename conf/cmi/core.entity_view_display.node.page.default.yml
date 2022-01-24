@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.page.field_metatags
     - field.field.node.page.field_page_name
     - field.field.node.page.field_url
+    - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
     - user
@@ -27,6 +28,16 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_use_anchor_links:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   links:
     weight: 0

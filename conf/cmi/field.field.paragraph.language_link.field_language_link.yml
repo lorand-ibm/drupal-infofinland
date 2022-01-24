@@ -9,7 +9,7 @@ id: paragraph.language_link.field_language_link
 field_name: field_language_link
 entity_type: paragraph
 bundle: language_link
-label: language_link
+label: URL
 description: ''
 required: false
 translatable: true
