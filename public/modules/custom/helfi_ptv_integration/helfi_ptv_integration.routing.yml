@@ -4,4 +4,4 @@ helfi_ptv_integration.getcitycodes:
     _title: 'Show the ptv city codes'
     _controller: '\Drupal\helfi_ptv_integration\Controller\PTVController::showCodes'
   requirements:
-    _permission: 'administer'
+    _permission: 'access user profiles'

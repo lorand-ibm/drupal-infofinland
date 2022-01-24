@@ -26,6 +26,7 @@ permissions:
   - 'administer menu'
   - 'administer nodes'
   - 'administer pathauto'
+  - 'administer permissions'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer responsive images'
