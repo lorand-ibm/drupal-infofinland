@@ -7,9 +7,14 @@
 
 declare(strict_types = 1);
 
+use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Entity\EntityForm;
+use Drupal\Core\Entity\RevisionLogInterface;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\EntityStorageBase;
+use Drupal\node\Entity\Node;
+use Drupal\paragraphs\Entity\Paragraph;
 
 /**
  * Implements hook_form_alter().
@@ -99,5 +104,59 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
         }
       }
     }
+  }
+}
+
+function infofinland_common_node_presave(Drupal\Core\Entity\EntityInterface $entity) {
+
+  if($entity->langcode->value !== 'fi' || is_null($entity->id())) {
+    return;
+  }
+  switch ($entity->bundle()) {
+    case 'page':
+      $nodeOld = Node::load($entity->id());
+      $contentOld= $nodeOld->getTranslation($entity->langcode->value)->get('field_content')->getValue();
+      $contentNew = $entity->get('field_content')->getValue();
+      if (count($contentOld) >= count($contentNew)) {
+        break;
+      }
+      $oldIds = [];
+      foreach ($contentOld as $row) {
+        $oldIds[] = $row['target_id'];
+      }
+      $added = [];
+      foreach ($contentNew as $key => $row) {
+        if (!in_array($row['target_id'], $oldIds)) {
+          $added[] = ['target' => $row['target_id'], 'delta' => $key, 'revision' => $row['target_revision_id']];
+        }
+      }
+      if (empty($added)) {
+        break;
+      }
+      $allLanguages = $entity->getTranslationLanguages();
+      $node = Node::load($entity->id());
+      foreach ($allLanguages as $language) {
+        if ($language->getId() == 'fi') {
+          continue;
+        }
+        $nodeTranslation = $node->getTranslation($language->getId());
+        $content = $nodeTranslation->get('field_content')->getValue();
+
+          foreach ($added as $paragraph) {
+            if (array_key_last($content) <= $added[array_key_last($added)]['delta']) {
+              $content[] = ['target_id' => $paragraph['target'], 'target_revision_id' =>  $paragraph['revision']];
+            } else {
+              $array = ['target_id' => $paragraph['target'], 'target_revision_id' =>  $paragraph['revision']];
+              $contentMerged = array_merge(array_slice($content, 0, $paragraph['delta']), [$array], array_slice($content, $paragraph['delta']));
+            }
+          }
+        if (!isset($contentMerged)) {
+          continue;
+        }
+
+        //TODO: figure our draft flow
+        $nodeTranslation->field_content = $contentMerged;
+        $nodeTranslation->save();
+      }
   }
 }
