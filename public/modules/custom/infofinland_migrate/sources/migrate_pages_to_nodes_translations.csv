@@ -1,25 +1,5 @@
 ﻿sivun_id;Kieli;Nimi valikossa;Kuvaus;URL;Dokumentin ID;Dokumentin nimi
 237acc2f-ed06-4569-8521-1f3fc3c11d71;ru;Infopankki website_ru;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;sv;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;ru;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;et;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;fr;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;so;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;es;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;tr;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;zh;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;fa;;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;ar;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;sv;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;ru;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;et;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;fr;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;es;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;tr;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;so;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;zh;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;fa;;;;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;ar;;;;;
 a1c69b58-877c-4f7e-a624-f2ab61c881ae;sv;Startsida;Flytta till Finland | Livet i Finland | Information om Finland | Lokal information;sv/startsida*;6582;Tiesitkö..? kuntatieto (sv)
 a1c69b58-877c-4f7e-a624-f2ab61c881ae;et;Esileht;Soome elama asumine | Elu Soomes | Teavet Soome kohta | Kohalik teave;et/esileht*;6583;Tiesitkö..? kuntatieto (et)
 a1c69b58-877c-4f7e-a624-f2ab61c881ae;ru;Главная страница;Все о переезде, работе, учебе и быте в Финляндии на русском языке: достоверно, доступно и проверено. ;ru/frontpage*;6584;Tiesitkö..? kuntatieto (ru)
@@ -2310,27 +2290,14 @@ ba399b5f-16bb-42e2-b11c-8dba0aa0a53d;fa;اوقات فراغت در وانتا ;;
 3cf32436-2419-4478-8e98-254939dc97a7;et;Kauniainen;;et/kauniainen;;
 3cf32436-2419-4478-8e98-254939dc97a7;ru;Кауниайнен;;ru/kauniainen;;
 3cf32436-2419-4478-8e98-254939dc97a7;sv;Grankulla;;sv/grankulla;;
-930c1a77-7354-4405-be2e-dd3d6a4ef3ad;ar;;;;;
-930c1a77-7354-4405-be2e-dd3d6a4ef3ad;fa;;;;;
-930c1a77-7354-4405-be2e-dd3d6a4ef3ad;zh;;;;;
-930c1a77-7354-4405-be2e-dd3d6a4ef3ad;tr;;;;;
-930c1a77-7354-4405-be2e-dd3d6a4ef3ad;es;;;;;
-930c1a77-7354-4405-be2e-dd3d6a4ef3ad;so;;;;;
 930c1a77-7354-4405-be2e-dd3d6a4ef3ad;fr;S’installer à Kauniainen;;fr/kauniainen/s-installer--kauniainen;5284;Muutto Kauniaisiin 101 (fr)
 930c1a77-7354-4405-be2e-dd3d6a4ef3ad;et;Elama asumine Kauniainenisse;;et/kauniainen/elama-asumine-kauniainenisse;5285;Muutto Kauniaisiin 101 (et)
 930c1a77-7354-4405-be2e-dd3d6a4ef3ad;ru;Переезд в Кауниайнен;;ru/kauniainen/moving-to-kauniainen;5286;Muutto Kauniaisiin 101 (ru)
 930c1a77-7354-4405-be2e-dd3d6a4ef3ad;sv;Flytta till Grankulla;;sv/grankulla/flytta-till-grankulla;5288;Muutto Kauniaisiin 101 (sv)
-981da5a4-6ce2-4e7d-955f-0e88559ffb42;ar;;;;;
-981da5a4-6ce2-4e7d-955f-0e88559ffb42;fa;;;;;
-981da5a4-6ce2-4e7d-955f-0e88559ffb42;zh;;;;;
-981da5a4-6ce2-4e7d-955f-0e88559ffb42;tr;;;;;
-981da5a4-6ce2-4e7d-955f-0e88559ffb42;es;;;;;
-981da5a4-6ce2-4e7d-955f-0e88559ffb42;so;;;;;
 981da5a4-6ce2-4e7d-955f-0e88559ffb42;fr;La vie à Kauniainen;;fr/kauniainen/la-vie--kauniainen;;
 981da5a4-6ce2-4e7d-955f-0e88559ffb42;et;Elu Kauniainenis;;et/kauniainen/elu-kauniainenis;;
 981da5a4-6ce2-4e7d-955f-0e88559ffb42;ru;Жизнь в городе Кауниайнен;;ru/kauniainen/life-in-kauniainen;;
 981da5a4-6ce2-4e7d-955f-0e88559ffb42;sv;Livet i Grankulla;;sv/grankulla/livet-i-grankulla;;
-e86c232b-3bc5-4c99-a1d1-0e95573ae180;ar;;;;;
 e86c232b-3bc5-4c99-a1d1-0e95573ae180;fa;سکونت در کاآونیاینن بعنوان مهاجر;;;;
 e86c232b-3bc5-4c99-a1d1-0e95573ae180;zh;考尼艾宁的移民;;;;
 e86c232b-3bc5-4c99-a1d1-0e95573ae180;tr;Kauniainen'de göçmenlik;;;;
@@ -2340,92 +2307,38 @@ e86c232b-3bc5-4c99-a1d1-0e95573ae180;fr;Vivre à Kauniainen;;fr/kauniainen/la-vi
 e86c232b-3bc5-4c99-a1d1-0e95573ae180;et;Elu sisseseadmine Kauniainenis;;et/kauniainen/elu-kauniainenis/elu-sisseseadmine-kauniainenis;5299;Maahanmuuttajana Kauniaisissa 101 (et)
 e86c232b-3bc5-4c99-a1d1-0e95573ae180;ru;Обустройство в Кауниайнене;;ru/kauniainen/life-in-kauniainen/settling-in-kauniainen;5300;Maahanmuuttajana Kauniaisissa 101 (ru)
 e86c232b-3bc5-4c99-a1d1-0e95573ae180;sv;Att bosätta sig i Grankulla;;sv/grankulla/livet-i-grankulla/att-bosatta-sig-i-grankulla;5302;Maahanmuuttajana Kauniaisissa 101 (sv)
-c3b2292f-e1a5-43c0-8ecc-86b41c776b57;ar;;;;;
-c3b2292f-e1a5-43c0-8ecc-86b41c776b57;fa;;;fa/kauniainen/life-in-kauniainen/employment-and-entrepreneurship-in-kauniainen;;
-c3b2292f-e1a5-43c0-8ecc-86b41c776b57;zh;;;zh/kauniainen/life-in-kauniainen/employment-and-entrepreneurship-in-kauniainen;;
-c3b2292f-e1a5-43c0-8ecc-86b41c776b57;tr;;;tr/kauniainen/kauniainen-de-ya-ant/kauniainen-de-i-ve-i-letmecilik;;
-c3b2292f-e1a5-43c0-8ecc-86b41c776b57;es;;;es/kauniainen/vivir-en-kauniainen/trabajar-y-ser-empresario-en-kauniainen;;
-c3b2292f-e1a5-43c0-8ecc-86b41c776b57;so;;;so/kauniainen/nolosha-kauniainen/shaqada-iyo-ganacsiga-kauniainen;;
 c3b2292f-e1a5-43c0-8ecc-86b41c776b57;fr;Travail et entrepreneuriat à Kauniainen;;fr/kauniainen/la-vie--kauniainen/travail-et-entrepreneuriat--kauniainen;5312;Työ ja yrittäjyys Kauniaisissa 101 (fr)
 c3b2292f-e1a5-43c0-8ecc-86b41c776b57;et;Töö ja ettevõtlus Kauniainenis;;et/kauniainen/elu-kauniainenis/too-ja-ettev-tlus-kauniainenis;5313;Työ ja yrittäjyys Kauniaisissa 101 (et)
 c3b2292f-e1a5-43c0-8ecc-86b41c776b57;ru;Работа и предпринимательство в Кауниайнене;;ru/kauniainen/life-in-kauniainen/employment-and-entrepreneurship-in-kauniainen;5314;Työ ja yrittäjyys Kauniaisissa 101 (ru)
 c3b2292f-e1a5-43c0-8ecc-86b41c776b57;sv;Arbete och entreprenörskap i Grankulla;;sv/grankulla/livet-i-grankulla/arbete-och-entreprenorskap-i-grankulla;5316;Työ ja yrittäjyys Kauniaisissa 101 (sv)
-76cbf233-55bc-49bf-9c4f-fadd43ae07a5;ar;;;;;
-76cbf233-55bc-49bf-9c4f-fadd43ae07a5;fa;;;;;
-76cbf233-55bc-49bf-9c4f-fadd43ae07a5;zh;;;;;
-76cbf233-55bc-49bf-9c4f-fadd43ae07a5;tr;;;;;
-76cbf233-55bc-49bf-9c4f-fadd43ae07a5;es;;;;;
-76cbf233-55bc-49bf-9c4f-fadd43ae07a5;so;;;;;
 76cbf233-55bc-49bf-9c4f-fadd43ae07a5;fr;Langues finnoise et suédoise à Kauniainen;;fr/kauniainen/la-vie--kauniainen/langues-finnoise-et-su-doise--kauniainen;5326;Suomen ja ruotsin kieli Kauniaisissa 101 (fr)
 76cbf233-55bc-49bf-9c4f-fadd43ae07a5;et;Soome ja rootsi keel Kauniainenis;;et/kauniainen/elu-kauniainenis/soome-ja-rootsi-keel-kauniainenis;5327;Suomen ja ruotsin kieli Kauniaisissa 101 (et)
 76cbf233-55bc-49bf-9c4f-fadd43ae07a5;ru;Финский и шведский язык в Кауниайнене;;ru/kauniainen/life-in-kauniainen/finnish-and-swedish-in-kauniainen;5328;Suomen ja ruotsin kieli Kauniaisissa 101 (ru)
 76cbf233-55bc-49bf-9c4f-fadd43ae07a5;sv;Finska och svenska språket i Grankulla;;sv/grankulla/livet-i-grankulla/finska-och-svenska-spraket-i-grankulla;5330;Suomen ja ruotsin kieli Kauniaisissa 101 (sv)
-cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;ar;;;;;
 cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;sv;Boende i Grankulla;;sv/grankulla/livet-i-grankulla/boende-i-grankulla;5332;Asuminen Kauniaisissa 101 (sv)
 cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;ru;Жильё в Кауниайнене;;ru/kauniainen/life-in-kauniainen/housing-in-kauniainen;5334;Asuminen Kauniaisissa 101 (ru)
 cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;et;Eluase ja elamine Kauniainenis;;et/kauniainen/elu-kauniainenis/eluase-ja-elamine-kauniainenis;5335;Asuminen Kauniaisissa 101 (et)
 cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;fr;Logement à Kauniainen;;fr/kauniainen/la-vie--kauniainen/logement--kauniainen;5336;Asuminen Kauniaisissa 101 (fr)
-cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;fa;;;;;
-cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;zh;;;;;
-cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;tr;;;;;
-cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;es;;;;;
-cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;so;;;;;
 0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;sv;Utbildning i Grankulla;;sv/grankulla/livet-i-grankulla/utbildning-i-grankulla;5345;Koulutus Kauniaisissa 101 (sv)
 0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;ru;Образование в Кауниайнене;;ru/kauniainen/life-in-kauniainen/education-in-kauniainen;5347;Koulutus Kauniaisissa 101 (ru)
 0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;et;Haridus Kauniainenis;;et/kauniainen/elu-kauniainenis/haridus-kauniainenis;5348;Koulutus Kauniaisissa 101 (et)
 0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;fr;L'éducation à Kauniainen;;fr/kauniainen/la-vie--kauniainen/la-formation--kauniainen;5349;Koulutus Kauniaisissa 101 (fr)
-0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;so;;;;;
-0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;es;;;;;
-0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;tr;;;;;
-0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;zh;;;;;
-0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;fa;;;;;
-0a4461e5-38fd-4e4b-8576-3e1c12bd97f7;ar;;;;;
 378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;sv;Hälsa i Grankulla;;sv/grankulla/livet-i-grankulla/halsa-i-grankulla;5359;Terveys Kauniaisissa 101 (sv)
 378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;ru;Здоровье в Кауниайнене;;ru/kauniainen/life-in-kauniainen/health-in-kauniainen;5361;Terveys Kauniaisissa 101 (ru)
 378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;et;Tervis Kauniainenis;;et/kauniainen/elu-kauniainenis/tervis-kauniainenis;5362;Terveys Kauniaisissa 101 (et)
 378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;fr;La santé à Kauniainen;;fr/kauniainen/la-vie--kauniainen/la-sant--kauniainen;5363;Terveys Kauniaisissa 101 (fr)
-378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;ar;;;;;
-378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;fa;;;;;
-378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;zh;;;;;
-378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;tr;;;;;
-378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;es;;;;;
-378a93c6-5a1f-4eba-b5a4-f65d810cdfc3;so;;;;;
 5a80be63-b992-4607-bfc3-3a952f0adeaf;sv;Familjen i Grankulla;;sv/grankulla/livet-i-grankulla/familjen-i-grankulla;5373;Perhe Kauniaisissa 101 (sv)
 5a80be63-b992-4607-bfc3-3a952f0adeaf;ru;Семья в Кауниайнене;;ru/kauniainen/life-in-kauniainen/family-in-kauniainen;5375;Perhe Kauniaisissa 101 (ru)
 5a80be63-b992-4607-bfc3-3a952f0adeaf;et;Pere Kauniainenis;;et/kauniainen/elu-kauniainenis/perekond-kauniainenis;5376;Perhe Kauniaisissa 101 (et)
 5a80be63-b992-4607-bfc3-3a952f0adeaf;fr;La famille à Kauniainen;;fr/kauniainen/la-vie--kauniainen/la-famille--kauniainen;5377;Perhe Kauniaisissa 101 (fr)
-5a80be63-b992-4607-bfc3-3a952f0adeaf;ar;;;;;
-5a80be63-b992-4607-bfc3-3a952f0adeaf;fa;;;;;
-5a80be63-b992-4607-bfc3-3a952f0adeaf;zh;;;;;
-5a80be63-b992-4607-bfc3-3a952f0adeaf;tr;;;;;
-5a80be63-b992-4607-bfc3-3a952f0adeaf;es;;;;;
-5a80be63-b992-4607-bfc3-3a952f0adeaf;so;;;;;
 1830103c-6c1c-4238-82e7-cfce0b37cec5;sv;Problematiska situationer i Grankulla;;sv/grankulla/livet-i-grankulla/problematiska-situationer-i-grankulla;5387;Ongelmatilanteet Kauniaisissa 101 (sv)
 1830103c-6c1c-4238-82e7-cfce0b37cec5;ru;Проблемные ситуации в Кауниайнене;;ru/kauniainen/life-in-kauniainen/problem-situations-in-kauniainen;5389;Ongelmatilanteet Kauniaisissa 101 (ru)
 1830103c-6c1c-4238-82e7-cfce0b37cec5;et;Probleemsed olukorrad Kauniainenis;;et/kauniainen/elu-kauniainenis/probleemsed-olukorrad-kauniainenis;5390;Ongelmatilanteet Kauniaisissa 101 (et)
 1830103c-6c1c-4238-82e7-cfce0b37cec5;fr;En cas de problèmes à Kauniainen;;fr/kauniainen/la-vie--kauniainen/en-cas-de-probl-mes--kauniainen;5391;Ongelmatilanteet Kauniaisissa 101 (fr)
-1830103c-6c1c-4238-82e7-cfce0b37cec5;so;;;;;
-1830103c-6c1c-4238-82e7-cfce0b37cec5;es;;;;;
-1830103c-6c1c-4238-82e7-cfce0b37cec5;tr;;;;;
-1830103c-6c1c-4238-82e7-cfce0b37cec5;zh;;;;;
-1830103c-6c1c-4238-82e7-cfce0b37cec5;fa;;;;;
-1830103c-6c1c-4238-82e7-cfce0b37cec5;ar;;;;;
 41f48e24-df3d-4e0c-a77e-02f517a24ad2;sv;Fritid i Grankulla;;sv/grankulla/livet-i-grankulla/fritid-i-grankulla;5401;Vapaa-aika Kauniaisissa 101 (sv)
 41f48e24-df3d-4e0c-a77e-02f517a24ad2;et;Vaba aeg Kauniainenis;;et/kauniainen/elu-kauniainenis/vaba-aeg-kauniainenis;5402;Vapaa-aika Kauniaisissa 101 (et)
-41f48e24-df3d-4e0c-a77e-02f517a24ad2;ar;;;;;
-41f48e24-df3d-4e0c-a77e-02f517a24ad2;fa;;;;;
-41f48e24-df3d-4e0c-a77e-02f517a24ad2;zh;;;;;
-41f48e24-df3d-4e0c-a77e-02f517a24ad2;tr;;;;;
-41f48e24-df3d-4e0c-a77e-02f517a24ad2;es;;;;;
-41f48e24-df3d-4e0c-a77e-02f517a24ad2;so;;;;;
 41f48e24-df3d-4e0c-a77e-02f517a24ad2;fr;Loisirs à Kauniainen;;fr/kauniainen/la-vie--kauniainen/loisirs--kauniainen;5412;Vapaa-aika Kauniaisissa 101 (fr)
 41f48e24-df3d-4e0c-a77e-02f517a24ad2;ru;Свободное время в Кауниайнене;;ru/kauniainen/life-in-kauniainen/leisure-in-kauniainen;5413;Vapaa-aika Kauniaisissa 101 (ru)
-428bcf0b-16a1-4d35-a9bf-e36a854e641d;ar;;;;;
-428bcf0b-16a1-4d35-a9bf-e36a854e641d;fa;;;;;
-428bcf0b-16a1-4d35-a9bf-e36a854e641d;zh;;;;;
-428bcf0b-16a1-4d35-a9bf-e36a854e641d;tr;;;;;
-428bcf0b-16a1-4d35-a9bf-e36a854e641d;es;;;;;
-428bcf0b-16a1-4d35-a9bf-e36a854e641d;so;;;;;
 428bcf0b-16a1-4d35-a9bf-e36a854e641d;fr;Informations sur Kauniainen;;fr/kauniainen/informations-sur-kauniainen;5424;Tietoa Kauniaisista 101 (fr)
 428bcf0b-16a1-4d35-a9bf-e36a854e641d;et;Teavet Kauniaineni kohta;;et/kauniainen/teavet-kauniaineni-kohta;5425;Tietoa Kauniaisista 101 (et)
 428bcf0b-16a1-4d35-a9bf-e36a854e641d;ru;Информация о городе Кауниайнен;;ru/kauniainen/information-on-kauniainen;5426;Tietoa Kauniaisista 101 (ru)
@@ -2443,122 +2356,62 @@ cc0c9f1d-a877-423b-bbf4-ae0c2020fae3;so;;;;;
 a45490a3-1df9-4795-8488-f6b9a0abf431;ru;Переезд в Турку;;ru/turku/moving-to-turku;6109;Muutto Turkuun 101 (ru)
 a45490a3-1df9-4795-8488-f6b9a0abf431;ar;الانتقال إلى توركو;;ar/turku/moving-to-turku;7510;Muutto Turkuun 101 (ar)
 a45490a3-1df9-4795-8488-f6b9a0abf431;fa;مهاجرت به توركو;;fa/turku/moving-to-turku;7509;Muutto Turkuun 101 (fa)
-a45490a3-1df9-4795-8488-f6b9a0abf431;zh;;;;;
-a45490a3-1df9-4795-8488-f6b9a0abf431;tr;;;;;
-a45490a3-1df9-4795-8488-f6b9a0abf431;es;;;;;
 a45490a3-1df9-4795-8488-f6b9a0abf431;so;Usoo guurista Turku;;so/turku/usoo-guurista-turku;7508;Muutto Turkuun 101 (so)
-a45490a3-1df9-4795-8488-f6b9a0abf431;fr;;;;;
-a45490a3-1df9-4795-8488-f6b9a0abf431;sv;;;;;
 a45490a3-1df9-4795-8488-f6b9a0abf431;et;Elama asumine Turusse;;et/turku/elama-asumine-turusse;6097;Muutto Turkuun 101 (et)
 b3a8c348-d147-4bc5-9c8d-a8799cb33350;ru;Жизнь в Турку;;ru/turku/life-in-turku;;
 b3a8c348-d147-4bc5-9c8d-a8799cb33350;ar;الحياة في توركو;;ar/turku/life-in-turku;;
 b3a8c348-d147-4bc5-9c8d-a8799cb33350;fa;زندگی در توركو;;fa/turku/life-in-turku;;
-b3a8c348-d147-4bc5-9c8d-a8799cb33350;zh;;;;;
-b3a8c348-d147-4bc5-9c8d-a8799cb33350;tr;;;;;
-b3a8c348-d147-4bc5-9c8d-a8799cb33350;es;;;;;
 b3a8c348-d147-4bc5-9c8d-a8799cb33350;so;Nolosha Turku;;so/turku/nolosha-turku;;
-b3a8c348-d147-4bc5-9c8d-a8799cb33350;fr;;;;;
 b3a8c348-d147-4bc5-9c8d-a8799cb33350;et;Elu Turus;;et/turku/elu-turus;;
-b3a8c348-d147-4bc5-9c8d-a8799cb33350;sv;;;;;
 190e1e86-65a3-46e9-aea0-334e4d119217;ru;Обустройство в Турку;;ru/turku/life-in-turku/settling-in-turku;6110;Maahanmuuttajana Turussa 101 (ru)
 190e1e86-65a3-46e9-aea0-334e4d119217;ar;التأقلم في توركو;;ar/turku/life-in-turku/settling-in-turku;7514;Maahanmuuttajana Turussa 101 (ar)
 190e1e86-65a3-46e9-aea0-334e4d119217;fa;مستقر شدن در شهر تورکو;;fa/turku/life-in-turku/settling-in-turku;7513;Maahanmuuttajana Turussa 101 (fa)
-190e1e86-65a3-46e9-aea0-334e4d119217;zh;;;;;
-190e1e86-65a3-46e9-aea0-334e4d119217;tr;;;;;
-190e1e86-65a3-46e9-aea0-334e4d119217;es;;;es/turku/vivir-en-turku/vivir-como-inmigrante-en-turku;;
 190e1e86-65a3-46e9-aea0-334e4d119217;so;Degidda Turku;;so/turku/nolosha-turku/degidda-turku;7512;Maahanmuuttajana Turussa 101 (so)
-190e1e86-65a3-46e9-aea0-334e4d119217;fr;;;;;
-190e1e86-65a3-46e9-aea0-334e4d119217;sv;;;;;
 190e1e86-65a3-46e9-aea0-334e4d119217;et;Elu sisseseadmine Turus;;et/turku/elu-turus/elu-sisseseadmine-turus;6098;Maahanmuuttajana Turussa 101 (et)
 311c5fe3-ef47-4a6e-b901-4b246d25fca0;ru;Работа и предпринимательство в Турку;;ru/turku/life-in-turku/employment-and-entrepreneurship-in-turku;6111;Työ ja yrittäjyys Turussa 101 (ru)
 311c5fe3-ef47-4a6e-b901-4b246d25fca0;ar;العمل وممارسة العمل الحر في توركو;;ar/turku/life-in-turku/employment-and-entrepreneurship-in-turku;7518;Työ ja yrittäjyys Turussa 101 (ar)
 311c5fe3-ef47-4a6e-b901-4b246d25fca0;fa;انجام کار و فعالیت های صنفی و تجاری در توركو;;fa/turku/life-in-turku/employment-and-entrepreneurship-in-turku;7517;Työ ja yrittäjyys Turussa 101 (fa)
-311c5fe3-ef47-4a6e-b901-4b246d25fca0;zh;;;;;
-311c5fe3-ef47-4a6e-b901-4b246d25fca0;tr;;;;;
-311c5fe3-ef47-4a6e-b901-4b246d25fca0;es;;;;;
 311c5fe3-ef47-4a6e-b901-4b246d25fca0;so;Shaqada iyo ganacsiga Turku;;so/turku/nolosha-turku/shaqada-iyo-ganacsiga-turku;7516;Työ ja yrittäjyys Turussa 101 (so)
-311c5fe3-ef47-4a6e-b901-4b246d25fca0;fr;;;;;
-311c5fe3-ef47-4a6e-b901-4b246d25fca0;sv;;;;;
 311c5fe3-ef47-4a6e-b901-4b246d25fca0;et;Töö ja ettevõtlus Turus;;et/turku/elu-turus/too-ja-ettev-tlus-turus;6099;Työ ja yrittäjyys Turussa 101 (et)
 f8833a9a-d60b-43af-944a-9e2a6eb95fc9;ru;Финский и шведский язык в Турку;;ru/turku/life-in-turku/finnish-and-swedish-language-in-turku;6112;Suomen ja ruotsin kieli Turussa 101 (ru)
 f8833a9a-d60b-43af-944a-9e2a6eb95fc9;ar;اللغة الفنلندية والسويدية في توركو;;ar/turku/life-in-turku/finnish-and-swedish-language-in-turku;7522;Suomen ja ruotsin kieli Turussa 101 (ar)
 f8833a9a-d60b-43af-944a-9e2a6eb95fc9;fa;زبان های فنلاندی و سوئدی در توركو;;fa/turku/life-in-turku/finnish-and-swedish-language-in-turku;7521;Suomen ja ruotsin kieli Turussa 101 (fa)
-f8833a9a-d60b-43af-944a-9e2a6eb95fc9;zh;;;;;
-f8833a9a-d60b-43af-944a-9e2a6eb95fc9;tr;;;;;
-f8833a9a-d60b-43af-944a-9e2a6eb95fc9;es;;;;;
 f8833a9a-d60b-43af-944a-9e2a6eb95fc9;so;Luqada Finnishka iyo Iswidishka ee Turku;;so/turku/nolosha-turku/luqada-finnishka-iyo-iswidishka-ee-turku;7520;Suomen ja ruotsin kieli Turussa 101 (so)
-f8833a9a-d60b-43af-944a-9e2a6eb95fc9;fr;;;;;
 f8833a9a-d60b-43af-944a-9e2a6eb95fc9;et;Soome ja rootsi keel Turus;;et/turku/elu-turus/soome-ja-rootsi-keel-turus;6100;Suomen ja ruotsin kieli Turussa 101 (et)
-f8833a9a-d60b-43af-944a-9e2a6eb95fc9;sv;;;;;
 9965222a-cb6a-4059-875f-966f2326b2b3;ru;Проживание в Турку;;ru/turku/life-in-turku/housing-in-turku;6113;Asuminen Turussa 101 (ru)
 9965222a-cb6a-4059-875f-966f2326b2b3;ar;السكن في توركو;;ar/turku/life-in-turku/housing-in-turku;7526;Asuminen Turussa 101 (ar)
 9965222a-cb6a-4059-875f-966f2326b2b3;fa;سکونت در توركو;;fa/turku/life-in-turku/housing-in-turku;7525;Asuminen Turussa 101 (fa)
-9965222a-cb6a-4059-875f-966f2326b2b3;zh;;;;;
-9965222a-cb6a-4059-875f-966f2326b2b3;tr;;;;;
-9965222a-cb6a-4059-875f-966f2326b2b3;es;;;;;
 9965222a-cb6a-4059-875f-966f2326b2b3;so;Deganaanshaha Turku;;so/turku/nolosha-turku/deganaanshaha-turku;7524;Asuminen Turussa 101 (so)
-9965222a-cb6a-4059-875f-966f2326b2b3;fr;;;;;
-9965222a-cb6a-4059-875f-966f2326b2b3;sv;;;;;
 9965222a-cb6a-4059-875f-966f2326b2b3;et;Eluase ja elamine Turus;;et/turku/elu-turus/eluase-ja-elamine-turus;6101;Asuminen Turussa 101 (et)
 fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;ru;Образование в Турку;;ru/turku/life-in-turku/education-in-turku;6114;Koulutus Turussa 101 (ru)
 fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;ar;التعليم في توركو;;ar/turku/life-in-turku/education-in-turku;7530;Koulutus Turussa 101 (ar)
 fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;fa;تحصیلات در توركو;;fa/turku/life-in-turku/education-in-turku;7529;Koulutus Turussa 101 (fa)
-fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;zh;;;;;
-fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;tr;;;;;
-fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;es;;;;;
 fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;so;Waxbarashada Turku;;so/turku/nolosha-turku/waxbarashada-turku;7528;Koulutus Turussa 101 (so)
-fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;fr;;;;;
 fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;et;Haridus Turus;;et/turku/elu-turus/haridus-turus;6102;Koulutus Turussa 101 (et)
-fb7bbcc3-0fda-4a52-8908-f907f8f5fe64;sv;;;;;
 a69591f5-a925-4a91-8833-4935159628c4;ru;Здравоохранение в Турку;;ru/turku/life-in-turku/health-in-turku;6115;Terveys Turussa 101 (ru)
 a69591f5-a925-4a91-8833-4935159628c4;ar;الصحة في توركو;;ar/turku/life-in-turku/health-in-turku;7534;Terveys Turussa 101 (ar)
 a69591f5-a925-4a91-8833-4935159628c4;fa;بهداشت و سلامتی در توركو;;fa/turku/life-in-turku/health-in-turku;7533;Terveys Turussa 101 (fa)
-a69591f5-a925-4a91-8833-4935159628c4;zh;;;;;
-a69591f5-a925-4a91-8833-4935159628c4;tr;;;;;
-a69591f5-a925-4a91-8833-4935159628c4;es;;;;;
 a69591f5-a925-4a91-8833-4935159628c4;so;Caafimaadka Turku;;so/turku/nolosha-turku/caafimaadka-turku;7532;Terveys Turussa 101 (so)
-a69591f5-a925-4a91-8833-4935159628c4;fr;;;;;
 a69591f5-a925-4a91-8833-4935159628c4;et;Tervis Turus;;et/turku/elu-turus/tervis-turus;6103;Terveys Turussa 101 (et)
-a69591f5-a925-4a91-8833-4935159628c4;sv;;;;;
 fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;ru;Семья в Турку;;ru/turku/life-in-turku/family-in-turku;6116;Perhe Turussa 101 (ru)
 fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;ar;العائلة في توركو;;ar/turku/life-in-turku/family-in-turku;7538;Perhe Turussa 101 (ar)
 fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;fa;خانواده در توركو;;fa/turku/life-in-turku/family-in-turku;7537;Perhe Turussa 101 (fa)
-fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;zh;;;;;
-fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;tr;;;;;
-fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;es;;;;;
 fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;so;Qoyska Turku jooga ;;so/turku/nolosha-turku/qoyska-turku-jooga;7536;Perhe Turussa 101 (so)
-fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;fr;;;;;
 fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;et;Perekond Turus;;et/turku/elu-turus/perekond-turus;6104;Perhe Turussa 101 (et)
-fe2e380f-fb6f-43a9-8f5a-5960b1fcfc95;sv;;;;;
 00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;ru;Проблемные ситуации в Турку;;ru/turku/life-in-turku/problem-situations-in-turku;6117;Ongelmatilanteet Turussa 101 (ru)
 00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;ar;حالات المشاكل في توركو;;ar/turku/life-in-turku/problem-situations-in-turku;7541;Ongelmatilanteet Turussa 101 (ar)
 00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;fa;شرایط توام با وجود مشکلات در توركو;;fa/turku/life-in-turku/problem-situations-in-turku;7542;Ongelmatilanteet Turussa 101 (fa)
-00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;zh;;;;;
-00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;tr;;;;;
-00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;es;;;;;
 00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;so;Xaaladaha dhibku jiro iyo Turku ;;so/turku/nolosha-turku/xaaladaha-dhibku-jiro-iyo-turku;7540;Ongelmatilanteet Turussa 101 (so)
-00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;fr;;;;;
 00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;et;Probleemsed olukorrad Turus;;et/turku/elu-turus/probleemsed-olukorrad-turus;6105;Ongelmatilanteet Turussa 101 (et)
-00e089b1-525c-4fc6-8f81-ab05ad6bc1a2;sv;;;;;
 f7d4e9d9-521c-4239-be9e-894f2ce54fee;ru;Свободное время в Турку;;ru/turku/life-in-turku/leisure-in-turku;7501;Vapaa-aika Turussa 101 (ru)
 f7d4e9d9-521c-4239-be9e-894f2ce54fee;ar;وقت الفراغ في توركو;;ar/turku/life-in-turku/leisure-in-turku;7505;Vapaa-aika Turussa 101 (ar)
 f7d4e9d9-521c-4239-be9e-894f2ce54fee;fa;اوقات فراغت در توركو;;fa/turku/life-in-turku/leisure-in-turku;7504;Vapaa-aika Turussa 101 (fa)
-f7d4e9d9-521c-4239-be9e-894f2ce54fee;zh;;;;;
-f7d4e9d9-521c-4239-be9e-894f2ce54fee;tr;;;;;
-f7d4e9d9-521c-4239-be9e-894f2ce54fee;es;;;;;
 f7d4e9d9-521c-4239-be9e-894f2ce54fee;so;Waqtiyada firaaqada iyo Turku;;so/turku/nolosha-turku/waqtiyada-firaaqada-iyo-turku;7503;Vapaa-aika Turussa 101 (so)
-f7d4e9d9-521c-4239-be9e-894f2ce54fee;fr;;;;;
 f7d4e9d9-521c-4239-be9e-894f2ce54fee;et;Vaba aeg Turus;;et/turku/elu-turus/vaba-aeg-turus;7502;Vapaa-aika Turussa 101 (et)
-f7d4e9d9-521c-4239-be9e-894f2ce54fee;sv;;;;;
 4cc76399-6709-449b-94b8-15752740d3a2;ru;Информация о городе Турку;;ru/turku/information-about-turku;6119;Tietoa Turusta 101 (ru)
 4cc76399-6709-449b-94b8-15752740d3a2;ar;معلومات عن توركو;;ar/turku/information-about-turku;7546;Tietoa Turusta 101 (ar)
 4cc76399-6709-449b-94b8-15752740d3a2;fa;اطلاعاتی درباره توركو;;fa/turku/information-about-turku;7545;Tietoa Turusta 101 (fa)
 4cc76399-6709-449b-94b8-15752740d3a2;so;Warar ku saabsan Turku;;so/turku/warar-ku-saabsan-turku;7544;Tietoa Turusta 101 (so)
-4cc76399-6709-449b-94b8-15752740d3a2;fr;;;;;
-4cc76399-6709-449b-94b8-15752740d3a2;es;;;;;
-4cc76399-6709-449b-94b8-15752740d3a2;tr;;;;;
-4cc76399-6709-449b-94b8-15752740d3a2;zh;;;;;
-4cc76399-6709-449b-94b8-15752740d3a2;sv;;;;;
 4cc76399-6709-449b-94b8-15752740d3a2;et;Teavet Turu kohta;;et/turku/teavet-turu-kohta;6107;Tietoa Turusta 101 (et)
 93748f03-8254-4732-b4d1-18dcd00ce004;sv;Tammerfors;;sv/tammerfors;;
 93748f03-8254-4732-b4d1-18dcd00ce004;zh;Tampere;;zh/tampere;;
@@ -2570,124 +2423,28 @@ f7d4e9d9-521c-4239-be9e-894f2ce54fee;sv;;;;;
 93748f03-8254-4732-b4d1-18dcd00ce004;fr;Tampere;;fr/tampere;;
 93748f03-8254-4732-b4d1-18dcd00ce004;et;Tampere;;et/tampere;;
 93748f03-8254-4732-b4d1-18dcd00ce004;ru;Тампере;;ru/tampere;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;sv;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;zh;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;ar;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;fa;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;tr;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;es;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;so;;;;;
-64d44733-7c54-48ab-b0b9-f8f0dee102e5;fr;;;;;
 64d44733-7c54-48ab-b0b9-f8f0dee102e5;et;Elama asumine Tamperesse;;et/tampere/elama-asumine-tamperesse;6251;Muutto Tampereelle 101 (et)
 64d44733-7c54-48ab-b0b9-f8f0dee102e5;ru;Переезд в Тампере;;ru/tampere/moving-to-tampere;6250;Muutto Tampereelle 101 (ru)
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;sv;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;zh;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;ar;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;fa;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;tr;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;es;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;so;;;;;
-32eaeae0-52dc-420b-80b8-d87ea50c88ab;fr;;;;;
 32eaeae0-52dc-420b-80b8-d87ea50c88ab;et;Elu Tamperes;;et/tampere/elu-tamperes;;
 32eaeae0-52dc-420b-80b8-d87ea50c88ab;ru;Жизнь в Тампере;;ru/tampere/life-in-tampere;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;sv;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;zh;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;ar;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;fa;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;tr;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;es;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;so;;;;;
-6673a511-9ed6-49c2-95e1-1d35b2fb8aee;fr;;;;;
 6673a511-9ed6-49c2-95e1-1d35b2fb8aee;et;Elu sisseseadmine Tamperes;;et/tampere/elu-tamperes/elu-sisseseadmine-tamperes;6254;Maahanmuuttajana Tampereella 101 (et)
 6673a511-9ed6-49c2-95e1-1d35b2fb8aee;ru;Обустройство в Тампере;;ru/tampere/life-in-tampere/settling-in-tampere;6253;Maahanmuuttajana Tampereella 101 (ru)
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;sv;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;zh;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;ar;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;fa;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;tr;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;es;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;so;;;;;
-adcebb6e-6da2-4f7a-9af6-6a9dc879617d;fr;;;;;
 adcebb6e-6da2-4f7a-9af6-6a9dc879617d;et;Töö ja ettevõtlus Tamperes;;et/tampere/elu-tamperes/too-ja-ettev-tlus-tamperes;6257;Työ ja yrittäjyys Tampereella 101 (et)
 adcebb6e-6da2-4f7a-9af6-6a9dc879617d;ru;Работа и предпринимательство в Тампере;;ru/tampere/life-in-tampere/employment-and-entrepreneurship-in-tampere;6256;Työ ja yrittäjyys Tampereella 101 (ru)
-9254f096-351d-46fc-b80b-21f8008097b5;sv;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;zh;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;ar;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;fa;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;tr;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;es;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;so;;;;;
-9254f096-351d-46fc-b80b-21f8008097b5;fr;;;;;
 9254f096-351d-46fc-b80b-21f8008097b5;et;Soome ja rootsi keel Tamperes;;et/tampere/elu-tamperes/soome-ja-rootsi-keel-tamperes;6260;Suomen ja ruotsin kieli Tampereella 101 (et)
 9254f096-351d-46fc-b80b-21f8008097b5;ru;Финский и шведский язык в Тампере;;ru/tampere/life-in-tampere/finnish-and-swedish-language-in-tampere;6259;Suomen ja ruotsin kieli Tampereella 101 (ru)
-2004c540-a6ab-46be-baee-d2a94c2a56fe;sv;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;zh;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;ar;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;fa;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;tr;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;es;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;so;;;;;
-2004c540-a6ab-46be-baee-d2a94c2a56fe;fr;;;;;
 2004c540-a6ab-46be-baee-d2a94c2a56fe;et;Eluase ja elamine Tamperes;;et/tampere/elu-tamperes/eluase-ja-elamine-tamperes;6263;Asuminen Tampereella 101 (et)
 2004c540-a6ab-46be-baee-d2a94c2a56fe;ru;Проживание в Тампере;;ru/tampere/life-in-tampere/housing-in-tampere;6262;Asuminen Tampereella 101 (ru)
-578c6f33-efa6-4f31-a063-b10cf0ab4144;sv;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;zh;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;ar;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;fa;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;tr;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;es;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;so;;;;;
-578c6f33-efa6-4f31-a063-b10cf0ab4144;fr;;;;;
 578c6f33-efa6-4f31-a063-b10cf0ab4144;et;Haridus Tamperes;;et/tampere/elu-tamperes/haridus-tamperes;6266;Koulutus Tampereella 101 (et)
 578c6f33-efa6-4f31-a063-b10cf0ab4144;ru;Образование в Тампере;;ru/tampere/life-in-tampere/education-in-tampere;6265;Koulutus Tampereella 101 (ru)
-3716da5a-628d-489f-97e2-2a0759f66b78;sv;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;zh;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;ar;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;fa;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;tr;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;es;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;so;;;;;
-3716da5a-628d-489f-97e2-2a0759f66b78;fr;;;;;
 3716da5a-628d-489f-97e2-2a0759f66b78;et;Tervis Tamperes;;et/tampere/elu-tamperes/tervis-tamperes;6269;Terveys Tampereella 101 (et)
 3716da5a-628d-489f-97e2-2a0759f66b78;ru;Здравоохранение в Тампере;;ru/tampere/life-in-tampere/health-in-tampere;6268;Terveys Tampereella 101 (ru)
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;sv;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;zh;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;ar;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;fa;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;tr;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;es;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;so;;;;;
-85edbd71-06f3-4ba8-b3e4-70520db67eb0;fr;;;;;
 85edbd71-06f3-4ba8-b3e4-70520db67eb0;et;Perekond Tamperes;;et/tampere/elu-tamperes/perekond-tamperes;6272;Perhe Tampereella 101 (et)
 85edbd71-06f3-4ba8-b3e4-70520db67eb0;ru;Семья в Тампере;;ru/tampere/life-in-tampere/family-in-tampere;6271;Perhe Tampereella 101 (ru)
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;sv;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;zh;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;ar;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;fa;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;tr;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;es;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;so;;;;;
-43ad3129-fb5b-4bd0-9c9d-1311a034b101;fr;;;;;
 43ad3129-fb5b-4bd0-9c9d-1311a034b101;et;Probleemsed olukorrad Tamperes;;et/tampere/elu-tamperes/probleemsed-olukorrad-tamperes;6275;Ongelmatilanteet Tampereella 101 (et)
 43ad3129-fb5b-4bd0-9c9d-1311a034b101;ru;Проблемные ситуации в Тампере;;ru/tampere/life-in-tampere/problem-situations-in-tampere;6274;Ongelmatilanteet Tampereella 101 (ru)
-209ed2ef-17a5-404f-a4af-8f0b4275e476;sv;;;sv/tammerfors/;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;zh;;;zh/tampere/life-in-tampere/leisure-in-tampere;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;ar;;;ar/tampere/life-in-tampere/leisure-in-tampere;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;fa;;;fa/tampere/life-in-tampere/leisure-in-tampere;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;tr;;;tr/tampere/;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;es;;;es/tampere/;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;so;;;so/tampere/;;
-209ed2ef-17a5-404f-a4af-8f0b4275e476;fr;;;fr/tampere/;;
 209ed2ef-17a5-404f-a4af-8f0b4275e476;et;Vaba aeg Tamperes;;et/tampere/elu-tamperes/vaba-aeg-tamperes;6278;Vapaa-aika Tampereella 101 (et)
 209ed2ef-17a5-404f-a4af-8f0b4275e476;ru;Свободное время в Тампере;;ru/tampere/life-in-tampere/leisure-in-tampere;6277;Vapaa-aika Tampereella 101 (ru)
-b60d19f6-e192-4035-80f9-b9d366613375;sv;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;zh;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;ar;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;fa;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;tr;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;es;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;so;;;;;
-b60d19f6-e192-4035-80f9-b9d366613375;fr;;;;;
 b60d19f6-e192-4035-80f9-b9d366613375;et;Teavet Tampere kohta;;et/tampere/teavet-tampere-kohta;6281;Tietoa Tampereesta 101 (et)
 b60d19f6-e192-4035-80f9-b9d366613375;ru;Информация о городе Тампере;;ru/tampere/information-about-tampere;6280;Tietoa Tampereesta 101 (ru)
 d559163c-89c5-45c0-9087-7707f9a37cd1;sv;Vasa;;sv/vasa;;
@@ -2832,40 +2589,28 @@ d4be8171-1ea8-4fcb-b335-7cfa492fbb85;zh;有关瓦萨的介绍;;zh/vaasa/informat
 5e219db4-0238-4f20-ac17-9a0dc4644a3c;ar;Kokkola;;ar/kokkola;;
 111e0594-0d14-45c8-ac84-431812a9de04;sv;Flytta till Karleby;;sv/karleby/flytta-till-karleby;7068;Muutto Kokkolaan (sv)
 111e0594-0d14-45c8-ac84-431812a9de04;ru;Переезд в Кокколу;;ru/kokkola/moving-to-kokkola;7069;Muutto Kokkolaan (ru)
-111e0594-0d14-45c8-ac84-431812a9de04;ar;;;;;
 f3ec856c-f772-4334-9456-c7da9cedaf15;sv;Livet i Karleby;;sv/karleby/livet-i-karleby;;
 f3ec856c-f772-4334-9456-c7da9cedaf15;ru;Жизнь в Кокколе;;ru/kokkola/life-in-kokkola;;
-f3ec856c-f772-4334-9456-c7da9cedaf15;ar;;;;;
 f9a2fdf9-b99b-454a-afd5-b1383fb497cf;sv;Att bosätta sig i Karleby;;sv/karleby/livet-i-karleby/att-bosatta-sig-i-karleby;7071;Maahanmuuttajana Kokkolassa (sv)
 f9a2fdf9-b99b-454a-afd5-b1383fb497cf;ru;Обустройство в Коккола;;ru/kokkola/life-in-kokkola/settling-in-kokkola;7072;Maahanmuuttajana Kokkolassa (ru)
-f9a2fdf9-b99b-454a-afd5-b1383fb497cf;ar;;;;;
 300bcd96-b169-4745-a9c6-84bee739192f;sv;Arbete och entreprenörskap i Karleby;;sv/karleby/livet-i-karleby/arbete-och-entreprenorskap-i-karleby;7074;Työ ja yrittäjyys Kokkolassa (sv)
 300bcd96-b169-4745-a9c6-84bee739192f;ru;Работа и предпринимательство в Кокколе;;ru/kokkola/life-in-kokkola/work-and-enterprise-in-kokkola;7075;Työ ja yrittäjyys Kokkolassa (ru)
-300bcd96-b169-4745-a9c6-84bee739192f;ar;;;;;
 ccac10a8-c6f3-456f-9ad1-f078b0a51554;sv;Finska och svenska språket i Karleby;;sv/karleby/livet-i-karleby/finska-och-svenska-spraket-i-karleby;7077;Suomen ja ruotsin kieli Kokkolassa (sv)
 ccac10a8-c6f3-456f-9ad1-f078b0a51554;ru;Финский и шведский язык в Кокколе;;ru/kokkola/life-in-kokkola/finnish-and-swedish-in-kokkola;7078;Suomen ja ruotsin kieli Kokkolassa (ru)
-ccac10a8-c6f3-456f-9ad1-f078b0a51554;ar;;;;;
 5a5a9564-8bc7-486a-9032-a5c1ab78f1b4;sv;Boende i Karleby;;sv/karleby/livet-i-karleby/boende-i-karleby;7080;Asuminen Kokkolassa (sv)
 5a5a9564-8bc7-486a-9032-a5c1ab78f1b4;ru;Жилье в Кокколе;;ru/kokkola/life-in-kokkola/housing-in-kokkola;7081;Asuminen Kokkolassa (ru)
-5a5a9564-8bc7-486a-9032-a5c1ab78f1b4;ar;;;;;
 2e526bfb-47fe-447a-bec0-a9d800f6b77d;sv;Utbildning i Karleby;;sv/karleby/livet-i-karleby/utbildning-i-karleby;7083;Koulutus Kokkolassa (sv)
 2e526bfb-47fe-447a-bec0-a9d800f6b77d;ru;Образование в Кокколе;;ru/kokkola/life-in-kokkola/education-in-kokkola;7084;Koulutus Kokkolassa (ru)
-2e526bfb-47fe-447a-bec0-a9d800f6b77d;ar;;;;;
 558314b1-b7d3-4eb9-8ff8-b9cd94258c02;sv;Hälsa i Karleby;;sv/karleby/livet-i-karleby/halsa-i-karleby;7086;Terveys Kokkolassa (sv)
 558314b1-b7d3-4eb9-8ff8-b9cd94258c02;ru;Здравоохранение в Кокколе;;ru/kokkola/life-in-kokkola/health-care-in-kokkola;7087;Terveys Kokkolassa (ru)
-558314b1-b7d3-4eb9-8ff8-b9cd94258c02;ar;;;;;
 ad4a44c0-0a45-470d-a0fa-18e9dc4a8e6c;sv;Familjen i Karleby;;sv/karleby/livet-i-karleby/familjen-i-karleby;7089;Perhe Kokkolassa (sv)
 ad4a44c0-0a45-470d-a0fa-18e9dc4a8e6c;ru;Семейная жизнь в Кокколе;;ru/kokkola/life-in-kokkola/family-in-kokkola;7090;Perhe Kokkolassa (ru)
-ad4a44c0-0a45-470d-a0fa-18e9dc4a8e6c;ar;;;;;
 c0d48252-a3b9-471f-9377-28c503466cbb;sv;Problematiska situationer i Karleby;;sv/karleby/livet-i-karleby/problematiska-situationer-i-karleby;7092;Ongelmatilanteet Kokkolassa (sv)
 c0d48252-a3b9-471f-9377-28c503466cbb;ru;Сложные жизненные ситуации в Кокколе;;ru/kokkola/life-in-kokkola/problem-situations-in-kokkola;7093;Ongelmatilanteet Kokkolassa (ru)
-c0d48252-a3b9-471f-9377-28c503466cbb;ar;;;;;
 8c935248-2aa7-49fe-8cda-2fbd6ed65f89;sv;Fritid i Karleby;;sv/karleby/livet-i-karleby/fritid-i-karleby;7095;Vapaa-aika Kokkolassa (sv)
 8c935248-2aa7-49fe-8cda-2fbd6ed65f89;ru;Свободное время в Кокколе;;ru/kokkola/life-in-kokkola/leisure-in-kokkola;7096;Vapaa-aika Kokkolassa (ru)
-8c935248-2aa7-49fe-8cda-2fbd6ed65f89;ar;;;;;
 ab5d8e9c-9835-4057-8e92-dae8f95b24d3;sv;Information om Karleby;;sv/karleby/information-om-karleby;7098;Tietoa Kokkolasta (sv)
 ab5d8e9c-9835-4057-8e92-dae8f95b24d3;ru;Информация о Кокколе;;ru/kokkola/information-about-kokkola;7099;Tietoa Kokkolasta (ru)
-ab5d8e9c-9835-4057-8e92-dae8f95b24d3;ar;;;;;
 4801216c-4339-4dd2-8e0f-b725d7aee691;sv;Raahe-Kalajokiregionen;;sv/raahe-kalajoki-region;;
 4801216c-4339-4dd2-8e0f-b725d7aee691;ru;Регион Раахе-Калайоки;;ru/raahe-kalajoki-region;6834;Raahe-Kalajoki seutu (ru)
 4801216c-4339-4dd2-8e0f-b725d7aee691;et;Raahe-Kalajoki regioon;;et/raahe-kalajoki-region;;
@@ -2876,16 +2621,8 @@ ab5d8e9c-9835-4057-8e92-dae8f95b24d3;ar;;;;;
 4801216c-4339-4dd2-8e0f-b725d7aee691;zh;Raahe-Kalajoki地区;;zh/raahe-kalajoki-region;;
 4801216c-4339-4dd2-8e0f-b725d7aee691;fa;حومه Raahe-Kalajoki;;fa/raahe-kalajoki-region;;
 4801216c-4339-4dd2-8e0f-b725d7aee691;ar;منطقة Raahe-Kalajoki;;ar/raahe-kalajoki-region;;
-f617ea56-b89e-4ead-a454-b73f980296e1;sv;;;sv/raahe-kalajokiregionen/prime101.aspx;;
 f617ea56-b89e-4ead-a454-b73f980296e1;ru;Переезд в регион Раахе-Калайоки;;ru/raahe-kalajoki-region/moving-to-raahe-kalajoki-region;6837;Muutto Raahe-Kalajoki seudulle (ru)
-f617ea56-b89e-4ead-a454-b73f980296e1;et;;;et/raahe-kalajoki-regioon/prime101.aspx;;
 f617ea56-b89e-4ead-a454-b73f980296e1;fr;Déménager dans la région de Raahe-Kalajoki;;fr/raahe-kalajoki-region/demenager-dans-la-region-de-raahe-kalajoki;6838;Muutto Raahe-Kalajoki seudulle (fr)
-f617ea56-b89e-4ead-a454-b73f980296e1;so;;;so/nawaaxig-raahe-kalajoki/prime101.aspx;;
-f617ea56-b89e-4ead-a454-b73f980296e1;es;;;es/region-de-raahe-kalajoki/prime101.aspx;;
-f617ea56-b89e-4ead-a454-b73f980296e1;tr;;;tr/raahe-kalajoki-bolgesi/prime101.aspx;;
-f617ea56-b89e-4ead-a454-b73f980296e1;zh;;;zh/raahe-kalajoki-region/prime101.aspx;;
-f617ea56-b89e-4ead-a454-b73f980296e1;fa;;;fa/raahe-kalajoki-region/prime101.aspx;;
-f617ea56-b89e-4ead-a454-b73f980296e1;ar;;;ar/raahe-kalajoki-region/prime101.aspx;;
 a899faa1-d191-4870-89fc-da8b14ce3deb;ru;Жизнь в регионе Раахе-Калайоки;;ru/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region;;
 a899faa1-d191-4870-89fc-da8b14ce3deb;fr;La vie dans la région de Raahe-Kalajoki;;fr/raahe-kalajoki-region/la-vie-dans-la-region-de-raahe-kalajoki;;
 a824736e-4875-4885-8d96-ee61d595726e;ru;Обустройство в регионе Раахе-Калайоки;;ru/raahe-kalajoki-region/life-in-the-raahe-kalajoki-region/settling-in-the-raahe-kalajoki-region;6840;Maahanmuuttajana Raahe-Kalajoki seudulla (ru)
@@ -3118,125 +2855,41 @@ c244f8d7-c2ae-4666-89e1-9e60fb8415ab;tr;Oulu;;tr/oulu;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;zh;Oulu;;zh/oulu;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;fa;Oulu;;fa/oulu;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;ar;Oulu;;ar/oulu;;
-283c9309-3cb7-403e-9340-3d8ed1208200;sv;;;;;
 283c9309-3cb7-403e-9340-3d8ed1208200;ru;Переезд в Оулу;;ru/oulu/moving-to-oulu;5973;Muutto Ouluun 101 (ru)
-283c9309-3cb7-403e-9340-3d8ed1208200;et;;;;;
-283c9309-3cb7-403e-9340-3d8ed1208200;fr;;;;;
-283c9309-3cb7-403e-9340-3d8ed1208200;so;;;;;
-283c9309-3cb7-403e-9340-3d8ed1208200;es;;;;;
-283c9309-3cb7-403e-9340-3d8ed1208200;tr;;;;;
 283c9309-3cb7-403e-9340-3d8ed1208200;zh;移居至奥鲁;;zh/oulu/moving-to-oulu;5976;Muutto Ouluun 101 (zh)
-283c9309-3cb7-403e-9340-3d8ed1208200;fa;;;;;
 283c9309-3cb7-403e-9340-3d8ed1208200;ar;الانتقال إلى أولو;;ar/oulu/moving-to-oulu;5977;Muutto Ouluun 101 (ar)
-25251e7f-166c-43d5-8700-2ebc9d65a201;sv;;;;;
 25251e7f-166c-43d5-8700-2ebc9d65a201;ru;Жизнь в Оулу;;ru/oulu/life-in-oulu;;
-25251e7f-166c-43d5-8700-2ebc9d65a201;et;;;;;
-25251e7f-166c-43d5-8700-2ebc9d65a201;fr;;;;;
-25251e7f-166c-43d5-8700-2ebc9d65a201;so;;;;;
-25251e7f-166c-43d5-8700-2ebc9d65a201;es;;;;;
-25251e7f-166c-43d5-8700-2ebc9d65a201;tr;;;;;
 25251e7f-166c-43d5-8700-2ebc9d65a201;zh;在奥鲁生活;;zh/oulu/life-in-oulu;;
-25251e7f-166c-43d5-8700-2ebc9d65a201;fa;;;;;
 25251e7f-166c-43d5-8700-2ebc9d65a201;ar;الحياة في أولو;;ar/oulu/life-in-oulu;;
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;sv;;;;;
 e5c2e5b7-579e-4dd4-91bf-025c2b059664;ru;Обустройство в  Оулу;;ru/oulu/life-in-oulu/settling-in-oulu;5979;Maahanmuuttajana Oulussa 101 (ru)
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;et;;;;;
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;fr;;;;;
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;so;;;;;
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;es;;;;;
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;tr;;;;;
 e5c2e5b7-579e-4dd4-91bf-025c2b059664;zh;在奥卢定居;;zh/oulu/life-in-oulu/settling-in-oulu;5982;Maahanmuuttajana Oulussa 101 (zh)
-e5c2e5b7-579e-4dd4-91bf-025c2b059664;fa;;;;;
 e5c2e5b7-579e-4dd4-91bf-025c2b059664;ar;التأقلم في أولو;;ar/oulu/life-in-oulu/settling-in-oulu;5983;Maahanmuuttajana Oulussa 101 (ar)
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;sv;;;;;
 ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;ru;Работа и предпринимательство в Оулу;;ru/oulu/life-in-oulu/employment-and-entrepreneurship-in-oulu;5985;Työ ja yrittäjyys Oulussa 101 (ru)
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;et;;;;;
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;fr;;;;;
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;so;;;;;
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;es;;;;;
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;tr;;;;;
 ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;zh;在奥鲁工作与创业;;zh/oulu/life-in-oulu/employment-and-entrepreneurship-in-oulu;5988;Työ ja yrittäjyys Oulussa 101 (zh)
-ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;fa;;;;;
 ac66a88d-6b09-4dcc-bbdb-f7e8ef1b37d4;ar;العمل وممارسة العمل الحر في أولو;;ar/oulu/life-in-oulu/employment-and-entrepreneurship-in-oulu;5989;Työ ja yrittäjyys Oulussa 101 (ar)
-896ef1e5-d14d-463c-9507-6bbdc9320db6;sv;;;;;
 896ef1e5-d14d-463c-9507-6bbdc9320db6;ru;Финский и шведский язык в Оулу;;ru/oulu/life-in-oulu/finnish-and-swedish-language-in-oulu;5991;Suomen ja ruotsin kieli Oulussa 101 (ru)
-896ef1e5-d14d-463c-9507-6bbdc9320db6;et;;;;;
-896ef1e5-d14d-463c-9507-6bbdc9320db6;fr;;;;;
-896ef1e5-d14d-463c-9507-6bbdc9320db6;so;;;;;
-896ef1e5-d14d-463c-9507-6bbdc9320db6;es;;;;;
-896ef1e5-d14d-463c-9507-6bbdc9320db6;tr;;;;;
 896ef1e5-d14d-463c-9507-6bbdc9320db6;zh;奥鲁的芬兰语和瑞典语教育;;zh/oulu/life-in-oulu/finnish-and-swedish-language-in-oulu;5994;Suomen ja ruotsin kieli Oulussa 101 (zh)
-896ef1e5-d14d-463c-9507-6bbdc9320db6;fa;;;;;
 896ef1e5-d14d-463c-9507-6bbdc9320db6;ar;اللغة الفنلندية والسويدية في أولو;;ar/oulu/life-in-oulu/finnish-and-swedish-language-in-oulu;5995;Suomen ja ruotsin kieli Oulussa 101 (ar)
-504e95c4-2469-4e40-a264-0da3f545442d;sv;;;;;
 504e95c4-2469-4e40-a264-0da3f545442d;ru;Проживание в Оулу;;ru/oulu/life-in-oulu/housing-in-oulu;5997;Asuminen Oulussa 101 (ru)
-504e95c4-2469-4e40-a264-0da3f545442d;et;;;;;
-504e95c4-2469-4e40-a264-0da3f545442d;fr;;;;;
-504e95c4-2469-4e40-a264-0da3f545442d;so;;;;;
-504e95c4-2469-4e40-a264-0da3f545442d;es;;;;;
-504e95c4-2469-4e40-a264-0da3f545442d;tr;;;;;
 504e95c4-2469-4e40-a264-0da3f545442d;zh;在奥鲁居住;;zh/oulu/life-in-oulu/housing-in-oulu;6000;Asuminen Oulussa 101 (zh)
-504e95c4-2469-4e40-a264-0da3f545442d;fa;;;;;
 504e95c4-2469-4e40-a264-0da3f545442d;ar;السكن في أولو;;ar/oulu/life-in-oulu/housing-in-oulu;6001;Asuminen Oulussa 101 (ar)
-46760792-340d-4beb-9869-66b334f07533;sv;;;;;
 46760792-340d-4beb-9869-66b334f07533;ru;Образование в Оулу;;ru/oulu/life-in-oulu/education-in-oulu;6003;Koulutus Oulussa 101 (ru)
-46760792-340d-4beb-9869-66b334f07533;et;;;;;
-46760792-340d-4beb-9869-66b334f07533;fr;;;;;
-46760792-340d-4beb-9869-66b334f07533;so;;;;;
-46760792-340d-4beb-9869-66b334f07533;es;;;;;
-46760792-340d-4beb-9869-66b334f07533;tr;;;;;
 46760792-340d-4beb-9869-66b334f07533;zh;奥鲁的教育培训;;zh/oulu/life-in-oulu/education-in-oulu;6006;Koulutus Oulussa 101 (zh)
-46760792-340d-4beb-9869-66b334f07533;fa;;;;;
 46760792-340d-4beb-9869-66b334f07533;ar;التعليم في أولو;;ar/oulu/life-in-oulu/education-in-oulu;6007;Koulutus Oulussa 101 (ar)
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;sv;;;;;
 2c8818fa-93f6-4fbb-adbe-57cdf1164041;ru;Здравоохранение в Оулу;;ru/oulu/life-in-oulu/health-in-oulu;6009;Terveys Oulussa 101 (ru)
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;et;;;;;
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;fr;;;;;
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;so;;;;;
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;es;;;;;
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;tr;;;;;
 2c8818fa-93f6-4fbb-adbe-57cdf1164041;zh;奥鲁的医疗保健;;zh/oulu/life-in-oulu/health-in-oulu;6012;Terveys Oulussa 101 (zh)
-2c8818fa-93f6-4fbb-adbe-57cdf1164041;fa;;;;;
 2c8818fa-93f6-4fbb-adbe-57cdf1164041;ar;الصحة في أولو;;ar/oulu/life-in-oulu/health-in-oulu;6013;Terveys Oulussa 101 (ar)
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;sv;;;;;
 a78f0e66-b9ca-420c-bb2f-ce864c04adf4;ru;Семья в Оулу;;ru/oulu/life-in-oulu/family-in-oulu;6015;Perhe Oulussa 101 (ru)
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;et;;;;;
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;fr;;;;;
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;so;;;;;
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;es;;;;;
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;tr;;;;;
 a78f0e66-b9ca-420c-bb2f-ce864c04adf4;zh;奥鲁的家庭生活;;zh/oulu/life-in-oulu/family-in-oulu;6018;Perhe Oulussa 101 (zh)
-a78f0e66-b9ca-420c-bb2f-ce864c04adf4;fa;;;;;
 a78f0e66-b9ca-420c-bb2f-ce864c04adf4;ar;العائلة في أولو;;ar/oulu/life-in-oulu/family-in-oulu;6019;Perhe Oulussa 101 (ar)
-2cde674b-3205-4965-83b2-cf7410ebe944;sv;;;;;
 2cde674b-3205-4965-83b2-cf7410ebe944;ru;Проблемные ситуации в Оулу;;ru/oulu/life-in-oulu/problem-situations-in-oulu;6021;Ongelmatilanteet Oulussa 101 (ru)
-2cde674b-3205-4965-83b2-cf7410ebe944;et;;;;;
-2cde674b-3205-4965-83b2-cf7410ebe944;fr;;;;;
-2cde674b-3205-4965-83b2-cf7410ebe944;so;;;;;
-2cde674b-3205-4965-83b2-cf7410ebe944;es;;;;;
-2cde674b-3205-4965-83b2-cf7410ebe944;tr;;;;;
 2cde674b-3205-4965-83b2-cf7410ebe944;zh;在奥鲁遭遇危机;;zh/oulu/life-in-oulu/problem-situations-in-oulu;6024;Ongelmatilanteet Oulussa 101 (zh)
-2cde674b-3205-4965-83b2-cf7410ebe944;fa;;;;;
 2cde674b-3205-4965-83b2-cf7410ebe944;ar;حالات المشاكل في أولو;;ar/oulu/life-in-oulu/problem-situations-in-oulu;6025;Ongelmatilanteet Oulussa 101 (ar)
-0e71697b-b9d9-4c93-8003-1472b9dc329d;sv;;;;;
 0e71697b-b9d9-4c93-8003-1472b9dc329d;ru;Свободное время в Оулу;;ru/oulu/life-in-oulu/leisure-in-oulu;6027;Vapaa-aika Oulussa 101 (ru)
-0e71697b-b9d9-4c93-8003-1472b9dc329d;et;;;et/oulu/elu-oulus/vaba-aeg-oulus;;
-0e71697b-b9d9-4c93-8003-1472b9dc329d;fr;;;;;
-0e71697b-b9d9-4c93-8003-1472b9dc329d;so;;;so/oulu/nolosha-oulu/waqtiyada-firaaqada-iyo-oulu;;
-0e71697b-b9d9-4c93-8003-1472b9dc329d;es;;;;;
-0e71697b-b9d9-4c93-8003-1472b9dc329d;tr;;;;;
 0e71697b-b9d9-4c93-8003-1472b9dc329d;zh;奥鲁的业余休闲活动;;zh/oulu/life-in-oulu/leisure-in-oulu;6030;Vapaa-aika Oulussa 101 (zh)
-0e71697b-b9d9-4c93-8003-1472b9dc329d;fa;;;;;
 0e71697b-b9d9-4c93-8003-1472b9dc329d;ar;وقت الفراغ في أولو;;ar/oulu/life-in-oulu/leisure-in-oulu;6031;Vapaa-aika Oulussa 101 (ar)
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;sv;;;;;
 24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;ru;Информация о городе Оулу;;ru/oulu/information-about-oulu;6033;Tietoa Oulusta 101 (ru)
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;et;;;;;
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;fr;;;;;
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;so;;;;;
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;es;;;;;
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;tr;;;;;
 24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;zh;有关奥鲁的介绍;;zh/oulu/information-about-oulu;6036;Tietoa Oulusta 101 (zh)
-24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;fa;;;;;
 24e6bcbc-6e82-4ef8-aa99-c6b7f7a2ce6a;ar;معلومات عن أولو;;ar/oulu/information-about-oulu;6037;Tietoa Oulusta 101 (ar)
 f8004920-1f5a-4fc0-9ffd-b6827d57923d;ar;شؤون الساعة;;ar/ajankohtaista*;;
 f8004920-1f5a-4fc0-9ffd-b6827d57923d;sv;Aktuellt;;sv/ajankohtaista*;;
@@ -3319,25 +2972,7 @@ e5415a42-55ca-411d-9caf-9426a7cd124b;ar;الصور;;ar/images;6371;Kuvat 101 (ar
 2c87f794-2df5-4618-b501-b3d89e81a8fd;fr;Open data;;fr/informations-sur-le-service/open-data;7742;Avoin data 101 (fr)
 2c87f794-2df5-4618-b501-b3d89e81a8fd;tr;Açık veriler;;tr/hizmet-hakk-nda-bilgiler/acik-veriler;7743;Avoin data 101 (tr)
 4f38d262-17de-483c-86c0-6341373da04b;sv;Samarbetskommunerna;;sv/samarbetskommunerna;6187;Jäsenkunnat sv
-4f38d262-17de-483c-86c0-6341373da04b;ru;;;ru/about-the-service/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;et;;;et/infot-teenuse-kohta/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;es;;;es/informaci-n-acerca-del-servicio/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;so;;;so/warar-adeegga-ku-saabsan/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;zh;;;zh/about-the-service/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;fa;;;fa/about-the-service/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;ar;;;ar/about-the-service/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;fr;;;fr/informations-sur-le-service/prime101.aspx;;
-4f38d262-17de-483c-86c0-6341373da04b;tr;;;tr/hizmet-hakk-nda-bilgiler/prime101.aspx;;
 8699372c-48e9-47f8-862f-3e91d456e7f3;sv;Finansiärer;;sv/finansiarer;7675;Rahoittajat 101 (sv)
-8699372c-48e9-47f8-862f-3e91d456e7f3;ru;;;ru/about-the-service/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;et;;;et/infot-teenuse-kohta/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;es;;;es/informaci-n-acerca-del-servicio/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;so;;;so/warar-adeegga-ku-saabsan/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;zh;;;zh/about-the-service/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;fa;;;fa/about-the-service/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;ar;;;ar/about-the-service/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;fr;;;fr/informations-sur-le-service/prime102.aspx;;
-8699372c-48e9-47f8-862f-3e91d456e7f3;tr;;;tr/hizmet-hakk-nda-bilgiler/prime102.aspx;;
 61024a82-7511-4d37-bc15-df14f0c0aad0;sv;Besöksstatistik;;sv/besoksstatistik;6438;Kävijätilastot 101 (sv)
 61024a82-7511-4d37-bc15-df14f0c0aad0;ru;Статистика посещений;;ru/visitor-statistics;6440;Kävijätilastot 101 (ru)
 61024a82-7511-4d37-bc15-df14f0c0aad0;et;Külastajate statistika;;et/k-lastajate-statistika;6441;Kävijätilastot 101 (et)
@@ -3378,16 +3013,6 @@ bdfaadb0-7010-4f6b-b33c-0743c92e7ab7;fa;مسابقه ویدئویی;;fa/video-co
 bdfaadb0-7010-4f6b-b33c-0743c92e7ab7;ar;مسابقة الفيديو;;ar/video-competition;6224;Videokilpailu 101 (ar)
 bdfaadb0-7010-4f6b-b33c-0743c92e7ab7;fr;Concours vidéo;;fr/concours-video;6226;Videokilpailu 101 (fr)
 bdfaadb0-7010-4f6b-b33c-0743c92e7ab7;tr;Video yarışması;;tr/video-yarismasi;6227;Videokilpailu 101 (tr)
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;sv;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;ru;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;et;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;es;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;so;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;zh;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;fa;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;ar;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;fr;;;;;
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;tr;;;;;
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;sv;Respons;;sv/respons;5049;Footerin palaute (sv)
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;ru;Отзыв;;ru/feedback;5051;Footerin palaute (ru)
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;et;Tagasiside;;et/tagasiside;5052;Footerin palaute (et)
@@ -3398,16 +3023,6 @@ da6e7b02-beb0-4bf0-bccf-3824f848d1f8;tr;;;;;
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;ar;الرد التعليقي;;ar/feedback;5062;Footerin palaute (ar)
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;fr;Remarques;;fr/r-marques;5053;Footerin palaute (fr)
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;tr;Geribildirim;;tr/geribildirim;5057;Footerin palaute (tr)
-6b216373-9708-4fcb-8aa6-9745fefd5422;sv;;;sv/respons/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;ru;;;ru/feedback/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;et;;;et/tagasiside/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;es;;;es/comentario/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;so;;;so/jawaab-celin/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;zh;;;zh/feedback/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;fa;;;fa/feedback/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;ar;;;ar/feedback/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;fr;;;fr/r-marques/prime101.aspx;;
-6b216373-9708-4fcb-8aa6-9745fefd5422;tr;;;tr/geribildirim/prime101.aspx;;
 a8dee53e-5a06-4238-959d-10182391c5d6;sv;Dataskydd;;sv/om-tjansten/skydd-av-personuppgifter;7971;Tietosuoja (sv)
 a8dee53e-5a06-4238-959d-10182391c5d6;ru;Защита персональных данных;;ru/about-the-service/data-protection;7973;Tietosuoja (ru)
 a8dee53e-5a06-4238-959d-10182391c5d6;et;Andmekaitse;;et/infot-teenuse-kohta/andmekaitse;7974;Tietosuoja (et)
@@ -3448,16 +3063,6 @@ a14f59d3-7d52-43de-9cfd-682f307d545a;fa;پرسش نامه بازدیدکنندگ
 a14f59d3-7d52-43de-9cfd-682f307d545a;ar;استبيان زيارة;;ar/user-survey;6696;Kävijäkysely 101 (ar)
 a14f59d3-7d52-43de-9cfd-682f307d545a;fr;Enquête pour les visiteurs;;fr/enquete-pour-les-visiteurs;6697;Kävijäkysely 101 (fr)
 a14f59d3-7d52-43de-9cfd-682f307d545a;tr;Ziyatetçi Anketi;;tr/ziyatetci-anketi;6698;Kävijäkysely 101 (tr)
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;sv;;;sv/om-tjansten/prime101.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;ru;;;ru/about-the-service/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;et;;;et/infot-teenuse-kohta/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;es;;;es/informaci-n-acerca-del-servicio/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;so;;;so/warar-adeegga-ku-saabsan/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;zh;;;zh/about-the-service/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;fa;;;fa/about-the-service/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;ar;;;ar/about-the-service/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;fr;;;fr/informations-sur-le-service/prime103.aspx;;
-0b9296ca-1bb4-467e-aca3-c65ce22fe08a;tr;;;tr/hizmet-hakk-nda-bilgiler/prime103.aspx;;
 9791b5c5-272a-4c5c-bf03-841ecb46783a;sv;Valikoiden ulkopuoliset sivut_sv;;;;
 9791b5c5-272a-4c5c-bf03-841ecb46783a;ru;Erikoistoiminnallisuudet_ru;;;;
 34e1223b-abe0-4f1c-9c22-ea044369f05f;sv;Css-tyylitiedosto selaimia varten_sv;;;;
@@ -3484,7 +3089,6 @@ c1a9a53e-c318-4596-9d45-2471c542533b;et;Otsing;;;;
 871697ac-6ee5-4136-8a19-39e26574e366;zh;404 无法找到该页;;;20;404 Sivua ei löydy
 871697ac-6ee5-4136-8a19-39e26574e366;fa;404 صفحه مورد نظر یافت نشد;;;20;404 Sivua ei löydy
 871697ac-6ee5-4136-8a19-39e26574e366;ar;404 لم يتم العثور على الصفحة;;;20;404 Sivua ei löydy
-1d28f816-c0bc-4494-b5b6-69eefbcbec0c;ru;;;;;
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;ru;Отзыв;;ru/palaute;7044;palautesivun sisältö (ru)
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;sv;Respons;;sv/palaute;7047;palautesivun sisältö (sv)
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;et;Tagasiside;;et/palaute;7042;palautesivun sisältö (et)
@@ -3515,27 +3119,6 @@ d10264b6-72d4-48a5-aafc-733b1d1dba8d;es;Comentario;;es/palaute;7041;palautesivun
 7c278b6b-6983-47ef-ab43-202df47d2b55;fa;این مطلب به زبان انتخابی شما موجود نمی باشد .زبان دیگری را انتخاب کنید.;;;;
 7c278b6b-6983-47ef-ab43-202df47d2b55;zh;您所选的语言没有该内容的记录。请选择其他语言。;;;;
 7c278b6b-6983-47ef-ab43-202df47d2b55;tr;Seçmiş olduğunuz dilde bir içerik mevcut değildir. Lütfen, başka bir dil seçiniz.;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;ru;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;sv;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;et;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;fr;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;so;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;es;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;tr;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;zh;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;fa;;;;;
-df141ede-71f9-46dd-9001-479fd7e81463;ar;;;;;
-1536042b-c390-49bf-85f7-bd66899fab64;ru;;;prime108/prime102.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;ru;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;sv;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;et;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;fr;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;so;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;es;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;tr;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;zh;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;fa;;;prime114.aspx;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;ar;;;prime114.aspx;;
 17c49750-702c-4667-b6aa-db504901d471;ru;Краткий справочник для переезжающего в Финляндию;;ru/moving-to-finland/i-am-;;
 17c49750-702c-4667-b6aa-db504901d471;sv;Snabbguider för personer som flyttar till Finland;;sv/flytta-till-finland/jag-ar-;;
 17c49750-702c-4667-b6aa-db504901d471;et;Kiirjuhend Soome elama asujale;;et/soome-elama-asumine/olen-;;
@@ -3616,46 +3199,6 @@ f135fd22-bb6f-47a5-8a6a-383e03df6c74;tr;Diğer yakınlar için oturma izni;;tr/f
 f135fd22-bb6f-47a5-8a6a-383e03df6c74;zh;其他亲属居留许可;;zh/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member/residence-permit-for-other-family-member;;
 f135fd22-bb6f-47a5-8a6a-383e03df6c74;fa;اجازه اقامت برای فامیل دیگر;;fa/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member/residence-permit-for-other-family-member;;
 f135fd22-bb6f-47a5-8a6a-383e03df6c74;ar;ترخيص الإقامة للأقارب الآخرين;;ar/moving-to-finland/non-eu-citizens/moving-to-finland-to-be-with-a-family-member/residence-permit-for-other-family-member;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;ru;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;sv;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;et;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;fr;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;so;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;es;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;tr;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;zh;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;fa;;;prime112.aspx;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;ar;;;prime112.aspx;;
-92ee23ce-ad91-4872-9e46-8758a2810829;ru;;;ru/living-in-finland/housing/right-of-occupancy-dwelling;;
-92ee23ce-ad91-4872-9e46-8758a2810829;sv;;;sv/livet-i-finland/boende/bostadsrattsbostad;;
-92ee23ce-ad91-4872-9e46-8758a2810829;et;;;et/elu-soomes/eluase-ja-elamine/elamis-iguskorter;;
-92ee23ce-ad91-4872-9e46-8758a2810829;fr;;;fr/vie-en-finlande/logement/logement-coop-ratif;;
-92ee23ce-ad91-4872-9e46-8758a2810829;so;;;so/nolosha-finland/deganaaanshaha/guri-xuquuqada-daganaanshaha-la-leeyahay;;
-92ee23ce-ad91-4872-9e46-8758a2810829;es;;;es/vida-en-finlandia/vivienda/vivienda-con-derecho-de-ocupaci-n;;
-92ee23ce-ad91-4872-9e46-8758a2810829;tr;;;tr/finlandiya-da-ya-am/ikamet/kullan-m-hakk-sakl-konut;;
-92ee23ce-ad91-4872-9e46-8758a2810829;zh;;;zh/living-in-finland/housing/right-of-occupancy-dwelling;;
-92ee23ce-ad91-4872-9e46-8758a2810829;fa;;;fa/living-in-finland/housing/right-of-occupancy-dwelling;;
-92ee23ce-ad91-4872-9e46-8758a2810829;ar;;;ar/living-in-finland/housing/right-of-occupancy-dwelling;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;ru;;;ru/living-in-finland/housing/part-ownership-dwelling;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;sv;;;sv/livet-i-finland/boende/delagarbostad;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;et;;;et/elu-soomes/eluase-ja-elamine/osaomandkorter;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;fr;;;fr/vie-en-finlande/logement/logement-en-propri-t-partielle;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;so;;;so/nolosha-finland/deganaaanshaha/guri-qayb-ahaan-la-leeyahay;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;es;;;es/vida-en-finlandia/vivienda/vivienda-en-copropiedad;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;tr;;;tr/finlandiya-da-ya-am/ikamet/k-smi-m-lkiyet-konut;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;zh;;;zh/living-in-finland/housing/part-ownership-dwelling;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;fa;;;fa/living-in-finland/housing/part-ownership-dwelling;;
-24a4aaab-e2ad-4d7d-9223-07168040c7c2;ar;;;ar/living-in-finland/housing/part-ownership-dwelling;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;ru;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;sv;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;et;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;fr;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;so;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;es;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;tr;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;zh;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;fa;;;prime111.aspx;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;ar;;;prime111.aspx;;
 600c8ffa-12c1-4f11-adac-640775c137b6;ru;Иммигранты в Финляндии;;ru/living-in-finland/as-an-immigrant-in-finland;;
 600c8ffa-12c1-4f11-adac-640775c137b6;sv;Som invandrare i Finland;;sv/livet-i-finland/som-invandrare-i-finland;;
 600c8ffa-12c1-4f11-adac-640775c137b6;et;Soome uue kodumaana;;et/elu-soomes/immigrandina-soomes;;
@@ -3726,36 +3269,6 @@ ace3ed3d-1dbf-4293-8f50-260de7f1eff0;ar;الضمان الاجتماعي الفن
 8f868c99-e681-4e8e-bcc6-0025569b638e;zh;如何申请芬兰国籍？;;zh/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/how-to-apply-for-finnish-citizenship;;
 8f868c99-e681-4e8e-bcc6-0025569b638e;fa;چگونه می توان تابعیت کشور فنلاند را درخواست کرد؟;;fa/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/how-to-apply-for-finnish-citizenship;;
 8f868c99-e681-4e8e-bcc6-0025569b638e;ar;كيف يمكن طلب الجنسية الفنلندية؟;;ar/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/how-to-apply-for-finnish-citizenship;;
-fa361570-7530-4b22-812e-143441441b09;ru;;;ru/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/the-rights-and-obligations-of-finnish-citizens;;
-fa361570-7530-4b22-812e-143441441b09;sv;;;sv/livet-i-finland/som-invandrare-i-finland/finskt-medborgarskap/finska-medborgares-rattigheter-och-skyldigheter;;
-fa361570-7530-4b22-812e-143441441b09;et;;;et/elu-soomes/immigrandina-soomes/soome-kodakondsus/soome-kodaniku-igused-ja-kohustused;;
-fa361570-7530-4b22-812e-143441441b09;fr;;;fr/vie-en-finlande/-tre-immigr-en-finlande/nationalit-finlandaise/droits-et-devoirs-des-citoyens-finlandais;;
-fa361570-7530-4b22-812e-143441441b09;so;;;so/nolosha-finland/finland-ku-jooga-ajnabinimo/dhalashada-finland/xuquuqyada-iyo-waajibaadka-muwaadinka-finnishka-ah;;
-fa361570-7530-4b22-812e-143441441b09;es;;;es/vida-en-finlandia/ser-inmigrante-en-finlandia/la-nacionalidad-finlandesa/los-derechos-y-deberes-de-los-ciudadanos-finlandeses;;
-fa361570-7530-4b22-812e-143441441b09;tr;;;tr/finlandiya-da-ya-am/finlandiya-da-go-menlik/finlandiya-vatanda-l-/finlandiya-vatanda-n-n-hak-ve-y-k-ml-l-kleri;;
-fa361570-7530-4b22-812e-143441441b09;zh;;;zh/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/the-rights-and-obligations-of-finnish-citizens;;
-fa361570-7530-4b22-812e-143441441b09;fa;;;fa/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/the-rights-and-obligations-of-finnish-citizens;;
-fa361570-7530-4b22-812e-143441441b09;ar;;;ar/living-in-finland/as-an-immigrant-in-finland/finnish-citizenship/the-rights-and-obligations-of-finnish-citizens;;
-77b103d7-9201-4f5d-9185-f17109415aa2;ru;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;sv;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;et;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;fr;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;so;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;es;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;tr;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;zh;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;fa;;;prime113.aspx;;
-77b103d7-9201-4f5d-9185-f17109415aa2;ar;;;prime113.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;ru;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;sv;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;et;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;fr;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;so;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;es;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;tr;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;zh;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;fa;;;prime116.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;ar;;;prime116.aspx;;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;ru;Проблемы в браке и в партнёрских отношениях;;ru/living-in-finland/problem-situations/problems-in-marriage-and-relationships;;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;sv;Problem i äktenskap och parförhållande;;sv/livet-i-finland/problematiska-situationer/problem-i-aktenskap-och-parforhallande;;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;et;Abielu- ja paarisuhte probleemid;;et/elu-soomes/probleemsed-olukorrad/abielu-ja-paarisuhte-probleemid;;
@@ -3766,230 +3279,7 @@ f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;tr;Evlilik ve çift ilişkileri sorunları;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;zh;婚姻及感情问题;;zh/living-in-finland/problem-situations/problems-in-marriage-and-relationships;;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;fa;مشکلات زندگی زناشویی توأم با ازدواج و یا بدون داشتن ازدواج;;fa/living-in-finland/problem-situations/problems-in-marriage-and-relationships;;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;ar;مشاكل الزوجية وعلاقات الشراكة;;ar/living-in-finland/problem-situations/problems-in-marriage-and-relationships;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;ru;;;prime108/prime103.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;sv;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;et;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;fr;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;so;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;es;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;tr;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;zh;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;fa;;;prime101.aspx;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;ar;;;prime101.aspx;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;sv;;;sv/helsingfors/livet-i-helsingfors/som-invandrare-i-helsingfors;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;ru;;;ru/helsinki/life-in-helsinki/living-as-an-immigrant-in-helsinki;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;et;;;et/helsinki/elu-helsingis/immigrandina-helsingis;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;fr;;;fr/helsinki/la-vie--helsinki/-tre-immigr--helsinki;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;so;;;so/helsinki/nolosha-helsinki/ajanbi-ku-ahaanshaha-helsinki;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;es;;;es/helsinki/vivir-en-helsinki/vivir-como-inmigrante-en-helsinki;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;tr;;;tr/helsinki/helsinki-de-ya-am/helsinki-de-go-menlik;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;zh;;;zh/helsinki/life-in-helsinki/living-as-an-immigrant-in-helsinki;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;fa;;;fa/helsinki/life-in-helsinki/living-as-an-immigrant-in-helsinki;;
-e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;ar;;;ar/helsinki/life-in-helsinki/living-as-an-immigrant-in-helsinki;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;ru;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;sv;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;et;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;fr;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;so;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;es;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;tr;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;zh;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;fa;;;;;
-67b2a29f-0055-4df8-86b6-cd14e823c0b8;ar;;;;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;sv;;;sv/esbo/livet-i-esbo/som-invandrare-i-esbo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;ru;;;ru/espoo/life-in-espoo/as-an-immigrant-in-espoo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;et;;;et/espoo/elu-espoos/immigrandina-espoos;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;fr;;;fr/espoo/la-vie--espoo/-tre-immigr--espoo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;so;;;so/espoo/nolosha-espoo/ajanbi-ku-ahaanshaha-espoo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;es;;;es/espoo/vivir-en-espoo/vivir-como-inmigrante-en-espoo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;tr;;;tr/espoo/espoo-da-ya-am/espoo-da-go-menlik;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;zh;;;zh/espoo/life-in-espoo/as-an-immigrant-in-espoo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;fa;;;fa/espoo/life-in-espoo/as-an-immigrant-in-espoo;;
-af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;ar;;;ar/espoo/life-in-espoo/as-an-immigrant-in-espoo;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;ru;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;sv;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;et;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;fr;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;so;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;es;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;tr;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;zh;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;fa;;;;;
-b06e9e6d-86e6-4503-b668-fa0ea27206f1;ar;;;;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;sv;;;sv/vanda/livet-i-vanda/som-invandrare-i-vanda;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;ru;;;ru/vantaa/life-in-vantaa/as-an-immigrant-in-vantaa;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;et;;;et/vantaa/elu-vantaas/immigrandina-vantaas;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;fr;;;fr/vantaa/la-vie--vantaa/-tre-immigr--vantaa;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;so;;;so/vantaa/nolosha-vantaa/ajnabi-ku-ahaanshaha-vantaa;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;es;;;es/vantaa/vivir-en-vantaa/vivir-como-inmigrante-en-vantaa;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;tr;;;tr/vantaa/vantaa-da-ya-ant/vantaa-da-go-menlik;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;zh;;;zh/vantaa/life-in-vantaa/as-an-immigrant-in-vantaa;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;fa;;;fa/vantaa/life-in-vantaa/as-an-immigrant-in-vantaa;;
-71639ab6-38e6-450e-b9e7-e4faf28ca628;ar;;;ar/vantaa/life-in-vantaa/as-an-immigrant-in-vantaa;;
-bef703e3-076c-4ad2-aad9-37484d32957f;ru;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;sv;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;et;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;fr;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;so;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;es;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;tr;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;zh;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;fa;;;;;
-bef703e3-076c-4ad2-aad9-37484d32957f;ar;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;ru;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;sv;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;et;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;fr;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;so;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;es;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;tr;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;zh;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;fa;;;;;
-f42e3402-a731-41fb-b3f2-733d95d7abaf;ar;;;;;
-69792911-76ee-4dac-9556-8369482b293a;sv;;;;;
-69792911-76ee-4dac-9556-8369482b293a;ru;;;ru/turku/life-in-turku/living-as-an-immigrant-in-turku;;
-69792911-76ee-4dac-9556-8369482b293a;et;;;et/turku/elu-turus/immigrandina-turus;;
-69792911-76ee-4dac-9556-8369482b293a;fr;;;;;
-69792911-76ee-4dac-9556-8369482b293a;so;;;so/turku/nolosha-turku/ajanbi-ku-ahaanshaha-turku;;
-69792911-76ee-4dac-9556-8369482b293a;es;;;;;
-69792911-76ee-4dac-9556-8369482b293a;tr;;;;;
-69792911-76ee-4dac-9556-8369482b293a;zh;;;;;
-69792911-76ee-4dac-9556-8369482b293a;fa;;;fa/turku/life-in-turku/living-as-an-immigrant-in-turku;;
-69792911-76ee-4dac-9556-8369482b293a;ar;;;ar/turku/life-in-turku/living-as-an-immigrant-in-turku;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;ru;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;sv;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;et;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;fr;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;so;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;es;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;tr;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;zh;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;fa;;;;;
-9e5ba843-0d61-4c76-aec7-646f24d4ca68;ar;;;;;
-40bfbae4-8bfe-42e1-ba4b-a0d8a748a876;ru;;;ru/tampere/life-in-tampere/as-an-immigrant-in-tampere;;
-40bfbae4-8bfe-42e1-ba4b-a0d8a748a876;et;;;et/tampere/elu-tamperes/immigrandina-tamperes;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;ru;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;sv;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;et;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;fr;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;so;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;es;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;tr;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;zh;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;fa;;;;;
-c1c542f9-ba75-4a2e-8d57-3b12377fc857;ar;;;;;
-6afb2186-5998-4e05-a6f3-97eb76660f87;ru;;;ru/oulu/life-in-oulu/as-an-immigrant-in-oulu;;
-6afb2186-5998-4e05-a6f3-97eb76660f87;zh;;;zh/oulu/life-in-oulu/as-an-immigrant-in-oulu;;
-6afb2186-5998-4e05-a6f3-97eb76660f87;ar;;;ar/oulu/life-in-oulu/as-an-immigrant-in-oulu;;
-5447f3a6-74f0-49e5-b309-5027500fe916;ru;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;sv;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;et;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;fr;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;so;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;es;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;tr;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;zh;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;fa;;;;;
-5447f3a6-74f0-49e5-b309-5027500fe916;ar;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;ru;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;sv;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;et;;;;;
 092e7eec-beb1-4d85-82e8-e37dac35da26;fr;FR Ylivieskanseutu;;fr/la-region-d-ylivieska;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;so;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;es;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;tr;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;zh;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;fa;;;;;
-092e7eec-beb1-4d85-82e8-e37dac35da26;ar;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;ru;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;sv;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;et;;;;;
 796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;fr;La Region de Raahe-Kalajoki;;fr/la-region-de-raahe-kalajoki;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;so;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;es;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;tr;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;zh;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;fa;;;;;
-796c8bae-4ef7-4bd8-b9ee-d634f669ddf6;ar;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;ru;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;sv;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;et;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;fr;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;so;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;es;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;tr;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;zh;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;fa;;;;;
-914bce6a-ed1e-42a1-82a8-1879bd46d38a;ar;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;ru;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;sv;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;et;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;fr;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;so;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;es;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;tr;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;zh;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;fa;;;;;
-83f51d28-3071-46f2-801d-8c00e7c46799;ar;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;ru;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;sv;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;et;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;fr;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;so;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;es;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;tr;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;zh;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;fa;;;;;
-deefc2b8-aabe-4283-9edc-7f50349b2668;ar;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;ru;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;sv;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;et;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;fr;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;so;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;es;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;tr;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;zh;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;fa;;;;;
-3a7ab38f-eb1d-45e3-b883-a51b5cc5dadb;ar;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;ru;;;;;
 45bec773-b756-4c82-8773-cb830511b1c7;sv;Karleby;;karleby;;
-45bec773-b756-4c82-8773-cb830511b1c7;et;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;fr;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;so;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;es;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;tr;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;zh;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;fa;;;;;
-45bec773-b756-4c82-8773-cb830511b1c7;ar;;;;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;ru;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;sv;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;et;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;fr;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;so;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;es;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;tr;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;zh;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;fa;;;prime106.aspx;;
-ada58a9f-264c-44c4-8126-1a1d925231dd;ar;;;prime106.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;ru;;;prime117.aspx;;
 deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;sv;Vasa;;vasa;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;et;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;fr;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;so;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;es;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;tr;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;zh;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;fa;;;prime117.aspx;;
-deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;ar;;;prime117.aspx;;
-f54bdf04-25e9-41cd-acc0-e9afbc359191;ru;;;prime104.aspx;;
-f54bdf04-25e9-41cd-acc0-e9afbc359191;et;;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;ru;Sivua ei löydy (ei-aktiivinen)_ru;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;et;Sivua ei löydy (ei-aktiivinen)_et;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;fr;Sivua ei löydy (ei-aktiivinen)_fr;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;sv;Sivua ei löydy (ei-aktiivinen)_sv;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;so;Sivua ei löydy (ei-aktiivinen)_so;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;es;Sivua ei löydy (ei-aktiivinen)_es;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;tr;Sivua ei löydy (ei-aktiivinen)_tu;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;zh;Sivua ei löydy (ei-aktiivinen)_ch;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;fa;Sivua ei löydy (ei-aktiivinen)_pe;;;;
-afff281e-5baa-4029-ac4d-25c0155f8eb5;ar;Sivua ei löydy (ei-aktiivinen)_ar;;;;

@@ -1,0 +1,23 @@
+uuid: 8d14bdfd-d8c3-4a7e-bf31-7f38f59163d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_use_anchor_links
+    - node.type.page
+id: node.page.field_use_anchor_links
+field_name: field_use_anchor_links
+entity_type: node
+bundle: page
+label: 'Use anchor links'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

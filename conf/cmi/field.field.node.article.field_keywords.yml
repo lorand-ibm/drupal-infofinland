@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_keywords
     - node.type.article
-    - taxonomy.vocabulary.keywords
 _core:
   default_config_hash: LSKCct3_vvTchT4_8ijyWaV3tYa0K1ihTS_cxpSBCxM
 id: node.article.field_keywords
@@ -21,8 +20,7 @@ default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
-    target_bundles:
-      keywords: keywords
+    target_bundles: {  }
     sort:
       field: name
       direction: asc

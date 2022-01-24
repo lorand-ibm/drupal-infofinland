@@ -10,7 +10,7 @@ id: paragraph.ptv_contact.field_contact_data
 field_name: field_contact_data
 entity_type: paragraph
 bundle: ptv_contact
-label: 'Yhteystiedot data'
+label: Yhteystiedot
 description: ''
 required: false
 translatable: true

@@ -19,6 +19,7 @@ permissions:
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
+  - 'administer permissions'
   - 'administer users'
   - 'cancel account'
   - 'change own username'

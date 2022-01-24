@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.page.field_metatags
     - field.field.node.page.field_page_name
     - field.field.node.page.field_url
+    - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
     - user
@@ -37,5 +38,6 @@ hidden:
   field_metatags: true
   field_page_name: true
   field_url: true
+  field_use_anchor_links: true
   langcode: true
   links: true
