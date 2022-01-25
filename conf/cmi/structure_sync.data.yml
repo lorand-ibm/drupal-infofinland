@@ -1,0 +1,50 @@
+log: 1
+menus:
+  -
+    menu_name: about
+    title: 'Muutto Suomeen'
+    parent: null
+    uri: 'entity:node/31559'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: a1046271-24c3-4b6f-a2c9-36d075a653fe
+  -
+    menu_name: about
+    title: 'Lokaalisti lisätty menu'
+    parent: null
+    uri: 'entity:node/31560'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: d11bbe11-ba5f-49fe-8b99-d3cac367c4e6
+  -
+    menu_name: about
+    title: 'Lokaali toisen tason item'
+    parent: 'menu_link_content:d11bbe11-ba5f-49fe-8b99-d3cac367c4e6'
+    uri: 'entity:node/31748'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 0e822c1c-1a99-4937-b403-c3a128b48a85
+  -
+    menu_name: about
+    title: Lokaalitestisivu
+    parent: null
+    uri: 'entity:node/32087'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 67f659ac-eb4e-4687-b2fd-c71216e5948f
