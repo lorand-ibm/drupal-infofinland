@@ -1,13 +1,11 @@
-uuid: 9f525850-4528-4685-8ec6-bdd71f5e19ff
+uuid: 9a0712ca-242e-4ee6-a59c-2a4344905049
 langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: AHVWxriP4R-GhcbuTeP2gljaJ83frPXyRonU0U_92Qw
-id: node.field_has_hero
-field_name: field_has_hero
+id: node.field_use_anchor_links
+field_name: field_use_anchor_links
 entity_type: node
 type: boolean
 settings: {  }

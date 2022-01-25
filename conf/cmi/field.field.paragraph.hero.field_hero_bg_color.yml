@@ -7,7 +7,7 @@ dependencies:
     - paragraphs.paragraphs_type.hero
     - taxonomy.vocabulary.colors
   content:
-    - 'taxonomy_term:colors:21ebd1d9-89bc-4cd4-862f-a54215deee30'
+    - 'taxonomy_term:colors:1be01bdb-215b-4ff3-8edc-fe160c26b7a3'
 id: paragraph.hero.field_hero_bg_color
 field_name: field_hero_bg_color
 entity_type: paragraph
@@ -18,7 +18,7 @@ required: true
 translatable: false
 default_value:
   -
-    target_uuid: 21ebd1d9-89bc-4cd4-862f-a54215deee30
+    target_uuid: 1be01bdb-215b-4ff3-8edc-fe160c26b7a3
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

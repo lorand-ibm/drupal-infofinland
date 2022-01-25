@@ -1,0 +1,45 @@
+uuid: 50762572-17d2-4a14-a532-f7be149d7e6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.colors.field_color_hex
+    - taxonomy.vocabulary.colors
+  module:
+    - color_field
+id: taxonomy_term.colors.default
+targetEntityType: taxonomy_term
+bundle: colors
+mode: default
+content:
+  field_color_hex:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: color_field_widget_html5
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

@@ -77,21 +77,24 @@ class FixLocalLinks {
         $doc = $html->ownerDocument;
 
         foreach ($html->childNodes as $child) {
-          if ($child->hasChildNodes() && $child->lastChild != $child->firstChild) {
+          if ($child->hasChildNodes() && $child->lastChild->nodeValue != $child->firstChild->nodeValue) {
             foreach ($child->childNodes as $childChild) {
               if ($childChild->tagName == 'a') {
                 $childChild->parentNode->replaceChild($this->editLink($childChild, $text), $childChild);
               }
             }
-          } else {
+          } else if ($child->tagName == 'a') {
             $child = $this->editLink($child, $text);
+          } else if ($child->firstChild->tagName == 'a') {
+            $child->firstChild->parentNode->replaceChild($this->editLink($child->firstChild, $text), $child->firstChild);
+
           }
           $newHtml .= $doc->saveHTML($child);
         }
-        if ($newHtml !== '') {
-          $text->field_text->value = $newHtml;
-          $text->save();
-        }
+      }
+      if ($newHtml !== '') {
+        $text->set('field_text', $newHtml);
+        $text->save();
       }
     }
     return $paragraphs;
