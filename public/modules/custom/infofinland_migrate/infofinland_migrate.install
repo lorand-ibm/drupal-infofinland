@@ -9,9 +9,12 @@
  * Implements hook_uninstall().
  */
 function infofinland_migrate_uninstall() {
+  \Drupal::configFactory()->getEditable('migrate_plus.migration.links_import_link_nodes_csv_fi')->delete();
+  \Drupal::configFactory()->getEditable('migrate_plus.migration.links_import_link_nodes_csv_translations')->delete();
+  \Drupal::configFactory()->getEditable('migrate_plus.migration.links_import_link_paragraphs_csv')->delete();
+  \Drupal::configFactory()->getEditable('migrate_plus.migrate_plus.migration.content_import_content_to_paragraphs_from_csv_fi')->delete();
   \Drupal::configFactory()->getEditable('migrate_plus.migration.content_import_pages_to_nodes_from_csv_fi')->delete();
   \Drupal::configFactory()->getEditable('migrate_plus.migration.content_import_pages_to_nodes_from_csv_en')->delete();
   \Drupal::configFactory()->getEditable('migrate_plus.migration.content_import_pages_to_nodes_from_csv_translations')->delete();
-  \Drupal::configFactory()->getEditable('content_import_pages_to_nodes_from_csv')->delete();
   drupal_flush_all_caches();
 }

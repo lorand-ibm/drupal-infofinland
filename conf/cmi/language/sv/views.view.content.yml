@@ -9,7 +9,6 @@ display:
           label: Titel
         type:
           label: Innehållstyp
-          separator: ', '
         name:
           label: Författare
         status:
@@ -55,18 +54,13 @@ display:
         langcode:
           expose:
             label: Språk
-      title: Content
-      empty:
-        area_text_custom:
-          content: 'Inget innehåll tillgängligt.'
-    display_title: Huvud
+      title: Innehåll
+    display_title: Förvald
   page_1:
     display_options:
       menu:
-        title: Content
+        title: Innehåll
       tab_options:
-        title: Content
-        description: 'Hitta och hantera innehåll'
+        title: Innehåll
     display_title: Sida
-label: Content
-description: 'Hitta och hantera innehåll.'
+label: Innehåll

@@ -1,16 +1,16 @@
 label: Tiedostot
-description: 'Etsi ja hallitse tiedostoja.'
+description: 'Find and manage files.'
 display:
   default:
     display_title: Oletus
     display_options:
       exposed_form:
         options:
-          submit_button: Suodatin
+          submit_button: Suodatus
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
-          sort_asc_label: Nousevasti
-          sort_desc_label: Laskevasti
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         options:
           tags:
@@ -19,13 +19,11 @@ display:
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
-            offset_label: Offset
       fields:
         fid:
           label: FId
         filename:
           label: Nimi
-          separator: ', '
         filemime:
           label: 'MIME tyyppi'
         filesize:
@@ -56,7 +54,7 @@ display:
         area_text_custom:
           content: 'Tiedostoja ei ole saatavilla.'
   page_1:
-    display_title: Tiedostot
+    display_title: 'Files overview'
     display_options:
       menu:
         title: Tiedostot
@@ -71,7 +69,6 @@ display:
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
-            offset_label: Offset
       fields:
         entity_label:
           label: Entiteetti

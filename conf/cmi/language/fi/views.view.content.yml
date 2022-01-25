@@ -9,9 +9,8 @@ display:
           label: Otsikko
         type:
           label: Sisältötyyppi
-          separator: ', '
         name:
-          label: Kirjoittaja
+          label: Tekijä
         status:
           label: Tila
           settings:
@@ -23,18 +22,18 @@ display:
           label: Toimenpiteet
       exposed_form:
         options:
-          submit_button: Suodatin
+          submit_button: Suodatus
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
-          sort_asc_label: Nousevasti
-          sort_desc_label: Laskevasti
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         options:
           tags:
             previous: '‹ Edellinen'
             next: 'Seuraava ›'
             first: '« Ensimmäinen'
-            last: 'Viimeinen »'
+            last: 'Last »'
       filters:
         title:
           expose:
@@ -59,7 +58,7 @@ display:
       empty:
         area_text_custom:
           content: 'Ei sisältöä.'
-    display_title: Isäntä
+    display_title: Oletus
   page_1:
     display_options:
       menu:

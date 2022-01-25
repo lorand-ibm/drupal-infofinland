@@ -5,15 +5,14 @@ dependencies:
   config:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
-    - field.field.node.page.field_has_hero
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
     - field.field.node.page.field_page_name
+    - field.field.node.page.field_url
+    - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
-    - entity_reference_revisions
-    - metatag
     - user
 _core:
   default_config_hash: QoKzK_LdQQXrmb4YyhrEEfU-oYAjoKiamaP7nWWRs9A
@@ -22,36 +21,23 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_content:
-    weight: 3
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    type: entity_reference_revisions_entity_view
-    region: content
-  field_description:
-    weight: 5
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
-  field_metatags:
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_empty_formatter
-    region: content
   field_page_name:
-    weight: 4
+    weight: 1
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_use_anchor_links:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   links:
     weight: 0
@@ -59,8 +45,10 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_has_hero: true
+  field_content: true
+  field_description: true
   field_hero: true
   field_liftup_image: true
+  field_metatags: true
   field_url: true
   langcode: true

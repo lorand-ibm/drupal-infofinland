@@ -9,10 +9,10 @@ id: node.page.field_description
 field_name: field_description
 entity_type: node
 bundle: page
-label: Kuvaus
+label: Ingressi
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

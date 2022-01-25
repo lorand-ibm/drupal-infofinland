@@ -1,25 +1,24 @@
-label: Mediakirjasto
-description: 'Etsi ja ylläpidä mediatiedostoja.'
+label: 'Media library'
+description: 'Find and manage media.'
 display:
   default:
     display_title: Oletus
     display_options:
       exposed_form:
         options:
-          submit_button: 'Suodata tuloksia'
+          submit_button: 'Apply filters'
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
-          sort_asc_label: Nousevasti
-          sort_desc_label: Laskevasti
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         options:
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
-            offset_label: Offset
           tags:
-            previous: '‹ Edellinen'
-            next: 'Seuraava ›'
+            previous: ‹‹
+            next: ››
       fields:
         media_bulk_form:
           action_title: Toiminto
@@ -51,31 +50,28 @@ display:
             label: 'Uusin ensin'
         name:
           expose:
-            label: 'Nimi (A-Z)'
+            label: 'Name (A-Z)'
         name_1:
           expose:
-            label: 'Nimi (Z-A)'
-      title: Media
+            label: 'Name (Z-A)'
       empty:
         area_text_custom:
-          content: 'Ei mediatiedostoja saatavilla.'
+          content: 'Ei mediaa saatavilla.'
   page:
     display_title: Sivu
     display_options:
       fields:
         media_bulk_form:
           action_title: Toiminto
-        name:
-          separator: ', '
         edit_media:
           alter:
-            text: 'Muokkaa {{ name }}'
-            alt: 'Muokkaa {{ name }}'
+            text: 'Edit {{ name }}'
+            alt: 'Edit {{ name }}'
           text: Muokkaa
         delete_media:
           alter:
-            text: 'Poista {{ name }}'
-            alt: 'Poista {{ name }}'
+            text: 'Delete {{ name }}'
+            alt: 'Delete {{ name }}'
           text: Poista
   widget:
     display_title: Widgetti
@@ -94,7 +90,7 @@ display:
         display_link_table:
           label: Taulukko
   widget_table:
-    display_title: 'Widget (taulukko)'
+    display_title: 'Widget (table)'
     display_options:
       fields:
         thumbnail__target_id:
@@ -102,7 +98,7 @@ display:
         name:
           label: Nimi
         uid:
-          label: Kirjoittaja
+          label: Tekijä
         changed:
           label: Päivitetty
       filters:

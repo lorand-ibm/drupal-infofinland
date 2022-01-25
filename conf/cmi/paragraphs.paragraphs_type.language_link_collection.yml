@@ -1,0 +1,10 @@
+uuid: bdc32c1b-968a-465a-a1d6-354ea444add1
+langcode: so
+status: true
+dependencies: {  }
+id: language_link_collection
+label: 'Linkkipankki linkki'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

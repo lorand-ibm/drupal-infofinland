@@ -1,0 +1,19 @@
+uuid: a64fc0eb-7dd0-4e1d-8f64-a5b4fec88c2c
+langcode: fi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_target_site
+    - node.type.link
+id: node.link.field_link_target_site
+field_name: field_link_target_site
+entity_type: node
+bundle: link
+label: Kohde
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

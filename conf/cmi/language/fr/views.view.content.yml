@@ -9,7 +9,6 @@ display:
           label: Titre
         type:
           label: 'Type de contenu'
-          separator: ', '
         name:
           label: Auteur
         status:
@@ -26,8 +25,6 @@ display:
           submit_button: Filtrer
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Trier par'
-          sort_asc_label: Asc
-          sort_desc_label: Desc
       pager:
         options:
           tags:
@@ -56,9 +53,6 @@ display:
           expose:
             label: Langue
       title: Contenu
-      empty:
-        area_text_custom:
-          content: 'Aucun contenu disponible.'
     display_title: 'Par défaut'
   page_1:
     display_options:
@@ -66,7 +60,4 @@ display:
         title: Contenu
       tab_options:
         title: Contenu
-        description: 'Trouver et gérer le contenu'
-    display_title: Page
 label: Contenu
-description: 'Trouver et gérer le contenu.'

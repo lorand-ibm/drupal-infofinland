@@ -20,25 +20,19 @@ display:
           action_title: Åtgärd
         title:
           label: Titel
-          separator: ', '
         type:
-          label: Innehållstyp
-          separator: ', '
+          label: 'Content Type'
         name:
           label: Författare
-          separator: ', '
         status:
           label: Status
           settings:
             format_custom_true: Publicerad
             format_custom_false: 'Ej publicerad'
-          separator: ', '
         publish_on:
-          label: 'Publicera den'
-          separator: ', '
+          label: 'Publish on'
         unpublish_on:
-          label: 'Avpublicera den'
-          separator: ', '
+          label: 'Unpublish on'
         operations:
           label: Funktioner
       filters:
@@ -61,19 +55,19 @@ display:
         langcode:
           expose:
             label: Språk
-    display_title: Huvud
+    display_title: Master
   overview:
     display_options:
       menu:
-        title: Schemalagd
+        title: Scheduled
       tab_options:
-        title: Content
+        title: Innehåll
   user_page:
     display_options:
       menu:
-        title: Schemalagd
+        title: Scheduled
       tab_options:
-        title: Content
+        title: Innehåll
       arguments:
         uid:
           exception:

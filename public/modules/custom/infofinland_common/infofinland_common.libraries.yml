@@ -1,0 +1,5 @@
+infofinland_common:
+  version: 1.x
+  css:
+    base:
+      css/infofinland_common.css: {}

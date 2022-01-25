@@ -1,6 +1,6 @@
 display:
   default:
-    display_title: مدیر
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -22,7 +22,7 @@ display:
             offset_label: جابجایی
       fields:
         redirect_bulk_form:
-          action_title: 'با انتخاب شده‌ها'
+          action_title: 'With selection'
         redirect_source__path:
           label: از
         created:

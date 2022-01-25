@@ -1,0 +1,31 @@
+id: links_import_link_paragraphs_csv
+label: Import links from old site to paragraphs
+migration_group: infofinland_links
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_link_paragraphs.csv
+  # change if not unique enough
+  delimiter: ';'
+  ids: [UniqueNimi, id]
+process:
+  uid:
+    plugin: default_value
+    default_value: 1
+  field_language_link: Url
+  field_language:
+    plugin: entity_lookup
+    source: KieliNimi
+    value_key: name
+    bundle_key: vid
+    bundle: language
+    entity_type: taxonomy_term
+  type:
+    plugin: default_value
+    default_value: language_link

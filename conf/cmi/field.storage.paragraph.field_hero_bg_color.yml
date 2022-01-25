@@ -1,56 +1,17 @@
-uuid: 69bd4066-409e-490b-9b6a-e8bb5236ae56
+uuid: 1ca5bb67-b46c-4604-9044-d6352469334f
 langcode: en
 status: true
 dependencies:
   module:
-    - options
     - paragraphs
-_core:
-  default_config_hash: Adu4C-qILnLCzUa1yRwVCZXjCTWSfExYigCvp7txvG8
+    - taxonomy
 id: paragraph.field_hero_bg_color
 field_name: field_hero_bg_color
 entity_type: paragraph
-type: list_string
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: coat-of-arms
-      label: 'Coat of Arms'
-    -
-      value: gold
-      label: Gold
-    -
-      value: silver
-      label: Silver
-    -
-      value: brick
-      label: Brick
-    -
-      value: bus
-      label: Bus
-    -
-      value: copper
-      label: Copper
-    -
-      value: engel
-      label: Engel
-    -
-      value: fog
-      label: Fog
-    -
-      value: metro
-      label: Metro
-    -
-      value: summer
-      label: Summer
-    -
-      value: suomenlinna
-      label: Suomenlinna
-    -
-      value: tram
-      label: Tram
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

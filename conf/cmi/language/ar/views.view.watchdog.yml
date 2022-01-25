@@ -1,7 +1,7 @@
 description: 'آخر رسائل السجل'
 display:
   default:
-    display_title: الرئيسي
+    display_title: الافتراضي
     display_options:
       exposed_form:
         options:
@@ -28,7 +28,6 @@ display:
           label: الرسالة
         name:
           label: المستخدم
-          separator: ', '
         link:
           label: عمليات
       filters:

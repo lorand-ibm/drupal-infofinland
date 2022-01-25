@@ -1,0 +1,23 @@
+uuid: de978693-c675-4ac2-9656-1556d08aa64a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_migration_id
+    - paragraphs.paragraphs_type.language_link_collection
+id: paragraph.language_link_collection.field_migration_id
+field_name: field_migration_id
+entity_type: paragraph
+bundle: language_link_collection
+label: migration_id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

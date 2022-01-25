@@ -6,6 +6,9 @@ dependencies:
     - field.storage.paragraph.field_accordion_item_content
     - paragraphs.paragraphs_type.accordion_item
     - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.language_link_collection
+    - paragraphs.paragraphs_type.ptv_contact
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -27,7 +30,10 @@ settings:
     negate: 0
     target_bundles:
       columns: columns
+      image: image
       text: text
+      language_link_collection: language_link_collection
+      ptv_contact: ptv_contact
     target_bundles_drag_drop:
       accordion:
         weight: 12
@@ -35,29 +41,50 @@ settings:
       accordion_item:
         weight: 13
         enabled: false
+      banner:
+        weight: 21
+        enabled: false
       columns:
         enabled: true
         weight: 14
+      content_cards:
+        weight: 23
+        enabled: false
       gallery:
         weight: 15
         enabled: false
       gallery_slide:
         weight: 16
         enabled: false
+      heading:
+        weight: 26
+        enabled: false
       hero:
         weight: 17
         enabled: false
       image:
+        enabled: true
         weight: 18
+      language_link:
+        weight: 29
         enabled: false
-      link:
-        weight: 19
+      language_link_collection:
+        enabled: true
+        weight: 30
+      liftup_with_image:
+        weight: 31
         enabled: false
       list_of_links:
         weight: 20
         enabled: false
       list_of_links_item:
         weight: 21
+        enabled: false
+      ptv_contact:
+        enabled: true
+        weight: 34
+      remote_video:
+        weight: 35
         enabled: false
       text:
         enabled: true

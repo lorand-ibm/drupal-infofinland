@@ -15,6 +15,7 @@ url:
     fa: fa
     so: so
     zh: zh
+    '': null
   domains:
     en: ''
     fi: ''

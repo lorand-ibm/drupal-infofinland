@@ -1,0 +1,31 @@
+uuid: eb001c63-50e1-4163-b4e2-0df6289fbd2f
+langcode: so
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.language_link_collection.field_link_collection
+    - field.field.paragraph.language_link_collection.field_migration_id
+    - paragraphs.paragraphs_type.language_link_collection
+id: paragraph.language_link_collection.default
+targetEntityType: paragraph
+bundle: language_link_collection
+mode: default
+content:
+  field_link_collection:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_migration_id:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }

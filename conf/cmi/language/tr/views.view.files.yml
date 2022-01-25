@@ -1,4 +1,3 @@
-label: Dosyalar
 display:
   default:
     display_title: Varsayılan
@@ -20,47 +19,13 @@ display:
             items_per_page_options_all_label: '- Tümü -'
             offset_label: 'Başlangıç değeri'
       fields:
-        fid:
-          label: Fid
-        filename:
-          label: İsim
-          separator: ', '
-        filemime:
-          label: 'MIME tipi'
-        filesize:
-          label: Boyut
         status:
           label: Durum
-          settings:
-            format_custom_false: Geçici
-            format_custom_true: Kalıcı
-        created:
-          label: 'Yüklenme tarihi'
-        changed:
-          label: 'Değiştirilme tarihi'
-        count:
-          label: 'Şurada kullanılıyor'
       filters:
-        filename:
-          expose:
-            label: 'Dosya adı'
-        filemime:
-          expose:
-            label: 'MIME tipi'
         status:
           expose:
             label: Durum
-      title: Dosyalar
-      empty:
-        area_text_custom:
-          content: 'Dosya yok.'
-  page_1:
-    display_title: 'Dosya Özeti'
-    display_options:
-      menu:
-        title: Dosyalar
   page_2:
-    display_title: 'Dosya kullanımı'
     display_options:
       pager:
         options:
@@ -71,18 +36,7 @@ display:
             items_per_page_label: 'Sayfa başına öğe sayısı'
             items_per_page_options_all_label: '- Tümü -'
             offset_label: 'Başlangıç değeri'
-      fields:
-        entity_label:
-          label: Nesne
-        type:
-          label: 'Varlık tipi'
-        module:
-          label: 'Eklenti kayıt ediliyor'
-        count:
-          label: 'Kullanım sayısı'
-      title: 'Dosya kullanımı'
       arguments:
         fid:
           exception:
             title: Tümü
-          title: '{{ arguments.fid }} için dosya kullanım bilgileri'

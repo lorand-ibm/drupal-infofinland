@@ -1,0 +1,4 @@
+.custom-messages--warning.messages-list__item.messages.messages--warning {
+  background-color: lightgray;
+  color: black;
+}

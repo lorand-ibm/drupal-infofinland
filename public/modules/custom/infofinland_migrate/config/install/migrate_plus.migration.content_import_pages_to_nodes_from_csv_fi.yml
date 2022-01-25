@@ -23,22 +23,26 @@ process:
     default_value: 1
   title: Nimi valikossa
   field_page_name: Dokumentin nimi
-  field_description: Kuvaus
+  field_hero:
+    source: sivun_id
+    plugin: add_hero_paragraph
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
+  field_description:
+    source: Dokumentin ID
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
   # field_url: URL
   langcode: Kieli
   default_langcode:
     plugin: default_value
     default_value: true
-  # dokumentin_id: Dokumentin ID ???
-  # field_page_content:
-  #   process:
-  #     target_id:
-  #       plugin: entity_lookup
-  #       source: Dokumentin ID
-  #       value_key: uuid
-  #       bundle: en
-  #       bundle_key: langcode
-  #       entity_type: paragraph
-  #       ignore_case: true
-  #     target_revision_id: meta/target_revision_id
+  field_content:
+    source: Dokumentin ID
+    plugin: add_paragraphs
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
 

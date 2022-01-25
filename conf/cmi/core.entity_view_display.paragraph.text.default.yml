@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.text.field_migration_id
     - field.field.paragraph.text.field_text
     - paragraphs.paragraphs_type.text
   module:
@@ -14,6 +15,15 @@ targetEntityType: paragraph
 bundle: text
 mode: default
 content:
+  field_migration_id:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
   field_text:
     weight: 0
     label: hidden

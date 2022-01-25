@@ -1,0 +1,20 @@
+uuid: 1a550162-04fb-47ce-b2f4-62b68dc2b762
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_migration_id
+field_name: field_migration_id
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

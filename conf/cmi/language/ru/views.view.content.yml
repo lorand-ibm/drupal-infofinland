@@ -9,7 +9,6 @@ display:
           label: Заголовок
         type:
           label: 'Тип материала'
-          separator: ', '
         name:
           label: Автор
         status:

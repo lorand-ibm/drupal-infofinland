@@ -2,7 +2,7 @@ label: نگهبان
 description: 'جدیدترین گزارش‌ها'
 display:
   default:
-    display_title: مدیر
+    display_title: پیش‌فرض
     display_options:
       exposed_form:
         options:

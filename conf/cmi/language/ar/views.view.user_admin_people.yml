@@ -35,8 +35,6 @@ display:
           label: 'آخر وصول'
         operations:
           label: عمليات
-        mail:
-          separator: ', '
       filters:
         status:
           group_info:
