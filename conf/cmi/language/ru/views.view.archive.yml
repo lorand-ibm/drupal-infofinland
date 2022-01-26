@@ -1,9 +1,13 @@
+label: Archive
+description: 'All content, by month.'
 display:
   default:
     display_title: 'По умолчанию'
     display_options:
+      title: 'Monthly archive'
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Сбросить
           exposed_sorts_label: 'Сортировать по'
           sort_asc_label: 'По возрастанию'
@@ -14,5 +18,7 @@ display:
             items_per_page_label: 'Элементов на страницу'
             items_per_page_options_all_label: '- Все -'
             offset_label: Пропустить
+  block_1:
+    display_title: Block
   page_1:
     display_title: Страница

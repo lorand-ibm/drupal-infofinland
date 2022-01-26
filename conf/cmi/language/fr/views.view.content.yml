@@ -53,6 +53,9 @@ display:
           expose:
             label: Langue
       title: Contenu
+      empty:
+        area_text_custom:
+          content: 'No content available.'
     display_title: 'Par défaut'
   page_1:
     display_options:
@@ -60,4 +63,6 @@ display:
         title: Contenu
       tab_options:
         title: Contenu
+        description: 'Find and manage content'
 label: Contenu
+description: 'Find and manage content.'

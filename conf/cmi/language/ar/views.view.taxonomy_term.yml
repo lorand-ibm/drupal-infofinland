@@ -1,3 +1,4 @@
+label: 'Taxonomy term'
 display:
   default:
     display_title: الافتراضي
@@ -18,5 +19,7 @@ display:
         tid:
           exception:
             title: الكل
+  feed_1:
+    display_title: Feed
   page_1:
     display_title: الصفحة

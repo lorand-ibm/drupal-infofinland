@@ -1,9 +1,12 @@
+label: 'Taxonomy term'
+description: 'Content belonging to a certain taxonomy term.'
 display:
   default:
     display_title: Förvald
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
@@ -18,5 +21,7 @@ display:
         tid:
           exception:
             title: Alla
+  feed_1:
+    display_title: Feed
   page_1:
     display_title: Sida

@@ -20,16 +20,11 @@ display:
           admin_label: Icône
         severity:
           label: Importance
-        type:
-          label: Type
         name:
           label: Utilisateur
         link:
           label: Actions
       filters:
-        type:
-          expose:
-            label: Type
         severity:
           expose:
             label: Importance

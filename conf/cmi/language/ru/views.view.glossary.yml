@@ -1,9 +1,12 @@
+label: Glossary
+description: 'All content, by letter.'
 display:
   default:
     display_title: 'По умолчанию'
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Сбросить
           exposed_sorts_label: 'Сортировать по'
           sort_asc_label: 'По возрастанию'
@@ -19,5 +22,12 @@ display:
           label: Заголовок
         name:
           label: Автор
+        changed:
+          label: 'Last update'
+  attachment_1:
+    display_title: Attachment
   page_1:
     display_title: Страница
+    display_options:
+      menu:
+        title: Glossary

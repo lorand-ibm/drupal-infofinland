@@ -1,0 +1,10 @@
+uuid: 1a57fa37-0528-4f26-a9e4-3ea810d766b8
+langcode: en
+status: true
+dependencies: {  }
+id: helsinki_kanava
+label: 'Helsinki kanava'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -19,6 +19,12 @@ status_activated:
   body: "[user:display-name],\r\n\r\nDitt konto på [site:name] har aktiverats.\r\n\r\nDu kan nu logga in genom att klicka på denna länk eller genom att kopiera den till din webbläsare:\r\n\r\n[user:one-time-login-url]\r\n\r\nDenna länk kan enbart användas en gång och kommer att leda dig till en sida där du kan ange ditt lösenord.\r\n\r\nEfter att du angett ett lösenord kommer du i framtiden att kunna logga in på [site:login-url] genom att använda:\r\n\r\nanvändarnamn: [user:account-name]\r\nlösenord: Ditt lösenord\r\n\r\n-- Administratörerna på [site:name]"
   subject: 'Kontodetaljer för [user:display-name] på [site:name] (godkänd)'
 status_blocked:
+  body: |-
+    [user:display-name],
+
+    Your account on [site:name] has been blocked.
+
+    --  [site:name] team
   subject: 'Kontouppgifter för [user:display-name] på [site:name] (spärrad)'
 status_canceled:
   body: "[user:display-name],\r\n\r\nDitt konto på [site:name] har tagits bort.\r\n\r\n--  Administratörerna på [site:name]"

@@ -20,6 +20,8 @@ display:
           action_title: Eylem
         title:
           label: Başlık
+        type:
+          label: 'Content Type'
         name:
           label: Yazar
         status:
@@ -49,6 +51,7 @@ display:
         langcode:
           expose:
             label: Dil
+    display_title: Master
   overview:
     display_options:
       tab_options:
