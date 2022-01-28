@@ -6,9 +6,11 @@ dependencies:
     - field.storage.paragraph.field_accordion_item_content
     - paragraphs.paragraphs_type.accordion_item
     - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.helsinki_kanava
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.language_link_collection
     - paragraphs.paragraphs_type.ptv_contact
+    - paragraphs.paragraphs_type.remote_video
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -34,59 +36,67 @@ settings:
       text: text
       language_link_collection: language_link_collection
       ptv_contact: ptv_contact
+      remote_video: remote_video
+      helsinki_kanava: helsinki_kanava
     target_bundles_drag_drop:
       accordion:
-        weight: 12
+        weight: -41
         enabled: false
       accordion_item:
-        weight: 13
+        weight: -40
         enabled: false
       banner:
-        weight: 21
+        weight: -33
         enabled: false
       columns:
         enabled: true
-        weight: 14
+        weight: -39
       content_cards:
-        weight: 23
+        weight: -30
+        enabled: false
+      external_video:
+        weight: -29
         enabled: false
       gallery:
-        weight: 15
+        weight: -38
         enabled: false
       gallery_slide:
-        weight: 16
+        weight: -37
         enabled: false
       heading:
-        weight: 26
+        weight: -28
         enabled: false
+      helsinki_kanava:
+        enabled: true
+        weight: -22
       hero:
-        weight: 17
+        weight: -36
         enabled: false
       image:
         enabled: true
-        weight: 18
+        weight: -35
       language_link:
-        weight: 29
+        weight: -27
         enabled: false
       language_link_collection:
         enabled: true
-        weight: 30
+        weight: -26
       liftup_with_image:
-        weight: 31
+        weight: -25
         enabled: false
       list_of_links:
-        weight: 20
+        weight: -34
         enabled: false
       list_of_links_item:
-        weight: 21
+        weight: -32
         enabled: false
       ptv_contact:
         enabled: true
-        weight: 34
+        weight: -24
       remote_video:
-        weight: 35
-        enabled: false
+        enabled: true
+        weight: -23
       text:
         enabled: true
-        weight: 22
+        weight: -31
 field_type: entity_reference_revisions
