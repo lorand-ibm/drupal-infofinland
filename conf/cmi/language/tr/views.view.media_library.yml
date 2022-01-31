@@ -19,6 +19,8 @@ display:
           action_title: Eylem
       filters:
         status:
+          expose:
+            label: 'Publishing status'
           group_info:
             label: Yayında
             group_items:
@@ -26,31 +28,69 @@ display:
                 title: Yayında
               2:
                 title: 'Yayında değil'
+        name:
+          expose:
+            label: Name
+        bundle:
+          expose:
+            label: 'Media type'
+          group_info:
+            label: 'Media type'
         langcode:
           expose:
             label: Dil
+      sorts:
+        created:
+          expose:
+            label: 'Newest first'
+      title: Media
   page:
     display_title: Sayfa
     display_options:
       fields:
         media_bulk_form:
           action_title: Eylem
+        edit_media:
+          text: Edit
         delete_media:
           text: Sil
   widget:
+    display_title: Widget
     display_options:
+      filters:
+        name:
+          expose:
+            label: Name
       arguments:
         bundle:
           exception:
             title: Tümü
+      header:
+        display_link_grid:
+          label: Grid
+        display_link_table:
+          label: Table
   widget_table:
     display_options:
       fields:
+        thumbnail__target_id:
+          label: Thumbnail
+        name:
+          label: Name
         uid:
           label: Yazar
         changed:
           label: Güncellendi
+      filters:
+        name:
+          expose:
+            label: Name
       arguments:
         bundle:
           exception:
             title: Tümü
+      header:
+        display_link_grid:
+          label: Grid
+        display_link_table:
+          label: Table

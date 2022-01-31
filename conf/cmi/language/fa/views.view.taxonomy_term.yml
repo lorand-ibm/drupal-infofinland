@@ -1,9 +1,11 @@
+label: 'Taxonomy term'
 display:
   default:
     display_title: پیش‌فرض
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: بازنشانی
           exposed_sorts_label: 'مرتب کن بر اساس'
           sort_asc_label: صعودی
@@ -18,5 +20,7 @@ display:
         tid:
           exception:
             title: همه
+  feed_1:
+    display_title: Feed
   page_1:
     display_title: صفحه

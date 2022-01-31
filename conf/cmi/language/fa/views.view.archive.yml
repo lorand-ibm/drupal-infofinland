@@ -1,9 +1,12 @@
+label: Archive
 display:
   default:
     display_title: پیش‌فرض
     display_options:
+      title: 'Monthly archive'
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: بازنشانی
           exposed_sorts_label: 'مرتب کن بر اساس'
           sort_asc_label: صعودی
@@ -14,5 +17,7 @@ display:
             items_per_page_label: 'آیتم‌ها در هر صفحه'
             items_per_page_options_all_label: '- همه -'
             offset_label: جابجایی
+  block_1:
+    display_title: Block
   page_1:
     display_title: صفحه

@@ -1,10 +1,18 @@
+label: 'Recent content'
+description: 'Recent content.'
 display:
   default:
     display_title: Förvald
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
           sort_desc_label: Fallande
+      title: 'Recent content'
+      empty:
+        area_text_custom:
+          content: 'No content available.'
+      use_more_text: More

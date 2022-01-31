@@ -1,0 +1,10 @@
+uuid: bdd3ef34-0366-47a3-9403-18c26285c037
+langcode: en
+status: true
+dependencies: {  }
+id: external_video
+label: 'External video'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

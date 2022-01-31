@@ -4,7 +4,18 @@ display:
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: بازنشانی
           exposed_sorts_label: 'مرتب کن بر اساس'
           sort_asc_label: صعودی
           sort_desc_label: نزولی
+      filters:
+        access:
+          expose:
+            label: 'Last access'
+            description: 'A user is considered online for this long after they have last viewed a page.'
+      title: 'Who''s online'
+  who_s_online_block:
+    display_title: 'Who''s online'
+    display_options:
+      block_description: 'Who''s online'

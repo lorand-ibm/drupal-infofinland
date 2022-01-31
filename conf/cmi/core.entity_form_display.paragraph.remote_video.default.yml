@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.remote_video.field_remote_video
+    - field.field.paragraph.remote_video.field_video_title
     - paragraphs.paragraphs_type.remote_video
   module:
     - media_library
@@ -20,6 +21,14 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+    region: content
+  field_video_title:
+    weight: 11
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   translation:
     weight: 10

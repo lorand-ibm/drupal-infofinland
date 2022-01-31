@@ -1,3 +1,4 @@
+label: Media
 display:
   default:
     display_title: Varsayılan
@@ -23,6 +24,10 @@ display:
       fields:
         media_bulk_form:
           action_title: Eylem
+        thumbnail__target_id:
+          label: Thumbnail
+        name:
+          label: 'Media name'
         bundle:
           label: Tip
         uid:
@@ -37,10 +42,15 @@ display:
         operations:
           label: İşlemler
       filters:
+        name:
+          expose:
+            label: 'Media name'
         bundle:
           expose:
             label: Tip
         status:
+          expose:
+            label: 'True'
           group_info:
             label: 'Yayın durumu'
             group_items:
@@ -51,3 +61,9 @@ display:
         langcode:
           expose:
             label: Dil
+      title: Media
+  media_page_list:
+    display_title: Media
+    display_options:
+      menu:
+        title: Media

@@ -1,4 +1,5 @@
 label: 'Uusin sisältö'
+description: 'Recent content.'
 display:
   default:
     display_title: Oletus

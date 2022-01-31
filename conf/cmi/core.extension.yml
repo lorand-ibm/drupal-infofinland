@@ -110,6 +110,7 @@ module:
   inline_entity_form: 1
   paragraphs_asymmetric_translation_widgets: 1
   pathauto: 1
+  structure_sync: 1
   content_translation: 10
   views: 10
   paragraphs: 11
