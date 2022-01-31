@@ -29,7 +29,6 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       text: text
       heading: heading
@@ -40,10 +39,11 @@ settings:
       language_link_collection: language_link_collection
       ptv_contact: ptv_contact
       helsinki_kanava: helsinki_kanava
+    negate: 0
     target_bundles_drag_drop:
       accordion:
-        enabled: true
         weight: -39
+        enabled: true
       accordion_item:
         weight: -38
         enabled: false
@@ -51,8 +51,8 @@ settings:
         weight: -37
         enabled: false
       columns:
-        enabled: true
         weight: -36
+        enabled: true
       content_cards:
         weight: -35
         enabled: false
@@ -66,23 +66,23 @@ settings:
         weight: -33
         enabled: false
       heading:
-        enabled: true
         weight: -40
-      helsinki_kanava:
         enabled: true
+      helsinki_kanava:
         weight: -22
+        enabled: true
       hero:
         weight: -32
         enabled: false
       image:
-        enabled: true
         weight: -31
+        enabled: true
       language_link:
         weight: -26
         enabled: false
       language_link_collection:
-        enabled: true
         weight: -24
+        enabled: true
       liftup_with_image:
         weight: -30
         enabled: false
@@ -93,12 +93,12 @@ settings:
         weight: -27
         enabled: false
       ptv_contact:
-        enabled: true
         weight: -23
+        enabled: true
       remote_video:
-        enabled: true
         weight: -25
-      text:
         enabled: true
+      text:
         weight: -41
+        enabled: true
 field_type: entity_reference_revisions

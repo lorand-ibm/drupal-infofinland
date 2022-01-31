@@ -9,7 +9,6 @@ display:
           submit_button: Filtro
           reset_button_label: Restablecer
           exposed_sorts_label: 'Ordenar por'
-
       pager:
         options:
           expose:

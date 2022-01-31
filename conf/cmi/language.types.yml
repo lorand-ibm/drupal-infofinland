@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: gawTvkWy3VtBL-eboyiJTQFB-zR0iRt05ZHMgObdlvQ
 all:
   - language_interface
   - language_content
@@ -25,6 +27,7 @@ negotiation:
   language_interface:
     enabled:
       language-user-admin: -20
+      language-user: -19
       language-url: -18
       language-selected: -15
     method_weights:
@@ -34,5 +37,3 @@ negotiation:
       language-session: -17
       language-browser: -16
       language-selected: -15
-_core:
-  default_config_hash: gawTvkWy3VtBL-eboyiJTQFB-zR0iRt05ZHMgObdlvQ

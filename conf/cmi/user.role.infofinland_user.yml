@@ -1,7 +1,37 @@
 uuid: 4d83c1db-a631-4b09-a07d-45bffd4781f8
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - media.type.file
+    - media.type.image
+    - media.type.remote_video
+    - media.type.soundcloud
+    - node.type.article
+    - node.type.landing_page
+    - node.type.link
+    - node.type.office_contact_info
+    - node.type.page
+    - taxonomy.vocabulary.colors
+    - taxonomy.vocabulary.language
+    - taxonomy.vocabulary.municipalitys
+    - taxonomy.vocabulary.organisaatiot
+  module:
+    - content_translation
+    - file
+    - helfi_api_base
+    - language
+    - locale
+    - media
+    - menu_link_content
+    - node
+    - paragraphs
+    - path
+    - pathauto
+    - scheduler
+    - system
+    - taxonomy
+    - toolbar
 id: infofinland_user
 label: InfoFinland-käyttäjä
 weight: 3
@@ -36,7 +66,6 @@ permissions:
   - 'create remote_video media'
   - 'create soundcloud media'
   - 'create terms in colors'
-  - 'create terms in keywords'
   - 'create terms in language'
   - 'create terms in municipalitys'
   - 'create terms in organisaatiot'
@@ -70,11 +99,9 @@ permissions:
   - 'delete page revisions'
   - 'delete remote entities'
   - 'delete terms in colors'
-  - 'delete terms in keywords'
   - 'delete terms in language'
   - 'delete terms in municipalitys'
   - 'delete terms in organisaatiot'
-  - 'display eu cookie compliance popup'
   - 'edit any article content'
   - 'edit any file media'
   - 'edit any image media'
@@ -95,7 +122,6 @@ permissions:
   - 'edit own soundcloud media'
   - 'edit remote entities'
   - 'edit terms in colors'
-  - 'edit terms in keywords'
   - 'edit terms in language'
   - 'edit terms in municipalitys'
   - 'edit terms in organisaatiot'
@@ -114,7 +140,6 @@ permissions:
   - 'translate file media'
   - 'translate image media'
   - 'translate interface'
-  - 'translate keywords taxonomy_term'
   - 'translate landing_page node'
   - 'translate language taxonomy_term'
   - 'translate link node'

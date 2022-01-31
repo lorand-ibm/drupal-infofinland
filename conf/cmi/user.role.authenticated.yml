@@ -1,7 +1,14 @@
 uuid: 118b6884-3cbe-44af-be73-dc1a37f6393e
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - filter
+    - helfi_api_base
+    - media
+    - system
 _core:
   default_config_hash: 83Nuup-6oYkkdAsvg3nrR2pBOgtTXEV1JrzpCCLkYLM
 id: authenticated
@@ -10,7 +17,6 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'display eu cookie compliance popup'
   - 'use text format full_html'
   - 'view media'
   - 'view remote entities'

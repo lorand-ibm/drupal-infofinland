@@ -33,7 +33,9 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_content:
+    type: paragraphs_classic_asymmetric
     weight: 18
+    region: content
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -42,18 +44,18 @@ content:
       form_display_mode: default
       default_paragraph_type: text
     third_party_settings: {  }
-    type: paragraphs_classic_asymmetric
-    region: content
   field_description:
+    type: string_textarea
     weight: 4
+    region: content
     settings:
       rows: 3
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_hero:
+    type: paragraphs
     weight: 6
+    region: content
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -69,8 +71,6 @@ content:
         collapse_edit_all: '0'
         duplicate: '0'
     third_party_settings: {  }
-    type: paragraphs
-    region: content
   field_metatags:
     type: metatag_firehose
     weight: 19
@@ -79,13 +79,13 @@ content:
       sidebar: true
     third_party_settings: {  }
   field_page_name:
+    type: string_textfield
     weight: 2
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_url:
     type: string_textfield
     weight: 3
@@ -95,12 +95,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_use_anchor_links:
+    type: boolean_checkbox
     weight: 5
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   langcode:
     type: language_select
     weight: 0
@@ -116,10 +116,10 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 10
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
@@ -134,17 +134,17 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 13
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 11
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -162,12 +162,12 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 7
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default

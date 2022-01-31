@@ -14,23 +14,23 @@ bundle: language_link
 mode: default
 content:
   field_language:
+    type: select2_entity_reference
     weight: 1
+    region: content
     settings:
+      width: 100%
+      autocomplete: false
       match_operator: CONTAINS
       match_limit: 10
-      autocomplete: false
-      width: 100%
     third_party_settings: {  }
-    type: select2_entity_reference
-    region: content
   field_language_link:
+    type: string_textarea
     weight: 2
+    region: content
     settings:
       rows: 1
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
 hidden:
   created: true
   status: true
