@@ -1,3 +1,4 @@
+label: 'Who''s new'
 display:
   default:
     display_title: الافتراضي
@@ -9,6 +10,9 @@ display:
           exposed_sorts_label: 'الترتيب حسب'
           sort_asc_label: تصاعدي
           sort_desc_label: تنازلي
+      title: 'Who''s new'
   block_1:
+    display_title: 'Who''s new'
     display_options:
+      block_description: 'Who''s new'
       block_category: المستخدم

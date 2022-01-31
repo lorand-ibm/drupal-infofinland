@@ -1,9 +1,12 @@
+label: Glossary
+description: 'All content, by letter.'
 display:
   default:
     display_title: Varsayılan
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Sıfırla
           exposed_sorts_label: 'Sıralama anahtarı'
           sort_asc_label: Artan
@@ -19,5 +22,12 @@ display:
           label: Başlık
         name:
           label: Yazar
+        changed:
+          label: 'Last update'
+  attachment_1:
+    display_title: Attachment
   page_1:
     display_title: Sayfa
+    display_options:
+      menu:
+        title: Glossary

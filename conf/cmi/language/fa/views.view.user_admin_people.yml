@@ -1,3 +1,5 @@
+label: People
+description: 'Find and manage people interacting with your site.'
 display:
   default:
     display_title: پیش‌فرض
@@ -16,13 +18,52 @@ display:
             items_per_page_options_all_label: '- همه -'
             offset_label: جابجایی
       fields:
+        user_bulk_form:
+          label: 'Bulk update'
+        name:
+          label: Username
         status:
           label: وضعیت
+          settings:
+            format_custom_true: Active
+            format_custom_false: Blocked
+        roles_target_id:
+          label: Roles
+        created:
+          label: 'Member for'
+        access:
+          label: 'Last access'
         operations:
           label: کارکردها
       filters:
+        combine:
+          expose:
+            label: 'Name or email contains'
         status:
           group_info:
             label: وضعیت
+            group_items:
+              1:
+                title: Active
+              2:
+                title: Blocked
+        roles_target_id:
+          expose:
+            label: Role
+        permission:
+          expose:
+            label: Permission
+      title: People
+      empty:
+        area_text_custom:
+          content: 'No people available.'
+      use_more_text: more
   page_1:
     display_title: صفحه
+    display_options:
+      menu:
+        title: List
+        description: 'Find and manage people interacting with your site.'
+      tab_options:
+        title: People
+        description: 'Manage user accounts, roles, and permissions.'

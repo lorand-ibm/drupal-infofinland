@@ -1,7 +1,12 @@
 uuid: cfc4ffc6-cdcf-4c6f-bf75-1148741d7364
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: null
 _core:
   default_config_hash: Oa2agR_t9WunrVJl4JGuv32as0WLOmEEgaGYehqOInE
 id: remote_video
@@ -12,7 +17,6 @@ queue_thumbnail_downloads: false
 new_revision: false
 source_configuration:
   thumbnails_directory: 'public://oembed_thumbnails'
-  providers:
-    - YouTube
+  providers: {  }
   source_field: field_media_oembed_video
 field_map: {  }

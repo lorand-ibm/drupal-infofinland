@@ -1,3 +1,4 @@
+label: Files
 display:
   default:
     display_title: Varsayılan
@@ -19,13 +20,44 @@ display:
             items_per_page_options_all_label: '- Tümü -'
             offset_label: 'Başlangıç değeri'
       fields:
+        filename:
+          label: Name
+        filemime:
+          label: 'MIME type'
+        filesize:
+          label: Size
         status:
           label: Durum
+          settings:
+            format_custom_false: Temporary
+            format_custom_true: Permanent
+        created:
+          label: 'Upload date'
+        changed:
+          label: 'Changed date'
+        count:
+          label: 'Used in'
       filters:
+        filename:
+          expose:
+            label: Filename
+        filemime:
+          expose:
+            label: 'MIME type'
         status:
           expose:
             label: Durum
+      title: Files
+      empty:
+        area_text_custom:
+          content: 'No files available.'
+  page_1:
+    display_title: 'Files overview'
+    display_options:
+      menu:
+        title: Files
   page_2:
+    display_title: 'File usage'
     display_options:
       pager:
         options:
@@ -36,7 +68,18 @@ display:
             items_per_page_label: 'Sayfa başına öğe sayısı'
             items_per_page_options_all_label: '- Tümü -'
             offset_label: 'Başlangıç değeri'
+      fields:
+        entity_label:
+          label: Entity
+        type:
+          label: 'Entity type'
+        module:
+          label: 'Registering module'
+        count:
+          label: 'Use count'
+      title: 'File usage'
       arguments:
         fid:
           exception:
             title: Tümü
+          title: 'File usage information for {{ arguments.fid }}'

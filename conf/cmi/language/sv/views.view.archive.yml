@@ -1,9 +1,13 @@
+label: Archive
+description: 'All content, by month.'
 display:
   default:
     display_title: Förvald
     display_options:
+      title: 'Monthly archive'
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande

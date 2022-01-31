@@ -1,5 +1,7 @@
+label: Redirect
 display:
   default:
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -34,5 +36,6 @@ display:
         language:
           expose:
             label: 'Özgün dil'
+      title: Redirect
   page_1:
     display_title: Sayfa
