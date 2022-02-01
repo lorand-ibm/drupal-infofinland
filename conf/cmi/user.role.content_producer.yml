@@ -7,7 +7,6 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - media.type.soundcloud
-    - node.type.article
     - node.type.landing_page
     - node.type.link
     - node.type.office_contact_info
@@ -63,12 +62,10 @@ permissions:
   - 'edit own page content'
   - 'edit own remote_video media'
   - 'edit own soundcloud media'
-  - 'revert article revisions'
   - 'revert landing_page revisions'
   - 'revert link revisions'
   - 'revert office_contact_info revisions'
   - 'revert page revisions'
-  - 'translate article node'
   - 'translate editable entities'
   - 'translate file media'
   - 'translate image media'
@@ -82,7 +79,6 @@ permissions:
   - 'update media'
   - 'view all media revisions'
   - 'view all revisions'
-  - 'view article revisions'
   - 'view landing_page revisions'
   - 'view link revisions'
   - 'view office_contact_info revisions'

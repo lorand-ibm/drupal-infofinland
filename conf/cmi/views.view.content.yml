@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_page_name
-    - node.type.article
     - node.type.landing_page
     - node.type.page
   module:
@@ -506,7 +505,6 @@ display:
           plugin_id: bundle
           operator: in
           value:
-            article: article
             page: page
             landing_page: landing_page
           group: 1
@@ -608,6 +606,14 @@ display:
             sv: sv
             en: en
             ru: ru
+            et: et
+            fr: fr
+            so: so
+            es: es
+            tr: tr
+            zh: zh
+            fa: fa
+            ar: ar
           group: 1
           exposed: true
           expose:
@@ -626,7 +632,10 @@ display:
               authenticated: authenticated
               anonymous: '0'
               admin: '0'
+              infofinland_user: '0'
               content_producer: '0'
+              municipal_editor: '0'
+              nextjs: '0'
             reduce: true
           is_grouped: false
           group_info:
@@ -664,7 +673,6 @@ display:
           plugin_id: bundle
           operator: in
           value:
-            article: article
             page: page
             landing_page: landing_page
           group: 1

@@ -73,6 +73,9 @@
             },
             "drupal/decoupled_router": {
                 "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2021-05-05/3111456-34.patch"
+            },
+            "drupal/paragraphs_asymmetric_translation_widgets": {
+                "3175491 - Add support for Claro and Gin themes": "https://www.drupal.org/files/issues/2020-11-03/3175491-2.patch"
             }
         },
         "installer-paths": {

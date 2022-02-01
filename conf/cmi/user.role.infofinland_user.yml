@@ -7,7 +7,6 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - media.type.soundcloud
-    - node.type.article
     - node.type.landing_page
     - node.type.link
     - node.type.office_contact_info
@@ -53,7 +52,6 @@ permissions:
   - 'administer users'
   - 'cancel account'
   - 'change own username'
-  - 'create article content'
   - 'create content translations'
   - 'create file media'
   - 'create image media'
@@ -71,7 +69,6 @@ permissions:
   - 'create terms in organisaatiot'
   - 'create url aliases'
   - 'delete all revisions'
-  - 'delete any article content'
   - 'delete any file media'
   - 'delete any image media'
   - 'delete any landing_page content'
@@ -81,13 +78,11 @@ permissions:
   - 'delete any page content'
   - 'delete any remote_video media'
   - 'delete any soundcloud media'
-  - 'delete article revisions'
   - 'delete content translations'
   - 'delete landing_page revisions'
   - 'delete link revisions'
   - 'delete media'
   - 'delete office_contact_info revisions'
-  - 'delete own article content'
   - 'delete own file media'
   - 'delete own image media'
   - 'delete own landing_page content'
@@ -102,7 +97,6 @@ permissions:
   - 'delete terms in language'
   - 'delete terms in municipalitys'
   - 'delete terms in organisaatiot'
-  - 'edit any article content'
   - 'edit any file media'
   - 'edit any image media'
   - 'edit any landing_page content'
@@ -111,7 +105,6 @@ permissions:
   - 'edit any page content'
   - 'edit any remote_video media'
   - 'edit any soundcloud media'
-  - 'edit own article content'
   - 'edit own file media'
   - 'edit own image media'
   - 'edit own landing_page content'
@@ -128,14 +121,12 @@ permissions:
   - 'link to any page'
   - 'notify of path changes'
   - 'revert all revisions'
-  - 'revert article revisions'
   - 'revert landing_page revisions'
   - 'revert link revisions'
   - 'revert office_contact_info revisions'
   - 'revert page revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
-  - 'translate article node'
   - 'translate editable entities'
   - 'translate file media'
   - 'translate image media'
@@ -155,7 +146,6 @@ permissions:
   - 'update media'
   - 'view all media revisions'
   - 'view all revisions'
-  - 'view article revisions'
   - 'view landing_page revisions'
   - 'view link revisions'
   - 'view office_contact_info revisions'
