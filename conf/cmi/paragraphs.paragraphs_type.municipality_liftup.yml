@@ -1,0 +1,10 @@
+uuid: 890d5536-2aa0-4a4a-8ef3-9fee24f60d4f
+langcode: en
+status: true
+dependencies: {  }
+id: municipality_liftup
+label: Kuntanosto
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
