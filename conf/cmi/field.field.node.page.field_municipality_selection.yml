@@ -1,0 +1,29 @@
+uuid: 0157cd6b-9d5a-4cee-90cd-01a4f2049748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_municipality_selection
+    - node.type.page
+    - taxonomy.vocabulary.language
+id: node.page.field_municipality_selection
+field_name: field_municipality_selection
+entity_type: node
+bundle: page
+label: Kunta
+description: 'Valitse kunta, johon sivu kuuluu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      language: language
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

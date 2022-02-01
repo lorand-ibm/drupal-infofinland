@@ -15,4 +15,4 @@ id: node.office_contact_info
 target_entity_type_id: node
 target_bundle: office_contact_info
 default_langcode: fi
-language_alterable: true
+language_alterable: false

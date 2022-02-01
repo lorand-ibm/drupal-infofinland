@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
+    - field.field.node.page.field_municipality_selection
     - field.field.node.page.field_page_name
     - field.field.node.page.field_url
     - field.field.node.page.field_use_anchor_links
@@ -21,6 +22,14 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
+  field_municipality_selection:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_page_name:
     type: string
     label: above
