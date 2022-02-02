@@ -6,5 +6,5 @@ id: municipality_liftup
 label: Kuntanosto
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Valtakunnalliselle sivulle asetettava sisältöblokki, joka viittaa kuntasivuihin ja näyttää frontissa sieltä saatavat sisältönostot.'
 behavior_plugins: {  }

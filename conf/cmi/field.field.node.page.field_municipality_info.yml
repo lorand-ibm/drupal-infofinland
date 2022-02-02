@@ -1,0 +1,94 @@
+uuid: edc96ae7-5bd8-417c-b733-c089a1369877
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_municipality_info
+    - node.type.page
+    - paragraphs.paragraphs_type.municipality_info
+  module:
+    - entity_reference_revisions
+id: node.page.field_municipality_info
+field_name: field_municipality_info
+entity_type: node
+bundle: page
+label: 'Nostot valtakunnallisille sivuille'
+description: 'Valtakunnalliselle sivulle nousevat tiedot.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      municipality_info: municipality_info
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 23
+        enabled: false
+      accordion_item:
+        weight: 24
+        enabled: false
+      banner:
+        weight: 25
+        enabled: false
+      columns:
+        weight: 26
+        enabled: false
+      content_cards:
+        weight: 27
+        enabled: false
+      external_video:
+        weight: 28
+        enabled: false
+      gallery:
+        weight: 29
+        enabled: false
+      gallery_slide:
+        weight: 30
+        enabled: false
+      heading:
+        weight: 31
+        enabled: false
+      helsinki_kanava:
+        weight: 32
+        enabled: false
+      hero:
+        weight: 33
+        enabled: false
+      image:
+        weight: 34
+        enabled: false
+      language_link:
+        weight: 35
+        enabled: false
+      language_link_collection:
+        weight: 36
+        enabled: false
+      liftup_with_image:
+        weight: 37
+        enabled: false
+      list_of_links:
+        weight: 38
+        enabled: false
+      list_of_links_item:
+        weight: 39
+        enabled: false
+      municipality_info:
+        weight: 40
+        enabled: true
+      municipality_liftup:
+        weight: 41
+        enabled: false
+      ptv_contact:
+        weight: 42
+        enabled: false
+      remote_video:
+        weight: 43
+        enabled: false
+      text:
+        weight: 44
+        enabled: false
+field_type: entity_reference_revisions

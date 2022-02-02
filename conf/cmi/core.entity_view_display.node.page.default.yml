@@ -8,12 +8,14 @@ dependencies:
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
+    - field.field.node.page.field_municipality_info
     - field.field.node.page.field_municipality_selection
     - field.field.node.page.field_page_name
     - field.field.node.page.field_url
     - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
+    - entity_reference_revisions
     - user
 _core:
   default_config_hash: QoKzK_LdQQXrmb4YyhrEEfU-oYAjoKiamaP7nWWRs9A
@@ -22,6 +24,15 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
+  field_municipality_info:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
   field_municipality_selection:
     type: entity_reference_label
     label: above
