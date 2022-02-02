@@ -1,0 +1,10 @@
+uuid: f8f94e6e-f0ad-4d6c-87ea-d832bbb14c4b
+langcode: en
+status: true
+dependencies: {  }
+id: municipality_info
+label: Kuntainfo
+icon_uuid: null
+icon_default: null
+description: 'Kunnan tiedot, jotka nousevat valitulle valtakunnalliselle sivulle.'
+behavior_plugins: {  }

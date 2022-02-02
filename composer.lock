@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03094118f93faa36ee98f01bbcf8c0f8",
+    "content-hash": "78df7a59f7e024cd2f71df5f4e5f902d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1867,6 +1867,51 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/allowed_formats",
                 "issues": "https://www.drupal.org/project/issues/allowed_formats"
+            }
+        },
+        {
+            "name": "drupal/ckeditor_bidi",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ckeditor_bidi.git",
+                "reference": "3.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_bidi-3.1.0.zip",
+                "reference": "3.1.0",
+                "shasum": "087905fb1ad42d3d85c88cefeef61b38aa9fe92f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.1.0",
+                    "datestamp": "1592657100",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Israel Shmueli",
+                    "homepage": "https://www.drupal.org/u/israelshmueli"
+                }
+            ],
+            "description": "Adds RTL/LTR buttons to Drupal 8/9 CKEditor toolbar by integrating CKEditor BiDi (Text Direction) plugin.",
+            "homepage": "https://www.drupal.org/project/ckeditor_bidi",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ckeditor_bidi",
+                "issues": "https://www.drupal.org/project/issues/ckeditor_bidi"
             }
         },
         {

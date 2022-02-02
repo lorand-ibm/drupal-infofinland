@@ -1,0 +1,25 @@
+uuid: 04bbf7c9-ed96-4daf-b648-ae6797ca8090
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.municipality_liftup.field_municipality_page
+    - paragraphs.paragraphs_type.municipality_liftup
+id: paragraph.municipality_liftup.default
+targetEntityType: paragraph
+bundle: municipality_liftup
+mode: default
+content:
+  field_municipality_page:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -11,6 +11,7 @@ dependencies:
     - paragraphs.paragraphs_type.helsinki_kanava
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.language_link_collection
+    - paragraphs.paragraphs_type.municipality_liftup
     - paragraphs.paragraphs_type.ptv_contact
     - paragraphs.paragraphs_type.remote_video
     - paragraphs.paragraphs_type.text
@@ -35,70 +36,74 @@ settings:
       accordion: accordion
       columns: columns
       image: image
-      remote_video: remote_video
       language_link_collection: language_link_collection
       ptv_contact: ptv_contact
+      municipality_liftup: municipality_liftup
+      remote_video: remote_video
       helsinki_kanava: helsinki_kanava
     negate: 0
     target_bundles_drag_drop:
       accordion:
-        weight: -39
+        weight: -41
         enabled: true
       accordion_item:
-        weight: -38
+        weight: -40
         enabled: false
       banner:
-        weight: -37
+        weight: -39
         enabled: false
       columns:
-        weight: -36
+        weight: -38
         enabled: true
       content_cards:
-        weight: -35
+        weight: -37
         enabled: false
       external_video:
-        weight: -28
-        enabled: false
-      gallery:
-        weight: -34
-        enabled: false
-      gallery_slide:
-        weight: -33
-        enabled: false
-      heading:
-        weight: -40
-        enabled: true
-      helsinki_kanava:
-        weight: -22
-        enabled: true
-      hero:
-        weight: -32
-        enabled: false
-      image:
-        weight: -31
-        enabled: true
-      language_link:
-        weight: -26
-        enabled: false
-      language_link_collection:
-        weight: -24
-        enabled: true
-      liftup_with_image:
         weight: -30
         enabled: false
-      list_of_links:
-        weight: -29
+      gallery:
+        weight: -36
         enabled: false
-      list_of_links_item:
-        weight: -27
+      gallery_slide:
+        weight: -35
         enabled: false
-      ptv_contact:
+      heading:
+        weight: -42
+        enabled: true
+      helsinki_kanava:
         weight: -23
         enabled: true
-      remote_video:
+      hero:
+        weight: -34
+        enabled: false
+      image:
+        weight: -33
+        enabled: true
+      language_link:
+        weight: -28
+        enabled: false
+      language_link_collection:
+        weight: -27
+        enabled: true
+      liftup_with_image:
+        weight: -32
+        enabled: false
+      list_of_links:
+        weight: -31
+        enabled: false
+      list_of_links_item:
+        weight: -29
+        enabled: false
+      municipality_liftup:
         weight: -25
         enabled: true
+      ptv_contact:
+        weight: -26
+        enabled: true
+      remote_video:
+        weight: -24
+        enabled: true
       text:
-        weight: -41
+        weight: -43
         enabled: true
 field_type: entity_reference_revisions

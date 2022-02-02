@@ -1,9 +1,9 @@
-uuid: a44cea34-4fea-49aa-95d9-028c23361b07
+uuid: d9b20800-bef0-4570-b0b7-b6b21f362b98
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.page
+    - paragraphs.paragraphs_type.municipality_info
   module:
     - content_translation
 third_party_settings:
@@ -11,10 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-_core:
-  default_config_hash: gmtmgLpPQOcKE9BA_eKfrCXtoWVO63kmcfythbJiz5Q
-id: node.page
-target_entity_type_id: node
-target_bundle: page
+id: paragraph.municipality_info
+target_entity_type_id: paragraph
+target_bundle: municipality_info
 default_langcode: fi
 language_alterable: false

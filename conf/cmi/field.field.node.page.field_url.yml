@@ -10,7 +10,7 @@ field_name: field_url
 entity_type: node
 bundle: page
 label: URL
-description: ''
+description: 'Sivun osoite. Tämä pitää aina olla englanniksi. Voit kirjoittaa normaalina tekstinä esim. "Moving to Finland".'
 required: true
 translatable: false
 default_value: {  }

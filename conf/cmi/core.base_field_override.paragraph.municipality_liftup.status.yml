@@ -1,0 +1,22 @@
+uuid: 60ac2725-9651-489e-9bfd-5c1972a2bd24
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.municipality_liftup
+id: paragraph.municipality_liftup.status
+field_name: status
+entity_type: paragraph
+bundle: municipality_liftup
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
