@@ -36,11 +36,13 @@ class CombineParagraphs {
         return;
       }
       foreach ($content as $row) {
+        echo PHP_EOL;
         echo "Now fixing entity " . $row->entity_id;
         $node = Node::load($row->entity_id);
         $languages = $node->getTranslationLanguages();
         $content = new ContentController;
         foreach ($languages as $langcode => $language) {
+          echo PHP_EOL;
           echo "for language " . $langcode;
           $content->combineContentParagraphs($node->getTranslation($langcode), false);
         }
