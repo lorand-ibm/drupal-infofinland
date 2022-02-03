@@ -18,16 +18,14 @@ use Drupal\node\Entity\Node;
 class CombineParagraphs {
 
   private function getLargeContent() {
-    $id = $_SERVER['argv'][3];
     $drupalDb = Database::getConnection('default', 'default');
-    $content = $drupalDb->select('node__field_content', 'nfc')
+    return $drupalDb->select('node__field_content', 'nfc')
       ->fields('nfc', ['entity_id'])
       ->groupBy('nfc.entity_id')
       ->groupBy('langcode')
       ->having('COUNT(nfc.entity_id) > :entity_id', [':entity_id' => 80])
       ->execute()
       ->fetchAll();
-    return $content;
   }
 
   public function combineTextParagraphs() {
@@ -38,17 +36,22 @@ class CombineParagraphs {
         return;
       }
       foreach ($content as $row) {
+        echo "Now fixing entity " . $row->entity_id;
         $node = Node::load($row->entity_id);
         $languages = $node->getTranslationLanguages();
         $content = new ContentController;
         foreach ($languages as $langcode => $language) {
-          $content->combineContentParagraphs($node->getTranslation($langcode));
+          echo "for language " . $langcode;
+          $content->combineContentParagraphs($node->getTranslation($langcode), false);
         }
       }
     } else {
       $content = new ContentController;
       $node = Node::load($id);
-      $content->combineContentParagraphs($node);
+      $languages = $node->getTranslationLanguages();
+      foreach ($languages as $langcode => $language) {
+        $content->combineContentParagraphs($node->getTranslation($langcode), false);
+      }
     }
   }
 }
