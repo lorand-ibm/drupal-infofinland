@@ -11,6 +11,9 @@ use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Database\Database;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\paragraphs\Entity\Paragraph;
 
 /**
  * Implements hook_form_alter().
@@ -72,6 +75,59 @@ function infofinland_common_preprocess_status_messages(&$variables) {
   }
 }
 
+function infofinland_common_entity_prepare_form(EntityInterface $entity, $operation, FormStateInterface $form_state) {
+  if (!$entity->get('field_municipality_selection')->isEmpty() && $entity->getType() === 'page') {
+    $national_page_ids = [];
+    $existing_municipality_info_paragraphs = [];
+
+    // Get municipality liftup paragraphs that have a reference to this page.
+    $drupal_db = Database::getConnection('default', 'default');
+    $results = $drupal_db->select('paragraph__field_municipality_page', 'pfmp')
+      ->fields('pfmp', ['entity_id'])
+      ->condition('field_municipality_page_target_id', $entity->id());
+    $municipality_liftup_paragraph_ids = $results->execute()->fetchCol();
+
+    // Get parent page ids of the municipality paragraphs.
+    foreach ($municipality_liftup_paragraph_ids as $paragraph_id) {
+      $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraph_id);
+      $parent_node = $paragraph->getParentEntity();
+      $national_page_ids[] = $parent_node->id();
+    }
+
+    if ($entity->hasField('field_municipality_info')) {
+      $field_municipality_info_values = $entity->get('field_municipality_info')->getValue();
+      foreach ($field_municipality_info_values as $key => $field_municipality_info_value) {
+        if ($municipality_info_paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($field_municipality_info_value['target_id'])) {
+          $existing_municipality_info_paragraphs[] = $municipality_info_paragraph->get('field_national_page')->getString();
+
+          // Remove paragraphs that aren't referenced from national pages anymore.
+          if (!in_array($municipality_info_paragraph->get('field_national_page')->getString(), $national_page_ids)) {
+            $entity->get('field_municipality_info')->removeItem($key);
+            $entity->save();
+            $municipality_info_paragraph->delete();
+          }
+        }
+      }
+    }
+
+    // Create new municipality info paragraphs, if those aren't yet existing.
+    foreach ($national_page_ids as $key => $national_page_id) {
+      if (!in_array($national_page_id, $existing_municipality_info_paragraphs)) {
+        var_dump('LISÄÄ');
+
+        $paragraph = Paragraph::create([
+          'type' => 'municipality_info',
+        ]);
+        $paragraph->isNew();
+        $paragraph->set('field_national_page', $national_page_id);
+
+        $field_municipality_info = $entity->get('field_municipality_info');
+        $field_municipality_info->appendItem($paragraph);
+      }
+    }
+  }
+}
+
 /**
  * Implements hook_form_alter().
  */
@@ -81,6 +137,13 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
   }
   $form['#attached']['library'][] = 'infofinland_common/infofinland_common';
   $node = $form_state->getFormObject()->getEntity();
+
+  //or if you want to show field based on role use:
+
+  // $current_user = \Drupal::currentUser();
+  // $roles = $current_user->getRoles();
+  // $form['your_field_name']['#access'] = in_array('editor', $roles);
+
   if ($node->id() !== null) {
     if ($node->langcode->value === 'fi') {
       return;
