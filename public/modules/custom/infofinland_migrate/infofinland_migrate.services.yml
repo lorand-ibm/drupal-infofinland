@@ -1,4 +1,0 @@
-services:
-  infofinland_common.ContentController:
-    class: Drupal\infofinland_common\Plugin\Controller
-    arguments: ['@node']

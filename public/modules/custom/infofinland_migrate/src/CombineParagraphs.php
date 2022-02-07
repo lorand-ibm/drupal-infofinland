@@ -4,7 +4,7 @@
 namespace Drupal\infofinland_migrate;
 
 use Drupal\Core\Database\Database;
-use Drupal\infofinland_common\Plugin\Controller\ContentController;
+use Drupal\infofinland_common\Plugin\ContentCombiner;
 use Drupal\node\Entity\Node;
 
 /**
@@ -12,7 +12,11 @@ use Drupal\node\Entity\Node;
  * This file is used to combine text paragraphs after migration
  * It should only be used by running it with drush
  *
- * Class FixLocalLinks
+ * drush scr public/modules/custom/infofinland_migrate/src/CombineParagraphs.php
+ *
+ * You can add an node ID as a parameter at the end of the command
+ *
+ * Class CombineParagraphs
  * @package Drupal\infofinland_migrate\Plugin\migrate
  */
 class CombineParagraphs {
@@ -40,19 +44,19 @@ class CombineParagraphs {
         echo "Now fixing entity " . $row->entity_id;
         $node = Node::load($row->entity_id);
         $languages = $node->getTranslationLanguages();
-        $content = new ContentController;
+        $contentCombiner = new ContentCombiner;
         foreach ($languages as $langcode => $language) {
           echo PHP_EOL;
           echo "for language " . $langcode;
-          $content->combineContentParagraphs($node->getTranslation($langcode), false);
+          $contentCombiner->combineContentParagraphs($node->getTranslation($langcode), false);
         }
       }
     } else {
-      $content = new ContentController;
+      $contentCombiner = new ContentCombiner;
       $node = Node::load($id);
       $languages = $node->getTranslationLanguages();
       foreach ($languages as $langcode => $language) {
-        $content->combineContentParagraphs($node->getTranslation($langcode), false);
+        $contentCombiner->combineContentParagraphs($node->getTranslation($langcode), false);
       }
     }
   }

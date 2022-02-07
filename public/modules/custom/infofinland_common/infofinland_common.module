@@ -10,8 +10,7 @@ declare(strict_types = 1);
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\infofinland_common\Plugin\Controller\ContentController;
-use Drupal\paragraphs\Entity\Paragraph;
+use Drupal\infofinland_common\Plugin\ContentCombiner;
 
 /**
  * Implements hook_form_alter().
@@ -90,7 +89,7 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
         '#weight' => '-10',
         '#value' => t('Combine content'),
         '#button_type' => 'secondary',
-        '#submit' => ['submitCombineParagraphs']
+        '#submit' => ['submitToCombineParagraphs']
       ];
     }
     if ($node->langcode->value === 'fi') {
@@ -114,10 +113,9 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
   }
 }
 
-function submitCombineParagraphs(array &$form, FormStateInterface $form_state)
+function submitToCombineParagraphs(array &$form, FormStateInterface $form_state)
 {
   $node = $form_state->getFormObject()->getEntity();
-  $content = new ContentController;
+  $content = new ContentCombiner;
   $content->combineContentParagraphs($node);
-
 }
