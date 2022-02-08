@@ -2,3 +2,16 @@
   background-color: lightgray;
   color: black;
 }
+
+#municipalityinfo-sidebar .tabledrag-toggle-weight-wrapper,
+#municipalityinfo-sidebar .field-multiple-drag,
+#municipalityinfo-sidebar .paragraphs-actions,
+#municipalityinfo-sidebar .paragraph-info,
+#municipalityinfo-sidebar #edit-field-municipality-info-add-more-icons {
+  display: none;
+}
+
+#municipalityinfo-sidebar .claro-details__content--accordion-item {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

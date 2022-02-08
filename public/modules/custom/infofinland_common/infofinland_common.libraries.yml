@@ -3,3 +3,8 @@ infofinland_common:
   css:
     base:
       css/infofinland_common.css: {}
+infofinland_admin_rtl:
+  version: 1.x
+  css:
+    base:
+      css/infofinland_admin_rtl.css: {}
