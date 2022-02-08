@@ -1,7 +1,21 @@
 uuid: ba21bc2e-7a9c-4a93-9693-2de1f942617b
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - media.type.file
+    - media.type.image
+    - media.type.remote_video
+    - media.type.soundcloud
+    - node.type.link
+    - node.type.office_contact_info
+    - node.type.page
+  module:
+    - content_translation
+    - media
+    - node
+    - system
+    - toolbar
 id: municipal_editor
 label: Kuntapäivittäjä
 weight: 4
@@ -22,7 +36,6 @@ permissions:
   - 'delete own page content'
   - 'delete own remote_video media'
   - 'delete own soundcloud media'
-  - 'display eu cookie compliance popup'
   - 'edit any office_contact_info content'
   - 'edit own file media'
   - 'edit own image media'

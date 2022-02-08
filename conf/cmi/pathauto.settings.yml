@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: Ne69dMMwlFhwkLqsxAPs20dQCSMk3iibq1pr5qrHf2I
 enabled_entity_types:
   - user
 punctuation:
@@ -50,5 +52,3 @@ safe_tokens:
   - url
   - url-brief
   - join-path-en
-_core:
-  default_config_hash: Ne69dMMwlFhwkLqsxAPs20dQCSMk3iibq1pr5qrHf2I

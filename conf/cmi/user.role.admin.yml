@@ -1,7 +1,41 @@
 uuid: d849ce62-97f0-4834-96c0-acadd0b6487f
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - media.type.file
+    - media.type.image
+    - media.type.remote_video
+    - media.type.soundcloud
+    - node.type.landing_page
+    - node.type.link
+    - node.type.office_contact_info
+    - node.type.page
+    - taxonomy.vocabulary.colors
+    - taxonomy.vocabulary.language
+    - taxonomy.vocabulary.municipalitys
+    - taxonomy.vocabulary.organisaatiot
+  module:
+    - block
+    - config_translation
+    - content_translation
+    - file
+    - helfi_api_base
+    - language
+    - locale
+    - media
+    - menu_link_content
+    - node
+    - paragraphs
+    - path
+    - pathauto
+    - redirect
+    - responsive_image
+    - scheduler
+    - simple_sitemap
+    - system
+    - taxonomy
+    - toolbar
 _core:
   default_config_hash: oDxYEw5hRkjMNuwK8kHu8mvLUk1n07pQHZPC8JiU2nE
 id: admin
@@ -20,8 +54,6 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'administer blocks'
-  - 'administer eu cookie compliance categories'
-  - 'administer eu cookie compliance popup'
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
@@ -35,7 +67,6 @@ permissions:
   - 'administer users'
   - 'cancel account'
   - 'change own username'
-  - 'create article content'
   - 'create content translations'
   - 'create file media'
   - 'create image media'
@@ -48,13 +79,11 @@ permissions:
   - 'create remote_video media'
   - 'create soundcloud media'
   - 'create terms in colors'
-  - 'create terms in keywords'
   - 'create terms in language'
   - 'create terms in municipalitys'
   - 'create terms in organisaatiot'
   - 'create url aliases'
   - 'delete all revisions'
-  - 'delete any article content'
   - 'delete any file media'
   - 'delete any image media'
   - 'delete any landing_page content'
@@ -64,13 +93,11 @@ permissions:
   - 'delete any page content'
   - 'delete any remote_video media'
   - 'delete any soundcloud media'
-  - 'delete article revisions'
   - 'delete content translations'
   - 'delete landing_page revisions'
   - 'delete link revisions'
   - 'delete media'
   - 'delete office_contact_info revisions'
-  - 'delete own article content'
   - 'delete own file media'
   - 'delete own image media'
   - 'delete own landing_page content'
@@ -82,12 +109,9 @@ permissions:
   - 'delete page revisions'
   - 'delete remote entities'
   - 'delete terms in colors'
-  - 'delete terms in keywords'
   - 'delete terms in language'
   - 'delete terms in municipalitys'
   - 'delete terms in organisaatiot'
-  - 'display eu cookie compliance popup'
-  - 'edit any article content'
   - 'edit any file media'
   - 'edit any image media'
   - 'edit any landing_page content'
@@ -96,7 +120,6 @@ permissions:
   - 'edit any page content'
   - 'edit any remote_video media'
   - 'edit any soundcloud media'
-  - 'edit own article content'
   - 'edit own file media'
   - 'edit own image media'
   - 'edit own landing_page content'
@@ -107,28 +130,23 @@ permissions:
   - 'edit own soundcloud media'
   - 'edit remote entities'
   - 'edit terms in colors'
-  - 'edit terms in keywords'
   - 'edit terms in language'
   - 'edit terms in municipalitys'
   - 'edit terms in organisaatiot'
   - 'link to any page'
   - 'notify of path changes'
   - 'revert all revisions'
-  - 'revert article revisions'
   - 'revert landing_page revisions'
   - 'revert link revisions'
   - 'revert office_contact_info revisions'
   - 'revert page revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
-  - 'translate article node'
   - 'translate configuration'
   - 'translate editable entities'
   - 'translate file media'
-  - 'translate hauki_resource'
   - 'translate image media'
   - 'translate interface'
-  - 'translate keywords taxonomy_term'
   - 'translate landing_page node'
   - 'translate language taxonomy_term'
   - 'translate link node'
@@ -144,7 +162,6 @@ permissions:
   - 'update media'
   - 'view all media revisions'
   - 'view all revisions'
-  - 'view article revisions'
   - 'view landing_page revisions'
   - 'view link revisions'
   - 'view media'

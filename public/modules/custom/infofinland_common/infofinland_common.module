@@ -11,6 +11,8 @@ use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\infofinland_common\Plugin\ContentCombiner;
+use Drupal\Core\Language\LanguageInterface;
+
 
 /**
  * Implements hook_form_alter().
@@ -113,9 +115,23 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
   }
 }
 
-function submitToCombineParagraphs(array &$form, FormStateInterface $form_state)
-{
+function submitToCombineParagraphs(array &$form, FormStateInterface $form_state) {
   $node = $form_state->getFormObject()->getEntity();
   $content = new ContentCombiner;
   $content->combineContentParagraphs($node);
+}
+
+/**
+ * Implements hook_editor_js_settings_alter().
+ *
+ * Change ckeditor lang direction to RTL for Persian and Arabic.
+ */
+function infofinland_common_editor_js_settings_alter(array &$settings) {
+  $content_language = \Drupal::languageManager()->getCurrentLanguage(LanguageInterface::TYPE_CONTENT)->getId();
+  $rtl_languages = ['fa', 'ar'];
+  if (in_array($content_language, $rtl_languages)){
+    foreach ($settings['editor']['formats'] as $name => $value) {
+      $settings['editor']['formats'][$name]['editorSettings']['contentsLangDirection'] = 'rtl';
+    }
+  }
 }

@@ -1,0 +1,29 @@
+uuid: b36f0823-fecd-4dfe-ba0f-76d90947daaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_municipality_page
+    - node.type.page
+    - paragraphs.paragraphs_type.municipality_liftup
+id: paragraph.municipality_liftup.field_municipality_page
+field_name: field_municipality_page
+entity_type: paragraph
+bundle: municipality_liftup
+label: Kuntasivu
+description: 'Lisää linkit niihin kuntasivuihin, joilta haluat sisältöä nostettavan.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

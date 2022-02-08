@@ -12,15 +12,15 @@ bundle: language_link_collection
 mode: default
 content:
   field_link_collection:
+    type: entity_reference_autocomplete_tags
     weight: 0
+    region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
-    region: content
   translation:
     weight: 10
     region: content

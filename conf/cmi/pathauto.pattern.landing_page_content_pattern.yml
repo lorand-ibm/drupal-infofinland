@@ -13,12 +13,12 @@ pattern: '[node:menu-link:parents:join-path-en]/[node:field_url]'
 selection_criteria:
   f03d9e76-b19c-46c7-822f-be9e44b8732c:
     id: node_type
-    bundles:
-      landing_page: landing_page
     negate: false
+    uuid: f03d9e76-b19c-46c7-822f-be9e44b8732c
     context_mapping:
       node: node
-    uuid: f03d9e76-b19c-46c7-822f-be9e44b8732c
+    bundles:
+      landing_page: landing_page
 selection_logic: and
 weight: -9
 relationships: {  }

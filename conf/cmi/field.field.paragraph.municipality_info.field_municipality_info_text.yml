@@ -1,0 +1,26 @@
+uuid: c2e02b10-93f6-479b-b82e-dc9c10e1840b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_municipality_info_text
+    - paragraphs.paragraphs_type.municipality_info
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - full_html
+id: paragraph.municipality_info.field_municipality_info_text
+field_name: field_municipality_info_text
+entity_type: paragraph
+bundle: municipality_info
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

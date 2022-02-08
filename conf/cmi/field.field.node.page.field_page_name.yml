@@ -10,7 +10,7 @@ field_name: field_page_name
 entity_type: node
 bundle: page
 label: Nimi
-description: ''
+description: 'Sivun nimi sisällönhallintaa varten. Ei näy varsinaisella sivulla.'
 required: false
 translatable: true
 default_value: {  }

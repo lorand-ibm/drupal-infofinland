@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
@@ -6,6 +8,7 @@ module:
   block: 0
   breakpoint: 0
   ckeditor: 0
+  ckeditor_bidi: 0
   color_field: 0
   config: 0
   config_filter: 0
@@ -124,5 +127,3 @@ theme:
   hdbt_admin: 0
   infofinland: 0
 profile: minimal
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

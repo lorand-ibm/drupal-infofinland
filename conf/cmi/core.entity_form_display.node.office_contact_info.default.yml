@@ -20,76 +20,76 @@ bundle: office_contact_info
 mode: default
 content:
   field_automated_updates:
+    type: boolean_checkbox
     weight: 10
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   field_email_address:
+    type: string_textfield
     weight: 8
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_new_data:
+    type: string_textarea
     weight: 11
+    region: content
     settings:
       rows: 1
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_phonenumber:
+    type: string_textfield
     weight: 7
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_postal_address:
+    type: string_textarea
     weight: 5
+    region: content
     settings:
       rows: 2
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_postal_address_additiona:
+    type: string_textfield
     weight: 6
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_service_hours:
+    type: string_textarea
     weight: 9
+    region: content
     settings:
       rows: 3
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_visiting_address:
+    type: string_textarea
     weight: 3
+    region: content
     settings:
       rows: 2
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_visiting_address_additiona:
+    type: string_textarea
     weight: 4
+    region: content
     settings:
       rows: 2
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   langcode:
     type: language_select
     weight: 0
