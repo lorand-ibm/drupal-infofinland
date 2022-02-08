@@ -32,6 +32,7 @@
         "drupal/migrate_tools": "^5.0",
         "drupal/next": "^1.0",
         "drupal/purge": "^3.2",
+        "drupal/readonly_field_widget": "^1.4",
         "drupal/structure_sync": "^2.0",
         "drupal/subrequests": "^3.0",
         "drupal/varnish_purge": "^2.1",
