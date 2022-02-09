@@ -39,7 +39,9 @@ function infofinland_common_tokens($type, $tokens, array $data, array $options, 
       switch ($name) {
         case 'join-path-en':
           $values = [];
+
           foreach (token_element_children($array) as $key) {
+            $field_url = FALSE;
             $uuid = substr($key, strlen('menu_link_content:'));
             $menu_link_content = \Drupal::service('entity.repository')->loadEntityByUuid('menu_link_content', $uuid);
 
