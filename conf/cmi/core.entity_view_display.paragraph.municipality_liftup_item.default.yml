@@ -1,0 +1,30 @@
+uuid: 044f4499-6e02-4e39-a391-25cbc660841c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.municipality_liftup_item.field_municipality
+    - field.field.paragraph.municipality_liftup_item.field_municipality_page
+    - paragraphs.paragraphs_type.municipality_liftup_item
+id: paragraph.municipality_liftup_item.default
+targetEntityType: paragraph
+bundle: municipality_liftup_item
+mode: default
+content:
+  field_municipality:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_municipality_page:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -3,18 +3,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.municipality_liftup.field_municipality_page
+    - field.field.paragraph.municipality_liftup.field_municipality_liftup_item
     - paragraphs.paragraphs_type.municipality_liftup
+  module:
+    - entity_reference_revisions
 id: paragraph.municipality_liftup.default
 targetEntityType: paragraph
 bundle: municipality_liftup
 mode: default
 content:
-  field_municipality_page:
-    type: entity_reference_label
+  field_municipality_liftup_item:
+    type: entity_reference_revisions_entity_view
     label: above
     settings:
-      link: true
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 0
     region: content

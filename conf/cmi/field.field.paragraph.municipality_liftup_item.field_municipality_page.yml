@@ -1,17 +1,17 @@
-uuid: b36f0823-fecd-4dfe-ba0f-76d90947daaa
+uuid: 73190329-b0e5-4e5e-b448-cb984cae72cd
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_municipality_page
     - node.type.page
-    - paragraphs.paragraphs_type.municipality_liftup
-id: paragraph.municipality_liftup.field_municipality_page
+    - paragraphs.paragraphs_type.municipality_liftup_item
+id: paragraph.municipality_liftup_item.field_municipality_page
 field_name: field_municipality_page
 entity_type: paragraph
-bundle: municipality_liftup
+bundle: municipality_liftup_item
 label: Kuntasivu
-description: 'Lisää linkit niihin kuntasivuihin, joilta haluat sisältöä nostettavan.'
+description: "Lisää linkit niihin kuntasivuihin, joilta haluat sisältöä nostettavan.\r\n"
 required: false
 translatable: false
 default_value: {  }

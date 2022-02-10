@@ -78,7 +78,13 @@ function infofinland_common_entity_prepare_form(EntityInterface $entity, $operat
   // Get parent page ids of the municipality paragraphs.
   foreach ($municipality_liftup_paragraph_ids as $paragraph_id) {
     $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraph_id);
-    if (!$parent_node = $paragraph->getParentEntity()) {
+    if (!$parent = $paragraph->getParentEntity()) {
+      continue;
+    }
+    if ($parent->getType() !== 'municipality_liftup') {
+      continue;
+    }
+    if (!$parent_node = $parent->getParentEntity()) {
       continue;
     }
     $national_page_ids[] = $parent_node->id();
@@ -243,4 +249,23 @@ function infofinland_common_page_attachments(array &$attachments) {
   if (in_array($content_language->getId(), $rtl_languages)){
     $attachments['#attached']['library'][] = 'infofinland_common/infofinland_admin_rtl';
   }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function infofinland_common_paragraph_presave(Paragraph $entity) {
+  if ($entity->getType() !== 'municipality_liftup_item') {
+    return;
+  }
+  if (!$nid = $entity->get('field_municipality_page')->getString()) {
+    return;
+  }
+  if (!$municipality_node = \Drupal::entityTypeManager()->getStorage('node')->load($nid)) {
+    return;
+  }
+  if (!$municipality_tax_id = $municipality_node->get('field_municipality_selection')->getString()) {
+    return;
+  }
+  $entity->set('field_municipality', ['target_id' => $municipality_tax_id]);
 }
