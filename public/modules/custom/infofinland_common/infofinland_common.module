@@ -90,6 +90,9 @@ function infofinland_common_entity_prepare_form(EntityInterface $entity, $operat
     $national_page_ids[] = $parent_node->id();
   }
 
+  // Remove duplicate parent node values.
+  $national_page_ids = array_unique($national_page_ids);
+
   if ($entity->hasField('field_municipality_info')) {
     $field_municipality_info_values = $entity->get('field_municipality_info')->getValue();
 
@@ -253,6 +256,8 @@ function infofinland_common_page_attachments(array &$attachments) {
 
 /**
  * Implements hook_ENTITY_TYPE_presave().
+ *
+ * Fill municipality_liftup_item paragraphs field_municipality dynamically.
  */
 function infofinland_common_paragraph_presave(Paragraph $entity) {
   if ($entity->getType() !== 'municipality_liftup_item') {
