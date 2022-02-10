@@ -3,22 +3,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.municipality_liftup.field_municipality_page
+    - field.field.paragraph.municipality_liftup.field_municipality_liftup_item
     - paragraphs.paragraphs_type.municipality_liftup
+  module:
+    - paragraphs
 id: paragraph.municipality_liftup.default
 targetEntityType: paragraph
 bundle: municipality_liftup
 mode: default
 content:
-  field_municipality_page:
-    type: entity_reference_autocomplete
+  field_municipality_liftup_item:
+    type: entity_reference_paragraphs
     weight: 0
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
 hidden:
   created: true

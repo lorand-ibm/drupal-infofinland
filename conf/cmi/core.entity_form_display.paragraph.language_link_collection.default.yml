@@ -12,7 +12,7 @@ bundle: language_link_collection
 mode: default
 content:
   field_link_collection:
-    type: entity_reference_autocomplete_tags
+    type: entity_reference_autocomplete
     weight: 0
     region: content
     settings:

@@ -1,0 +1,10 @@
+uuid: a4b81172-96ad-43a6-91c6-fe8f90df4b68
+langcode: en
+status: true
+dependencies: {  }
+id: municipality_liftup_item
+label: Kuntasivu
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
