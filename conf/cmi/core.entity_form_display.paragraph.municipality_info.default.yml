@@ -9,6 +9,7 @@ dependencies:
     - field.field.paragraph.municipality_info.field_national_page
     - paragraphs.paragraphs_type.municipality_info
   module:
+    - readonly_field_widget
     - text
 id: paragraph.municipality_info.default
 targetEntityType: paragraph
@@ -44,14 +45,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_national_page:
-    type: entity_reference_autocomplete
+    type: readonly_field_widget
     weight: 0
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      label: inline
+      formatter_type: entity_reference_label
+      formatter_settings:
+        entity_reference_entity_view:
+          view_mode: default
+        entity_reference_label:
+          link: 0
+      show_description: 0
     third_party_settings: {  }
   translation:
     weight: 4

@@ -1,0 +1,29 @@
+uuid: ed2621b2-7a72-4511-89f8-b1a4145798c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_municipality
+    - paragraphs.paragraphs_type.municipality_liftup_item
+    - taxonomy.vocabulary.municipalitys
+id: paragraph.municipality_liftup_item.field_municipality
+field_name: field_municipality
+entity_type: paragraph
+bundle: municipality_liftup_item
+label: Kunta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      municipalitys: municipalitys
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

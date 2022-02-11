@@ -5,6 +5,7 @@ dependencies:
   module:
     - helfi_api_base
     - media
+    - paragraphs_type_permissions
     - system
 _core:
   default_config_hash: EDyVdaROG6pYzyEct43c01Wq4gpATszrk-qR6gqnQ84
@@ -15,4 +16,19 @@ is_admin: false
 permissions:
   - 'access content'
   - 'view media'
+  - 'view paragraph content accordion'
+  - 'view paragraph content accordion_item'
+  - 'view paragraph content columns'
+  - 'view paragraph content heading'
+  - 'view paragraph content helsinki_kanava'
+  - 'view paragraph content hero'
+  - 'view paragraph content image'
+  - 'view paragraph content language_link'
+  - 'view paragraph content language_link_collection'
+  - 'view paragraph content municipality_info'
+  - 'view paragraph content municipality_liftup'
+  - 'view paragraph content municipality_liftup_item'
+  - 'view paragraph content ptv_contact'
+  - 'view paragraph content remote_video'
+  - 'view paragraph content text'
   - 'view remote entities'
