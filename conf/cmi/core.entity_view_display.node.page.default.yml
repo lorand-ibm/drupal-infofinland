@@ -15,7 +15,6 @@ dependencies:
     - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
-    - entity_reference_revisions
     - user
 _core:
   default_config_hash: QoKzK_LdQQXrmb4YyhrEEfU-oYAjoKiamaP7nWWRs9A
@@ -24,40 +23,13 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_municipality_info:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_municipality_selection:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_page_name:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
     weight: 1
-    region: content
-  field_use_anchor_links:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 2
     region: content
   links:
     settings: {  }
@@ -70,5 +42,8 @@ hidden:
   field_hero: true
   field_liftup_image: true
   field_metatags: true
+  field_municipality_info: true
+  field_municipality_selection: true
   field_url: true
+  field_use_anchor_links: true
   langcode: true
