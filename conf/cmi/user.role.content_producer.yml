@@ -34,7 +34,6 @@ permissions:
   - 'access files overview'
   - 'access media overview'
   - 'access toolbar'
-  - 'cancel account'
   - 'change own username'
   - 'create file media'
   - 'create image media'

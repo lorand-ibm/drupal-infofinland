@@ -10,10 +10,35 @@ declare(strict_types = 1);
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\infofinland_common\Plugin\ContentCombiner;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\paragraphs\Entity\Paragraph;
 
+
+/**
+ * Implements hook_form_alter().
+ */
+function infofinland_common_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'node_page_edit_form') {
+    $form['actions']['submit']['#submit'][] = 'redirectFunction';
+  }
+}
+
+/**
+ * Stay at node edit form after save.
+ */
+function redirectFunction(array &$form, FormStateInterface $form_state) {
+  /** @var \Drupal\Core\Entity\EntityForm $form_object */
+  $form_object = $form_state->getFormObject();
+  if ($form_object instanceof EntityForm) {
+    $entity = $form_object->getEntity();
+
+    $url = Url::fromRoute('entity.node.edit_form', ['node' => $entity->id()]);
+    $form_state->setRedirectUrl($url);
+    return;
+  }
+}
 
 /**
  * Implements hook_ENTITY_TYPE_update().
@@ -184,6 +209,16 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
   }
 
   if ($node->id() !== null) {
+    if (!empty($node->get('field_content')->getValue())) {
+      // Add combine paragraphs button
+      $form['combine_paragraphs'] = [
+        '#type' => 'submit',
+        '#weight' => '-10',
+        '#value' => t('Combine content'),
+        '#button_type' => 'secondary',
+        '#submit' => ['submitToCombineParagraphs']
+      ];
+    }
     if ($node->langcode->value === 'fi') {
       return;
     }
@@ -205,20 +240,13 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
   }
 }
 
-/**
- * Stay at node edit form after save.
- */
-function redirectFunction(array &$form, FormStateInterface $form_state) {
-  /** @var \Drupal\Core\Entity\EntityForm $form_object */
-  $form_object = $form_state->getFormObject();
-
-  if ($form_object instanceof EntityForm) {
-    $entity = $form_object->getEntity();
-    $url = Url::fromRoute('entity.node.edit_form', ['node' => $entity->id()]);
-    $form_state->setRedirectUrl($url);
-    return;
-  }
+function submitToCombineParagraphs(array &$form, FormStateInterface $form_state) {
+  $node = $form_state->getFormObject()->getEntity();
+  $content = new ContentCombiner;
+  $content->combineContentParagraphs($node);
 }
+
+
 
 /**
  * Implements hook_editor_js_settings_alter().
@@ -273,4 +301,30 @@ function infofinland_common_paragraph_presave(Paragraph $entity) {
     return;
   }
   $entity->set('field_municipality', ['target_id' => $municipality_tax_id]);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function infofinland_common_form_user_login_form_alter(&$form, FormStateInterface $form_state) {
+  $form['#submit'][] = 'infofinland_common_user_login_submit';
+}
+
+/**
+ * Form submission handler for user_login_form().
+ *
+ * Redirects the user to the content page after logging in.
+ */
+function infofinland_common_user_login_submit(&$form, FormStateInterface $form_state) {
+  $url = Url::fromRoute('view.content.page_1');
+
+  // Check if a destination was set, probably on an exception controller.
+  // @see \Drupal\user\Form\UserLoginForm::submitForm()
+  $request = \Drupal::service('request_stack')->getCurrentRequest();
+  if (!$request->request->has('destination')) {
+    $form_state->setRedirectUrl($url);
+  }
+  else {
+    $request->query->set('destination', $request->request->get('destination'));
+  }
 }

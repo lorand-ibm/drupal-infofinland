@@ -25,7 +25,6 @@ weight: 4
 is_admin: null
 permissions:
   - 'access toolbar'
-  - 'cancel account'
   - 'change own username'
   - 'create image media'
   - 'create link content'
