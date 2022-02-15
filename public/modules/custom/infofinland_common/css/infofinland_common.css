@@ -1,3 +1,4 @@
+/* Node form */
 .custom-messages--warning.messages-list__item.messages.messages--warning {
   background-color: lightgray;
   color: black;
@@ -14,4 +15,9 @@
 #municipalityinfo-sidebar .claro-details__content--accordion-item {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+/* User form */
+.user-form #password-policy-status {
+  display: none;
 }
