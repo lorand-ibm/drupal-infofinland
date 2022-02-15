@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
     - user
   theme:
     - infofinland
@@ -14,7 +15,7 @@ provider: null
 plugin: user_login_block
 settings:
   id: user_login_block
-  label: 'User login'
+  label: Kirjaudu
   label_display: visible
   provider: user
 visibility:
@@ -25,3 +26,7 @@ visibility:
       user: '@user.current_user_context:current_user'
     roles:
       anonymous: anonymous
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/user/*'
