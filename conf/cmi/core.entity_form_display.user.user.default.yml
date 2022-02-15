@@ -2,6 +2,10 @@ uuid: e175b256-9649-4a9a-850f-bdfddc06ff59
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_password_expiration
+    - field.field.user.user.field_pending_expire_sent
   module:
     - user
 id: user.user.default
@@ -14,11 +18,20 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_password_expiration:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   language:
     weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_last_password_reset: true
+  field_pending_expire_sent: true
   langcode: true
   path: true

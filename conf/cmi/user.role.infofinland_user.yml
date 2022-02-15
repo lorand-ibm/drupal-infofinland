@@ -28,6 +28,7 @@ dependencies:
     - node
     - paragraphs
     - paragraphs_type_permissions
+    - password_policy
     - path
     - pathauto
     - scheduler
@@ -152,6 +153,7 @@ permissions:
   - 'edit terms in municipalitys'
   - 'edit terms in organisaatiot'
   - 'link to any page'
+  - 'manage password reset'
   - 'notify of path changes'
   - 'revert all revisions'
   - 'revert landing_page revisions'

@@ -9,7 +9,7 @@ dependencies:
     - infofinland
 id: userlogin
 theme: infofinland
-region: after_content
+region: footer_bottom
 weight: -4
 provider: null
 plugin: user_login_block
