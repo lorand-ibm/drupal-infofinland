@@ -1,0 +1,27 @@
+uuid: 3a643bed-2580-4551-8ead-b9f90f07068a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_municipality
+    - field.field.user.user.field_password_expiration
+    - field.field.user.user.field_pending_expire_sent
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_last_password_reset: true
+  field_municipality: true
+  field_password_expiration: true
+  field_pending_expire_sent: true
+  langcode: true
