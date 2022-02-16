@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.municipality_liftup_item.field_municipality
     - field.field.paragraph.municipality_liftup_item.field_municipality_page
+    - field.field.paragraph.municipality_liftup_item.field_municipality_page_url
     - paragraphs.paragraphs_type.municipality_liftup_item
 id: paragraph.municipality_liftup_item.default
 targetEntityType: paragraph
@@ -26,5 +27,13 @@ content:
       link: true
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_municipality_page_url:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden: {  }

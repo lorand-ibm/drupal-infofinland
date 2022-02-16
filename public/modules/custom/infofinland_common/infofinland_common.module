@@ -163,6 +163,11 @@ function _hide_form_fields(&$form) {
   $current_user = \Drupal::currentUser();
   $roles = $current_user->getRoles();
 
+  // Disable title field from municipal user.
+  if (in_array('municipal_editor', $roles)) {
+    $form['title']['#disabled'] = TRUE;
+  }
+
   // Show municipality selection field only for certain roles.
   if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
     $form['field_municipality_selection']['#access'] = FALSE;
@@ -302,6 +307,9 @@ function infofinland_common_paragraph_presave(Paragraph $entity) {
     return;
   }
   $entity->set('field_municipality', ['target_id' => $municipality_tax_id]);
+
+  $alias_url = \Drupal::service('path_alias.manager')->getAliasByPath('/node/'. $nid);
+  $entity->set('field_municipality_page_url', $alias_url);
 }
 
 /**
