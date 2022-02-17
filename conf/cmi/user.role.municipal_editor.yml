@@ -4,10 +4,8 @@ status: true
 dependencies:
   config:
     - filter.format.simple_html
-    - media.type.file
     - media.type.image
     - media.type.remote_video
-    - media.type.soundcloud
     - node.type.link
     - node.type.office_contact_info
     - node.type.page
@@ -24,6 +22,7 @@ label: Kuntapäivittäjä
 weight: 4
 is_admin: null
 permissions:
+  - 'access content overview'
   - 'access toolbar'
   - 'change own username'
   - 'create image media'
@@ -44,13 +43,10 @@ permissions:
   - 'create paragraph content remote_video'
   - 'create paragraph content text'
   - 'delete media'
-  - 'delete own file media'
   - 'delete own image media'
   - 'delete own link content'
   - 'delete own office_contact_info content'
-  - 'delete own page content'
   - 'delete own remote_video media'
-  - 'delete own soundcloud media'
   - 'delete paragraph content accordion'
   - 'delete paragraph content accordion_item'
   - 'delete paragraph content columns'
@@ -64,16 +60,15 @@ permissions:
   - 'delete paragraph content ptv_contact'
   - 'delete paragraph content remote_video'
   - 'delete paragraph content text'
-  - 'edit any office_contact_info content'
-  - 'edit own file media'
   - 'edit own image media'
   - 'edit own link content'
   - 'edit own office_contact_info content'
   - 'edit own page content'
   - 'edit own remote_video media'
-  - 'edit own soundcloud media'
-  - 'translate editable entities'
-  - 'update content translations'
+  - 'translate image media'
+  - 'translate link node'
+  - 'translate office_contact_info node'
+  - 'translate page node'
   - 'update media'
   - 'update paragraph content accordion'
   - 'update paragraph content accordion_item'

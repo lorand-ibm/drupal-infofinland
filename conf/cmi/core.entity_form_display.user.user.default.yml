@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_municipality
     - field.field.user.user.field_password_expiration
     - field.field.user.user.field_pending_expire_sent
   module:
+    - select2
     - user
 id: user.user.default
 targetEntityType: user
@@ -18,15 +20,25 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_municipality:
+    type: select2_entity_reference
+    weight: 1
+    region: content
+    settings:
+      width: 100%
+      autocomplete: false
+      match_operator: CONTAINS
+      match_limit: 10
+    third_party_settings: {  }
   field_password_expiration:
     type: boolean_checkbox
-    weight: 2
+    weight: 3
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   language:
-    weight: 1
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }

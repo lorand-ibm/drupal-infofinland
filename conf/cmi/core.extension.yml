@@ -50,6 +50,7 @@ module:
   infofinland_common: 0
   infofinland_migrate: 0
   infofinland_municipality_selection: 0
+  infofinland_permissions: 0
   jsonapi: 0
   jsonapi_extras: 0
   jsonapi_menu_items: 0

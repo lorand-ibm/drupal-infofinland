@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ * Infofinland permissions module.
+ */
+
+declare(strict_types = 1);
+
+use Drupal\node\NodeInterface;
+use Drupal\Core\Session\AccountInterface;
+use Drupal\user\Entity\User;
+
+/**
+ * hook_node_access_records().
+ *
+ * Returns the grants a node needs.
+ */
+function infofinland_permissions_node_access_records(NodeInterface $node) {
+  if ($node->bundle() !== 'page') {
+    return;
+  }
+
+  $grants = [];
+
+  // Add node grants based on municipality.
+  if (!$node->get('field_municipality_selection')->isEmpty()) {
+    $grants[] = [
+      'realm' => 'custom_node_page_access',
+      'gid' => $node->get('field_municipality_selection')->getString(),
+      'grant_view' => 1,
+      'grant_update' => 1,
+      'grant_delete' => 0,
+    ];
+  }
+
+  return $grants;
+}
+
+/**
+ * hook_node_grants().
+ *
+ * Returns the grants a user has.
+ */
+function infofinland_permissions_node_grants(AccountInterface $account, $op) {
+  if ($op === 'view') {
+    return;
+  }
+
+  $grants = [];
+
+  // Give grants to municipal user based on municipality.
+  if (in_array('municipal_editor', $account->getRoles())) {
+    $user = User::load($account->id());
+
+    if (!$user->get('field_municipality')->isEmpty()) {
+      $grants['custom_node_page_access'][] = $user->get('field_municipality')->getString();
+    }
+  }
+
+  return $grants;
+}
