@@ -46,6 +46,8 @@ function redirectFunction(array &$form, FormStateInterface $form_state) {
   if ($form_object instanceof EntityForm) {
     $entity = $form_object->getEntity();
 
+    // Remove destination query string from request.
+    \Drupal::request()->query->remove('destination');
     $url = Url::fromRoute('entity.node.edit_form', ['node' => $entity->id()]);
     $form_state->setRedirectUrl($url);
     return;
