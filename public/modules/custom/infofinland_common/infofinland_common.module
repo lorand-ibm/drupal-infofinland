@@ -349,3 +349,6 @@ function infofinland_common_user_login_submit(&$form, FormStateInterface $form_s
     $request->query->set('destination', $request->request->get('destination'));
   }
 }
+
+
+

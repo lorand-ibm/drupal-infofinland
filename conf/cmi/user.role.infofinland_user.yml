@@ -18,10 +18,12 @@ dependencies:
     - taxonomy.vocabulary.organisaatiot
   module:
     - content_translation
+    - entity_browser
     - file
     - filter
     - helfi_api_base
     - language
+    - legal
     - locale
     - media
     - menu_link_content
@@ -44,11 +46,13 @@ permissions:
   - 'access content overview'
   - 'access files overview'
   - 'access media overview'
+  - 'access media_entity_browser_modal entity browser pages'
   - 'access remote entities overview'
   - 'access site in maintenance mode'
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access user profiles'
+  - 'administer Terms and Conditions'
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
