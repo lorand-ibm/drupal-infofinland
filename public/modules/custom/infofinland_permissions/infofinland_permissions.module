@@ -10,6 +10,10 @@ declare(strict_types = 1);
 use Drupal\node\NodeInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\user\Entity\User;
+use Drupal\views\ViewExecutable;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Access\AccessResult;
+
 
 /**
  * hook_node_access_records().
@@ -59,4 +63,42 @@ function infofinland_permissions_node_grants(AccountInterface $account, $op) {
   }
 
   return $grants;
+}
+
+/**
+ * hook_views_pre_build().
+ *
+ * Limit municipal user permissions to see media entities in media browser.
+ */
+function infofinland_permissions_views_pre_build(ViewExecutable $view) {
+  if (!$view->id() == 'media_entity_browser') {
+    return;
+  }
+
+  if (!$current_user = \Drupal::currentUser()) {
+    return;
+  }
+  $roles = $current_user->getRoles();
+
+  // Show all media for certain roles.
+  if (in_array('infofinland_user', $roles) || in_array('admin', $roles)) {
+    $args[] = 'all';
+    $view->setArguments($args);
+  }
+}
+
+
+/**
+ * Implements hook_ENTITY_TYPE_access().
+ *
+ * Disable super admin editing from other users.
+ */
+function infofinland_permissions_user_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  if (!$current_user = \Drupal::currentUser()) {
+    return;
+  }
+  if ($entity->id() == 1 && $current_user->id() != 1) {
+    return AccessResult::forbidden();
+  }
+  return AccessResult::neutral();
 }

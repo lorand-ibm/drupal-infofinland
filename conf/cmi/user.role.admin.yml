@@ -18,12 +18,13 @@ dependencies:
     - taxonomy.vocabulary.organisaatiot
   module:
     - block
-    - config_translation
     - content_translation
+    - entity_browser
     - file
     - filter
     - helfi_api_base
     - language
+    - legal
     - locale
     - media
     - menu_link_content
@@ -35,8 +36,8 @@ dependencies:
     - pathauto
     - redirect
     - responsive_image
+    - role_delegation
     - scheduler
-    - simple_sitemap
     - system
     - taxonomy
     - toolbar
@@ -52,24 +53,27 @@ permissions:
   - 'access content overview'
   - 'access files overview'
   - 'access media overview'
+  - 'access media_entity_browser_modal entity browser pages'
   - 'access remote entities overview'
   - 'access site in maintenance mode'
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access user profiles'
+  - 'administer Terms and Conditions'
   - 'administer account settings'
   - 'administer blocks'
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
   - 'administer pathauto'
-  - 'administer permissions'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer responsive images'
-  - 'administer sitemap settings'
   - 'administer url aliases'
   - 'administer users'
+  - 'assign admin role'
+  - 'assign infofinland_user role'
+  - 'assign municipal_editor role'
   - 'cancel account'
   - 'change own username'
   - 'create content translations'
@@ -178,8 +182,6 @@ permissions:
   - 'revert page revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
-  - 'translate configuration'
-  - 'translate editable entities'
   - 'translate file media'
   - 'translate image media'
   - 'translate interface'
