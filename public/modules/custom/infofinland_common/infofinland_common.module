@@ -25,6 +25,16 @@ function infofinland_common_form_alter(array &$form, FormStateInterface $form_st
   if ($form_id === 'node_page_edit_form') {
     $form['actions']['submit']['#submit'][] = 'redirectFunction';
   }
+
+  if ($form_id === 'user_form') {
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+
+    // Show user municipality field for certain roles.
+    if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+      $form['field_municipality']['#access'] = FALSE;
+    }
+  }
 }
 
 /**
@@ -36,6 +46,8 @@ function redirectFunction(array &$form, FormStateInterface $form_state) {
   if ($form_object instanceof EntityForm) {
     $entity = $form_object->getEntity();
 
+    // Remove destination query string from request.
+    \Drupal::request()->query->remove('destination');
     $url = Url::fromRoute('entity.node.edit_form', ['node' => $entity->id()]);
     $form_state->setRedirectUrl($url);
     return;
@@ -162,6 +174,11 @@ function infofinland_common_entity_prepare_form(EntityInterface $entity, $operat
 function _hide_form_fields(&$form) {
   $current_user = \Drupal::currentUser();
   $roles = $current_user->getRoles();
+
+  // Disable title field from municipal user.
+  if (in_array('municipal_editor', $roles)) {
+    $form['title']['#disabled'] = TRUE;
+  }
 
   // Show municipality selection field only for certain roles.
   if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
@@ -302,6 +319,9 @@ function infofinland_common_paragraph_presave(Paragraph $entity) {
     return;
   }
   $entity->set('field_municipality', ['target_id' => $municipality_tax_id]);
+
+  $alias_url = \Drupal::service('path_alias.manager')->getAliasByPath('/node/'. $nid);
+  $entity->set('field_municipality_page_url', $alias_url);
 }
 
 /**
@@ -329,3 +349,6 @@ function infofinland_common_user_login_submit(&$form, FormStateInterface $form_s
     $request->query->set('destination', $request->request->get('destination'));
   }
 }
+
+
+

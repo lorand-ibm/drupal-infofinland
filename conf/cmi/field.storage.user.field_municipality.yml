@@ -1,0 +1,20 @@
+uuid: 6b9c2e73-f92d-4931-9b5b-a6a2620676ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - user
+id: user.field_municipality
+field_name: field_municipality
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,30 @@
+uuid: dc37f5cc-b907-4a76-9103-3dd1af1aea95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_municipality
+    - taxonomy.vocabulary.municipalitys
+  module:
+    - user
+id: user.user.field_municipality
+field_name: field_municipality
+entity_type: user
+bundle: user
+label: Kunta
+description: 'Valitse kunnat, joita kuntapäivittäjä voi muokata.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      municipalitys: municipalitys
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

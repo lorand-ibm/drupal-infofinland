@@ -8,6 +8,7 @@ dependencies:
   module:
     - filter
     - helfi_api_base
+    - legal
     - media
     - paragraphs_type_permissions
     - system
@@ -21,6 +22,7 @@ permissions:
   - 'access content'
   - 'use text format full_html'
   - 'use text format simple_html'
+  - 'view Terms and Conditions'
   - 'view media'
   - 'view paragraph content accordion'
   - 'view paragraph content accordion_item'

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.municipality_liftup_item.field_municipality
     - field.field.paragraph.municipality_liftup_item.field_municipality_page
+    - field.field.paragraph.municipality_liftup_item.field_municipality_page_url
     - paragraphs.paragraphs_type.municipality_liftup_item
   module:
     - readonly_field_widget
@@ -39,4 +40,5 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_municipality_page_url: true
   status: true

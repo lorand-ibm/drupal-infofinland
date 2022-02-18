@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - helfi_api_base
+    - legal
     - media
     - paragraphs_type_permissions
     - system
@@ -15,6 +16,7 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'view Terms and Conditions'
   - 'view media'
   - 'view paragraph content accordion'
   - 'view paragraph content accordion_item'
