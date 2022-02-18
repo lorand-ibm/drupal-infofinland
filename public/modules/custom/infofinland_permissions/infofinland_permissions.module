@@ -11,6 +11,9 @@ use Drupal\node\NodeInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\user\Entity\User;
 use Drupal\views\ViewExecutable;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Access\AccessResult;
+
 
 /**
  * hook_node_access_records().
@@ -82,4 +85,20 @@ function infofinland_permissions_views_pre_build(ViewExecutable $view) {
     $args[] = 'all';
     $view->setArguments($args);
   }
+}
+
+
+/**
+ * Implements hook_ENTITY_TYPE_access().
+ *
+ * Disable super admin editing from other users.
+ */
+function infofinland_permissions_user_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  if (!$current_user = \Drupal::currentUser()) {
+    return;
+  }
+  if ($entity->id() == 1 && $current_user->id() != 1) {
+    return AccessResult::forbidden();
+  }
+  return AccessResult::neutral();
 }

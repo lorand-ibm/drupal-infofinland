@@ -33,6 +33,7 @@ dependencies:
     - password_policy
     - path
     - pathauto
+    - role_delegation
     - scheduler
     - system
     - taxonomy
@@ -43,6 +44,7 @@ weight: 3
 is_admin: null
 permissions:
   - 'access administration pages'
+  - 'access content'
   - 'access content overview'
   - 'access files overview'
   - 'access media overview'
@@ -56,8 +58,9 @@ permissions:
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
-  - 'administer permissions'
   - 'administer users'
+  - 'assign infofinland_user role'
+  - 'assign municipal_editor role'
   - 'cancel account'
   - 'change own username'
   - 'create content translations'
@@ -166,7 +169,6 @@ permissions:
   - 'revert page revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
-  - 'translate editable entities'
   - 'translate file media'
   - 'translate image media'
   - 'translate interface'

@@ -18,7 +18,6 @@ dependencies:
     - taxonomy.vocabulary.organisaatiot
   module:
     - block
-    - config_translation
     - content_translation
     - entity_browser
     - file
@@ -37,8 +36,8 @@ dependencies:
     - pathauto
     - redirect
     - responsive_image
+    - role_delegation
     - scheduler
-    - simple_sitemap
     - system
     - taxonomy
     - toolbar
@@ -67,13 +66,14 @@ permissions:
   - 'administer menu'
   - 'administer nodes'
   - 'administer pathauto'
-  - 'administer permissions'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer responsive images'
-  - 'administer sitemap settings'
   - 'administer url aliases'
   - 'administer users'
+  - 'assign admin role'
+  - 'assign infofinland_user role'
+  - 'assign municipal_editor role'
   - 'cancel account'
   - 'change own username'
   - 'create content translations'
@@ -182,8 +182,6 @@ permissions:
   - 'revert page revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
-  - 'translate configuration'
-  - 'translate editable entities'
   - 'translate file media'
   - 'translate image media'
   - 'translate interface'
