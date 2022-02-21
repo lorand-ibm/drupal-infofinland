@@ -183,6 +183,7 @@ function _hide_form_fields(&$form) {
   // Show municipality selection field only for certain roles.
   if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
     $form['field_municipality_selection']['#access'] = FALSE;
+    $form['field_theme_menu']['#access'] = FALSE;
   }
 
   // Field from Helfi platform we don't want.
