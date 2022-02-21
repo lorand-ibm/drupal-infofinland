@@ -1,0 +1,16 @@
+uuid: b0621fb2-23ca-4be1-b974-a5f26d881bed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.message
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.message
+target_entity_type_id: node
+target_bundle: message
+default_langcode: fi
+language_alterable: false

@@ -89,6 +89,7 @@ content:
     region: content
     settings:
       sidebar: false
+      use_details: true
     third_party_settings: {  }
   field_page_name:
     type: string_textfield

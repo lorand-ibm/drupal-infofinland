@@ -10,6 +10,7 @@ dependencies:
     - media.type.soundcloud
     - node.type.landing_page
     - node.type.link
+    - node.type.message
     - node.type.office_contact_info
     - node.type.page
     - taxonomy.vocabulary.colors
@@ -69,6 +70,7 @@ permissions:
   - 'create landing_page content'
   - 'create link content'
   - 'create media'
+  - 'create message content'
   - 'create office_contact_info content'
   - 'create page content'
   - 'create paragraph content accordion'
@@ -100,6 +102,7 @@ permissions:
   - 'delete any landing_page content'
   - 'delete any link content'
   - 'delete any media'
+  - 'delete any message content'
   - 'delete any office_contact_info content'
   - 'delete any page content'
   - 'delete any remote_video media'
@@ -108,11 +111,13 @@ permissions:
   - 'delete landing_page revisions'
   - 'delete link revisions'
   - 'delete media'
+  - 'delete message revisions'
   - 'delete office_contact_info revisions'
   - 'delete own file media'
   - 'delete own image media'
   - 'delete own landing_page content'
   - 'delete own link content'
+  - 'delete own message content'
   - 'delete own office_contact_info content'
   - 'delete own page content'
   - 'delete own remote_video media'
@@ -142,6 +147,7 @@ permissions:
   - 'edit any image media'
   - 'edit any landing_page content'
   - 'edit any link content'
+  - 'edit any message content'
   - 'edit any office_contact_info content'
   - 'edit any page content'
   - 'edit any remote_video media'
@@ -150,6 +156,7 @@ permissions:
   - 'edit own image media'
   - 'edit own landing_page content'
   - 'edit own link content'
+  - 'edit own message content'
   - 'edit own office_contact_info content'
   - 'edit own page content'
   - 'edit own remote_video media'
@@ -165,6 +172,7 @@ permissions:
   - 'revert all revisions'
   - 'revert landing_page revisions'
   - 'revert link revisions'
+  - 'revert message revisions'
   - 'revert office_contact_info revisions'
   - 'revert page revisions'
   - 'schedule publishing of nodes'
@@ -176,6 +184,7 @@ permissions:
   - 'translate language taxonomy_term'
   - 'translate link node'
   - 'translate menu_link_content'
+  - 'translate message node'
   - 'translate municipalitys taxonomy_term'
   - 'translate office_contact_info node'
   - 'translate page node'
@@ -205,6 +214,7 @@ permissions:
   - 'view all revisions'
   - 'view landing_page revisions'
   - 'view link revisions'
+  - 'view message revisions'
   - 'view office_contact_info revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'

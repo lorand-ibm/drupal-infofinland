@@ -21,6 +21,8 @@ use Drupal\paragraphs\Entity\Paragraph;
  */
 function infofinland_common_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
   $form['#attached']['library'][] = 'infofinland_common/infofinland_common';
+  // Hide field from HDBT theme we don't want.
+  $form['color_palette']['#access'] = FALSE;
 
   if ($form_id === 'node_page_edit_form') {
     $form['actions']['submit']['#submit'][] = 'redirectFunction';
@@ -184,10 +186,9 @@ function _hide_form_fields(&$form) {
   if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
     $form['field_municipality_selection']['#access'] = FALSE;
     $form['field_theme_menu']['#access'] = FALSE;
+    $form['admin_metainformation']['#access'] = FALSE;
+    $form['field_metatags']['#access'] = FALSE;
   }
-
-  // Field from Helfi platform we don't want.
-  $form['color_palette']['#access'] = FALSE;
 }
 
 /**
