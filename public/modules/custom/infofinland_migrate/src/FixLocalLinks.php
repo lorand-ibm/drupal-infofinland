@@ -39,7 +39,7 @@ class FixLocalLinks {
         } else {
           $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_translations', 'mm')
             ->fields('mm', ['destid1'])
-            ->condition('mm.sourceid1', $id, '=')
+            ->condition('mm.sourceid2', $id, '=')
             ->execute()
             ->fetchObject();
         }

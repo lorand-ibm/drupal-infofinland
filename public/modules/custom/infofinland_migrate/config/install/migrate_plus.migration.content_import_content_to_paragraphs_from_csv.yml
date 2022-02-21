@@ -10,8 +10,8 @@ destination:
   plugin: 'entity_reference_revisions:paragraph'
 source:
   plugin: csv
-  path: modules/custom/infofinland_migrate/sources/migrate_content_to_paragraphs.csv
-  delimiter: ';'
+  path: modules/custom/infofinland_migrate/sources/migrate_content_to_paragraphs_all.csv
+  delimiter: ";"
   ids: [Nimi, id]
 process:
   type:
@@ -25,7 +25,7 @@ process:
   field_multi_paragraphs:
     - plugin: paragraph_generate
       entity_type: paragraph
-      source: Data #useless
+      source: Data
       value_key: id # useless since we always generate a new paragraph
       values:
         field_data: Data
