@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_page_name
     - node.type.landing_page
+    - node.type.message
     - node.type.page
   module:
     - node
@@ -507,6 +508,7 @@ display:
           value:
             page: page
             landing_page: landing_page
+            message: message
           group: 1
           exposed: true
           expose:
@@ -675,6 +677,7 @@ display:
           value:
             page: page
             landing_page: landing_page
+            message: message
           group: 1
           exposed: false
           expose:
