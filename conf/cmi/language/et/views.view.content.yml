@@ -8,17 +8,26 @@ display:
           label: Pealkiri
         type:
           label: 'Sisu tüüp'
+          separator: ', '
         name:
           label: Autor
         status:
           label: Olek
           settings:
-            format_custom_true: Avaldatud
             format_custom_false: Avaldamata
+            format_custom_true: Avaldatud
         changed:
           label: Uuendatud
         operations:
           label: Toimingud
+      title: Sisu
+      pager:
+        options:
+          tags:
+            next: 'Järgmine ›'
+            previous: '‹ Eelmine'
+            first: '« Esimene'
+            last: 'Viimane »'
       exposed_form:
         options:
           submit_button: Filtreeri
@@ -26,13 +35,9 @@ display:
           exposed_sorts_label: 'Sorteerimise alus'
           sort_asc_label: Kasvav
           sort_desc_label: Kahanev
-      pager:
-        options:
-          tags:
-            previous: '‹ Eelmine'
-            next: 'Järgmine ›'
-            first: '« Esimene'
-            last: 'Viimane »'
+      empty:
+        area_text_custom:
+          content: 'Sisu puudub.'
       filters:
         title:
           expose:
@@ -53,18 +58,14 @@ display:
         langcode:
           expose:
             label: Keel
-      title: Sisu
-      empty:
-        area_text_custom:
-          content: 'Sisu puudub.'
     display_title: Vaikimisi
   page_1:
+    display_title: Lehekülg
     display_options:
       menu:
         title: Sisu
       tab_options:
         title: Sisu
         description: 'Otsi ja halda sisu'
-    display_title: Lehekülg
 label: Sisu
 description: 'Otsi ja halda lehe sisu.'

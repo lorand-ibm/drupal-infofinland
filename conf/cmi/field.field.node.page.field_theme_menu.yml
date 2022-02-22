@@ -1,0 +1,23 @@
+uuid: 3d6c40de-ed4a-406a-9176-760fc9d97f32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theme_menu
+    - node.type.page
+id: node.page.field_theme_menu
+field_name: field_theme_menu
+entity_type: node
+bundle: page
+label: Teemanostot
+description: 'Valitse sivulle nousevat teemanostot (menu). Jos kenttä on tyhjä, nosto tapahtuu automaattisesti.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:menu'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

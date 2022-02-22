@@ -13,12 +13,13 @@ display:
         status:
           label: وضعیت
           settings:
-            format_custom_true: 'منتشر شده'
             format_custom_false: 'منتشر نشده'
+            format_custom_true: 'منتشر شده'
         changed:
           label: به‌روز
         operations:
           label: کارکردها
+      title: محتوا
       exposed_form:
         options:
           submit_button: فیلتر
@@ -26,6 +27,9 @@ display:
           exposed_sorts_label: 'مرتب کن بر اساس'
           sort_asc_label: صعودی
           sort_desc_label: نزولی
+      empty:
+        area_text_custom:
+          content: 'هیچ محتوایی در دسترس نیست.'
       filters:
         title:
           expose:
@@ -46,17 +50,13 @@ display:
         langcode:
           expose:
             label: زبان
-      title: محتوا
-      empty:
-        area_text_custom:
-          content: 'هیچ محتوایی در دسترس نیست.'
     display_title: پیش‌فرض
   page_1:
+    display_title: صفحه
     display_options:
       menu:
         title: محتوا
       tab_options:
         title: محتوا
-    display_title: صفحه
 label: محتوا
 description: 'یافتن و اداره محتوا.'
