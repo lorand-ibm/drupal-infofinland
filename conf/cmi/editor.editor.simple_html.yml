@@ -27,11 +27,12 @@ settings:
           name: Lists
           items:
             - BulletedList
-            - NumberedList
         -
           name: Tools
           items:
             - Source
+            - BidiLtr
+            - BidiRtl
   plugins:
     drupallink:
       linkit_enabled: true
