@@ -60,14 +60,19 @@ class ParagraphGenerate extends EntityGenerate {
    */
   private function createListHTML($child, $language, $rowId, $tag)
   {
-    $htmlString = '<' . $tag . '>';
-    foreach ($child->childNodes as $item) {
-      if ($item->hasChildNodes()) {
-        $htmlString .=  '<li>' . $this->getInnerXML($item) . '</li>';
+    if (str_contains($child->nodeValue, '<ul><li>') || str_contains($child->nodeValue, '<ol><li>')) {
+      $htmlString = $child->nodeValue;
+    } else {
+      $htmlString = '<' . $tag . '>';
+      foreach ($child->childNodes as $item) {
+        if ($item->hasChildNodes()) {
+          $htmlString .=  '<li>' . $this->getInnerXML($item) . '</li>';
+        }
+        $htmlString  .= '<li>' . ltrim($item->nodeValue) . '</li>';
       }
-      $htmlString  .= '<li>' . ltrim($item->nodeValue) . '</li>';
+      $htmlString  .= '</' . $tag . '>';
     }
-    $htmlString  .= '</' . $tag . '>';
+
     return Paragraph::create([
       'type' => 'text',
       'field_migration_id' => $rowId,
