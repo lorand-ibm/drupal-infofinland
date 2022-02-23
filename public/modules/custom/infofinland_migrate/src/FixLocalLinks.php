@@ -36,6 +36,28 @@ class FixLocalLinks {
             ->condition('mm.sourceid1', $id, '=')
             ->execute()
             ->fetchObject();
+          if (!$nodeID) {
+            $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en2', 'mm')
+              ->fields('mm', ['destid1'])
+              ->condition('mm.sourceid1', $id, '=')
+              ->execute()
+              ->fetchObject();
+          }
+          if (!$nodeID) {
+            $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en3', 'mm')
+              ->fields('mm', ['destid1'])
+              ->condition('mm.sourceid1', $id, '=')
+              ->execute()
+              ->fetchObject();
+          }
+          if (!$nodeID) {
+            $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en4', 'mm')
+              ->fields('mm', ['destid1'])
+              ->condition('mm.sourceid1', $id, '=')
+              ->execute()
+              ->fetchObject();
+          }
+
         } else {
           $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_translations', 'mm')
             ->fields('mm', ['destid1'])
@@ -60,7 +82,7 @@ class FixLocalLinks {
     $results = $drupalDb->select('paragraph__field_text', 'pfm')
       ->fields('pfm', ['entity_id'])
       ->condition('field_text_value', '%href%', 'LIKE')
-      ->condition('field_text_value', '%prime://pagereference%', 'LIKE');
+      ->condition('field_text_value', '%//pagereference%', 'LIKE');
     if ($language !== null) {
       $results->condition('langcode', $language, '=');
     }
@@ -77,7 +99,7 @@ class FixLocalLinks {
         $doc = $html->ownerDocument;
 
         foreach ($html->childNodes as $child) {
-          if ($child->hasChildNodes() && $child->lastChild->nodeValue != $child->firstChild->nodeValue) {
+          if ($child->hasChildNodes() && $child->lastChild->nodeValue != $child->firstChild->nodeValue && $child->tagName != 'ul') {
             foreach ($child->childNodes as $childChild) {
               if ($childChild->tagName == 'a') {
                 $childChild->parentNode->replaceChild($this->editLink($childChild, $text), $childChild);
@@ -87,7 +109,14 @@ class FixLocalLinks {
             $child = $this->editLink($child, $text);
           } else if ($child->firstChild->tagName == 'a') {
             $child->firstChild->parentNode->replaceChild($this->editLink($child->firstChild, $text), $child->firstChild);
+          } else if ($child->tagName == 'ul') {
+            foreach ($child->childNodes as $childChild) {
+              if ($childChild->firstChild->tagName == 'a') {
+                $newChild = $childChild->firstChild->parentNode->replaceChild($this->editLink($childChild->firstChild, $text), $childChild->firstChild);
+                $childChild->parentNode->replaceChild($newChild, $childChild);
 
+              }
+            }
           }
           $newHtml .= $doc->saveHTML($child);
         }

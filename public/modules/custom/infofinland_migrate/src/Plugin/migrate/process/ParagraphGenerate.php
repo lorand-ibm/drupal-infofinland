@@ -58,16 +58,16 @@ class ParagraphGenerate extends EntityGenerate {
    * @param $rowId
    * @return \Drupal\Core\Entity\EntityBase|EntityInterface
    */
-  private function createListHTML($child, $language, $rowId)
+  private function createListHTML($child, $language, $rowId, $tag)
   {
-    $htmlString = '<ul>';
+    $htmlString = '<' . $tag . '>';
     foreach ($child->childNodes as $item) {
       if ($item->hasChildNodes()) {
         $htmlString .=  '<li>' . $this->getInnerXML($item) . '</li>';
       }
       $htmlString  .= '<li>' . ltrim($item->nodeValue) . '</li>';
     }
-    $htmlString  .= '</ul>';
+    $htmlString  .= '</' . $tag . '>';
     return Paragraph::create([
       'type' => 'text',
       'field_migration_id' => $rowId,
@@ -167,17 +167,19 @@ class ParagraphGenerate extends EntityGenerate {
    * @param $child
    * @param int $rowId
    * @param string $lang
+   * @param $tag
    * @return array|\Drupal\Core\Entity\EntityBase|\Drupal\Core\Entity\EntityInterface|string
    */
-  private function createCorrectParagraph($child, $rowId, $lang) {
+  private function createCorrectParagraph($child, $rowId, $lang, $tag = '') {
+    $tag = $tag != '' ? $tag : $child->tagName;
     $paragraph = [];
-    if ($this->checkIfTextParagraph($child->tagName)) {
+    if ($this->checkIfTextParagraph($tag)) {
       $paragraph = $this->createTextParagraph($child->nodeValue, $lang, $rowId);
-    } elseif ($child->tagName === 'h2') {
+    } elseif ($tag === 'h2') {
       $paragraph = $this->createHeadingParagraph($child->nodeValue,$lang, $rowId);
-    } elseif ($child->tagName === 'ul') {
-      $paragraph = $this->createListHTML($child, $lang, $rowId);
-    } elseif ($child->tagName === 'a') {
+    } elseif ($tag === 'ul' || $tag === 'ol') {
+      $paragraph = $this->createListHTML($child, $lang, $rowId, $tag);
+    } elseif ($tag === 'a') {
       if (str_contains($child->getAttribute('href'), 'prime://repositorylink')) {
         $paragraph = $this->createLinkParagraph($child->getAttribute('href'), $rowId, $lang);
       }
@@ -211,7 +213,7 @@ class ParagraphGenerate extends EntityGenerate {
     $dom = new DOMDocument();
 
     //Strip out tag we dont want like divs and images
-    $stripedHTML = strip_tags($value, "<p><a><h2><h3><h4><h5><h6><b><br><ul><li>");
+    $stripedHTML = strip_tags($value, "<p><a><h2><h3><h4><h5><h6><b><br><ul><ol><li>");
     $langcode = trim($language);
     $html_data  = mb_convert_encoding($stripedHTML , 'HTML-ENTITIES', 'UTF-8');
     $dom->loadHTML('<?xml encoding="utf-8" ?>' . $html_data);
@@ -224,7 +226,7 @@ class ParagraphGenerate extends EntityGenerate {
     }
     foreach ($html->childNodes as $child) {
       // If we have a text type paragraph or a list
-      if ($this->checkIfTextParagraph($child->tagName) || $child->tagName == 'ul') {
+      if ($this->checkIfTextParagraph($child->tagName) || $child->tagName == 'ul' || $child->tagName == 'ol') {
         $innerHtml = $this->getInnerXML($child);
         if (!str_contains($innerHtml, 'prime://repositorylink') &&
         !str_contains($innerHtml, 'h2')) {
@@ -272,11 +274,13 @@ class ParagraphGenerate extends EntityGenerate {
 
       // Save paragraph if the next one isnt the same type.
       if (empty($paragraphs) && $textParagraph !== "" &&
-        (($child->nextSibling->tagName != 'p' && !in_array($child->nextSibling->tagName, ['ul', 'h3', 'h4', 'h5', 'h6'])) ||
+        (!isset($child->nextSibling) || ($child->nextSibling->tagName != 'p' && !in_array($child->nextSibling->tagName, ['ul', 'h3', 'h4', 'h5', 'h6', 'ol'])) ||
           ($child->nextSibling->tagName == 'p' && $child->nextSibling->hasChildNodes() && $child->nextSibling->childNodes[0]->tagName == 'a' && str_contains($child->nextSibling->childNodes[0]->getAttribute('href'), 'prime://repositorylink')) ||
           !$child->nextSibling)) {
         $child->nodeValue = $textParagraph;
-        $paragraphs[] = $this->createCorrectParagraph($child, $rowId, $langcode);
+        $tag = substr($textParagraph, 1, 1) == 'u' || substr($textParagraph, 1, 1) == 'h' ?
+          substr($textParagraph, 1, 2) : substr($textParagraph, 1, 1);
+        $paragraphs[] = $this->createCorrectParagraph($child, $rowId, $langcode, $tag);
       }
       if (isset($paragraphs) && !empty($paragraphs)) {
         foreach ($paragraphs as $paragraph) {
