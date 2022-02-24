@@ -206,6 +206,24 @@ class ParagraphGenerate extends EntityGenerate {
   }
 
   /**
+   * We need to remove the possible Anchor list from the beginning of the content.
+   * @param $html
+   * @return mixed
+   */
+  private function removeAnchorList($html) {
+    if ($html->firstChild->tagName == 'ul') {
+      if (str_contains($this->getInnerXML($html->firstChild), 'href="#')){
+        $html->removeChild($html->firstChild);
+      }
+    } else if ($html->firstChild->tagName == 'p' && $html->firstChild->nextSibling->tagName == 'ul') {
+      if (str_contains($this->getInnerXML( $html->firstChild->nextSibling), 'href="#')){
+        $html->removeChild( $html->firstChild->nextSibling);
+      }
+    }
+    return $html;
+  }
+
+  /**
    * @param $value
    * @param $rowId
    * @param $language
@@ -223,6 +241,7 @@ class ParagraphGenerate extends EntityGenerate {
     $html_data  = mb_convert_encoding($stripedHTML , 'HTML-ENTITIES', 'UTF-8');
     $dom->loadHTML('<?xml encoding="utf-8" ?>' . $html_data);
     $html = $dom->getElementsByTagName('body')->item(0);
+    $this->removeAnchorList($html);
     $returnArray= [];
     $textParagraph = "";
     $paragraphs = [];
