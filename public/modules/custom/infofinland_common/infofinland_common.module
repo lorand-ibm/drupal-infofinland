@@ -306,27 +306,29 @@ function infofinland_common_page_attachments(array &$attachments) {
   }
 }
 
-
 /**
  * Implements hook_ENTITY_TYPE_presave().
  *
  * Fill link node field_municipality dynamically for municipality user.
  */
 function infofinland_common_node_presave(Node $entity) {
-  if ($entity->getType() !== 'link') {
-    return;
+  if ($entity->getType() === 'page') {
+    $theme_menu = $entity->get('field_theme_menu')->getString();
+    $entity->set('field_theme_menu_machine_name', $theme_menu);
   }
 
-  $current_user = \Drupal::currentUser();
-  $roles = $current_user->getRoles();
+  if ($entity->getType() === 'link') {
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
 
-  if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
-    $user = User::load($current_user->id());
-    $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
+    if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+      $user = User::load($current_user->id());
+      $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
 
-    foreach ($user_municipalities as $user_municipality) {
-      $multi_value[] = ['target_id' => $user_municipality];
-      $entity->set('field_municipality', $multi_value);
+      foreach ($user_municipalities as $user_municipality) {
+        $multi_value[] = ['target_id' => $user_municipality];
+        $entity->set('field_municipality', $multi_value);
+      }
     }
   }
 }
@@ -380,6 +382,4 @@ function infofinland_common_user_login_submit(&$form, FormStateInterface $form_s
     $request->query->set('destination', $request->request->get('destination'));
   }
 }
-
-
 

@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.page.field_municipality_selection
     - field.field.node.page.field_page_name
     - field.field.node.page.field_theme_menu
+    - field.field.node.page.field_theme_menu_machine_name
     - field.field.node.page.field_url
     - field.field.node.page.field_use_anchor_links
     - node.type.page
@@ -241,3 +242,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_liftup_image: true
+  field_theme_menu_machine_name: true
