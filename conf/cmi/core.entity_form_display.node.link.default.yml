@@ -9,10 +9,12 @@ dependencies:
     - field.field.node.link.field_municipality
     - node.type.link
   module:
+    - entity_browser_entity_form
     - hdbt_admin_editorial
     - inline_entity_form
     - path
     - scheduler
+    - select2
 id: node.link.default
 targetEntityType: node
 bundle: link
@@ -50,22 +52,24 @@ content:
       label_singular: ''
       label_plural: ''
       allow_new: true
-      allow_existing: true
+      allow_existing: false
       match_operator: CONTAINS
       allow_duplicate: false
       collapsible: false
       collapsed: false
       revision: false
-    third_party_settings: {  }
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
   field_municipality:
-    type: entity_reference_autocomplete
+    type: select2_entity_reference
     weight: 14
     region: content
     settings:
+      width: 100%
+      autocomplete: false
       match_operator: CONTAINS
       match_limit: 10
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

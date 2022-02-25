@@ -9,7 +9,7 @@ id: node.link.field_link_description
 field_name: field_link_description
 entity_type: node
 bundle: link
-label: 'Linkin kuvaus'
+label: Vastuu
 description: ''
 required: false
 translatable: true

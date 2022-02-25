@@ -14,6 +14,8 @@ use Drupal\infofinland_common\Plugin\ContentCombiner;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\paragraphs\Entity\Paragraph;
+use Drupal\node\Entity\Node;
+use Drupal\user\Entity\User;
 
 
 /**
@@ -28,13 +30,14 @@ function infofinland_common_form_alter(array &$form, FormStateInterface $form_st
     $form['actions']['submit']['#submit'][] = 'redirectFunction';
   }
 
-  if ($form_id === 'user_form') {
+  if ($form_id === 'user_form' || $form_id === 'node_link_edit_form' || $form_id === 'node_link_form') {
     $current_user = \Drupal::currentUser();
     $roles = $current_user->getRoles();
 
     // Show user municipality field for certain roles.
     if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
       $form['field_municipality']['#access'] = FALSE;
+      $form['admin_metainformation']['#access'] = FALSE;
     }
   }
 }
@@ -185,6 +188,7 @@ function _hide_form_fields(&$form) {
   // Show municipality selection field only for certain roles.
   if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
     $form['field_municipality_selection']['#access'] = FALSE;
+    $form['field_url']['#access'] = FALSE;
     $form['field_theme_menu']['#access'] = FALSE;
     $form['admin_metainformation']['#access'] = FALSE;
     $form['field_metatags']['#access'] = FALSE;
@@ -305,6 +309,33 @@ function infofinland_common_page_attachments(array &$attachments) {
 /**
  * Implements hook_ENTITY_TYPE_presave().
  *
+ * Fill link node field_municipality dynamically for municipality user.
+ */
+function infofinland_common_node_presave(Node $entity) {
+  if ($entity->getType() === 'page') {
+    $theme_menu = $entity->get('field_theme_menu')->getString();
+    $entity->set('field_theme_menu_machine_name', $theme_menu);
+  }
+
+  if ($entity->getType() === 'link') {
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+
+    if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+      $user = User::load($current_user->id());
+      $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
+
+      foreach ($user_municipalities as $user_municipality) {
+        $multi_value[] = ['target_id' => $user_municipality];
+        $entity->set('field_municipality', $multi_value);
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ *
  * Fill municipality_liftup_item paragraphs field_municipality dynamically.
  */
 function infofinland_common_paragraph_presave(Paragraph $entity) {
@@ -351,6 +382,4 @@ function infofinland_common_user_login_submit(&$form, FormStateInterface $form_s
     $request->query->set('destination', $request->request->get('destination'));
   }
 }
-
-
 
