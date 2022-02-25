@@ -1,0 +1,8 @@
+uuid: 64e4f685-330c-455d-a1fe-b95350fec110
+langcode: fi
+status: true
+dependencies: {  }
+id: cities-landing
+label: Kaupungit-etusivu
+description: ''
+locked: false
