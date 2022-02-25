@@ -14,6 +14,7 @@ use Drupal\infofinland_common\Plugin\ContentCombiner;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\paragraphs\Entity\Paragraph;
+use Drupal\editor\Entity\Editor;
 
 
 /**
@@ -349,6 +350,29 @@ function infofinland_common_user_login_submit(&$form, FormStateInterface $form_s
   }
   else {
     $request->query->set('destination', $request->request->get('destination'));
+  }
+}
+
+/**
+ * Implements hook_ckeditor_css_alter().
+ *
+ * Injects our CSS sheets anytime CKEditor has loaded.
+ *
+ * @param array $css
+ * @param $editor
+ */
+function infofinland_common_ckeditor_css_alter(array &$css, Editor $editor) {
+  if (!$editor->hasAssociatedFilterFormat()) {
+    return;
+  }
+
+  $known_formats = [
+    'basic_html',
+    'full_html',
+  ];
+
+  if (in_array($editor->getFilterFormat()->id(), $known_formats)) {
+    $css[] = drupal_get_path('module', 'infofinland_common') . '/css/infofinland_admin_ckeditor.css';
   }
 }
 
