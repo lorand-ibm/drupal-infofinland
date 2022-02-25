@@ -26,12 +26,12 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       columns: columns
       image: image
       text: text
       heading: heading
+    negate: 0
     target_bundles_drag_drop:
       accordion:
         weight: -22
@@ -43,8 +43,8 @@ settings:
         weight: -26
         enabled: false
       columns:
-        enabled: true
         weight: -27
+        enabled: true
       content_cards:
         weight: -23
         enabled: false
@@ -55,14 +55,14 @@ settings:
         weight: -19
         enabled: false
       heading:
-        enabled: true
         weight: 24
+        enabled: true
       hero:
         weight: -18
         enabled: false
       image:
-        enabled: true
         weight: -17
+        enabled: true
       language_link:
         weight: 29
         enabled: false
@@ -85,6 +85,6 @@ settings:
         weight: 27
         enabled: false
       text:
-        enabled: true
         weight: -15
+        enabled: true
 field_type: entity_reference_revisions

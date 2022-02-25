@@ -1,0 +1,5 @@
+.node-form .form-type--textarea textarea,
+.node-form #edit-title-0-value,
+.node-form #edit-field-content-wrapper .form-type--textfield input {
+  direction: rtl;
+}

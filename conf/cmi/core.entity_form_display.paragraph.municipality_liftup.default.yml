@@ -1,0 +1,29 @@
+uuid: 04bbf7c9-ed96-4daf-b648-ae6797ca8090
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.municipality_liftup.field_municipality_liftup_item
+    - paragraphs.paragraphs_type.municipality_liftup
+  module:
+    - paragraphs
+id: paragraph.municipality_liftup.default
+targetEntityType: paragraph
+bundle: municipality_liftup
+mode: default
+content:
+  field_municipality_liftup_item:
+    type: entity_reference_paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

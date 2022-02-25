@@ -18,20 +18,21 @@ bundle: accordion
 mode: default
 content:
   field_accordion_design:
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
     type: design_field_widget
+    weight: 0
     region: content
-  field_accordion_heading_level:
-    weight: 1
     settings: {  }
     third_party_settings: {  }
+  field_accordion_heading_level:
     type: options_select
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
   field_accordion_items:
     type: paragraphs
     weight: 2
+    region: content
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -47,7 +48,6 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   status: true

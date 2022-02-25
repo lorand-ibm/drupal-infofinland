@@ -1,0 +1,29 @@
+uuid: de9cb583-a5e9-4d9c-b779-6a660655c6fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_national_page
+    - node.type.page
+    - paragraphs.paragraphs_type.municipality_info
+id: paragraph.municipality_info.field_national_page
+field_name: field_national_page
+entity_type: paragraph
+bundle: municipality_info
+label: 'Valtakunnallinen sivu'
+description: 'Valtakunnallinen sivu, jolle tieto nousee.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -9,17 +9,26 @@ display:
           label: Заголовок
         type:
           label: 'Тип материала'
+          separator: ', '
         name:
           label: Автор
         status:
           label: Статус
           settings:
-            format_custom_true: Опубликовано
             format_custom_false: 'Снято с публикации'
+            format_custom_true: Опубликовано
         changed:
           label: Обновлено
         operations:
           label: Операции
+      title: Содержимое
+      pager:
+        options:
+          tags:
+            next: 'Следующий ›'
+            previous: '‹ Предыдущий'
+            first: '« Первая'
+            last: 'Последняя »'
       exposed_form:
         options:
           submit_button: Фильтр
@@ -27,13 +36,9 @@ display:
           exposed_sorts_label: 'Сортировать по'
           sort_asc_label: 'По возрастанию'
           sort_desc_label: 'По убыванию'
-      pager:
-        options:
-          tags:
-            previous: '‹ Предыдущий'
-            next: 'Следующий ›'
-            first: '« Первая'
-            last: 'Последняя »'
+      empty:
+        area_text_custom:
+          content: 'Нет доступных материалов.'
       filters:
         title:
           expose:
@@ -54,18 +59,14 @@ display:
         langcode:
           expose:
             label: Язык
-      title: Содержимое
-      empty:
-        area_text_custom:
-          content: 'Нет доступных материалов.'
     display_title: 'По умолчанию'
   page_1:
+    display_title: Страница
     display_options:
       menu:
         title: Содержимое
       tab_options:
         title: Содержимое
         description: 'Поиск материалов и управление ими'
-    display_title: Страница
 label: Содержимое
 description: 'Поиск материалов и управление ими'

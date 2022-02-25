@@ -1,0 +1,20 @@
+uuid: b7b64cc6-d250-4357-bd30-7e01dfcab26c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: node.field_theme_menu
+field_name: field_theme_menu
+entity_type: node
+type: entity_reference
+settings:
+  target_type: menu
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

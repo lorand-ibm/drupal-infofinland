@@ -1,7 +1,10 @@
 uuid: ffeee3e3-3ec4-479a-a365-4cc234090ada
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - node
+    - subrequests
 id: nextjs
 label: Nextjs
 weight: 4
@@ -9,5 +12,4 @@ is_admin: null
 permissions:
   - 'access user profiles'
   - 'bypass node access'
-  - 'display eu cookie compliance popup'
   - 'issue subrequests'

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\infofinland_migrate\Plugin\migrate;
+namespace Drupal\infofinland_migrate\Plugin;
 
 use DOMDocument;
 use Drupal\Core\Database\Database;

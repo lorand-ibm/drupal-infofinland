@@ -10,13 +10,32 @@ declare(strict_types = 1);
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\infofinland_common\Plugin\ContentCombiner;
+use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\paragraphs\Entity\Paragraph;
+
 
 /**
  * Implements hook_form_alter().
  */
 function infofinland_common_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  $form['#attached']['library'][] = 'infofinland_common/infofinland_common';
+  // Hide field from HDBT theme we don't want.
+  $form['color_palette']['#access'] = FALSE;
+
   if ($form_id === 'node_page_edit_form') {
     $form['actions']['submit']['#submit'][] = 'redirectFunction';
+  }
+
+  if ($form_id === 'user_form') {
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+
+    // Show user municipality field for certain roles.
+    if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+      $form['field_municipality']['#access'] = FALSE;
+    }
   }
 }
 
@@ -29,6 +48,8 @@ function redirectFunction(array &$form, FormStateInterface $form_state) {
   if ($form_object instanceof EntityForm) {
     $entity = $form_object->getEntity();
 
+    // Remove destination query string from request.
+    \Drupal::request()->query->remove('destination');
     $url = Url::fromRoute('entity.node.edit_form', ['node' => $entity->id()]);
     $form_state->setRedirectUrl($url);
     return;
@@ -72,15 +93,152 @@ function infofinland_common_preprocess_status_messages(&$variables) {
 }
 
 /**
+ * Implements hook_entity_prepare_form_HOOK().
+ *
+ * Adding and removing municipality info paragraphs for municipality pages before form.
+ */
+function infofinland_common_entity_prepare_form(EntityInterface $entity, $operation, FormStateInterface $form_state) {
+  if ($entity->bundle() !== 'page') {
+    return;
+  }
+
+  if ($entity->get('field_municipality_selection')->isEmpty()) {
+    return;
+  }
+
+  $national_page_ids = [];
+  $existing_municipality_info_paragraph_ids = [];
+
+  // Get municipality liftup paragraphs that have a reference to this (municipality) page.
+  $drupal_db = \Drupal::database();
+  $results = $drupal_db->select('paragraph__field_municipality_page', 'pfmp')
+    ->fields('pfmp', ['entity_id'])
+    ->condition('field_municipality_page_target_id', $entity->id());
+  $municipality_liftup_paragraph_ids = $results->execute()->fetchCol();
+
+  // Get parent page ids of the municipality paragraphs.
+  foreach ($municipality_liftup_paragraph_ids as $paragraph_id) {
+    $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraph_id);
+    if (!$parent = $paragraph->getParentEntity()) {
+      continue;
+    }
+    if ($parent->getType() !== 'municipality_liftup') {
+      continue;
+    }
+    if (!$parent_node = $parent->getParentEntity()) {
+      continue;
+    }
+    $national_page_ids[] = $parent_node->id();
+  }
+
+  // Remove duplicate parent node values.
+  $national_page_ids = array_unique($national_page_ids);
+
+  if ($entity->hasField('field_municipality_info')) {
+    $field_municipality_info_values = $entity->get('field_municipality_info')->getValue();
+
+    foreach ($field_municipality_info_values as $key => $field_municipality_info_value) {
+      if (!$municipality_info_paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($field_municipality_info_value['target_id'])) {
+        continue;
+      }
+      $existing_municipality_info_paragraph_id = $municipality_info_paragraph->get('field_national_page')->getString();
+
+      // Remove paragraphs that aren't referenced from national pages anymore.
+      if (!in_array($existing_municipality_info_paragraph_id, $national_page_ids)) {
+        $entity->get('field_municipality_info')->removeItem($key);
+        $entity->save();
+        $municipality_info_paragraph->delete();
+        continue;
+      }
+      $existing_municipality_info_paragraph_ids[] = $existing_municipality_info_paragraph_id;
+    }
+  }
+
+  // Create new municipality info paragraphs, if those aren't yet existing.
+  foreach ($national_page_ids as $key => $national_page_id) {
+    if (!in_array($national_page_id, $existing_municipality_info_paragraph_ids)) {
+
+      $paragraph = Paragraph::create([
+        'type' => 'municipality_info',
+      ]);
+      $paragraph->isNew();
+      $paragraph->set('field_national_page', $national_page_id);
+
+      $field_municipality_info = $entity->get('field_municipality_info');
+      $field_municipality_info->appendItem($paragraph);
+    }
+  }
+}
+
+/**
+ * Hide fields for node page form.
+ */
+function _hide_form_fields(&$form) {
+  $current_user = \Drupal::currentUser();
+  $roles = $current_user->getRoles();
+
+  // Disable title field from municipal user.
+  if (in_array('municipal_editor', $roles)) {
+    $form['title']['#disabled'] = TRUE;
+  }
+
+  // Show municipality selection field only for certain roles.
+  if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+    $form['field_municipality_selection']['#access'] = FALSE;
+    $form['field_theme_menu']['#access'] = FALSE;
+    $form['admin_metainformation']['#access'] = FALSE;
+    $form['field_metatags']['#access'] = FALSE;
+  }
+}
+
+/**
  * Implements hook_form_alter().
+ *
+ * Node page add form.
+ */
+function infofinland_common_form_node_page_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id !== 'node_page_form') {
+    return;
+  }
+  $node = $form_state->getFormObject()->getEntity();
+
+  // If municipality is not set, hide info field.
+  if ($node->get('field_municipality_selection')->isEmpty()) {
+    $form['field_municipality_info']['#access'] = FALSE;
+  }
+
+  _hide_form_fields($form);
+}
+
+/**
+ * Implements hook_form_alter().
+ *
+ * Node page edit form.
  */
 function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   if ($form_id != 'node_page_edit_form') {
     return;
   }
-  $form['#attached']['library'][] = 'infofinland_common/infofinland_common';
+  $form['actions']['submit']['#submit'][] = 'redirectFunction';
   $node = $form_state->getFormObject()->getEntity();
+  _hide_form_fields($form);
+
+  // If municipality is not set or there's no reference from national page, hide info paragraphs field.
+  if ($node->get('field_municipality_selection')->isEmpty() || $node->get('field_municipality_info')->isEmpty()) {
+    $form['field_municipality_info']['#access'] = FALSE;
+  }
+
   if ($node->id() !== null) {
+    if (!empty($node->get('field_content')->getValue())) {
+      // Add combine paragraphs button
+      $form['combine_paragraphs'] = [
+        '#type' => 'submit',
+        '#weight' => '-10',
+        '#value' => t('Combine content'),
+        '#button_type' => 'secondary',
+        '#submit' => ['submitToCombineParagraphs']
+      ];
+    }
     if ($node->langcode->value === 'fi') {
       return;
     }
@@ -101,3 +259,98 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
     }
   }
 }
+
+function submitToCombineParagraphs(array &$form, FormStateInterface $form_state) {
+  $node = $form_state->getFormObject()->getEntity();
+  $content = new ContentCombiner;
+  $content->combineContentParagraphs($node);
+}
+
+
+
+/**
+ * Implements hook_editor_js_settings_alter().
+ *
+ * Change ckeditor lang direction to RTL for Persian and Arabic.
+ */
+function infofinland_common_editor_js_settings_alter(array &$settings) {
+  $content_language = \Drupal::languageManager()->getCurrentLanguage(LanguageInterface::TYPE_CONTENT)->getId();
+  $rtl_languages = ['fa', 'ar'];
+  if (in_array($content_language, $rtl_languages)){
+    foreach ($settings['editor']['formats'] as $name => $value) {
+      $settings['editor']['formats'][$name]['editorSettings']['contentsLangDirection'] = 'rtl';
+    }
+  }
+}
+
+/**
+ * Implements hook_page_attachments().
+ *
+ * Add RTL styles for node page form.
+ */
+function infofinland_common_page_attachments(array &$attachments) {
+  $theme = \Drupal::theme()->getActiveTheme()->getName();
+
+  if ($theme !== 'hdbt_admin') {
+    return;
+  }
+
+  $content_language = \Drupal::languageManager()->getCurrentLanguage(LanguageInterface::TYPE_CONTENT);
+  $rtl_languages = ['fa', 'ar'];
+  if (in_array($content_language->getId(), $rtl_languages)){
+    $attachments['#attached']['library'][] = 'infofinland_common/infofinland_admin_rtl';
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ *
+ * Fill municipality_liftup_item paragraphs field_municipality dynamically.
+ */
+function infofinland_common_paragraph_presave(Paragraph $entity) {
+  if ($entity->getType() !== 'municipality_liftup_item') {
+    return;
+  }
+  if (!$nid = $entity->get('field_municipality_page')->getString()) {
+    return;
+  }
+  if (!$municipality_node = \Drupal::entityTypeManager()->getStorage('node')->load($nid)) {
+    return;
+  }
+  if (!$municipality_tax_id = $municipality_node->get('field_municipality_selection')->getString()) {
+    return;
+  }
+  $entity->set('field_municipality', ['target_id' => $municipality_tax_id]);
+
+  $alias_url = \Drupal::service('path_alias.manager')->getAliasByPath('/node/'. $nid);
+  $entity->set('field_municipality_page_url', $alias_url);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function infofinland_common_form_user_login_form_alter(&$form, FormStateInterface $form_state) {
+  $form['#submit'][] = 'infofinland_common_user_login_submit';
+}
+
+/**
+ * Form submission handler for user_login_form().
+ *
+ * Redirects the user to the content page after logging in.
+ */
+function infofinland_common_user_login_submit(&$form, FormStateInterface $form_state) {
+  $url = Url::fromRoute('view.content.page_1');
+
+  // Check if a destination was set, probably on an exception controller.
+  // @see \Drupal\user\Form\UserLoginForm::submitForm()
+  $request = \Drupal::service('request_stack')->getCurrentRequest();
+  if (!$request->request->has('destination')) {
+    $form_state->setRedirectUrl($url);
+  }
+  else {
+    $request->query->set('destination', $request->request->get('destination'));
+  }
+}
+
+
+

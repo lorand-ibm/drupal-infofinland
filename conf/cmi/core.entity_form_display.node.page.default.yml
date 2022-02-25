@@ -8,17 +8,40 @@ dependencies:
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
+    - field.field.node.page.field_municipality_info
+    - field.field.node.page.field_municipality_selection
     - field.field.node.page.field_page_name
+    - field.field.node.page.field_theme_menu
     - field.field.node.page.field_url
     - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
+    - field_group
     - hdbt_admin_editorial
     - metatag
     - paragraphs
     - paragraphs_asymmetric_translation_widgets
     - path
     - scheduler
+    - select2
+third_party_settings:
+  field_group:
+    group_kuntainfo_sivupalkissa:
+      children:
+        - field_municipality_info
+      label: 'Nostot valtakunnallisille sivuille'
+      region: content
+      parent_name: ''
+      weight: 16
+      format_type: details_sidebar
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: municipalityinfo-sidebar
+        open: false
+        description: ''
+        required_fields: false
+        weight: -15
 _core:
   default_config_hash: EPCTu6FncCXtwwG8kjUCHWz1iM7aMtx2ifRzZte5fDg
 id: node.page.default
@@ -28,12 +51,14 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 8
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   field_content:
-    weight: 18
+    type: paragraphs_classic_asymmetric
+    weight: 21
+    region: content
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -42,18 +67,18 @@ content:
       form_display_mode: default
       default_paragraph_type: text
     third_party_settings: {  }
-    type: paragraphs_classic_asymmetric
-    region: content
   field_description:
-    weight: 4
+    type: string_textarea
+    weight: 5
+    region: content
     settings:
       rows: 3
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_hero:
-    weight: 6
+    type: paragraphs
+    weight: 7
+    region: content
     settings:
       title: Lohko
       title_plural: Lohkot
@@ -69,23 +94,57 @@ content:
         collapse_edit_all: '0'
         duplicate: '0'
     third_party_settings: {  }
-    type: paragraphs
-    region: content
   field_metatags:
     type: metatag_firehose
-    weight: 19
+    weight: 22
     region: content
     settings:
       sidebar: true
+      use_details: true
+    third_party_settings: {  }
+  field_municipality_info:
+    type: paragraphs
+    weight: 16
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: '0'
+        collapse_edit_all: '0'
+        duplicate: '0'
+    third_party_settings: {  }
+  field_municipality_selection:
+    type: select2_entity_reference
+    weight: 4
+    region: content
+    settings:
+      width: 40%
+      autocomplete: false
+      match_operator: CONTAINS
+      match_limit: 10
     third_party_settings: {  }
   field_page_name:
+    type: string_textfield
     weight: 2
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+  field_theme_menu:
+    type: options_select
+    weight: 8
     region: content
+    settings: {  }
+    third_party_settings: {  }
   field_url:
     type: string_textfield
     weight: 3
@@ -95,12 +154,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_use_anchor_links:
-    weight: 5
+    type: boolean_checkbox
+    weight: 6
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   langcode:
     type: language_select
     weight: 0
@@ -110,41 +169,41 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 12
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
+    weight: 12
+    region: content
     settings:
       display_label: true
-    weight: 10
-    region: content
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
-    weight: 15
+    weight: 18
     region: content
     settings: {  }
     third_party_settings: {  }
   scheduler_settings:
-    weight: 14
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
+    weight: 15
+    region: content
     settings:
       display_label: true
-    weight: 13
-    region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
+    weight: 13
+    region: content
     settings:
       display_label: true
-    weight: 11
-    region: content
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -155,28 +214,28 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 9
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 9
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default
-    weight: 16
+    weight: 19
     region: content
     settings: {  }
     third_party_settings: {  }
   url_redirects:
-    weight: 17
+    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }

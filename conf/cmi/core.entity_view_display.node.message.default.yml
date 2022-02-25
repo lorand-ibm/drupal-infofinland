@@ -1,0 +1,26 @@
+uuid: e3dbd19b-4bbe-4628-aafa-a5accdd9cf86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.message.body
+    - field.field.node.message.field_message_type
+    - field.field.node.message.field_page
+    - node.type.message
+  module:
+    - user
+id: node.message.default
+targetEntityType: node
+bundle: message
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_message_type: true
+  field_page: true
+  langcode: true

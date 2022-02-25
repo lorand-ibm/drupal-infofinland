@@ -1,0 +1,24 @@
+uuid: 5328911e-1dff-4b52-ad02-8b83aaa3594d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.municipality_liftup.field_municipality_liftup_item
+    - paragraphs.paragraphs_type.municipality_liftup
+  module:
+    - entity_reference_revisions
+id: paragraph.municipality_liftup.default
+targetEntityType: paragraph
+bundle: municipality_liftup
+mode: default
+content:
+  field_municipality_liftup_item:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

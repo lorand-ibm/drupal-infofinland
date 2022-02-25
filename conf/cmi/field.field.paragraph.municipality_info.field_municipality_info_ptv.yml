@@ -1,0 +1,29 @@
+uuid: 5b2d718f-8918-4110-b594-2a3dbd9db1a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_municipality_info_ptv
+    - node.type.office_contact_info
+    - paragraphs.paragraphs_type.municipality_info
+id: paragraph.municipality_info.field_municipality_info_ptv
+field_name: field_municipality_info_ptv
+entity_type: paragraph
+bundle: municipality_info
+label: Yhteystieto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      office_contact_info: office_contact_info
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
