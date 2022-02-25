@@ -216,8 +216,8 @@ class ParagraphGenerate extends EntityGenerate {
         $html->removeChild($html->firstChild);
       }
     } else if ($html->firstChild->tagName == 'p' && $html->firstChild->nextSibling->tagName == 'ul') {
-      if (str_contains($this->getInnerXML( $html->firstChild->nextSibling), 'href="#')){
-        $html->removeChild( $html->firstChild->nextSibling);
+      if (str_contains($this->getInnerXML($html->firstChild->nextSibling), 'href="#')){
+        $html->removeChild($html->firstChild->nextSibling);
       }
     }
     return $html;
@@ -315,7 +315,6 @@ class ParagraphGenerate extends EntityGenerate {
             $paragraph = $this->createCorrectParagraph($child, $rowId, $langcode);
             if (is_object($paragraph)) {
               $paragraph->save();
-
               $returnArray[] = ['target_id' => $paragraph->id(), 'target_revision_id' => $paragraph->getRevisionId()];
             }
           }

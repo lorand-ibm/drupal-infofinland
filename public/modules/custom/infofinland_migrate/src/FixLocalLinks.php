@@ -36,28 +36,6 @@ class FixLocalLinks {
             ->condition('mm.sourceid1', $id, '=')
             ->execute()
             ->fetchObject();
-          if (!$nodeID) {
-            $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en2', 'mm')
-              ->fields('mm', ['destid1'])
-              ->condition('mm.sourceid1', $id, '=')
-              ->execute()
-              ->fetchObject();
-          }
-          if (!$nodeID) {
-            $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en3', 'mm')
-              ->fields('mm', ['destid1'])
-              ->condition('mm.sourceid1', $id, '=')
-              ->execute()
-              ->fetchObject();
-          }
-          if (!$nodeID) {
-            $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en4', 'mm')
-              ->fields('mm', ['destid1'])
-              ->condition('mm.sourceid1', $id, '=')
-              ->execute()
-              ->fetchObject();
-          }
-
         } else {
           $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_translations', 'mm')
             ->fields('mm', ['destid1'])
@@ -68,6 +46,7 @@ class FixLocalLinks {
         if (isset($nodeID->destid1) && $nodeID->destid1 !== null) {
           $child->setAttribute('href', '/node/'. $nodeID->destid1);
         } else {
+          $child->setAttribute('class', 'broken-link');
           $child->removeAttribute('href');
         }
       }
