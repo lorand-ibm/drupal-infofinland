@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.page.field_municipality_selection
     - field.field.node.page.field_page_name
     - field.field.node.page.field_theme_menu
+    - field.field.node.page.field_theme_menu_machine_name
     - field.field.node.page.field_url
     - field.field.node.page.field_use_anchor_links
     - node.type.page
@@ -46,6 +47,7 @@ hidden:
   field_municipality_info: true
   field_municipality_selection: true
   field_theme_menu: true
+  field_theme_menu_machine_name: true
   field_url: true
   field_use_anchor_links: true
   langcode: true
