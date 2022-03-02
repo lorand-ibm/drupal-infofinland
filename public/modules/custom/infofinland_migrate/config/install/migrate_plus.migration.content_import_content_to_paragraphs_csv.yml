@@ -1,4 +1,4 @@
-id: content_import_content_to_paragraphs_from_csv
+id: content_import_content_to_paragraphs_csv
 label: 'Import content from old site to nodes'
 migration_group: infofinland_content
 dependencies:

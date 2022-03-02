@@ -1,4 +1,4 @@
-id: content_import_pages_to_nodes_from_csv_translations
+id: content_import_pages_to_nodes_csv_translations
 label: Import pages from old site to nodes translations
 migration_group: infofinland_content
 dependencies:
@@ -18,7 +18,7 @@ process:
   nid:
     plugin: migration_lookup
     source: sivun_id
-    migration: content_import_pages_to_nodes_from_csv_fi
+    migration: content_import_pages_to_nodes_csv_fi
   type:
     plugin: default_value
     default_value: page

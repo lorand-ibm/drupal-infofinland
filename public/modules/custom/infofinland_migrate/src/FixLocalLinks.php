@@ -25,19 +25,19 @@ class FixLocalLinks {
         $id = end($link_array);
         $drupalDb = Database::getConnection('default', 'default');
         if ($text->language()->getId() == 'fi') {
-          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_fi', 'mm')
+          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_csv_fi', 'mm')
             ->fields('mm', ['destid1'])
             ->condition('mm.sourceid1', $id, '=')
             ->execute()
             ->fetchObject();
         } elseif ($text->language()->getId() == 'en') {
-          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_en', 'mm')
+          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_csv_en', 'mm')
             ->fields('mm', ['destid1'])
             ->condition('mm.sourceid1', $id, '=')
             ->execute()
             ->fetchObject();
         } else {
-          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_from_csv_translations', 'mm')
+          $nodeID = $drupalDb->select('migrate_map_content_import_pages_to_nodes_csv_translations', 'mm')
             ->fields('mm', ['destid1'])
             ->condition('mm.sourceid2', $id, '=')
             ->execute()
