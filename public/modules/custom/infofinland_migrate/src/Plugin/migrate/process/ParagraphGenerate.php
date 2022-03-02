@@ -124,13 +124,13 @@ class ParagraphGenerate extends EntityGenerate {
     $linkId = substr($url, 23);
     $drupalDb = Database::getConnection('default', 'default');
     if ($lang == 'fi') {
-      $results = $drupalDb->select('migrate_map_links_import_link_nodes_csv_fi', 'liln')
+      $results = $drupalDb->select('migrate_map_links_import_link_nodes_from_csv_fi', 'liln')
         ->fields('liln', ['destid1'])
         ->condition('liln.sourceid1',$linkId, '=')
         ->execute()
         ->fetchAll();
     } else {
-      $results = $drupalDb->select('migrate_map_links_import_link_nodes_csv_translations', 'liln')
+      $results = $drupalDb->select('migrate_map_links_import_link_nodes_from_csv_translations', 'liln')
         ->fields('liln', ['destid1'])
         ->condition('liln.sourceid2',$linkId, '=')
         ->condition('liln.destid2', $lang, '=')
@@ -141,13 +141,13 @@ class ParagraphGenerate extends EntityGenerate {
     // If we didnt find the link in the language we expected, then we need to do it the other way
     if($results == null || $results[0] == null) {
       if ($lang == 'fi') {
-        $results = $drupalDb->select('migrate_map_links_import_link_nodes_csv_translations', 'liln')
+        $results = $drupalDb->select('migrate_map_links_import_link_nodes_from_csv_translations', 'liln')
           ->fields('liln', ['destid1'])
           ->condition('liln.sourceid2',$linkId, '=')
           ->execute()
           ->fetchAll();
       } else {
-        $results = $drupalDb->select('migrate_map_links_import_link_nodes_csv_fi', 'liln')
+        $results = $drupalDb->select('migrate_map_links_import_link_nodes_from_csv_fi', 'liln')
           ->fields('liln', ['destid1'])
           ->condition('liln.sourceid1',$linkId, '=')
           ->execute()

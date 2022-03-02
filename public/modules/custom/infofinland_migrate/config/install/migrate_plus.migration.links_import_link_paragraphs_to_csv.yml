@@ -1,4 +1,4 @@
-id: links_import_link_paragraphs_csv
+id: links_import_link_paragraphs_to_csv
 label: Import links from old site to paragraphs
 migration_group: infofinland_links
 dependencies:

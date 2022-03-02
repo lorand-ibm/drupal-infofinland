@@ -1,4 +1,4 @@
-id: links_import_link_nodes_csv_translations
+id: links_import_link_nodes_from_csv_translations
 label: Import link transtions from old site to nodes
 migration_group: infofinland_links
 dependencies:
@@ -19,7 +19,7 @@ process:
     plugin: migration_lookup
     source: id
     no_stub: true
-    migration: links_import_link_nodes_csv_fi
+    migration: links_import_link_nodes_from_csv_fi
   uid:
     plugin: default_value
     default_value: 1
