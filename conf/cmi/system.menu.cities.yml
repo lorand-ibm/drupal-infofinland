@@ -3,6 +3,6 @@ langcode: fi
 status: true
 dependencies: {  }
 id: cities
-label: Kaupungit
-description: ''
+label: Kuntasivut
+description: Kuntasivut
 locked: false
