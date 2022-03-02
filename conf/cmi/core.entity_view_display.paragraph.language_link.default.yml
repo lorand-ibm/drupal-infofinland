@@ -13,7 +13,7 @@ mode: default
 content:
   field_language:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -21,7 +21,7 @@ content:
     region: content
   field_language_link:
     type: basic_string
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 2

@@ -13,7 +13,7 @@ source:
   plugin: csv
   path: modules/custom/infofinland_migrate/sources/migrate_link_nodes_translations.csv
   delimiter: ';'
-  ids: [UniqueNimi]
+  ids: [UniqueNimi, id]
 process:
   nid:
     plugin: migration_lookup
