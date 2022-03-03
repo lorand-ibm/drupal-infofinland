@@ -1,7 +1,17 @@
 uuid: 118b6884-3cbe-44af-be73-dc1a37f6393e
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.full_html
+    - filter.format.simple_html
+  module:
+    - filter
+    - helfi_api_base
+    - legal
+    - media
+    - paragraphs_type_permissions
+    - system
 _core:
   default_config_hash: 83Nuup-6oYkkdAsvg3nrR2pBOgtTXEV1JrzpCCLkYLM
 id: authenticated
@@ -10,7 +20,23 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'display eu cookie compliance popup'
   - 'use text format full_html'
+  - 'use text format simple_html'
+  - 'view Terms and Conditions'
   - 'view media'
+  - 'view paragraph content accordion'
+  - 'view paragraph content accordion_item'
+  - 'view paragraph content columns'
+  - 'view paragraph content heading'
+  - 'view paragraph content helsinki_kanava'
+  - 'view paragraph content hero'
+  - 'view paragraph content image'
+  - 'view paragraph content language_link'
+  - 'view paragraph content language_link_collection'
+  - 'view paragraph content municipality_info'
+  - 'view paragraph content municipality_liftup'
+  - 'view paragraph content municipality_liftup_item'
+  - 'view paragraph content ptv_contact'
+  - 'view paragraph content remote_video'
+  - 'view paragraph content text'
   - 'view remote entities'

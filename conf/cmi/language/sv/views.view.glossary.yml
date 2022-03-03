@@ -1,9 +1,12 @@
+label: Glossary
+description: 'All content, by letter.'
 display:
   default:
     display_title: Förvald
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
@@ -19,5 +22,12 @@ display:
           label: Titel
         name:
           label: Författare
+        changed:
+          label: 'Last update'
+  attachment_1:
+    display_title: Attachment
   page_1:
     display_title: Sida
+    display_options:
+      menu:
+        title: Glossary

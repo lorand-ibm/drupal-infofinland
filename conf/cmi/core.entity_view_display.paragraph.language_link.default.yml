@@ -12,18 +12,18 @@ bundle: language_link
 mode: default
 content:
   field_language:
-    weight: 1
-    label: above
+    type: entity_reference_label
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
+    weight: 1
     region: content
   field_language_link:
-    weight: 2
-    label: above
+    type: basic_string
+    label: inline
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 2
     region: content
 hidden: {  }

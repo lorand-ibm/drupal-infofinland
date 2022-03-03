@@ -37,7 +37,7 @@ class TransformParagraph extends ProcessPluginBase {
     $drupalDb = Database::getConnection('default', 'default');
 
     $paragraphs = [];
-    $results = $drupalDb->select('migrate_map_links_import_link_paragraphs_csv', 'yt')
+    $results = $drupalDb->select('migrate_map_links_import_link_paragraphs_to_csv', 'yt')
       ->fields('yt', ['destid1', 'destid2'])
       ->condition('yt.sourceid2', $row->getSourceProperty('id'), '=')
       ->execute()

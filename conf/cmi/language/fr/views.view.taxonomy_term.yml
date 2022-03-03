@@ -1,10 +1,12 @@
 label: 'Terme de taxonomie'
+description: 'Content belonging to a certain taxonomy term.'
 display:
   default:
     display_title: 'Par défaut'
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Trier par'
       pager:
@@ -17,3 +19,5 @@ display:
         tid:
           exception:
             title: Tout
+  feed_1:
+    display_title: Feed

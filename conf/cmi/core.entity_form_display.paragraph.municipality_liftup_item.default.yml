@@ -1,0 +1,44 @@
+uuid: 66483efc-900c-4adf-97cb-49fc9c57bfcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.municipality_liftup_item.field_municipality
+    - field.field.paragraph.municipality_liftup_item.field_municipality_page
+    - field.field.paragraph.municipality_liftup_item.field_municipality_page_url
+    - paragraphs.paragraphs_type.municipality_liftup_item
+  module:
+    - readonly_field_widget
+id: paragraph.municipality_liftup_item.default
+targetEntityType: paragraph
+bundle: municipality_liftup_item
+mode: default
+content:
+  field_municipality:
+    type: readonly_field_widget
+    weight: 1
+    region: content
+    settings:
+      label: inline
+      formatter_type: entity_reference_label
+      formatter_settings:
+        entity_reference_entity_view:
+          view_mode: default
+        entity_reference_label:
+          link: 0
+      show_description: 0
+    third_party_settings: {  }
+  field_municipality_page:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_municipality_page_url: true
+  status: true

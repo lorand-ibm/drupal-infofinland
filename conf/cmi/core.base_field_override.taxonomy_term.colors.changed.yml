@@ -1,0 +1,18 @@
+uuid: d9c8644c-cc59-4d3e-a1cf-d1c91814953d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.colors
+id: taxonomy_term.colors.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: colors
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

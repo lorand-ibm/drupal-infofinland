@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - language
+    - user
   theme:
     - infofinland
 _core:
@@ -17,6 +18,13 @@ plugin: 'language_block:language_content'
 settings:
   id: 'language_block:language_content'
   label: 'Language switcher'
-  provider: language
   label_display: '0'
-visibility: {  }
+  provider: language
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

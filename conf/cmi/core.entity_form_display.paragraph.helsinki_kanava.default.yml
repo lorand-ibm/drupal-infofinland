@@ -1,0 +1,39 @@
+uuid: d1cd57a6-7f05-4cf5-a676-ce6e17003895
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.helsinki_kanava.field_video_title
+    - field.field.paragraph.helsinki_kanava.field_video_url
+    - paragraphs.paragraphs_type.helsinki_kanava
+  module:
+    - link
+id: paragraph.helsinki_kanava.default
+targetEntityType: paragraph
+bundle: helsinki_kanava
+mode: default
+content:
+  field_video_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_video_url:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

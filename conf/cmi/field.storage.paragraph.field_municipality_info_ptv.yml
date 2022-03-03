@@ -1,0 +1,20 @@
+uuid: 6c610138-9c8d-4c03-8466-7fa187595110
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+id: paragraph.field_municipality_info_ptv
+field_name: field_municipality_info_ptv
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -17,42 +17,35 @@ bundle: link
 mode: default
 content:
   field_link_description:
-    weight: 103
-    label: above
+    type: string
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 2
     region: content
   field_link_target_site:
-    weight: 104
-    label: above
+    type: string
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   field_links:
     type: entity_reference_revisions_entity_view
-    weight: 102
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    region: content
-  field_municipality:
-    weight: 105
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
+    weight: 1
     region: content
   links:
-    weight: 100
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
+  field_municipality: true
   langcode: true

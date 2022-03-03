@@ -1,0 +1,18 @@
+uuid: b34b7c37-bbdf-4fa8-95e4-578320509b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.colors
+id: taxonomy_term.colors.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: colors
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

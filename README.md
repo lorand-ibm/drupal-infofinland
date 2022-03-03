@@ -116,6 +116,10 @@ Import settings:
 $ make drush-cim
 ``
 
+When checking out new branch run `make drush-cim` to import new config changes to the database.
+
+Remember always run `make drush-cex` after you have made configuration changes and before you pull or checkout new code. Remember also to commit your config changes.
+
 ## Other useful commands
 
 # After pulling latest changes, run all the updates:
@@ -125,7 +129,7 @@ $ make drush-deploy
 # Login to app container
 $ make shell
 
-# Login with Drush
+# Login to Drupal with Drush:
 $ make drush-uli
 
 # Create sql dump from local site
@@ -134,7 +138,7 @@ $ make drush-create-dump
 # Check Drupal coding style
 $ make lint-drupal
 
-# Automatically fix Drupal coding style errors
+# Automatically fix Drupal coding style errors:
 $ make fix-drupal
 ```
 

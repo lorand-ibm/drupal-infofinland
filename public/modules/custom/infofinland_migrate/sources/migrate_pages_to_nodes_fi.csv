@@ -1,13 +1,9 @@
 ﻿sivun_id;Kieli;Nimi valikossa;Kuvaus;URL;Dokumentin ID;Dokumentin nimi
-237acc2f-ed06-4569-8521-1f3fc3c11d71;fi;Infopankin sivusto;;;;
-fc5d1355-6669-4536-a98d-40ec05a7f46c;fi;WWW-SIVUSTO;;root;;
-46995fe0-2ec6-4c78-9ae8-bc8cfb952d10;fi;Finland in your language;"";defaultpage;;
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;fi;Etusivu;InfoFinlandin sivuilta löydät tietoa Suomeen muuttamisesta ja elämästä Suomessa.;fi/etusivu*;6580;Tiesitkö..? kuntatieto
 e1d811ca-a89e-4885-a274-b5c434858dc4;fi;Muutto Suomeen;EU-kansalaiset | Ei-EU-kansalaiset | Pohjoismaiden kansalaiset | Suomeen muuttajan muistilista | Rekisteröityminen asukkaaksi | Pikaoppaat Suomeen muuttajalle;muutto;;
 51c5216c-a8ea-4112-b281-ba9ce8658c77;fi;Koronavirus ja muutto Suomeen;;fi/muutto-suomeen/koronavirus;8132;Koronavirus ja muutto Suomeen
 6349989c-5b2c-4248-966e-acb55c7f5206;fi;EU-kansalaiset;;fi/muutto-suomeen/eu-kansalaiset;7885;EU-kansalaiset 101
 183cc97a-7f9d-4168-b878-2a8bb5106b8f;fi;EU-kansalaisen oleskeluoikeuden rekisteröinti;;fi/muutto-suomeen/eu-kansalaiset/eu-kansalaisen-oleskeluoikeuden-rekisterointi;7871;EU-kansalaisen oleskeluoikeuden rekisteröinti
-df23804d-1074-4658-bdc1-4f284027f013;fi;Ei-EU-kansalaiset;;fi/muutto-suomeen/ei-eu-kansalaiset;;
+df23804d-1074-4658-bdc1-4f284027f013;fi;Muut kuin EU-kansalaiset;;fi/muutto-suomeen/ei-eu-kansalaiset;;
 85f8f2ea-7704-45d3-9a73-adff4c0c57a2;fi;Töihin Suomeen;;fi/muutto-suomeen/ei-eu-kansalaiset/toihin-suomeen;7226;Töihin Suomeen uusi
 42aeaa3f-f711-4db3-a7cb-0528dcb4049b;fi;Yrittäjäksi Suomeen;;fi/muutto-suomeen/ei-eu-kansalaiset/suomeen-yrittajaksi;7238;Suomeen yrittäjäksi uusi
 d22f24e0-0abf-42db-b14a-9f491f2284ba;fi;Opiskelemaan Suomeen;;fi/muutto-suomeen/ei-eu-kansalaiset/opiskelemaan-suomeen;7252;Opiskelemaan Suomeen uusi
@@ -122,7 +118,6 @@ a932bc15-ae92-40b8-816d-421d06872fc7;fi;Lääkkeet;;fi/elama-suomessa/terveys/la
 aebbaa81-124f-44ef-a389-504e4b7d7275;fi;Vammaiset ihmiset;;fi/elama-suomessa/terveys/vammaiset;1225;Vammaiset 101
 1c6561f4-b872-4085-b234-bb6b88a5320e;fi;Vammaisten palvelut  ;;fi/elama-suomessa/terveys/vammaiset/apua-arkeen;1226;Apua arkeen 101
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;fi;Taloudellista tukea vammaisille;;fi/elama-suomessa/terveys/vammaiset/taloudellista-tukea-vammaisille;1227;Taloudellista tukea 101
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;fi;Vammainen lapsi;;fi/elama-suomessa/terveys/vammaiset/vammainen-lapsi;1229;Vammainen lapsi 101
 7563d1e9-a9dc-4ca6-a7b0-5fff5935579f;fi;Perhe;Mikä on perhe? | Avioliitto | Avioero | Avoliitto | Avoliiton päättyminen | Lapset | Taloudellista tukea perheille | Lapsen hoito | Ikäihmiset;fi/elama-suomessa/perhe;;
 556cab51-1f10-4c03-8df6-fd01d4d00a87;fi;Mikä on perhe?;;fi/elama-suomessa/perhe/mika-on-perhe;824;Erilaisia perheitä (final) 101
 e97af33e-e780-4eff-921b-1ebdd61d314b;fi;Yhden vanhemman perhe;;fi/elama-suomessa/perhe/erilaisia-perheita/yhden-vanhemman-perhe;825;Yhden vanhemman perhe (final) 101
@@ -204,18 +199,18 @@ d2b68cda-a0a3-4d6f-b1b6-f63c7f813cec;fi;Elämä Helsingissä;;fi/helsinki/elama-
 3b536289-bb54-4b4a-893d-e86fd1ff0405;fi;Ongelmatilanteet Helsingissä;;fi/helsinki/elama-helsingissa/ongelmatilanteet-helsingissa;7702;Ongelmatilanteet Helsingissä, uusi
 5af36274-eda3-43c2-9e21-0d9ac9435ac4;fi;Vapaa-aika Helsingissä;;fi/helsinki/elama-helsingissa/vapaa-aika-helsingissa;1264;Vapaa-aika Helsingissä 101
 22ac8409-17df-49ae-86ab-83d27e17165a;fi;Tietoa Helsingistä;;fi/helsinki/tietoa-helsingista;1262;Tietoa Helsingistä 101
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;fi;Espoo;;fi/espoo*;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;fi;Espoo;;fi/espoo;;
 91bde7d1-82fd-43c2-8748-264b3fbd054f;fi;Muutto Espooseen;;fi/espoo/muutto-espooseen;1286;Muutto Espooseen 101
 0fe2bbad-e9f0-41c0-b626-7bcaa8121be0;fi;Elämä Espoossa;;fi/espoo/elama-espoossa;;
-ab08128a-9302-4fb4-b3af-ca95b5613a20;fi;Asettuminen Espooseen;;fi/espoo/elama-espoossa/asettuminen-espooseen*;1288;Maahanmuuttajana Espoossa 101
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;fi;Työ ja yrittäjyys Espoossa;;fi/espoo/elama-espoossa/tyo-ja-yrittajyys-espoossa*;1289;Työ ja yrittäjyys Espoossa 101
+ab08128a-9302-4fb4-b3af-ca95b5613a20;fi;Asettuminen Espooseen;;fi/espoo/elama-espoossa/asettuminen-espooseen;1288;Maahanmuuttajana Espoossa 101
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;fi;Työ ja yrittäjyys Espoossa;;fi/espoo/elama-espoossa/tyo-ja-yrittajyys-espoossa;1289;Työ ja yrittäjyys Espoossa 101
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;fi;Suomen ja ruotsin kieli Espoossa;;fi/espoo/elama-espoossa/suomen-ja-ruotsin-kieli-espoossa;1290;Suomen ja ruotsin kieli Espoossa 101
-01de4173-7e00-438f-9299-cc556bbe2867;fi;Asuminen Espoossa;;fi/espoo/elama-espoossa/asuminen-espoossa*;1291;Asuminen Espoossa 101
-6b98cb98-5e55-4025-9555-7c423b976979;fi;Koulutus Espoossa;;fi/espoo/elama-espoossa/koulutus-espoossa*;1292;Koulutus Espoossa 101
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;fi;Terveys Espoossa;;fi/espoo/elama-espoossa/terveys-espoossa*;1293;Terveys Espoossa 101
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;fi;Perhe Espoossa;;fi/espoo/elama-espoossa/perhe-espoossa*;1294;Perhe Espoossa 101
+01de4173-7e00-438f-9299-cc556bbe2867;fi;Asuminen Espoossa;;fi/espoo/elama-espoossa/asuminen-espoossa;1291;Asuminen Espoossa 101
+6b98cb98-5e55-4025-9555-7c423b976979;fi;Koulutus Espoossa;;fi/espoo/elama-espoossa/koulutus-espoossa;1292;Koulutus Espoossa 101
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;fi;Terveys Espoossa;;fi/espoo/elama-espoossa/terveys-espoossa;1293;Terveys Espoossa 101
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;fi;Perhe Espoossa;;fi/espoo/elama-espoossa/perhe-espoossa;1294;Perhe Espoossa 101
 b73964a8-5698-43ae-90c4-04d32e617716;fi;Ongelmatilanteet Espoossa;;fi/espoo/elama-espoossa/ongelmatilanteet-espoossa;1295;Ongelmatilanteet Espoossa 101
-15a30394-ec03-43a4-9cbd-0838665668b7;fi;Vapaa-aika Espoossa;;fi/espoo/elama-espoossa/vapaa-aika-espoossa*;1296;Vapaa-aika Espoossa 101
+15a30394-ec03-43a4-9cbd-0838665668b7;fi;Vapaa-aika Espoossa;;fi/espoo/elama-espoossa/vapaa-aika-espoossa;1296;Vapaa-aika Espoossa 101
 bc06509c-6faa-49dc-8457-9484dd7b40d0;fi;Tietoa Espoosta;;fi/espoo/tietoa-espoosta;1297;Tietoa Espoosta 101
 b50a728a-f038-47e2-bef9-f58aad73eb74;fi;Vantaa;;fi/vantaa*;;
 c20f70d0-dade-40e0-aacf-3917806aa8f2;fi;Muutto Vantaalle;;fi/vantaa/muutto-vantaalle;1265;Muutto Vantaalle 101
@@ -387,31 +382,20 @@ a958cedd-0397-4e34-a576-09a6f69ded3a;fi;Terveys Merijärvellä;;fi/merijarvi/ela
 bc140111-638f-4b8c-9644-4f15e4176681;fi;Vapaa-aika Merijärvellä;;fi/merijarvi/elama-merijarvella/vapaa-aika-merijarvella;8244;Vapaa-aika Merijärvellä
 b8387a8d-ce00-488c-b8dc-5450f10137d8;fi;Tietoa Merijärvestä;;fi/merijarvi/tietoa-merijarvesta;8245;Tietoa Merijärvestä
 cbd02ef1-cc5f-42d7-a2a0-d81b3835b8a0;fi;Iisalmi;;fi/iisalmi;;
-ffeaa352-17c1-4f07-a24c-7916d72fcc81;fi;Muutto Iisalmeen;;fi/iisalmi/muutto-iisalmeen;;
+ffeaa352-17c1-4f07-a24c-7916d72fcc81;fi;Muutto Iisalmeen;;fi/iisalmi/muutto-iisalmeen;8188;Muutto Iisalmeen
 bc51f8a7-6da6-4e1b-9df0-88bcf2bb3a26;fi;Elämä Iisalmessa;;fi/iisalmi/elama-iisalmessa;;
-538d8cfd-5702-4afa-8943-b7e666ad8718;fi;Asettuminen Iisalmeen;;fi/iisalmi/elama-iisalmessa/asettuminen-iisalmeen;;
-f35458b4-376b-4f76-8e0b-e4fae50097f9;fi;Työ ja yrittäjyys Iisalmessa;;fi/iisalmi/elama-iisalmessa/tyo-ja-yrittajyys-iisalmessa;;
-5a74dad9-05e4-499f-b82b-30cdd4627f3f;fi;Suomen ja ruotsin kieli Iisalmessa;;fi/iisalmi/elama-iisalmessa/suomen-ja-ruotsin-kieli-iisalmessa;;
-8bc35b47-d615-4fe9-b5ba-ab04bea92ded;fi;Asuminen Iisalmessa;;fi/iisalmi/elama-iisalmessa/asuminen-iisalmessa;;
-bad71bd1-5d02-4997-b9db-db7455e21c56;fi;Koulutus Iisalmessa;;fi/iisalmi/elama-iisalmessa/koulutus-iisalmessa;;
-ad9100d9-56f1-4607-b62c-f6fd11764eb5;fi;Terveys Iisalmessa;;fi/iisalmi/elama-iisalmessa/terveys-iisalmessa;;
-22a0fd81-606d-4fb7-9ac6-186a64bcd432;fi;Perhe Iisalmessa;;fi/iisalmi/elama-iisalmessa/perhe-iisalmessa;;
-64325cb3-3f94-4cf5-b436-c94dd1279edf;fi;Ongelmatilanteet Iisalmessa;;fi/iisalmi/elama-iisalmessa/ongelmatilanteet-iisalmessa;;
-b0857cf9-25ba-4bfd-b1a4-d02e37723db5;fi;Vapaa-aika Iisalmessa;;fi/iisalmi/elama-iisalmessa/vapaa-aika-iisalmessa;;
-f4ba4c12-4a3b-44ce-91df-c60fa92af171;fi;Tietoa Iisalmesta;;fi/iisalmi/tietoa-iisalmesta;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;fi;Kajaani;;fi/kajaani;;
-8b70001f-6267-46d0-9ba9-bcf070479b8a;fi;Muutto Kajaaniin;;fi/kajaani/muutto-kajaaniin;;
-82e2794c-5848-4c62-b73b-8cb9b9e31441;fi;Elämä Kajaanissa;;fi/kajaani/elama-kajaanissa;;
-53450101-6764-4278-87bf-4f8f29a629ee;fi;Asettuminen Kajaaniin;;fi/kajaani/elama-kajaanissa/asettuminen-kajaaniin;;
-bb2d8f8f-5638-481f-b070-84765258dbaa;fi;Työ ja yrittäjyys Kajaanissa;;fi/kajaani/elama-kajaanissa/tyo-ja-yrittajyys-kajaanissa;;
-a75558ed-334f-4e67-8c4b-3d441fce8372;fi;Suomen ja ruotsin kieli Kajaanissa;;fi/kajaani/elama-kajaanissa/suomen-ja-ruotsin-kieli-kajaanissa;;
-e6aeafe2-9e21-46b1-a92b-32087e2682cd;fi;Asuminen Kajaanissa;;fi/kajaani/elama-kajaanissa/asuminen-kajaanissa;;
-caf1bc79-188d-48de-a37f-db9a3b53a85f;fi;Koulutus Kajaanissa;;fi/kajaani/elama-kajaanissa/koulutus-kajaanissa;;
-e3d285ea-a3b2-4604-abbf-7223a531f76c;fi;Terveys Kajaanissa;;fi/kajaani/elama-kajaanissa/terveys-kajaanissa;;
-34cf126b-0303-4277-90d7-0af8da4449af;fi;Perhe Kajaanissa;;fi/kajaani/elama-kajaanissa/perhe-kajaanissa;;
-b6f678fe-1ef7-49ec-b56c-46548be4f688;fi;Ongelmatilanteet Kajaanissa;;fi/kajaani/elama-kajaanissa/ongelmatilanteet-kajaanissa;;
-c6afd1de-2eea-43ee-b47c-f903a3f402d1;fi;Vapaa-aika Kajaanissa;;fi/kajaani/elama-kajaanissa/vapaa-aika-kajaanissa;;
-eba58f46-16b3-4a46-b6bc-095b09fc66c4;fi;Tietoa Kajaanista;;fi/kajaani/tietoa-kajaanista;;
+538d8cfd-5702-4afa-8943-b7e666ad8718;fi;Asettuminen Iisalmeen;;fi/iisalmi/elama-iisalmessa/asettuminen-iisalmeen;8189;Asettuminen Iisalmeen
+f35458b4-376b-4f76-8e0b-e4fae50097f9;fi;Työ ja yrittäjyys Iisalmessa;;fi/iisalmi/elama-iisalmessa/tyo-ja-yrittajyys-iisalmessa;8190;Työ ja yrittäjyys Iisalmessa
+5a74dad9-05e4-499f-b82b-30cdd4627f3f;fi;Suomen ja ruotsin kieli Iisalmessa;;fi/iisalmi/elama-iisalmessa/suomen-ja-ruotsin-kieli-iisalmessa;8191;Suomen ja ruotsin kieli Iisalmessa
+8bc35b47-d615-4fe9-b5ba-ab04bea92ded;fi;Asuminen Iisalmessa;;fi/iisalmi/elama-iisalmessa/asuminen-iisalmessa;8192;Asuminen Iisalmessa
+bad71bd1-5d02-4997-b9db-db7455e21c56;fi;Koulutus Iisalmessa;;fi/iisalmi/elama-iisalmessa/koulutus-iisalmessa;8193;Koulutus Iisalmessa
+ad9100d9-56f1-4607-b62c-f6fd11764eb5;fi;Terveys Iisalmessa;;fi/iisalmi/elama-iisalmessa/terveys-iisalmessa;8194;Terveys Iisalmessa
+22a0fd81-606d-4fb7-9ac6-186a64bcd432;fi;Perhe Iisalmessa;;fi/iisalmi/elama-iisalmessa/perhe-iisalmessa;8195;Perhe Iisalmessa
+64325cb3-3f94-4cf5-b436-c94dd1279edf;fi;Ongelmatilanteet Iisalmessa;;fi/iisalmi/elama-iisalmessa/ongelmatilanteet-iisalmessa;8196;Ongelmatilanteet Iisalmessa
+b0857cf9-25ba-4bfd-b1a4-d02e37723db5;fi;Vapaa-aika Iisalmessa;;fi/iisalmi/elama-iisalmessa/vapaa-aika-iisalmessa;8197;Vapaa-aika Iisalmessa
+f4ba4c12-4a3b-44ce-91df-c60fa92af171;fi;Tietoa Iisalmesta;;fi/iisalmi/tietoa-iisalmesta;8198;Tietoa Iisalmesta
+7c5ce387-2692-4b79-bb4b-564a34a7b766;fi;Kajaani;;;;
+82e2794c-5848-4c62-b73b-8cb9b9e31441;fi;Elämä Kajaanissa;;;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;fi;Oulu;;fi/oulu;;
 283c9309-3cb7-403e-9340-3d8ed1208200;fi;Muutto Ouluun;;fi/oulu/muutto-ouluun;1055;Muutto Ouluun 101
 25251e7f-166c-43d5-8700-2ebc9d65a201;fi;Elämä Oulussa;;fi/oulu/elama-oulussa;;
@@ -439,7 +423,6 @@ e5415a42-55ca-411d-9caf-9426a7cd124b;fi;Kuvat;;fi/kuvat;1181;Kuvat 101
 20b5c102-959a-4782-991e-9dd2dbb0905f;fi;Yhteystiedot;;fi/yhteystiedot;1209;Yhteystiedot 101
 eadbffd6-ace0-4d27-86f7-62ccf41494c3;fi;Sivukartta;;fi/sivukartta;;
 bdfaadb0-7010-4f6b-b33c-0743c92e7ab7;fi;Videokilpailu;;;6335;Videokilpailu voittajat
-da6e7b02-beb0-4bf0-bccf-3824f848d1f8;fi;Videokilpailun säännöt;;fi/videokilpailun-saannot;6213;Videokilpailu 101
 78989985-dd5f-4d7d-9906-5ea9cd7f1c0e;fi;Palaute;;fi/palaute;1179;Footerin palaute 101
 6b216373-9708-4fcb-8aa6-9745fefd5422;fi;10 vuotta monikielistä neuvontaa Helsingissä -seminaari;;fi/10-vuotta-monikielista-neuvontaa-helsingissa-seminaari;6624;10 vuotta monikielistä neuvontaa Helsingissä -seminaari 101
 a8dee53e-5a06-4238-959d-10182391c5d6;fi;Tietosuoja;;fi/tietoa-palvelusta/tietosuoja;7944;Tietosuoja
@@ -447,19 +430,9 @@ a8dee53e-5a06-4238-959d-10182391c5d6;fi;Tietosuoja;;fi/tietoa-palvelusta/tietosu
 49b24f4b-3da6-4ef8-b287-5e160e42316f;fi;Verkkopaneeli;;fi/verkkopaneeli;7806;Verkkopaneeli
 a14f59d3-7d52-43de-9cfd-682f307d545a;fi;Kävijäkysely;;;6686;Kävijäkysely 101
 0b9296ca-1bb4-467e-aca3-c65ce22fe08a;fi;100 kuvaa ystävyydestä;;100kuvaa;7797;100 kuvaa ystävyydestä 101
-9791b5c5-272a-4c5c-bf03-841ecb46783a;fi;Erikoistoiminnallisuudet;;special-functionality;;
 146ab35e-60b6-4557-be61-b1ba67b43cde;fi;Ohjetekstit;;ohjetekstit;;
-34e1223b-abe0-4f1c-9c22-ea044369f05f;fi;Css-tyylitiedosto selaimia varten;;css/screen;;
-c438a8b7-0576-4bed-b9ac-4baa90876adf;fi;Css-tyylitiedosto tulostusta varten;;css/print;;
-c1a9a53e-c318-4596-9d45-2471c542533b;fi;Haku;;search;;
-871697ac-6ee5-4136-8a19-39e26574e366;fi;404 Sivua ei löydy;;default;0;
-1d28f816-c0bc-4494-b5b6-69eefbcbec0c;fi;Otsikkokuvien generointi;;textimage*;;
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;fi;Palaute;;palaute;7039;palautesivun sisältö
 5d999349-63b0-4f01-b160-1d80a6ea0595;fi;Kiitos palautteesta;;fi/kiitos-palautteesta;7053;kiitos palautteesta
-7c278b6b-6983-47ef-ab43-202df47d2b55;fi;Sisältöä ei ole saatavissa valitsemallasi kielellä. Valitse jokin toinen kieli:;;pagenotfound;;
-df141ede-71f9-46dd-9001-479fd7e81463;fi;Uudelleenohjaukset;;;;
-1536042b-c390-49bf-85f7-bd66899fab64;fi;Uutiskirje;;uutiskirje;;
-171b1b2b-95dd-477d-abce-2720bb610c8e;fi;Muutto Suomeen;;prime114.aspx;;
 17c49750-702c-4667-b6aa-db504901d471;fi;Pikaoppaat Suomeen muuttajalle;;fi/muutto-suomeen/olen-;;
 f9de2d8d-2d0d-4631-a987-48aa4f79e9d7;fi;Opiskelija;;fi/muutto-suomeen/olen-/opiskelija;;
 82903420-120a-49cf-b8bf-364165884493;fi;Pakolainen;;fi/muutto-suomeen/olen-/pakolainen;;
@@ -468,10 +441,8 @@ fbfc10c1-a969-4c5b-b46b-79a29fa4089c;fi;Turvapaikanhakija;;fi/muutto-suomeen/ole
 1c1e7bb8-1c53-4c9c-8c2e-75197436d11d;fi;Työntekijä tai yrittäjä;;fi/muutto-suomeen/olen-/tyontekija-tai-yrittaja;;
 9937e27c-b4c0-45c4-9fca-179e4c1e2bf7;fi;Oleskelulupa lapselle tai vanhemmalle;;fi/muutto-suomeen/ei-eu-kansalaiset/perheenjasenen-luokse-suomeen/oleskelulupa-lapselle-tai-vanhemmalle;;
 f135fd22-bb6f-47a5-8a6a-383e03df6c74;fi;Oleskelulupa muulle omaiselle;;fi/muutto-suomeen/ei-eu-kansalaiset/perheenjasenen-luokse-suomeen/oleskelulupa-muulle-omaiselle;;
-e9f05c64-3d94-46af-bfcb-3aa58d440988;fi;Asuminen;;prime112.aspx;;
 92ee23ce-ad91-4872-9e46-8758a2810829;fi;Asumisoikeusasunto;;fi/elama-suomessa/asuminen/asumisoikeusasunto;;
 24a4aaab-e2ad-4d7d-9223-07168040c7c2;fi;Osaomistusasunto;;fi/elama-suomessa/asuminen/osaomistusasunto;;
-9ee9e5aa-160d-4d86-9206-cba2dc131dc8;fi;Asettuminen Suomeen;;prime111.aspx;;
 600c8ffa-12c1-4f11-adac-640775c137b6;fi;Maahanmuuttajana Suomessa;;fi/elama-suomessa/maahanmuuttajana-suomessa;;
 648b0d18-d2f3-4ff8-933f-88676f55971d;fi;Kotoutuminen Suomeen;;fi/elama-suomessa/maahanmuuttajana-suomessa/kotoutuminen-suomeen;;
 749c7d67-ce01-42ab-93b4-651f34451098;fi;Arkielämä Suomessa;;fi/elama-suomessa/maahanmuuttajana-suomessa/arkielama-suomessa;;
@@ -480,10 +451,7 @@ ace3ed3d-1dbf-4293-8f50-260de7f1eff0;fi;Suomen sosiaaliturva;;fi/elama-suomessa/
 4a5df70b-7966-45cf-811b-80eb7ea21c66;fi;Suomen kansalaisuus;;fi/elama-suomessa/maahanmuuttajana-suomessa/suomen-kansalaisuus;;
 8f868c99-e681-4e8e-bcc6-0025569b638e;fi;Miten Suomen kansalaisuutta voi hakea?;;fi/elama-suomessa/maahanmuuttajana-suomessa/suomen-kansalaisuus/miten-suomen-kansalaisuutta-voi-hakea;;
 fa361570-7530-4b22-812e-143441441b09;fi;Suomen kansalaisen oikeudet ja velvollisuudet;;fi/elama-suomessa/maahanmuuttajana-suomessa/suomen-kansalaisuus/suomen-kansalaisen-oikeudet-ja-velvollisuudet;;
-77b103d7-9201-4f5d-9185-f17109415aa2;fi;Koulutus;;prime113.aspx;;
-e591f80b-2c7e-44c9-b7db-0b1618b1536b;fi;Ongelmatilanteet;;prime116.aspx;;
 f2fd2b7f-e0cf-4997-9df8-6bc5ac067c9f;fi;Avioliiton ja parisuhteen ongelmat;;fi/elama-suomessa/ongelmatilanteet/avioliiton-ja-parisuhteen-ongelmat;;
-e6ce77ff-4900-46a4-95f7-cfe98b55d3a0;fi;Helsinki;;helsinki;;
 e5f26bb4-d845-43b5-80dd-6e5ba64d18a5;fi;Maahanmuuttajana Helsingissä;;fi/helsinki/elama-helsingissa/maahanmuuttajana-helsingissa;;
 67b2a29f-0055-4df8-86b6-cd14e823c0b8;fi;Espoo;;espoo;;
 af30d40b-4adf-4c4e-9152-ce5f54ea3a5d;fi;Maahanmuuttajana Espoossa;;fi/espoo/elama-espoossa/maahanmuuttajana-espoossa;;
@@ -507,4 +475,3 @@ deefc2b8-aabe-4283-9edc-7f50349b2668;fi;Pyhäjoki;;pyhajoki;;
 ada58a9f-264c-44c4-8126-1a1d925231dd;fi;Joensuu;;joensuu;;
 deaec1ca-c4f8-4ff7-b917-98f74cef0a6a;fi;Vaasa;;vaasa;;
 f54bdf04-25e9-41cd-acc0-e9afbc359191;fi;Piilosivu ÄLÄ AVAA (footerin dokumentit);;piilosivu;7393;footer alimmat linkit (zh)
-afff281e-5baa-4029-ac4d-25c0155f8eb5;fi;Sivua ei löydy (ei-aktiivinen);;pagenotfound-non-active;7067;Sivua ei löydy (ei-aktiivinen) fi

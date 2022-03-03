@@ -1,9 +1,11 @@
+description: 'All content, by letter.'
 display:
   default:
     display_title: 'Par défaut'
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Trier par'
       pager:
@@ -17,3 +19,7 @@ display:
           label: Titre
         name:
           label: Auteur
+        changed:
+          label: 'Last update'
+  attachment_1:
+    display_title: Attachment

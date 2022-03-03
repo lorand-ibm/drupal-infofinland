@@ -1,0 +1,4082 @@
+log: 1
+menus:
+  -
+    menu_name: cities-landing
+    title: Kaupungit
+    parent: null
+    uri: 'internal:/node/31746/'
+    link_title: ''
+    description: Kaupungit
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 718f1fc6-dd53-4f7d-a21e-ba3ccde289b3
+  -
+    menu_name: cities
+    title: Helsinki
+    parent: null
+    uri: 'entity:node/31747'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '10'
+    langcode: fi
+    uuid: b9216204-90a2-4159-a640-6ceacdda9840
+  -
+    menu_name: cities
+    title: 'Muutto Helsinkiin'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31748'
+    link_title: ''
+    description: 'Muutto Helsinkiin'
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 09736f10-b770-4269-bedf-f8d9150bc3d6
+  -
+    menu_name: cities
+    title: 'Elämä Helsingissä '
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31749'
+    link_title: ''
+    description: 'Elämä Helsingissä '
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: ec53ebcf-2130-449d-af82-016d30d41a60
+  -
+    menu_name: cities
+    title: 'Asettuminen Helsinkiin'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31750'
+    link_title: ''
+    description: 'Asettuminen Helsinkiin'
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: 5c784776-717a-438c-bd6b-9f3a726f734b
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31751'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: 7796eb47-c272-4a44-96c5-aa98f2d1e3b4
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31752'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: 299bbc2a-2d29-43df-8101-187fa87b6fc9
+  -
+    menu_name: cities
+    title: 'Asuminen Helsingissä '
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31753'
+    link_title: ''
+    description: 'Asuminen Helsingissä '
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 3eecb354-44b3-4476-9b14-46bdf0b8a886
+  -
+    menu_name: cities
+    title: 'Koulutus Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31754'
+    link_title: ''
+    description: 'Koulutus Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fi
+    uuid: dcb0a9c9-2248-4bd6-8f03-00505b58392c
+  -
+    menu_name: cities
+    title: 'Terveys Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31755'
+    link_title: ''
+    description: 'Terveys Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: fi
+    uuid: 4329eafb-88b9-4895-a6af-f3692b6985ec
+  -
+    menu_name: cities
+    title: 'Perhe Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31756'
+    link_title: ''
+    description: 'Perhe Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-42'
+    langcode: fi
+    uuid: 83711c33-a517-4d2b-b724-962446df19de
+  -
+    menu_name: cities
+    title: 'Ongelmatilanteet Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31757'
+    link_title: ''
+    description: 'Ongelmatilanteet Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-41'
+    langcode: fi
+    uuid: a2a69140-15db-423d-9305-4d5696236333
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Helsingissä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'entity:node/31758'
+    link_title: ''
+    description: 'Vapaa-aika Helsingissä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-40'
+    langcode: fi
+    uuid: 1e5667e2-6da6-43ef-a69f-b62f3560cb47
+  -
+    menu_name: cities
+    title: 'Tietoa Helsingistä'
+    parent: 'menu_link_content:b9216204-90a2-4159-a640-6ceacdda9840'
+    uri: 'internal:/node/31759'
+    link_title: ''
+    description: 'Tietoa Helsingistä'
+    enabled: '1'
+    expanded: '0'
+    weight: '-39'
+    langcode: fi
+    uuid: 7ae67bae-e3ba-4fde-9e01-5f3398a0d406
+  -
+    menu_name: cities
+    title: Vantaa
+    parent: null
+    uri: 'internal:/node/32375'
+    link_title: ''
+    description: Vantaa
+    enabled: '1'
+    expanded: '0'
+    weight: '12'
+    langcode: fi
+    uuid: 6fca0c66-b612-4e23-b1e3-68d5f14a26dc
+  -
+    menu_name: cities
+    title: Espoo
+    parent: null
+    uri: 'internal:/node/31760'
+    link_title: ''
+    description: Espoo
+    enabled: '1'
+    expanded: '0'
+    weight: '11'
+    langcode: fi
+    uuid: 91ee2274-3d20-454a-9db1-54f5099b8853
+  -
+    menu_name: cities
+    title: 'Muutto Espooseen'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31761'
+    link_title: ''
+    description: 'Muutto Espooseen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 89fc8d84-8b01-4ae6-b6e8-c25b8985f499
+  -
+    menu_name: cities
+    title: 'Elämä Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31762'
+    link_title: ''
+    description: 'Elämä Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: a6d06e4f-736e-4a01-a296-58f3c1f7ab97
+  -
+    menu_name: cities
+    title: 'Asettuminen Espooseen'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31763'
+    link_title: ''
+    description: 'Asettuminen Espooseen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: 4cbe6ede-f3ae-4a76-8de1-4cc1019a80cd
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31764'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: a6caca6b-7cd1-45a2-9285-84e75eeda3fa
+  -
+    menu_name: cities
+    title: 'Asuminen Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31766'
+    link_title: ''
+    description: 'Asuminen Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 4b2e8bc4-6971-4a4a-bf24-f9b23824212b
+  -
+    menu_name: cities
+    title: 'Koulutus Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31767'
+    link_title: ''
+    description: 'Koulutus Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fi
+    uuid: 1d4f6a9c-d475-4ad7-86d4-7c876b86ced4
+  -
+    menu_name: cities
+    title: 'Terveys Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31768'
+    link_title: ''
+    description: 'Terveys Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: fi
+    uuid: 3113d976-2f4d-4bd8-a02f-ab41a116b62f
+  -
+    menu_name: cities
+    title: 'Perhe Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31769'
+    link_title: ''
+    description: 'Perhe Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-42'
+    langcode: fi
+    uuid: 0212d0d1-0054-4caa-b70e-054058705005
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31771'
+    link_title: ''
+    description: 'Vapaa-aika Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-40'
+    langcode: fi
+    uuid: edb02376-6f85-448b-a786-b35348b15011
+  -
+    menu_name: cities
+    title: 'Tietoa Espoosta'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'internal:/node/31772'
+    link_title: ''
+    description: 'Tietoa Espoosta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-39'
+    langcode: fi
+    uuid: 27c8b1ef-85a7-495a-8b46-586434343f40
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Espoossa'
+    parent: 'menu_link_content:91ee2274-3d20-454a-9db1-54f5099b8853'
+    uri: 'entity:node/31765'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Espoossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: d37f5ac5-b26e-4ffb-946f-9fcabc5a8168
+  -
+    menu_name: cities
+    title: 'Muutto Vantaalle'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31774'
+    link_title: ''
+    description: 'Muutto Vantaalle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 3ef493d0-0bfd-4b08-a982-1d9124a4784c
+  -
+    menu_name: cities
+    title: 'Asettuminen Vantaalle'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31776'
+    link_title: ''
+    description: 'Asettuminen Vantaalle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: e2af80ee-af34-402b-abaf-419379b4e86d
+  -
+    menu_name: cities
+    title: 'Elämä Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31775'
+    link_title: ''
+    description: 'Elämä Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: 167490a9-9fde-4331-a1a3-3800aceef9c9
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31777'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: f86c1a8c-c566-42b8-97b4-dbda653036ef
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31778'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: 51e9a170-454c-483c-aa6b-aeb1b1755e23
+  -
+    menu_name: cities
+    title: 'Asuminen vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31779'
+    link_title: ''
+    description: 'Asuminen Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 0c3299c2-a52d-4070-8846-793950fa7338
+  -
+    menu_name: cities
+    title: 'Koulutus Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31780'
+    link_title: ''
+    description: 'Koulutus Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fi
+    uuid: 0e4ffa8d-161f-433c-8ff9-e7f43c091c88
+  -
+    menu_name: cities
+    title: 'Terveys Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31781'
+    link_title: ''
+    description: 'Terveys Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: fi
+    uuid: 047feb96-9c8c-4651-af12-fde63a42a8e0
+  -
+    menu_name: cities
+    title: 'Perhe Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31782'
+    link_title: ''
+    description: 'Perhe Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-42'
+    langcode: fi
+    uuid: dd663ff5-b38e-4c1b-969c-26266a4726ba
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Vantaalla'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31784'
+    link_title: ''
+    description: 'Vapaa-aika Vantaalla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-40'
+    langcode: fi
+    uuid: 4470994b-ec0f-4943-8180-58b544598409
+  -
+    menu_name: cities
+    title: 'Tietoa Vantaasta'
+    parent: 'menu_link_content:6fca0c66-b612-4e23-b1e3-68d5f14a26dc'
+    uri: 'entity:node/31785'
+    link_title: ''
+    description: 'Tietoa Vantaasta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-39'
+    langcode: fi
+    uuid: a73644fa-c60f-4384-8b53-adfb6f652cd1
+  -
+    menu_name: cities
+    title: Kauniainen
+    parent: null
+    uri: 'internal:/node/31786'
+    link_title: ''
+    description: Kauniainen
+    enabled: '1'
+    expanded: '0'
+    weight: '13'
+    langcode: fi
+    uuid: 518c2c3a-52e9-48c5-b39a-3e83760e5ae2
+  -
+    menu_name: cities
+    title: 'Muutto Kauniaisiin'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31787'
+    link_title: ''
+    description: 'Muutto Kauniaisiin'
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 8c239827-d6a3-40c2-9829-c6af6297b28d
+  -
+    menu_name: cities
+    title: 'Asettuminen Kauniaisiin'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31789'
+    link_title: ''
+    description: 'Asettuminen Kauniaisiin'
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: 95662a7e-ce86-4aec-8deb-ddc42b98b419
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Kauniaisissa'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31790'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Kauniaisissa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: 13699dd9-494a-4283-bf58-e893913dc1b4
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Kauniaisissa'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31791'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Kauniaisissa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: 3e7a0d13-9283-4404-b929-a43280d60833
+  -
+    menu_name: cities
+    title: 'Asuminen Kauniaisissa'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31792'
+    link_title: ''
+    description: 'Asuminen Kauniaisissa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: c2f6b885-832e-457f-aac1-7d092eed2fd5
+  -
+    menu_name: cities
+    title: 'Koulutus Kauniaisissa'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31793'
+    link_title: ''
+    description: 'Koulutus Kauniaisissa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 6e074714-ee4b-47df-b3fc-32395e50881c
+  -
+    menu_name: cities
+    title: 'Terveys Kauniaisissa'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31794'
+    link_title: ''
+    description: 'Terveys Kauniaisissa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fi
+    uuid: 41b03f02-5a08-43f6-8bee-2c0ca15de802
+  -
+    menu_name: cities
+    title: 'Perhe Kauniaisissa'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31795'
+    link_title: ''
+    description: 'Perhe Kauniaisissa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: fi
+    uuid: d1d41457-aa1e-4937-a604-7ad27f1f8989
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Kauniaisissa '
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31797'
+    link_title: ''
+    description: 'Vapaa-aika Kauniaisissa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-42'
+    langcode: fi
+    uuid: 345db778-09c9-4749-9dd2-89baef64dc46
+  -
+    menu_name: cities
+    title: 'Tietoa Kauniaisista'
+    parent: 'menu_link_content:518c2c3a-52e9-48c5-b39a-3e83760e5ae2'
+    uri: 'entity:node/31798'
+    link_title: ''
+    description: 'Tietoa Kauniaisista'
+    enabled: '1'
+    expanded: '0'
+    weight: '-41'
+    langcode: fi
+    uuid: 094d871d-6aea-4482-9c91-187e3c0efe73
+  -
+    menu_name: cities
+    title: Turku
+    parent: null
+    uri: 'internal:/node/31799'
+    link_title: ''
+    description: Turku
+    enabled: '1'
+    expanded: '0'
+    weight: '14'
+    langcode: fi
+    uuid: dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43
+  -
+    menu_name: cities
+    title: 'Muutto Turkuun '
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31800'
+    link_title: ''
+    description: 'Muutto Turkuun '
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: eab22dea-0cee-41a2-b19a-6870f551b591
+  -
+    menu_name: cities
+    title: 'Asettuminen Turkuun'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31802'
+    link_title: ''
+    description: 'Asettuminen Turkuun'
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: ec4d3075-c39b-476e-b350-9a2feb0cbc98
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Turussa'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31803'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Turussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-59'
+    langcode: fi
+    uuid: e5daedcf-2e64-4e00-9605-29b01dd24156
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Turussa'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31804'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Turussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-58'
+    langcode: fi
+    uuid: 440f9a5c-612d-4ca7-9838-68dd6cc331c3
+  -
+    menu_name: cities
+    title: 'Asuminen Turussa'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31805'
+    link_title: ''
+    description: 'Asuminen Turussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-57'
+    langcode: fi
+    uuid: f9921f13-597b-4432-a96b-62b7624b1ddf
+  -
+    menu_name: cities
+    title: 'Koulutus Turussa'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31806'
+    link_title: ''
+    description: 'Koulutus Turussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-56'
+    langcode: fi
+    uuid: 2feaff12-405f-4211-b7d0-779bb1e959ab
+  -
+    menu_name: cities
+    title: 'Terveys Turussa '
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31807'
+    link_title: ''
+    description: 'Terveys Turussa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-55'
+    langcode: fi
+    uuid: 5efa2a54-7465-4d8d-9572-2b2354ed5f50
+  -
+    menu_name: cities
+    title: 'Perhe Turussa'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31808'
+    link_title: ''
+    description: 'Perhe Turussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-54'
+    langcode: fi
+    uuid: 5cbc2a30-063b-4e8a-850e-ddd241cd8c32
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Turussa'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31810'
+    link_title: ''
+    description: 'Vapaa-aika Turussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-53'
+    langcode: fi
+    uuid: 31f3af73-2bb7-421f-9601-e90864f0b483
+  -
+    menu_name: cities
+    title: 'Tietoa Turusta'
+    parent: 'menu_link_content:dd9ef7ba-ac3d-490a-bca4-1ac5ebbccc43'
+    uri: 'entity:node/31811'
+    link_title: ''
+    description: 'Tietoa Turusta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-52'
+    langcode: fi
+    uuid: c788bf71-65cb-4266-9bb5-a5d9e27b5857
+  -
+    menu_name: cities
+    title: Tampere
+    parent: null
+    uri: 'internal:/node/31812'
+    link_title: ''
+    description: Tampere
+    enabled: '1'
+    expanded: '0'
+    weight: '15'
+    langcode: fi
+    uuid: 61b75170-706c-4897-b100-9ae93848a003
+  -
+    menu_name: cities
+    title: 'Muutto Tampereelle'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31813'
+    link_title: ''
+    description: 'Muutto Tampereelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-72'
+    langcode: fi
+    uuid: 237ae878-386a-4723-95a3-244a812a2073
+  -
+    menu_name: cities
+    title: 'Asettuminen Tampereelle '
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31815'
+    link_title: ''
+    description: 'Asettuminen Tampereelle '
+    enabled: '1'
+    expanded: '0'
+    weight: '-71'
+    langcode: fi
+    uuid: 00d6401a-28b7-40d5-a195-f265ce3e7f9d
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31816'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-70'
+    langcode: fi
+    uuid: 1a9288cc-999b-4381-8207-901671dfbc3d
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31817'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-69'
+    langcode: fi
+    uuid: c424c25b-28fe-4e63-8558-0dc65d1540be
+  -
+    menu_name: cities
+    title: 'Asuminen Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31818'
+    link_title: ''
+    description: 'Asuminen Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: abda1a41-bc89-4b9d-a1c6-3e6e884ca38a
+  -
+    menu_name: cities
+    title: 'Koulutus Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31819'
+    link_title: ''
+    description: 'Koulutus Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: eb5f26af-656a-4e6f-ae8d-0a72d0f31b70
+  -
+    menu_name: cities
+    title: 'Terveys Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31820'
+    link_title: ''
+    description: 'Terveys Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: eed8eb1e-0753-40c5-9d68-176056d74dd1
+  -
+    menu_name: cities
+    title: 'Perhe Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31821'
+    link_title: ''
+    description: 'Perhe Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 47101ea1-8e0f-4cb8-b111-3d7d0210120b
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Tampereella'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'entity:node/31823'
+    link_title: ''
+    description: 'Vapaa-aika Tampereella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: 5a76ae60-2183-4570-aaf6-67d2525bea94
+  -
+    menu_name: cities
+    title: 'Tietoa Tampereesta'
+    parent: 'menu_link_content:61b75170-706c-4897-b100-9ae93848a003'
+    uri: 'internal:/node/31824'
+    link_title: ''
+    description: 'Tietoa Tampereesta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: 5c5b251e-484e-422a-be8d-d30862088ed1
+  -
+    menu_name: cities
+    title: Vaasa
+    parent: null
+    uri: 'internal:/node/31825'
+    link_title: ''
+    description: Vaasa
+    enabled: '1'
+    expanded: '0'
+    weight: '16'
+    langcode: fi
+    uuid: 7bb34c89-d16b-41f5-85b1-7ac7baa633c3
+  -
+    menu_name: cities
+    title: 'Muutto Vaasaan'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31826'
+    link_title: ''
+    description: 'Muutto Vaasaan'
+    enabled: '1'
+    expanded: '0'
+    weight: '-83'
+    langcode: fi
+    uuid: d71c7931-b16e-4dd4-b1bb-38b15ba3ec1b
+  -
+    menu_name: cities
+    title: 'Asettuminen Vaasaan'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31828'
+    link_title: ''
+    description: 'Asettuminen Vaasaan'
+    enabled: '1'
+    expanded: '0'
+    weight: '-82'
+    langcode: fi
+    uuid: 263c9888-5950-4f5b-9345-f75f628a3c37
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Vaasassa'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31829'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Vaasassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-81'
+    langcode: fi
+    uuid: 95d2be55-a8b7-406c-a89b-3847761a36c1
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Vaasassa'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31830'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Vaasassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-80'
+    langcode: fi
+    uuid: 4c05e1af-6bd1-4480-94e7-01613cdf74b2
+  -
+    menu_name: cities
+    title: 'Asuminen Vaasassa'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31831'
+    link_title: ''
+    description: 'Asuminen Vaasassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-79'
+    langcode: fi
+    uuid: 91e59b3b-ddcc-4406-9b9f-551e6b7a57a9
+  -
+    menu_name: cities
+    title: 'Koulutus Vaasassa '
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31832'
+    link_title: ''
+    description: 'Koulutus Vaasassa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-78'
+    langcode: fi
+    uuid: 61fedf12-f6be-469c-8ec4-19bdb879c40f
+  -
+    menu_name: cities
+    title: 'Terveys Vaasassa '
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31833'
+    link_title: ''
+    description: 'Terveys Vaasassa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-77'
+    langcode: fi
+    uuid: ba3e5987-5e65-4c13-bb95-0a1ddfdbd8e8
+  -
+    menu_name: cities
+    title: 'Perhe Vaasassa'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31834'
+    link_title: ''
+    description: 'Perhe Vaasassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-76'
+    langcode: fi
+    uuid: e49af0d8-c1b4-4ff8-9936-a6fd786f624c
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Vaasassa'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'internal:/node/31836'
+    link_title: ''
+    description: 'Vapaa-aika Vaasassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-75'
+    langcode: fi
+    uuid: 675da7dc-b14a-4b60-9fc2-e9b6e0598eec
+  -
+    menu_name: cities
+    title: 'Tietoa Vaasasta'
+    parent: 'menu_link_content:7bb34c89-d16b-41f5-85b1-7ac7baa633c3'
+    uri: 'entity:node/31837'
+    link_title: ''
+    description: 'Tietoa Vaasasta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-74'
+    langcode: fi
+    uuid: 928bfaa9-666f-4748-b1cf-9267cc5b3068
+  -
+    menu_name: cities
+    title: Kokkola
+    parent: null
+    uri: 'internal:/node/31838'
+    link_title: ''
+    description: Kokkola
+    enabled: '1'
+    expanded: '0'
+    weight: '17'
+    langcode: fi
+    uuid: 42550855-c534-4fd9-bdee-47fd20b23778
+  -
+    menu_name: cities
+    title: 'Muutto Kokkolaan'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31839'
+    link_title: ''
+    description: 'Muutto Kokkolaan'
+    enabled: '1'
+    expanded: '0'
+    weight: '-69'
+    langcode: fi
+    uuid: 27027053-2e7b-4551-ab77-fb67cb1eff98
+  -
+    menu_name: cities
+    title: 'Asettuminen Kokkolaan'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31841'
+    link_title: ''
+    description: 'Asettuminen Kokkolaan'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 8086da62-cf6d-4abd-a74f-a12543712dab
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Kokkolassa'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31842'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Kokkolassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: b241ecd4-d20f-4953-b587-669a45d12a32
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Kokkolassa '
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31843'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Kokkolassa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: 9be72886-0bc3-44df-96ac-4e474c64f222
+  -
+    menu_name: cities
+    title: 'Asuminen Kokkolassa'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31844'
+    link_title: ''
+    description: 'Asuminen Kokkolassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 3c755aee-ac82-4a85-91eb-cbe0a97eeaa8
+  -
+    menu_name: cities
+    title: 'Koulutus Kokkolassa'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31845'
+    link_title: ''
+    description: 'Koulutus Kokkolassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: c96ee259-7dd0-4884-94ce-041fc700f15f
+  -
+    menu_name: cities
+    title: 'Terveys Kokkolassa'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31846'
+    link_title: ''
+    description: 'Terveys Kokkolassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: 2a1734c8-8bac-4ce3-baf4-2d0584e989ce
+  -
+    menu_name: cities
+    title: 'Perhe Kokkolassa'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31847'
+    link_title: ''
+    description: 'Perhe Kokkolassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: 3e80f710-6aef-494f-a038-be3b6aa497d0
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Kokkolassa'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'entity:node/31849'
+    link_title: ''
+    description: 'Vapaa-aika Kokkolassa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: 16ef3a6a-5175-4c57-9b25-41fbada584c3
+  -
+    menu_name: cities
+    title: 'Tietoa Kokkolasta'
+    parent: 'menu_link_content:42550855-c534-4fd9-bdee-47fd20b23778'
+    uri: 'internal:/node/31850'
+    link_title: ''
+    description: 'Tietoa Kokkolasta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: 57b95e42-336c-4a0b-af6f-4e76309b9e83
+  -
+    menu_name: cities
+    title: 'Raahe-Kalajoki seutu'
+    parent: null
+    uri: 'internal:/node/31851'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '18'
+    langcode: fi
+    uuid: 99ec764e-6748-4d26-a34b-ecc0fd4ea9ae
+  -
+    menu_name: cities
+    title: 'Muutto Raahe-Kalajoki seudulle'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31852'
+    link_title: ''
+    description: 'Muutto Raahe-Kalajoki seudulle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-71'
+    langcode: fi
+    uuid: a4780d24-6cf1-4ea1-9969-6a4797000f3e
+  -
+    menu_name: cities
+    title: 'Asettuminen Raahe-Kalajoki seudulle'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31854'
+    link_title: ''
+    description: 'Asettuminen Raahe-Kalajoki seudulle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-70'
+    langcode: fi
+    uuid: b26ccb0c-3cca-498a-961d-2fff72650494
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Raahe-Kalajoki seudulla'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31855'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Raahe-Kalajoki seudulla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-69'
+    langcode: fi
+    uuid: 013060fd-fc47-4e36-99bf-a3ef56289b62
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Raahe-Kalajoki seudulla'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31856'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Raahe-Kalajoki seudulla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 2405f084-7dad-4dc0-b952-2b5511ab1699
+  -
+    menu_name: cities
+    title: 'Asuminen Raahe-Kalajoki seudulla'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31857'
+    link_title: ''
+    description: 'Asuminen Raahe-Kalajoki seudulla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: 4e4b222c-f839-45fa-a6ee-280c2b7964b6
+  -
+    menu_name: cities
+    title: 'Koulutus Raahe-Kalajoki seudulla '
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31858'
+    link_title: ''
+    description: 'Koulutus Raahe-Kalajoki seudulla '
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: 6c413098-b032-449e-a1b8-da1de64885a9
+  -
+    menu_name: cities
+    title: 'Terveys Raahe-Kalajoki seudulla'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31859'
+    link_title: ''
+    description: 'Terveys Raahe-Kalajoki seudulla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: ff52fb60-359c-4c4c-b4ec-89b2a9d0b9a3
+  -
+    menu_name: cities
+    title: 'Perhe Raahe-Kalajoki seudulla'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31860'
+    link_title: ''
+    description: 'Perhe Raahe-Kalajoki seudulla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: 77f202fa-1a30-416a-ab31-163a9377e549
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Raahe-Kalajoki seudulla'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31862'
+    link_title: ''
+    description: 'Vapaa-aika Raahe-Kalajoki seudulla'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: ea2834da-98e1-4b45-a4b4-2ebcc58b9ebd
+  -
+    menu_name: cities
+    title: 'Tietoa Raahe-Kalajoki seudusta'
+    parent: 'menu_link_content:99ec764e-6748-4d26-a34b-ecc0fd4ea9ae'
+    uri: 'entity:node/31863'
+    link_title: ''
+    description: 'Tietoa Raahe-Kalajoki seudusta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: ef3020fa-1507-4aeb-82d9-0dd1f614351e
+  -
+    menu_name: cities
+    title: Raahe
+    parent: null
+    uri: 'internal:/node/31864'
+    link_title: ''
+    description: Raahe
+    enabled: '1'
+    expanded: '0'
+    weight: '19'
+    langcode: fi
+    uuid: 94995e8b-cfe6-44dc-85c0-620314059187
+  -
+    menu_name: cities
+    title: 'Muutto Raaheen'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31865'
+    link_title: ''
+    description: 'Muutto Raaheen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-70'
+    langcode: fi
+    uuid: 55784dc6-e51b-4756-b1ff-9727a41abd8d
+  -
+    menu_name: cities
+    title: 'Asettuminen Raaheen'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31867'
+    link_title: ''
+    description: 'Asettuminen Raaheen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-69'
+    langcode: fi
+    uuid: 5ab898e2-a2b2-47cb-a96d-bdf831a8b6d9
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Raahessa'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31868'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Raahessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: a60fd850-e42f-4f4b-9d49-dff75e2571f5
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Raahessa'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31869'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Raahessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: 5bee15ee-d7f9-40f7-ba24-9addf18389f6
+  -
+    menu_name: cities
+    title: 'Asuminen Raahessa '
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31870'
+    link_title: ''
+    description: 'Asuminen Raahessa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: 139e7dba-eea9-4916-b778-292dc90fddaf
+  -
+    menu_name: cities
+    title: 'Koulutus Raahessa'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31871'
+    link_title: ''
+    description: 'Koulutus Raahessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 26b4a3a3-bbd6-4383-a8b1-4bc452e74919
+  -
+    menu_name: cities
+    title: 'Terveys Raahessa'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31872'
+    link_title: ''
+    description: 'Terveys Raahessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: 0bbd9571-28bd-43cf-90d9-d1f598cea65a
+  -
+    menu_name: cities
+    title: 'Perhe Raahessa'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31873'
+    link_title: ''
+    description: 'Perhe Raahessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: c6f48c89-e121-4aad-a577-6251a2a4b12a
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Raahessa'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31875'
+    link_title: ''
+    description: 'Vapaa-aika Raahessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: 5a40b5c5-d860-48ee-9606-65e50e49f137
+  -
+    menu_name: cities
+    title: 'Tietoa Raahesta'
+    parent: 'menu_link_content:94995e8b-cfe6-44dc-85c0-620314059187'
+    uri: 'entity:node/31876'
+    link_title: ''
+    description: 'Tietoa Raahesta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: d141a7be-565b-4be7-a02c-c974e55c3bec
+  -
+    menu_name: cities
+    title: Siikajoki
+    parent: null
+    uri: 'internal:/node/31877'
+    link_title: ''
+    description: Siikajoki
+    enabled: '1'
+    expanded: '0'
+    weight: '20'
+    langcode: fi
+    uuid: 8ec95f4e-b225-4c17-9414-344d64fc3c59
+  -
+    menu_name: cities
+    title: 'Muutto Siikajoelle'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31878'
+    link_title: ''
+    description: 'Muutto Siikajoelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-69'
+    langcode: fi
+    uuid: 81e6f1eb-4b0b-401c-956c-fba5055098e8
+  -
+    menu_name: cities
+    title: 'Asettuminen Siikajoelle'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31880'
+    link_title: ''
+    description: 'Asettuminen Siikajoelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 5ac3eabd-8d17-4395-83f0-2f1f0a9b1740
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31881'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: a70038c3-9e2b-42b8-9c3e-57aa1c5dcd67
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31882'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: f712136e-57c4-4d8e-8830-0c64fbc66967
+  -
+    menu_name: cities
+    title: 'Asuminen Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31883'
+    link_title: ''
+    description: 'Asuminen Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 3fdc5af2-05ff-4e41-bde6-9e3ffe7ac7a7
+  -
+    menu_name: cities
+    title: 'Koulutus Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31884'
+    link_title: ''
+    description: 'Koulutus Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: fcbf2007-6220-4213-8897-c9be8b44ac49
+  -
+    menu_name: cities
+    title: 'Terveys Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31885'
+    link_title: ''
+    description: 'Terveys Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: 23b870bb-6779-4fd7-a19f-f90c4552e934
+  -
+    menu_name: cities
+    title: 'Perhe Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31886'
+    link_title: ''
+    description: 'Perhe Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: ddd0d701-8172-4cfe-b1cf-875ebbaa07f6
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Siikajoella'
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31888'
+    link_title: ''
+    description: 'Vapaa-aika Siikajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: 8255af8f-a0c1-45fa-9a69-5472f1d3f68d
+  -
+    menu_name: cities
+    title: 'Tietoa Siikajoesta '
+    parent: 'menu_link_content:8ec95f4e-b225-4c17-9414-344d64fc3c59'
+    uri: 'entity:node/31889'
+    link_title: ''
+    description: 'Tietoa Siikajoesta '
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: 45247298-3b78-4beb-9ffb-912ff020df76
+  -
+    menu_name: cities
+    title: Pyhäjoki
+    parent: null
+    uri: 'internal:/node/31890'
+    link_title: ''
+    description: Pyhäjoki
+    enabled: '1'
+    expanded: '0'
+    weight: '21'
+    langcode: fi
+    uuid: b2cdc7f2-2c4e-4da6-9411-aff555435d62
+  -
+    menu_name: cities
+    title: 'Muutto Pyhäjoelle'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31891'
+    link_title: ''
+    description: 'Muutto Pyhäjoelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: caa9313d-b937-4cd8-b618-63e4427c9503
+  -
+    menu_name: cities
+    title: 'Asettuminen Pyhäjoelle'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31893'
+    link_title: ''
+    description: 'Asettuminen Pyhäjoelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: 7920011e-28b0-46ea-8fd5-6fcec02a2341
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31894'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: b785143d-b183-413e-a072-8e485c5dcf43
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31895'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 5a613cb7-00f7-4d66-81b8-9b341e964373
+  -
+    menu_name: cities
+    title: 'Asuminen Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'internal:/node/31896'
+    link_title: ''
+    description: 'Asuminen Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: 0909f492-1c4d-44aa-b2da-d7b47743ea0e
+  -
+    menu_name: cities
+    title: 'Koulutus Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31897'
+    link_title: ''
+    description: 'Koulutus Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: 1b85e079-3802-4a10-a339-20eb59955df9
+  -
+    menu_name: cities
+    title: 'Terveys Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31898'
+    link_title: ''
+    description: 'Terveys Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: b487768c-72d2-4577-b97f-c29f563cf12f
+  -
+    menu_name: cities
+    title: 'Perhe Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31899'
+    link_title: ''
+    description: 'Perhe Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: b0aad7be-c76d-4e80-94ba-b1398248690c
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Pyhäjoella'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31901'
+    link_title: ''
+    description: 'Vapaa-aika Pyhäjoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: d8e93028-53aa-4f91-8f2f-2313c62da435
+  -
+    menu_name: cities
+    title: 'Tietoa Pyhäjoesta'
+    parent: 'menu_link_content:b2cdc7f2-2c4e-4da6-9411-aff555435d62'
+    uri: 'entity:node/31902'
+    link_title: ''
+    description: 'Tietoa Pyhäjoesta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-59'
+    langcode: fi
+    uuid: b10fe655-cf35-40f9-8d84-33f4d616f2f5
+  -
+    menu_name: cities
+    title: Kalajoki
+    parent: null
+    uri: 'internal:/node/31916'
+    link_title: ''
+    description: Kalajoki
+    enabled: '1'
+    expanded: '0'
+    weight: '22'
+    langcode: fi
+    uuid: da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1
+  -
+    menu_name: cities
+    title: 'Muutto Kalajoelle'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31917'
+    link_title: ''
+    description: 'Muutto Kalajoelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: fc729416-8ed5-4d7c-ac33-5c353cc9bdaa
+  -
+    menu_name: cities
+    title: 'Asettuminen Kalajoelle'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31919'
+    link_title: ''
+    description: 'Asettuminen Kalajoelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: b033cc1e-76a6-4299-9c5c-36af51740464
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31920'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 815fa75e-6b03-47e2-af72-eb6f076d2b8e
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31921'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: ffb59d0b-2e44-4143-ba40-e5adf5ce6017
+  -
+    menu_name: cities
+    title: 'Asuminen Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31922'
+    link_title: ''
+    description: 'Asuminen Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: a04fe6ad-de98-4428-bbe2-468abecde81d
+  -
+    menu_name: cities
+    title: 'Koulutus Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31923'
+    link_title: ''
+    description: 'Koulutus Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: 2b987fe6-9129-4624-a9a1-e895ee0ec36d
+  -
+    menu_name: cities
+    title: 'Terveys Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31924'
+    link_title: ''
+    description: 'Terveys Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: 9844a6d3-b8ac-4b26-8816-2cc407202121
+  -
+    menu_name: cities
+    title: 'Perhe Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31925'
+    link_title: ''
+    description: 'Perhe Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: dd9d1f34-9fdc-4109-9433-52e3adf71273
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Kalajoella'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31927'
+    link_title: ''
+    description: 'Vapaa-aika Kalajoella'
+    enabled: '1'
+    expanded: '0'
+    weight: '-59'
+    langcode: fi
+    uuid: c1aa610c-ab49-4c8b-a70f-d2e328c15fe7
+  -
+    menu_name: cities
+    title: 'Tietoa Kalajoesta'
+    parent: 'menu_link_content:da2e132f-4432-4c3e-ad3d-c1e0c46ee5a1'
+    uri: 'entity:node/31928'
+    link_title: ''
+    description: 'Tietoa Kalajoesta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-58'
+    langcode: fi
+    uuid: 9f9c6c5f-148f-41f7-8fe1-bb66239cbe6a
+  -
+    menu_name: cities
+    title: Merijärvi
+    parent: null
+    uri: 'internal:/node/31929'
+    link_title: ''
+    description: Merijärvi
+    enabled: '1'
+    expanded: '0'
+    weight: '23'
+    langcode: fi
+    uuid: 84977569-354e-415e-aab2-1fe44db8e286
+  -
+    menu_name: cities
+    title: 'Muutto Merijärvelle'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31930'
+    link_title: ''
+    description: 'Muutto Merijärvelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '17'
+    langcode: fi
+    uuid: f625b551-efe6-4d00-87aa-6b06d128647c
+  -
+    menu_name: cities
+    title: 'Asettuminen Merijärvelle'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31932'
+    link_title: ''
+    description: 'Asettuminen Merijärvelle'
+    enabled: '1'
+    expanded: '0'
+    weight: '18'
+    langcode: fi
+    uuid: 386ffc49-d724-4316-8f02-5a7961012075
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Merijärvellä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31933'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Merijärvellä'
+    enabled: '1'
+    expanded: '0'
+    weight: '19'
+    langcode: fi
+    uuid: 5dc4056b-9407-4df1-9443-fa2d0de8d0c4
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Merijärvellä '
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31934'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Merijärvellä '
+    enabled: '1'
+    expanded: '0'
+    weight: '20'
+    langcode: fi
+    uuid: 18744339-ed3d-4f02-9d69-2bac20907f3f
+  -
+    menu_name: cities
+    title: 'Asuminen Merijärvellä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31935'
+    link_title: ''
+    description: 'Asuminen Merijärvellä'
+    enabled: '1'
+    expanded: '0'
+    weight: '21'
+    langcode: fi
+    uuid: 499bb298-a135-4b62-95a0-ab0ad3502ac3
+  -
+    menu_name: cities
+    title: 'Koulutus Merijärvellä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31936'
+    link_title: ''
+    description: 'Koulutus Merijärvellä'
+    enabled: '1'
+    expanded: '0'
+    weight: '22'
+    langcode: fi
+    uuid: fcacb800-77fd-4466-8621-9228a5ec1929
+  -
+    menu_name: cities
+    title: 'Terveys Merijärvellä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31937'
+    link_title: ''
+    description: 'Terveys Merijärvellä'
+    enabled: '1'
+    expanded: '0'
+    weight: '23'
+    langcode: fi
+    uuid: 4e542fe6-ff46-497a-9fb2-2ad9cea9f7a4
+  -
+    menu_name: cities
+    title: 'Perhe Merijärvellä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31938'
+    link_title: ''
+    description: 'Perhe Merijärvellä'
+    enabled: '1'
+    expanded: '0'
+    weight: '24'
+    langcode: fi
+    uuid: 70fa87c1-79b9-4ac7-a1a3-4f154204674b
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Merijärvellä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31940'
+    link_title: ''
+    description: 'Vapaa-aika Merijärvellä'
+    enabled: '1'
+    expanded: '0'
+    weight: '25'
+    langcode: fi
+    uuid: 7e55eb0d-1824-4b1b-94f6-85a68bc9e05e
+  -
+    menu_name: cities
+    title: 'Tietoa Merijärvestä'
+    parent: 'menu_link_content:84977569-354e-415e-aab2-1fe44db8e286'
+    uri: 'entity:node/31941'
+    link_title: ''
+    description: 'Tietoa Merijärvestä'
+    enabled: '1'
+    expanded: '0'
+    weight: '26'
+    langcode: fi
+    uuid: d60de2ec-b37f-4782-8433-8c1dbc19b941
+  -
+    menu_name: cities
+    title: Oulu
+    parent: null
+    uri: 'internal:/node/31968'
+    link_title: ''
+    description: Oulu
+    enabled: '1'
+    expanded: '0'
+    weight: '24'
+    langcode: fi
+    uuid: e6c56a63-cb3d-41ac-b5cb-14b20ce800e5
+  -
+    menu_name: cities
+    title: 'Muutto Ouluun'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31969'
+    link_title: ''
+    description: 'Muutto Ouluun'
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: e5f0f70f-b709-4d78-9778-0a17d080f964
+  -
+    menu_name: cities
+    title: 'Asettuminen Ouluun'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31971'
+    link_title: ''
+    description: 'Asettuminen Ouluun'
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: fi
+    uuid: eb25d841-dea2-469d-b513-62e6d2760034
+  -
+    menu_name: cities
+    title: 'Työ ja yrittäjyys Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31972'
+    link_title: ''
+    description: 'Työ ja yrittäjyys Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '5'
+    langcode: fi
+    uuid: 77379fec-318f-4bf0-aafb-42b38be8ef90
+  -
+    menu_name: cities
+    title: 'Suomen ja ruotsin kieli Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31973'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '6'
+    langcode: fi
+    uuid: 51f72a11-bc63-46b6-b3e2-4912ff51e94a
+  -
+    menu_name: cities
+    title: 'Asuminen Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'internal:/node/31974'
+    link_title: ''
+    description: 'Asuminen Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '7'
+    langcode: fi
+    uuid: 9a010254-e62c-463f-9b62-da4747b71d50
+  -
+    menu_name: cities
+    title: 'Koulutus Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31975'
+    link_title: ''
+    description: 'Koulutus Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '8'
+    langcode: fi
+    uuid: 348b4e5b-7427-40bc-ba73-6a7abc2c6790
+  -
+    menu_name: cities
+    title: 'Terveys Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31976'
+    link_title: ''
+    description: 'Terveys Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '9'
+    langcode: fi
+    uuid: 9c44e8df-8db9-47e6-b73c-8ca4a3a03994
+  -
+    menu_name: cities
+    title: 'Perhe Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31977'
+    link_title: ''
+    description: 'Perhe Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '10'
+    langcode: fi
+    uuid: bfeb21b5-54ed-4500-b4f5-5a574695939b
+  -
+    menu_name: cities
+    title: 'Vapaa-aika Oulussa'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31979'
+    link_title: ''
+    description: 'Vapaa-aika Oulussa'
+    enabled: '1'
+    expanded: '0'
+    weight: '11'
+    langcode: fi
+    uuid: 21b4c93e-81ec-4bf8-8f24-5c0419effb1d
+  -
+    menu_name: cities
+    title: 'Tietoa Oulusta'
+    parent: 'menu_link_content:e6c56a63-cb3d-41ac-b5cb-14b20ce800e5'
+    uri: 'entity:node/31980'
+    link_title: ''
+    description: 'Tietoa Oulusta'
+    enabled: '1'
+    expanded: '0'
+    weight: '12'
+    langcode: fi
+    uuid: bd5558d3-8987-4f14-8e31-8f72018b2e0c
+  -
+    menu_name: footer-about
+    title: 'Tietoa palvelusta'
+    parent: null
+    uri: 'entity:node/31982'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: ffbcc0f2-912f-47bd-a3ec-46a3fe1fda25
+  -
+    menu_name: about
+    title: 'Tietoa palvelusta'
+    parent: null
+    uri: 'entity:node/31982'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 44feff71-07ed-4ebf-992c-8c09b8435890
+  -
+    menu_name: about
+    title: Tietosuoja
+    parent: null
+    uri: 'entity:node/31998'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 60eaefe3-52d4-4191-bf50-58266b00270a
+  -
+    menu_name: main
+    title: 'Koronavirus ja muutto Suomeen'
+    parent: 'menu_link_content:99b9e936-fd7e-47b7-8519-b76c24e2bc28'
+    uri: 'entity:node/31560'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: aa8c7b87-53bb-42c8-93da-e5710f12915d
+  -
+    menu_name: main
+    title: 'Muutto Suomeen'
+    parent: null
+    uri: 'entity:node/31559'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-94'
+    langcode: fi
+    uuid: 99b9e936-fd7e-47b7-8519-b76c24e2bc28
+  -
+    menu_name: main
+    title: EU-kansalaiset
+    parent: 'menu_link_content:99b9e936-fd7e-47b7-8519-b76c24e2bc28'
+    uri: 'entity:node/31561'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: 82002a4f-94b8-4de3-b1be-957e49789792
+  -
+    menu_name: main
+    title: 'EU-kansalaisen oleskeluoikeuden rekisteröinti '
+    parent: 'menu_link_content:82002a4f-94b8-4de3-b1be-957e49789792'
+    uri: 'internal:/node/31562'
+    link_title: ''
+    description: 'EU-kansalaisen oleskeluoikeuden rekisteröinti '
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 02cd85a8-a93d-4065-bcf6-06953ab503ba
+  -
+    menu_name: main
+    title: Ei-EU-kansalaiset
+    parent: 'menu_link_content:99b9e936-fd7e-47b7-8519-b76c24e2bc28'
+    uri: 'entity:node/31563'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: 414b6e41-e17c-4a94-8da5-37ebef0cad4f
+  -
+    menu_name: main
+    title: 'Töihin Suomeen'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'internal:/node/31564'
+    link_title: ''
+    description: 'Töihin Suomeen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: ef7e592e-172d-47d7-8554-2a5fc2c6d1eb
+  -
+    menu_name: main
+    title: 'Yrittäjäksi Suomeen '
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31565'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: 58c3b168-60f9-4c6c-88af-e55bb1596d17
+  -
+    menu_name: main
+    title: 'Opiskelemaan Suomeen'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31566'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: 89f00818-59a2-41c2-a21d-0f214959e394
+  -
+    menu_name: main
+    title: 'Perheenjäsen Suomessa'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31567'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: 6c4a4be2-83d9-4871-a03f-31601c886b2b
+  -
+    menu_name: main
+    title: 'Oleskelulupa puolisolle'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31568'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: 433d480b-b5ce-4401-9bf5-22d450f1a938
+  -
+    menu_name: main
+    title: 'Turvapaikka Suomesta '
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31569'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 89d34685-3fc7-4f77-a1fc-b659c4b82149
+  -
+    menu_name: main
+    title: 'Kiintiöpakolaisena Suomeen'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31570'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fi
+    uuid: babdedbd-c0b3-4b76-962a-08bb90a26ac2
+  -
+    menu_name: main
+    title: 'Paluumuutto Suomeen'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31571'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: fi
+    uuid: ab1696db-8d4a-425e-bbbf-23987fe5a7ed
+  -
+    menu_name: main
+    title: 'Lyhyt oleskelu Suomessa'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31572'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-42'
+    langcode: fi
+    uuid: 4f5ac9c5-413b-4fcc-8659-1ac7a4672f75
+  -
+    menu_name: main
+    title: 'Jatko-oleskelulupa '
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31573'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-41'
+    langcode: fi
+    uuid: 070d5e78-2d64-46af-a771-4366e8940abc
+  -
+    menu_name: main
+    title: 'Jos Suomessa oleskelusi syy muuttuu'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31574'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-40'
+    langcode: fi
+    uuid: 72980674-4b02-4863-b5e9-0bcb7b515004
+  -
+    menu_name: main
+    title: 'Pysyvä oleskelulupa'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'internal:/node/31575'
+    link_title: ''
+    description: 'Pysyvä oleskelulupa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-39'
+    langcode: fi
+    uuid: ba43b009-280a-4622-b320-bf0cd537796c
+  -
+    menu_name: main
+    title: 'Oleskelulupaongelmat '
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31576'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-38'
+    langcode: fi
+    uuid: c8d055ed-1949-449e-a09c-b3d85cfe0da1
+  -
+    menu_name: main
+    title: 'Kielteinen oleskelulupapäätös'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31577'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-37'
+    langcode: fi
+    uuid: 069f0529-5e41-4bd3-baac-21e70b376a62
+  -
+    menu_name: main
+    title: 'Voinko menettää oleskeluluvan?'
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31578'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-36'
+    langcode: fi
+    uuid: 3d7cde91-3c29-44bf-9708-f5a13079777e
+  -
+    menu_name: main
+    title: 'Suomessa ilman oleskelulupaa '
+    parent: 'menu_link_content:414b6e41-e17c-4a94-8da5-37ebef0cad4f'
+    uri: 'entity:node/31579'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-35'
+    langcode: fi
+    uuid: 0ed70935-c4e4-401d-bad8-24f794c2e556
+  -
+    menu_name: main
+    title: 'Pohjoismaiden kansalaiset '
+    parent: 'menu_link_content:99b9e936-fd7e-47b7-8519-b76c24e2bc28'
+    uri: 'entity:node/31580'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: ac72f472-dc81-4d0f-9aab-584adf3a2a30
+  -
+    menu_name: main
+    title: 'Asukkaaksi rekisteröityminen '
+    parent: 'menu_link_content:99b9e936-fd7e-47b7-8519-b76c24e2bc28'
+    uri: 'entity:node/31581'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: 32a1c8fd-e747-4a6c-8b01-80b9dd74d0f4
+  -
+    menu_name: main
+    title: 'Kotikunta Suomessa'
+    parent: 'menu_link_content:32a1c8fd-e747-4a6c-8b01-80b9dd74d0f4'
+    uri: 'entity:node/31582'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 7a869d8a-dfee-4a61-b1b5-a814c68b79fc
+  -
+    menu_name: main
+    title: 'Suomeen muuttajan muistilista '
+    parent: 'menu_link_content:99b9e936-fd7e-47b7-8519-b76c24e2bc28'
+    uri: 'entity:node/31583'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 9ea28f49-7cf5-4dd2-97ca-d71968188865
+  -
+    menu_name: main
+    title: 'Asettuminen Suomeen'
+    parent: null
+    uri: 'entity:node/31585'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-93'
+    langcode: fi
+    uuid: 0b18a565-9f11-4c6a-a71f-d9a5df8854e2
+  -
+    menu_name: main
+    title: 'Kotoutuminen Suomeen'
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31586'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 6e848958-767e-4c17-903c-802af372cef5
+  -
+    menu_name: main
+    title: 'Arkielämä Suomessa'
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31587'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: 84f09181-18af-46d4-9252-91d29f425e54
+  -
+    menu_name: main
+    title: 'Hintataso Suomessa'
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31588'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fi
+    uuid: 255d6715-30f2-4db9-9478-e65975a52700
+  -
+    menu_name: main
+    title: 'Tarvitsetko tulkkia? '
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31589'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fi
+    uuid: 73d50869-d082-4317-b191-e991ae1bda28
+  -
+    menu_name: main
+    title: 'Oikeutesi ja velvollisuutesi Suomessa '
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31590'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fi
+    uuid: 44912e9d-879c-4ad4-8283-0631ebe15da8
+  -
+    menu_name: main
+    title: 'Suomen sosiaaliturva'
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31591'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fi
+    uuid: 313ad0cb-7578-4084-9fde-ebdb55cd8e4b
+  -
+    menu_name: main
+    title: 'Suomen kansalaisuus'
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'internal:/node/31592'
+    link_title: ''
+    description: 'Suomen kansalaisuus'
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fi
+    uuid: 0cc5a4b8-9772-4ad7-ad4a-57e87ddcb680
+  -
+    menu_name: main
+    title: 'Miten Suomen kansalaisuutta voi hakea?'
+    parent: 'menu_link_content:0cc5a4b8-9772-4ad7-ad4a-57e87ddcb680'
+    uri: 'entity:node/31593'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 569dbfb2-56a9-4371-b51c-c74ad7bb4f67
+  -
+    menu_name: main
+    title: 'Suomen kansalaisen oikeudet ja velvollisuudet'
+    parent: 'menu_link_content:0cc5a4b8-9772-4ad7-ad4a-57e87ddcb680'
+    uri: 'entity:node/31594'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fi
+    uuid: c2d895ba-329e-4e82-b894-d14080c995cb
+  -
+    menu_name: main
+    title: 'Muutto pois Suomesta'
+    parent: 'menu_link_content:0b18a565-9f11-4c6a-a71f-d9a5df8854e2'
+    uri: 'entity:node/31595'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: fi
+    uuid: 9ece793e-2387-4a9a-8799-880c7d6d9291
+  -
+    menu_name: main
+    title: 'Työ ja yrittäjyys'
+    parent: null
+    uri: 'entity:node/31596'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-92'
+    langcode: fi
+    uuid: df4fb290-ea36-4cdc-b634-5e43f74d5ee8
+  -
+    menu_name: main
+    title: 'Töitä Suomesta'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'internal:/node/31597'
+    link_title: ''
+    description: 'Töitä Suomesta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 8025f016-fdfb-4375-be96-8fab9718fe2b
+  -
+    menu_name: main
+    title: 'Työhakemus ja CV'
+    parent: 'menu_link_content:8025f016-fdfb-4375-be96-8fab9718fe2b'
+    uri: 'entity:node/31598'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fi
+    uuid: 406bf432-4073-4d5b-9b24-0323aef37d7a
+  -
+    menu_name: main
+    title: 'Ulkomainen tutkinto Suomessa'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/31599'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: 1147f8ac-73ff-4649-b3e5-9241505fb4e2
+  -
+    menu_name: main
+    title: 'Työntekijän oikeudet ja velvollisuudet'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/31600'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: 01c448ef-d1eb-4d07-8dc0-985adec79b53
+  -
+    menu_name: main
+    title: 'Yhdenvertaisuus ja tasa-arvo työelämässä'
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/31601'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 1a271665-ed1d-43e0-bf03-80cd2ed1b145
+  -
+    menu_name: main
+    title: 'Työsuhteen ehdot ja palkka Suomessa'
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/31602'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: 8819a3aa-8630-41b2-931e-72e9471fb321
+  -
+    menu_name: main
+    title: 'Työsopimuksen sisältö'
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/31603'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: 86b53051-9a39-452d-9082-05286298dd68
+  -
+    menu_name: main
+    title: Vuosiloma
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'internal:/node/31604'
+    link_title: ''
+    description: Vuosiloma
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: eba68443-6212-4c1b-a85d-93fbf9b9cc84
+  -
+    menu_name: main
+    title: Ammattiliitot
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/31605'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: 24fa68cd-ef09-4a09-a908-c95d0db974e0
+  -
+    menu_name: main
+    title: Työsuojelu
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'internal:/node/31606'
+    link_title: ''
+    description: Työsuojelu
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: 98f1e9fc-74cc-41e4-9681-203a6394831d
+  -
+    menu_name: main
+    title: Työterveyshuolto
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'internal:/node/31607'
+    link_title: ''
+    description: Työterveyshuolto
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: 17653994-118c-45ca-b4a8-366bc7d00bf9
+  -
+    menu_name: main
+    title: 'Jos sairastut '
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/31608'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: ff2f17e4-bb33-4eba-9caa-3957e24fa846
+  -
+    menu_name: main
+    title: 'Perhevapaat '
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/28572'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: 7d33d49f-35bb-46cf-8c19-3be6c8e46fb1
+  -
+    menu_name: main
+    title: Työtodistus
+    parent: 'menu_link_content:01c448ef-d1eb-4d07-8dc0-985adec79b53'
+    uri: 'entity:node/31610'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-59'
+    langcode: fi
+    uuid: e69e186f-389c-4241-bc5f-5d6e483d67bf
+  -
+    menu_name: main
+    title: 'Työelämän ongelmat'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/31611'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-65'
+    langcode: fi
+    uuid: 81f110fb-71a4-4919-8554-15a9329e3909
+  -
+    menu_name: main
+    title: 'Yrityksen perustaminen Suomessa'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/31612'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-64'
+    langcode: fi
+    uuid: d2e37c22-fd81-4fcc-b451-9b9b50a93be5
+  -
+    menu_name: main
+    title: Yritysmuodot
+    parent: 'menu_link_content:d2e37c22-fd81-4fcc-b451-9b9b50a93be5'
+    uri: 'entity:node/31613'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 6457fd4f-274a-4913-8656-8dedea9d1637
+  -
+    menu_name: main
+    title: 'Yrittäjän velvollisuudet'
+    parent: 'menu_link_content:d2e37c22-fd81-4fcc-b451-9b9b50a93be5'
+    uri: 'entity:node/31614'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: f9b7452d-f131-4532-96ff-549fcde93057
+  -
+    menu_name: main
+    title: 'Yrittäjän sosiaaliturva'
+    parent: 'menu_link_content:d2e37c22-fd81-4fcc-b451-9b9b50a93be5'
+    uri: 'entity:node/31615'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-66'
+    langcode: fi
+    uuid: c018d23c-2a4c-4b38-97f9-47bf48032c4f
+  -
+    menu_name: main
+    title: Verotus
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/30925'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-63'
+    langcode: fi
+    uuid: cf447a36-1d99-4b17-acae-baf15f1ba603
+  -
+    menu_name: main
+    title: 'Verokortti '
+    parent: 'menu_link_content:cf447a36-1d99-4b17-acae-baf15f1ba603'
+    uri: 'entity:node/31617'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: d716b19c-0a27-40b5-93aa-5d4d37e55fbd
+  -
+    menu_name: main
+    title: 'Veroilmoitus ja verotuspäätös'
+    parent: 'menu_link_content:cf447a36-1d99-4b17-acae-baf15f1ba603'
+    uri: 'entity:node/30124'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-67'
+    langcode: fi
+    uuid: 1d88492e-dc54-4d83-a59c-90178ae80137
+  -
+    menu_name: main
+    title: 'Työnantajan oikeudet ja velvollisuudet'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/31619'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-62'
+    langcode: fi
+    uuid: a3077ab7-b997-4f8a-9c4a-8ec18c1aae07
+  -
+    menu_name: main
+    title: 'Jos jäät työttömäksi '
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/28583'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-61'
+    langcode: fi
+    uuid: f3fefb58-9de1-4f97-a76a-f0acaba6a9fb
+  -
+    menu_name: main
+    title: Työttömyysturva
+    parent: 'menu_link_content:f3fefb58-9de1-4f97-a76a-f0acaba6a9fb'
+    uri: 'entity:node/28586'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 0f0e6dc4-e3cb-4286-a5b0-7e94e627a593
+  -
+    menu_name: main
+    title: 'Ammatillinen työvoimakoulutus'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/30296'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-60'
+    langcode: fi
+    uuid: 52326e94-d749-4a8b-8e96-1cf3006f9ae4
+  -
+    menu_name: main
+    title: Eläke
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/28592'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-59'
+    langcode: fi
+    uuid: ff0fd966-b799-4722-ac94-0ce39a170455
+  -
+    menu_name: main
+    title: 'Suomalainen työkulttuuri'
+    parent: 'menu_link_content:df4fb290-ea36-4cdc-b634-5e43f74d5ee8'
+    uri: 'entity:node/31623'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-58'
+    langcode: fi
+    uuid: 27635097-d100-4d69-b45d-48e49f8a6a1b
+  -
+    menu_name: main
+    title: 'Työpaikan arki'
+    parent: 'menu_link_content:27635097-d100-4d69-b45d-48e49f8a6a1b'
+    uri: 'entity:node/31624'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-68'
+    langcode: fi
+    uuid: 296c6327-957d-402c-9bf9-ed2bc39f3c7b
+  -
+    menu_name: main
+    title: Vapaa-aika
+    parent: null
+    uri: 'entity:node/31719'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-86'
+    langcode: fi
+    uuid: 2e31bfed-9974-42a1-90ea-14cdcd2bb05e
+  -
+    menu_name: main
+    title: 'Tietoa Suomesta'
+    parent: null
+    uri: 'entity:node/31729'
+    link_title: ''
+    description: 'Tietoa Suomesta'
+    enabled: '1'
+    expanded: '0'
+    weight: '-85'
+    langcode: fi
+    uuid: 5f7af234-c65b-41a7-b5bd-96d5fc15e56c
+  -
+    menu_name: main
+    title: 'Suomen ilmasto'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31733'
+    link_title: ''
+    description: 'Suomen ilmasto'
+    enabled: '1'
+    expanded: '0'
+    weight: '-80'
+    langcode: fi
+    uuid: b5503715-ee78-4ffb-a8ea-0bdd20984077
+  -
+    menu_name: main
+    title: 'Suomen ja ruotsin kieli'
+    parent: null
+    uri: 'internal:/node/31625'
+    link_title: ''
+    description: 'Suomen ja ruotsin kieli'
+    enabled: '1'
+    expanded: '0'
+    weight: '-91'
+    langcode: fi
+    uuid: 227ced1f-432c-4857-9760-9cee157b7ca9
+  -
+    menu_name: main
+    title: 'Suomen kielen opiskelu'
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31627'
+    link_title: ''
+    description: 'Suomen kielen opiskelu'
+    enabled: '1'
+    expanded: '0'
+    weight: '-92'
+    langcode: fi
+    uuid: 06160e6a-c5e7-4c21-a9d3-634df12e7559
+  -
+    menu_name: main
+    title: 'Suomen historiaa'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31732'
+    link_title: ''
+    description: 'Suomen historiaa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-81'
+    langcode: fi
+    uuid: 0362862f-5c9f-4b81-8637-71609272e2c8
+  -
+    menu_name: main
+    title: 'Liikenne Suomessa'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31734'
+    link_title: ''
+    description: 'Liikenne Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-79'
+    langcode: fi
+    uuid: 07c72277-7dc8-419f-98ea-ccec4056943e
+  -
+    menu_name: main
+    title: 'Kielikurssien tasot'
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31628'
+    link_title: ''
+    description: 'Kielikurssien tasot'
+    enabled: '1'
+    expanded: '0'
+    weight: '-91'
+    langcode: fi
+    uuid: ef824207-57db-4c3f-b6eb-0393e0472846
+  -
+    menu_name: main
+    title: 'Suomen kieltä internetissä '
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31629'
+    link_title: ''
+    description: 'Suomen kieltä internetissä '
+    enabled: '1'
+    expanded: '0'
+    weight: '-90'
+    langcode: fi
+    uuid: 8d90f663-d60c-4e17-93e5-bae1b80f8d50
+  -
+    menu_name: main
+    title: 'Virallinen todistus kielitaidosta '
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31630'
+    link_title: ''
+    description: 'Virallinen todistus kielitaidosta '
+    enabled: '1'
+    expanded: '0'
+    weight: '-89'
+    langcode: fi
+    uuid: b056fabf-64b2-459e-a9c4-55cbab84575a
+  -
+    menu_name: main
+    title: 'Ruotsin kieli Suomessa'
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31631'
+    link_title: ''
+    description: 'Ruotsin kieli Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-88'
+    langcode: fi
+    uuid: 442fa9d1-e398-410d-890d-393b2b684814
+  -
+    menu_name: main
+    title: 'Tärkeitä lauseita suomeksi'
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31633'
+    link_title: ''
+    description: 'Tärkeitä lauseita suomeksi'
+    enabled: '1'
+    expanded: '0'
+    weight: '-87'
+    langcode: fi
+    uuid: 4ca62464-69b0-49f6-a732-3e7bfb0b921e
+  -
+    menu_name: main
+    title: 'Miksi opiskelisin suomea tai ruotsia?'
+    parent: 'menu_link_content:227ced1f-432c-4857-9760-9cee157b7ca9'
+    uri: 'entity:node/31626'
+    link_title: ''
+    description: 'Miksi opiskelisin suomea tai ruotsia?'
+    enabled: '1'
+    expanded: '0'
+    weight: '-93'
+    langcode: fi
+    uuid: 55d7fce7-6a0d-4ef8-abf1-0b661823cf46
+  -
+    menu_name: main
+    title: Asuminen
+    parent: null
+    uri: 'internal:/node/31634'
+    link_title: ''
+    description: Asuminen
+    enabled: '1'
+    expanded: '0'
+    weight: '-90'
+    langcode: fi
+    uuid: a058f680-b451-4dd2-a71b-12f029034359
+  -
+    menu_name: main
+    title: 'Asuminen Suomessa'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31635'
+    link_title: ''
+    description: 'Asuminen Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-98'
+    langcode: fi
+    uuid: d73f6e4a-2135-4160-b9f8-9d473a87851b
+  -
+    menu_name: main
+    title: 'Kun muutat '
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31636'
+    link_title: ''
+    description: 'Kun muutat '
+    enabled: '0'
+    expanded: '0'
+    weight: '-97'
+    langcode: fi
+    uuid: 056b8157-5172-4002-9c46-4764ac1987a7
+  -
+    menu_name: main
+    title: Vuokra-asunto
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'internal:/rental-home'
+    link_title: ''
+    description: Vuokra-asunto
+    enabled: '1'
+    expanded: '0'
+    weight: '-96'
+    langcode: fi
+    uuid: 60559dad-1333-437f-96f9-323303598019
+  -
+    menu_name: main
+    title: Vuokrasopimus
+    parent: 'menu_link_content:60559dad-1333-437f-96f9-323303598019'
+    uri: 'entity:node/31638'
+    link_title: ''
+    description: Vuokrasopimus
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 0f4224ac-e33b-488b-bd52-a68cdd4b6df9
+  -
+    menu_name: main
+    title: 'Tuki- ja palveluasuminen'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31645'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-89'
+    langcode: fi
+    uuid: 2788863b-f895-4a75-8c8e-371cee019f31
+  -
+    menu_name: main
+    title: 'Asunnon ostaminen'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31639'
+    link_title: ''
+    description: 'Asunnon ostaminen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-95'
+    langcode: fi
+    uuid: 2c36dc10-7b54-4287-a480-0732c9f53717
+  -
+    menu_name: main
+    title: 'Opiskelijan asuminen'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31640'
+    link_title: ''
+    description: 'Opiskelijan asuminen'
+    enabled: '1'
+    expanded: '0'
+    weight: '-94'
+    langcode: fi
+    uuid: 662691cd-3a86-4413-a47b-ce552a9bd8f2
+  -
+    menu_name: main
+    title: Asumistuki
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31641'
+    link_title: ''
+    description: Asumistuki
+    enabled: '1'
+    expanded: '0'
+    weight: '-93'
+    langcode: fi
+    uuid: 1df94712-2147-46dd-94d8-13c65996c2ce
+  -
+    menu_name: main
+    title: 'Asukkaan oikeudet ja velvollisuudet'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31642'
+    link_title: ''
+    description: 'Asukkaan oikeudet ja velvollisuudet'
+    enabled: '1'
+    expanded: '0'
+    weight: '-92'
+    langcode: fi
+    uuid: 62232fcf-7960-4b34-bccc-10011ffaf66d
+  -
+    menu_name: main
+    title: 'Kodin turvallisuus'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31643'
+    link_title: ''
+    description: 'Kodin turvallisuus'
+    enabled: '1'
+    expanded: '0'
+    weight: '-91'
+    langcode: fi
+    uuid: f3b383cf-8df4-4d17-9776-40a16ede0397
+  -
+    menu_name: main
+    title: 'Jätteet ja kierrätys'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/28714'
+    link_title: ''
+    description: 'Jätteet ja kierrätys'
+    enabled: '1'
+    expanded: '0'
+    weight: '-90'
+    langcode: fi
+    uuid: f9a3bcc6-2264-4d6a-9b0d-77faa9af2e99
+  -
+    menu_name: main
+    title: 'Asumisen ongelmat'
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/31646'
+    link_title: ''
+    description: 'Asumisen ongelmat'
+    enabled: '1'
+    expanded: '0'
+    weight: '-88'
+    langcode: fi
+    uuid: 4d7a0477-e5a4-4b6e-94c7-80d8f87ddb73
+  -
+    menu_name: main
+    title: Asunnottomuus
+    parent: 'menu_link_content:a058f680-b451-4dd2-a71b-12f029034359'
+    uri: 'entity:node/29049'
+    link_title: ''
+    description: Asunnottomuus
+    enabled: '1'
+    expanded: '0'
+    weight: '-87'
+    langcode: fi
+    uuid: 0084bfba-8db6-4333-859c-a0ee76e8569f
+  -
+    menu_name: main
+    title: Koulutus
+    parent: null
+    uri: 'internal:/education'
+    link_title: ''
+    description: Koulutus
+    enabled: '1'
+    expanded: '0'
+    weight: '-89'
+    langcode: fi
+    uuid: e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b
+  -
+    menu_name: main
+    title: 'Suomalainen koulutusjärjestelmä'
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/31649'
+    link_title: ''
+    description: 'Suomalainen koulutusjärjestelmä'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: ec0b879b-b375-48d1-8e47-2887fc7c890b
+  -
+    menu_name: main
+    title: Varhaiskasvatus
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'internal:/early-childhood-education'
+    link_title: ''
+    description: Varhaiskasvatus
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: 7c6872db-416e-421d-9114-a13ec2540057
+  -
+    menu_name: main
+    title: Esiopetus
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'internal:/node/31651'
+    link_title: ''
+    description: Esiopetus
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: fi
+    uuid: fddf87ae-04d6-4a5a-923e-1f56bfd3ad53
+  -
+    menu_name: main
+    title: Perusopetus
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'internal:/comprehensive-education'
+    link_title: ''
+    description: Perusopetus
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: e98d2c43-c338-4a12-8a68-111f000fed3c
+  -
+    menu_name: main
+    title: 'Ammatillinen koulutus'
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'internal:/vocational-education-and-training'
+    link_title: ''
+    description: 'Ammatillinen koulutus'
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: fi
+    uuid: 4f87fa3c-4141-4c39-9697-af88887ae9dd
+  -
+    menu_name: main
+    title: Lukio
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'internal:/upper-secondary-school'
+    link_title: ''
+    description: Lukio
+    enabled: '1'
+    expanded: '0'
+    weight: '5'
+    langcode: fi
+    uuid: 86ef34dc-6858-40c4-9cdf-a9d49271a8e1
+  -
+    menu_name: main
+    title: 'Ammattikorkeakoulut '
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/31655'
+    link_title: ''
+    description: 'Ammattikorkeakoulut '
+    enabled: '1'
+    expanded: '0'
+    weight: '6'
+    langcode: fi
+    uuid: bc8faa3b-d4e0-48d6-82e6-a7ed2a11d641
+  -
+    menu_name: main
+    title: Yliopistot
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/29887'
+    link_title: ''
+    description: Yliopistot
+    enabled: '1'
+    expanded: '0'
+    weight: '7'
+    langcode: fi
+    uuid: b0ef0674-b4de-42ed-a74f-0c62fd3a10a5
+  -
+    menu_name: main
+    title: 'Koulutukseen hakeminen'
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/31657'
+    link_title: ''
+    description: 'Koulutukseen hakeminen'
+    enabled: '1'
+    expanded: '0'
+    weight: '8'
+    langcode: fi
+    uuid: a6134e56-a356-4a58-ad3a-7826d1c2774e
+  -
+    menu_name: main
+    title: 'Opiskelu harrastuksena'
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/31659'
+    link_title: ''
+    description: 'Opiskelu harrastuksena'
+    enabled: '1'
+    expanded: '0'
+    weight: '9'
+    langcode: fi
+    uuid: 41095db6-1b9f-48be-a7d6-6e9322c5bdb2
+  -
+    menu_name: main
+    title: 'Opintojen rahoittaminen'
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/31660'
+    link_title: ''
+    description: 'Opintojen rahoittaminen'
+    enabled: '1'
+    expanded: '0'
+    weight: '10'
+    langcode: fi
+    uuid: fea125ec-d9aa-4c51-9a4c-9485673c39eb
+  -
+    menu_name: main
+    title: 'Ulkomaalainen opiskelija Suomessa'
+    parent: 'menu_link_content:e72d87df-c2cd-46e5-9f95-7f62c6b6ff7b'
+    uri: 'entity:node/31661'
+    link_title: ''
+    description: 'Ulkomaalainen opiskelija Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '11'
+    langcode: fi
+    uuid: f0fbcf18-ede0-469a-b477-477c52ede0b3
+  -
+    menu_name: main
+    title: Terveys
+    parent: null
+    uri: 'internal:/health'
+    link_title: ''
+    description: Terveys
+    enabled: '1'
+    expanded: '0'
+    weight: '-88'
+    langcode: fi
+    uuid: 9dc347f5-6c24-46f2-a85c-e9663c69a66a
+  -
+    menu_name: main
+    title: 'Koronavirus COVID-19'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/node/31704'
+    link_title: ''
+    description: 'Koronavirus COVID-19'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: d998c9a4-c0d3-4d0e-956e-55c5cae9e2ec
+  -
+    menu_name: main
+    title: Hätätilanteet
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/emergencies-0'
+    link_title: ''
+    description: Hätätilanteet
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: a51fb6bd-e5a2-4823-9b91-1cb14eb60393
+  -
+    menu_name: main
+    title: 'Terveyspalvelut Suomessa'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'entity:node/31665'
+    link_title: ''
+    description: 'Terveyspalvelut Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: fi
+    uuid: 4068e82d-39d7-41dc-9fac-7e63c0feadfd
+  -
+    menu_name: main
+    title: 'Lapsen terveys'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/childrens-health'
+    link_title: ''
+    description: 'Lapsen terveys'
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: 30493bc8-f84c-4072-84e3-280171579d53
+  -
+    menu_name: main
+    title: Hammashoito
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/dental-care'
+    link_title: ''
+    description: Hammashoito
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: fi
+    uuid: 7b36f98b-5b56-4ff0-9772-6baeeb80e719
+  -
+    menu_name: main
+    title: Mielenterveys
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/mental-health'
+    link_title: ''
+    description: Mielenterveys
+    enabled: '1'
+    expanded: '0'
+    weight: '5'
+    langcode: fi
+    uuid: 02e37ca4-9a67-4b9f-a87d-e6d285086426
+  -
+    menu_name: main
+    title: 'Seksuaaliterveys ja ehkäisy'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'entity:node/31669'
+    link_title: ''
+    description: 'Seksuaaliterveys ja ehkäisy'
+    enabled: '1'
+    expanded: '0'
+    weight: '6'
+    langcode: fi
+    uuid: 4ad9fe28-6e6f-4513-b41f-3e24d8e0af03
+  -
+    menu_name: main
+    title: Abortti
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/abortion'
+    link_title: ''
+    description: Abortti
+    enabled: '1'
+    expanded: '0'
+    weight: '7'
+    langcode: fi
+    uuid: 0166cd1a-9619-4afc-8268-27441bd05189
+  -
+    menu_name: main
+    title: 'Raskaus ja synnytys'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/pregnancy-and-childbirth'
+    link_title: ''
+    description: 'Raskaus ja synnytys'
+    enabled: '1'
+    expanded: '0'
+    weight: '8'
+    langcode: fi
+    uuid: c9ebbee5-479d-4985-b598-baca40846c4a
+  -
+    menu_name: main
+    title: Päihdeongelmat
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'internal:/intoxicant-abuse'
+    link_title: ''
+    description: Päihdeongelmat
+    enabled: '1'
+    expanded: '0'
+    weight: '9'
+    langcode: fi
+    uuid: ffdedfaf-abcf-40c2-b380-543b509f56f0
+  -
+    menu_name: main
+    title: 'Lääkkeet '
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'entity:node/31672'
+    link_title: ''
+    description: 'Lääkkeet '
+    enabled: '1'
+    expanded: '0'
+    weight: '10'
+    langcode: fi
+    uuid: cdb3d366-6ab7-4aea-a491-f13814221321
+  -
+    menu_name: main
+    title: 'Tukea sairauden aikana'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'entity:node/31673'
+    link_title: ''
+    description: 'Tukea sairauden aikana'
+    enabled: '1'
+    expanded: '0'
+    weight: '11'
+    langcode: fi
+    uuid: 5cf943bb-18ca-4fd4-a6d4-aff36eec1cfb
+  -
+    menu_name: main
+    title: 'Vammaiset ihmiset'
+    parent: 'menu_link_content:9dc347f5-6c24-46f2-a85c-e9663c69a66a'
+    uri: 'entity:node/31675'
+    link_title: ''
+    description: 'Vammaiset ihmiset'
+    enabled: '1'
+    expanded: '0'
+    weight: '12'
+    langcode: fi
+    uuid: 239edc7d-6553-429e-a90f-18b5e7994fe0
+  -
+    menu_name: main
+    title: 'Vammaisten palvelut'
+    parent: 'menu_link_content:239edc7d-6553-429e-a90f-18b5e7994fe0'
+    uri: 'internal:/services-for-disabled-persons'
+    link_title: ''
+    description: 'Vammaisten palvelut'
+    enabled: '1'
+    expanded: '0'
+    weight: '13'
+    langcode: fi
+    uuid: dc56e81c-179d-4bf9-838a-624d042bee3a
+  -
+    menu_name: main
+    title: 'Taloudellista tukea vammaisille '
+    parent: 'menu_link_content:239edc7d-6553-429e-a90f-18b5e7994fe0'
+    uri: 'entity:node/31677'
+    link_title: ''
+    description: 'Taloudellista tukea vammaisille '
+    enabled: '1'
+    expanded: '0'
+    weight: '14'
+    langcode: fi
+    uuid: f065cd2b-ea63-476d-ae40-f3d67b41472d
+  -
+    menu_name: main
+    title: Perhe
+    parent: null
+    uri: 'internal:/family'
+    link_title: ''
+    description: Perhe
+    enabled: '1'
+    expanded: '0'
+    weight: '-87'
+    langcode: fi
+    uuid: 11cf11df-d978-4032-be85-0e2edae491d9
+  -
+    menu_name: main
+    title: 'Mikä on perhe? '
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31680'
+    link_title: ''
+    description: 'Mikä on perhe? '
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 0f8bbaa2-dc45-4229-b217-e18b0200269f
+  -
+    menu_name: main
+    title: 'Yhden vanhemman perhe'
+    parent: 'menu_link_content:0f8bbaa2-dc45-4229-b217-e18b0200269f'
+    uri: 'entity:node/31681'
+    link_title: ''
+    description: 'Yhden vanhemman perhe'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 3b884c8b-e15c-4f3c-8f9c-7215c9e4b0b5
+  -
+    menu_name: main
+    title: 'Avioliitto Suomessa'
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31682'
+    link_title: ''
+    description: 'Avioliitto Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: bddc777b-4367-43ae-a344-efcc4708e3b6
+  -
+    menu_name: main
+    title: 'Naimisiin Suomessa, muistilista'
+    parent: 'menu_link_content:bddc777b-4367-43ae-a344-efcc4708e3b6'
+    uri: 'entity:node/31683'
+    link_title: ''
+    description: 'Naimisiin Suomessa, muistilista'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 9aa0c456-a75d-4dba-a6e2-a524a2565d2d
+  -
+    menu_name: main
+    title: 'Aviopuolisoiden oikeudet ja velvollisuudet'
+    parent: 'menu_link_content:bddc777b-4367-43ae-a344-efcc4708e3b6'
+    uri: 'entity:node/31684'
+    link_title: ''
+    description: 'Aviopuolisoiden oikeudet ja velvollisuudet'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: ec1c2b7b-603d-4236-ac69-51ee26f4ff5f
+  -
+    menu_name: main
+    title: Avioero
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31685'
+    link_title: ''
+    description: Avioero
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: fi
+    uuid: de820916-7ea2-4ef3-91f4-fbee7d6e77eb
+  -
+    menu_name: main
+    title: 'Omaisuus avioerossa'
+    parent: 'menu_link_content:de820916-7ea2-4ef3-91f4-fbee7d6e77eb'
+    uri: 'entity:node/31686'
+    link_title: ''
+    description: 'Omaisuus avioerossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 4ad649d9-d8b8-48a2-9fc2-7fa5373a0c76
+  -
+    menu_name: main
+    title: 'Lapset avioerossa'
+    parent: 'menu_link_content:de820916-7ea2-4ef3-91f4-fbee7d6e77eb'
+    uri: 'entity:node/30930'
+    link_title: ''
+    description: 'Lapset avioerossa'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: 22e88d99-ed75-4e12-8049-0a48f7fabf19
+  -
+    menu_name: main
+    title: Avoliitto
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31688'
+    link_title: ''
+    description: Avoliitto
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: 31fa04e0-2724-4b23-8649-45305ab42c49
+  -
+    menu_name: main
+    title: 'Avoliiton päättyminen'
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31689'
+    link_title: ''
+    description: 'Avoliiton päättyminen'
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: fi
+    uuid: 67796364-a4be-4b92-94e4-6d43b69df85d
+  -
+    menu_name: main
+    title: Lapset
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'internal:/children'
+    link_title: ''
+    description: Lapset
+    enabled: '1'
+    expanded: '0'
+    weight: '5'
+    langcode: fi
+    uuid: 48b3902d-874f-4e6b-be82-b32c31239e50
+  -
+    menu_name: main
+    title: 'Kun lapsi syntyy Suomessa'
+    parent: 'menu_link_content:48b3902d-874f-4e6b-be82-b32c31239e50'
+    uri: 'entity:node/31691'
+    link_title: ''
+    description: 'Kun lapsi syntyy Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 630cf1ef-6f15-41e5-87fd-8a84cfb28ab1
+  -
+    menu_name: main
+    title: 'Lasten ja nuorten oikeudet ja velvollisuudet'
+    parent: 'menu_link_content:48b3902d-874f-4e6b-be82-b32c31239e50'
+    uri: 'entity:node/31692'
+    link_title: ''
+    description: 'Lasten ja nuorten oikeudet ja velvollisuudet'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: e2c12c51-1c1f-4bc3-855e-b257209cde14
+  -
+    menu_name: main
+    title: 'Lasten kasvatus Suomessa'
+    parent: 'menu_link_content:48b3902d-874f-4e6b-be82-b32c31239e50'
+    uri: 'entity:node/28167'
+    link_title: ''
+    description: 'Lasten kasvatus Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: fi
+    uuid: d75d6017-1c5b-44e0-a70b-5b86a1aaad39
+  -
+    menu_name: main
+    title: Lastensuojelu
+    parent: 'menu_link_content:48b3902d-874f-4e6b-be82-b32c31239e50'
+    uri: 'internal:/child-welfare'
+    link_title: ''
+    description: Lastensuojelu
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: f955b323-7249-42f2-a1df-3f5a957f05a1
+  -
+    menu_name: main
+    title: 'Lasten ja nuorten ongelmat'
+    parent: 'menu_link_content:48b3902d-874f-4e6b-be82-b32c31239e50'
+    uri: 'entity:node/31715'
+    link_title: ''
+    description: 'Lasten ja nuorten ongelmat'
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: fi
+    uuid: de8c4128-7aab-478d-9224-f0e799f43cc5
+  -
+    menu_name: main
+    title: 'Taloudellista tukea perheille '
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31695'
+    link_title: ''
+    description: 'Taloudellista tukea perheille '
+    enabled: '1'
+    expanded: '0'
+    weight: '6'
+    langcode: fi
+    uuid: 67c38cdc-4df7-4bb6-9c32-978dfb5e0243
+  -
+    menu_name: main
+    title: 'Tukea raskaana olevalle äidille'
+    parent: 'menu_link_content:67c38cdc-4df7-4bb6-9c32-978dfb5e0243'
+    uri: 'entity:node/31696'
+    link_title: ''
+    description: 'Tukea raskaana olevalle äidille'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: d95c5d06-2e91-47a2-9860-fd8c567491f3
+  -
+    menu_name: main
+    title: 'Tukea lapsen syntymän jälkeen'
+    parent: 'menu_link_content:67c38cdc-4df7-4bb6-9c32-978dfb5e0243'
+    uri: 'entity:node/31697'
+    link_title: ''
+    description: 'Tukea lapsen syntymän jälkeen'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: ccc46cc2-a9ca-4a1f-b3b6-49d7228d083c
+  -
+    menu_name: main
+    title: 'Tukea lapsen hoitamiseen kotona'
+    parent: 'menu_link_content:67c38cdc-4df7-4bb6-9c32-978dfb5e0243'
+    uri: 'entity:node/31698'
+    link_title: ''
+    description: 'Tukea lapsen hoitamiseen kotona'
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: fi
+    uuid: e2294243-54cd-4e96-bacf-0205705cda34
+  -
+    menu_name: main
+    title: Lapsilisä
+    parent: 'menu_link_content:67c38cdc-4df7-4bb6-9c32-978dfb5e0243'
+    uri: 'entity:node/31699'
+    link_title: ''
+    description: Lapsilisä
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: dc1ad725-3f06-4bdd-b869-a785f2eea054
+  -
+    menu_name: main
+    title: 'Lapsen hoito'
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'internal:/taking-care-of-a-child'
+    link_title: ''
+    description: 'Lapsen hoito'
+    enabled: '1'
+    expanded: '0'
+    weight: '7'
+    langcode: fi
+    uuid: e5536005-caf1-4ec1-bb41-feb70b931978
+  -
+    menu_name: main
+    title: 'Perhe-elämän ja työn tasapaino'
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31701'
+    link_title: ''
+    description: 'Perhe-elämän ja työn tasapaino'
+    enabled: '1'
+    expanded: '0'
+    weight: '8'
+    langcode: fi
+    uuid: 6de41723-52bf-4779-8d9d-43d78b2fce72
+  -
+    menu_name: main
+    title: Ikäihmiset
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31702'
+    link_title: ''
+    description: Ikäihmiset
+    enabled: '1'
+    expanded: '0'
+    weight: '9'
+    langcode: fi
+    uuid: b78d65dc-491f-4f0d-9959-35a8093432d4
+  -
+    menu_name: main
+    title: 'Kun omainen kuolee Suomessa'
+    parent: 'menu_link_content:11cf11df-d978-4032-be85-0e2edae491d9'
+    uri: 'entity:node/31718'
+    link_title: ''
+    description: 'Kun omainen kuolee Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '10'
+    langcode: fi
+    uuid: 56044ebd-6a81-4a84-bdb1-da8d3fb59cf9
+  -
+    menu_name: main
+    title: Kirjastot
+    parent: 'menu_link_content:2e31bfed-9974-42a1-90ea-14cdcd2bb05e'
+    uri: 'internal:/libraries'
+    link_title: ''
+    description: Kirjastot
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: b9409b71-2f90-4d63-b5c7-dd8da2ef33ea
+  -
+    menu_name: main
+    title: 'Luonnossa liikkuminen'
+    parent: 'menu_link_content:2e31bfed-9974-42a1-90ea-14cdcd2bb05e'
+    uri: 'internal:/outdoor-activities'
+    link_title: ''
+    description: 'Luonnossa liikkuminen'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: 361f03a3-57ab-44cf-8a94-53c58644f44c
+  -
+    menu_name: main
+    title: 'Lasten ja nuorten harrastukset'
+    parent: 'menu_link_content:2e31bfed-9974-42a1-90ea-14cdcd2bb05e'
+    uri: 'entity:node/31726'
+    link_title: ''
+    description: 'Lasten ja nuorten harrastukset'
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: fi
+    uuid: d2b791f1-c162-4f46-8fa4-1ec2cf4c83ef
+  -
+    menu_name: main
+    title: Yhdistykset
+    parent: 'menu_link_content:2e31bfed-9974-42a1-90ea-14cdcd2bb05e'
+    uri: 'internal:/associations'
+    link_title: ''
+    description: Yhdistykset
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: fi
+    uuid: 41dd9e76-7fe4-4878-97b2-c3f737e69f7d
+  -
+    menu_name: main
+    title: Vapaaehtoistyö
+    parent: 'menu_link_content:2e31bfed-9974-42a1-90ea-14cdcd2bb05e'
+    uri: 'internal:/voluntary-work'
+    link_title: ''
+    description: Vapaaehtoistyö
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: fi
+    uuid: c2355553-e5cc-412f-af83-bb912dc64f4f
+  -
+    menu_name: main
+    title: 'Perustietoa Suomesta'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31730'
+    link_title: ''
+    description: 'Perustietoa Suomesta'
+    enabled: '0'
+    expanded: '0'
+    weight: '-83'
+    langcode: fi
+    uuid: a569e958-d0a5-4071-8ef8-a0eed984bfda
+  -
+    menu_name: main
+    title: 'Suomi lyhyesti '
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31731'
+    link_title: ''
+    description: 'Suomi lyhyesti '
+    enabled: '1'
+    expanded: '0'
+    weight: '-82'
+    langcode: fi
+    uuid: d10e7491-2c66-472a-bf95-d8f904f6ff5d
+  -
+    menu_name: main
+    title: 'Media Suomessa'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31735'
+    link_title: ''
+    description: 'Media Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-78'
+    langcode: fi
+    uuid: c71c9e71-640d-484f-8503-666f677818f0
+  -
+    menu_name: main
+    title: 'Kulttuurit ja uskonnot Suomessa'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31736'
+    link_title: ''
+    description: 'Kulttuurit ja uskonnot Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-77'
+    langcode: fi
+    uuid: 8f4be405-30a3-4361-8761-85516a320c83
+  -
+    menu_name: main
+    title: 'Suomalainen tapakulttuuri'
+    parent: 'menu_link_content:8f4be405-30a3-4361-8761-85516a320c83'
+    uri: 'entity:node/31737'
+    link_title: ''
+    description: 'Suomalainen tapakulttuuri'
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: fi
+    uuid: 4fdd037c-769f-4408-a650-7c3619784069
+  -
+    menu_name: main
+    title: 'Suomalaiset juhlapyhät'
+    parent: 'menu_link_content:8f4be405-30a3-4361-8761-85516a320c83'
+    uri: 'entity:node/31738'
+    link_title: ''
+    description: 'Suomalaiset juhlapyhät'
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: fi
+    uuid: 86d077e2-2421-49a6-bb5e-beb25851f6b0
+  -
+    menu_name: main
+    title: 'Suomalainen yhteiskunta'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31739'
+    link_title: ''
+    description: 'Suomalainen yhteiskunta'
+    enabled: '0'
+    expanded: '0'
+    weight: '-76'
+    langcode: fi
+    uuid: 7f32a9fd-d692-4df6-b88c-769a1ef2b9e7
+  -
+    menu_name: main
+    title: 'Suomen hallinto'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'internal:/finnish-administration'
+    link_title: ''
+    description: 'Suomen hallinto'
+    enabled: '1'
+    expanded: '0'
+    weight: '-75'
+    langcode: fi
+    uuid: fa843195-0a0d-4df4-905c-d66c3960f181
+  -
+    menu_name: main
+    title: 'Vaalit ja äänestäminen Suomessa'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31741'
+    link_title: ''
+    description: 'Vaalit ja äänestäminen Suomessa'
+    enabled: '1'
+    expanded: '0'
+    weight: '-74'
+    langcode: fi
+    uuid: 7d5392bf-7996-40af-9b88-a4c67f8961c2
+  -
+    menu_name: main
+    title: 'Lait ja oikeudet'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31742'
+    link_title: ''
+    description: 'Lait ja oikeudet'
+    enabled: '1'
+    expanded: '0'
+    weight: '-73'
+    langcode: fi
+    uuid: cf8b0b1f-3100-4ae8-9879-9d1b31a41a56
+  -
+    menu_name: main
+    title: 'Tasa-arvo ja yhdenvertaisuus'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31743'
+    link_title: ''
+    description: 'Tasa-arvo ja yhdenvertaisuus'
+    enabled: '1'
+    expanded: '0'
+    weight: '-72'
+    langcode: fi
+    uuid: d32e5552-f375-4158-8f4b-d82b1a71bcf1
+  -
+    menu_name: main
+    title: 'Tärkeitä viranomaisia'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31744'
+    link_title: ''
+    description: 'Tärkeitä viranomaisia'
+    enabled: '1'
+    expanded: '0'
+    weight: '-71'
+    langcode: fi
+    uuid: bf6ccee7-99f1-4e4a-a851-ce2d11f932fb
+  -
+    menu_name: main
+    title: 'Soita ja kysy neuvoa '
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31745'
+    link_title: ''
+    description: 'Soita ja kysy neuvoa '
+    enabled: '1'
+    expanded: '0'
+    weight: '-70'
+    langcode: fi
+    uuid: bb814564-791c-40a0-a80b-5c016310417e
+  -
+    menu_name: main
+    title: 'Taloudelliset ongelmat'
+    parent: 'menu_link_content:5f7af234-c65b-41a7-b5bd-96d5fc15e56c'
+    uri: 'entity:node/31710'
+    link_title: ''
+    description: 'Taloudelliset ongelmat'
+    enabled: '1'
+    expanded: '0'
+    weight: '-69'
+    langcode: fi
+    uuid: a1730dd9-da1a-4e90-adf7-fc48dfdeea13

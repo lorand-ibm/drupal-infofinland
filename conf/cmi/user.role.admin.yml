@@ -1,7 +1,47 @@
 uuid: d849ce62-97f0-4834-96c0-acadd0b6487f
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.simple_html
+    - media.type.file
+    - media.type.image
+    - media.type.remote_video
+    - media.type.soundcloud
+    - node.type.landing_page
+    - node.type.link
+    - node.type.message
+    - node.type.office_contact_info
+    - node.type.page
+    - taxonomy.vocabulary.colors
+    - taxonomy.vocabulary.language
+    - taxonomy.vocabulary.municipalitys
+    - taxonomy.vocabulary.organisaatiot
+  module:
+    - block
+    - content_translation
+    - entity_browser
+    - file
+    - filter
+    - helfi_api_base
+    - language
+    - legal
+    - locale
+    - media
+    - menu_link_content
+    - node
+    - paragraphs
+    - paragraphs_type_permissions
+    - password_policy
+    - path
+    - pathauto
+    - redirect
+    - responsive_image
+    - role_delegation
+    - scheduler
+    - system
+    - taxonomy
+    - toolbar
 _core:
   default_config_hash: oDxYEw5hRkjMNuwK8kHu8mvLUk1n07pQHZPC8JiU2nE
 id: admin
@@ -14,125 +54,150 @@ permissions:
   - 'access content overview'
   - 'access files overview'
   - 'access media overview'
+  - 'access media_entity_browser_modal entity browser pages'
   - 'access remote entities overview'
   - 'access site in maintenance mode'
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access user profiles'
+  - 'administer Terms and Conditions'
+  - 'administer account settings'
   - 'administer blocks'
-  - 'administer eu cookie compliance categories'
-  - 'administer eu cookie compliance popup'
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
   - 'administer pathauto'
-  - 'administer permissions'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer responsive images'
-  - 'administer sitemap settings'
   - 'administer url aliases'
   - 'administer users'
+  - 'assign admin role'
+  - 'assign infofinland_user role'
+  - 'assign municipal_editor role'
   - 'cancel account'
   - 'change own username'
-  - 'create article content'
   - 'create content translations'
   - 'create file media'
   - 'create image media'
   - 'create landing_page content'
   - 'create link content'
   - 'create media'
+  - 'create message content'
   - 'create office_contact_info content'
   - 'create page content'
+  - 'create paragraph content accordion'
+  - 'create paragraph content accordion_item'
+  - 'create paragraph content columns'
+  - 'create paragraph content heading'
+  - 'create paragraph content helsinki_kanava'
+  - 'create paragraph content hero'
+  - 'create paragraph content image'
+  - 'create paragraph content language_link'
+  - 'create paragraph content language_link_collection'
+  - 'create paragraph content list_of_links'
+  - 'create paragraph content municipality_liftup'
+  - 'create paragraph content municipality_liftup_item'
+  - 'create paragraph content ptv_contact'
+  - 'create paragraph content remote_video'
+  - 'create paragraph content text'
   - 'create remote entities'
   - 'create remote_video media'
   - 'create soundcloud media'
   - 'create terms in colors'
-  - 'create terms in keywords'
   - 'create terms in language'
   - 'create terms in municipalitys'
   - 'create terms in organisaatiot'
   - 'create url aliases'
   - 'delete all revisions'
-  - 'delete any article content'
   - 'delete any file media'
   - 'delete any image media'
   - 'delete any landing_page content'
   - 'delete any link content'
   - 'delete any media'
+  - 'delete any message content'
   - 'delete any office_contact_info content'
   - 'delete any page content'
   - 'delete any remote_video media'
   - 'delete any soundcloud media'
-  - 'delete article revisions'
   - 'delete content translations'
   - 'delete landing_page revisions'
   - 'delete link revisions'
   - 'delete media'
+  - 'delete message revisions'
   - 'delete office_contact_info revisions'
-  - 'delete own article content'
   - 'delete own file media'
   - 'delete own image media'
   - 'delete own landing_page content'
   - 'delete own link content'
+  - 'delete own message content'
   - 'delete own office_contact_info content'
   - 'delete own page content'
   - 'delete own remote_video media'
   - 'delete own soundcloud media'
   - 'delete page revisions'
+  - 'delete paragraph content accordion'
+  - 'delete paragraph content accordion_item'
+  - 'delete paragraph content columns'
+  - 'delete paragraph content heading'
+  - 'delete paragraph content helsinki_kanava'
+  - 'delete paragraph content hero'
+  - 'delete paragraph content image'
+  - 'delete paragraph content language_link'
+  - 'delete paragraph content language_link_collection'
+  - 'delete paragraph content list_of_links'
+  - 'delete paragraph content municipality_liftup'
+  - 'delete paragraph content municipality_liftup_item'
+  - 'delete paragraph content ptv_contact'
+  - 'delete paragraph content remote_video'
+  - 'delete paragraph content text'
   - 'delete remote entities'
   - 'delete terms in colors'
-  - 'delete terms in keywords'
   - 'delete terms in language'
   - 'delete terms in municipalitys'
   - 'delete terms in organisaatiot'
-  - 'display eu cookie compliance popup'
-  - 'edit any article content'
   - 'edit any file media'
   - 'edit any image media'
   - 'edit any landing_page content'
   - 'edit any link content'
+  - 'edit any message content'
   - 'edit any office_contact_info content'
   - 'edit any page content'
   - 'edit any remote_video media'
   - 'edit any soundcloud media'
-  - 'edit own article content'
   - 'edit own file media'
   - 'edit own image media'
   - 'edit own landing_page content'
   - 'edit own link content'
+  - 'edit own message content'
   - 'edit own office_contact_info content'
   - 'edit own page content'
   - 'edit own remote_video media'
   - 'edit own soundcloud media'
   - 'edit remote entities'
   - 'edit terms in colors'
-  - 'edit terms in keywords'
   - 'edit terms in language'
   - 'edit terms in municipalitys'
   - 'edit terms in organisaatiot'
   - 'link to any page'
+  - 'manage password reset'
   - 'notify of path changes'
   - 'revert all revisions'
-  - 'revert article revisions'
   - 'revert landing_page revisions'
   - 'revert link revisions'
+  - 'revert message revisions'
   - 'revert office_contact_info revisions'
   - 'revert page revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
-  - 'translate article node'
-  - 'translate configuration'
-  - 'translate editable entities'
   - 'translate file media'
-  - 'translate hauki_resource'
   - 'translate image media'
   - 'translate interface'
-  - 'translate keywords taxonomy_term'
   - 'translate landing_page node'
   - 'translate language taxonomy_term'
   - 'translate link node'
   - 'translate menu_link_content'
+  - 'translate message node'
   - 'translate municipalitys taxonomy_term'
   - 'translate office_contact_info node'
   - 'translate page node'
@@ -142,12 +207,28 @@ permissions:
   - 'update any media'
   - 'update content translations'
   - 'update media'
+  - 'update paragraph content accordion'
+  - 'update paragraph content accordion_item'
+  - 'update paragraph content columns'
+  - 'update paragraph content heading'
+  - 'update paragraph content helsinki_kanava'
+  - 'update paragraph content hero'
+  - 'update paragraph content image'
+  - 'update paragraph content language_link'
+  - 'update paragraph content language_link_collection'
+  - 'update paragraph content municipality_info'
+  - 'update paragraph content municipality_liftup'
+  - 'update paragraph content municipality_liftup_item'
+  - 'update paragraph content ptv_contact'
+  - 'update paragraph content remote_video'
+  - 'update paragraph content text'
+  - 'use text format simple_html'
   - 'view all media revisions'
   - 'view all revisions'
-  - 'view article revisions'
   - 'view landing_page revisions'
   - 'view link revisions'
   - 'view media'
+  - 'view message revisions'
   - 'view office_contact_info revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'

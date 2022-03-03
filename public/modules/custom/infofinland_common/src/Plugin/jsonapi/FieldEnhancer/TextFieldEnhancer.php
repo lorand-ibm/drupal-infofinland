@@ -70,8 +70,10 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
       $nodeList = $xpath->query('//a/@href');
       if ($nodeList) {
         for ($i = 0; $i < $nodeList->length; $i++) {
-          $alias = $this->aliasManager->getAliasByPath($nodeList->item($i)->value);
-          $data['value'] = str_replace($nodeList->item($i)->value, $alias, $data['value']);
+          if (str_starts_with($nodeList->item($i)->value, '/node/')) {
+            $alias = $this->aliasManager->getAliasByPath($nodeList->item($i)->value);
+            $data['value'] = str_replace($nodeList->item($i)->value, $alias, $data['value']);
+          }
         }
       }
     }
@@ -82,8 +84,10 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
       $nodeList2 = $processedXpath->query('//a/@href');
       if ($nodeList2) {
         for ($i = 0; $i < $nodeList2->length; $i++) {
-          $alias2 = $this->aliasManager->getAliasByPath($nodeList2->item($i)->value);
-          $data['processed'] = str_replace($nodeList2->item($i)->value, $alias2, $data['processed']);
+          if (str_starts_with($nodeList->item($i)->value, '/node/')) {
+            $alias2 = $this->aliasManager->getAliasByPath($nodeList2->item($i)->value);
+            $data['processed'] = str_replace($nodeList2->item($i)->value, $alias2, $data['processed']);
+          }
         }
       }
     }

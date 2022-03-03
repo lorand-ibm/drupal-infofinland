@@ -1,0 +1,16 @@
+_core:
+  default_config_hash: denrqScJlMiBdsks_UljTePRT-AAq-8PPlSluUFaxUs
+registration_terms_style: 0
+registration_container: 1
+login_terms_style: 0
+login_container: 0
+user_profile_display: false
+accept_every_login: false
+except_roles:
+  admin: admin
+  infofinland_user: infofinland_user
+  nextjs: nextjs
+  content_producer: 0
+  municipal_editor: 0
+registration_modal_terms: true
+login_modal_terms: true

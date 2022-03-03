@@ -1,9 +1,12 @@
+label: 'Taxonomy term'
+description: 'Content belonging to a certain taxonomy term.'
 display:
   default:
     display_title: Varsayılan
     display_options:
       exposed_form:
         options:
+          submit_button: Apply
           reset_button_label: Sıfırla
           exposed_sorts_label: 'Sıralama anahtarı'
           sort_asc_label: Artan
@@ -18,5 +21,7 @@ display:
         tid:
           exception:
             title: Tümü
+  feed_1:
+    display_title: Feed
   page_1:
     display_title: Sayfa

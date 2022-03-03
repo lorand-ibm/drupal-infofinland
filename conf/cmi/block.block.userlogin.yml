@@ -1,0 +1,32 @@
+uuid: bfe26e77-3964-45c2-a171-6af0565e60f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - infofinland
+id: userlogin
+theme: infofinland
+region: footer_bottom
+weight: -4
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: Kirjaudu
+  label_display: visible
+  provider: user
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/user/*'

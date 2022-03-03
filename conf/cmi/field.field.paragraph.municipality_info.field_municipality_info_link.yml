@@ -1,0 +1,29 @@
+uuid: a8c99b09-d943-4357-b6d5-e69909ea5227
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_municipality_info_link
+    - node.type.link
+    - paragraphs.paragraphs_type.municipality_info
+id: paragraph.municipality_info.field_municipality_info_link
+field_name: field_municipality_info_link
+entity_type: paragraph
+bundle: municipality_info
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      link: link
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

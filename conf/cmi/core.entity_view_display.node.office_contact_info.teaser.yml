@@ -23,9 +23,9 @@ bundle: office_contact_info
 mode: teaser
 content:
   links:
-    weight: 100
     settings: {  }
     third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
   field_automated_updates: true

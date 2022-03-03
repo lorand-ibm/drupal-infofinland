@@ -1,0 +1,55 @@
+uuid: ca9e2228-99ae-4d18-b5fc-1703cc95d6e9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+_core:
+  default_config_hash: lhSmRx4fUnejuCyMQqXiLQL5rtnamGWVkYCjNmgzTg0
+id: content_import_pages_to_nodes_csv_fi
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: infofinland_content
+label: 'Import pages from old site to nodes fi'
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_pages_to_nodes_fi.csv
+  delimiter: ;
+  ids:
+    - sivun_id
+process:
+  type:
+    plugin: default_value
+    default_value: page
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: 'Nimi valikossa'
+  field_page_name: 'Dokumentin nimi'
+  field_hero:
+    source: sivun_id
+    plugin: add_hero_paragraph
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
+  field_description:
+    source: 'Dokumentin ID'
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
+  langcode: Kieli
+  default_langcode:
+    plugin: default_value
+    default_value: true
+  field_content:
+    source: 'Dokumentin ID'
+    plugin: add_paragraphs
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id
+destination:
+  plugin: 'entity:node'
+migration_dependencies: null

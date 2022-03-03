@@ -9,7 +9,11 @@ dependencies:
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
+    - field.field.node.page.field_municipality_info
+    - field.field.node.page.field_municipality_selection
     - field.field.node.page.field_page_name
+    - field.field.node.page.field_theme_menu
+    - field.field.node.page.field_theme_menu_machine_name
     - field.field.node.page.field_url
     - field.field.node.page.field_use_anchor_links
     - node.type.page
@@ -24,19 +28,23 @@ mode: teaser
 content:
   field_liftup_image:
     type: entity_reference_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: content_card
       link: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_content: true
   field_description: true
   field_hero: true
   field_metatags: true
+  field_municipality_info: true
+  field_municipality_selection: true
   field_page_name: true
+  field_theme_menu: true
+  field_theme_menu_machine_name: true
   field_url: true
   field_use_anchor_links: true
   langcode: true

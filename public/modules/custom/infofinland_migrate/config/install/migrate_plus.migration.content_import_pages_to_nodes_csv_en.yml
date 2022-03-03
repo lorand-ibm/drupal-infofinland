@@ -1,0 +1,48 @@
+id: content_import_pages_to_nodes_csv_en
+label: Import pages from old site to nodes english
+migration_group: infofinland_content
+dependencies:
+  enforced:
+    module:
+      - infofinland_migrate
+
+destination:
+  plugin: 'entity:node'
+  translations: true
+source:
+  plugin: csv
+  path: modules/custom/infofinland_migrate/sources/migrate_pages_to_nodes_en.csv
+  delimiter: ';'
+  ids: [sivun_id]
+process:
+  nid:
+    plugin: migration_lookup
+    source: sivun_id
+    migration: content_import_pages_to_nodes_csv_fi
+  type:
+    plugin: default_value
+    default_value: page
+  uid:
+    plugin: default_value
+    default_value: 1
+  title:
+    plugin: skip_on_empty
+    method: row
+    source: Nimi valikossa
+    message: 'Field title is missing'
+  field_page_name: Dokumentin nimi
+  field_url:
+    plugin: urlencode
+    source: Nimi valikossa
+  field_description:
+    source: Dokumentin ID
+    plugin: get_description_for_content
+    process:
+      target_id: target_id
+  langcode: Kieli
+  field_content:
+    source: Dokumentin ID
+    plugin: add_paragraphs
+    process:
+      target_id: target_id
+      target_revision_id: target_revision_id

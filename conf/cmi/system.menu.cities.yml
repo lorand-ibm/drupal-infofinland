@@ -1,0 +1,8 @@
+uuid: 5d4fa440-6f55-4bd2-845e-4a39cbf10d60
+langcode: fi
+status: true
+dependencies: {  }
+id: cities
+label: Kuntasivut
+description: Kuntasivut
+locked: false

@@ -8,9 +8,12 @@ dependencies:
     - paragraphs.paragraphs_type.accordion
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.heading
+    - paragraphs.paragraphs_type.helsinki_kanava
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.language_link_collection
+    - paragraphs.paragraphs_type.municipality_liftup
     - paragraphs.paragraphs_type.ptv_contact
+    - paragraphs.paragraphs_type.remote_video
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -27,68 +30,80 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
+      text: text
+      heading: heading
       accordion: accordion
       columns: columns
       image: image
-      heading: heading
       language_link_collection: language_link_collection
-      text: text
       ptv_contact: ptv_contact
+      municipality_liftup: municipality_liftup
+      remote_video: remote_video
+      helsinki_kanava: helsinki_kanava
+    negate: 0
     target_bundles_drag_drop:
       accordion:
+        weight: -41
         enabled: true
-        weight: 15
       accordion_item:
-        weight: 16
+        weight: -40
         enabled: false
       banner:
-        weight: 17
+        weight: -39
         enabled: false
       columns:
+        weight: -38
         enabled: true
-        weight: 18
       content_cards:
-        weight: 19
+        weight: -37
+        enabled: false
+      external_video:
+        weight: -30
         enabled: false
       gallery:
-        weight: 20
+        weight: -36
         enabled: false
       gallery_slide:
-        weight: 21
+        weight: -35
         enabled: false
       heading:
+        weight: -42
         enabled: true
-        weight: 24
+      helsinki_kanava:
+        weight: -23
+        enabled: true
       hero:
-        weight: 22
+        weight: -34
         enabled: false
       image:
+        weight: -33
         enabled: true
-        weight: 23
       language_link:
-        weight: 27
+        weight: -28
         enabled: false
       language_link_collection:
+        weight: -27
         enabled: true
-        weight: 28
       liftup_with_image:
-        weight: 24
+        weight: -32
         enabled: false
       list_of_links:
-        weight: 25
+        weight: -31
         enabled: false
       list_of_links_item:
-        weight: 26
+        weight: -29
         enabled: false
+      municipality_liftup:
+        weight: -25
+        enabled: true
       ptv_contact:
+        weight: -26
         enabled: true
-        weight: 32
       remote_video:
-        weight: 27
-        enabled: false
-      text:
+        weight: -24
         enabled: true
-        weight: 28
+      text:
+        weight: -43
+        enabled: true
 field_type: entity_reference_revisions

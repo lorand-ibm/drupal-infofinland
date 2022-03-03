@@ -1,15 +1,4 @@
 ﻿sivun_id;Kieli;Nimi valikossa;Kuvaus;URL;Dokumentin ID;Dokumentin nimi
-237acc2f-ed06-4569-8521-1f3fc3c11d71;ru;Infopankki website_ru;;;;
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;sv;Startsida;Flytta till Finland | Livet i Finland | Information om Finland | Lokal information;sv/startsida*;6582;Tiesitkö..? kuntatieto (sv)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;et;Esileht;Soome elama asumine | Elu Soomes | Teavet Soome kohta | Kohalik teave;et/esileht*;6583;Tiesitkö..? kuntatieto (et)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;ru;Главная страница;Все о переезде, работе, учебе и быте в Финляндии на русском языке: достоверно, доступно и проверено. ;ru/frontpage*;6584;Tiesitkö..? kuntatieto (ru)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;fr;Page d’accueil;Déménagement en Finlande | Vie en Finlande | Informations sur la Finlande | Informations locales;fr/page-accueil*;6585;Tiesitkö..? kuntatieto (fr)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;es;Inicio;Mudarse a Finlandia | Vida en Finlandia | Información sobre Finlandia | Información local;es/inicio*;6586;Tiesitkö..? kuntatieto (es)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;tr;Ana sayfa;Finlandiya'ya taşınıldığında | Finlandiya'da yaşam | Finlandiya hakkında bilgiler | Yerel bilgiler;tr/ana-sayfa*;6587;Tiesitkö..? kuntatieto (tr)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;ar;الصفحة الرئيسية;الإنتقال إلى فنلندا | الحياة في فنلندا | معلومات عن فنلندا | معلومات محلية;ar/frontpage*;6588;Tiesitkö..? kuntatieto (ar)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;zh;首页;移居至芬兰 | 居住在芬兰 | 芬兰介绍 | 地区介绍;zh/frontpage*;6589;Tiesitkö..? kuntatieto (zh)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;fa;صفحه نخست;مهاجرت به فنلاند | زندگی در فنلاند | اطلاعاتی در مورد فنلاند | اطلاعات بومی و محلی;fa/frontpage*;6590;Tiesitkö..? kuntatieto (fa)
-a1c69b58-877c-4f7e-a624-f2ab61c881ae;so;Bogga hore;U soo guurista Finland | Nolosha Finland | Warar ku saabsan Finland | Macluumaadka deegaanka;so/bogga-hore*;6591;Tiesitkö..? kuntatieto (so)
 e1d811ca-a89e-4885-a274-b5c434858dc4;sv;Flytta till Finland;EU-medborgare | Icke EU-medborgare | Nordisk medborgare | Komihåglista för dig som flyttar till Finland | Registrering som invånare | Snabbguider för personer som flyttar till Finland;sv/flytta-till-finland;;
 e1d811ca-a89e-4885-a274-b5c434858dc4;ru;Переезд в Финляндию;Все об иммиграции в Финляндию по работе, учебе и ПМЖ: контактные данные, ваши действия и ссылки на онлайн ресурсы для заявлений. ;ru/moving-to-finland;;
 e1d811ca-a89e-4885-a274-b5c434858dc4;ar;الإنتقال إلى فنلندا;مواطنو الاتحاد الأوروبي | غير مواطني الاتحاد الأوروبي | مواطنو دول الشمال | قائمة التذكير للمنتقل إلى فنلندا | التسجيل كساكن | دليلات مختصرة للمنتقلين إلى فنلندا;ar/moving-to-finland;;
@@ -56,7 +45,7 @@ df23804d-1074-4658-bdc1-4f284027f013;ar;غير مواطني الاتحاد ال�
 df23804d-1074-4658-bdc1-4f284027f013;et;Mitte-EL-i kodanikud;;et/soome-elama-asumine/mitte-el-i-kodanikud;;
 df23804d-1074-4658-bdc1-4f284027f013;fr;Citoyens non-européens;;fr/d-m-nagement-en-finlande/citoyens-non-europeens;;
 df23804d-1074-4658-bdc1-4f284027f013;so;Aan aheyn muwaadin EU;;so/u-soo-guurista-finland/aan-aheyn-muwaadin-eu;;
-df23804d-1074-4658-bdc1-4f284027f013;es;Ciudadanos extracomunitarios;;es/mudarse-a-finlandia/ciudadanos-extracomunitarios;;
+df23804d-1074-4658-bdc1-4f284027f013;es;Ciudadanos de fuera de la UE;;es/mudarse-a-finlandia/ciudadanos-extracomunitarios;;
 df23804d-1074-4658-bdc1-4f284027f013;tr;AB dışındaki ülkelerin vatandaşları;;tr/finlandiya-ya-ta-n-ld--nda/ab-d-s-ndaki-ulkelerin-vatandaslar;;
 df23804d-1074-4658-bdc1-4f284027f013;zh;非欧盟居民;;zh/moving-to-finland/non-eu-citizens;;
 df23804d-1074-4658-bdc1-4f284027f013;fa;اتباع کشورهای خارج از اتحادیه اروپا;;fa/moving-to-finland/non-eu-citizens;;
@@ -435,7 +424,7 @@ de90a37a-b2cd-4ad4-9eda-ba221e91fe9a;fa;تابعیت فنلاند;;fa/living-in-
 3a70d1dd-c4bb-4c7c-9482-967774e943b9;et;Võrdne kohtlemine ja võrdõiguslikkus tööelus;;et/elu-soomes/too-ja-ettev-tlus/tootaja-igused-ja-kohustused/v-rdne-kohtlemine-ja-v-rd-iguslikkus-tooelus;2235;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (et)
 3a70d1dd-c4bb-4c7c-9482-967774e943b9;fr;Équité et égalité dans le milieu du travail;;fr/vie-en-finlande/travail-et-entreprenariat/droits-et-obligations-de-l-employ/-quit-et-galit-dans-le-milieu-du-travail;2236;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (fr)
 3a70d1dd-c4bb-4c7c-9482-967774e943b9;so;Sinnaan iyo cadaalalad xagga shaqada ah;;so/nolosha-finland/shaqo-iyo-ganacsi/xuquuqda-iyo-waajibaadka-shaqaalaha/sinnaan-iyo-cadaalalad-xagga-shaqada-ah;2238;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (so)
-3a70d1dd-c4bb-4c7c-9482-967774e943b9;es;Igualdad e igualdad de género en la vida laboral;;es/vida-en-finlandia/trabajo-y-empresa/derechos-y-deberes-del-trabajador/igualdad-e-igualdad-de-g-nero-en-la-vida-laboral;0;
+3a70d1dd-c4bb-4c7c-9482-967774e943b9;es;Igualdad e igualdad de género en la vida laboral;;es/vida-en-finlandia/trabajo-y-empresa/derechos-y-deberes-del-trabajador/igualdad-e-igualdad-de-g-nero-en-la-vida-laboral;;
 3a70d1dd-c4bb-4c7c-9482-967774e943b9;tr;İş hayatında eşitlik;;tr/finlandiya-da-ya-am/i-ve-giri-imcilik/-al-anlar-n-haklar-ve-sorumluluklar/i-hayat-nda-e-itlik;2240;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (tr)
 3a70d1dd-c4bb-4c7c-9482-967774e943b9;zh;工作中的平等与无差别待遇;;zh/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/equality-and-equal-opportunities-in-working-life;2242;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (zh)
 3a70d1dd-c4bb-4c7c-9482-967774e943b9;fa;برابری و مساوات در زندگی کاری;;fa/living-in-finland/work-and-enterprise/employee-s-rights-and-obligations/equality-and-equal-opportunities-in-working-life;2244;Yhdenvertaisuus ja tasa-arvo työelämässä 101 (fa)
@@ -815,7 +804,7 @@ e319a48c-bbaf-4048-a086-48f01f0e4803;sv;Köpa bostad;;sv/livet-i-finland/boende/
 e319a48c-bbaf-4048-a086-48f01f0e4803;fa;خرید خانه;;fa/living-in-finland/housing/owner-occupied-housing;1521;Oma asunto 101 (fa)
 e319a48c-bbaf-4048-a086-48f01f0e4803;zh;购买住房;;zh/living-in-finland/housing/owner-occupied-housing;1523;Oma asunto 101 (zh)
 e319a48c-bbaf-4048-a086-48f01f0e4803;ru;Покупка квартиры;;ru/living-in-finland/housing/owner-occupied-housing;1525;Oma asunto 101 (ru)
-e319a48c-bbaf-4048-a086-48f01f0e4803;et;Korteri ostmine;;et/elu-soomes/eluase-ja-elamine/oma-korter;1526;Oma asunto 101 (et)
+e319a48c-bbaf-4048-a086-48f01f0e4803;et;Korteri ostmine;;et/elu-soomes/eluase-ja-elamine/oma-korter;;
 e319a48c-bbaf-4048-a086-48f01f0e4803;fr;Acheter un appartement;;fr/vie-en-finlande/logement/logement-en-propri-t;1527;Oma asunto 101 (fr)
 e319a48c-bbaf-4048-a086-48f01f0e4803;so;Guri iibsasho;;so/nolosha-finland/deganaaanshaha/guri-si-gaar-ah-loo-leeyahay;1529;Oma asunto 101 (so)
 e319a48c-bbaf-4048-a086-48f01f0e4803;es;Comprar una vivienda;;es/vida-en-finlandia/vivienda/vivienda-en-propiedad;1530;Oma asunto 101 (es)
@@ -1170,7 +1159,7 @@ a932bc15-ae92-40b8-816d-421d06872fc7;ar;الأدوية;;ar/living-in-finland/hea
 50833c20-2f5f-47c5-b3a8-57992911f2f3;zh;康复疗养;;zh/living-in-finland/health/rehabilitation;4230;Kuntoutus 101 (zh)
 50833c20-2f5f-47c5-b3a8-57992911f2f3;fa;توانبخشـی;;fa/living-in-finland/health/rehabilitation;4232;Kuntoutus 101 (fa)
 50833c20-2f5f-47c5-b3a8-57992911f2f3;ar;إعادة التأهيل;;ar/living-in-finland/health/rehabilitation;4233;Kuntoutus 101 (ar)
-aebbaa81-124f-44ef-a389-504e4b7d7275;sv;Handikappade personer;;sv/livet-i-finland/halsa/handikappade-personer;4234;Vammaiset 101 (sv)
+aebbaa81-124f-44ef-a389-504e4b7d7275;sv;Personer med funktionsnedsättning;;sv/livet-i-finland/halsa/handikappade-personer;4234;Vammaiset 101 (sv)
 aebbaa81-124f-44ef-a389-504e4b7d7275;ru;Люди с ограниченными возможностями;;ru/living-in-finland/health/disabled-persons;4236;Vammaiset 101 (ru)
 aebbaa81-124f-44ef-a389-504e4b7d7275;et;Puuetega inimesed;;et/elu-soomes/tervis/puuetega-inimesed;4237;Vammaiset 101 (et)
 aebbaa81-124f-44ef-a389-504e4b7d7275;fr;Handicapés;;fr/vie-en-finlande/sant/handicap-s;4238;Vammaiset 101 (fr)
@@ -1180,7 +1169,7 @@ aebbaa81-124f-44ef-a389-504e4b7d7275;tr;Engelliler;;tr/finlandiya-da-ya-am/sa-l-
 aebbaa81-124f-44ef-a389-504e4b7d7275;zh;残疾人;;zh/living-in-finland/health/disabled-persons;4244;Vammaiset 101 (zh)
 aebbaa81-124f-44ef-a389-504e4b7d7275;fa;معلــولیـن;;fa/living-in-finland/health/disabled-persons;4246;Vammaiset 101 (fa)
 aebbaa81-124f-44ef-a389-504e4b7d7275;ar;المعاقون;;ar/living-in-finland/health/disabled-persons;4247;Vammaiset 101 (ar)
-1c6561f4-b872-4085-b234-bb6b88a5320e;sv;Tjänster för handikappade;;sv/livet-i-finland/halsa/handikappade-personer/hjalp-i-vardagen;4248;Apua arkeen 101 (sv)
+1c6561f4-b872-4085-b234-bb6b88a5320e;sv;Tjänster för personer med funktionsnedsättning;;sv/livet-i-finland/halsa/handikappade-personer/hjalp-i-vardagen;4248;Apua arkeen 101 (sv)
 1c6561f4-b872-4085-b234-bb6b88a5320e;ru;Услуги для людей с ограниченными возможностями;;ru/living-in-finland/health/disabled-persons/help-for-everyday-life;4250;Apua arkeen 101 (ru)
 1c6561f4-b872-4085-b234-bb6b88a5320e;et;Puuetega inimeste teenused;;et/elu-soomes/tervis/puuetega-inimesed/abi-igapaevaeluks;4251;Apua arkeen 101 (et)
 1c6561f4-b872-4085-b234-bb6b88a5320e;fr;Services aux handicapés;;fr/vie-en-finlande/sant/handicap-s/de-l-aide-pour-la-vie-quotidienne;4252;Apua arkeen 101 (fr)
@@ -1190,7 +1179,7 @@ aebbaa81-124f-44ef-a389-504e4b7d7275;ar;المعاقون;;ar/living-in-finland/h
 1c6561f4-b872-4085-b234-bb6b88a5320e;zh;残疾人服务;;zh/living-in-finland/health/disabled-persons/help-for-everyday-life;4258;Apua arkeen 101 (zh)
 1c6561f4-b872-4085-b234-bb6b88a5320e;fa;خدمات معلولین;;fa/living-in-finland/health/disabled-persons/help-for-everyday-life;4260;Apua arkeen 101 (fa)
 1c6561f4-b872-4085-b234-bb6b88a5320e;ar;خدمات المعاقين;;ar/living-in-finland/health/disabled-persons/help-for-everyday-life;4261;Apua arkeen 101 (ar)
-8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;sv;Ekonomiskt stöd för handikappade;;sv/livet-i-finland/halsa/handikappade-personer/ekonomiskt-stod-for-handikappade;4262;Taloudellista tukea 101 (sv)
+8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;sv;Ekonomiskt stöd för personer med funktionsnedsättning;;sv/livet-i-finland/halsa/handikappade-personer/ekonomiskt-stod-for-handikappade;4262;Taloudellista tukea 101 (sv)
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;ru;Материальная поддержка инвалидов;;ru/living-in-finland/health/disabled-persons/financial-support-for-disabled-persons;4264;Taloudellista tukea 101 (ru)
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;et;Majanduslik toetus puuetega inimestele;;et/elu-soomes/tervis/puuetega-inimesed/majanduslik-toetus-puuetega-inimestele;4265;Taloudellista tukea 101 (et)
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;fr;Aide économique aux handicapés;;fr/vie-en-finlande/sant/handicap-s/aide-conomique-aux-handicap-s;4266;Taloudellista tukea 101 (fr)
@@ -1200,16 +1189,6 @@ aebbaa81-124f-44ef-a389-504e4b7d7275;ar;المعاقون;;ar/living-in-finland/h
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;zh;针对残疾人的经济援助 ;;zh/living-in-finland/health/disabled-persons/financial-support-for-disabled-persons;4272;Taloudellista tukea 101 (zh)
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;fa;حمایت‌های مالی معلولین;;fa/living-in-finland/health/disabled-persons/financial-support-for-disabled-persons;4274;Taloudellista tukea 101 (fa)
 8e2fd9ed-e2e3-42f6-9f99-d15a1a6d9b43;ar; الدعم المادي للمعاقين;;ar/living-in-finland/health/disabled-persons/financial-support-for-disabled-persons;4275;Taloudellista tukea 101 (ar)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;sv;Ett handikappat barn;;sv/livet-i-finland/halsa/handikappade-personer/ett-handikappat-barn;4304;Vammainen lapsi 101 (sv)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;ru;Ребенок-инвалид;;ru/living-in-finland/health/disabled-persons/disabled-child;4306;Vammainen lapsi 101 (ru)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;et;Puudega laps;;et/elu-soomes/tervis/puuetega-inimesed/puudega-laps;4307;Vammainen lapsi 101 (et)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;fr;Enfant handicapé;;fr/vie-en-finlande/sant/handicap-s/enfant-handicap;4308;Vammainen lapsi 101 (fr)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;so;Caruurta naafada ah;;so/nolosha-finland/caafimaadka/dadka-naafada-ah/caruurta-naafada-ah;4310;Vammainen lapsi 101 (so)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;es;El niño discapacitado;;es/vida-en-finlandia/salud/discapacitados/el-ni-o-discapacitado;4311;Vammainen lapsi 101 (es)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;tr;Engelli çocuklar;;tr/finlandiya-da-ya-am/sa-l-k/engelliler/engelli-ocuklar;4312;Vammainen lapsi 101 (tr)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;zh;残疾儿童;;zh/living-in-finland/health/disabled-persons/disabled-child;4314;Vammainen lapsi 101 (zh)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;fa;کودک معــلول;;fa/living-in-finland/health/disabled-persons/disabled-child;4316;Vammainen lapsi 101 (fa)
-ee8e1634-f71f-4f01-bb76-33b1fb0de6c4;ar;الطفل المعاق;;ar/living-in-finland/health/disabled-persons/disabled-child;4317;Vammainen lapsi 101 (ar)
 7563d1e9-a9dc-4ca6-a7b0-5fff5935579f;ar;العائلة;ما هي العائلة؟ | الزواج | الطلاق | الزواج المفتوح (التعايش) | انتهاء الزواج المفتوح أي صلة التعايش  | الأطفال | دعم مادي للعائلات| رعاية الطفل | كبار السن;ar/living-in-finland/family;;
 7563d1e9-a9dc-4ca6-a7b0-5fff5935579f;sv;Familj;Vad är en familj? | Äktenskap | Skilsmässa | Samboförhållande | Upphörande av ett samboförhållande | Barn |Ekonomiskt stöd till familjer| Vård av barnet | Äldre människor;sv/livet-i-finland/familj;;
 7563d1e9-a9dc-4ca6-a7b0-5fff5935579f;fa;خانواده;خانواده چیست؟ | ازدواج رسمی | طلاق | زندگی زناشویی بدون ازدواج رسمی | پایان یافتن زندگی زناشویی بدون ازدواج رسمی | فرزندان | کمک های مالی به خانواده | مراقبت از کودک | سالمندان;fa/living-in-finland/family;;
@@ -2020,16 +1999,16 @@ d2b68cda-a0a3-4d6f-b1b6-f63c7f813cec;fr;La vie à Helsinki;;fr/helsinki/la-vie--
 22ac8409-17df-49ae-86ab-83d27e17165a;es;Información sobre Helsinki;;es/helsinki/informaci-n-sobre-helsinki;5044;Tietoa Helsingistä 101 (es)
 22ac8409-17df-49ae-86ab-83d27e17165a;so;Warar ku saabsan Helsinki;;so/helsinki/warar-ku-saabsan-helsinki;5045;Tietoa Helsingistä 101 (so)
 22ac8409-17df-49ae-86ab-83d27e17165a;fr;Informations sur Helsinki;;fr/helsinki/informations-sur-helsinki;5047;Tietoa Helsingistä 101 (fr)
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;ar;Espoo;;ar/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;fa;Espoo;;fa/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;zh;Espoo;;zh/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;tr;Espoo;;tr/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;es;Espoo;;es/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;so;Espoo;;so/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;fr;Espoo;;fr/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;et;Espoo;;et/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;ru;Эспоо;;ru/espoo*;;
-76765a40-d997-4ad4-bf14-0b28aeca0dbb;sv;Esbo;;sv/esbo*;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;ar;Espoo;;ar/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;fa;Espoo;;fa/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;zh;Espoo;;zh/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;tr;Espoo;;tr/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;es;Espoo;;es/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;so;Espoo;;so/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;fr;Espoo;;fr/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;et;Espoo;;et/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;ru;Эспоо;;ru/espoo;;
+76765a40-d997-4ad4-bf14-0b28aeca0dbb;sv;Esbo;;sv/esbo;;
 91bde7d1-82fd-43c2-8748-264b3fbd054f;sv;Flytta till Esbo;;sv/esbo/flytta-till-esbo;5431;Muutto Espooseen 101 (sv)
 91bde7d1-82fd-43c2-8748-264b3fbd054f;ru;Переезд в Эспоо;;ru/espoo/moving-to-espoo;5433;Muutto Espooseen 101 (ru)
 91bde7d1-82fd-43c2-8748-264b3fbd054f;et;Elama asumine Espoosse;;et/espoo/elama-asumine-espoosse;5434;Muutto Espooseen 101 (et)
@@ -2050,26 +2029,26 @@ d2b68cda-a0a3-4d6f-b1b6-f63c7f813cec;fr;La vie à Helsinki;;fr/helsinki/la-vie--
 0fe2bbad-e9f0-41c0-b626-7bcaa8121be0;et;Elu Espoos;;et/espoo/elu-espoos;;
 0fe2bbad-e9f0-41c0-b626-7bcaa8121be0;ru;Жизнь в городе Эспоо;;ru/espoo/life-in-espoo;;
 0fe2bbad-e9f0-41c0-b626-7bcaa8121be0;sv;Livet i Esbo;;sv/esbo/livet-i-esbo;;
-ab08128a-9302-4fb4-b3af-ca95b5613a20;ar;التأقلم في إسبو;;ar/espoo/life-in-espoo/settling-in-espoo*;5445;Maahanmuuttajana Espoossa 101 (ar)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;fa;مستقر شدن در اسپو;;fa/espoo/life-in-espoo/settling-in-espoo*;5446;Maahanmuuttajana Espoossa 101 (fa)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;zh;在埃斯波定居;;zh/espoo/life-in-espoo/settling-in-espoo*;5448;Maahanmuuttajana Espoossa 101 (zh)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;tr;Espoo’ya yerleşmek;;tr/espoo/espoo-da-ya-am/espooya-yerlesmek*;5450;Maahanmuuttajana Espoossa 101 (tr)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;es;Adaptarse a Espoo;;es/espoo/vivir-en-espoo/adaptarse-a-espoo*;5451;Maahanmuuttajana Espoossa 101 (es)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;so;Degidda Espoo;;so/espoo/nolosha-espoo/degidda-espoo*;5452;Maahanmuuttajana Espoossa 101 (so)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;fr;Vivre à Espoo;;fr/espoo/la-vie--espoo/vivre--espoo*;5454;Maahanmuuttajana Espoossa 101 (fr)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;et;Elu sisseseadmine Espoos;;et/espoo/elu-espoos/elu-sisseseadmine-espoos*;5455;Maahanmuuttajana Espoossa 101 (et)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;ru;Обустройство в Эспоо;;ru/espoo/life-in-espoo/settling-in-espoo*;5456;Maahanmuuttajana Espoossa 101 (ru)
-ab08128a-9302-4fb4-b3af-ca95b5613a20;sv;Att bosätta sig i Esbo;;sv/esbo/livet-i-esbo/att-bosatta-sig-i-esbo*;5458;Maahanmuuttajana Espoossa 101 (sv)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;ar;العمل وممارسة العمل الحر في إسبو;;ar/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo*;5459;Työ ja yrittäjyys Espoossa 101 (ar)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;fa;انجام کار و فعالیتهای صنفی و تجاری در اسپو;;fa/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo*;5460;Työ ja yrittäjyys Espoossa 101 (fa)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;zh;在埃斯波工作与创业;;zh/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo*;5462;Työ ja yrittäjyys Espoossa 101 (zh)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;tr;Espoo'da iş ve girişimcilik;;tr/espoo/espoo-da-ya-am/espoo-da-i-hayat-ve-i-letmecilik*;5464;Työ ja yrittäjyys Espoossa 101 (tr)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;es;Trabajar y ser empresario en Espoo;;es/espoo/vivir-en-espoo/trabajar-y-ser-empresario-en-espoo*;5465;Työ ja yrittäjyys Espoossa 101 (es)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;so;Shaqada iyo ganacsiga Espoo;;so/espoo/nolosha-espoo/shaqada-iyo-ganacsiga-espoo*;5466;Työ ja yrittäjyys Espoossa 101 (so)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;fr;Travail et entrepreneuriat à Espoo;;fr/espoo/la-vie--espoo/travail-et-entrepreneuriat--espoo*;5468;Työ ja yrittäjyys Espoossa 101 (fr)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;et;Töö ja ettevõtlus Espoos;;et/espoo/elu-espoos/too-ja-ettev-tlus-espoos*;5469;Työ ja yrittäjyys Espoossa 101 (et)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;ru;Работа и предпринимательство в Эспоо;;ru/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo*;5470;Työ ja yrittäjyys Espoossa 101 (ru)
-ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;sv;Arbete och entreprenörskap i Esbo;;sv/esbo/livet-i-esbo/arbete-och-entreprenorskap-i-esbo*;5472;Työ ja yrittäjyys Espoossa 101 (sv)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;ar;التأقلم في إسبو;;ar/espoo/life-in-espoo/settling-in-espoo;5445;Maahanmuuttajana Espoossa 101 (ar)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;fa;مستقر شدن در اسپو;;fa/espoo/life-in-espoo/settling-in-espoo;5446;Maahanmuuttajana Espoossa 101 (fa)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;zh;在埃斯波定居;;zh/espoo/life-in-espoo/settling-in-espoo;5448;Maahanmuuttajana Espoossa 101 (zh)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;tr;Espoo’ya yerleşmek;;tr/espoo/espoo-da-ya-am/espooya-yerlesmek;5450;Maahanmuuttajana Espoossa 101 (tr)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;es;Adaptarse a Espoo;;es/espoo/vivir-en-espoo/adaptarse-a-espoo;5451;Maahanmuuttajana Espoossa 101 (es)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;so;Degidda Espoo;;so/espoo/nolosha-espoo/degidda-espoo;5452;Maahanmuuttajana Espoossa 101 (so)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;fr;Vivre à Espoo;;fr/espoo/la-vie--espoo/vivre--espoo;5454;Maahanmuuttajana Espoossa 101 (fr)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;et;Elu sisseseadmine Espoos;;et/espoo/elu-espoos/elu-sisseseadmine-espoos;5455;Maahanmuuttajana Espoossa 101 (et)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;ru;Обустройство в Эспоо;;ru/espoo/life-in-espoo/settling-in-espoo;5456;Maahanmuuttajana Espoossa 101 (ru)
+ab08128a-9302-4fb4-b3af-ca95b5613a20;sv;Att bosätta sig i Esbo;;sv/esbo/livet-i-esbo/att-bosatta-sig-i-esbo;5458;Maahanmuuttajana Espoossa 101 (sv)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;ar;العمل وممارسة العمل الحر في إسبو;;ar/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo;5459;Työ ja yrittäjyys Espoossa 101 (ar)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;fa;انجام کار و فعالیتهای صنفی و تجاری در اسپو;;fa/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo;5460;Työ ja yrittäjyys Espoossa 101 (fa)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;zh;在埃斯波工作与创业;;zh/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo;5462;Työ ja yrittäjyys Espoossa 101 (zh)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;tr;Espoo'da iş ve girişimcilik;;tr/espoo/espoo-da-ya-am/espoo-da-i-hayat-ve-i-letmecilik;5464;Työ ja yrittäjyys Espoossa 101 (tr)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;es;Trabajar y ser empresario en Espoo;;es/espoo/vivir-en-espoo/trabajar-y-ser-empresario-en-espoo;5465;Työ ja yrittäjyys Espoossa 101 (es)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;so;Shaqada iyo ganacsiga Espoo;;so/espoo/nolosha-espoo/shaqada-iyo-ganacsiga-espoo;5466;Työ ja yrittäjyys Espoossa 101 (so)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;fr;Travail et entrepreneuriat à Espoo;;fr/espoo/la-vie--espoo/travail-et-entrepreneuriat--espoo;5468;Työ ja yrittäjyys Espoossa 101 (fr)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;et;Töö ja ettevõtlus Espoos;;et/espoo/elu-espoos/too-ja-ettev-tlus-espoos;5469;Työ ja yrittäjyys Espoossa 101 (et)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;ru;Работа и предпринимательство в Эспоо;;ru/espoo/life-in-espoo/employment-and-entrepreneurship-in-espoo;5470;Työ ja yrittäjyys Espoossa 101 (ru)
+ce69b2e7-ae07-4f7c-82dc-fc33fd2b3858;sv;Arbete och entreprenörskap i Esbo;;sv/esbo/livet-i-esbo/arbete-och-entreprenorskap-i-esbo;5472;Työ ja yrittäjyys Espoossa 101 (sv)
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;ar;اللغة الفنلندية والسويدية في إسبو;;ar/espoo/life-in-espoo/finnish-and-swedish-in-espoo;5473;Suomen ja ruotsin kieli Espoossa 101 (ar)
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;fa;زبان های فنلاندی و سوئدی در اسپو;;fa/espoo/life-in-espoo/finnish-and-swedish-in-espoo;5474;Suomen ja ruotsin kieli Espoossa 101 (fa)
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;zh;埃斯波的芬兰语和瑞典语教育;;zh/espoo/life-in-espoo/finnish-and-swedish-in-espoo;5476;Suomen ja ruotsin kieli Espoossa 101 (zh)
@@ -2080,46 +2059,46 @@ cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;fr;Langues finnoise et suédoise à Espoo;;
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;et;Soome ja rootsi keel Espoos;;et/espoo/elu-espoos/soome-ja-rootsi-keel-espoos;5483;Suomen ja ruotsin kieli Espoossa 101 (et)
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;ru;Финский и шведский язык в Эспоо;;ru/espoo/life-in-espoo/finnish-and-swedish-in-espoo;5484;Suomen ja ruotsin kieli Espoossa 101 (ru)
 cd98652f-6ac4-41cd-a0db-b6a2e5bcdb37;sv;Finska och svenska språket i Esbo;;sv/esbo/livet-i-esbo/finska-och-svenska-spraket-i-esbo;5486;Suomen ja ruotsin kieli Espoossa 101 (sv)
-01de4173-7e00-438f-9299-cc556bbe2867;ar;السكن في إسبو;;ar/espoo/life-in-espoo/housing-in-espoo*;5487;Asuminen Espoossa 101 (ar)
-01de4173-7e00-438f-9299-cc556bbe2867;fa;سکونت دراسپو;;fa/espoo/life-in-espoo/housing-in-espoo*;5488;Asuminen Espoossa 101 (fa)
-01de4173-7e00-438f-9299-cc556bbe2867;zh;在埃斯波居住;;zh/espoo/life-in-espoo/housing-in-espoo*;5490;Asuminen Espoossa 101 (zh)
-01de4173-7e00-438f-9299-cc556bbe2867;tr;Espoo'da ikamet;;tr/espoo/espoo-da-ya-am/espoo-da-ikamet*;5492;Asuminen Espoossa 101 (tr)
-01de4173-7e00-438f-9299-cc556bbe2867;es;La vivienda en Espoo;;es/espoo/vivir-en-espoo/la-vivienda-en-espoo*;5493;Asuminen Espoossa 101 (es)
-01de4173-7e00-438f-9299-cc556bbe2867;so;Deganaanshaha Espoo;;so/espoo/nolosha-espoo/deganaanshaha-espoo*;5494;Asuminen Espoossa 101 (so)
-01de4173-7e00-438f-9299-cc556bbe2867;fr;Logement à Espoo;;fr/espoo/la-vie--espoo/logement--espoo*;5496;Asuminen Espoossa 101 (fr)
-01de4173-7e00-438f-9299-cc556bbe2867;et;Eluase ja elamine Espoos;;et/espoo/elu-espoos/eluase-ja-elamine-espoos*;5497;Asuminen Espoossa 101 (et)
-01de4173-7e00-438f-9299-cc556bbe2867;ru;Жильё в Эспоо;;ru/espoo/life-in-espoo/housing-in-espoo*;5498;Asuminen Espoossa 101 (ru)
-01de4173-7e00-438f-9299-cc556bbe2867;sv;Boende i Esbo;;sv/esbo/livet-i-esbo/boende-i-esbo*;5500;Asuminen Espoossa 101 (sv)
-6b98cb98-5e55-4025-9555-7c423b976979;ar;التعليم في إسبو;;ar/espoo/life-in-espoo/education-in-espoo*;5571;Koulutus Espoossa 101 (ar)
-6b98cb98-5e55-4025-9555-7c423b976979;fa;تحصیلات در اسپو;;fa/espoo/life-in-espoo/education-in-espoo*;5572;Koulutus Espoossa 101 (fa)
-6b98cb98-5e55-4025-9555-7c423b976979;zh;埃斯波的教育培训;;zh/espoo/life-in-espoo/education-in-espoo*;5574;Koulutus Espoossa 101 (zh)
-6b98cb98-5e55-4025-9555-7c423b976979;tr;Espoo'da eğitim;;tr/espoo/espoo-da-ya-am/espoo-da-e-itim*;5576;Koulutus Espoossa 101 (tr)
-6b98cb98-5e55-4025-9555-7c423b976979;es;Educación en Espoo;;es/espoo/vivir-en-espoo/educaci-n-en-espoo*;5577;Koulutus Espoossa 101 (es)
-6b98cb98-5e55-4025-9555-7c423b976979;so;Waxbarashada Espoo;;so/espoo/nolosha-espoo/waxbarashada-espoo*;5578;Koulutus Espoossa 101 (so)
-6b98cb98-5e55-4025-9555-7c423b976979;fr;L'éducation à Espoo;;fr/espoo/la-vie--espoo/la-formation--espoo*;5580;Koulutus Espoossa 101 (fr)
-6b98cb98-5e55-4025-9555-7c423b976979;et;Haridus Espoos;;et/espoo/elu-espoos/haridus-espoos*;5581;Koulutus Espoossa 101 (et)
-6b98cb98-5e55-4025-9555-7c423b976979;ru;Образование в Эспоо;;ru/espoo/life-in-espoo/education-in-espoo*;5582;Koulutus Espoossa 101 (ru)
-6b98cb98-5e55-4025-9555-7c423b976979;sv;Utbildning i Esbo;;sv/esbo/livet-i-esbo/utbildning-i-esbo*;5584;Koulutus Espoossa 101 (sv)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;ar;الصحة في إسبو;;ar/espoo/life-in-espoo/health-in-espoo*;5501;Terveys Espoossa 101 (ar)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;fa;بهداشت و سلامتی در اسپو;;fa/espoo/life-in-espoo/health-in-espoo*;5502;Terveys Espoossa 101 (fa)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;zh;埃斯波的医疗保健;;zh/espoo/life-in-espoo/health-in-espoo*;5504;Terveys Espoossa 101 (zh)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;tr;Espoo'da sağlık;;tr/espoo/espoo-da-ya-am/espoo-da-sa-l-k*;5506;Terveys Espoossa 101 (tr)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;es;La salud en Espoo;;es/espoo/vivir-en-espoo/la-salud-en-espoo*;5507;Terveys Espoossa 101 (es)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;so;Caafimaadka Espoo;;so/espoo/nolosha-espoo/caafimaadka-espoo*;5508;Terveys Espoossa 101 (so)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;fr;La santé à Espoo;;fr/espoo/la-vie--espoo/la-sant--espoo*;5510;Terveys Espoossa 101 (fr)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;et;Tervis Espoos;;et/espoo/elu-espoos/tervis-espoos*;5511;Terveys Espoossa 101 (et)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;ru;Здоровье в Эспоо;;ru/espoo/life-in-espoo/health-in-espoo*;5512;Terveys Espoossa 101 (ru)
-79f958c2-c1aa-449e-b2d4-6e3021f156e2;sv;Hälsa i Esbo;;sv/esbo/livet-i-esbo/halsa-i-esbo*;5514;Terveys Espoossa 101 (sv)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;ar;الاسرة في إسبو;;ar/espoo/life-in-espoo/family-in-espoo*;5515;Perhe Espoossa 101 (ar)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;fa;خانواده در اسپو;;fa/espoo/life-in-espoo/family-in-espoo*;5516;Perhe Espoossa 101 (fa)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;zh;埃斯波的家庭生活;;zh/espoo/life-in-espoo/family-in-espoo*;5518;Perhe Espoossa 101 (zh)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;tr;Espoo'da aile;;tr/espoo/espoo-da-ya-am/t-m-aile-espoo-da*;5520;Perhe Espoossa 101 (tr)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;es;Familia en Espoo;;es/espoo/vivir-en-espoo/familia-en-espoo*;5521;Perhe Espoossa 101 (es)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;so;Qoyska Espoo jooga;;so/espoo/nolosha-espoo/qoyska-espoo-jooga*;5522;Perhe Espoossa 101 (so)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;fr;La famille à Espoo;;fr/espoo/la-vie--espoo/la-famille--espoo*;5524;Perhe Espoossa 101 (fr)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;et;Pere Espoos;;et/espoo/elu-espoos/perekond-espoos*;5525;Perhe Espoossa 101 (et)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;ru;Семья в Эспоо;;ru/espoo/life-in-espoo/family-in-espoo*;5526;Perhe Espoossa 101 (ru)
-a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;sv;Familjen i Esbo;;sv/esbo/livet-i-esbo/familjen-i-esbo*;5528;Perhe Espoossa 101 (sv)
+01de4173-7e00-438f-9299-cc556bbe2867;ar;السكن في إسبو;;ar/espoo/life-in-espoo/housing-in-espoo;5487;Asuminen Espoossa 101 (ar)
+01de4173-7e00-438f-9299-cc556bbe2867;fa;سکونت دراسپو;;fa/espoo/life-in-espoo/housing-in-espoo;5488;Asuminen Espoossa 101 (fa)
+01de4173-7e00-438f-9299-cc556bbe2867;zh;在埃斯波居住;;zh/espoo/life-in-espoo/housing-in-espoo;5490;Asuminen Espoossa 101 (zh)
+01de4173-7e00-438f-9299-cc556bbe2867;tr;Espoo'da ikamet;;tr/espoo/espoo-da-ya-am/espoo-da-ikamet;5492;Asuminen Espoossa 101 (tr)
+01de4173-7e00-438f-9299-cc556bbe2867;es;La vivienda en Espoo;;es/espoo/vivir-en-espoo/la-vivienda-en-espoo;5493;Asuminen Espoossa 101 (es)
+01de4173-7e00-438f-9299-cc556bbe2867;so;Deganaanshaha Espoo;;so/espoo/nolosha-espoo/deganaanshaha-espoo;5494;Asuminen Espoossa 101 (so)
+01de4173-7e00-438f-9299-cc556bbe2867;fr;Logement à Espoo;;fr/espoo/la-vie--espoo/logement--espoo;5496;Asuminen Espoossa 101 (fr)
+01de4173-7e00-438f-9299-cc556bbe2867;et;Eluase ja elamine Espoos;;et/espoo/elu-espoos/eluase-ja-elamine-espoos;5497;Asuminen Espoossa 101 (et)
+01de4173-7e00-438f-9299-cc556bbe2867;ru;Жильё в Эспоо;;ru/espoo/life-in-espoo/housing-in-espoo;5498;Asuminen Espoossa 101 (ru)
+01de4173-7e00-438f-9299-cc556bbe2867;sv;Boende i Esbo;;sv/esbo/livet-i-esbo/boende-i-esbo;5500;Asuminen Espoossa 101 (sv)
+6b98cb98-5e55-4025-9555-7c423b976979;ar;التعليم في إسبو;;ar/espoo/life-in-espoo/education-in-espoo;5571;Koulutus Espoossa 101 (ar)
+6b98cb98-5e55-4025-9555-7c423b976979;fa;تحصیلات در اسپو;;fa/espoo/life-in-espoo/education-in-espoo;5572;Koulutus Espoossa 101 (fa)
+6b98cb98-5e55-4025-9555-7c423b976979;zh;埃斯波的教育培训;;zh/espoo/life-in-espoo/education-in-espoo;5574;Koulutus Espoossa 101 (zh)
+6b98cb98-5e55-4025-9555-7c423b976979;tr;Espoo'da eğitim;;tr/espoo/espoo-da-ya-am/espoo-da-e-itim;5576;Koulutus Espoossa 101 (tr)
+6b98cb98-5e55-4025-9555-7c423b976979;es;Educación en Espoo;;es/espoo/vivir-en-espoo/educaci-n-en-espoo;5577;Koulutus Espoossa 101 (es)
+6b98cb98-5e55-4025-9555-7c423b976979;so;Waxbarashada Espoo;;so/espoo/nolosha-espoo/waxbarashada-espoo;5578;Koulutus Espoossa 101 (so)
+6b98cb98-5e55-4025-9555-7c423b976979;fr;L'éducation à Espoo;;fr/espoo/la-vie--espoo/la-formation--espoo;5580;Koulutus Espoossa 101 (fr)
+6b98cb98-5e55-4025-9555-7c423b976979;et;Haridus Espoos;;et/espoo/elu-espoos/haridus-espoos;5581;Koulutus Espoossa 101 (et)
+6b98cb98-5e55-4025-9555-7c423b976979;ru;Образование в Эспоо;;ru/espoo/life-in-espoo/education-in-espoo;5582;Koulutus Espoossa 101 (ru)
+6b98cb98-5e55-4025-9555-7c423b976979;sv;Utbildning i Esbo;;sv/esbo/livet-i-esbo/utbildning-i-esbo;5584;Koulutus Espoossa 101 (sv)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;ar;الصحة في إسبو;;ar/espoo/life-in-espoo/health-in-espoo;5501;Terveys Espoossa 101 (ar)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;fa;بهداشت و سلامتی در اسپو;;fa/espoo/life-in-espoo/health-in-espoo;5502;Terveys Espoossa 101 (fa)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;zh;埃斯波的医疗保健;;zh/espoo/life-in-espoo/health-in-espoo;5504;Terveys Espoossa 101 (zh)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;tr;Espoo'da sağlık;;tr/espoo/espoo-da-ya-am/espoo-da-sa-l-k;5506;Terveys Espoossa 101 (tr)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;es;La salud en Espoo;;es/espoo/vivir-en-espoo/la-salud-en-espoo;5507;Terveys Espoossa 101 (es)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;so;Caafimaadka Espoo;;so/espoo/nolosha-espoo/caafimaadka-espoo;5508;Terveys Espoossa 101 (so)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;fr;La santé à Espoo;;fr/espoo/la-vie--espoo/la-sant--espoo;5510;Terveys Espoossa 101 (fr)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;et;Tervis Espoos;;et/espoo/elu-espoos/tervis-espoos;5511;Terveys Espoossa 101 (et)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;ru;Здоровье в Эспоо;;ru/espoo/life-in-espoo/health-in-espoo;5512;Terveys Espoossa 101 (ru)
+79f958c2-c1aa-449e-b2d4-6e3021f156e2;sv;Hälsa i Esbo;;sv/esbo/livet-i-esbo/halsa-i-esbo;5514;Terveys Espoossa 101 (sv)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;ar;الاسرة في إسبو;;ar/espoo/life-in-espoo/family-in-espoo;5515;Perhe Espoossa 101 (ar)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;fa;خانواده در اسپو;;fa/espoo/life-in-espoo/family-in-espoo;5516;Perhe Espoossa 101 (fa)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;zh;埃斯波的家庭生活;;zh/espoo/life-in-espoo/family-in-espoo;5518;Perhe Espoossa 101 (zh)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;tr;Espoo'da aile;;tr/espoo/espoo-da-ya-am/t-m-aile-espoo-da;5520;Perhe Espoossa 101 (tr)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;es;Familia en Espoo;;es/espoo/vivir-en-espoo/familia-en-espoo;5521;Perhe Espoossa 101 (es)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;so;Qoyska Espoo jooga;;so/espoo/nolosha-espoo/qoyska-espoo-jooga;5522;Perhe Espoossa 101 (so)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;fr;La famille à Espoo;;fr/espoo/la-vie--espoo/la-famille--espoo;5524;Perhe Espoossa 101 (fr)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;et;Pere Espoos;;et/espoo/elu-espoos/perekond-espoos;5525;Perhe Espoossa 101 (et)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;ru;Семья в Эспоо;;ru/espoo/life-in-espoo/family-in-espoo;5526;Perhe Espoossa 101 (ru)
+a2b63932-5ba7-4fbe-b3b9-47ae01e4818a;sv;Familjen i Esbo;;sv/esbo/livet-i-esbo/familjen-i-esbo;5528;Perhe Espoossa 101 (sv)
 b73964a8-5698-43ae-90c4-04d32e617716;ar;حالات المشاكل في إسبو;;ar/espoo/life-in-espoo/problem-situations-in-espoo;5529;Ongelmatilanteet Espoossa 101 (ar)
 b73964a8-5698-43ae-90c4-04d32e617716;fa;شرایط توام با وجود مشکلات در اسپو;;fa/espoo/life-in-espoo/problem-situations-in-espoo;5530;Ongelmatilanteet Espoossa 101 (fa)
 b73964a8-5698-43ae-90c4-04d32e617716;zh;在埃斯波遭遇危机;;zh/espoo/life-in-espoo/problem-situations-in-espoo;5532;Ongelmatilanteet Espoossa 101 (zh)
@@ -2130,16 +2109,16 @@ b73964a8-5698-43ae-90c4-04d32e617716;fr;En cas de problèmes à Espoo;;fr/espoo/
 b73964a8-5698-43ae-90c4-04d32e617716;et;Probleemsed olukorrad Espoos;;et/espoo/elu-espoos/probleemsed-olukorrad-espoos;5539;Ongelmatilanteet Espoossa 101 (et)
 b73964a8-5698-43ae-90c4-04d32e617716;ru;Проблемные ситуации в Эспоо;;ru/espoo/life-in-espoo/problem-situations-in-espoo;5540;Ongelmatilanteet Espoossa 101 (ru)
 b73964a8-5698-43ae-90c4-04d32e617716;sv;Problematiska situationer i Esbo;;sv/esbo/livet-i-esbo/problematiska-situationer-i-esbo;5542;Ongelmatilanteet Espoossa 101 (sv)
-15a30394-ec03-43a4-9cbd-0838665668b7;ar;وقت الفراغ في إسبو;;ar/espoo/life-in-espoo/leisure-in-espoo*;5543;Vapaa-aika Espoossa 101 (ar)
-15a30394-ec03-43a4-9cbd-0838665668b7;fa;اوقات فراغت در اسپو;;fa/espoo/life-in-espoo/leisure-in-espoo*;5544;Vapaa-aika Espoossa 101 (fa)
-15a30394-ec03-43a4-9cbd-0838665668b7;zh;埃斯波的业余休闲活动;;zh/espoo/life-in-espoo/leisure-in-espoo*;5546;Vapaa-aika Espoossa 101 (zh)
-15a30394-ec03-43a4-9cbd-0838665668b7;tr;Espoo'da boş zamanların değerlendirilmesi;;tr/espoo/espoo-da-ya-am/espoo-da-bo-zamanlar-n-de-erlendirilmesi*;5548;Vapaa-aika Espoossa 101 (tr)
-15a30394-ec03-43a4-9cbd-0838665668b7;es;El tiempo libre en Espoo;;es/espoo/vivir-en-espoo/el-tiempo-libre-en-espoo*;5549;Vapaa-aika Espoossa 101 (es)
-15a30394-ec03-43a4-9cbd-0838665668b7;so;Waqtiyada firaaqada iyo Espoo;;so/espoo/nolosha-espoo/waqtiyada-firaaqada-iyo-espoo*;5550;Vapaa-aika Espoossa 101 (so)
-15a30394-ec03-43a4-9cbd-0838665668b7;fr;Loisirs à Espoo;;fr/espoo/la-vie--espoo/loisirs--espoo*;5552;Vapaa-aika Espoossa 101 (fr)
-15a30394-ec03-43a4-9cbd-0838665668b7;et;Vaba aeg Espoos;;et/espoo/elu-espoos/vaba-aeg-espoos*;5553;Vapaa-aika Espoossa 101 (et)
-15a30394-ec03-43a4-9cbd-0838665668b7;ru;Свободное время в Эспоо;;ru/espoo/life-in-espoo/leisure-in-espoo*;5554;Vapaa-aika Espoossa 101 (ru)
-15a30394-ec03-43a4-9cbd-0838665668b7;sv;Fritid i Esbo;;sv/esbo/livet-i-esbo/fritid-i-esbo*;5556;Vapaa-aika Espoossa 101 (sv)
+15a30394-ec03-43a4-9cbd-0838665668b7;ar;وقت الفراغ في إسبو;;ar/espoo/life-in-espoo/leisure-in-espoo;5543;Vapaa-aika Espoossa 101 (ar)
+15a30394-ec03-43a4-9cbd-0838665668b7;fa;اوقات فراغت در اسپو;;fa/espoo/life-in-espoo/leisure-in-espoo;5544;Vapaa-aika Espoossa 101 (fa)
+15a30394-ec03-43a4-9cbd-0838665668b7;zh;埃斯波的业余休闲活动;;zh/espoo/life-in-espoo/leisure-in-espoo;5546;Vapaa-aika Espoossa 101 (zh)
+15a30394-ec03-43a4-9cbd-0838665668b7;tr;Espoo'da boş zamanların değerlendirilmesi;;tr/espoo/espoo-da-ya-am/espoo-da-bo-zamanlar-n-de-erlendirilmesi;5548;Vapaa-aika Espoossa 101 (tr)
+15a30394-ec03-43a4-9cbd-0838665668b7;es;El tiempo libre en Espoo;;es/espoo/vivir-en-espoo/el-tiempo-libre-en-espoo;5549;Vapaa-aika Espoossa 101 (es)
+15a30394-ec03-43a4-9cbd-0838665668b7;so;Waqtiyada firaaqada iyo Espoo;;so/espoo/nolosha-espoo/waqtiyada-firaaqada-iyo-espoo;5550;Vapaa-aika Espoossa 101 (so)
+15a30394-ec03-43a4-9cbd-0838665668b7;fr;Loisirs à Espoo;;fr/espoo/la-vie--espoo/loisirs--espoo;5552;Vapaa-aika Espoossa 101 (fr)
+15a30394-ec03-43a4-9cbd-0838665668b7;et;Vaba aeg Espoos;;et/espoo/elu-espoos/vaba-aeg-espoos;5553;Vapaa-aika Espoossa 101 (et)
+15a30394-ec03-43a4-9cbd-0838665668b7;ru;Свободное время в Эспоо;;ru/espoo/life-in-espoo/leisure-in-espoo;5554;Vapaa-aika Espoossa 101 (ru)
+15a30394-ec03-43a4-9cbd-0838665668b7;sv;Fritid i Esbo;;sv/esbo/livet-i-esbo/fritid-i-esbo;5556;Vapaa-aika Espoossa 101 (sv)
 bc06509c-6faa-49dc-8457-9484dd7b40d0;ar;معلومات عن إسبو;;ar/espoo/information-about-espoo;5557;Tietoa Espoosta 101 (ar)
 bc06509c-6faa-49dc-8457-9484dd7b40d0;fa;اطلاعاتی درباره اسپو;;fa/espoo/information-about-espoo;5558;Tietoa Espoosta 101 (fa)
 bc06509c-6faa-49dc-8457-9484dd7b40d0;zh;有关埃斯波的介绍;;zh/espoo/information-about-espoo;5560;Tietoa Espoosta 101 (zh)
@@ -2460,13 +2439,13 @@ d559163c-89c5-45c0-9087-7707f9a37cd1;ar;Vaasa;;ar/vaasa;;
 f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;sv;Flytta till Vasa;;sv/vasa/flytta-till-vasa;8295;Muutto Vaasaan (sv)
 f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;fa;مهاجرت به واسا (Vaasa);;fa/vaasa/moving-to-vaasa;8317;Muutto Vaasaan (fa)
 f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;ar;‎الانتقال إلى فآسا;;ar/vaasa/moving-to-vaasa;8318;Muutto Vaasaan (ar)
-f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;ru;Переезд в Ваааса;;ru/vaasa/moving-to-vaasa;;
-f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;et;Elama asumine Vaasasse;;et/vaasa/elama-asumine-vaasasse;;
+f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;ru;Переезд в Ваааса;;ru/vaasa/moving-to-vaasa;8428;Muutto Vaasaan (ru)
+f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;et;Elama asumine Vaasasse;;et/vaasa/elama-asumine-vaasasse;8429;Muutto Vaasaan (et)
 f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;fr;S’installer à Vaasa;;fr/vaasa/s-installer-a-vaasa;;
-f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;so;Usoo guurista Vaasa;;so/vaasa/usoo-guurista-vaasa;;
-f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;es;Mudarse a Vaasa;;es/vaasa/mudarse-a-vaasa;;
+f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;so;Usoo guurista Vaasa;;so/vaasa/usoo-guurista-vaasa;8431;Muutto Vaasaan (so)
+f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;es;Mudarse a Vaasa;;es/vaasa/mudarse-a-vaasa;8432;Muutto Vaasaan (es)
 f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;tr;Vaasa'ya taşinildiğinda;;tr/vaasa/vaasa-ya-tasinildiginda;;
-f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;zh;移居至瓦萨;;zh/vaasa/moving-to-vaasa;;
+f0c36de9-4ab7-4cdb-801a-da8a9fd601ba;zh;移居至瓦萨;;zh/vaasa/moving-to-vaasa;8434;Muutto Vaasaan (zh)
 ebe628a2-d4c9-431a-a396-9c84f5805ede;sv;Livet i Vasa;;sv/vasa/livet-i-vasa;;
 ebe628a2-d4c9-431a-a396-9c84f5805ede;fa;زندگی در واسا (Vaasa);;fa/vaasa/living-in-vaasa;;
 ebe628a2-d4c9-431a-a396-9c84f5805ede;ar;الحياة في فآسا;;ar/vaasa/living-in-vaasa;;
@@ -2480,103 +2459,103 @@ ebe628a2-d4c9-431a-a396-9c84f5805ede;zh;在瓦萨生活;;zh/vaasa/living-in-vaas
 6d7dcf87-6366-46c9-87e3-035f6dc78bae;sv;Att bosätta sig i Vasa;;sv/vasa/livet-i-vasa/att-bosatta-sig-i-vasa;8297;Asettuminen Vaasaan (sv)
 6d7dcf87-6366-46c9-87e3-035f6dc78bae;fa;ساکن شدن در واسا (Vaasa);;fa/vaasa/living-in-vaasa/settling-in-vaasa;8319;Asettuminen Vaasaan (fa)
 6d7dcf87-6366-46c9-87e3-035f6dc78bae;ar;السكن في فآسا;;ar/vaasa/living-in-vaasa/settling-in-vaasa;8320;Asettuminen Vaasaan (ar)
-6d7dcf87-6366-46c9-87e3-035f6dc78bae;ru;Обустройство в Вааса;;ru/vaasa/living-in-vaasa/settling-in-vaasa;;
-6d7dcf87-6366-46c9-87e3-035f6dc78bae;et;Elu sisseseadmine Vaasas;;et/vaasa/elu-vaasas/elu-sisseseadmine-vaasas;;
+6d7dcf87-6366-46c9-87e3-035f6dc78bae;ru;Обустройство в Вааса;;ru/vaasa/living-in-vaasa/settling-in-vaasa;8421;Asettuminen Vaasaan (ru)
+6d7dcf87-6366-46c9-87e3-035f6dc78bae;et;Elu sisseseadmine Vaasas;;et/vaasa/elu-vaasas/elu-sisseseadmine-vaasas;8422;Asettuminen Vaasaan (et)
 6d7dcf87-6366-46c9-87e3-035f6dc78bae;fr;Vivre à Vaasa;;fr/vaasa/la-vie-a-vaasa/vivre-a-vaasa;;
-6d7dcf87-6366-46c9-87e3-035f6dc78bae;so;Degidda Vaasa;;so/vaasa/nolosha-vaasa/degidda-vaasa;;
-6d7dcf87-6366-46c9-87e3-035f6dc78bae;es;Adaptarse a Vaasa;;es/vaasa/vivir-en-vaasa/adaptarse-a-vaasa;;
+6d7dcf87-6366-46c9-87e3-035f6dc78bae;so;Degidda Vaasa;;so/vaasa/nolosha-vaasa/degidda-vaasa;8424;Asettuminen Vaasaan (so)
+6d7dcf87-6366-46c9-87e3-035f6dc78bae;es;Adaptarse a Vaasa;;es/vaasa/vivir-en-vaasa/adaptarse-a-vaasa;8425;Asettuminen Vaasaan (es)
 6d7dcf87-6366-46c9-87e3-035f6dc78bae;tr;Vaasa'ya yerleşmek;;tr/vaasa/vaasa-da-yasam/vaasa-ya-yerlesmek;;
-6d7dcf87-6366-46c9-87e3-035f6dc78bae;zh;在瓦萨定居;;zh/vaasa/living-in-vaasa/settling-in-vaasa;;
+6d7dcf87-6366-46c9-87e3-035f6dc78bae;zh;在瓦萨定居;;zh/vaasa/living-in-vaasa/settling-in-vaasa;8427;Asettuminen Vaasaan (zh)
 f1f2c82d-776d-453d-abc3-ed12407dd9df;sv;Arbete och entreprenörskap i Vasa;;sv/vasa/livet-i-vasa/arbete-och-entreprenorskap-i-vasa;8299;Työ ja yrittäjyys Vaasassa (sv)
 f1f2c82d-776d-453d-abc3-ed12407dd9df;fa;کار و شغل آزاد و صاحب کسب و کار بودن در واسا (Vaasa);;fa/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;8321;Työ ja yrittäjyys Vaasassa (fa)
 f1f2c82d-776d-453d-abc3-ed12407dd9df;ar;العمل وممارسة العمل الحر في فآسا;;ar/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;8322;Työ ja yrittäjyys Vaasassa (ar)
-f1f2c82d-776d-453d-abc3-ed12407dd9df;ru;Работа и предпринимательство в Вааса;;ru/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;;
-f1f2c82d-776d-453d-abc3-ed12407dd9df;et;Töö ja ettevõtlus Vaasas;;et/vaasa/elu-vaasas/too-ja-ettevotlus-vaasas;;
+f1f2c82d-776d-453d-abc3-ed12407dd9df;ru;Работа и предпринимательство в Вааса;;ru/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;8435;Työ ja yrittäjyys Vaasassa (ru)
+f1f2c82d-776d-453d-abc3-ed12407dd9df;et;Töö ja ettevõtlus Vaasas;;et/vaasa/elu-vaasas/too-ja-ettevotlus-vaasas;8436;Työ ja yrittäjyys Vaasassa (et)
 f1f2c82d-776d-453d-abc3-ed12407dd9df;fr;Travail et entrepreneuriat à Vaasa;;fr/vaasa/la-vie-a-vaasa/travail-et-entrepreneuriat-a-vaasa;;
-f1f2c82d-776d-453d-abc3-ed12407dd9df;so;Shaqada iyo ganacsiga Vaasa;;so/vaasa/nolosha-vaasa/shaqada-iyo-ganacsiga-vaasa;;
-f1f2c82d-776d-453d-abc3-ed12407dd9df;es;Trabajo y empresa en Vaasa;;es/vaasa/vivir-en-vaasa/trabajo-y-empresa-en-vaasa;;
+f1f2c82d-776d-453d-abc3-ed12407dd9df;so;Shaqada iyo ganacsiga Vaasa;;so/vaasa/nolosha-vaasa/shaqada-iyo-ganacsiga-vaasa;8438;Työ ja yrittäjyys Vaasassa (so)
+f1f2c82d-776d-453d-abc3-ed12407dd9df;es;Trabajo y empresa en Vaasa;;es/vaasa/vivir-en-vaasa/trabajo-y-empresa-en-vaasa;8439;Työ ja yrittäjyys Vaasassa (es)
 f1f2c82d-776d-453d-abc3-ed12407dd9df;tr;Vaasa'da iş ve girişimcilik;;tr/vaasa/vaasa-da-yasam/vaasa-da-is-ve-girisimcilik;;
-f1f2c82d-776d-453d-abc3-ed12407dd9df;zh;在瓦萨工作和创业;;zh/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;;
+f1f2c82d-776d-453d-abc3-ed12407dd9df;zh;在瓦萨工作和创业;;zh/vaasa/living-in-vaasa/employment-and-entrepreneurship-in-vaasa;8441;Työ ja yrittäjyys Vaasassa (zh)
 5cacd26d-b497-43ea-9bc6-b961e9529956;sv;Finska och svenska språket i Vasa;;sv/vasa/livet-i-vasa/finska-och-svenska-spraket-i-vasa;8301;Suomen ja ruotsin kieli Vaasassa (sv)
 5cacd26d-b497-43ea-9bc6-b961e9529956;fa;زبان فنلاندی و سوئدی در واسا (Vaasa);;fa/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;8323;Suomen ja ruotsin kieli Vaasassa (fa)
 5cacd26d-b497-43ea-9bc6-b961e9529956;ar;اللغة الفنلندية والسويدية في فآسا;;ar/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;8324;Suomen ja ruotsin kieli Vaasassa (ar)
-5cacd26d-b497-43ea-9bc6-b961e9529956;ru;Финский и шведский язык в Вааса;;ru/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;;
-5cacd26d-b497-43ea-9bc6-b961e9529956;et;Soome ja rootsi keel Vaasas;;et/vaasa/elu-vaasas/soome-ja-rootsi-keel-vaasas;;
+5cacd26d-b497-43ea-9bc6-b961e9529956;ru;Финский и шведский язык в Вааса;;ru/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;8442;Suomen ja ruotsin kieli Vaasassa (ru)
+5cacd26d-b497-43ea-9bc6-b961e9529956;et;Soome ja rootsi keel Vaasas;;et/vaasa/elu-vaasas/soome-ja-rootsi-keel-vaasas;8443;Suomen ja ruotsin kieli Vaasassa (et)
 5cacd26d-b497-43ea-9bc6-b961e9529956;fr;Langues finnoise et suédoise à Vaasa;;fr/vaasa/la-vie-a-vaasa/langues-finnoise-et-suedoise-a-vaasa;;
-5cacd26d-b497-43ea-9bc6-b961e9529956;so;Luqada Finnishka iyo Iswidishka ee Vaasa;;so/vaasa/nolosha-vaasa/luqada-finnishka-iyo-iswidishka-ee-vaasa;;
-5cacd26d-b497-43ea-9bc6-b961e9529956;es;Los idiomas finlandés y sueco​en Vaasa;;es/vaasa/vivir-en-vaasa/los-idiomas-finlandes-y-sueco​en-vaasa;;
+5cacd26d-b497-43ea-9bc6-b961e9529956;so;Luqada Finnishka iyo Iswidishka ee Vaasa;;so/vaasa/nolosha-vaasa/luqada-finnishka-iyo-iswidishka-ee-vaasa;8445;Suomen ja ruotsin kieli Vaasassa (so)
+5cacd26d-b497-43ea-9bc6-b961e9529956;es;Los idiomas finlandés y sueco​en Vaasa;;es/vaasa/vivir-en-vaasa/los-idiomas-finlandes-y-sueco​en-vaasa;8446;Suomen ja ruotsin kieli Vaasassa (es)
 5cacd26d-b497-43ea-9bc6-b961e9529956;tr;Vaasa'da Fince ve İsveççe;;tr/vaasa/vaasa-da-yasam/vaasa-da-fince-ve-isveççe;;
-5cacd26d-b497-43ea-9bc6-b961e9529956;zh;瓦萨的芬兰语和瑞典语教育;;zh/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;;
+5cacd26d-b497-43ea-9bc6-b961e9529956;zh;瓦萨的芬兰语和瑞典语教育;;zh/vaasa/living-in-vaasa/finnish-and-swedish-in-vaasa;8448;Suomen ja ruotsin kieli Vaasassa (zh)
 31bb9ff2-e81c-46d1-aaa6-f30492afd121;sv;Boende i Vasa;;sv/vasa/livet-i-vasa/boende-i-vasa;8303;Asuminen Vaasassa (sv)
 31bb9ff2-e81c-46d1-aaa6-f30492afd121;fa;زندگی در واسا (Vaasa);;fa/vaasa/living-in-vaasa/housing-in-vaasa;8325;Asuminen Vaasassa (fa)
 31bb9ff2-e81c-46d1-aaa6-f30492afd121;ar;السكن في فآسا;;ar/vaasa/living-in-vaasa/housing-in-vaasa;8326;Asuminen Vaasassa (ar)
-31bb9ff2-e81c-46d1-aaa6-f30492afd121;ru;Жильё в Вааса;;ru/vaasa/living-in-vaasa/housing-in-vaasa;;
-31bb9ff2-e81c-46d1-aaa6-f30492afd121;et;Eluase ja elamine Vaasas;;et/vaasa/elu-vaasas/eluase-ja-elamine-vaasas;;
+31bb9ff2-e81c-46d1-aaa6-f30492afd121;ru;Жильё в Вааса;;ru/vaasa/living-in-vaasa/housing-in-vaasa;8449;Asuminen Vaasassa (ru)
+31bb9ff2-e81c-46d1-aaa6-f30492afd121;et;Eluase ja elamine Vaasas;;et/vaasa/elu-vaasas/eluase-ja-elamine-vaasas;8450;Asuminen Vaasassa (et)
 31bb9ff2-e81c-46d1-aaa6-f30492afd121;fr;Logement à Vaasa;;fr/vaasa/la-vie-a-vaasa/logement-a-vaasa;;
-31bb9ff2-e81c-46d1-aaa6-f30492afd121;so;Deganaanshaha Vaasa;;so/vaasa/nolosha-vaasa/deganaanshaha-vaasa;;
-31bb9ff2-e81c-46d1-aaa6-f30492afd121;es;La vivienda en Vaasa;;es/vaasa/vivir-en-vaasa/la-vivienda-en-vaasa;;
+31bb9ff2-e81c-46d1-aaa6-f30492afd121;so;Deganaanshaha Vaasa;;so/vaasa/nolosha-vaasa/deganaanshaha-vaasa;8452;Asuminen Vaasassa (so)
+31bb9ff2-e81c-46d1-aaa6-f30492afd121;es;La vivienda en Vaasa;;es/vaasa/vivir-en-vaasa/la-vivienda-en-vaasa;8453;Asuminen Vaasassa (es)
 31bb9ff2-e81c-46d1-aaa6-f30492afd121;tr;Vaasa'da ikamet;;tr/vaasa/vaasa-da-yasam/vaasa-da-ikamet;;
-31bb9ff2-e81c-46d1-aaa6-f30492afd121;zh;在瓦萨居住;;zh/vaasa/living-in-vaasa/housing-in-vaasa;;
+31bb9ff2-e81c-46d1-aaa6-f30492afd121;zh;在瓦萨居住;;zh/vaasa/living-in-vaasa/housing-in-vaasa;8455;Asuminen Vaasassa (zh)
 361d50b1-68dc-4dab-9b0b-6026cb587513;sv;Utbildning i Vasa;;sv/vasa/livet-i-vasa/utbildning-i-vasa;8305;Koulutus Vaasassa (sv)
 361d50b1-68dc-4dab-9b0b-6026cb587513;fa;تحصیل در واسا (Vaasa);;fa/vaasa/living-in-vaasa/education-in-vaasa;8327;Koulutus Vaasassa (fa)
 361d50b1-68dc-4dab-9b0b-6026cb587513;ar;التعليم في فآسا;;ar/vaasa/living-in-vaasa/education-in-vaasa;8328;Koulutus Vaasassa (ar)
-361d50b1-68dc-4dab-9b0b-6026cb587513;ru;Образование в Вааса;;ru/vaasa/living-in-vaasa/education-in-vaasa;;
-361d50b1-68dc-4dab-9b0b-6026cb587513;et;Haridus Vaasas;;et/vaasa/elu-vaasas/haridus-vaasas;;
+361d50b1-68dc-4dab-9b0b-6026cb587513;ru;Образование в Вааса;;ru/vaasa/living-in-vaasa/education-in-vaasa;8456;Koulutus Vaasassa (ru)
+361d50b1-68dc-4dab-9b0b-6026cb587513;et;Haridus Vaasas;;et/vaasa/elu-vaasas/haridus-vaasas;8457;Koulutus Vaasassa (et)
 361d50b1-68dc-4dab-9b0b-6026cb587513;fr;L’éducation à Vaasa;;fr/vaasa/la-vie-a-vaasa/l-education-a-vaasa;;
-361d50b1-68dc-4dab-9b0b-6026cb587513;so;Waxbarashada Vaasa;;so/vaasa/nolosha-vaasa/waxbarashada-vaasa;;
-361d50b1-68dc-4dab-9b0b-6026cb587513;es;Educación en Vaasa;;es/vaasa/vivir-en-vaasa/educacion-en-vaasa;;
+361d50b1-68dc-4dab-9b0b-6026cb587513;so;Waxbarashada Vaasa;;so/vaasa/nolosha-vaasa/waxbarashada-vaasa;8459;Koulutus Vaasassa (so)
+361d50b1-68dc-4dab-9b0b-6026cb587513;es;Educación en Vaasa;;es/vaasa/vivir-en-vaasa/educacion-en-vaasa;8460;Koulutus Vaasassa (es)
 361d50b1-68dc-4dab-9b0b-6026cb587513;tr;Vaasa'da eğitim;;tr/vaasa/vaasa-da-yasam/vaasa-da-egitim;;
-361d50b1-68dc-4dab-9b0b-6026cb587513;zh;瓦萨的教育;;zh/vaasa/living-in-vaasa/education-in-vaasa;;
+361d50b1-68dc-4dab-9b0b-6026cb587513;zh;瓦萨的教育;;zh/vaasa/living-in-vaasa/education-in-vaasa;8462;Koulutus Vaasassa (zh)
 fa40cc0c-caae-497f-bbbd-6eca60ff423f;sv;Hälsa i Vasa;;sv/vasa/livet-i-vasa/halsa-i-vasa;8307;Terveys Vaasassa (sv)
 fa40cc0c-caae-497f-bbbd-6eca60ff423f;fa;بهداشت در واسا (Vaasa);;fa/vaasa/living-in-vaasa/health-in-vaasa;8329;Terveys Vaasassa (fa)
 fa40cc0c-caae-497f-bbbd-6eca60ff423f;ar;الصحة في فآسا;;ar/vaasa/living-in-vaasa/health-in-vaasa;8330;Terveys Vaasassa (ar)
-fa40cc0c-caae-497f-bbbd-6eca60ff423f;ru;Здравоохранение в Вааса;;ru/vaasa/living-in-vaasa/health-in-vaasa;;
-fa40cc0c-caae-497f-bbbd-6eca60ff423f;et;Tervis Vaasas;;et/vaasa/elu-vaasas/tervis-vaasas;;
+fa40cc0c-caae-497f-bbbd-6eca60ff423f;ru;Здравоохранение в Вааса;;ru/vaasa/living-in-vaasa/health-in-vaasa;8463;Terveys Vaasassa (ru)
+fa40cc0c-caae-497f-bbbd-6eca60ff423f;et;Tervis Vaasas;;et/vaasa/elu-vaasas/tervis-vaasas;8464;Terveys Vaasassa (et)
 fa40cc0c-caae-497f-bbbd-6eca60ff423f;fr;La santé à Vaasa;;fr/vaasa/la-vie-a-vaasa/la-sante-a-vaasa;;
-fa40cc0c-caae-497f-bbbd-6eca60ff423f;so;Caafimaadka Vaasa;;so/vaasa/nolosha-vaasa/caafimaadka-vaasa;;
-fa40cc0c-caae-497f-bbbd-6eca60ff423f;es;La salud en Vaasa;;es/vaasa/vivir-en-vaasa/la-salud-en-vaasa;;
+fa40cc0c-caae-497f-bbbd-6eca60ff423f;so;Caafimaadka Vaasa;;so/vaasa/nolosha-vaasa/caafimaadka-vaasa;8466;Terveys Vaasassa (so)
+fa40cc0c-caae-497f-bbbd-6eca60ff423f;es;La salud en Vaasa;;es/vaasa/vivir-en-vaasa/la-salud-en-vaasa;8467;Terveys Vaasassa (es)
 fa40cc0c-caae-497f-bbbd-6eca60ff423f;tr;Vaasa'da sağlik;;tr/vaasa/vaasa-da-yasam/vaasa-da-saglik;;
-fa40cc0c-caae-497f-bbbd-6eca60ff423f;zh;瓦萨的医疗保健;;zh/vaasa/living-in-vaasa/health-in-vaasa;;
+fa40cc0c-caae-497f-bbbd-6eca60ff423f;zh;瓦萨的医疗保健;;zh/vaasa/living-in-vaasa/health-in-vaasa;8469;Terveys Vaasassa (zh)
 ae246a1e-2212-4721-9458-d7c5b3dae373;sv;Familjen i Vasa;;sv/vasa/livet-i-vasa/familjen-i-vasa;8309;Perhe Vaasassa (sv)
 ae246a1e-2212-4721-9458-d7c5b3dae373;fa;خانواده در واسا (Vaasa);;fa/vaasa/living-in-vaasa/family-in-vaasa;8331;Perhe Vaasassa (fa)
 ae246a1e-2212-4721-9458-d7c5b3dae373;ar;العائلة في فآسا;;ar/vaasa/living-in-vaasa/family-in-vaasa;8332;Perhe Vaasassa (ar)
-ae246a1e-2212-4721-9458-d7c5b3dae373;ru;Семья в Вааса;;ru/vaasa/living-in-vaasa/family-in-vaasa;;
-ae246a1e-2212-4721-9458-d7c5b3dae373;et;Pere Vaasas;;et/vaasa/elu-vaasas/pere-vaasas;;
+ae246a1e-2212-4721-9458-d7c5b3dae373;ru;Семья в Вааса;;ru/vaasa/living-in-vaasa/family-in-vaasa;8470;Perhe Vaasassa (ru)
+ae246a1e-2212-4721-9458-d7c5b3dae373;et;Pere Vaasas;;et/vaasa/elu-vaasas/pere-vaasas;8471;Perhe Vaasassa (et)
 ae246a1e-2212-4721-9458-d7c5b3dae373;fr;La famille à Vaasa;;fr/vaasa/la-vie-a-vaasa/la-famille-a-vaasa;;
-ae246a1e-2212-4721-9458-d7c5b3dae373;so;Qoyska Vaasa jooga;;so/vaasa/nolosha-vaasa/qoyska-vaasa-jooga;;
-ae246a1e-2212-4721-9458-d7c5b3dae373;es;Familia en Vaasa;;es/vaasa/vivir-en-vaasa/familia-en-vaasa;;
+ae246a1e-2212-4721-9458-d7c5b3dae373;so;Qoyska Vaasa jooga;;so/vaasa/nolosha-vaasa/qoyska-vaasa-jooga;8473;Perhe Vaasassa (so)
+ae246a1e-2212-4721-9458-d7c5b3dae373;es;Familia en Vaasa;;es/vaasa/vivir-en-vaasa/familia-en-vaasa;8474;Perhe Vaasassa (es)
 ae246a1e-2212-4721-9458-d7c5b3dae373;tr;Vaasa'da aile;;tr/vaasa/vaasa-da-yasam/vaasa-da-aile;;
-ae246a1e-2212-4721-9458-d7c5b3dae373;zh;瓦萨的家庭生活;;zh/vaasa/living-in-vaasa/family-in-vaasa;;
+ae246a1e-2212-4721-9458-d7c5b3dae373;zh;瓦萨的家庭生活;;zh/vaasa/living-in-vaasa/family-in-vaasa;8476;Perhe Vaasassa (zh)
 0d26cd30-e83d-4756-84c3-fc813318f5a4;sv;Problematiska situationer i Vasa;;sv/vasa/livet-i-vasa/problematiska-situationer-i-vasa;8311;Ongelmatilanteet Vaasassa (sv)
 0d26cd30-e83d-4756-84c3-fc813318f5a4;fa;وضعیت های مشکل و بحرانی در واسا (Vaasa);;fa/vaasa/living-in-vaasa/problem-situations-in-vaasa;8333;Ongelmatilanteet Vaasassa (fa)
 0d26cd30-e83d-4756-84c3-fc813318f5a4;ar;حالات المشاكل في فآسا;;ar/vaasa/living-in-vaasa/problem-situations-in-vaasa;8334;Ongelmatilanteet Vaasassa (ar)
-0d26cd30-e83d-4756-84c3-fc813318f5a4;ru;Проблемные ситуации в Вааса;;ru/vaasa/living-in-vaasa/problem-situations-in-vaasa;;
-0d26cd30-e83d-4756-84c3-fc813318f5a4;et;Probleemsed olukorrad Vaasas;;et/vaasa/elu-vaasas/probleemsed-olukorrad-vaasas;;
+0d26cd30-e83d-4756-84c3-fc813318f5a4;ru;Проблемные ситуации в Вааса;;ru/vaasa/living-in-vaasa/problem-situations-in-vaasa;8477;Ongelmatilanteet Vaasassa (ru)
+0d26cd30-e83d-4756-84c3-fc813318f5a4;et;Probleemsed olukorrad Vaasas;;et/vaasa/elu-vaasas/probleemsed-olukorrad-vaasas;8478;Ongelmatilanteet Vaasassa (et)
 0d26cd30-e83d-4756-84c3-fc813318f5a4;fr;En cas de problèmes à Vaasa;;fr/vaasa/la-vie-a-vaasa/en-cas-de-problemes-a-vaasa;;
-0d26cd30-e83d-4756-84c3-fc813318f5a4;so;Xaaladaha dhibku jiro iyo Vaasa;;so/vaasa/nolosha-vaasa/xaaladaha-dhibku-jiro-iyo-vaasa;;
-0d26cd30-e83d-4756-84c3-fc813318f5a4;es;Situaciones problemáticas en Vaasa;;es/vaasa/vivir-en-vaasa/situaciones-problematicas-en-vaasa;;
+0d26cd30-e83d-4756-84c3-fc813318f5a4;so;Xaaladaha dhibku jiro iyo Vaasa;;so/vaasa/nolosha-vaasa/xaaladaha-dhibku-jiro-iyo-vaasa;8480;Ongelmatilanteet Vaasassa (so)
+0d26cd30-e83d-4756-84c3-fc813318f5a4;es;Situaciones problemáticas en Vaasa;;es/vaasa/vivir-en-vaasa/situaciones-problematicas-en-vaasa;8481;Ongelmatilanteet Vaasassa (es)
 0d26cd30-e83d-4756-84c3-fc813318f5a4;tr;Vaasa'da kriz durumlari;;tr/vaasa/vaasa-da-yasam/vaasa-da-kriz-durumlari;;
-0d26cd30-e83d-4756-84c3-fc813318f5a4;zh;在瓦萨遭遇危机;;zh/vaasa/living-in-vaasa/problem-situations-in-vaasa;;
+0d26cd30-e83d-4756-84c3-fc813318f5a4;zh;在瓦萨遭遇危机;;zh/vaasa/living-in-vaasa/problem-situations-in-vaasa;8483;Ongelmatilanteet Vaasassa (zh)
 05a5ef85-d450-4957-955c-d4824c91e4ae;sv;Fritiden i Vasa;;sv/vasa/livet-i-vasa/fritiden-i-vasa;8313;Vapaa-aika Vaasassa (sv)
 05a5ef85-d450-4957-955c-d4824c91e4ae;fa;اوقات فراغت و سرگرمیها در واسا (Vaasa);;fa/vaasa/living-in-vaasa/leisure-in-vaasa;8335;Vapaa-aika Vaasassa (fa)
 05a5ef85-d450-4957-955c-d4824c91e4ae;ar;وقت الفراغ في فآسا;;ar/vaasa/living-in-vaasa/leisure-in-vaasa;8336;Vapaa-aika Vaasassa (ar)
-05a5ef85-d450-4957-955c-d4824c91e4ae;ru;Свободное время в Вааса;;ru/vaasa/living-in-vaasa/leisure-in-vaasa;;
-05a5ef85-d450-4957-955c-d4824c91e4ae;et;Vaba aeg Vaasas;;et/vaasa/elu-vaasas/vaba-aeg-vaasas;;
+05a5ef85-d450-4957-955c-d4824c91e4ae;ru;Свободное время в Вааса;;ru/vaasa/living-in-vaasa/leisure-in-vaasa;8484;Vapaa-aika Vaasassa (ru)
+05a5ef85-d450-4957-955c-d4824c91e4ae;et;Vaba aeg Vaasas;;et/vaasa/elu-vaasas/vaba-aeg-vaasas;8485;Vapaa-aika Vaasassa (et)
 05a5ef85-d450-4957-955c-d4824c91e4ae;fr;Loisirs à Vaasa ;;fr/vaasa/la-vie-a-vaasa/loisirs-a-vaasa-;;
-05a5ef85-d450-4957-955c-d4824c91e4ae;so;Waqtiyada firaaqada iyo Vaasa;;so/vaasa/nolosha-vaasa/waqtiyada-firaaqada-iyo-vaasa;;
-05a5ef85-d450-4957-955c-d4824c91e4ae;es;El tiempo libre en Vaasa;;es/vaasa/vivir-en-vaasa/el-tiempo-libre-en-vaasa;;
+05a5ef85-d450-4957-955c-d4824c91e4ae;so;Waqtiyada firaaqada iyo Vaasa;;so/vaasa/nolosha-vaasa/waqtiyada-firaaqada-iyo-vaasa;8487;Vapaa-aika Vaasassa (so)
+05a5ef85-d450-4957-955c-d4824c91e4ae;es;El tiempo libre en Vaasa;;es/vaasa/vivir-en-vaasa/el-tiempo-libre-en-vaasa;8488;Vapaa-aika Vaasassa (es)
 05a5ef85-d450-4957-955c-d4824c91e4ae;tr;Vaasa'da boş zamanlarin değerlendirilmesi;;tr/vaasa/vaasa-da-yasam/vaasa-da-bos-zamanlarin-degerlendirilmesi;;
-05a5ef85-d450-4957-955c-d4824c91e4ae;zh;在瓦萨的业余休闲;;zh/vaasa/living-in-vaasa/leisure-in-vaasa;;
+05a5ef85-d450-4957-955c-d4824c91e4ae;zh;在瓦萨的业余休闲;;zh/vaasa/living-in-vaasa/leisure-in-vaasa;8490;Vapaa-aika Vaasassa (zh)
 d4be8171-1ea8-4fcb-b335-7cfa492fbb85;sv;Information om Vasa;;sv/vasa/information-om-vasa;8315;Tietoa Vaasasta (sv)
 d4be8171-1ea8-4fcb-b335-7cfa492fbb85;fa;اطلاعاتی در مورد واسا (Vaasa);;fa/vaasa/information-about-vaasa;8337;Tietoa Vaasasta (fa)
 d4be8171-1ea8-4fcb-b335-7cfa492fbb85;ar;معلومات عن فآسا;;ar/vaasa/information-about-vaasa;8338;Tietoa Vaasasta (ar)
-d4be8171-1ea8-4fcb-b335-7cfa492fbb85;ru;Информация о городе Вааса;;ru/vaasa/information-about-vaasa;;
-d4be8171-1ea8-4fcb-b335-7cfa492fbb85;et;Teavet Vaasa kohta;;et/vaasa/teavet-vaasa-kohta;;
+d4be8171-1ea8-4fcb-b335-7cfa492fbb85;ru;Информация о городе Вааса;;ru/vaasa/information-about-vaasa;8491;Tietoa Vaasasta (ru)
+d4be8171-1ea8-4fcb-b335-7cfa492fbb85;et;Teavet Vaasa kohta;;et/vaasa/teavet-vaasa-kohta;8492;Tietoa Vaasasta (et)
 d4be8171-1ea8-4fcb-b335-7cfa492fbb85;fr;Informations sur Vaasa;;fr/vaasa/informations-sur-vaasa;;
-d4be8171-1ea8-4fcb-b335-7cfa492fbb85;so;Warar ku saabsan Vaasa;;so/vaasa/warar-ku-saabsan-vaasa;;
-d4be8171-1ea8-4fcb-b335-7cfa492fbb85;es;Información sobre Vaasa;;es/vaasa/información-sobre-vaasa;;
+d4be8171-1ea8-4fcb-b335-7cfa492fbb85;so;Warar ku saabsan Vaasa;;so/vaasa/warar-ku-saabsan-vaasa;8494;Tietoa Vaasasta (so)
+d4be8171-1ea8-4fcb-b335-7cfa492fbb85;es;Información sobre Vaasa;;es/vaasa/información-sobre-vaasa;8495;Tietoa Vaasasta (es)
 d4be8171-1ea8-4fcb-b335-7cfa492fbb85;tr;Vaasa hakkinda bilgiler;;tr/vaasa/vaasa-hakkinda-bilgiler;;
-d4be8171-1ea8-4fcb-b335-7cfa492fbb85;zh;有关瓦萨的介绍;;zh/vaasa/information-about-vaasa;;
+d4be8171-1ea8-4fcb-b335-7cfa492fbb85;zh;有关瓦萨的介绍;;zh/vaasa/information-about-vaasa;8497;Tietoa Vaasasta (zh)
 5e219db4-0238-4f20-ac17-9a0dc4644a3c;sv;Karleby;;sv/karleby;;
 5e219db4-0238-4f20-ac17-9a0dc4644a3c;ru;Коккола;;ru/kokkola;;
 5e219db4-0238-4f20-ac17-9a0dc4644a3c;et;Kokkola;;et/kokkola;;
@@ -2723,29 +2702,29 @@ e9aea636-f834-49cd-8bdb-ba71a7f19335;fr;Les loisirs à Siikajoki;;fr/siikajoki/l
 9fcc3214-5527-4335-a7a7-77e2d48c9a0c;zh;Pyhäjoki;;zh/pyhajoki;;
 9fcc3214-5527-4335-a7a7-77e2d48c9a0c;fa;Pyhäjoki;;fa/pyhajoki;;
 9fcc3214-5527-4335-a7a7-77e2d48c9a0c;ar;Pyhäjoki;;ar/pyhajoki;;
-d17bf47d-856b-46f0-a8ed-1f43cabd6723;ru;Переезд в Пюхяйоки;;ru/moving-to-pyhajoki;6936;Muutto Pyhäjoelle (ru)
+d17bf47d-856b-46f0-a8ed-1f43cabd6723;ru;Переезд в Пюхяйоки;;ru/moving-to-pyhajoki;8504;Muutto Pyhäjoelle (ru)
 d17bf47d-856b-46f0-a8ed-1f43cabd6723;fr;Déménager à Pyhäjoki;;fr/demenager-a-pyhajoki;6937;Muutto Pyhäjoelle (fr)
 513e2335-cae5-4e4c-9381-062c1b36411b;ru;Жизнь в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki;;
 513e2335-cae5-4e4c-9381-062c1b36411b;fr;La vie à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki;;
-80741bf3-5f6c-4c85-a30f-8e09879e2671;ru;Обустройство в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/settling-in-pyhajoki;6939;Maahanmuuttajana Pyhäjoella (ru)
+80741bf3-5f6c-4c85-a30f-8e09879e2671;ru;Обустройство в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/settling-in-pyhajoki;8506;Asettuminen Pyhäjoelle (ru)
 80741bf3-5f6c-4c85-a30f-8e09879e2671;fr;Vivre à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/vivre-a-pyhajoki;6940;Maahanmuuttajana Pyhäjoella (fr)
-b2d6d633-df66-4a4b-bbf4-978b62c63be5;ru;Работа и предпринимательство в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/work-and-enterprise-in-pyhajoki;6942;Työ ja yrittäjyys Pyhäjoella (ru)
+b2d6d633-df66-4a4b-bbf4-978b62c63be5;ru;Работа и предпринимательство в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/work-and-enterprise-in-pyhajoki;8508;Työ ja yrittäjyys Pyhäjoella (ru)
 b2d6d633-df66-4a4b-bbf4-978b62c63be5;fr;Le travail et l'entrepreneuriat à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/le-travail-et-l-entrepreneuriat-a-pyhajoki;6943;Työ ja yrittäjyys Pyhäjoella (fr)
-f8c7fdc6-789a-4fab-b673-6505b10bab11;ru;Финский и шведский язык в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/finnish-and-swedish-in-pyhajoki;6945;Suomen ja ruotsin kieli Pyhäjoella (ru)
+f8c7fdc6-789a-4fab-b673-6505b10bab11;ru;Финский и шведский язык в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/finnish-and-swedish-in-pyhajoki;8510;Suomen ja ruotsin kieli Pyhäjoella (ru)
 f8c7fdc6-789a-4fab-b673-6505b10bab11;fr;Le finnois et le suédois à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/le-finnois-et le-suedois-a-pyhajoki;6946;Suomen ja ruotsin kieli Pyhäjoella (fr)
-bbead372-f699-4166-836a-dac4cfdea987;ru;Жилье в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/housing-in-pyhajoki;6948;Asuminen Pyhäjoella (ru)
+bbead372-f699-4166-836a-dac4cfdea987;ru;Жилье в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/housing-in-pyhajoki;8512;Asuminen Pyhäjoella (ru)
 bbead372-f699-4166-836a-dac4cfdea987;fr;Le logement à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/le-logement-a-pyhajoki;6949;Asuminen Pyhäjoella (fr)
-af543d2c-c88c-431d-b4f0-0f1c50da3190;ru;Образование в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/education-in-pyhajoki;6951;Koulutus Pyhäjoella (ru)
+af543d2c-c88c-431d-b4f0-0f1c50da3190;ru;Образование в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/education-in-pyhajoki;8514;Koulutus Pyhäjoella (ru)
 af543d2c-c88c-431d-b4f0-0f1c50da3190;fr;L'éducation à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/l-education-a-pyhajoki;6952;Koulutus Pyhäjoella (fr)
-f436f1ec-2cfa-4933-8b75-1dcf5cc550b3;ru;Здравоохранение в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/health-care-in-pyhajoki;6954;Terveys Pyhäjoella (ru)
+f436f1ec-2cfa-4933-8b75-1dcf5cc550b3;ru;Здравоохранение в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/health-care-in-pyhajoki;8516;Terveys Pyhäjoella (ru)
 f436f1ec-2cfa-4933-8b75-1dcf5cc550b3;fr;La santé à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/la-sante-a-pyhajoki;6955;Terveys Pyhäjoella (fr)
-27411248-b191-49ad-b018-21148f6d5190;ru;Семейная жизнь в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/family-in-pyhajoki;6957;Perhe Pyhäjoella (ru)
+27411248-b191-49ad-b018-21148f6d5190;ru;Семейная жизнь в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/family-in-pyhajoki;8518;Perhe Pyhäjoella (ru)
 27411248-b191-49ad-b018-21148f6d5190;fr;La famille à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/la-famille-a-pyhajoki;6958;Perhe Pyhäjoella (fr)
-997ae13a-dfe7-403d-b294-1ba23f56e32f;ru;Сложные жизненные ситуации в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/problem-situations-in-pyhajoki;6960;Ongelmatilanteet Pyhäjoella (ru)
+997ae13a-dfe7-403d-b294-1ba23f56e32f;ru;Сложные жизненные ситуации в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/problem-situations-in-pyhajoki;8520;Ongelmatilanteet Pyhäjoella (ru)
 997ae13a-dfe7-403d-b294-1ba23f56e32f;fr;Les situations problématiques à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/les-situations-problematiques-a-pyhajoki;6961;Ongelmatilanteet Pyhäjoella (fr)
-64f0496c-179f-47f0-be68-2260528f0d3b;ru;Свободное время в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/leisure-in-pyhajoki;6963;Vapaa-aika Pyhäjoella (ru)
+64f0496c-179f-47f0-be68-2260528f0d3b;ru;Свободное время в Пюхяйоки;;ru/pyhajoki/life-in-pyhajoki/leisure-in-pyhajoki;8522;Vapaa-aika Pyhäjoella (ru)
 64f0496c-179f-47f0-be68-2260528f0d3b;fr;Les loisirs à Pyhäjoki;;fr/pyhajoki/la-vie-a-pyhajoki/les-loisirs-a-pyhajoki;6964;Vapaa-aika Pyhäjoella (fr)
-e745aa09-cef1-4b20-aaf8-b10a925b1d83;ru;Информация о Пюхяйоки;;ru/pyhajoki/information-about-pyhajoki;6966;Tietoa Pyhäjoesta (ru)
+e745aa09-cef1-4b20-aaf8-b10a925b1d83;ru;Информация о Пюхяйоки;;ru/pyhajoki/information-about-pyhajoki;8524;Tietoa Pyhäjoesta (ru)
 e745aa09-cef1-4b20-aaf8-b10a925b1d83;fr;Informations sur Pyhäjoki;;fr/pyhajoki/informations-sur-pyhajoki;6967;Tietoa Pyhäjoesta (fr)
 0d41ff28-79cb-4b1b-a072-7779ccfb3b70;sv;Kalajoki och Merijärvi;;sv/kalajoki-och-merijarvi;;
 0d41ff28-79cb-4b1b-a072-7779ccfb3b70;ru;Калайоки и Мериярви;;ru/kalajoki-and-merijarvi;;
@@ -2835,16 +2814,54 @@ cbd02ef1-cc5f-42d7-a2a0-d81b3835b8a0;tr;Iisalmi;;tr/iisalmi;;
 cbd02ef1-cc5f-42d7-a2a0-d81b3835b8a0;zh;Iisalmi;;zh/iisalmi;;
 cbd02ef1-cc5f-42d7-a2a0-d81b3835b8a0;fa;Iisalmi;;fa/iisalmi;;
 cbd02ef1-cc5f-42d7-a2a0-d81b3835b8a0;ar;Iisalmi;;ar/iisalmi;;
+ffeaa352-17c1-4f07-a24c-7916d72fcc81;ru;Переезд в Ийсалми;;ru/iisalmi/moving-to-iisalmi;8357;Muutto Iisalmeen (ru)
+ffeaa352-17c1-4f07-a24c-7916d72fcc81;et;Elama asumine Iisalmisse;;et/iisalmi/elama-asumine-iisalmisse;8358;Muutto Iisalmeen (et)
+ffeaa352-17c1-4f07-a24c-7916d72fcc81;ar;‎الانتقال إلى إيسالمي;;ar/iisalmi/moving-to-iisalmi;8359;Muutto Iisalmeen (ar)
+bc51f8a7-6da6-4e1b-9df0-88bcf2bb3a26;ru;Жизнь в Ийсалми;;ru/iisalmi/living-in-iisalmi;;
+bc51f8a7-6da6-4e1b-9df0-88bcf2bb3a26;et;Elu Iisalmis;;et/iisalmi/elu-iisalmis;;
+bc51f8a7-6da6-4e1b-9df0-88bcf2bb3a26;ar;الحياة في إيسالمي;;ru/iisalmi/living-in-iisalmi;;
+538d8cfd-5702-4afa-8943-b7e666ad8718;ru;Обустройство в Ийсалми;;ru/iisalmi/living-in-iisalmi/settling-in-iisalmi;8345;Asettuminen Iisalmeen (ru)
+538d8cfd-5702-4afa-8943-b7e666ad8718;et;Elu sisseseadmine Iisalmis;;et/iisalmi/elu-iisalmis/elu-sisseseadmine-iisalmis;8346;Asettuminen Iisalmeen (et)
+538d8cfd-5702-4afa-8943-b7e666ad8718;ar;التأقلم في إيسالمي;;ar/iisalmi/living-in-iisalmi/settling-in-iisalmi;8347;Asettuminen Iisalmeen (ar)
+f35458b4-376b-4f76-8e0b-e4fae50097f9;ru;Работа и предпринимательство в Ийсалми;;ru/iisalmi/living-in-iisalmi/work-and-enterprise-in-iisalmi;8381;Työ ja yrittäjyys Iisalmessa (ru)
+f35458b4-376b-4f76-8e0b-e4fae50097f9;et;Töö ja ettevõtlus Iisalmis;;et/iisalmi/elu-iisalmis/too-ja-ettevotlus-iisalmis;8382;Työ ja yrittäjyys Iisalmessa (et)
+f35458b4-376b-4f76-8e0b-e4fae50097f9;ar;العمل وممارسة العمل الحر في إيسالمي;;ar/iisalmi/living-in-iisalmi/work-and-enterprise-in-iisalmi;8383;Työ ja yrittäjyys Iisalmessa (ar)
+5a74dad9-05e4-499f-b82b-30cdd4627f3f;ru;Финский и шведский язык в Ийсалми;;ru/iisalmi/living-in-iisalmi/finnish-and-swedish-in-iisalmi;8369;Suomen ja ruotsin kieli Iisalmessa (ru)
+5a74dad9-05e4-499f-b82b-30cdd4627f3f;et;Soome ja rootsi keel Iisalmis;;et/iisalmi/elu-iisalmis/soome-ja-rootsi-keel-iisalmis;8370;Suomen ja ruotsin kieli Iisalmessa (et)
+5a74dad9-05e4-499f-b82b-30cdd4627f3f;ar;اللغة الفنلندية والسويدية في إيسالمي;;ar/iisalmi/living-in-iisalmi/finnish-and-swedish-in-iisalmi;8371;Suomen ja ruotsin kieli Iisalmessa (ar)
+8bc35b47-d615-4fe9-b5ba-ab04bea92ded;ru;Жильё в Ийсалми;;ru/iisalmi/living-in-iisalmi/housing-in-iisalmi;8349;Asuminen Iisalmessa (ru)
+8bc35b47-d615-4fe9-b5ba-ab04bea92ded;et;Eluase ja elamine Iisalmis;;et/iisalmi/elu-iisalmis/eluase-ja-elamine-iisalmis;8350;Asuminen Iisalmessa (et)
+8bc35b47-d615-4fe9-b5ba-ab04bea92ded;ar;السكن في إيسالمي;;ar/iisalmi/living-in-iisalmi/housing-in-iisalmi;8351;Asuminen Iisalmessa (ar)
+bad71bd1-5d02-4997-b9db-db7455e21c56;ru;Образование в Ийсалми;;ru/iisalmi/living-in-iisalmi/education-in-iisalmi;8353;Koulutus Iisalmessa (ru)
+bad71bd1-5d02-4997-b9db-db7455e21c56;et;Haridus Iisalmis;;et/iisalmi/elu-iisalmis/haridus-iisalmis;8354;Koulutus Iisalmessa (et)
+bad71bd1-5d02-4997-b9db-db7455e21c56;ar;التعليم في إيسالمي;;ar/iisalmi/living-in-iisalmi/education-in-iisalmi;8355;Koulutus Iisalmessa (ar)
+ad9100d9-56f1-4607-b62c-f6fd11764eb5;ru;Здравоохранение в Ийсалми;;ru/iisalmi/living-in-iisalmi/health-in-iisalmi;8373;Terveys Iisalmessa (ru)
+ad9100d9-56f1-4607-b62c-f6fd11764eb5;et;Tervis Iisalmis;;et/iisalmi/elu-iisalmis/tervis-iisalmis;8374;Terveys Iisalmessa (et)
+ad9100d9-56f1-4607-b62c-f6fd11764eb5;ar;الصحة في إيسالمي;;ar/iisalmi/living-in-iisalmi/health-in-iisalmi;8375;Terveys Iisalmessa (ar)
+22a0fd81-606d-4fb7-9ac6-186a64bcd432;ru;Семья в Ийсалми;;ru/iisalmi/living-in-iisalmi/family-in-iisalmi;8365;Perhe Iisalmessa (ru)
+22a0fd81-606d-4fb7-9ac6-186a64bcd432;et;Pere Iisalmis;;et/iisalmi/elu-iisalmis/pere-iisalmis;8366;Perhe Iisalmessa (et)
+22a0fd81-606d-4fb7-9ac6-186a64bcd432;ar;العائلة في إيسالمي;;ar/iisalmi/living-in-iisalmi/family-in-iisalmi;8367;Perhe Iisalmessa (ar)
+64325cb3-3f94-4cf5-b436-c94dd1279edf;ru;Проблемные ситуации в Ийсалми;;ru/iisalmi/living-in-iisalmi/problem-situations-in-iisalmi;8361;Ongelmatilanteet Iisalmessa (ru)
+64325cb3-3f94-4cf5-b436-c94dd1279edf;et;Probleemsed olukorrad Iisalmis;;et/iisalmi/elu-iisalmis/probleemsed-olukorrad-iisalmis;8362;Ongelmatilanteet Iisalmessa (et)
+64325cb3-3f94-4cf5-b436-c94dd1279edf;ar;حالات المشاكل في إيسالمي;;ar/iisalmi/living-in-iisalmi/problem-situations-in-iisalmi;8363;Ongelmatilanteet Iisalmessa (ar)
+b0857cf9-25ba-4bfd-b1a4-d02e37723db5;ru;Свободное время в Ийсалми;;ru/iisalmi/living-in-iisalmi/leisure-in-iisalmi;8385;Vapaa-aika Iisalmessa (ru)
+b0857cf9-25ba-4bfd-b1a4-d02e37723db5;et;Vaba aeg Iisalmis;;et/iisalmi/elu-iisalmis/vaba-aeg-iisalmis;8386;Vapaa-aika Iisalmessa (et)
+b0857cf9-25ba-4bfd-b1a4-d02e37723db5;ar;وقت الفراغ في إيسالمي;;ar/iisalmi/living-in-iisalmi/leisure-in-iisalmi;8387;Vapaa-aika Iisalmessa (ar)
+f4ba4c12-4a3b-44ce-91df-c60fa92af171;ru;Информация о городе Ийсалми;;ru/iisalmi/information-about-iisalmi;8377;Tietoa Iisalmesta (ru)
+f4ba4c12-4a3b-44ce-91df-c60fa92af171;et;Teavet Iisalmi kohta;;et/iisalmi/teavet-iisalmi-kohta;8378;Tietoa Iisalmesta (et)
+f4ba4c12-4a3b-44ce-91df-c60fa92af171;ar;معلومات عن إيسالمي;;ar/iisalmi/information-about-iisalmi;8379;Tietoa Iisalmesta (ar)
 7c5ce387-2692-4b79-bb4b-564a34a7b766;sv;Kajana;;sv/kajana;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;ru;Каяани;;ru/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;et;Kajaani;;et/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;fr;Kajaani;;fr/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;so;Kajaani;;so/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;es;Kajaani;;es/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;tr;Kajaani;;tr/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;zh;Kajaani;;zh/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;fa;Kajaani;;fa/kajaani;;
-7c5ce387-2692-4b79-bb4b-564a34a7b766;ar;Kajaani;;ar/kajaani;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;ru;Каяани;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;et;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;fr;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;so;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;es;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;tr;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;zh;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;fa;Kajaani;;;;
+7c5ce387-2692-4b79-bb4b-564a34a7b766;ar;Kajaani;;;;
+82e2794c-5848-4c62-b73b-8cb9b9e31441;ru;Жизнь в Каяани;;;;
+82e2794c-5848-4c62-b73b-8cb9b9e31441;ar;الحياة في كآياني;;;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;sv;Uleåborg;;sv/uleaborg;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;ru;Оулу;;ru/oulu;;
 c244f8d7-c2ae-4666-89e1-9e60fb8415ab;et;Oulu;;et/oulu;;
@@ -3063,32 +3080,6 @@ a14f59d3-7d52-43de-9cfd-682f307d545a;fa;پرسش نامه بازدیدکنندگ
 a14f59d3-7d52-43de-9cfd-682f307d545a;ar;استبيان زيارة;;ar/user-survey;6696;Kävijäkysely 101 (ar)
 a14f59d3-7d52-43de-9cfd-682f307d545a;fr;Enquête pour les visiteurs;;fr/enquete-pour-les-visiteurs;6697;Kävijäkysely 101 (fr)
 a14f59d3-7d52-43de-9cfd-682f307d545a;tr;Ziyatetçi Anketi;;tr/ziyatetci-anketi;6698;Kävijäkysely 101 (tr)
-9791b5c5-272a-4c5c-bf03-841ecb46783a;sv;Valikoiden ulkopuoliset sivut_sv;;;;
-9791b5c5-272a-4c5c-bf03-841ecb46783a;ru;Erikoistoiminnallisuudet_ru;;;;
-34e1223b-abe0-4f1c-9c22-ea044369f05f;sv;Css-tyylitiedosto selaimia varten_sv;;;;
-34e1223b-abe0-4f1c-9c22-ea044369f05f;ru;Css-tyylitiedosto selaimia varten_ru;;;;
-c438a8b7-0576-4bed-b9ac-4baa90876adf;sv;Css-tyylitiedosto tulostusta varten_sv;;;;
-c438a8b7-0576-4bed-b9ac-4baa90876adf;ru;Css-tyylitiedosto selaimia varten_ru;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;sv;Sökning;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;ru;Поиск;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;ar;بحث;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;fa;جستجو;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;zh;搜索;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;tr;Ara;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;es;Búsqueda;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;so;Raadin;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;fr;Recherche;;;;
-c1a9a53e-c318-4596-9d45-2471c542533b;et;Otsing;;;;
-871697ac-6ee5-4136-8a19-39e26574e366;ru;404 Страница не найдена;;;5911;404 Страница не найдена
-871697ac-6ee5-4136-8a19-39e26574e366;sv;404 Sidan kunde inte hittas;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;et;404 Lehekülge ei leitud;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;fr;404 La page est introuvable;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;es;404 Página no localizada;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;tr;404 Sayfa bulunamadı;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;so;404 Bogga lama helin;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;zh;404 无法找到该页;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;fa;404 صفحه مورد نظر یافت نشد;;;20;404 Sivua ei löydy
-871697ac-6ee5-4136-8a19-39e26574e366;ar;404 لم يتم العثور على الصفحة;;;20;404 Sivua ei löydy
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;ru;Отзыв;;ru/palaute;7044;palautesivun sisältö (ru)
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;sv;Respons;;sv/palaute;7047;palautesivun sisältö (sv)
 d10264b6-72d4-48a5-aafc-733b1d1dba8d;et;Tagasiside;;et/palaute;7042;palautesivun sisältö (et)
@@ -3109,16 +3100,6 @@ d10264b6-72d4-48a5-aafc-733b1d1dba8d;es;Comentario;;es/palaute;7041;palautesivun
 5d999349-63b0-4f01-b160-1d80a6ea0595;tr;Geridönüm için teşekkürler;;tr/kiitos-palautteesta;7061;kiitos palautteesta (tr)
 5d999349-63b0-4f01-b160-1d80a6ea0595;es;Gracias por su comentario;;es/kiitos-palautteesta;7060;kiitos palautteesta (es)
 5d999349-63b0-4f01-b160-1d80a6ea0595;so;Waad ku mahadsan tahay warcelinta;;so/kiitos-palautteesta;7059;kiitos palautteesta (so)
-7c278b6b-6983-47ef-ab43-202df47d2b55;ru;Информация на выбранном вами языке отсутствует. Попробуйте другой язык;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;sv;Detta innehåll finns inte på det språk som du har valt. Välj något annat språk.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;et;Sisu ei ole valitud keeles kättesaadav. Palun vali mõni teine keel.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;fr;Le contenu n'est pas disponible dans la langue sélectionnée. Veuillez sélectionner une autre langue.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;so;Waxyaabaha halkan ku jira laguma helayo luqada aad xulatay. Xulo luqad kale.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;es;El contenido no está disponible en el idioma elegido. Por favor seleccione otro idioma.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;ar;المحتوى غير متوفر باللغة التي إخترتها. إختر لغة أخرى.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;fa;این مطلب به زبان انتخابی شما موجود نمی باشد .زبان دیگری را انتخاب کنید.;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;zh;您所选的语言没有该内容的记录。请选择其他语言。;;;;
-7c278b6b-6983-47ef-ab43-202df47d2b55;tr;Seçmiş olduğunuz dilde bir içerik mevcut değildir. Lütfen, başka bir dil seçiniz.;;;;
 17c49750-702c-4667-b6aa-db504901d471;ru;Краткий справочник для переезжающего в Финляндию;;ru/moving-to-finland/i-am-;;
 17c49750-702c-4667-b6aa-db504901d471;sv;Snabbguider för personer som flyttar till Finland;;sv/flytta-till-finland/jag-ar-;;
 17c49750-702c-4667-b6aa-db504901d471;et;Kiirjuhend Soome elama asujale;;et/soome-elama-asumine/olen-;;

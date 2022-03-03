@@ -1,0 +1,97 @@
+uuid: 5bb97def-0c29-41c1-8ca7-b2cfedfc9063
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_municipality_liftup_item
+    - paragraphs.paragraphs_type.municipality_liftup
+    - paragraphs.paragraphs_type.municipality_liftup_item
+  module:
+    - entity_reference_revisions
+id: paragraph.municipality_liftup.field_municipality_liftup_item
+field_name: field_municipality_liftup_item
+entity_type: paragraph
+bundle: municipality_liftup
+label: Kuntasivu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      municipality_liftup_item: municipality_liftup_item
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 24
+        enabled: false
+      accordion_item:
+        weight: 25
+        enabled: false
+      banner:
+        weight: 26
+        enabled: false
+      columns:
+        weight: 27
+        enabled: false
+      content_cards:
+        weight: 28
+        enabled: false
+      external_video:
+        weight: 29
+        enabled: false
+      gallery:
+        weight: 30
+        enabled: false
+      gallery_slide:
+        weight: 31
+        enabled: false
+      heading:
+        weight: 32
+        enabled: false
+      helsinki_kanava:
+        weight: 33
+        enabled: false
+      hero:
+        weight: 34
+        enabled: false
+      image:
+        weight: 35
+        enabled: false
+      language_link:
+        weight: 36
+        enabled: false
+      language_link_collection:
+        weight: 37
+        enabled: false
+      liftup_with_image:
+        weight: 38
+        enabled: false
+      list_of_links:
+        weight: 39
+        enabled: false
+      list_of_links_item:
+        weight: 40
+        enabled: false
+      municipality_info:
+        weight: 41
+        enabled: false
+      municipality_liftup:
+        weight: 42
+        enabled: false
+      municipality_liftup_item:
+        weight: 43
+        enabled: true
+      ptv_contact:
+        weight: 44
+        enabled: false
+      remote_video:
+        weight: 45
+        enabled: false
+      text:
+        weight: 46
+        enabled: false
+field_type: entity_reference_revisions

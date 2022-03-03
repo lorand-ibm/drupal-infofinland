@@ -10,7 +10,7 @@ field_name: field_description
 entity_type: node
 bundle: page
 label: Ingressi
-description: ''
+description: 'Sivulla näkyä Ingressi. Tämä käytetään myös meta descriptionina ellei sitä ole erikseen kirjoitettu.'
 required: false
 translatable: true
 default_value: {  }

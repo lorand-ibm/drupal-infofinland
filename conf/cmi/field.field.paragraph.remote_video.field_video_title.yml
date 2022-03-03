@@ -1,0 +1,19 @@
+uuid: 01bc7f19-b564-4617-a1f2-20dc2a1aaefc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video_title
+    - paragraphs.paragraphs_type.remote_video
+id: paragraph.remote_video.field_video_title
+field_name: field_video_title
+entity_type: paragraph
+bundle: remote_video
+label: 'Videon otsikko'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

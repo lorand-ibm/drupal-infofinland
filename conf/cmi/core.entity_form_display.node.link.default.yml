@@ -9,10 +9,12 @@ dependencies:
     - field.field.node.link.field_municipality
     - node.type.link
   module:
+    - entity_browser_entity_form
     - hdbt_admin_editorial
     - inline_entity_form
     - path
     - scheduler
+    - select2
 id: node.link.default
 targetEntityType: node
 bundle: link
@@ -25,48 +27,50 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_link_description:
+    type: string_textfield
     weight: 12
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_link_target_site:
+    type: string_textfield
     weight: 13
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_links:
     type: inline_entity_form_complex
     weight: 15
+    region: content
     settings:
       form_mode: default
+      override_labels: false
       label_singular: ''
       label_plural: ''
       allow_new: true
-      allow_existing: true
+      allow_existing: false
       match_operator: CONTAINS
-      revision: false
-      override_labels: false
+      allow_duplicate: false
       collapsible: false
       collapsed: false
-      allow_duplicate: false
-    third_party_settings: {  }
-    region: content
+      revision: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
   field_municipality:
+    type: select2_entity_reference
     weight: 14
+    region: content
     settings:
+      width: 100%
+      autocomplete: false
       match_operator: CONTAINS
       match_limit: 10
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
   langcode:
     type: language_select
     weight: 1
@@ -82,10 +86,10 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 5
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
@@ -95,17 +99,17 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 11
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 6
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -123,12 +127,12 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 2
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default

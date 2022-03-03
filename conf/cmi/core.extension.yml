@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
@@ -6,6 +8,7 @@ module:
   block: 0
   breakpoint: 0
   ckeditor: 0
+  ckeditor_bidi: 0
   color_field: 0
   config: 0
   config_filter: 0
@@ -25,6 +28,8 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity: 0
+  entity_browser: 0
+  entity_browser_entity_form: 0
   entity_reference_revisions: 0
   entity_usage: 0
   features: 0
@@ -47,15 +52,19 @@ module:
   infofinland_common: 0
   infofinland_migrate: 0
   infofinland_municipality_selection: 0
+  infofinland_permissions: 0
   jsonapi: 0
   jsonapi_extras: 0
   jsonapi_menu_items: 0
   jsonapi_resources: 0
   language: 0
+  legal: 0
   link: 0
   linkit: 0
   locale: 0
+  mailsystem: 0
   media: 0
+  media_entity_browser: 0
   media_entity_soundcloud: 0
   media_library: 0
   menu_block_current_language: 0
@@ -75,6 +84,7 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  paragraphs_type_permissions: 0
   path: 0
   path_alias: 0
   purge: 0
@@ -83,14 +93,17 @@ module:
   purge_queuer_coretags: 0
   purge_tokens: 0
   purge_ui: 0
+  readonly_field_widget: 0
   redirect: 0
   responsive_image: 0
+  role_delegation: 0
   scheduler: 0
   select2: 0
   select2_icon: 0
   serialization: 0
   simple_oauth: 0
   simple_sitemap: 0
+  smtp: 0
   social_media: 0
   subrequests: 0
   system: 0
@@ -110,7 +123,9 @@ module:
   inline_entity_form: 1
   paragraphs_asymmetric_translation_widgets: 1
   pathauto: 1
+  structure_sync: 1
   content_translation: 10
+  password_policy: 10
   views: 10
   paragraphs: 11
   minimal: 1000
@@ -123,5 +138,3 @@ theme:
   hdbt_admin: 0
   infofinland: 0
 profile: minimal
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
