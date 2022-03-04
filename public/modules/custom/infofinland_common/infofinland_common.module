@@ -340,25 +340,32 @@ function infofinland_common_node_presave(Node $entity) {
   }
   switch ($entity->bundle()) {
     case 'page':
-      $nodeOld = Node::load($entity->id());
-      $contentOld= $nodeOld->getTranslation($entity->langcode->value)->get('field_content')->getValue();
+      //$nodeOld = Node::load($entity->id());
+      // $contentOld = $nodeOld->getTranslation($entity->langcode->value)->get('field_content')->getValue();
+
+      $contentOriginal = $entity->original->get('field_content')->getValue();
       $contentNew = $entity->get('field_content')->getValue();
-      if (count($contentOld) >= count($contentNew)) {
+
+      if (count($contentOriginal) >= count($contentNew)) {
         break;
       }
+
       $oldIds = [];
-      foreach ($contentOld as $row) {
+      foreach ($contentOriginal as $row) {
         $oldIds[] = $row['target_id'];
       }
+
       $added = [];
       foreach ($contentNew as $key => $row) {
         if (!in_array($row['target_id'], $oldIds)) {
           $added[] = ['target' => $row['target_id'], 'delta' => $key, 'revision' => $row['target_revision_id']];
         }
       }
+
       if (empty($added)) {
         break;
       }
+
       $allLanguages = $entity->getTranslationLanguages();
       $node = Node::load($entity->id());
       foreach ($allLanguages as $language) {
