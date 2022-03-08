@@ -1,26 +1,18 @@
 display:
   default:
+    display_title: Oletus
     display_options:
       fields:
-        langcode:
-          label: Kieli
-          separator: ', '
         title:
           label: Otsikko
         type:
           label: Sisältötyyppi
         name:
           label: Tekijä
-        status:
-          label: Tila
-          settings:
-            format_custom_false: Julkaisematon
-            format_custom_true: Julkaistu
         changed:
           label: Päivitetty
         operations:
           label: Toimenpiteet
-      title: Sisältö
       pager:
         options:
           tags:
@@ -28,6 +20,9 @@ display:
             previous: '‹ Edellinen'
             first: '« Ensimmäinen'
             last: 'Last »'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
       exposed_form:
         options:
           submit_button: Suodatus
@@ -35,9 +30,6 @@ display:
           exposed_sorts_label: Lajittele
           sort_asc_label: Asc
           sort_desc_label: Desc
-      empty:
-        area_text_custom:
-          content: 'Ei sisältöä.'
       filters:
         title:
           expose:
@@ -45,27 +37,6 @@ display:
         type:
           expose:
             label: Sisältötyyppi
-        status:
-          expose:
-            label: Tila
-          group_info:
-            label: Julkaisutila
-            group_items:
-              1:
-                title: Julkaistu
-              2:
-                title: Julkaisematon
         langcode:
           expose:
             label: Kieli
-    display_title: Oletus
-  page_1:
-    display_title: Sivu
-    display_options:
-      menu:
-        title: Sisältö
-      tab_options:
-        title: Sisältö
-        description: 'Etsi ja hallitse sisältöä'
-label: Sisältö
-description: 'Etsi ja ylläpidä sisältöä.'

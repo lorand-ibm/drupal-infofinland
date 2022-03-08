@@ -39,6 +39,8 @@ content:
     weight: 0
     region: content
 hidden:
+  breadcrumbs: true
+  content_moderation_control: true
   field_content: true
   field_description: true
   field_hero: true

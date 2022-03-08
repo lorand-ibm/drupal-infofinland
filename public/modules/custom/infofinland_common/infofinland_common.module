@@ -312,11 +312,6 @@ function infofinland_common_page_attachments(array &$attachments) {
  * Fill link node field_municipality dynamically for municipality user.
  */
 function infofinland_common_node_presave(Node $entity) {
-  if ($entity->getType() === 'page') {
-    $theme_menu = $entity->get('field_theme_menu')->getString();
-    $entity->set('field_theme_menu_machine_name', $theme_menu);
-  }
-
   if ($entity->getType() === 'link') {
     $current_user = \Drupal::currentUser();
     $roles = $current_user->getRoles();
@@ -330,6 +325,68 @@ function infofinland_common_node_presave(Node $entity) {
         $entity->set('field_municipality', $multi_value);
       }
     }
+  }
+
+  if ($entity->getType() === 'page') {
+    $theme_menu = $entity->get('field_theme_menu')->getString();
+    $entity->set('field_theme_menu_machine_name', $theme_menu);
+
+    // TODO: uncomment this when we are ready to use it.
+    //add_paragraphs_to_node_translations($entity);
+  }
+}
+
+/**
+ * Custom function for adding paragraphs from finnish page node to translations.
+ */
+function add_paragraphs_to_node_translations(Node $entity) {
+  if ($entity->langcode->value !== 'fi' || is_null($entity->id())) {
+    return;
+  }
+
+  $field_content_original = $entity->original->get('field_content')->getValue();
+  $field_content_new = $entity->get('field_content')->getValue();
+
+  $old_ids = [];
+  foreach ($field_content_original as $row) {
+    $old_ids[] = $row['target_id'];
+  }
+
+  $added_paragraphs = [];
+  foreach ($field_content_new as $key => $row) {
+    if (!in_array($row['target_id'], $old_ids)) {
+      $added_paragraphs[] = ['target' => $row['target_id'], 'delta' => $key, 'revision' => $row['target_revision_id']];
+    }
+  }
+
+  if (empty($added_paragraphs)) {
+    return;
+  }
+
+  $translation_languages = $entity->getTranslationLanguages();
+
+  foreach ($translation_languages as $language) {
+    if ($language->getId() == 'fi') {
+      continue;
+    }
+
+    $node_translation = $entity->getTranslation($language->getId());
+    $translated_content = $node_translation->get('field_content')->getValue();
+
+    // Merge added finnish paragraphs to translation.
+    foreach ($added_paragraphs as $paragraph) {
+      $array = ['target_id' => $paragraph['target'], 'target_revision_id' =>  $paragraph['revision']];
+      $field_content_merged = array_merge(array_slice($translated_content, 0, $paragraph['delta']), [$array], array_slice($translated_content, $paragraph['delta']));
+    }
+
+    if (!isset($field_content_merged)) {
+      continue;
+    }
+
+    $node_translation->setNewRevision(TRUE);
+    $node_translation->revision_log = 'New content added for finnish page and copied to translations';
+    $node_translation->field_content = $field_content_merged;
+    $node_translation->set('moderation_state', 'draft');
   }
 }
 
@@ -404,5 +461,31 @@ function infofinland_common_ckeditor_css_alter(array &$css, Editor $editor) {
 
   if (in_array($editor->getFilterFormat()->id(), $known_formats)) {
     $css[] = drupal_get_path('module', 'infofinland_common') . '/css/infofinland_admin_ckeditor.css';
+  }
+}
+
+/**
+ * Implements hook_library_info_alter().
+ *
+ * Fix media entity browser styles.
+ *
+ */
+function infofinland_common_library_info_alter(&$libraries, $extension) {
+  if ($extension == 'media_entity_browser' && isset($libraries['view'])) {
+    unset($libraries['view']['css']);
+  }
+}
+
+/**
+ * Implements hook_entity_type_alter().
+ *
+ * Temp fix for this issue: https://www.drupal.org/project/drupal/issues/2955321
+ *
+ */
+function infofinland_common_entity_type_alter(array &$entity_types) {
+  foreach ($entity_types as $entity_type) {
+    $constraints = $entity_type->getConstraints();
+    unset($constraints['EntityUntranslatableFields']);
+    $entity_type->setConstraints($constraints);
   }
 }
