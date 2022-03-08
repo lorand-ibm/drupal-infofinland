@@ -7,12 +7,9 @@
 
 declare(strict_types = 1);
 
-use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Entity\EntityForm;
-use Drupal\Core\Entity\RevisionLogInterface;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Entity\EntityStorageBase;
 use Drupal\infofinland_common\Plugin\ContentCombiner;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Entity\EntityInterface;
@@ -334,7 +331,8 @@ function infofinland_common_node_presave(Node $entity) {
     $theme_menu = $entity->get('field_theme_menu')->getString();
     $entity->set('field_theme_menu_machine_name', $theme_menu);
 
-    add_paragraphs_to_node_translations($entity);
+    // TODO: uncomment this when we are ready to use it.
+    //add_paragraphs_to_node_translations($entity);
   }
 }
 
@@ -386,12 +384,9 @@ function add_paragraphs_to_node_translations(Node $entity) {
     }
 
     $node_translation->setNewRevision(TRUE);
-    $node_translation->revision_log = 'New content added for finnish page';
+    $node_translation->revision_log = 'New content added for finnish page and copied to translations';
     $node_translation->field_content = $field_content_merged;
     $node_translation->set('moderation_state', 'draft');
-    // $node_translation->setRevisionCreationTime(REQUEST_TIME);
-    // $node_translation->setRevisionUserId($user_id);
-
   }
 }
 
