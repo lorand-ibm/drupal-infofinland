@@ -33,6 +33,12 @@ function infofinland_get_icons_path() {
 function infofinland_preprocess(&$variables) {
   $variables['infofinland_icons_path'] = infofinland_get_icons_path();
   $variables['#attached']['drupalSettings']['infofinlandIconsPath'] = $variables['infofinland_icons_path'];
+
+  // Add theme icons path to variables.
+  $infofinland_theme = \Drupal::service('theme_handler')->getTheme('infofinland');
+  if ($infofinland_theme) {
+    $variables['icons_path'] = '/' . $infofinland_theme->getPath() . '/logo.svg';
+  }
 }
 
 /**
