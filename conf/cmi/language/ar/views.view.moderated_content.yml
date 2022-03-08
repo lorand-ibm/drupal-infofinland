@@ -1,31 +1,28 @@
 display:
   default:
+    display_title: الافتراضي
     display_options:
       fields:
-        langcode:
-          label: اللغة
         title:
           label: العنوان
         type:
           label: 'نوع المحتوى'
         name:
           label: المؤلف
-        status:
-          label: الحالة
-          settings:
-            format_custom_false: 'غير منشور'
-            format_custom_true: منشور
         changed:
           label: التحديث
         operations:
           label: عمليات
-      title: المحتوى
       pager:
         options:
           tags:
             next: 'التالي ›'
             previous: '‹ السابق'
             first: '« Ensimmäinen'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
       exposed_form:
         options:
           submit_button: انتقاء
@@ -33,9 +30,6 @@ display:
           exposed_sorts_label: 'الترتيب حسب'
           sort_asc_label: تصاعدي
           sort_desc_label: تنازلي
-      empty:
-        area_text_custom:
-          content: 'لا يوجد محتوى.'
       filters:
         title:
           expose:
@@ -43,26 +37,6 @@ display:
         type:
           expose:
             label: 'نوع المحتوى'
-        status:
-          expose:
-            label: الحالة
-          group_info:
-            label: 'Published status'
-            group_items:
-              1:
-                title: منشور
-              2:
-                title: 'غير منشور'
         langcode:
           expose:
             label: اللغة
-    display_title: الافتراضي
-  page_1:
-    display_title: الصفحة
-    display_options:
-      menu:
-        title: المحتوى
-      tab_options:
-        title: المحتوى
-label: المحتوى
-description: 'إيجاد وإدارة المحتوى'

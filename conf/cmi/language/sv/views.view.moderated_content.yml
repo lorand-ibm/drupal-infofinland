@@ -1,26 +1,18 @@
 display:
   default:
+    display_title: Förvald
     display_options:
       fields:
-        langcode:
-          label: Språk
-          separator: ', '
         title:
           label: Titel
         type:
           label: Innehållstyp
         name:
           label: Författare
-        status:
-          label: Tila
-          settings:
-            format_custom_false: 'Ej publicerad'
-            format_custom_true: Publicerad
         changed:
           label: Uppdaterad
         operations:
           label: Funktioner
-      title: Innehåll
       pager:
         options:
           tags:
@@ -28,6 +20,10 @@ display:
             previous: '‹ Föregående'
             first: '« Första'
             last: 'Sista »'
+          expose:
+            items_per_page_label: 'Inlägg per sida'
+            items_per_page_options_all_label: '- Alla -'
+            offset_label: Kompensera
       exposed_form:
         options:
           submit_button: Filtrera
@@ -35,9 +31,6 @@ display:
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
           sort_desc_label: Fallande
-      empty:
-        area_text_custom:
-          content: 'No content available.'
       filters:
         title:
           expose:
@@ -45,27 +38,6 @@ display:
         type:
           expose:
             label: Innehållstyp
-        status:
-          expose:
-            label: Tila
-          group_info:
-            label: 'Status för publicering'
-            group_items:
-              1:
-                title: Publicerad
-              2:
-                title: 'Ej publicerad'
         langcode:
           expose:
             label: Språk
-    display_title: Förvald
-  page_1:
-    display_title: Sida
-    display_options:
-      menu:
-        title: Innehåll
-      tab_options:
-        title: Innehåll
-        description: 'Find and manage content'
-label: Innehåll
-description: 'Find and manage content.'

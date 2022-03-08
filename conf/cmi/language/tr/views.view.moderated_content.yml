@@ -1,26 +1,18 @@
 display:
   default:
+    display_title: Varsayılan
     display_options:
       fields:
-        langcode:
-          label: Dil
-          separator: ', '
         title:
           label: Başlık
         type:
           label: 'İçerik türü'
         name:
           label: Yazar
-        status:
-          label: Durum
-          settings:
-            format_custom_false: 'Yayında değil'
-            format_custom_true: Yayında
         changed:
           label: Güncellendi
         operations:
           label: İşlemler
-      title: İçerik
       pager:
         options:
           tags:
@@ -28,6 +20,10 @@ display:
             previous: '‹ Önceki'
             first: '« İlk'
             last: 'Son »'
+          expose:
+            items_per_page_label: 'Sayfa başına öğe sayısı'
+            items_per_page_options_all_label: '- Tümü -'
+            offset_label: 'Başlangıç değeri'
       exposed_form:
         options:
           submit_button: Süzgeç
@@ -35,9 +31,6 @@ display:
           exposed_sorts_label: 'Sıralama anahtarı'
           sort_asc_label: Artan
           sort_desc_label: Azalan
-      empty:
-        area_text_custom:
-          content: 'Hiçbir içerik mevcut değil.'
       filters:
         title:
           expose:
@@ -45,27 +38,6 @@ display:
         type:
           expose:
             label: 'İçerik türü'
-        status:
-          expose:
-            label: Durum
-          group_info:
-            label: 'Yayın durumu'
-            group_items:
-              1:
-                title: Yayında
-              2:
-                title: 'Yayında değil'
         langcode:
           expose:
             label: Dil
-    display_title: Varsayılan
-  page_1:
-    display_title: Sayfa
-    display_options:
-      menu:
-        title: İçerik
-      tab_options:
-        title: İçerik
-        description: 'İçeriği bulun ve yönetin'
-label: İçerik
-description: 'İçeriği bul ve yönet.'

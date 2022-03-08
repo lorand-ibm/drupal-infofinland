@@ -1,0 +1,18 @@
+uuid: f066152e-7bb9-4139-98b0-f366f3635902
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.municipality_liftup_item
+id: paragraph.municipality_liftup_item.created
+field_name: created
+entity_type: paragraph
+bundle: municipality_liftup_item
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

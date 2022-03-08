@@ -17,7 +17,9 @@ dependencies:
     - taxonomy.vocabulary.language
     - taxonomy.vocabulary.municipalitys
     - taxonomy.vocabulary.organisaatiot
+    - workflows.workflow.editorial
   module:
+    - content_moderation
     - content_translation
     - entity_browser
     - file
@@ -209,10 +211,15 @@ permissions:
   - 'update paragraph content ptv_contact'
   - 'update paragraph content remote_video'
   - 'update paragraph content text'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use editorial transition unpublish'
   - 'use text format simple_html'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view any unpublished content'
   - 'view landing_page revisions'
+  - 'view latest version'
   - 'view link revisions'
   - 'view message revisions'
   - 'view office_contact_info revisions'

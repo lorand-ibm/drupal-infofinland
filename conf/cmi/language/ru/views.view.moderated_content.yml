@@ -1,0 +1,43 @@
+display:
+  default:
+    display_title: 'По умолчанию'
+    display_options:
+      fields:
+        title:
+          label: Заголовок
+        type:
+          label: 'Тип материала'
+        name:
+          label: Автор
+        changed:
+          label: Обновлено
+        operations:
+          label: Операции
+      pager:
+        options:
+          tags:
+            next: 'Следующий ›'
+            previous: '‹ Предыдущий'
+            first: '« Первая'
+            last: 'Последняя »'
+          expose:
+            items_per_page_label: 'Элементов на страницу'
+            items_per_page_options_all_label: '- Все -'
+            offset_label: Пропустить
+      exposed_form:
+        options:
+          submit_button: Фильтр
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
+      filters:
+        title:
+          expose:
+            label: Заголовок
+        type:
+          expose:
+            label: 'Тип материала'
+        langcode:
+          expose:
+            label: Язык
