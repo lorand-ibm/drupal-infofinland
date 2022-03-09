@@ -1,0 +1,15 @@
+uuid: e0c2e681-74bb-4dfc-b278-1524783d493f
+langcode: en
+status: true
+dependencies:
+  module:
+    - elasticsearch_connector
+id: elastic
+name: Elastic
+description: ''
+backend: elasticsearch
+backend_config:
+  server_description: ''
+  cluster_settings:
+    cluster: infofinland
+  fuzziness: auto

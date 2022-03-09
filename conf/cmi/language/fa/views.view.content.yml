@@ -20,6 +20,12 @@ display:
         operations:
           label: کارکردها
       title: محتوا
+      pager:
+        options:
+          tags:
+            next: 'Seuraava ›'
+            previous: '‹ Edellinen'
+            first: '« Ensimmäinen'
       exposed_form:
         options:
           submit_button: فیلتر

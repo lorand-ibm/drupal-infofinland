@@ -1,0 +1,43 @@
+display:
+  default:
+    display_title: Vaikimisi
+    display_options:
+      fields:
+        title:
+          label: Pealkiri
+        type:
+          label: 'Sisu tüüp'
+        name:
+          label: Autor
+        changed:
+          label: Uuendatud
+        operations:
+          label: Toimingud
+      pager:
+        options:
+          tags:
+            next: 'Järgmine ›'
+            previous: '‹ Eelmine'
+            first: '« Esimene'
+            last: 'Viimane »'
+          expose:
+            items_per_page_label: 'Kirjeid lehel'
+            items_per_page_options_all_label: '- Kõik -'
+            offset_label: Nihe
+      exposed_form:
+        options:
+          submit_button: Filtreeri
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+          sort_asc_label: Kasvav
+          sort_desc_label: Kahanev
+      filters:
+        title:
+          expose:
+            label: Pealkiri
+        type:
+          expose:
+            label: 'Sisu tüüp'
+        langcode:
+          expose:
+            label: Keel

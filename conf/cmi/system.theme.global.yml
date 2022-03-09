@@ -2,15 +2,15 @@ _core:
   default_config_hash: KHk8rzK2GMRtdfoAeocFrll8Q7gGtiocl2GF5jnX9cY
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: themes/custom/infofinland/favicon.ico
   url: ''
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: false
 logo:
-  path: ''
+  path: themes/custom/infofinland/logo.svg
   url: ''
-  use_default: true
+  use_default: false

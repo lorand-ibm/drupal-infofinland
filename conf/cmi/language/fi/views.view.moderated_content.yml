@@ -1,0 +1,42 @@
+display:
+  default:
+    display_title: Oletus
+    display_options:
+      fields:
+        title:
+          label: Otsikko
+        type:
+          label: Sisältötyyppi
+        name:
+          label: Tekijä
+        changed:
+          label: Päivitetty
+        operations:
+          label: Toimenpiteet
+      pager:
+        options:
+          tags:
+            next: 'Seuraava ›'
+            previous: '‹ Edellinen'
+            first: '« Ensimmäinen'
+            last: 'Last »'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
+      exposed_form:
+        options:
+          submit_button: Suodatus
+          reset_button_label: Palauta
+          exposed_sorts_label: Lajittele
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      filters:
+        title:
+          expose:
+            label: Otsikko
+        type:
+          expose:
+            label: Sisältötyyppi
+        langcode:
+          expose:
+            label: Kieli

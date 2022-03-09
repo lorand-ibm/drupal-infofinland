@@ -1,0 +1,115 @@
+uuid: 285b654a-60e5-418c-9c75-aa9e1542b251
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - field.storage.node.field_content
+    - field.storage.paragraph.field_text
+    - search_api.server.elastic
+  module:
+    - paragraphs
+    - node
+    - search_api
+id: finnish
+name: Finnish
+description: ''
+read_only: false
+field_settings:
+  field_description:
+    label: Ingressi
+    datasource_id: 'entity:node'
+    property_path: field_description
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_description
+  field_text:
+    label: Text
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_text'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_text
+      module:
+        - paragraphs
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - page
+    languages:
+      default: false
+      selected:
+        - fi
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  entity_status: {  }
+  entity_type: {  }
+  html_filter:
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+    all_fields: false
+    fields:
+      - field_text
+      - title
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+  ignore_character:
+    weights:
+      preprocess_index: -10
+      preprocess_query: -10
+    all_fields: false
+    fields:
+      - field_description
+      - field_text
+      - title
+    ignorable: '[''¿¡!?,.:;]'
+    ignorable_classes:
+      - Pc
+      - Pd
+      - Pe
+      - Pf
+      - Pi
+      - Po
+      - Ps
+  language_with_fallback: {  }
+  rendered_item: {  }
+  stemmer:
+    weights:
+      preprocess_index: 0
+      preprocess_query: 0
+    all_fields: false
+    fields:
+      - field_description
+      - field_text
+    exceptions:
+      mexican: mexic
+      texan: texa
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  cron_limit: 50
+  index_directly: false
+  track_changes_in_references: true
+server: elastic

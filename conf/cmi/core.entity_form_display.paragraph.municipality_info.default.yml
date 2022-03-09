@@ -18,7 +18,7 @@ mode: default
 content:
   field_municipality_info_link:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -28,7 +28,7 @@ content:
     third_party_settings: {  }
   field_municipality_info_ptv:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 2
     region: content
     settings:
       match_operator: CONTAINS

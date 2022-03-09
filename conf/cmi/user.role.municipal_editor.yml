@@ -9,7 +9,9 @@ dependencies:
     - node.type.link
     - node.type.office_contact_info
     - node.type.page
+    - workflows.workflow.editorial
   module:
+    - content_moderation
     - content_translation
     - entity_browser
     - filter
@@ -85,6 +87,8 @@ permissions:
   - 'update paragraph content ptv_contact'
   - 'update paragraph content remote_video'
   - 'update paragraph content text'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
   - 'use text format simple_html'
   - 'view own unpublished content'
   - 'view own unpublished media'

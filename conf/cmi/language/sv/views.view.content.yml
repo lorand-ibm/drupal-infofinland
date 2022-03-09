@@ -9,11 +9,10 @@ display:
           label: Titel
         type:
           label: Innehållstyp
-          separator: ', '
         name:
           label: Författare
         status:
-          label: Status
+          label: Tila
           settings:
             format_custom_false: 'Ej publicerad'
             format_custom_true: Publicerad
@@ -48,7 +47,7 @@ display:
             label: Innehållstyp
         status:
           expose:
-            label: Status
+            label: Tila
           group_info:
             label: 'Status för publicering'
             group_items:

@@ -1,0 +1,42 @@
+display:
+  default:
+    display_title: الافتراضي
+    display_options:
+      fields:
+        title:
+          label: العنوان
+        type:
+          label: 'نوع المحتوى'
+        name:
+          label: المؤلف
+        changed:
+          label: التحديث
+        operations:
+          label: عمليات
+      pager:
+        options:
+          tags:
+            next: 'التالي ›'
+            previous: '‹ السابق'
+            first: '« Ensimmäinen'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- الكل -'
+            offset_label: الإزاحة
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      filters:
+        title:
+          expose:
+            label: العنوان
+        type:
+          expose:
+            label: 'نوع المحتوى'
+        langcode:
+          expose:
+            label: اللغة
