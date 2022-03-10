@@ -119,6 +119,7 @@ if ($env = getenv('APP_ENV')) {
   }
 }
 
+
 if ($blob_storage_name = getenv('AZURE_BLOB_STORAGE_NAME')) {
   $schemes = [
     'azure' => [
@@ -137,6 +138,16 @@ if ($blob_storage_name = getenv('AZURE_BLOB_STORAGE_NAME')) {
   $settings['flysystem'] = $schemes;
 }
 
+if (getenv('ELASTIC_URL')) {
+  $config['elasticsearch_connector.cluster.infofinland']['url'] = getenv('ELASTIC_URL');
+
+  if (getenv('ELASTIC_USER') && getenv('ELASTIC_PASSWORD')) {
+    $config['elasticsearch_connector.cluster.infofinland']['options']['use_authentication'] = '1';
+    $config['elasticsearch_connector.cluster.infofinland']['options']['authentication_type'] = 'Basic';
+    $config['elasticsearch_connector.cluster.infofinland']['options']['username'] = getenv('ELASTIC_USER');
+    $config['elasticsearch_connector.cluster.infofinland']['options']['password'] = getenv('ELASTIC_PASSWORD');
+  }
+}
 
 if ($varnish_host = getenv('DRUPAL_VARNISH_HOST')) {
   $config['varnish_purger.settings.default']['hostname'] = $varnish_host;
