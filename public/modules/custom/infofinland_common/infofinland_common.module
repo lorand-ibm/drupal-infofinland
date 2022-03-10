@@ -489,3 +489,16 @@ function infofinland_common_entity_type_alter(array &$entity_types) {
     $entity_type->setConstraints($constraints);
   }
 }
+
+/**
+ * Implements hook_elasticsearch_connector_load_library_options_alter().
+ */
+function infofinland_common_elasticsearch_connector_load_library_options_alter(&$options, &$context) {
+  /**
+   * Set cURL options to trust self-signed certificate.
+   *
+   * @fixme rather than disabling verification, should set CURLOPT_SSLCERT to correct value.
+   */
+    $options['curl'][CURLOPT_SSL_VERIFYPEER] = FALSE;
+    $options['curl'][CURLOPT_SSL_VERIFYHOST] = FALSE;
+}
