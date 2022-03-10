@@ -27,7 +27,7 @@ $databases['default']['default'] = [
   'collation' => 'utf8mb4_swedish_ci',
 ];
 
-$settings['hash_salt'] = getenv('DRUPAL_HASH_SALT') ?: '000';
+$settings['hash_salt'] = getenv('DRUPAL_HASH_SALT') ?: 'CHANGE-ME-IN-ENVIRONMENT-SETTINGS';
 
 if ($ssl_ca_path = getenv('AZURE_SQL_SSL_CA_PATH')) {
   $databases['default']['default']['pdo'] = [
