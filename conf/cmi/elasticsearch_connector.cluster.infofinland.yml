@@ -1,0 +1,19 @@
+uuid: 320d8f1b-6981-4794-b11a-11cf61c57960
+langcode: en
+status: '1'
+dependencies: {  }
+cluster_id: infofinland
+name: Infofinland
+url: 'http://192.168.1.100:9200'
+options:
+  multiple_nodes_connection: true
+  use_authentication: 1
+  authentication_type: Basic
+  username: 'elastic'
+  password: 'changeme'
+  timeout: '3'
+  rewrite:
+    rewrite_index: 1
+    index:
+      prefix: first
+      suffix: ''
