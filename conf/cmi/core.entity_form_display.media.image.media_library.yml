@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_form_mode.media.media_library
     - field.field.media.image.field_media_image
+    - field.field.media.image.field_municipality
     - field.field.media.image.field_photographer
     - image.style.media_library
     - media.type.image
@@ -50,6 +51,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_municipality: true
   langcode: true
   path: true
   status: true

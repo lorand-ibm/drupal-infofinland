@@ -1,0 +1,30 @@
+uuid: a7247452-76f2-4aa5-b8d8-31dd6f9e77de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_municipality
+    - media.type.image
+    - taxonomy.vocabulary.municipalitys
+id: media.image.field_municipality
+field_name: field_municipality
+entity_type: media
+bundle: image
+label: Municipality
+description: ''
+required: false
+translatable: false
+skip_translation_check: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      municipalitys: municipalitys
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

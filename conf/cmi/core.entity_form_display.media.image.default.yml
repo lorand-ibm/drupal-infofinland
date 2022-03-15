@@ -4,12 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
+    - field.field.media.image.field_municipality
     - field.field.media.image.field_photographer
     - image.style.media_library
     - media.type.image
   module:
     - focal_point
-    - path
+    - select2
 _core:
   default_config_hash: _j-Y1d8xzIrrkE3VLGHbEks1vFdg7kMl68UaYmxSGBo
 id: media.image.default
@@ -17,12 +18,6 @@ targetEntityType: media
 bundle: image
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_media_image:
     type: image_focal_point
     weight: 1
@@ -32,6 +27,16 @@ content:
       preview_image_style: media_library
       preview_link: true
       offsets: '50,50'
+    third_party_settings: {  }
+  field_municipality:
+    type: select2_entity_reference
+    weight: 6
+    region: content
+    settings:
+      width: 100%
+      autocomplete: false
+      match_operator: CONTAINS
+      match_limit: 10
     third_party_settings: {  }
   field_photographer:
     type: string_textfield
@@ -56,32 +61,19 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  path:
-    type: path
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 8
+    weight: 5
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   translation:
-    weight: 6
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 4
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  path: true
+  uid: true
