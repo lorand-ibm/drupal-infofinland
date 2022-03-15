@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
+    - field.field.media.image.field_municipality
     - field.field.media.image.field_photographer
     - image.style.large
     - media.type.image
@@ -27,8 +28,10 @@ content:
     region: content
 hidden:
   created: true
+  field_municipality: true
   field_photographer: true
   langcode: true
   name: true
+  search_api_excerpt: true
   thumbnail: true
   uid: true
