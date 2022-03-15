@@ -65,6 +65,7 @@ permissions:
   - 'administer Terms and Conditions'
   - 'administer account settings'
   - 'administer blocks'
+  - 'administer filters'
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'

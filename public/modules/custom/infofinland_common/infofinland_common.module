@@ -17,6 +17,7 @@ use Drupal\paragraphs\Entity\Paragraph;
 use Drupal\editor\Entity\Editor;
 use Drupal\node\Entity\Node;
 use Drupal\user\Entity\User;
+use Drupal\media\Entity\Media;
 
 
 /**
@@ -195,6 +196,25 @@ function _hide_form_fields(&$form) {
     $form['field_metatags']['#access'] = FALSE;
   }
 }
+
+/**
+ * Implements hook_form_alter().
+ *
+ * Media form alter.
+ */
+function infofinland_common_form_media_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'media_image_add_form' || $form_id === 'media_image_edit_form') {
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+
+    // Show municipality field only for certain roles.
+    if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+      $form['field_municipality']['#access'] = FALSE;
+      $form['revision_information']['#access'] = FALSE;
+    }
+  }
+}
+
 
 /**
  * Implements hook_form_alter().
@@ -412,6 +432,27 @@ function infofinland_common_paragraph_presave(Paragraph $entity) {
 
   $alias_url = \Drupal::service('path_alias.manager')->getAliasByPath('/node/'. $nid);
   $entity->set('field_municipality_page_url', $alias_url);
+}
+
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ *
+ * Add municipality from user to media.
+ */
+function infofinland_common_media_presave(Media $entity) {
+  if ($entity->bundle() !== 'image') {
+    return;
+  }
+
+  $current_user = \Drupal::currentUser();
+  $user = User::load($current_user->id());
+  $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
+
+  foreach ($user_municipalities as $user_municipality) {
+    $multi_value[] = ['target_id' => $user_municipality];
+    $entity->set('field_municipality', $multi_value);
+  }
 }
 
 /**
