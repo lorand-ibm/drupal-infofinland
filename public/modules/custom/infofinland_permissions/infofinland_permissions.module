@@ -138,6 +138,12 @@ function infofinland_permissions_views_pre_build(ViewExecutable $view) {
     if (in_array('infofinland_user', $roles) || in_array('admin', $roles)) {
       $args[] = 'all';
       $view->setArguments($args);
+    } else {
+      $args = [];
+
+      $user = User::load($current_user->id());
+      $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
+      $args[] = $user_municipalities;
     }
   }
 }
