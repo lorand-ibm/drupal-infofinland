@@ -5,7 +5,11 @@ dependencies:
   config:
     - field.storage.node.field_description
     - field.storage.node.field_content
+    - field.storage.paragraph.field_accordion_item_content
+    - field.storage.paragraph.field_columns_title
     - field.storage.paragraph.field_text
+    - field.storage.paragraph.field_accordion_item_heading
+    - field.storage.paragraph.field_title
     - search_api.server.elastic
   module:
     - paragraphs
@@ -16,6 +20,41 @@ name: Finnish
 description: ''
 read_only: false
 field_settings:
+  field_accordion_item_field_columns_title:
+    label: 'Accordion item field columns title'
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_accordion_item_content:entity:field_columns_title'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_accordion_item_content
+        - field.storage.paragraph.field_columns_title
+      module:
+        - paragraphs
+  field_accordion_item_field_text_processed:
+    label: 'Accordion item field text'
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_accordion_item_content:entity:field_text:processed'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_accordion_item_content
+        - field.storage.paragraph.field_text
+      module:
+        - paragraphs
+  field_accordion_item_heading:
+    label: 'Accordion item heading'
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_accordion_item_heading'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_accordion_item_heading
+      module:
+        - paragraphs
   field_description:
     label: Ingressi
     datasource_id: 'entity:node'
@@ -35,6 +74,17 @@ field_settings:
         - field.storage.paragraph.field_text
       module:
         - paragraphs
+  field_title:
+    label: Heading
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_title'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_title
+      module:
+        - paragraphs
   title:
     label: Title
     datasource_id: 'entity:node'
@@ -43,6 +93,12 @@ field_settings:
     dependencies:
       module:
         - node
+  url:
+    label: URI
+    property_path: search_api_url
+    type: string
+    configuration:
+      absolute: false
 datasource_settings:
   'entity:node':
     bundles:
