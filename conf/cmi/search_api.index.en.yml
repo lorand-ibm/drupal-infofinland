@@ -1,4 +1,4 @@
-uuid: 285b654a-60e5-418c-9c75-aa9e1542b251
+uuid: 5a427f4a-04bb-424f-9112-f80b1b314738
 langcode: en
 status: true
 dependencies:
@@ -6,17 +6,17 @@ dependencies:
     - field.storage.node.field_content
     - field.storage.paragraph.field_accordion_item_content
     - field.storage.paragraph.field_columns_title
-    - field.storage.paragraph.field_accordion_item_heading
-    - field.storage.paragraph.field_title
-    - field.storage.node.field_description
     - field.storage.paragraph.field_text
+    - field.storage.paragraph.field_accordion_item_heading
+    - field.storage.node.field_description
+    - field.storage.paragraph.field_title
     - search_api.server.elastic
   module:
     - paragraphs
     - node
     - search_api
-id: finnish
-name: Finnish
+id: en
+name: en
 description: ''
 read_only: false
 field_settings:
@@ -108,7 +108,7 @@ datasource_settings:
     languages:
       default: false
       selected:
-        - fi
+        - en
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
@@ -121,6 +121,7 @@ processor_settings:
     all_fields: false
     fields:
       - field_accordion_item_field_columns_title
+      - field_accordion_item_field_text
       - field_accordion_item_heading
       - field_description
       - field_text
@@ -130,10 +131,12 @@ processor_settings:
     alt: true
     tags:
       b: 2
+      em: 1
       h1: 5
       h2: 3
       h3: 2
       strong: 2
+      u: 1
   language_with_fallback: {  }
   rendered_item: {  }
   stemmer:
@@ -142,6 +145,7 @@ processor_settings:
       preprocess_query: 0
     all_fields: false
     fields:
+      - field_accordion_item_field_text
       - field_description
       - field_text
     exceptions:
