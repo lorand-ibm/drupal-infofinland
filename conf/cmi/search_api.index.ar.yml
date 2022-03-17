@@ -1,22 +1,22 @@
-uuid: e6ac602c-3a93-4c3a-8aff-c2e9164481dd
+uuid: 41088475-9db4-4be5-b924-c468f0c60bd3
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_content
-    - field.storage.paragraph.field_title
-    - field.storage.node.field_description
     - field.storage.paragraph.field_accordion_item_content
     - field.storage.paragraph.field_columns_title
     - field.storage.paragraph.field_text
     - field.storage.paragraph.field_accordion_item_heading
+    - field.storage.node.field_description
+    - field.storage.paragraph.field_title
     - search_api.server.elastic
   module:
     - paragraphs
     - node
     - search_api
-id: english
-name: English
+id: ar
+name: ar
 description: ''
 read_only: false
 field_settings:
@@ -108,7 +108,7 @@ datasource_settings:
     languages:
       default: false
       selected:
-        - en
+        - ar
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
@@ -120,6 +120,9 @@ processor_settings:
       preprocess_query: -15
     all_fields: false
     fields:
+      - field_accordion_item_field_columns_title
+      - field_accordion_item_field_text
+      - field_accordion_item_heading
       - field_description
       - field_text
       - field_title
@@ -142,6 +145,7 @@ processor_settings:
       preprocess_query: 0
     all_fields: false
     fields:
+      - field_accordion_item_field_text
       - field_description
       - field_text
     exceptions:
@@ -152,6 +156,6 @@ tracker_settings:
     indexing_order: fifo
 options:
   cron_limit: 50
-  index_directly: false
+  index_directly: true
   track_changes_in_references: true
 server: elastic
