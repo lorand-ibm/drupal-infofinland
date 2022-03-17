@@ -215,6 +215,16 @@ function infofinland_common_form_media_form_alter(&$form, FormStateInterface $fo
   }
 }
 
+function infofinland_common_inline_entity_form_entity_form_alter(&$form, &$form_state) {
+  $current_user = \Drupal::currentUser();
+  $roles = $current_user->getRoles();
+
+  // Show municipality field only for certain roles.
+  if (!in_array('infofinland_user', $roles) && !in_array('admin', $roles)) {
+    $form['field_municipality']['#access'] = FALSE;
+    $form['revision_information']['#access'] = FALSE;
+  }
+}
 
 /**
  * Implements hook_form_alter().
@@ -448,9 +458,11 @@ function infofinland_common_media_presave(Media $entity) {
   $current_user = \Drupal::currentUser();
   $user = User::load($current_user->id());
   $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
+  $municipalities = explode(', ', $entity->get('field_municipality')->getString());
+  $new_municipalities = array_unique(array_merge($municipalities, $user_municipalities));
 
-  foreach ($user_municipalities as $user_municipality) {
-    $multi_value[] = ['target_id' => $user_municipality];
+  foreach ($new_municipalities as $new_municipality) {
+    $multi_value[] = ['target_id' => $new_municipality];
     $entity->set('field_municipality', $multi_value);
   }
 }

@@ -133,17 +133,15 @@ function infofinland_permissions_views_pre_build(ViewExecutable $view) {
     }
   }
 
-  if ($view->id() === 'media_entity_browser') {
+  if ($view->id() === 'media_entity_browser' || $view->id() === 'media') {
     // Show all media for certain roles.
     if (in_array('infofinland_user', $roles) || in_array('admin', $roles)) {
       $args[] = 'all';
       $view->setArguments($args);
     } else {
-      $args = [];
-
       $user = User::load($current_user->id());
-      $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
-      $args[] = $user_municipalities;
+      $args[] = $user->get('field_municipality')->getString();
+      $view->setArguments($args);
     }
   }
 }
