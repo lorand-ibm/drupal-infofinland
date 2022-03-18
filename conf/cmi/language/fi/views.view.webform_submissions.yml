@@ -1,0 +1,57 @@
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Käytä
+          reset_button_label: Palauta
+          exposed_sorts_label: Lajittele
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« Ensimmäinen'
+            last: 'Last »'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
+      fields:
+        created:
+          label: Luotu
+        view_webform_submission:
+          label: Toimenpiteet
+      arguments:
+        in_draft:
+          exception:
+            title: Kaikki
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Toiminto
+        created:
+          label: Luotu
+        operations:
+          label: Toimenpiteet
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Toiminto
+        created:
+          label: Luotu
+        view_webform_submission:
+          label: Toimenpiteet
+        edit_webform_submission:
+          label: Toimenpiteet
+  embed_review:
+    display_options:
+      fields:
+        created:
+          label: Luotu
+        view_webform_submission:
+          label: Toimenpiteet

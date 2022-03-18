@@ -102,6 +102,8 @@ module:
   redirect_404: 0
   redirect_domain: 0
   responsive_image: 0
+  rest: 0
+  restui: 0
   role_delegation: 0
   scheduler: 0
   search_api: 0
@@ -125,6 +127,8 @@ module:
   varnish_purge_tags: 0
   varnish_purger: 0
   views_ui: 0
+  webform: 0
+  webform_rest: 0
   workflows: 0
   automated_cron: 1
   helfi_ptv_integration: 1

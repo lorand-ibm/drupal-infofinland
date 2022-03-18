@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.field_content
     - field.field.node.page.field_description
+    - field.field.node.page.field_feedback_email
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
@@ -26,6 +27,11 @@ targetEntityType: node
 bundle: page
 mode: teaser
 content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
   field_liftup_image:
     type: entity_reference_entity_view
     label: hidden
@@ -38,6 +44,7 @@ content:
 hidden:
   field_content: true
   field_description: true
+  field_feedback_email: true
   field_hero: true
   field_metatags: true
   field_municipality_info: true
@@ -49,3 +56,4 @@ hidden:
   field_use_anchor_links: true
   langcode: true
   links: true
+  search_api_excerpt: true
