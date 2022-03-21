@@ -1,0 +1,54 @@
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+      pager:
+        options:
+          tags:
+            first: '« Premier'
+            last: 'Dernier »'
+          expose:
+            items_per_page_label: 'Éléments par page'
+            items_per_page_options_all_label: '- Tout -'
+            offset_label: Décalage
+      fields:
+        created:
+          label: Créé
+        view_webform_submission:
+          label: Actions
+      arguments:
+        in_draft:
+          exception:
+            title: Tout
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Action
+        created:
+          label: Créé
+        operations:
+          label: Actions
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Action
+        created:
+          label: Créé
+        view_webform_submission:
+          label: Actions
+        edit_webform_submission:
+          label: Actions
+  embed_review:
+    display_options:
+      fields:
+        created:
+          label: Créé
+        view_webform_submission:
+          label: Actions

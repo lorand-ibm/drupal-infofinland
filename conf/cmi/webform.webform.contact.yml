@@ -33,6 +33,10 @@ elements: |-
     '#type': email
     '#required': true
     '#default_value': sakari.laaksonen@siili.com
+  page:
+    '#title': Page
+    '#type': textfield
+    '#required': true
   subject:
     '#title': Subject
     '#type': textfield
@@ -67,7 +71,7 @@ settings:
   form_previous_submissions: true
   form_confidential: false
   form_confidential_message: ''
-  form_disable_remote_addr: false
+  form_disable_remote_addr: true
   form_convert_anonymous: false
   form_prepopulate: false
   form_prepopulate_source_entity: false
@@ -172,8 +176,8 @@ settings:
   entity_limit_total_interval: null
   entity_limit_user: null
   entity_limit_user_interval: null
-  purge: none
-  purge_days: null
+  purge: completed
+  purge_days: 180
   results_disabled: false
   results_disabled_ignore: false
   results_customize: false
@@ -253,8 +257,8 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
-      subject: '[webform_submission:values:subject:raw]'
-      body: "<p>Feedback form submitted: [webform_submission:created]</p>\r\n\r\n<p>Submitted values are:</p>\r\n[webform_submission:values]"
+      subject: 'Palaute Infofinland sivustolta'
+      body: "<p>Palaute Infofinland sivulta:&nbsp;[webform_submission:values:page]<br />\r\n<br />\r\nL&auml;hett&auml;j&auml;: [webform_submission:values:name]<br />\r\nEmail: [webform_submission:values:sender_email]&nbsp;&nbsp;<br />\r\nAihe: [webform_submission:values:subject]&nbsp;<br />\r\nViesti: [webform_submission:values:message]&nbsp;</p>"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
