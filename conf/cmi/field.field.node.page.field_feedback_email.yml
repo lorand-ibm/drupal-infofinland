@@ -1,0 +1,22 @@
+uuid: f9988aa8-f099-40f7-9e49-bf3826c4ebee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feedback_email
+    - node.type.page
+id: node.page.field_feedback_email
+field_name: field_feedback_email
+entity_type: node
+bundle: page
+label: 'Feedback email'
+description: ''
+required: true
+translatable: false
+skip_translation_check: false
+default_value:
+  -
+    value: infofinland.palaute@hel.fi
+default_value_callback: ''
+settings: {  }
+field_type: email

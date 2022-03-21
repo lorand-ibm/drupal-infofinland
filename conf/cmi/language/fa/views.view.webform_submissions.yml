@@ -1,0 +1,55 @@
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: بازنشانی
+          exposed_sorts_label: 'مرتب کن بر اساس'
+          sort_asc_label: صعودی
+          sort_desc_label: نزولی
+      pager:
+        options:
+          tags:
+            first: '« Ensimmäinen'
+          expose:
+            items_per_page_label: 'آیتم‌ها در هر صفحه'
+            items_per_page_options_all_label: '- همه -'
+            offset_label: جابجایی
+      fields:
+        created:
+          label: 'ایجاد گردید'
+        view_webform_submission:
+          label: کارکردها
+      arguments:
+        in_draft:
+          exception:
+            title: همه
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: عملکرد
+        created:
+          label: 'ایجاد گردید'
+        operations:
+          label: کارکردها
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: عملکرد
+        created:
+          label: 'ایجاد گردید'
+        view_webform_submission:
+          label: کارکردها
+        edit_webform_submission:
+          label: کارکردها
+  embed_review:
+    display_options:
+      fields:
+        created:
+          label: 'ایجاد گردید'
+        view_webform_submission:
+          label: کارکردها

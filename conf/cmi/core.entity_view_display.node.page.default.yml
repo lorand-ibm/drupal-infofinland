@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
+    - field.field.node.page.field_feedback_email
     - field.field.node.page.field_hero
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
@@ -43,6 +44,7 @@ hidden:
   content_moderation_control: true
   field_content: true
   field_description: true
+  field_feedback_email: true
   field_hero: true
   field_liftup_image: true
   field_metatags: true
@@ -53,3 +55,4 @@ hidden:
   field_url: true
   field_use_anchor_links: true
   langcode: true
+  search_api_excerpt: true

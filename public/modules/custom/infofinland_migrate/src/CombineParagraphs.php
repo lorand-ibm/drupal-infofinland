@@ -27,7 +27,7 @@ class CombineParagraphs {
       ->fields('nfc', ['entity_id'])
       ->groupBy('nfc.entity_id')
       ->groupBy('langcode')
-      ->having('COUNT(nfc.entity_id) > :entity_id', [':entity_id' => 60])
+      ->having('COUNT(nfc.entity_id) > :entity_id', [':entity_id' => 5])
       ->execute()
       ->fetchAll();
   }

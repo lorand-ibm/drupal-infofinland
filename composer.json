@@ -39,6 +39,7 @@
         "drupal/structure_sync": "^2.0",
         "drupal/subrequests": "^3.0",
         "drupal/varnish_purge": "^2.1",
+        "drupal/webform_rest": "^4.0",
         "drush/drush": "^10.4"
     },
     "require-dev": {
