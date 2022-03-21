@@ -5,3 +5,4 @@ ignored_config_entities:
   - 'next.*'
   - simple_oauth.settings
   - elasticsearch_connector.cluster.infofinland
+  - update.settings

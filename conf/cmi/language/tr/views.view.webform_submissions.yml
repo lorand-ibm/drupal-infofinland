@@ -1,0 +1,56 @@
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Sıfırla
+          exposed_sorts_label: 'Sıralama anahtarı'
+          sort_asc_label: Artan
+          sort_desc_label: Azalan
+      pager:
+        options:
+          tags:
+            first: '« İlk'
+            last: 'Son »'
+          expose:
+            items_per_page_label: 'Sayfa başına öğe sayısı'
+            items_per_page_options_all_label: '- Tümü -'
+            offset_label: 'Başlangıç değeri'
+      fields:
+        created:
+          label: Oluşturulma
+        view_webform_submission:
+          label: İşlemler
+      arguments:
+        in_draft:
+          exception:
+            title: Tümü
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Eylem
+        created:
+          label: Oluşturulma
+        operations:
+          label: İşlemler
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Eylem
+        created:
+          label: Oluşturulma
+        view_webform_submission:
+          label: İşlemler
+        edit_webform_submission:
+          label: İşlemler
+  embed_review:
+    display_options:
+      fields:
+        created:
+          label: Oluşturulma
+        view_webform_submission:
+          label: İşlemler

@@ -1,0 +1,56 @@
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Återställ
+          exposed_sorts_label: 'Sortera efter'
+          sort_asc_label: Stigande
+          sort_desc_label: Fallande
+      pager:
+        options:
+          tags:
+            first: '« Första'
+            last: 'Sista »'
+          expose:
+            items_per_page_label: 'Inlägg per sida'
+            items_per_page_options_all_label: '- Alla -'
+            offset_label: Kompensera
+      fields:
+        created:
+          label: Skapad
+        view_webform_submission:
+          label: Funktioner
+      arguments:
+        in_draft:
+          exception:
+            title: Alla
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Åtgärd
+        created:
+          label: Skapad
+        operations:
+          label: Funktioner
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Åtgärd
+        created:
+          label: Skapad
+        view_webform_submission:
+          label: Funktioner
+        edit_webform_submission:
+          label: Funktioner
+  embed_review:
+    display_options:
+      fields:
+        created:
+          label: Skapad
+        view_webform_submission:
+          label: Funktioner
