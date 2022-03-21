@@ -20,6 +20,7 @@ label: Text
 description: ''
 required: false
 translatable: true
+skip_translation_check: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
