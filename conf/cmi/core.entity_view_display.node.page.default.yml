@@ -26,13 +26,6 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_feedback_email:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
   field_page_name:
     type: string
     label: inline
@@ -51,6 +44,7 @@ hidden:
   content_moderation_control: true
   field_content: true
   field_description: true
+  field_feedback_email: true
   field_hero: true
   field_liftup_image: true
   field_metatags: true
