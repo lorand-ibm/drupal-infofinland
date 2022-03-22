@@ -8,7 +8,6 @@ dependencies:
     - field.field.paragraph.accordion.field_accordion_items
     - paragraphs.paragraphs_type.accordion
   module:
-    - hdbt_admin_editorial
     - paragraphs
 _core:
   default_config_hash: tZ6NtHmnjneasCaF7pacBXWuaSGMMI-LdkayZNerXro
@@ -17,21 +16,9 @@ targetEntityType: paragraph
 bundle: accordion
 mode: default
 content:
-  field_accordion_design:
-    type: design_field_widget
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_accordion_heading_level:
-    type: options_select
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_accordion_items:
     type: paragraphs
-    weight: 2
+    weight: 0
     region: content
     settings:
       title: Lohko
@@ -50,4 +37,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_accordion_design: true
+  field_accordion_heading_level: true
   status: true
