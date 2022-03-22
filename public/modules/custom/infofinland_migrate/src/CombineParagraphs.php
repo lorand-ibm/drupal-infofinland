@@ -24,10 +24,11 @@ class CombineParagraphs {
   private function getLargeContent() {
     $drupalDb = Database::getConnection('default', 'default');
     return $drupalDb->select('node__field_content', 'nfc')
+      ->condition('nfc.entity_id', 39627, '>')
       ->fields('nfc', ['entity_id'])
       ->groupBy('nfc.entity_id')
       ->groupBy('langcode')
-      ->having('COUNT(nfc.entity_id) > :entity_id', [':entity_id' => 5])
+      ->having('COUNT(nfc.entity_id) > :entity_id', [':entity_id' => 15])
       ->execute()
       ->fetchAll();
   }
