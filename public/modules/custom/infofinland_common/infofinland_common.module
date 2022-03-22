@@ -361,6 +361,14 @@ function infofinland_common_node_presave(Node $entity) {
     $theme_menu = $entity->get('field_theme_menu')->getString();
     $entity->set('field_theme_menu_machine_name', $theme_menu);
 
+    // TODO: remove these after updated
+    if ($entity->get('field_theme_menu')->isEmpty()) {
+      $entity->set('field_theme_menu', 'main');
+    }
+    if ($entity->get('field_feedback_email')->isEmpty()) {
+      $entity->set('field_feedback_email', 'infofinland.palaute@hel.fi');
+    }
+
     // TODO: uncomment this when we are ready to use it.
     //add_paragraphs_to_node_translations($entity);
   }
