@@ -2,7 +2,6 @@
 
 namespace Drupal\infofinland_common\Plugin;
 
-use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\paragraphs\Entity\Paragraph;
 
