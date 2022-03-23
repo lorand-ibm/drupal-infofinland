@@ -7,9 +7,13 @@ display:
           submit_button: Apply
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         options:
           tags:
+            previous: ‹‹
+            next: ››
             first: '« Premier'
             last: 'Dernier »'
           expose:
@@ -17,10 +21,20 @@ display:
             items_per_page_options_all_label: '- Tout -'
             offset_label: Décalage
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
         created:
           label: Créé
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Actions
+      header:
+        result:
+          content: 'Affichage de @start à @end sur @total'
       arguments:
         in_draft:
           exception:
@@ -30,8 +44,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: Action
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Créé
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         operations:
           label: Actions
   embed_manage:
@@ -39,8 +66,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: Action
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Créé
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Actions
         edit_webform_submission:
@@ -48,7 +88,20 @@ display:
   embed_review:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Créé
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Actions

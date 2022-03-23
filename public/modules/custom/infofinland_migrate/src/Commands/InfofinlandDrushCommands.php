@@ -3,7 +3,7 @@
 namespace Drupal\infofinland_migrate\Commands;
 
 use Drush\Commands\DrushCommands;
-use \Drupal\node\Entity\Node;
+use Drupal\node\Entity\Node;
 
 
 /**
@@ -11,7 +11,7 @@ use \Drupal\node\Entity\Node;
  *
  * @package Drupal\infofinland_migrate\Commands
  */
-class InfofinlandNodeSaveDrushCommand extends DrushCommands {
+class InfofinlandDrushCommands extends DrushCommands {
 
   /**
    * Drush command that saves nodes.
@@ -20,9 +20,8 @@ class InfofinlandNodeSaveDrushCommand extends DrushCommands {
    *   Amount of nodes to be saved
    * @param string $startNid
    *   Nid where to start with entity query
-   * @command infofinland_node_save_drush_command:savenodes
-   * @aliases infofinland_node_save
-   * @usage infofinland_node_save_drush_command:savenodes 10 32611
+   * @command infofinland:node-save
+   * @usage infofinland:node-save 10 32611
    */
   public function savenodes($amount = 10, $startNid = 32610) {
     // Get an array of all 'page' node IDs.

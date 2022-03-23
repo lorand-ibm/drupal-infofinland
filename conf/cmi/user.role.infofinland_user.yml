@@ -41,6 +41,7 @@ dependencies:
     - system
     - taxonomy
     - toolbar
+    - webform
 id: infofinland_user
 label: InfoFinland-käyttäjä
 weight: 3
@@ -57,11 +58,13 @@ permissions:
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access user profiles'
+  - 'access webform overview'
   - 'administer Terms and Conditions'
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
   - 'administer users'
+  - 'administer webform submission'
   - 'assign infofinland_user role'
   - 'assign municipal_editor role'
   - 'cancel account'
@@ -109,6 +112,7 @@ permissions:
   - 'delete any page content'
   - 'delete any remote_video media'
   - 'delete any soundcloud media'
+  - 'delete any webform submission'
   - 'delete content translations'
   - 'delete landing_page revisions'
   - 'delete link revisions'
@@ -218,6 +222,7 @@ permissions:
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any unpublished content'
+  - 'view any webform submission'
   - 'view landing_page revisions'
   - 'view latest version'
   - 'view link revisions'
