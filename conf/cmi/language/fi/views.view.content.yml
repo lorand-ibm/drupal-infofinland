@@ -9,6 +9,7 @@ display:
           label: Otsikko
         type:
           label: Sisältötyyppi
+          separator: ', '
         name:
           label: Tekijä
         status:

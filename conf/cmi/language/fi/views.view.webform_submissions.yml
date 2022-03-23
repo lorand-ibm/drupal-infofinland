@@ -19,9 +19,17 @@ display:
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
+            offset_label: Offset
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
         created:
           label: Luotu
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Toimenpiteet
       arguments:
@@ -33,8 +41,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: Toiminto
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Luotu
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         operations:
           label: Toimenpiteet
   embed_manage:
@@ -42,8 +63,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: Toiminto
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Luotu
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Toimenpiteet
         edit_webform_submission:
@@ -51,7 +85,20 @@ display:
   embed_review:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Luotu
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Toimenpiteet

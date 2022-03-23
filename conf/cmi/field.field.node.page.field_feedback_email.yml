@@ -11,7 +11,7 @@ entity_type: node
 bundle: page
 label: 'Feedback email'
 description: ''
-required: true
+required: false
 translatable: false
 skip_translation_check: false
 default_value:

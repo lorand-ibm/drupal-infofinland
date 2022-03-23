@@ -9,6 +9,7 @@ display:
           label: Başlık
         type:
           label: 'İçerik türü'
+          separator: ', '
         name:
           label: Yazar
         status:

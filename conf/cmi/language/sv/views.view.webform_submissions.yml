@@ -12,6 +12,8 @@ display:
       pager:
         options:
           tags:
+            previous: ‹‹
+            next: ››
             first: '« Första'
             last: 'Sista »'
           expose:
@@ -19,10 +21,20 @@ display:
             items_per_page_options_all_label: '- Alla -'
             offset_label: Kompensera
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
         created:
           label: Skapad
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Funktioner
+      header:
+        result:
+          content: 'Visar @start - @end av @total'
       arguments:
         in_draft:
           exception:
@@ -32,8 +44,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: Åtgärd
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Skapad
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         operations:
           label: Funktioner
   embed_manage:
@@ -41,8 +66,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: Åtgärd
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Skapad
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Funktioner
         edit_webform_submission:
@@ -50,7 +88,20 @@ display:
   embed_review:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: Skapad
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: Funktioner
