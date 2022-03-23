@@ -18,8 +18,15 @@ display:
             items_per_page_options_all_label: '- الكل -'
             offset_label: الإزاحة
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
         created:
           label: الإنشاء
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: عمليات
       arguments:
@@ -31,8 +38,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: إجراء
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: الإنشاء
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         operations:
           label: عمليات
   embed_manage:
@@ -40,8 +60,21 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: إجراء
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: الإنشاء
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: عمليات
         edit_webform_submission:
@@ -49,7 +82,20 @@ display:
   embed_review:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
         created:
           label: الإنشاء
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
         view_webform_submission:
           label: عمليات
