@@ -24,7 +24,6 @@ class ParagraphGenerate extends EntityGenerate {
     return $this->generateParagraphEntity($value, $row->getSourceProperty('id'), $row->getSourceProperty('Kieli'));
   }
 
-
   /**
    * Get the raw html
    * @param $node
@@ -58,8 +57,7 @@ class ParagraphGenerate extends EntityGenerate {
    * @param $rowId
    * @return \Drupal\Core\Entity\EntityBase|EntityInterface
    */
-  private function createListHTML($child, $language, $rowId, $tag)
-  {
+  private function createListHTML($child, $language, $rowId, $tag) {
     if (str_contains($child->nodeValue, '<ul><li>') || str_contains($child->nodeValue, '<ol><li>')) {
       $htmlString = $child->nodeValue;
     } else {
@@ -139,7 +137,7 @@ class ParagraphGenerate extends EntityGenerate {
     }
 
     // If we didnt find the link in the language we expected, then we need to do it the other way
-    if($results == null || $results[0] == null) {
+    if ($results == null || $results[0] == null) {
       if ($lang == 'fi') {
         $results = $drupalDb->select('migrate_map_links_import_link_nodes_from_csv_translations', 'liln')
           ->fields('liln', ['destid1'])
@@ -154,7 +152,7 @@ class ParagraphGenerate extends EntityGenerate {
           ->fetchAll();
       }
     }
-    if($results == null || $results[0] == null) {
+    if ($results == null || $results[0] == null) {
       echo "Result in link is null for url " . $url .  ' AND link id ' . $linkId;
       return;
     }
@@ -197,8 +195,7 @@ class ParagraphGenerate extends EntityGenerate {
    * @param $tag
    * @return bool
    */
-  private function checkIfTextParagraph($tag): bool
-  {
+  private function checkIfTextParagraph($tag): bool {
     if ($tag == 'p' || $tag == 'h3' || $tag == 'h4' || $tag == 'h5') {
       return true;
     }
@@ -230,8 +227,7 @@ class ParagraphGenerate extends EntityGenerate {
    * @return array|null
    * @throws \Drupal\Core\Entity\EntityStorageException
    */
-  protected function generateParagraphEntity($value, $rowId, $language): ?array
-  {
+  protected function generateParagraphEntity($value, $rowId, $language): ?array {
     echo "Now processing row with id " . $rowId;
     $dom = new DOMDocument();
 
