@@ -265,16 +265,6 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
   }
 
   if ($node->id() !== null) {
-    // if (!empty($node->get('field_content')->getValue())) {
-    //   // Add combine paragraphs button
-    //   $form['combine_paragraphs'] = [
-    //     '#type' => 'submit',
-    //     '#weight' => '-10',
-    //     '#value' => t('Combine content'),
-    //     '#button_type' => 'secondary',
-    //     '#submit' => ['submitToCombineParagraphs']
-    //   ];
-    // }
     if ($node->langcode->value === 'fi') {
       return;
     }
@@ -295,13 +285,6 @@ function infofinland_common_form_node_page_edit_form_alter(&$form, FormStateInte
     }
   }
 }
-
-// function submitToCombineParagraphs(array &$form, FormStateInterface $form_state) {
-//   $node = $form_state->getFormObject()->getEntity();
-//   $content = new ContentCombiner;
-//   $content->combineContentParagraphs($node);
-// }
-
 
 /**
  * Implements hook_editor_js_settings_alter().

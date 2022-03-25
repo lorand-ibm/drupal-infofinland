@@ -1,0 +1,5 @@
+infofinland_common.publish_all_translations:
+  route_name: infofinland_common.publish_all_translations
+  title: 'Publish all translations'
+  base_route: entity.node.canonical
+  weight: 100

@@ -34,7 +34,7 @@ function infofinland_permissions_node_access_records(NodeInterface $node) {
           'gid' => $municipality,
           'grant_view' => 1,
           'grant_update' => 1,
-          'grant_delete' => 0,
+          'grant_delete' => 1,
         ];
       }
     }
@@ -159,4 +159,27 @@ function infofinland_permissions_user_access(EntityInterface $entity, $operation
     return AccessResult::forbidden();
   }
   return AccessResult::neutral();
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_access().
+ *
+ * Municipal user can see only media from their municipality.
+ */
+function infofinland_permissions_media_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  $roles = $account->getRoles();
+
+  if (in_array('infofinland_user', $roles) || in_array('admin', $roles)) {
+    return AccessResult::neutral();
+  }
+
+  $user = User::load($account->id());
+  $user_municipalities = explode(', ', $user->get('field_municipality')->getString());
+  $media_municipalities = explode(', ', $entity->get('field_municipality')->getString());
+
+  if (count(array_intersect($user_municipalities, $media_municipalities)) > 0) {
+    return AccessResult::neutral();
+  }
+
+  return AccessResult::forbidden();
 }

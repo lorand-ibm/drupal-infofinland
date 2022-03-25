@@ -17,4 +17,4 @@ id: media.image
 target_entity_type_id: media
 target_bundle: image
 default_langcode: fi
-language_alterable: true
+language_alterable: false
