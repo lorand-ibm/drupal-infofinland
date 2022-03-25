@@ -4,6 +4,7 @@ infofinland_common.publish_all_translations:
     _controller: '\Drupal\infofinland_common\Controller\LocalTasksController::publishAllTranslations'
   requirements:
     _permission: 'edit own page content'
+    _custom_access: '\Drupal\infofinland_common\Controller\LocalTasksController::localTaskAccess'
   options:
     parameters:
       node:
