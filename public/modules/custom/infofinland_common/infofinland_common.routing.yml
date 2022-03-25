@@ -1,0 +1,10 @@
+infofinland_common.publish_all_translations:
+  path: '/node/{node}/publish-all-translations'
+  defaults:
+    _controller: '\Drupal\infofinland_common\Controller\LocalTasksController::publishAllTranslations'
+  requirements:
+    _permission: 'edit own page content'
+  options:
+    parameters:
+      node:
+        type: 'entity:node'

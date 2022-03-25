@@ -29,8 +29,7 @@ class TransformParagraph extends ProcessPluginBase {
    * @param Row $row
    * @return array
    */
-  public function getData(Row $row): array
-  {
+  public function getData(Row $row): array {
     // In migrate source plugins, the migrate database is easy.
     // Example: $this->select('your_table').
     // Getting to the Drupal 8 db requires a little more code.
@@ -52,7 +51,6 @@ class TransformParagraph extends ProcessPluginBase {
         ];
       }
     }
-
 
     return $paragraphs;
   }
