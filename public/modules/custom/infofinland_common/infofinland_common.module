@@ -484,7 +484,6 @@ function infofinland_common_user_login_submit(&$form, FormStateInterface $form_s
   }
 }
 
-
 /**
  * Implements hook_ckeditor_css_alter().
  *
@@ -545,4 +544,13 @@ function infofinland_common_elasticsearch_connector_load_library_options_alter(&
    */
     $options['curl'][CURLOPT_SSL_VERIFYPEER] = FALSE;
     $options['curl'][CURLOPT_SSL_VERIFYHOST] = FALSE;
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for block.html.twig.
+ */
+function infofinland_common_preprocess_block(&$vars) {
+  if ($vars['plugin_id'] == 'language_block:language_content') {
+    $vars['#cache']['max-age'] = 0;
+  }
 }
