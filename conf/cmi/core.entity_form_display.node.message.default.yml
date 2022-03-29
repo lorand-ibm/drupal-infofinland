@@ -112,5 +112,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  moderation_state: true
   path: true
   url_redirects: true

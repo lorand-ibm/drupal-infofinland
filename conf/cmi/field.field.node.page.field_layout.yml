@@ -1,0 +1,24 @@
+uuid: 6475b7fd-2b48-4e0d-ac93-c469f8719c14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_layout
+    - node.type.page
+  module:
+    - options
+id: node.page.field_layout
+field_name: field_layout
+entity_type: node
+bundle: page
+label: Layout
+description: ''
+required: false
+translatable: false
+skip_translation_check: false
+default_value:
+  -
+    value: basic
+default_value_callback: ''
+settings: {  }
+field_type: list_string

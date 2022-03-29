@@ -14,6 +14,8 @@ dependencies:
     - field.field.node.office_contact_info.field_visiting_address
     - field.field.node.office_contact_info.field_visiting_address_additiona
     - node.type.office_contact_info
+  module:
+    - hdbt_admin_editorial
 id: node.office_contact_info.default
 targetEntityType: node
 bundle: office_contact_info
@@ -113,6 +115,7 @@ content:
 hidden:
   created: true
   field_office_id: true
+  moderation_state: true
   path: true
   promote: true
   publish_on: true
