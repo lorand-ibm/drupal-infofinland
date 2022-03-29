@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.article.field_metatags
     - node.type.article
   module:
+    - hdbt_admin_editorial
     - media_library
     - metatag
     - paragraphs
@@ -84,10 +85,11 @@ content:
     third_party_settings: {  }
   field_metatags:
     type: metatag_firehose
-    weight: 51
+    weight: 18
     region: content
     settings:
       sidebar: false
+      use_details: true
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -111,12 +113,12 @@ content:
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
-    weight: 30
+    weight: 15
     region: content
     settings: {  }
     third_party_settings: {  }
   scheduler_settings:
-    weight: 20
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -159,13 +161,14 @@ content:
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default
-    weight: 30
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  moderation_state: true

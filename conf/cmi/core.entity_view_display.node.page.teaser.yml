@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.page.field_description
     - field.field.node.page.field_feedback_email
     - field.field.node.page.field_hero
+    - field.field.node.page.field_layout
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
     - field.field.node.page.field_municipality_info
@@ -46,6 +47,7 @@ hidden:
   field_description: true
   field_feedback_email: true
   field_hero: true
+  field_layout: true
   field_metatags: true
   field_municipality_info: true
   field_municipality_selection: true

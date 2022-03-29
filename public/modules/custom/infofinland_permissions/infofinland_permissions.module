@@ -164,7 +164,7 @@ function infofinland_permissions_user_access(EntityInterface $entity, $operation
 /**
  * Implements hook_ENTITY_TYPE_access().
  *
- * Municipal user can see only media from their municipality.
+ * Municipal user can access only media from their municipality.
  */
 function infofinland_permissions_media_access(EntityInterface $entity, $operation, AccountInterface $account) {
   $roles = $account->getRoles();
@@ -182,4 +182,57 @@ function infofinland_permissions_media_access(EntityInterface $entity, $operatio
   }
 
   return AccessResult::forbidden();
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_access().
+ *
+ * Disable content translation from other users than admins.
+ */
+function infofinland_permissions_node_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  $roles = $account->getRoles();
+
+  if (in_array('infofinland_user', $roles) || in_array('admin', $roles)) {
+    return AccessResult::neutral();
+  }
+
+  return AccessResult::forbiddenIf(strpos(\Drupal::service('path.current')->getPath(), '/translations/'));
+}
+
+/**
+ * Implements template_preprocess_links().
+ *
+ * Hide add and delete translations buttons from municipal user
+ * from node translations page.
+ *
+ * We don't control the admin theme, that's why this hook is here.
+ */
+function infofinland_permissions_preprocess_links(&$vars) {
+  if (!strpos(\Drupal::service('path.current')->getPath(), '/translations')) {
+    return;
+  }
+
+  if (strpos(\Drupal::service('path.current')->getPath(), '/media') === 0) {
+    return;
+  }
+
+  if (!$current_user = \Drupal::currentUser()) {
+    return;
+  }
+
+  $roles = $current_user->getRoles();
+  if (!in_array('municipal_editor', $roles)) {
+    return;
+  }
+
+  $node = \Drupal::request()->attributes->get('node');
+  if ($node->getType() == 'link') {
+    return;
+  }
+
+  foreach ($vars['links'] as $key => $link) {
+    if ($key === 'add' || $key === 'delete') {
+      unset($vars['links'][$key]);
+    }
+  }
 }
