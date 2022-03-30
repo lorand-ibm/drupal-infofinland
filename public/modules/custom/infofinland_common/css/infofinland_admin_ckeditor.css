@@ -1,3 +1,8 @@
 a.broken-link {
   color:red;
 }
+
+html[dir=rtl] body.cke_editable ul li, html[dir=rtl] body.cke_editable ol li {
+  margin-right: 32px;
+  padding-right: 16px;
+}
