@@ -10,7 +10,6 @@ declare(strict_types = 1);
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\infofinland_common\Plugin\ContentCombiner;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\paragraphs\Entity\Paragraph;
@@ -351,6 +350,9 @@ function infofinland_common_node_presave(Node $entity) {
     }
     if ($entity->get('field_feedback_email')->isEmpty()) {
       $entity->set('field_feedback_email', 'infofinland.palaute@hel.fi');
+    }
+    if ($entity->get('field_layout')->isEmpty()) {
+      $entity->set('field_layout', 'basic');
     }
 
     add_paragraphs_to_node_translations($entity);
