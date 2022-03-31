@@ -42,6 +42,11 @@ elements: |-
     '#type': textfield
     '#required': true
     '#test': 'Test email'
+  message:
+    '#title': Message
+    '#type': textarea
+    '#required': true
+    '#test': 'Test email'
   actions:
     '#type': webform_actions
     '#title': 'Submit button(s)'
