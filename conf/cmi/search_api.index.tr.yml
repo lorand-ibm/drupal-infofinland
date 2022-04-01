@@ -1,4 +1,4 @@
-uuid: 41088475-9db4-4be5-b924-c468f0c60bd3
+uuid: 92daa644-1809-4a51-8297-6c7aaa4148b3
 langcode: en
 status: true
 dependencies:
@@ -24,8 +24,8 @@ dependencies:
     - paragraphs
     - node
     - search_api
-id: ar
-name: ar
+id: tr
+name: tr
 description: ''
 read_only: false
 field_settings:
@@ -120,18 +120,6 @@ field_settings:
       module:
         - node
         - paragraphs
-  field_link_title:
-    label: 'Link title'
-    datasource_id: 'entity:node'
-    property_path: 'field_content:entity:field_link_collection:entity:title'
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_content
-        - field.storage.paragraph.field_link_collection
-      module:
-        - node
-        - paragraphs
   field_ptv_email_address:
     label: 'PTV email address'
     datasource_id: 'entity:node'
@@ -218,6 +206,18 @@ field_settings:
         - field.storage.paragraph.field_title
       module:
         - paragraphs
+  link_title:
+    label: 'Link title'
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_link_collection:entity:title'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_link_collection
+      module:
+        - node
+        - paragraphs
   title:
     label: Title
     datasource_id: 'entity:node'
@@ -241,7 +241,7 @@ datasource_settings:
     languages:
       default: false
       selected:
-        - ar
+        - tr
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
@@ -272,7 +272,6 @@ processor_settings:
       - field_columns_title
       - field_description
       - field_link_target_site
-      - field_link_title
       - field_ptv_email_address
       - field_ptv_phonenumber
       - field_ptv_postal_address
@@ -280,16 +279,19 @@ processor_settings:
       - field_ptv_visiting_address
       - field_text
       - field_title
+      - link_title
       - title
       - url
     title: true
     alt: true
     tags:
       b: 2
+      em: 1
       h1: 5
       h2: 3
       h3: 2
       strong: 2
+      u: 1
   ignorecase:
     weights:
       preprocess_index: -20
@@ -304,7 +306,6 @@ processor_settings:
       - field_columns_title
       - field_description
       - field_link_target_site
-      - field_link_title
       - field_ptv_email_address
       - field_ptv_phonenumber
       - field_ptv_postal_address
@@ -312,6 +313,7 @@ processor_settings:
       - field_ptv_visiting_address
       - field_text
       - field_title
+      - link_title
       - title
       - url
   language_with_fallback: {  }
@@ -347,7 +349,6 @@ processor_settings:
       - field_columns_title
       - field_description
       - field_link_target_site
-      - field_link_title
       - field_ptv_email_address
       - field_ptv_phonenumber
       - field_ptv_postal_address
@@ -355,6 +356,7 @@ processor_settings:
       - field_ptv_visiting_address
       - field_text
       - field_title
+      - link_title
       - title
       - url
 tracker_settings:
