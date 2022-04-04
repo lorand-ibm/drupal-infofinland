@@ -196,7 +196,11 @@ function infofinland_permissions_node_access(EntityInterface $entity, $operation
     return AccessResult::neutral();
   }
 
-  return AccessResult::forbiddenIf(strpos(\Drupal::service('path.current')->getPath(), '/translations/'));
+  if ($entity->getType() === 'page') {
+    return AccessResult::forbiddenIf(strpos(\Drupal::service('path.current')->getPath(), '/translations/'));
+  }
+
+  return AccessResult::neutral();
 }
 
 /**
