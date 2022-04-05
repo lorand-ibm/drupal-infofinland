@@ -103,6 +103,7 @@ module:
   redirect: 0
   redirect_404: 0
   redirect_domain: 0
+  redis: 0
   responsive_image: 0
   rest: 0
   restui: 0
