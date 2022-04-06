@@ -50,12 +50,10 @@ module:
   hdbt_component_library: 0
   hdbt_content: 0
   hdbt_hyphenopoly: 0
-  helfi_api_base: 0
   helfi_azure_fs: 0
   image: 0
   image_style_quality: 0
   infofinland_common: 0
-  infofinland_migrate: 0
   infofinland_municipality_selection: 0
   infofinland_permissions: 0
   jsonapi: 0
@@ -79,10 +77,6 @@ module:
   metatag_open_graph: 0
   metatag_twitter_cards: 0
   metatag_views: 0
-  migrate: 0
-  migrate_plus: 0
-  migrate_source_csv: 0
-  migrate_tools: 0
   next: 0
   next_jsonapi: 0
   node: 0
