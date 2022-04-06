@@ -167,6 +167,10 @@ function infofinland_permissions_user_access(EntityInterface $entity, $operation
  * Municipal user can access only media from their municipality.
  */
 function infofinland_permissions_media_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  if ($operation === 'view') {
+    return AccessResult::neutral();
+  }
+
   $roles = $account->getRoles();
 
   if (in_array('infofinland_user', $roles) || in_array('admin', $roles)) {
