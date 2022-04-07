@@ -11,7 +11,7 @@ function helfi_ptv_integration_cron(): void {
   $frequency = 86400;
 
   // Run once in 24hrs in the small hours.
-  if (($time_now - $last_run) < $frequency && date('H', $time_now) === "03") {
+  if (($time_now - $last_run) < $frequency && date('H', $time_now) !== "03") {
     return;
   }
 
