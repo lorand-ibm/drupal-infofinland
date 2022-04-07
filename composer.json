@@ -9,6 +9,7 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.7",
+        "drupal/adv_varnish": "^4.0",
         "drupal/allowed_formats": "^1.5",
         "drupal/ckeditor_bidi": "^3.1",
         "drupal/color_field": "^2.5",

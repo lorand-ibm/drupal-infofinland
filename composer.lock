@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1db0bc65617b6bf9029691788c36dc0",
+    "content-hash": "373c5d18888463799eed555d1d9a32a3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1487,6 +1487,62 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/adv_varnish",
+            "version": "4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/adv_varnish.git",
+                "reference": "4.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adv_varnish-4.0.4.zip",
+                "reference": "4.0.4",
+                "shasum": "9ef47cb923d72e5391e9242cf793b7e9cc3788e6"
+            },
+            "require": {
+                "drupal/core": "^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.4",
+                    "datestamp": "1645178028",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Qwaygon",
+                    "homepage": "https://www.drupal.org/user/636624"
+                },
+                {
+                    "name": "claymor",
+                    "homepage": "https://www.drupal.org/user/3193903"
+                },
+                {
+                    "name": "miritas",
+                    "homepage": "https://www.drupal.org/user/3478563"
+                },
+                {
+                    "name": "shumer",
+                    "homepage": "https://www.drupal.org/user/2297432"
+                }
+            ],
+            "description": "Provides integration with Varnish service for Drupal",
+            "homepage": "https://www.drupal.org/project/adv_varnish",
+            "support": {
+                "source": "https://git.drupalcode.org/project/adv_varnish"
             }
         },
         {
