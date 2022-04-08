@@ -15,7 +15,8 @@ bundle: hero
 label: Image
 description: 'Image to be used as an illustration or as a background of the hero depending on what design you chose.'
 required: false
-translatable: true
+translatable: false
+skip_translation_check: false
 default_value: {  }
 default_value_callback: ''
 settings:
