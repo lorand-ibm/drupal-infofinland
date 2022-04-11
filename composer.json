@@ -86,7 +86,8 @@
         "patches": {
             "drupal/core": {
                 "3099026 - Claro's preprocessing of field multiple value form's table header cell removes potential changes by others": "https://www.drupal.org/files/issues/2021-11-25/3099026-32_0.patch",
-                "3015480 - Allow skipping translation check at field level for non-translatable fields": "https://www.drupal.org/files/issues/2018-11-22/3015480-add_config_to_allow_skipping_translation_check-4.patch"
+                "3015480 - Allow skipping translation check at field level for non-translatable fields": "https://www.drupal.org/files/issues/2018-11-22/3015480-add_config_to_allow_skipping_translation_check-4.patch",
+                "3101344 - Cannot save translated nodes after upgrading to 8.8 due to invalid path": "https://www.drupal.org/files/issues/2021-11-15/drupal-path-error-when-not-visible-3101344-81-D9.patch"
             },
             "drupal/subrequests": {
                 "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
