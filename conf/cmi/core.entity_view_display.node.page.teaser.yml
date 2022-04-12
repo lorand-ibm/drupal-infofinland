@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
     - field.field.node.page.field_feedback_email
+    - field.field.node.page.field_finnish_title
     - field.field.node.page.field_hero
     - field.field.node.page.field_layout
     - field.field.node.page.field_liftup_image
@@ -46,6 +47,7 @@ hidden:
   field_content: true
   field_description: true
   field_feedback_email: true
+  field_finnish_title: true
   field_hero: true
   field_layout: true
   field_metatags: true

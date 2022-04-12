@@ -195,6 +195,7 @@ function _hide_form_fields(&$form) {
     $form['admin_metainformation']['#access'] = FALSE;
     $form['field_metatags']['#access'] = FALSE;
     $form['field_feedback_email']['#access'] = FALSE;
+    $form['field_layout']['#access'] = FALSE;
   }
 }
 
@@ -344,6 +345,10 @@ function infofinland_common_node_presave(Node $entity) {
   if ($entity->getType() === 'page') {
     $theme_menu = $entity->get('field_theme_menu')->getString();
     $entity->set('field_theme_menu_machine_name', $theme_menu);
+
+    if ($entity->langcode->value === 'fi') {
+      $entity->set('field_finnish_title', $entity->get('title')->getString());
+    }
 
     add_paragraphs_to_node_translations($entity);
   }
