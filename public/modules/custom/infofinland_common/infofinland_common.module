@@ -13,6 +13,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\paragraphs\Entity\Paragraph;
+use Drupal\paragraphs\ParagraphInterface;
 use Drupal\editor\Entity\Editor;
 use Drupal\node\Entity\Node;
 use Drupal\user\Entity\User;
@@ -341,18 +342,6 @@ function infofinland_common_node_presave(Node $entity) {
   }
 
   if ($entity->getType() === 'page') {
-    // TODO: remove these after updated
-    if ($entity->get('field_theme_menu')->isEmpty()) {
-      $entity->set('field_theme_menu', 'main');
-    }
-    if ($entity->get('field_feedback_email')->isEmpty()) {
-      $entity->set('field_feedback_email', 'infofinland.palaute@hel.fi');
-    }
-    if ($entity->get('field_layout')->isEmpty()) {
-      $entity->set('field_layout', 'basic');
-    }
-
-    // dont remove this.
     $theme_menu = $entity->get('field_theme_menu')->getString();
     $entity->set('field_theme_menu_machine_name', $theme_menu);
 
@@ -377,9 +366,9 @@ function add_paragraphs_to_node_translations(Node $entity) {
   }
 
   $added_paragraphs = [];
-  foreach ($field_content_new as $key => $row) {
-    if (!in_array($row['target_id'], $old_ids)) {
-      $added_paragraphs[] = ['target' => $row['target_id'], 'delta' => $key, 'revision' => $row['target_revision_id']];
+  foreach ($field_content_new as $key => $new_row) {
+    if (!in_array($new_row['target_id'], $old_ids)) {
+      $added_paragraphs[] = ['target' => $new_row['target_id'], 'delta' => $key, 'revision' => $new_row['target_revision_id']];
     }
   }
 
@@ -387,20 +376,31 @@ function add_paragraphs_to_node_translations(Node $entity) {
     return;
   }
 
+  $entity_type_manager = \Drupal::entityTypeManager();
+  $paragraph_storage = $entity_type_manager->getStorage('paragraph');
   $translation_languages = $entity->getTranslationLanguages();
 
   foreach ($translation_languages as $language) {
-    if ($language->getId() == 'fi') {
+    $lang = $language->getId();
+    if ($lang === 'fi') {
       continue;
     }
 
-    $node_translation = $entity->getTranslation($language->getId());
+    $node_translation = $entity->getTranslation($lang);
     $translated_content = $node_translation->get('field_content')->getValue();
 
     // Merge added finnish paragraphs to translation.
-    foreach ($added_paragraphs as $paragraph) {
-      $array = ['target_id' => $paragraph['target'], 'target_revision_id' =>  $paragraph['revision']];
-      $field_content_merged = array_merge(array_slice($translated_content, 0, $paragraph['delta']), [$array], array_slice($translated_content, $paragraph['delta']));
+    foreach ($added_paragraphs as $added_paragraph) {
+      $paragraph = $paragraph_storage->load($added_paragraph['target']);
+
+      if ($paragraph instanceof ParagraphInterface) {
+        $duplicateParagraph = $paragraph->createDuplicate();
+        $duplicateParagraph->set('langcode', $lang);
+        $duplicateParagraph->save();
+
+        $array = ['target_id' => $duplicateParagraph->id(), 'target_revision_id' => $duplicateParagraph->getRevisionId()];
+        $field_content_merged = array_merge(array_slice($translated_content, 0, $added_paragraph['delta']), [$array], array_slice($translated_content, $added_paragraph['delta']));
+      }
     }
 
     if (!isset($field_content_merged)) {
