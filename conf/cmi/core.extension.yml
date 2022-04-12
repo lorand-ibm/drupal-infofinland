@@ -54,7 +54,6 @@ module:
   image: 0
   image_style_quality: 0
   infofinland_common: 0
-  infofinland_municipality_selection: 0
   infofinland_permissions: 0
   jsonapi: 0
   jsonapi_extras: 0

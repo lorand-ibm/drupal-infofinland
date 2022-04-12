@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
     - field.field.node.page.field_feedback_email
+    - field.field.node.page.field_finnish_title
     - field.field.node.page.field_hero
     - field.field.node.page.field_layout
     - field.field.node.page.field_liftup_image
@@ -19,7 +20,6 @@ dependencies:
     - field.field.node.page.field_use_anchor_links
     - node.type.page
   module:
-    - options
     - user
 _core:
   default_config_hash: QoKzK_LdQQXrmb4YyhrEEfU-oYAjoKiamaP7nWWRs9A
@@ -28,13 +28,6 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_layout:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
   field_page_name:
     type: string
     label: inline
@@ -54,7 +47,9 @@ hidden:
   field_content: true
   field_description: true
   field_feedback_email: true
+  field_finnish_title: true
   field_hero: true
+  field_layout: true
   field_liftup_image: true
   field_metatags: true
   field_municipality_info: true

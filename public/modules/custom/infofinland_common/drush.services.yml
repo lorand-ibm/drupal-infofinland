@@ -1,0 +1,5 @@
+services:
+  infofinland_common.drush_commands:
+    class: \Drupal\infofinland_common\Commands\InfofinlandDrushCommands
+    tags:
+      - { name: drush.command }

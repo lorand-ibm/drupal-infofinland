@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\infofinland_migrate\Commands;
+namespace Drupal\infofinland_common\Commands;
 
 use Drush\Commands\DrushCommands;
 use Drupal\node\Entity\Node;
@@ -9,7 +9,7 @@ use Drupal\node\Entity\Node;
 /**
  * A drush command file.
  *
- * @package Drupal\infofinland_migrate\Commands
+ * @package Drupal\infofinland_common\Commands
  */
 class InfofinlandDrushCommands extends DrushCommands {
 

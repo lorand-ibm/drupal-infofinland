@@ -1,5 +1,0 @@
-services:
-  infofinland_migrate.drush_commands:
-    class: \Drupal\infofinland_migrate\Commands\InfofinlandDrushCommands
-    tags:
-      - { name: drush.command }
