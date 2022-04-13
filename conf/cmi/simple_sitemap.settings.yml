@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: fFCOUWimqdj2E7qYCcYmI2LH7rwpaLEUOfi69hUFuXk
 max_links: 4000
 cron_generate: true
 cron_generate_interval: 3
@@ -7,7 +5,7 @@ generate_duration: 10000
 remove_duplicates: true
 skip_untranslated: true
 disable_language_hreflang: false
-xsl: true
+xsl: false
 base_url: 'https://edit.infofinland.fi'
 default_variant: ''
 custom_links_include_images: false
