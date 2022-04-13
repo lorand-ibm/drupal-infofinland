@@ -37,6 +37,7 @@ dependencies:
     - pathauto
     - role_delegation
     - scheduler
+    - simple_sitemap
     - system
     - taxonomy
     - toolbar
@@ -61,6 +62,7 @@ permissions:
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
+  - 'administer sitemap settings'
   - 'administer users'
   - 'administer webform submission'
   - 'assign infofinland_user role'

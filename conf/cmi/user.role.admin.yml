@@ -40,6 +40,7 @@ dependencies:
     - responsive_image
     - role_delegation
     - scheduler
+    - simple_sitemap
     - system
     - taxonomy
     - toolbar
@@ -73,6 +74,7 @@ permissions:
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer responsive images'
+  - 'administer sitemap settings'
   - 'administer url aliases'
   - 'administer users'
   - 'administer webform submission'
