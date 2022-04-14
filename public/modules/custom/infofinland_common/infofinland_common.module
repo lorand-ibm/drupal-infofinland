@@ -182,6 +182,8 @@ function _hide_form_fields(&$form) {
   $current_user = \Drupal::currentUser();
   $roles = $current_user->getRoles();
 
+  $form['actions']['preview']['#access'] = FALSE;
+
   // Disable title field from municipal user.
   if (in_array('municipal_editor', $roles)) {
     $form['title']['#disabled'] = TRUE;

@@ -40,4 +40,27 @@ class InfofinlandDrushCommands extends DrushCommands {
       $this->output()->writeln($node->id());
     }
   }
+
+  /**
+   * Drush command that saves nodes.
+   *
+   * @param string $nid
+   *   node id
+   * @command infofinland:unpublish-node
+   * @usage infofinland:unpublish-node 32611
+   */
+  public function unpublishNode($nid) {
+    if ($nid) {
+      $node = Node::load($nid);
+      $translation_languages = $node->getTranslationLanguages();
+
+      foreach ($translation_languages as $language) {
+        $lang = $language->getId();
+        $node_translation = $node->getTranslation($lang);
+        $node_translation->set('moderation_state', 'unpublished');
+        $node_translation->save();
+        $this->output()->writeln($node->id() . ' Lang:' . $lang);
+      }
+    }
+  }
 }

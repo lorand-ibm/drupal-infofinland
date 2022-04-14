@@ -35,6 +35,7 @@ dependencies:
     - password_policy
     - path
     - pathauto
+    - redirect
     - role_delegation
     - scheduler
     - simple_sitemap
@@ -62,6 +63,8 @@ permissions:
   - 'administer languages'
   - 'administer menu'
   - 'administer nodes'
+  - 'administer redirect settings'
+  - 'administer redirects'
   - 'administer sitemap settings'
   - 'administer users'
   - 'administer webform submission'
