@@ -10,6 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\path_alias\AliasManagerInterface;
 use DOMDocument;
 use DOMXPath;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Change internal links to URL aliases in text fields.
@@ -39,10 +40,11 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
   /**
    * {@inheritdoc}
    */
-  public function __construct(array $configuration, $plugin_id, array $plugin_definition, EntityTypeManagerInterface $entity_type_manager, AliasManagerInterface $aliasManager) {
+  public function __construct(array $configuration, $plugin_id, array $plugin_definition, EntityTypeManagerInterface $entity_type_manager, AliasManagerInterface $aliasManager, Request $request) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->entityTypeManager = $entity_type_manager;
     $this->aliasManager = $aliasManager;
+    $this->request = $request;
   }
 
   /**
@@ -54,7 +56,8 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
       $plugin_id,
       $plugin_definition,
       $container->get('entity_type.manager'),
-      $container->get('path_alias.manager')
+      $container->get('path_alias.manager'),
+      $container->get('request_stack')->getCurrentRequest()
     );
   }
 
@@ -63,6 +66,7 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
    */
   protected function doUndoTransform($data, Context $context) {
     $doc = new DOMDocument();
+    $splittedURL = explode('/', $this->request->getRequestUri());
 
     if (isset($data['value'])) {
       $doc->loadHTML($data['value']);
@@ -71,7 +75,7 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
       if ($nodeList) {
         for ($i = 0; $i < $nodeList->length; $i++) {
           if (str_starts_with($nodeList->item($i)->value, '/node/')) {
-            $alias = $this->aliasManager->getAliasByPath($nodeList->item($i)->value);
+            $alias = '/' . $splittedURL[1] . $this->aliasManager->getAliasByPath($nodeList->item($i)->value);
             $data['value'] = str_replace($nodeList->item($i)->value, $alias, $data['value']);
           }
         }
@@ -84,8 +88,8 @@ class TextFieldEnhancer extends ResourceFieldEnhancerBase implements ContainerFa
       $nodeList2 = $processedXpath->query('//a/@href');
       if ($nodeList2) {
         for ($i = 0; $i < $nodeList2->length; $i++) {
-          if (str_starts_with($nodeList->item($i)->value, '/node/')) {
-            $alias2 = $this->aliasManager->getAliasByPath($nodeList2->item($i)->value);
+          if (str_starts_with($nodeList2->item($i)->value, '/node/')) {
+            $alias2 = '/' . $splittedURL[1] . $this->aliasManager->getAliasByPath($nodeList2->item($i)->value);
             $data['processed'] = str_replace($nodeList2->item($i)->value, $alias2, $data['processed']);
           }
         }

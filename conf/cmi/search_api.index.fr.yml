@@ -1,4 +1,4 @@
-uuid: 41088475-9db4-4be5-b924-c468f0c60bd3
+uuid: 8d525a87-8f54-4acf-899c-e5f3e4c40195
 langcode: en
 status: true
 dependencies:
@@ -24,8 +24,8 @@ dependencies:
     - paragraphs
     - node
     - search_api
-id: ar
-name: ar
+id: fr
+name: fr
 description: ''
 read_only: false
 field_settings:
@@ -120,18 +120,6 @@ field_settings:
       module:
         - node
         - paragraphs
-  field_link_title:
-    label: 'Link title'
-    datasource_id: 'entity:node'
-    property_path: 'field_content:entity:field_link_collection:entity:title'
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_content
-        - field.storage.paragraph.field_link_collection
-      module:
-        - node
-        - paragraphs
   field_ptv_email_address:
     label: 'PTV email address'
     datasource_id: 'entity:node'
@@ -218,6 +206,18 @@ field_settings:
         - field.storage.paragraph.field_title
       module:
         - paragraphs
+  link_title:
+    label: 'Link title'
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_link_collection:entity:title'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_link_collection
+      module:
+        - node
+        - paragraphs
   title:
     label: Title
     datasource_id: 'entity:node'
@@ -241,7 +241,7 @@ datasource_settings:
     languages:
       default: false
       selected:
-        - ar
+        - fr
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
@@ -272,7 +272,6 @@ processor_settings:
       - field_columns_title
       - field_description
       - field_link_target_site
-      - field_link_title
       - field_ptv_email_address
       - field_ptv_phonenumber
       - field_ptv_postal_address
@@ -280,6 +279,7 @@ processor_settings:
       - field_ptv_visiting_address
       - field_text
       - field_title
+      - link_title
       - title
       - url
     title: true
@@ -304,7 +304,6 @@ processor_settings:
       - field_columns_title
       - field_description
       - field_link_target_site
-      - field_link_title
       - field_ptv_email_address
       - field_ptv_phonenumber
       - field_ptv_postal_address
@@ -312,6 +311,7 @@ processor_settings:
       - field_ptv_visiting_address
       - field_text
       - field_title
+      - link_title
       - title
       - url
   language_with_fallback: {  }

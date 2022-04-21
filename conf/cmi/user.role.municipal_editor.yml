@@ -70,6 +70,7 @@ permissions:
   - 'edit own office_contact_info content'
   - 'edit own page content'
   - 'edit own remote_video media'
+  - 'translate editable entities'
   - 'translate image media'
   - 'translate link node'
   - 'translate office_contact_info node'

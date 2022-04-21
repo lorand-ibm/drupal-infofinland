@@ -6,7 +6,9 @@ dependencies:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
     - field.field.node.page.field_feedback_email
+    - field.field.node.page.field_finnish_title
     - field.field.node.page.field_hero
+    - field.field.node.page.field_layout
     - field.field.node.page.field_liftup_image
     - field.field.node.page.field_metatags
     - field.field.node.page.field_municipality_info
@@ -36,7 +38,7 @@ third_party_settings:
       label: 'Nostot valtakunnallisille sivuille'
       region: content
       parent_name: ''
-      weight: 18
+      weight: 15
       format_type: details_sidebar
       format_settings:
         classes: ''
@@ -51,10 +53,11 @@ third_party_settings:
         - field_municipality_selection
         - field_theme_menu
         - field_feedback_email
+        - field_layout
       label: 'Page info'
       region: content
       parent_name: ''
-      weight: 12
+      weight: 9
       format_type: details_sidebar
       format_settings:
         classes: ''
@@ -73,13 +76,13 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 11
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   field_content:
     type: paragraphs_classic_asymmetric
-    weight: 23
+    weight: 20
     region: content
     settings:
       title: Lohko
@@ -91,7 +94,7 @@ content:
     third_party_settings: {  }
   field_description:
     type: string_textarea
-    weight: 5
+    weight: 4
     region: content
     settings:
       rows: 3
@@ -107,7 +110,7 @@ content:
     third_party_settings: {  }
   field_hero:
     type: paragraphs
-    weight: 7
+    weight: 6
     region: content
     settings:
       title: Lohko
@@ -124,9 +127,15 @@ content:
         collapse_edit_all: '0'
         duplicate: '0'
     third_party_settings: {  }
+  field_layout:
+    type: options_select
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_metatags:
     type: metatag_firehose
-    weight: 24
+    weight: 21
     region: content
     settings:
       sidebar: true
@@ -185,7 +194,7 @@ content:
     third_party_settings: {  }
   field_use_anchor_links:
     type: boolean_checkbox
-    weight: 6
+    weight: 5
     region: content
     settings:
       display_label: true
@@ -199,44 +208,44 @@ content:
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
-    weight: 25
+    weight: 22
     region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 16
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 14
+    weight: 11
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
-    weight: 20
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
   scheduler_settings:
-    weight: 19
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 17
+    weight: 14
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 15
+    weight: 12
     region: content
     settings:
       display_label: true
@@ -250,13 +259,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 13
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 10
+    weight: 7
     region: content
     settings:
       match_operator: CONTAINS
@@ -266,15 +275,16 @@ content:
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default
-    weight: 21
+    weight: 18
     region: content
     settings: {  }
     third_party_settings: {  }
   url_redirects:
-    weight: 22
+    weight: 19
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_finnish_title: true
   field_liftup_image: true
   field_theme_menu_machine_name: true

@@ -5,7 +5,18 @@ use Drupal\helfi_ptv_integration\HelfiPTV;
  * @file
  * Custom module for PTV integration.
  */
-function helfi_ptv_integration_cron() {
+function helfi_ptv_integration_cron(): void {
+  $last_run = \Drupal::state()->get('helfi_ptv_integration.last_run', 0);
+  $time_now = \Drupal::time()->getRequestTime();
+  $frequency = 86400;
+
+  // Run once in 24hrs in the small hours.
+  if (($time_now - $last_run) < $frequency && date('H', $time_now) !== "03") {
+    return;
+  }
+
+  \Drupal::state()->set('helfi_ptv_integration.last_run', $time_now);
+
   $today = date('Y-m-d', strtotime("-1 days"));
   $ptv = Drupal::getContainer()->get(HelfiPTV::class);
   $ptv->getOfficeIdsPerCity('all', $today);

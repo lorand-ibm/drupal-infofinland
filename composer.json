@@ -9,12 +9,16 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.7",
+        "drupal/adv_varnish": "^4.0",
+        "drupal/allowed_formats": "^1.5",
         "drupal/ckeditor_bidi": "^3.1",
         "drupal/color_field": "^2.5",
         "drupal/config_ignore": "^2.3",
         "drupal/consumer_image_styles": "^4.0",
+        "drupal/consumers": "^1.12",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/crop": "^2.2",
         "drupal/hdbt": "^1.0",
         "drupal/hdbt_admin": "^1.0",
         "drupal/helfi_api_base": "^2.0",
@@ -31,9 +35,12 @@
         "drupal/migrate_source_csv": "^3.4",
         "drupal/migrate_tools": "^5.0",
         "drupal/next": "^1.1",
+        "drupal/paragraphs": "^1.13",
         "drupal/password_policy": "^3.1",
+        "drupal/pathauto": "^1.9",
         "drupal/purge": "^3.2",
         "drupal/readonly_field_widget": "^1.4",
+        "drupal/redis": "^1.5",
         "drupal/role_delegation": "^1.2",
         "drupal/smtp": "^1.0",
         "drupal/structure_sync": "^2.0",
@@ -79,7 +86,8 @@
         "patches": {
             "drupal/core": {
                 "3099026 - Claro's preprocessing of field multiple value form's table header cell removes potential changes by others": "https://www.drupal.org/files/issues/2021-11-25/3099026-32_0.patch",
-                "3015480 - Allow skipping translation check at field level for non-translatable fields": "https://www.drupal.org/files/issues/2018-11-22/3015480-add_config_to_allow_skipping_translation_check-4.patch"
+                "3015480 - Allow skipping translation check at field level for non-translatable fields": "https://www.drupal.org/files/issues/2018-11-22/3015480-add_config_to_allow_skipping_translation_check-4.patch",
+                "3101344 - Cannot save translated nodes after upgrading to 8.8 due to invalid path": "https://www.drupal.org/files/issues/2021-11-15/drupal-path-error-when-not-visible-3101344-81-D9.patch"
             },
             "drupal/subrequests": {
                 "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"

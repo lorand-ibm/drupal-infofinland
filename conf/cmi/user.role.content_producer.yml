@@ -6,7 +6,6 @@ dependencies:
     - filter.format.simple_html
   module:
     - filter
-    - helfi_api_base
 _core:
   default_config_hash: EVzxFtbOrGVTXWw2GTh1fEzzqruPEqSo84k10-BF6eA
 id: content_producer
@@ -15,4 +14,3 @@ weight: 3
 is_admin: null
 permissions:
   - 'use text format simple_html'
-  - 'view remote entities'

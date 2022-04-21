@@ -25,7 +25,6 @@ dependencies:
     - entity_browser
     - file
     - filter
-    - helfi_api_base
     - language
     - legal
     - locale
@@ -41,6 +40,7 @@ dependencies:
     - responsive_image
     - role_delegation
     - scheduler
+    - simple_sitemap
     - system
     - taxonomy
     - toolbar
@@ -58,7 +58,6 @@ permissions:
   - 'access files overview'
   - 'access media overview'
   - 'access media_entity_browser_modal entity browser pages'
-  - 'access remote entities overview'
   - 'access site in maintenance mode'
   - 'access taxonomy overview'
   - 'access toolbar'
@@ -75,6 +74,7 @@ permissions:
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer responsive images'
+  - 'administer sitemap settings'
   - 'administer url aliases'
   - 'administer users'
   - 'administer webform submission'
@@ -107,7 +107,6 @@ permissions:
   - 'create paragraph content ptv_contact'
   - 'create paragraph content remote_video'
   - 'create paragraph content text'
-  - 'create remote entities'
   - 'create remote_video media'
   - 'create soundcloud media'
   - 'create terms in colors'
@@ -158,7 +157,6 @@ permissions:
   - 'delete paragraph content ptv_contact'
   - 'delete paragraph content remote_video'
   - 'delete paragraph content text'
-  - 'delete remote entities'
   - 'delete terms in colors'
   - 'delete terms in language'
   - 'delete terms in municipalitys'
@@ -181,7 +179,6 @@ permissions:
   - 'edit own page content'
   - 'edit own remote_video media'
   - 'edit own soundcloud media'
-  - 'edit remote entities'
   - 'edit terms in colors'
   - 'edit terms in language'
   - 'edit terms in municipalitys'
@@ -246,7 +243,6 @@ permissions:
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view page revisions'
-  - 'view remote entities'
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
